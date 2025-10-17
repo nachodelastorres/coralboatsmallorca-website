@@ -1,0 +1,19 @@
+.it-gallery-intro h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #004E89; /* Azul marino */
+}
+
+.it-gallery-intro p {
+  font-size: 16px;
+  color: #555;
+}
+
+.social-links a {
+  color: #ED6A46; /* Naranja coral */
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #00A8CC; /* Turquesa */
+}

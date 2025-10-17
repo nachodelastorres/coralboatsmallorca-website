@@ -1,0 +1,1437 @@
+{
+  "menu": {
+    "home": "Startseite",
+    "excursions": "Touren",
+    "morningTour": "Morgen Bootstour",
+    "sunsetTour": "Sonnenuntergang Tour",
+    "privateTour": "Private Charter",
+    "allTours": "Alle Touren",
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "getInTouch": "Kontaktieren Sie uns",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "bookYourTour": "Buchen Sie Ihre Tour"
+  },
+  "blog_uno": {
+    "title": "Die besten Bootsausflüge auf Mallorca für diesen Sommer",
+    "slug": "beste-bootstouren-mallorca",
+    "keyword": "Bootsausflüge Mallorca",
+    "meta_description": "Entdecke die beliebtesten Bootstouren, um das Mittelmeer während deines Urlaubs auf Mallorca in vollen Zügen zu genießen.",
+    "publishedDate": "26. März 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Abenteuer",
+    "section1": {
+      "title": "Planst du deinen Urlaub auf der Insel und suchst nach einem unvergesslichen Erlebnis?",
+      "body": "Bootsausflüge auf Mallorca sind zweifellos eine der besten Möglichkeiten, die Küste zu genießen, versteckte Buchten zu entdecken und sich unter der Mittelmeersonne auf dem offenen Meer zu entspannen. In diesem Artikel erfährst du, warum diese Aktivität ein Muss für deinen Sommer ist und welche Routen und Tipps wir empfehlen, damit du das Beste herausholen kannst."
+    },
+    "section2": {
+      "title": "Warum eine Bootstour auf Mallorca machen?",
+      "body": "Mallorca hat über 550 Kilometer Küste, und viele ihrer natürlichen Schätze sind nur vom Meer aus erreichbar. Eine Bootstour ermöglicht dir:\n\n- Versteckte, unberührte Buchten ohne Menschenmassen zu entdecken.\n- In kristallklarem Wasser zu schwimmen, das kaum von anderen Touristen besucht wird.\n- Dich mit dem Klang des Meeres und dem Blick auf das Tramuntana-Gebirge oder die Klippen im Norden zu entspannen.\n- Spektakuläre Sonnenuntergänge vom Wasser aus zu erleben.\n\nOft beinhalten die Ausflüge Badestopps, Schnorchelmöglichkeiten, Getränke an Bord und Guides, die spannende Infos über die Region teilen. Es ist ein Erlebnis, das Erholung, Abenteuer und Naturverbundenheit vereint."
+    },
+    "section3": {
+      "title": "Die besten Routen für Bootsausflüge",
+      "body": "Hier stellen wir dir drei besonders schöne Routen vor, um Mallorca vom Meer aus zu erkunden.",
+      "sub1": {
+        "subtitle": "Bucht von Alcudia und geheime Bucht",
+        "body": "Eine 3-stündige Tour, ideal für Familien, Paare oder Freundesgruppen. Du segelst durch die Bucht von Alcudia bis zu einer versteckten Bucht – perfekt zum Schwimmen und Abschalten. Das türkisfarbene Wasser, die Ruhe und die Natur lassen dich in eine andere Welt eintauchen."
+      },
+      "sub2": {
+        "subtitle": "Höhlen von Artà und Nordostküste",
+        "body": "Diese Route führt entlang der Nordostküste der Insel, vorbei an Stränden wie Cala Mesquida und Cala Torta. Einige Touren beinhalten auch Stopps in Meeresgrotten – ein ganz besonderes Erlebnis!"
+      },
+      "sub3": {
+        "subtitle": "Sonnenuntergangstouren",
+        "body": "Die Sunset-Touren starten am späten Nachmittag und bieten dir die Möglichkeit, den Sonnenuntergang am Horizont zu beobachten – begleitet von sanfter Musik und einem Getränk in der Hand. Ein magischer Moment auf Mallorca."
+      }
+    },
+    "section4": {
+      "title": "Was du mitnehmen solltest",
+      "body": "Damit du deinen Bootsausflug auf Mallorca in vollen Zügen genießen kannst, solltest du Folgendes mitnehmen:\n\n- Sonnencreme (auf dem Meer ist die Sonne besonders stark).\n- Bequeme Kleidung und Badebekleidung.\n- Handtuch, Sonnenbrille und Hut.\n- Kamera oder Smartphone mit genügend Akku für unvergessliche Fotos.\n- Eine leichte Jacke, falls du eine Sunset-Tour machst.\n\nIn der Hochsaison empfehlen wir dir, frühzeitig zu buchen, da die Plätze schnell vergeben sind."
+    },
+    "section5": {
+      "title": "Bereit, Ihre nächste Bootstour zu buchen?",
+      "body": "Bootsausflüge auf Mallorca sind viel mehr als nur ein einfacher Ausflug aufs Meer: Sie bieten dir die Möglichkeit, die Insel aus einer neuen Perspektive zu erleben, die Meeresbrise zu spüren, verborgene Orte zu entdecken und unvergessliche Erinnerungen zu schaffen. Ob alleine, als Paar, mit Freunden oder Familie – es gibt die perfekte Tour für dich.\nSteig diesen Sommer an Bord und lass dich vom Mittelmeer verzaubern!"
+    }
+  },
+  "experience": {
+    "title": "Erlebe Coral Boats hautnah",
+    "description": "Segle mit unserem klassischen Boot, entdecke versteckte Buchten und genieße das Mittelmeer wie nie zuvor."
+  },
+  "includes": {
+    "title": "Was ist in deinem Coral Boats Erlebnis enthalten?",
+    "subtitle": "Alles, was Sie an Bord genießen werden",
+    "items": [
+      {
+        "label": "3-stündige Bootsfahrt mit klassischem Schiff"
+      },
+      {
+        "label": "Halt in einer versteckten Bucht"
+      },
+      {
+        "label": "Freizeit zum Schwimmen und Schnorcheln"
+      },
+      {
+        "label": "Schnorchelausrüstung inklusive"
+      },
+      {
+        "label": "Paddle Surf"
+      },
+      {
+        "label": "Getränke und typische Speisen an Bord"
+      },
+      {
+        "label": "Entspannte Hintergrundmusik"
+      },
+      {
+        "label": "Lokaler Guide und professionelles Team"
+      }
+    ]
+  },
+  "blog_dos": {
+    "title": "Was man in Alcudia unternehmen kann: Highlights an der Nordküste Mallorcas",
+    "slug": "was-unternehmen-alcudia-nordkueste-mallorca",
+    "keyword": "was tun in Alcudia",
+    "meta_description": "Entdecke die besten Aktivitäten in Alcudia – von Bootsausflügen und historischen Orten bis hin zu Traumstränden und lokaler Kultur.",
+    "publishedDate": "5. April 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Lokaler Guide",
+    "section1": {
+      "title": "Alcudia, das Herzstück der Nordküste Mallorcas",
+      "body": "Alcudia ist eines der vielseitigsten Reiseziele der Insel: Geschichte, Strände, Gastronomie und Natur verschmelzen zu einem unvergesslichen Erlebnis. In diesem Guide erfährst du, was du sehen und unternehmen kannst, um deinen Aufenthalt voll auszukosten."
+    },
+    "section2": {
+      "title": "Die besten Aktivitäten in Alcudia",
+      "body": "Wenn du Alcudia besuchst, solltest du Folgendes nicht verpassen:\n\n- Ein Spaziergang durch die Altstadt mit Stadtmauer und lokalen Marktständen.\n- Entspannung am Strand von Alcudia – einer der längsten und familienfreundlichsten Strände Mallorcas.\n- Eine Bootstour durch die Bucht, um versteckte Buchten zu entdecken.\n- Ein Besuch im Naturpark s'Albufera – ideal zum Wandern und Vögel beobachten.\n- Ein mallorquinisches Essen auf einer Terrasse mit Meerblick genießen."
+    },
+    "section3": {
+      "title": "Drei besondere Erlebnisse in Alcudia",
+      "body": "Neben den Klassikern stellen wir dir drei besondere Pläne vor, um Alcudia auf authentische Weise zu entdecken.",
+      "sub1": {
+        "subtitle": "Bootstour mit Coral Boats",
+        "body": "Erkunde die Bucht von Alcudia an Bord eines klassischen Bootes. Fahre zu einer versteckten Bucht, schwimme im türkisblauen Wasser und genieße die mediterrane Brise. Ein ruhiges, einzigartiges Erlebnis auf dem Meer."
+      },
+      "sub2": {
+        "subtitle": "Radtour entlang der Küste nach Aucanada",
+        "body": "Miete ein Fahrrad und fahre vom Hafen entlang der Küste bis zum Leuchtturm von Aucanada. Eine entspannte Route mit fantastischen Ausblicken und Stopps zum Baden, Fotografieren oder Kaffeetrinken am Meer."
+      },
+      "sub3": {
+        "subtitle": "Sonnenuntergang auf der Stadtmauer",
+        "body": "Beende den Tag mit einem Spaziergang auf der mittelalterlichen Stadtmauer. Von hier aus kannst du beobachten, wie die Sonne hinter dem Tramuntana-Gebirge untergeht – ein magischer Moment mit fantastischem Ausblick."
+      }
+    },
+    "section4": {
+      "title": "Praktische Tipps für deinen Besuch",
+      "body": "Vor deiner Reise solltest du Folgendes beachten:\n\n- Informiere dich über die Markttage in der Altstadt.\n- Buche deine Ausflüge in der Hochsaison im Voraus.\n- Trage bequeme Schuhe für die Altstadt oder Naturwege.\n- Nimm Sonnencreme mit – vor allem für Outdoor-Aktivitäten.\n- Alcudia ist eines der kinderfreundlichsten Reiseziele Mallorcas."
+    },
+    "section5": {
+      "title": "Alcudia heißt alle willkommen",
+      "body": "Egal ob du Entspannung oder Abenteuer suchst, Geschichte oder Meer – Alcudia bietet für jeden etwas. Ein vielseitiges Reiseziel, das leicht erreichbar ist und mit seiner Vielfalt überzeugt.\nBereit zum Entdecken? Plane deine Auszeit und erlebe das authentischste Mallorca an der Nordküste."
+    }
+  },
+  "blog_tres": {
+    "title": "Bootsausflüge auf Mallorca: Der komplette Guide zur besten Wahl",
+    "slug": "bootsausfluege-mallorca-guide-beste-option",
+    "keyword": "Bootsausflüge Mallorca",
+    "meta_description": "Speedboot, Katamaran oder klassisches Boot? Finde heraus, welche Art von Bootsausflug am besten zu deinem Reisestil auf Mallorca passt.",
+    "publishedDate": "10. April 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Vergleich",
+    "section1": {
+      "title": "Mallorca vom Meer aus entdecken",
+      "body": "Mallorca ist vom Land aus wunderschön – doch vom Meer aus zeigt die Insel ihre wahre Magie. Versteckte Buchten, türkisfarbenes Wasser und beeindruckende Küstenlinien warten darauf, entdeckt zu werden. Aber welcher Bootstyp ist der richtige? Hier findest du die Antwort."
+    },
+    "section2": {
+      "title": "Bevor du buchst: Welcher Reisestil passt zu dir?",
+      "body": "Jeder Bootstyp bietet ein anderes Erlebnis:\n\n- Du liebst Tempo und Adrenalin? Dann passt ein Speedboot.\n- Du willst Platz, Musik und Entspannung? Probier einen Katamaran.\n- Du schätzt Authentizität, Ruhe und Details? Dann wirst du ein klassisches Boot lieben.\n\nDie richtige Wahl macht den Unterschied zwischen einem netten Ausflug und einem unvergesslichen Erlebnis."
+    },
+    "section3": {
+      "title": "Vergleich: Speedboot, Katamaran oder klassisches Boot",
+      "body": "Hier findest du die wichtigsten Merkmale jedes Typs, um dir die Entscheidung zu erleichtern.",
+      "sub1": {
+        "subtitle": "Speedboote",
+        "body": "Ideal für Abenteurer. Du erreichst abgelegene Orte schnell, die Fahrt ist kurz, aber intensiv. Weniger Platz, mehr Action. Nicht empfohlen für kleine Kinder oder Ruhesuchende."
+      },
+      "sub2": {
+        "subtitle": "Katamarane",
+        "body": "Geräumig, mit Liegeflächen und Musik. Oft inklusive Essen und Getränken. Beliebt bei Gruppen und perfekt für Feiern. Weniger intim, aber ideal zum Entspannen mit Gesellschaft."
+      },
+      "sub3": {
+        "subtitle": "Klassische Boote",
+        "body": "Die authentischste und ruhigste Option. Für alle, die das Meer in seinem Rhythmus erleben wollen. Persönlich, charmant und ideal für Familien, Paare oder alle, die Tradition und Gelassenheit schätzen."
+      }
+    },
+    "section4": {
+      "title": "Was du vor der Buchung beachten solltest",
+      "body": "Unsere Tipps:\n\n- Prüfe Dauer und Stopps der Tour.\n- Lies Bewertungen und schau dir echte Bilder an.\n- Kläre, ob Snacks, Getränke oder Schnorchelausrüstung inbegriffen sind.\n- Informiere dich über die maximale Teilnehmerzahl.\n- Überlege, ob du eher Ruhe oder Partystimmung suchst."
+    },
+    "section5": {
+      "title": "Für jeden Reisetyp das passende Boot",
+      "body": "Es gibt kein „richtig“ oder „falsch“ – nur die Wahl, die zu dir passt. Wichtig ist, dass du eine Tour wählst, die deinem Stil entspricht. Wenn du Authentizität, Entspannung und mediterranen Charme suchst, bist du bei Coral Boats genau richtig.\nKomm an Bord eines Bootes mit Geschichte – und lass dich vom Meer verzaubern."
+    }
+  },
+  "blog_cuatro": {
+    "title": "Private oder gemeinsame Bootstour: Welche Option passt besser zu dir?",
+    "slug": "private-oder-gemeinsame-bootstour",
+    "keyword": "private gemeinsame Bootstour Mallorca",
+    "meta_description": "Du weißt nicht, ob du eine private oder gemeinsame Bootstour buchen sollst? Wir erklären dir die Unterschiede und helfen dir bei der Entscheidung.",
+    "publishedDate": "15. April 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Reisetipps",
+    "section1": {
+      "title": "Zwei Wege, das Meer zu erleben",
+      "body": "Wenn du eine Bootstour auf Mallorca planst, musst du dich entscheiden: privat oder gemeinsam? Beide Optionen bieten Vorteile – es kommt darauf an, welches Erlebnis du dir wünschst."
+    },
+    "section2": {
+      "title": "Wichtigste Unterschiede zwischen privaten und gemeinsamen Touren",
+      "body": "Private Touren sind perfekt für Familien oder Freunde. Du bestimmst die Zeiten, die Route – das Boot gehört ganz dir.\n\nGemeinsame Touren bringen verschiedene Reisende zusammen. Sie sind günstiger, ideal für Alleinreisende oder Paare und bieten die Möglichkeit, neue Leute kennenzulernen."
+    },
+    "section3": {
+      "title": "Vorteile beider Optionen",
+      "body": "",
+      "sub1": {
+        "subtitle": "Private Tour",
+        "body": "Mehr Privatsphäre, volle Flexibilität und persönliche Betreuung. Ideal für besondere Anlässe, Familien mit Kindern oder alle, die das Besondere suchen."
+      },
+      "sub2": {
+        "subtitle": "Gemeinsame Tour",
+        "body": "Günstiger, sozialer Charakter und Möglichkeit, andere Reisende kennenzulernen. Perfekt für Paare, Alleinreisende oder kleine Gruppen."
+      },
+      "sub3": {
+        "subtitle": "",
+        "body": ""
+      }
+    },
+    "section4": {
+      "title": "",
+      "body": ""
+    },
+    "section5": {
+      "title": "Unsere Empfehlung",
+      "body": "Bei Coral Boats bieten wir beides an. Wenn du eine entspannte, authentische Tour mit kleiner Gruppe suchst, wirst du unsere gemeinsamen Ausflüge lieben. Wenn du mehr Privatsphäre möchtest, frag uns nach privaten Optionen. In jedem Fall wartet das Mittelmeer auf dich."
+    }
+  },
+  "blog_cinco": {
+    "title": "Was man für eine Bootstour auf Mallorca mitnehmen sollte: Die ultimative Checkliste",
+    "slug": "was-man-fur-eine-bootstour-auf-mallorca-mitnehmen-sollte",
+    "keyword": "was man für eine Bootstour mitnehmen sollte",
+    "meta_description": "Entdecke alles, was du brauchst, um deine Bootstour auf Mallorca in vollen Zügen zu genießen. Ein unverzichtbarer Leitfaden für dein Erlebnis auf See.",
+    "publishedDate": "16. April 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Praktische Tipps",
+    "section1": {
+      "title": "Bereite dich auf dein maritimes Abenteuer auf Mallorca vor",
+      "body": "Mallorca mit seiner beeindruckenden Küste und kristallklarem Wasser ist der perfekte Ort, um eine Bootstour zu genießen. Aber was sollte man mitnehmen, um sicherzustellen, dass das Erlebnis bequem und reibungslos ist? In diesem ultimativen Leitfaden erfährst du alles, was du wissen musst."
+    },
+    "section2": {
+      "title": "Wichtige Dinge für deine Bootstour",
+      "body": "Stelle sicher, dass du Folgendes mitnimmst:\n\n- Sonnencreme: Die Mittelmeersonne kann intensiv sein, also schütze deine Haut.\n- Handtuch: Ideal, um sich nach einem Sprung ins Wasser abzutrocknen.\n- Badeanzug: Ein Muss, um die Buchten und das kristallklare Wasser zu genießen.\n- Wasser und Snacks: Bleibe während der Tour hydratisiert und energiegeladen.\n- Sonnenbrille: Schütze deine Augen, während du die Landschaft genießt.\n- Kamera: Du möchtest keinen einzigartigen Moment verpassen."
+    },
+    "section3": {
+      "title": "Zubehör, das dein Erlebnis verbessert",
+      "body": "Zusätzlich zu den Basics solltest du Folgendes in Betracht ziehen:",
+      "sub1": {
+        "subtitle": "Bequeme und rutschfeste Schuhe",
+        "body": "Entscheide dich für Schuhe, die dir Sicherheit auf dem Boot bieten und dich bei jeder Pause bequem fühlen lassen."
+      },
+      "sub2": {
+        "subtitle": "Wasserdichte Tasche",
+        "body": "Schütze deine persönlichen Gegenstände, wie Handy oder Kamera, vor Wasserspritzern."
+      },
+      "sub3": {
+        "subtitle": "Leichte Kleidung und eine Jacke",
+        "body": "Das Wetter kann tagsüber warm sein, aber bei Sonnenuntergang kühler werden. Nimm zur Sicherheit eine leichte Jacke mit."
+      }
+    },
+    "section4": {
+      "title": "Tipps, um deinen Tag auf dem Meer optimal zu nutzen",
+      "body": "Einige wichtige Tipps:\n\n- Vergiss nicht, die Details deiner Buchung vor der Abfahrt zu bestätigen.\n- Frage die Crew, ob du dein Erlebnis individuell gestalten kannst, zum Beispiel durch die Auswahl spezifischer Stopps.\n- Wenn du anfällig für Seekrankheit bist, solltest du Medikamente mitbringen, um Beschwerden zu vermeiden.\n- Sei pünktlich, um die Zeit deiner Tour optimal zu nutzen.\n- Bewahre eine entspannte Einstellung und genieße die Schönheit und Ruhe des Meeres."
+    },
+    "section5": {
+      "title": "Mallorca erwartet dich für ein unvergessliches Erlebnis",
+      "body": "Eine Bootstour auf Mallorca ist eine einzigartige Gelegenheit, abzuschalten und in die Schönheit des Mittelmeers einzutauchen. Mit dieser ultimativen Checkliste bist du bereit für ein unvergessliches Erlebnis. Packe deine wichtigsten Dinge und setze die Segel für dein Abenteuer!"
+    }
+  },
+  "blog_seis": {
+    "title": "Sonnenuntergang in Alcudia: Warum es vom Meer aus unvergesslich ist",
+    "slug": "sonnenuntergang-alcudia-meer-unvergesslich",
+    "keyword": "Sonnenuntergang Alcudia",
+    "meta_description": "Erfahre, warum es magisch ist, den Sonnenuntergang vom Meer in Alcudia zu erleben. Genieße einzigartige Farben und eine unvergessliche Atmosphäre.",
+    "publishedDate": "17. April 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Einzigartige Momente",
+    "section1": {
+      "title": "Die Magie eines Sonnenuntergangs in Alcudia",
+      "body": "Alcudia, im Herzen der Nordküste Mallorcas, bietet atemberaubende Sonnenuntergänge. Erfahre, warum diese Erfahrung vom Meer aus noch spezieller ist."
+    },
+    "section2": {
+      "title": "Warum den Sonnenuntergang vom Meer aus genießen?",
+      "body": "Vom Meer aus ändert sich die Perspektive komplett:\n\n- Intensivere Farben, die sich im kristallklaren Wasser spiegeln.\n- Ein Gefühl von Ruhe und Abgeschiedenheit, fernab der Menschenmengen.\n- Einzigartige Panoramablicke auf die Bucht von Alcudia und die Tramuntana-Berge."
+    },
+    "section3": {
+      "title": "Was die Erfahrung an Bord beinhaltet",
+      "body": "Ein Sonnenuntergang vom Meer aus umfasst:",
+      "sub1": {
+        "subtitle": "Entspanntes und ruhiges Segeln",
+        "body": "Genieße das sanfte Schaukeln des Bootes, während die Sonne untergeht."
+      },
+      "sub2": {
+        "subtitle": "Unvergessliche Fotomomente",
+        "body": "Halte die Schönheit der orangefarbenen und goldenen Töne am Horizont fest."
+      },
+      "sub3": {
+        "subtitle": "Ein Toast auf den Sonnenuntergang",
+        "body": "Feiere den Moment mit einem frischen Getränk, während der Tag in die Nacht übergeht."
+      }
+    },
+    "section4": {
+      "title": "Tipps, um den Sonnenuntergang in vollen Zügen zu genießen",
+      "body": "Befolge diese Empfehlungen für ein unvergessliches Erlebnis:\n\n- Nimm eine leichte Jacke für die Abendbrise mit.\n- Vergiss nicht, deine Kamera oder dein Handy mit vollem Akku mitzunehmen.\n- Entspanne dich und genieße den Moment, fernab aller Sorgen."
+    },
+    "section5": {
+      "title": "Erlebe den Sonnenuntergang vom Meer aus",
+      "body": "Tauche ein in ein unvergessliches Erlebnis, das natürliche Schönheit, Ruhe und Emotionen vereint. Alcudia erwartet dich mit einer der besten Shows, die die Natur zu bieten hat."
+    }
+  },
+  "blog_siete": {
+    "title": "Bootstouren für Familien: Spaß für Kinder auf Mallorca",
+    "slug": "bootstouren-familien-kinder-mallorca",
+    "keyword": "Familienaktivitäten auf Mallorca",
+    "meta_description": "Entdecke die besten Bootserlebnisse für Familien auf Mallorca. Spaß, Sicherheit und unvergessliche Erlebnisse für die Kleinen.",
+    "publishedDate": "18. April 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Für die ganze Familie",
+    "section1": {
+      "title": "Die Bucht von Alcudia: Ein Paradies für Familien",
+      "body": "Mallorca ist ein ideales Reiseziel für Familien, und die Bucht von Alcudia vereint Natur, Ruhe und Abenteuer – perfekt, um es mit Kindern zu genießen. Hier erfährst du, warum eine Bootstour die beste Aktivität für alle ist."
+    },
+    "section2": {
+      "title": "Warum Kinder Bootstouren lieben",
+      "body": "Bootstouren sind magische Erlebnisse für die Kleinen:\n\n- Sie erkunden das Meer wie kleine Abenteurer.\n- Entdecken versteckte Buchten und haben Spaß beim Schwimmen in kristallklarem Wasser.\n- Beobachten Fische und andere Meereslebewesen von der Oberfläche.\n- Erleben den Nervenkitzel, an Bord eines klassischen und authentischen Bootes zu sein."
+    },
+    "section3": {
+      "title": "Warum unsere Touren ideal für Kinder sind",
+      "body": "Alles ist auf den Komfort und die Freude der Kleinen abgestimmt:",
+      "sub1": {
+        "subtitle": "Sicherheit an Bord",
+        "body": "Wir bieten Schwimmwesten für alle Altersgruppen und eine sichere Umgebung."
+      },
+      "sub2": {
+        "subtitle": "Stopps in ruhigen Buchten",
+        "body": "Buchten mit seichtem Wasser, perfekt, damit Kinder sicher schwimmen und spielen können."
+      },
+      "sub3": {
+        "subtitle": "Interaktive Aktivitäten",
+        "body": "Aktivitäten wie das Sammeln von Muscheln oder das Kennenlernen der lokalen Meereswelt machen das Erlebnis lehrreich und unterhaltsam."
+      }
+    },
+    "section4": {
+      "title": "Tipps für Familien mit Kindern auf einer Bootstour",
+      "body": "Um das Beste aus deinem Ausflug zu machen, empfehlen wir:\n\n- Sonnencreme und Hüte mitzubringen, um die Kinder vor der Sonne zu schützen.\n- Leichte Snacks und Wasser einzupacken, um sie hydratisiert und glücklich zu halten.\n- Wasserspielzeug oder Schwimmflossen mitzunehmen, um zusätzlichen Spaß bei den Stopps zu bieten."
+    },
+    "section5": {
+      "title": "Ein Familienerlebnis zum Erinnern",
+      "body": "Ein Tag auf dem Meer mit deiner Familie schafft unvergessliche Erinnerungen. Alcudia erwartet dich mit Aktivitäten, die darauf abgestimmt sind, Kindern und Erwachsenen die Magie des Mittelmeers gemeinsam näherzubringen."
+    }
+  },
+  "blog_ocho": {
+    "title": "Fünf versteckte Orte, die du nur vom Meer aus entdecken kannst",
+    "slug": "funf-versteckte-orte-meer-alcudia",
+    "keyword": "Bootstouren Alcudia",
+    "meta_description": "Entdecke fünf versteckte Juwelen in der Bucht von Alcudia, die du nur auf einer Bootstour erleben kannst. Einzigartige Erlebnisse und unvergessliche Landschaften.",
+    "publishedDate": "19. April 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Erkunde das Unbekannte",
+    "section1": {
+      "title": "Die Bucht von Alcudia: Geheimnisse zum Greifen nah",
+      "body": "Die Bucht von Alcudia bietet nicht nur paradiesische Strände, sondern auch versteckte Orte, die nur vom Meer aus zugänglich sind. Diese exklusiven Spots machen eine Bootstour zu einem unvergesslichen Abenteuer."
+    },
+    "section2": {
+      "title": "Fünf einzigartige Orte, die dich überraschen werden",
+      "body": "Entdecke diese fünf Geheimnisse, die die Bucht von Alcudia so besonders machen:\n\n- Cala de las Águilas: Eine unberührte Bucht mit kristallklarem Wasser und spektakulärer Landschaft.\n- Die versteckten Höhlen von Cap des Pinar: Nur mit dem Boot erreichbar, perfekt für Abenteurer.\n- S’Illot: Eine kleine Insel, ideal zum Schwimmen oder Schnorcheln.\n- Es Caló: Ein ruhiger Ort umgeben von unberührter Natur.\n- Die geheime Bucht von Coll Baix: Ein isolierter Strand mit beeindruckenden Klippen."
+    },
+    "section3": {
+      "title": "Was macht dieses Erlebnis so besonders?",
+      "body": "Diese Spots zu entdecken, bietet einzigartige Vorteile:",
+      "sub1": {
+        "subtitle": "Eine einzigartige Perspektive",
+        "body": "Vom Meer aus werden die Landschaften auf ganz besondere Weise lebendig."
+      },
+      "sub2": {
+        "subtitle": "Exklusiver Zugang",
+        "body": "Diese Orte sind über Land nicht erreichbar und bieten Ruhe und Privatsphäre."
+      },
+      "sub3": {
+        "subtitle": "Direkter Kontakt mit der Natur",
+        "body": "Von versteckten Buchten bis zu kristallklarem Wasser – die Verbindung zur Natur ist unvergleichlich."
+      }
+    },
+    "section4": {
+      "title": "Tipps, um deine Bootstour voll auszukosten",
+      "body": "Damit du das Beste aus diesem einzigartigen Erlebnis herausholst:\n\n- Bringe Schnorchelausrüstung mit, das Wasser ist perfekt dafür.\n- Trage bequeme Schuhe und nimm einen leichten Rucksack für Bewegungsfreiheit mit.\n- Respektiere die natürliche Umgebung, um diese magischen Orte zu bewahren."
+    },
+    "section5": {
+      "title": "Auf ins Unbekannte",
+      "body": "Entdecke die am besten gehüteten Geheimnisse der Bucht von Alcudia. Eine Bootstour ist nicht nur eine Reise, sondern ein Fenster zu einer Welt, die nur wenige erkunden konnten. \nBereit, in See zu stechen?"
+    }
+  },
+  "blog_nueve": {
+    "title": "Der Zauber der Bucht von Alcudia: Der beste Ort für eine Bootstour",
+    "slug": "zauber-bucht-alcudia-bootstour",
+    "keyword": "Bootstouren Bucht von Alcudia",
+    "meta_description": "Erfahren Sie, warum die Bucht von Alcudia das perfekte Ziel für eine Bootstour ist. Natur, Exklusivität und bester Service mit Coral Boats.",
+    "publishedDate": "20. April 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Segeln und entdecken",
+    "section1": {
+      "title": "Ein maritimes Paradies auf Mallorca",
+      "body": "Die Bucht von Alcudia ist eines der bemerkenswertesten Schätze Mallorcas. Mit ihrem kristallklaren Wasser, atemberaubenden Landschaften und reicher Meeresbiodiversität ist sie die perfekte Kulisse für jeden Meeresliebhaber. Aber es ist nicht nur die Schönheit, die sie besonders macht: Es ist die Erfahrung, die sie bietet."
+    },
+    "section2": {
+      "title": "Fünf Gründe, warum die Bucht von Alcudia herausragt",
+      "body": "Eine Tour in der Bucht von Alcudia zu wählen bedeutet, eine einzigartige Erfahrung zu machen. Hier sind fünf Gründe, warum dieses Ziel unschlagbar ist:\n\n1. **Ruhiges und klares Wasser**: Perfekt, um sich zu entspannen oder Wassersportarten wie Schnorcheln zu betreiben.\n2. **Verborgene Buchten und unberührte Strände**: Nur mit dem Boot erreichbar, bieten sie Exklusivität.\n3. **Reiche Meeresvielfalt**: Die Bucht beherbergt eine Vielzahl an Meereslebewesen, die Sie von der Oberfläche aus beobachten können.\n4. **Ikonische Landschaften**: Mit einzigartigen Ausblicken auf das Tramuntana-Gebirge und beeindruckende Klippen.\n5. **Kulturelles Erbe**: Historische Sehenswürdigkeiten, die vom Meer aus sichtbar sind, wie der Leuchtturm von Aucanada."
+    },
+    "section3": {
+      "title": "Coral Boats: Ihr Partner für Abenteuer",
+      "body": "Coral Boats ist die beste Wahl, um die Bucht von Alcudia zu erkunden. Mit einem klassischen Boot und außergewöhnlichem Service bieten sie ein authentisches und personalisiertes Erlebnis. Egal, ob Sie einen romantischen Ausflug, ein Familienabenteuer oder einen Moment der Ruhe in der Natur suchen, Coral Boats sorgt dafür, dass jedes Detail perfekt ist.",
+      "sub1": {
+        "subtitle": "Komfort und Stil",
+        "body": "An Bord eines klassischen Bootes genießen Sie Komfort und Authentizität, während Sie die Bucht erkunden."
+      },
+      "sub2": {
+        "subtitle": "Individuelles Erlebnis",
+        "body": "Die Crew passt jede Tour an Ihre Bedürfnisse an und sorgt dafür, dass sie unvergesslich wird."
+      },
+      "sub3": {
+        "subtitle": "Nähe zur Natur",
+        "body": "Coral Boats bringt Sie zu einzigartigen, geschützten Orten, an denen Ihre Verbindung zur Natur unvergleichlich ist."
+      }
+    },
+    "section4": {
+      "title": "Tipps zur Planung Ihrer Bootstour",
+      "body": "Nutzen Sie Ihre Erfahrung in der Bucht von Alcudia optimal, indem Sie diese Tipps beachten:\n\n- Buchen Sie im Voraus, besonders in der Hochsaison, um Ihren Platz zu sichern.\n- Bringen Sie Schnorchelausrüstung mit und genießen Sie das reichhaltige Meeresleben.\n- Verwenden Sie Sonnencreme und nehmen Sie eine leichte Jacke für wechselnde Temperaturen mit.\n- Wenn Sie mit Kindern reisen, packen Sie Snacks und Getränke ein, um sie komfortabel zu halten."
+    },
+    "section5": {
+      "title": "Ein unvergessliches Ziel für Segelabenteuer",
+      "body": "Die Bucht von Alcudia bietet alles, was Sie für eine perfekte Bootstour brauchen: Landschaften, Exklusivität und eine intime Verbindung zur Natur. Mit Coral Boats wird dieses Erlebnis auf ein neues Level gehoben und garantiert unvergessliche Erinnerungen.\nEntdecken Sie die Bucht von Alcudia wie nie zuvor und begeben Sie sich auf ein Abenteuer, das Sie für immer in Erinnerung behalten werden."
+    }
+  },
+  "cookie": {
+    "banner": {
+      "text": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Sie können sie akzeptieren oder ablehnen.",
+      "accept": "Cookies akzeptieren",
+      "reject": "Ablehnen",
+      "link_text": "Cookie-Richtlinie ansehen"
+    }
+  },
+  "footer": {
+    "home": "Startseite",
+    "cookies": "Cookie-Richtlinie",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "contact": "Kontakt"
+  },
+  "intro_banner": {
+    "title": "EINFACHE BUCHUNG!",
+    "description": "Mallorca erwartet Sie",
+    "step1_title": "1. Wähle deine Tour",
+    "step1_subtext": "Morgens, mittags oder bei Sonnenuntergang – du entscheidest, wann du segelst!",
+    "step2_title": "2. Wähle das Datum",
+    "step2_subtext": "Echtzeit-Kalender, garantierte Verfügbarkeit.",
+    "step3_title": "3. Bezahlen und Tickets erhalten",
+    "step3_subtext": "Sichere Online-Zahlung oder kontaktiere uns für Barzahlung (wir antworten per WhatsApp, E-Mail oder Telefon). Sofortige Bestätigung!"
+  },
+  "limited_seats": "Begrenzte Plätze verfügbar",
+  "popup": {
+    "title": "25% RABATT",
+    "subtitle": "Abonniere unseren Newsletter und erhalte 25% Rabatt auf deine erste Bootstour.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "Rabattcode freischalten",
+    "successMessage": "Vielen Dank für Ihre Anmeldung!",
+    "codeMessage": "Nutzen Sie den folgenden Code beim Buchen und erhalten Sie 25% Rabatt:"
+  },
+  "blog_comida": {
+    "title": "Mediterrane Genüsse an Bord: Mallorquinische Küche bei unseren Bootstouren",
+    "slug": "mediterrane-genuesse-bootstouren",
+    "keyword": "Bootstouren Mallorca mallorquinisches Essen Mittelmeerküche authentische Erlebnisse",
+    "meta_description": "Genießen Sie mallorquinische Spezialitäten an Bord: Lokale Produkte, traditionelle Rezepte und mediterraner Geschmack bei unseren Bootsausflügen.",
+    "publishedDate": "11. Mai 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Gastronomie",
+    "content": "Mallorca und das Meer sind untrennbar verbunden – auch kulinarisch. Unsere Bootsausflüge verbinden Naturerlebnis mit authentischem Genuss.\n\n- Es gibt pa amb oli: Brot mit Tomate, Olivenöl, Schinken oder gereiftem Käse.\n- Typisch mallorquinisch: Sobrasada, dazu eingelegte Oliven und geröstete Mandeln.\n- Zum Abschluss eine süße Ensaimada – ein Klassiker der Insel.\n- Dazu servieren wir lokale Weine, Craft-Bier oder frisches Wasser.\n\nFrüher nahmen Fischer einfache, haltbare Speisen mit auf See – wir knüpfen an diese Tradition an, modern interpretiert.\n\nBootstouren auf Mallorca werden so zu einem kulinarischen Erlebnis. Jeder Bissen erzählt von der Insel, ihrer Geschichte und dem Mittelmeer.\n\nBereit für eine köstliche Reise auf dem Meer?"
+  },
+  "socialTitle": "Folge Coral Boats in den sozialen Medien",
+  "socialDescription": "Entdecke weitere Eindrücke unserer Bootstouren in der Bucht von Alcudia auf Instagram und TikTok.",
+  "blog_once": {
+    "title": "Geheimnisse der Balearen-Küste: Warum die Bucht von Alcudia so bezaubernd ist",
+    "slug": "geheimnisse-balearen-kueste-bucht-alcudia",
+    "keyword": "Balearen Küste, Bucht von Alcudia, kristallklares Wasser Mallorca",
+    "meta_description": "Entdecke die faszinierenden Geheimnisse der balearischen Küste und erfahre, warum die Bucht von Alcudia zu den schönsten und klarsten Orten Mallorcas gehört.",
+    "publishedDate": "11. Juni 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Natur",
+    "section1": {
+      "title": "Wusstest du, dass die Küste der Balearen einzigartige geologische und natürliche Wunder birgt?",
+      "body": "Die Balearen bieten mit über 1.400 km Küstenlinie eine Vielzahl an Kontrasten, Geschichten und verborgenen Orten. Von weißen Sandstränden bis hin zu steilen Klippen – die Küste ist nicht nur landschaftlich reizvoll, sondern auch geologisch, ökologisch und kulturell faszinierend. In diesem Artikel stellen wir dir einige ihrer Besonderheiten vor und richten den Fokus auf ein ganz besonderes Highlight: die Bucht von Alcudia mit ihrem kristallklaren Wasser."
+    },
+    "section2": {
+      "title": "Eine Küste, geformt über Millionen Jahre",
+      "body": "Die Landschaft der balearischen Küsten wurde über Millionen Jahre hinweg durch geologische Prozesse, Erosion, Wind, Wellen und Regen geformt. Dabei entstanden Höhlen, Buchten und beeindruckende Steilküsten.\n\nDie Küsten bestehen größtenteils aus Kalkstein, der zur Bildung von Höhlen beiträgt und Regenwasser filtert – ein wichtiger Faktor für die außergewöhnliche Klarheit des Meerwassers. Kein Wunder also, dass einige der klarsten Gewässer im Mittelmeer hier zu finden sind."
+    },
+    "section3": {
+      "title": "Die Bucht von Alcudia: Ein Schatz im Nordosten Mallorcas",
+      "body": "Unter all den Wundern der balearischen Küste ragt die Bucht von Alcudia durch ihre natürliche Schönheit und Ruhe hervor. Mit ihrem klaren Wasser, der Weitläufigkeit und der gut erhaltenen Umgebung ist sie ein Paradies für Einheimische und Besucher gleichermaßen.",
+      "sub1": {
+        "subtitle": "Türkises Wasser dank sandigem Meeresboden",
+        "body": "Der helle Sandboden der Bucht sorgt für das typisch türkise Farbspiel und die Transparenz des Wassers. Wenig Unterwasserpflanzen in flachen Bereichen lassen Sonnenlicht leicht reflektieren – ein optisches Schauspiel. Zudem gibt es keine Flüsse in unmittelbarer Nähe, die das Wasser trüben könnten."
+      },
+      "sub2": {
+        "subtitle": "Sanfte Meeresströmungen halten das Wasser sauber",
+        "body": "Im Gegensatz zu geschlossenen Buchten ist die Bucht von Alcudia zum Nordosten hin offen. Sanfte Meeresströmungen erneuern ständig das Wasser. Diese fast unsichtbaren Mikroströmungen sorgen für natürliche Sauberkeit – Baden fühlt sich an wie in einem natürlichen Pool."
+      },
+      "sub3": {
+        "subtitle": "Ein geschütztes, naturbelassenes Umfeld",
+        "body": "Besonders im Bereich von Albufera und Son Serra de Marina ist das Umland weitgehend geschützt oder kaum bebaut. Das senkt den menschlichen Einfluss und schützt vor Lärm und Verschmutzung. Umweltbewusste Schifffahrt und Tourismus tragen ihren Teil zur Erhaltung dieses einzigartigen Lebensraums bei."
+      }
+    },
+    "section4": {
+      "title": "Nachhaltige Möglichkeiten, die Küste zu entdecken",
+      "body": "Die beste Art, die Bucht von Alcudia zu erleben, ist vom Meer aus. Bootsausflüge, Paddleboarding, Kajakfahren oder Schnorcheln ermöglichen Zugang zu abgelegenen Orten – ohne das Ökosystem zu stören. Nachhaltige Tipps:\n\n- Wähle lokale Anbieter mit Umweltbewusstsein.\n- Hinterlasse keinen Müll und berühre keine Tiere.\n- Verwende umweltfreundliche Sonnencreme.\n- Achte auf geschützte Zonen und Bojen.\n\nMit kleinen Gesten schützen wir dieses Naturerbe für kommende Generationen."
+    },
+    "section5": {
+      "title": "Ein Ort, der Natur, Wissen und Schönheit vereint",
+      "body": "Die Küste der Balearen bietet mehr als nur Postkartenstrände. Sie ist ein komplexes Ökosystem mit geologischer Vielfalt und einzigartiger Natur. Die Bucht von Alcudia verkörpert diese Balance aus Erhalt und Erlebnis. Wer hier badet, spaziert oder einfach den Ausblick genießt, nimmt mehr mit als nur schöne Erinnerungen. Es ist ein lebendiges Naturwunder, das Wertschätzung verdient. Die Klarheit des Wassers ist kein Zufall – sie ist das Ergebnis bewussten Handelns und Respekts.\nKomm und erlebe selbst, wie dich der Zauber ihrer Gewässer verführt!"
+    }
+  },
+  "blog_doce": {
+    "title": "Alcanada entdecken: Strand, Leuchtturm und Insel bei Alcudia",
+    "slug": "alcanada-entdecken-strand-leuchtturm-insel-alcudia",
+    "keyword": "Strand Alcanada, Leuchtturm Alcanada, Insel Alcanada, Ausflüge Alcudia",
+    "meta_description": "Entdecke den Strand von Alcanada, den ikonischen Leuchtturm und die vorgelagerte Insel. Ein Naturjuwel nur wenige Minuten von Alcudia entfernt – perfekt zum Entspannen am Mittelmeer.",
+    "publishedDate": "11. Juni 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Geheimtipp",
+    "section1": {
+      "title": "Ein verstecktes Juwel an Mallorcas Nordküste",
+      "body": "Nur wenige Kilometer vom belebten Hafen von Alcudia entfernt liegt Alcanada – einer der am besten gehüteten Geheimtipps der Insel. Bekannt für seinen Naturstrand mit Kieseln, die unberührte Umgebung und den Blick auf die vorgelagerte Insel mit Leuchtturm, ist dieser Ort ideal für alle, die Ruhe und Authentizität suchen. Hier erlebst du den Mittelmeerraum in seiner ursprünglichsten Form."
+    },
+    "section2": {
+      "title": "Ein besonderer Strand zum Abschalten",
+      "body": "Der Strand von Alcanada unterscheidet sich deutlich von vielen anderen auf Mallorca. Statt Sand gibt es hier Kieselsteine, statt Bars und Liegen nur Natur, klares Wasser und Meeresrauschen. Die flachen, transparenten Gewässer laden zum Schwimmen, Schnorcheln oder Entspannen ein. Viele Einheimische kommen hierher, um dem Trubel zu entfliehen – und genau das macht den besonderen Charme dieses Ortes aus."
+    },
+    "section3": {
+      "title": "Die Insel und der Leuchtturm: Geschichte, Ausblick und mediterrane Postkartenidylle",
+      "body": "Direkt vor dem Strand, nur etwa 150 Meter entfernt, liegt die Insel Alcanada mit ihrem berühmten Leuchtturm. Sie ist zu Fuß durch Schwimmen oder mit dem Kajak erreichbar. Ein ruhiger Ort mit traumhaftem Blick auf die Bucht. Der 1861 erbaute Leuchtturm ist bis heute aktiv und ein Wahrzeichen der Region.",
+      "sub1": {
+        "subtitle": "Ein perfektes Ziel für kleine Abenteuer",
+        "body": "Viele schwimmen zur Insel und zurück, andere nutzen SUPs oder Kajaks. Auf der Insel kannst du zwischen Felsen und Pinien spazieren und dabei das Panorama der Nordküste Mallorcas genießen."
+      },
+      "sub2": {
+        "subtitle": "Ein Leuchtturm mit Geschichte",
+        "body": "Der Leuchtturm von Alcanada war einer der ersten auf Mallorca. Auch wenn man ihn nicht betreten kann, ist er mit seiner weißen Silhouette ein beliebtes Motiv für Fotografen und Meeresliebhaber. Er hat viele Stürme, Sonnenaufgänge und Seeleute kommen und gehen sehen."
+      },
+      "sub3": {
+        "subtitle": "Ein geschütztes Naturgebiet",
+        "body": "Die Umgebung von Alcanada steht unter Naturschutz (ANEI) und ist wenig bebaut. Kleine Fische, Seegras und Meeresvögel sind hier zu Hause. Ideal für nachhaltigen Tourismus, der Rücksicht auf Natur und Umwelt nimmt."
+      }
+    },
+    "section4": {
+      "title": "Anfahrt und Tipps",
+      "body": "Alcanada liegt etwa fünf Minuten mit dem Auto von Alcudia entfernt. Auch zu Fuß über einen Küstenpfad erreichbar. Es gibt nur wenige Parkmöglichkeiten, daher empfiehlt es sich, früh zu kommen. Am Strand gibt es keine Duschen oder Bars, also bring Wasser, etwas zu essen, festes Schuhwerk und Sonnenschutz mit. Trotz fehlendem Sand lohnt sich der Besuch wegen der natürlichen Schönheit."
+    },
+    "section5": {
+      "title": "Alcanada: Wo die Natur für sich spricht",
+      "body": "Ein Besuch in Alcanada ist ein Erlebnis für sich. Keine Musik, keine Massen – nur das Rauschen des Meeres, Möwen am Himmel und der Blick auf den Leuchtturm. Es ist ein Ort, an dem die Zeit langsamer vergeht, der zum Innehalten einlädt und die Schönheit der Einfachheit zeigt. Ideal für Paare, Spaziergänge oder ein Bad bei Sonnenuntergang. Alcanada bleibt im Herzen.\nKomm vorbei und lass dich vom natürlichen Zauber dieses besonderen Ortes verzaubern!"
+    }
+  },
+  "blog_trece": {
+    "title": "Wind und Wetter auf Mallorca: Wie das Meer dein Bootserlebnis beeinflusst",
+    "slug": "wind-wetter-boot-mallorca",
+    "keyword": "Wind Mallorca, Wetter Boot Mallorca, Meereszustand Mallorca",
+    "meta_description": "Erfahre, wie Wind und Wetterbedingungen Bootsausflüge auf Mallorca beeinflussen. Lerne das Meer zu lesen und genieße deine Fahrt sicher und entspannt.",
+    "publishedDate": "11. Juni 2025",
+    "btnText": "Mehr erfahren",
+    "badgeTitle": "Nautische Tipps",
+    "section1": {
+      "title": "Das Meer ist nie gleich: Warum das Wetter entscheidend ist",
+      "body": "Wenn man eine Bootstour auf Mallorca bucht, stellt man sich oft ruhige See und blauen Himmel vor. Doch das Meer verändert sich ständig. Wind, Luftdruck und Strömungen beeinflussen direkt dein Erlebnis an Bord. Wer diese Faktoren versteht, kann sicherer und besser planen – für das perfekte Erlebnis auf See."
+    },
+    "section2": {
+      "title": "Der Wind: Hauptakteur im Mittelmeer",
+      "body": "Auf Mallorca ist der Wind der wichtigste Einflussfaktor für den Meereszustand. Die häufigsten Winde:\n- **Embat**: sanfte Meeresbrise am Nachmittag, angenehm im Sommer.\n- **Tramuntana**: trockener Nordwind mit starken Böen und viel Wellengang.\n- **Levante**: Ostwind mit Feuchtigkeit und unruhiger See im Südosten.\n- **Mistral**: böiger Wind, für Boote eher unangenehm.\nWer diese Winde kennt, kann besser einschätzen, ob das Meer ruhig oder aufgewühlt ist – oder ob man lieber an Land bleiben sollte."
+    },
+    "section3": {
+      "title": "So wirken sich Wetterbedingungen auf deine Bootstour aus",
+      "body": "Wetter beeinflusst nicht nur das Aussehen des Meeres, sondern auch, wie sich eine Bootsfahrt anfühlt. Hier die wichtigsten Unterschiede:",
+      "sub1": {
+        "subtitle": "Windstille Tage",
+        "body": "Ohne Wind oder mit nur leichtem Embat gleicht das Meer einem natürlichen Pool. Ideal für Familienausflüge, entspannte Schwimmtouren oder zum Fotografieren. Das klare Wasser erlaubt sogar Blicke auf den Meeresgrund vom Boot aus."
+      },
+      "sub2": {
+        "subtitle": "Mäßiger Wind oder wechselhafte Bedingungen",
+        "body": "Etwas mehr Wind bringt Bewegung. Dann sind größere Boote oder geschützte Routen besser – wie Buchten oder windabgewandte Küsten. Perfekt für alle, die ein bisschen Abenteuer mögen."
+      },
+      "sub3": {
+        "subtitle": "Schlechtes Wetter: lieber verschieben",
+        "body": "Bei Wetterwarnungen, starker Tramuntana oder plötzlichem Druckabfall ist ein Ausflug keine gute Idee. Wellen, Gischt oder Schwindel können das Erlebnis ruinieren. Seriöse Anbieter auf Mallorca sagen solche Touren im Voraus ab."
+      }
+    },
+    "section4": {
+      "title": "Tipps für den besten Tag auf See",
+      "body": "Sieh dir vorab den Wetterbericht an oder frag deinen Anbieter. Ideale Bedingungen: schwacher Wind (unter 10 Knoten), kein Unwetter und stabiler Hochdruck. Vormittage sind meist ruhiger. Die Bucht von Alcudia oder die Südküste sind windgeschützt. Nutze Apps wie Windy oder AEMET für präzise Vorhersagen."
+    },
+    "section5": {
+      "title": "Wetter: dein Begleiter für das perfekte Erlebnis",
+      "body": "Das Wetter ist kein Hindernis, sondern ein Helfer. Wer es versteht, kann besser planen und genießt mehr. Man lernt, den Horizont zu lesen, das Rauschen zu deuten und jeden Moment an Bord zu schätzen.\nDas Mittelmeer ist wechselhaft – aber voller Magie. Und wer es liest, erlebt unvergessliche Tage auf dem Wasser."
+    }
+  },
+  "toursPage": {
+    "hero": {
+      "badge": "Mallorca vom Meer aus entdecken",
+      "title": "Die besten Bootstouren in Alcudia, Mallorca",
+      "subtitle": "Wähle aus drei unvergesslichen Bootserlebnissen in der atemberaubenden Bucht von Alcudia. Ob entspannter Morgenausflug, magische Sonnenuntergangsfahrt oder vollständig maßgeschneiderter Privat-Charter – Coral Boats bietet die perfekte Bootstour für dein Mallorca-Abenteuer."
+    },
+    "cards": {
+      "sectionLabel": "Unsere Bootstouren",
+      "sectionTitle": "Finde dein perfektes Bootserlebnis",
+      "sectionDescription": "Alle Touren starten im Hafen von Alcudia und beinhalten professionelle Crew, Sicherheitsausrüstung, Versicherung und unvergessliche Erinnerungen. Buche noch heute deine Bootstour auf Mallorca!",
+      "morningTour": {
+        "name": "Morgenabenteuer",
+        "subtitle": "Am besten für Schnorcheln & Meeresleben",
+        "time": "10:00 - 14:00",
+        "duration": "4 Stunden",
+        "price": "68€",
+        "badge": "4 Stunden",
+        "whyChoose": "Warum diese Tour wählen:",
+        "feature1": "Kristallklares Morgenwasser",
+        "feature2": "Beste Sicht zum Schnorcheln",
+        "feature3": "Entdecke die lebendige Unterwasserwelt",
+        "feature4": "Ruhige See am Morgen",
+        "includedTitle": "Inklusive:",
+        "included1": "Schnorchelausrüstung",
+        "included2": "Stand-Up-Paddling",
+        "included3": "Mallorquinische Tapas",
+        "included4": "Kostenloses Getränk oder Sangria",
+        "priceFrom": "Ab",
+        "pricePerPerson": "pro Person",
+        "ctaButton": "Jetzt buchen"
+      },
+      "sunsetTour": {
+        "name": "Magischer Sonnenuntergang",
+        "subtitle": "Entspannte Stimmung & gute Zeiten",
+        "time": "18:00 - 21:00",
+        "duration": "3 Stunden",
+        "price": "65€",
+        "badge": "3 Stunden",
+        "whyChoose": "Warum diese Tour wählen:",
+        "feature1": "Atemberaubende Sonnenuntergangsansichten",
+        "feature2": "Entspannte Atmosphäre mit Musik",
+        "feature3": "Perfekt für Paare & Freunde",
+        "feature4": "Goldene-Stunde-Stimmung",
+        "includedTitle": "Inklusive:",
+        "included1": "Schnorchelausrüstung",
+        "included2": "Stand-Up-Paddling",
+        "included3": "Mallorquinische Tapas",
+        "included4": "Kostenloses Getränk oder Sangria",
+        "priceFrom": "Ab",
+        "pricePerPerson": "pro Person",
+        "ctaButton": "Jetzt buchen"
+      },
+      "privateCharter": {
+        "name": "Privat-Charter",
+        "subtitle": "Vollständig personalisiertes Erlebnis",
+        "time": "Flexibler Zeitplan",
+        "duration": "3-4 Stunden",
+        "price": "Ab 1.250€",
+        "badge": "Exklusiv",
+        "whyChoose": "Warum diese Tour wählen:",
+        "feature1": "Bis zu 40 Passagiere",
+        "feature2": "Individuelle Route",
+        "feature3": "Perfekt für Events",
+        "feature4": "Exklusives Erlebnis",
+        "includedTitle": "Inklusive:",
+        "included1": "Individuelle Route",
+        "included2": "Catering-Optionen",
+        "included3": "Offene Bar verfügbar",
+        "included4": "Professionelle Crew",
+        "pricingLabel": "Preise",
+        "pricingValue": "Individuelles Angebot",
+        "pricingInfo": "maßgeschneidert für dein Event",
+        "ctaButton": "Jetzt buchen"
+      }
+    },
+    "seo": {
+      "mainTitle": "Die besten Bootstouren in Alcudia, Mallorca",
+      "intro1": "Suchst du nach einer unvergesslichen <strong>Bootstour in Alcudia</strong>? Coral Boats bietet die vollständigsten und bestbewerteten <strong>Bootsausflüge auf Mallorca</strong>, mit täglichen Abfahrten aus dem wunderschönen <strong>Hafen von Alcudia</strong>. Ob du eine <strong>Morgentour auf Mallorca</strong>, eine romantische <strong>Sonnenuntergangsfahrt in der Bucht von Alcudia</strong> oder einen maßgeschneiderten <strong>Privat-Charter auf Mallorca</strong> suchst – wir haben das perfekte Erlebnis für dich.",
+      "intro2": "Unsere <strong>Bootstouren in der Bucht von Alcudia</strong> sind darauf ausgelegt, dir die atemberaubende Mittelmeerküste, kristallklares Wasser und versteckte Buchten zu zeigen, die <strong>Bootsausflüge auf Mallorca</strong> so besonders machen. Jede Tour beinhaltet <strong>Schnorchelausrüstung</strong>, <strong>Stand-Up-Paddling</strong>, köstliche <strong>mallorquinische Tapas</strong> und kostenlose Getränke oder Sangria – alles, was du für einen unvergesslichen Tag auf dem Meer brauchst.",
+      "whyBookTitle": "Warum eine Bootstour mit Coral Boats in Alcudia buchen?",
+      "reason1Title": "Preisgekrönte Bootsausflüge",
+      "reason1Text": "Mit einer Bewertung von 4,9/5 Sternen und über 500 verifizierten Rezensionen gehören unsere <strong>Bootstouren in Alcudia Mallorca</strong> zu den besten Ausflügen auf den Balearen.",
+      "reason2Title": "Lokale Experten-Crew",
+      "reason2Text": "Unsere professionelle Crew kennt die <strong>Bucht von Alcudia</strong> in- und auswendig und bringt dich zu den besten Schnorchelplätzen, versteckten Stränden und schönsten Spots.",
+      "reason3Title": "Komplettes Bootserlebnis",
+      "reason3Text": "Im Gegensatz zu einfachen <strong>Bootstouren im Hafen von Alcudia</strong> beinhalten unsere Ausflüge alles: Schnorchel-Ausrüstung, SUP, traditionelle Tapas, Getränke und professionelle Begleitung.",
+      "reason4Title": "Lizenziert & Vollständig Versichert",
+      "reason4Text": "Alle unsere <strong>Bootstouren auf Mallorca</strong> werden mit offiziellen Lizenzen, umfassender Versicherung und höchsten Sicherheitsstandards durchgeführt – für deine Sicherheit.",
+      "toursTitle": "Entdecke unsere Bootstouren in Alcudia",
+      "morningTitle": "Morgenabenteuer: Die beste Bootstour zum Schnorcheln auf Mallorca",
+      "morningText1": "Unsere <strong>Morgen-Bootstour in Alcudia</strong> (10:00-14:00) ist ideal für alle, die das beste <strong>Schnorchelerlebnis auf Mallorca</strong> suchen. Das Morgenwasser ist kristallklar und ruhig und bietet optimale Sicht, um die lebendige Unterwasserwelt der <strong>Bucht von Alcudia</strong> zu entdecken. Dieser <strong>4-stündige Ausflug vom Hafen von Alcudia</strong> beinhaltet Schnorchelausrüstung, SUP, authentische mallorquinische Tapas sowie ein kostenloses Getränk oder Sangria.",
+      "morningText2": "<strong>Perfekt für:</strong> Familien, Schnorchel-Fans, Meeresliebhaber, Fotografen und alle, die das Mittelmeer von seiner schönsten Seite erleben möchten. Dies ist unsere beliebteste <strong>Bootstour auf Mallorca</strong>, ideal für Erstbesucher in Alcudia.",
+      "sunsetTitle": "Magischer Sonnenuntergang: Die romantischste Bootsfahrt in der Bucht von Alcudia",
+      "sunsetText1": "Erlebe die Magie einer <strong>Sonnenuntergangstour in Alcudia</strong> (18:00-21:00), die romantischste <strong>Bootsfahrt auf Mallorca</strong>. Beobachte, wie die mediterrane Sonne den Himmel in atemberaubenden Farben malt, während du durch die ruhigen Gewässer der <strong>Bucht von Alcudia</strong> segelst. Dieser <strong>3-stündige Abend-Ausflug</strong> kombiniert spektakuläre Ausblicke mit Schnorcheln, SUP, traditionellen Tapas und kostenlosen Getränken.",
+      "sunsetText2": "<strong>Perfekt für:</strong> Paare, Frischvermählte, besondere Anlässe, Fotografie-Fans und alle, die eine exklusive <strong>Sonnenuntergangsfahrt auf Mallorca</strong> genießen möchten. Diese <strong>romantische Bootstour im Hafen von Alcudia</strong> schafft unvergessliche Erinnerungen und traumhafte Fotos.",
+      "privateTitle": "Privat-Charter: Exklusiver Bootsverleih auf Mallorca für Gruppen & Events",
+      "privateText1": "Gestalte deinen perfekten Tag auf dem Meer mit einem <strong>Privat-Charter in Alcudia</strong>. Unser <strong>exklusiver Bootsverleih auf Mallorca</strong> bietet Platz für bis zu 40 Gäste (die meisten Charters sind auf 12 begrenzt!) und ist ideal für <strong>Firmenevents</strong>, <strong>Geburtstage</strong>, <strong>Junggesellenabschiede</strong>, Familientreffen und besondere Anlässe. Wähle deine Zeit (3-4 Stunden), gestalte deine Route und füge Catering oder offene Bar hinzu.",
+      "privateText2": "<strong>Perfekt für:</strong> Große Gruppen, Firmen-Teambuilding in Alcudia, Hochzeiten, Geburtstage, Junggesellenabschiede, Familienfeiern und jedes besondere Event. Unser <strong>Privat-Bootsverleih im Hafen von Alcudia</strong> bietet volle Flexibilität und Exklusivität für deine Gruppe.",
+      "locationTitle": "Bootstouren ab Alcudia: Der perfekte Startpunkt",
+      "locationText1": "Der <strong>Hafen von Alcudia</strong> ist der ideale Ausgangspunkt für <strong>Bootsausflüge im Norden Mallorcas</strong>. In der atemberaubenden <strong>Bucht von Alcudia</strong> gelegen, bietet er einfachen Zugang zu den schönsten Gewässern des Mittelmeers, unberührten Stränden und großartigen Schnorchelplätzen. Der Hafen ist leicht erreichbar von <strong>Alcudia, Port de Pollensa, Can Picafort, Playa de Muro</strong> und ganz <strong>Nord-Mallorca</strong>.",
+      "locationText2": "Unsere <strong>Bootstouren ab Alcudia</strong> erkunden die geschützten Gewässer der Bucht, besuchen einsame Buchten, die nur vom Meer zugänglich sind, und bringen dich zu den besten Bade- und Schnorchelplätzen. Egal, ob du in <strong>Alcudia Stadt</strong>, <strong>Port de Pollensa</strong> oder irgendwo in <strong>Nordost-Mallorca</strong> wohnst – unsere Touren sind bequem und leicht erreichbar.",
+      "bookingTitle": "Buche deine Bootstour in Alcudia noch heute",
+      "bookingText": "Verpasse nicht das beste <strong>Bootserlebnis auf Mallorca</strong>. Unsere <strong>Ausflüge in Alcudia</strong> sind schnell ausgebucht, besonders in der Hochsaison (Juni-September). Buche deine <strong>Morgentour</strong>, <strong>Sonnenuntergangsfahrt</strong> oder <strong>Privat-Charter</strong> jetzt online und sichere dir deinen Platz für einen unvergesslichen Tag auf dem Mittelmeer.",
+      "ctaMorning": "Morgentour buchen",
+      "ctaSunset": "Sonnenuntergangstour buchen",
+      "ctaPrivate": "Privat-Charter buchen"
+    },
+    "faq": {
+      "sectionLabel": "Fragen?",
+      "sectionTitle": "Häufig gestellte Fragen zu unseren Bootstouren in Alcudia",
+      "sectionDescription": "Alles, was du über die besten Bootsausflüge auf Mallorca wissen musst",
+      "q1": "Welche Bootstour in Alcudia ist am besten für Familien geeignet?",
+      "a1": "Das Morgenabenteuer ist perfekt für Familien! Die 4-stündige Bootstour ab dem Hafen von Alcudia (10:00-14:00) bietet ruhige Gewässer, ideale Schnorchelbedingungen und viele Aktivitäten für alle Altersgruppen. Kinder lieben es, Meereslebewesen zu entdecken, SUP auszuprobieren und mallorquinische Tapas zu genießen.",
+      "q2": "Wo starten die Bootstouren in Alcudia?",
+      "a2": "Alle Coral Boats Touren starten im Hafen von Alcudia, einem der schönsten Häfen Mallorcas. Er ist leicht erreichbar von Alcudia, Port de Pollensa, Can Picafort, Playa de Muro und allen großen Ferienorten in Nord-Mallorca. Den genauen Treffpunkt erhältst du in deiner Buchungsbestätigung.",
+      "q3": "Was ist in euren Bootstouren auf Mallorca enthalten?",
+      "a3": "Jede Tour beinhaltet: professionelle Crew, Schnorchelausrüstung, SUP, mallorquinische Tapas, ein kostenloses Getränk oder Sangria, Sicherheitsausrüstung und Versicherung. Unsere Privat-Charters können zusätzlich Catering und offene Bar beinhalten.",
+      "q4": "Kann ich einen Privat-Charter in Alcudia für große Gruppen buchen?",
+      "a4": "Ja! Unser Privat-Charter bietet Platz für bis zu 40 Gäste – ideal für Firmenevents, Hochzeiten, Geburtstage und Feiern. Die meisten Charters auf Mallorca sind auf 12 Personen begrenzt, was unseren exklusiven Bootsverleih perfekt für große Gruppen macht. Buche deinen privaten Ausflug mit flexibler Zeitplanung und individueller Route.",
+      "q5": "Wann ist die beste Zeit für eine Bootstour in der Bucht von Alcudia?",
+      "a5": "Beide Touren bieten einzigartige Erlebnisse! Das Morgenabenteuer (10:00-14:00) bietet die besten Schnorchelbedingungen mit kristallklarem Wasser. Die Sonnenuntergangstour (18:00-21:00) bietet atemberaubende Ausblicke und romantische Atmosphäre. Wähle einfach nach deinen Vorlieben!",
+      "q6": "Bietet ihr das ganze Jahr über Bootstouren in Alcudia an?",
+      "a6": "Unsere geplanten Morgen- und Sonnenuntergangstouren finden von Mai bis Oktober statt, wenn die Wetterbedingungen optimal sind. Privat-Charters können auch außerhalb dieser Monate je nach Wetter verfügbar sein. Wir empfehlen eine Buchung 2-4 Wochen im Voraus, besonders in der Hochsaison (Juni-September).",
+      "q7": "Wird Schnorchelausrüstung bei den Mallorca-Bootstouren gestellt?",
+      "a7": "Ja! Alle unsere Touren in Alcudia beinhalten professionelle Schnorchelausrüstung (Maske, Schnorchel, Flossen) kostenlos. Außerdem stellen wir SUP-Boards und komplette Sicherheitsausrüstung bereit. Unsere Crew bringt dich zu den besten Schnorchelplätzen in der Bucht von Alcudia.",
+      "q8": "Wie buche ich eine Bootstour in Alcudia?",
+      "a8": "Die Buchung ist ganz einfach! Wähle deine bevorzugte Tour (Morgenabenteuer, Sonnenuntergang oder Privat-Charter), wähle Datum und Gästeanzahl und schließe die sichere Online-Buchung ab. Du erhältst sofort eine Bestätigung mit allen Details.",
+      "q9": "Warum ist Coral Boats die beste Bootstourfirma in Alcudia?",
+      "a9": "Mit 4,9/5 Sternen, über 10.000 zufriedenen Gästen und 500+ verifizierten Rezensionen sind wir der bestbewertete Anbieter in Alcudia. Wir bieten das vollständigste Erlebnis mit professioneller Crew, kompletter Ausrüstung, köstlichen Tapas und als einziger Charter mit Lizenz für über 40 Gäste in der Region.",
+      "q10": "Darf ich Essen und Getränke auf die Bootstour mitbringen?",
+      "a10": "Wir bieten auf allen Touren mallorquinische Tapas und Getränke an, du darfst aber auch gerne Snacks oder Getränke mitbringen. Privat-Charter Gäste können ihr Catering vollständig anpassen – eigene Speisen mitbringen oder unsere Open-Bar- und Tapas-Pakete wählen.",
+      "finalCtaTitle": "Bereit für die beste Bootstour in Alcudia?",
+      "finalCtaText": "Schließe dich tausenden zufriedenen Gästen an, die bereits entdeckt haben, warum Coral Boats die besten Bootsausflüge auf Mallorca anbietet. Buche noch heute deine unvergessliche Bootstour im Hafen von Alcudia!",
+      "finalCtaButton": "Alle Touren ansehen"
+    }
+  },
+  "morningTour": {
+    "hero": {
+      "badge": "Morgenabenteuer",
+      "title": "Morgendliche Bootstour in der Bucht von Alcúdia",
+      "subtitle": "Beginne deinen Tag mit kristallklarem Wasser, Schnorcheln in versteckten Buchten und authentischen mallorquinischen Tapas auf unserer 4-stündigen Bootstour entlang der atemberaubenden Nordküste Mallorcas",
+      "durationLabel": "Dauer",
+      "durationValue": "4 Stunden",
+      "departureLabel": "Abfahrt",
+      "departureValue": "10:00 Uhr",
+      "groupSizeLabel": "Gruppengröße",
+      "groupSizeValue": "Kleine Gruppen",
+      "priceLabel": "Preis",
+      "priceValue": "Ab 68€",
+      "ctaBook": "Buche deine Morgentour",
+      "ctaLearnMore": "Mehr erfahren"
+    },
+    "details": {
+      "sectionLabel": "Tourübersicht",
+      "sectionTitle": "Der perfekte Morgen auf Mallorca",
+      "paragraph1": "Unsere <strong>Morgenabenteuer-Bootstour</strong> ist die perfekte Möglichkeit, die natürliche Schönheit der Bucht von Alcúdia auf Mallorca zu erleben. Diese 4-stündige Exkursion startet um 10:00 Uhr, wenn das Mittelmeer am ruhigsten und klarsten ist – ideal zum Schnorcheln und Schwimmen.",
+      "paragraph2": "Du segelst an Bord unseres klassischen Bootes von 1968, <strong>Coral Boats</strong>, und entdeckst versteckte Buchten, unberührte Strände und die spektakulärsten Schnorchelplätze entlang der Nordküste Mallorcas. Unsere erfahrene lokale Crew kennt jede Ecke der Bucht von Alcúdia und bringt dich zu Orten, die größere Ausflugsboote nicht erreichen können.",
+      "paragraph3": "Das Morgenlicht bietet perfekte Bedingungen für Unterwasserfotografie, und du hast die Möglichkeit, bunte Fische, Seeigel und andere mediterrane Meereslebewesen bei klarster Sicht zu beobachten. Nach deinen Wasserabenteuern entspanne dich an Bord bei authentischen mallorquinischen Tapas und erfrischenden Getränken, darunter unsere traditionelle Sangria.",
+      "galleryLink": "Fotogalerie ansehen",
+      "highlightsTitle": "Warum die Morgentour wählen?",
+      "highlight1": "Beste Zeit zum Schnorcheln mit ruhigem, klarem Wasser",
+      "highlight2": "Besuche versteckte Buchten und geheime Strände, die nur per Boot erreichbar sind",
+      "highlight3": "Entdecke bunte Mittelmeerfische und andere Meereslebewesen",
+      "highlight4": "Schwimme im türkisfarbenen Wasser der Bucht von Alcúdia",
+      "highlight5": "Genieße frische mallorquinische Tapas und erfrischende Getränke an Bord",
+      "highlight6": "Kleingruppen-Erlebnis mit persönlicher Betreuung",
+      "includedTitle": "Inklusive",
+      "included1": "Authentische mallorquinische Tapas",
+      "included2": "Ein kostenloses Getränk oder Sangria",
+      "included3": "Schnorchelausrüstung",
+      "included4": "Stand-Up-Paddles (SUP)",
+      "included5": "Sicherheitsausrüstung & Versicherung",
+      "included6": "Professionelle Crew & Kapitän",
+      "importantInfoTitle": "Wichtige Informationen",
+      "info1": "Bitte 30 Minuten vor Abfahrt eintreffen",
+      "info2": "Geeignet für alle Alters- und Schwimmniveaus",
+      "info3": "Sonnencreme, Handtuch und Badebekleidung mitbringen",
+      "info4": "Kostenlose Stornierung bis zu 24 Stunden vorher",
+      "info5": "Abfahrt vom Hafen von Alcúdia",
+      "ctaBook": "Klicke hier, um deinen Platz zu reservieren"
+    },
+    "itinerary": {
+      "sectionLabel": "Reiseplan",
+      "sectionTitle": "Dein Zeitplan für das Morgenabenteuer",
+      "sectionDescription": "Detaillierte Übersicht deiner 4-stündigen Bootstour in der Bucht von Alcúdia. Zeiten sind ungefähre Angaben und können je nach Wetter- und Seebedingungen variieren.",
+      "step1Time": "10:00 Uhr",
+      "step1Title": "Abfahrt vom Hafen von Alcúdia",
+      "step1Description": "Treffen im Yachthafen von Alcúdia. Gehe an Bord unseres klassischen Bootes und erhalte eine Sicherheitseinweisung von unserer professionellen Crew. Setze die Segel in die atemberaubende Bucht von Alcúdia.",
+      "step2Time": "10:30 Uhr",
+      "step2Title": "Erster Stopp zum Schwimmen & Schnorcheln",
+      "step2Description": "Ankunft am ersten Halt, dem Strand von Coll Baix, mit kristallklarem, türkisfarbenem Wasser. Genieße Schnorcheln mit der bereitgestellten Ausrüstung, beobachte bunte Mittelmeerfische oder probiere Stand-Up-Paddling.",
+      "step3Time": "11:30 Uhr",
+      "step3Title": "Küstenkreuzfahrt & Sightseeing",
+      "step3Description": "Segle entlang der wunderschönen Nordküste Mallorcas und entdecke dramatische Klippen, unberührte Buchten und faszinierende Meeresgrotten. Erfahre mehr über Geschichte und Meeresleben von unserer lokalen Crew.",
+      "step4Time": "12:15 Uhr",
+      "step4Title": "Zweiter Badestopp & Tapas",
+      "step4Description": "Stopp an einem weiteren spektakulären Ort – der Insel und dem Leuchtturm von Alcanada – zum Schwimmen und für Wasseraktivitäten. Genieße authentische mallorquinische Tapas und erfrischende Getränke, darunter Sangria, an Bord.",
+      "step5Time": "13:30 Uhr",
+      "step5Title": "Panoramafahrt zurück",
+      "step5Description": "Entspanne an Deck, während wir zurück zum Hafen von Alcúdia segeln, die Küstenlandschaft genießen und die mediterrane Sonne tanken.",
+      "step6Time": "14:00 Uhr",
+      "step6Title": "Ankunft im Hafen von Alcúdia",
+      "step6Description": "Rückkehr in den Hafen mit unvergesslichen Erinnerungen an dein Morgenabenteuer in der Bucht von Alcúdia.",
+      "ctaTitle": "Bereit für die beste morgendliche Bootstour in Alcúdia?",
+      "ctaDescription": "Mach mit bei unserer Premium-Morgentour in der Bucht von Alcúdia. Buche dein Schnorchelerlebnis noch heute und erfahre, warum wir die bestbewertete Bootstour in Nord-Mallorca sind.",
+      "ctaButton": "Sichere dir heute deinen Platz"
+    },
+    "booking": {
+      "sectionLabel": "Buche dein Abenteuer",
+      "sectionTitle": "Reserviere deine Morgentour",
+      "sectionDescription": "Begleite uns auf einen unvergesslichen Morgen in der Bucht von Alcúdia",
+      "priceTitle": "Preis pro Person",
+      "priceValue": "68€",
+      "priceNote": "Bestpreisgarantie",
+      "durationTitle": "Dauer & Abfahrt",
+      "durationValue": "4 Stunden | 10:00 Uhr",
+      "durationNote": "Rückkehr um 14:00 Uhr",
+      "meetingPointTitle": "Treffpunkt",
+      "meetingPointValue": "Yachthafen von Alcúdia",
+      "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+      "whyBookTitle": "Warum mit uns buchen?",
+      "whyBook1": "Sofortige Bestätigung",
+      "whyBook2": "Kostenlose Stornierung bis 24h",
+      "whyBook3": "Kleingruppen-Erlebnis",
+      "whyBook4": "Authentisches mallorquinisches Essen inklusive",
+      "whyBook5": "Professionelle Crew & Ausrüstung",
+      "ctaCardTitle": "Beginne deine Buchung",
+      "ctaCardDescription": "Wähle dein Datum und reserviere dein Erlebnis in nur wenigen Klicks",
+      "ctaButton": "Buche jetzt deine Morgentour",
+      "trustBadge1": "Sicher",
+      "trustBadge2": "Sofortig",
+      "trustBadge3": "Flexibel",
+      "faqTitle": "Häufig gestellte Fragen",
+      "faq1Question": "Was sollte ich mitbringen?",
+      "faq1Answer": "Bringe Badebekleidung, Handtuch, Sonnencreme, Sonnenbrille und Kamera mit. Wir stellen die gesamte Schnorchelausrüstung, Paddle Boards, Essen und Getränke bereit.",
+      "faq2Question": "Ist es für Kinder geeignet?",
+      "faq2Answer": "Ja! Unsere Morgentour ist perfekt für Familien. Kinder jeden Alters sind willkommen, wir stellen Schwimmwesten und Schwimmhilfen bereit.",
+      "faq3Question": "Was passiert bei schlechtem Wetter?",
+      "faq3Answer": "Sicherheit hat oberste Priorität. Wenn die Wetterbedingungen unsicher sind, kontaktieren wir dich, um einen neuen Termin zu vereinbaren oder dir eine vollständige Rückerstattung anzubieten.",
+      "faq4Question": "Können auch Nichtschwimmer teilnehmen?",
+      "faq4Answer": "Auf jeden Fall! Du kannst die Bootsfahrt, die Landschaft und das Essen auch ohne Schwimmen genießen. Wir stellen Schwimmwesten für alle bereit, die es ausprobieren möchten."
+    },
+    "gallery": {
+      "label": "Galerie",
+      "title": "Erlebe die Morgenmagie",
+      "description": "Sehen Sie, was Sie auf unserer Morgen-Bootstour in der Bucht von Alcúdia erwartet"
+    }
+  },
+  "sunsetTour": {
+    "hero": {
+      "badge": "Magischer Sonnenuntergang",
+      "title": "Bootstour bei Sonnenuntergang in der Bucht von Alcudia",
+      "subtitle": "Erlebe die Magie eines mediterranen Sonnenuntergangs mit Schwimmen im kristallklaren Wasser, authentischen mallorquinischen Tapas und atemberaubenden Küstenblicken auf unserer 3-stündigen Abend-Bootstour entlang der wunderschönen Nordküste Mallorcas.",
+      "durationLabel": "Dauer",
+      "durationValue": "3 Stunden",
+      "departureLabel": "Abfahrt",
+      "departureValue": "18:00 Uhr",
+      "groupSizeLabel": "Gruppengröße",
+      "groupSizeValue": "Kleine Gruppen",
+      "priceLabel": "Preis",
+      "priceValue": "Ab 65 €",
+      "ctaBook": "Buche deine Sonnenuntergangstour",
+      "ctaLearnMore": "Mehr erfahren"
+    },
+    "details": {
+      "sectionLabel": "Tourübersicht",
+      "sectionTitle": "Der Perfekte Abend auf Mallorca",
+      "paragraph1": "Unsere <strong>Sunset Magic Bootstour</strong> ist der perfekte Weg, um die magische Abendstimmung der Bucht von Alcudia auf Mallorca zu erleben. Diese 3-stündige Fahrt startet um 18:00 Uhr, wenn das mediterrane Licht in goldenen Farben erstrahlt – ideal zum Schwimmen, Entspannen und Fotografieren.",
+      "paragraph2": "Du segelst an Bord unseres klassischen Bootes von 1968, <strong>Coral Boats</strong>, und erkundest versteckte Buchten, unberührte Strände und spektakuläre Aussichtspunkte entlang der Nordküste Mallorcas. Unsere erfahrene, einheimische Crew kennt jede geheime Ecke der Bucht von Alcudia und bringt dich zu Orten, die größere Boote nicht erreichen können.",
+      "paragraph3": "Das Licht des Abends sorgt für perfekte Bedingungen für atemberaubende Fotos, und du hast die Möglichkeit, im warmen Wasser zu schwimmen, während die Sonne im Mittelmeer untergeht. Nach deinem Wasserabenteuer entspannst du dich an Bord bei authentischen mallorquinischen Tapas und erfrischenden Getränken, darunter unsere traditionelle Sangria.",
+      "galleryLink": "Fotogalerie ansehen",
+      "highlightsTitle": "Warum die Sonnenuntergangstour wählen?",
+      "highlight1": "Erlebe einen spektakulären mediterranen Sonnenuntergang vom Wasser aus",
+      "highlight2": "Perfektes goldenes Licht für beeindruckende Fotos",
+      "highlight3": "Erkunde unberührte Strände und dramatische Küstenlandschaften",
+      "highlight4": "Schwimme im warmen Abendwasser der Bucht von Alcudia",
+      "highlight5": "Genieße frische mallorquinische Tapas und erfrischende Getränke an Bord",
+      "highlight6": "Entspanntes mediterranes Ambiente – ideal zum Abschalten und Genießen",
+      "includedTitle": "Inklusive Leistungen",
+      "included1": "Authentische mallorquinische Tapas",
+      "included2": "Ein kostenloses Getränk oder Sangria",
+      "included3": "Schnorchelausrüstung",
+      "included4": "Paddleboards (SUP)",
+      "included5": "Sicherheitsausrüstung & Versicherung",
+      "included6": "Professionelle Crew & Kapitän",
+      "importantInfoTitle": "Wichtige Informationen",
+      "info1": "Bitte 30 Minuten vor Abfahrt eintreffen",
+      "info2": "Geeignet für alle Altersgruppen und Schwimmniveaus",
+      "info3": "Sonnencreme, Handtuch und Badebekleidung mitbringen",
+      "info4": "Kostenlose Stornierung bis 24 Stunden vorher",
+      "info5": "Abfahrt vom Hafen von Alcúdia",
+      "ctaBook": "Hier klicken, um deinen Platz zu buchen"
+    },
+    "itinerary": {
+      "sectionLabel": "Reiseverlauf",
+      "sectionTitle": "Dein Sonnenuntergangs-Abenteuer Zeitplan",
+      "sectionDescription": "Ein detaillierter Überblick über deine 3-stündige Bootserfahrung in der Bucht von Alcudia. Die Zeiten sind ungefähre Angaben und können je nach Wetter- und Seebedingungen variieren.",
+      "step1Time": "18:00 Uhr",
+      "step1Title": "Abfahrt vom Hafen von Alcúdia",
+      "step1Description": "Treffpunkt im Yachthafen von Alcúdia. Steige an Bord unseres klassischen Bootes und erhalte eine Sicherheitseinweisung von unserer professionellen Crew. Lege ab in die atemberaubende Bucht von Alcudia.",
+      "step2Time": "18:30 Uhr",
+      "step2Title": "Küstenfahrt & Sightseeing",
+      "step2Description": "Fahre entlang der wunderschönen Nordküste Mallorcas, erkunde beeindruckende Klippen, versteckte Buchten und faszinierende Meeresgrotten. Erfahre mehr über Geschichte und Meeresleben der Region, während du das goldene Abendlicht genießt.",
+      "step3Time": "19:15 Uhr",
+      "step3Title": "Schwimmen, Tapas & Sonnenuntergang",
+      "step3Description": "Ankunft bei der spektakulären Insel und dem Leuchtturm von Alcanada. Genieße Schwimmen und Wasseraktivitäten im kristallklaren Wasser. Genieße authentische mallorquinische Tapas und erfrischende Getränke, einschließlich Sangria, während du den atemberaubenden Sonnenuntergang über dem Mittelmeer beobachtest.",
+      "step4Time": "20:30 Uhr",
+      "step4Title": "Rückfahrt",
+      "step4Description": "Entspanne dich an Deck, während wir bei wunderschöner Dämmerung zurück zum Hafen von Alcúdia fahren und die Küstenlandschaft genießen.",
+      "step5Time": "21:00 Uhr",
+      "step5Title": "Ankunft im Hafen von Alcúdia",
+      "step5Description": "Rückkehr zum Hafen mit unvergesslichen Erinnerungen an dein magisches Sonnenuntergangsabenteuer in der Bucht von Alcudia.",
+      "ctaTitle": "Bereit für das Sunset Magic Bootserlebnis in Alcudia?",
+      "ctaDescription": "Begleite uns auf unserer Premium-Sunset-Magic-Bootstour in der Bucht von Alcudia, Mallorca. Buche dein Abendabenteuer noch heute und entdecke, warum wir die bestbewertete Bootstour im Norden Mallorcas sind – pure mediterrane Atmosphäre erwartet dich!",
+      "ctaButton": "Buche deinen Platz noch heute"
+    },
+    "booking": {
+      "sectionLabel": "Buche dein Abenteuer",
+      "sectionTitle": "Reserviere deine Sonnenuntergangstour",
+      "sectionDescription": "Begleite uns zu einem unvergesslichen Abend in der Bucht von Alcudia",
+      "priceTitle": "Preis pro Person",
+      "priceValue": "65 €",
+      "priceNote": "Bestpreisgarantie",
+      "durationTitle": "Dauer & Abfahrt",
+      "durationValue": "3 Stunden | 18:00 Uhr",
+      "durationNote": "Rückkehr um 21:00 Uhr",
+      "meetingPointTitle": "Treffpunkt",
+      "meetingPointValue": "Yachthafen Port d'Alcúdia",
+      "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+      "whyBookTitle": "Warum bei uns buchen?",
+      "whyBook1": "Sofortige Bestätigung",
+      "whyBook2": "Kostenlose Stornierung bis 24h vorher",
+      "whyBook3": "Erlebnis in kleinen Gruppen",
+      "whyBook4": "Authentische mallorquinische Küche inklusive",
+      "whyBook5": "Professionelle Crew & Ausrüstung",
+      "ctaCardTitle": "Beginne deine Buchung",
+      "ctaCardDescription": "Wähle dein Datum und buche dein Erlebnis mit nur wenigen Klicks",
+      "ctaButton": "Buche jetzt deine Sonnenuntergangstour",
+      "trustBadge1": "Sicher",
+      "trustBadge2": "Sofortig",
+      "trustBadge3": "Flexibel",
+      "faqTitle": "Häufig gestellte Fragen",
+      "faq1Question": "Was soll ich mitbringen?",
+      "faq1Answer": "Bringe Badebekleidung, Handtuch, Sonnencreme, Sonnenbrille und eine Kamera mit. Wir stellen die gesamte Schnorchelausrüstung, Paddleboards, Essen und Getränke bereit.",
+      "faq2Question": "Ist die Tour für Kinder geeignet?",
+      "faq2Answer": "Ja! Unsere Sonnenuntergangstour ist perfekt für Familien. Kinder jeden Alters sind willkommen, und wir stellen Schwimmwesten und Schwimmhilfen zur Verfügung.",
+      "faq3Question": "Was passiert bei schlechtem Wetter?",
+      "faq3Answer": "Sicherheit steht an erster Stelle. Wenn die Wetterbedingungen unsicher sind, kontaktieren wir dich, um einen neuen Termin zu vereinbaren oder eine vollständige Rückerstattung zu veranlassen.",
+      "faq4Question": "Wie ist die Atmosphäre?",
+      "faq4Answer": "Reine mediterrane Magie! Die Sonnenuntergangstour bietet eine entspannte, fröhliche Atmosphäre mit guten Vibes – perfekt für Paare, Freunde, Familien und alle, die einen wunderschönen mallorquinischen Abend genießen möchten."
+    },
+    "gallery": {
+      "label": "Galerie",
+      "title": "Magische Sonnenuntergangsmomente",
+      "description": "Entdecken Sie die Schönheit unserer Sonnenuntergangs-Bootstour in der Bucht von Alcúdia"
+    }
+  },
+  "privateCharter": {
+    "hero": {
+      "badge": "Exklusive Erfahrung",
+      "title": "Privater Charter für Gruppen bis zu 40 Personen",
+      "subtitle": "Verwandle deine besondere Feier in ein unvergessliches Erlebnis auf dem Mittelmeer. Unser exklusiver Charter ist perfekt für Firmenveranstaltungen, Geburtstage, Junggesellenabschiede, Familienfeiern und Treffen mit Freunden.",
+      "capacityLabel": "Kapazität",
+      "capacityValue": "Bis zu 40 Gäste",
+      "durationLabel": "Dauer",
+      "durationValue": "Flexible Zeiten",
+      "itineraryLabel": "Route",
+      "itineraryValue": "100 % Anpassbar",
+      "cateringLabel": "Catering",
+      "cateringValue": "Individuelles Menü",
+      "ctaPricing": "Preise ansehen & buchen",
+      "ctaLearnMore": "Mehr erfahren"
+    },
+    "features": {
+      "sectionLabel": "Dein Ultimatives Charter-Erlebnis",
+      "sectionTitle": "Privater Bootcharter auf Mallorca",
+      "sectionDescription": "Entdecke, warum Coral Boats Alcudias erste Wahl für große Gruppenfeiern ist",
+      "introTitle": "Der Größte Private Charter in Alcudia",
+      "introText": "Suchst du einen <strong>privaten Bootcharter auf Mallorca</strong>, der Platz für deine ganze Gruppe bietet? Coral Boats bietet einen exklusiven <strong>Bootsverleih in Alcudia</strong> mit Kapazität für bis zu 40 Passagiere – perfekt für Feiern, die die meisten Charterunternehmen auf Mallorca nicht anbieten können.",
+      "capacityTitle": "Kapazität, die Uns Herausragend Macht",
+      "capacityText": "Unser <strong>Bootcharter in Alcudia</strong> hebt sich dank unserer speziellen Lizenz auf dem mallorquinischen Markt ab. Während die meisten <strong>privaten Bootsvermietungen auf Mallorca</strong> auf maximal 12 Passagiere beschränkt sind, können wir große Gruppen von bis zu 40 Personen aufnehmen – ideal für Firmenveranstaltungen, Geburtstage und Feiern in der atemberaubenden <strong>Bucht von Alcudia</strong>.",
+      "locationTitle": "Erkunde den Norden Mallorcas",
+      "locationText": "Ausgehend vom <strong>Hafen von Alcudia</strong> segelt unser <strong>Charterboot auf Mallorca</strong> durch kristallklares Wasser, besucht versteckte Buchten, unberührte Strände und Wahrzeichen wie den Leuchtturm von Alcanada. Erlebe <strong>Bootscharter in Alcudia</strong> mit Badestopps, Schnorcheln, Stand-Up-Paddling und authentischem mallorquinischem Catering.",
+      "highlightsTitle": "Was Unseren Charter Besonders Macht",
+      "highlight1": "Lizenz für 40+ Gäste",
+      "highlight2": "Klassisches Schiff von 1968",
+      "highlight3": "100 % Anpassbar",
+      "closingText": "Wenn du einen <strong>privaten Bootcharter in Alcudia</strong> bei uns buchst, erhältst du mehr als nur einen <strong>Bootsverleih auf Mallorca</strong> – du erhältst ein vollständig personalisiertes Erlebnis mit einer professionellen Crew, die sich ausschließlich um deine Gruppe kümmert. Von flexiblen Abfahrtszeiten bis hin zu individuellen Routen entlang der <strong>Bucht von Alcudia</strong> – jedes Detail wird sorgfältig geplant, um unvergessliche Erinnerungen auf dem Mittelmeer zu schaffen.",
+      "ctaButton": "Preise ansehen & jetzt buchen"
+    },
+    "capacity": {
+      "sectionLabel": "Warum Wir",
+      "sectionTitle": "Lizenz für Große Gruppen",
+      "paragraph1": "<strong>Was uns von anderen unterscheidet</strong>, ist unsere spezielle Lizenz, die es uns ermöglicht, <strong>bis zu 40 Passagiere</strong> aufzunehmen – perfekt für große Feiern, die die meisten Boote nicht bieten können. Ob Firmenausflug, großer Geburtstag oder unvergessenes Familientreffen – wir haben die Kapazität und Erfahrung, um es außergewöhnlich zu machen.",
+      "paragraph2": "Unser klassisches Schiff von 1968, <strong>Coral Boats</strong>, verbindet authentischen maritimen Charme mit moderner Sicherheit und Komfort. Das großzügige Deck bietet reichlich Platz, damit deine Gruppe entspannen, tanzen und die herrliche Aussicht auf die Bucht von Alcudia genießen kann.",
+      "paragraph3": "Mit flexiblen Zeitplänen und vollständig anpassbaren Routen hast du die volle Kontrolle über dein Erlebnis. Wähle deine Abfahrtszeit, deine bevorzugten Stopps und Catering-Wünsche – wir kümmern uns um den Rest, während du wertvolle Zeit mit deiner Gruppe genießt.",
+      "galleryLink": "Fotogalerie ansehen",
+      "advantagesTitle": "Charter-Vorteile",
+      "advantage1": "Exklusive Nutzung des gesamten Bootes für deine Gruppe",
+      "advantage2": "Kapazität für bis zu 40 Personen – mehr als die meisten privaten Charter",
+      "advantage3": "Vollständig anpassbare Routen und Dauer",
+      "advantage4": "Personalisierter Catering- und Getränkeservice",
+      "advantage5": "Professionelle Crew, die sich deinem Event widmet",
+      "advantage6": "Perfekt für Feiern, die andere Boote nicht bieten können",
+      "capacityHighlightsTitle": "Kapazitäts-Highlights",
+      "capacity1Value": "Bis zu 40+",
+      "capacity1Label": "Komfortable Kapazität",
+      "capacity2Value": "Offiziell Lizenziert",
+      "capacity2Label": "Genehmigung für Große Gruppen",
+      "capacity3Value": "Seit 1968",
+      "capacity3Label": "Klassisches Schiff",
+      "infoBoxTitle": "Perfekt für Große Gruppen",
+      "infoBoxText": "<strong>Die meisten privaten Charter sind auf 12 Personen begrenzt.</strong> Mehr als 12 in eurer Gruppe? Genau für euch sind wir da! Unsere spezielle Lizenz erlaubt Gruppen von 12 bis über 40 Personen, gemeinsam auf demselben Boot zu bleiben. Kein Aufteilen, keine Mehrfachbuchungen – nur ein unvergessliches Erlebnis für alle.",
+      "ctaButton": "Preise Ansehen & Buchen"
+    },
+    "events": {
+      "sectionLabel": "Perfekt für Jeden Anlass",
+      "sectionTitle": "Events, auf die Wir Spezialisiert Sind",
+      "sectionDescription": "Unser privater Charter ist der ideale Ort für jede Art von Feier. Mit Platz für bis zu 40 Gäste und vollständiger Anpassung machen wir deine Vision auf den wunderschönen Mittelmeergewässern wahr.",
+      "corporate": {
+        "title": "Firmenevents",
+        "description": "Teambuilding, Kundenevents, Produkteinführungen oder Firmenfeiern. Schaffe bleibende Eindrücke an einem einzigartigen Ort, der Verbindung und Zusammenarbeit fördert.",
+        "feature1": "Teambuilding-Aktivitäten",
+        "feature2": "Professionelles Umfeld",
+        "feature3": "Networking-Bereich",
+        "feature4": "Catering-Optionen"
+      },
+      "birthday": {
+        "title": "Geburtstagsfeiern",
+        "description": "Mach runde Geburtstage wirklich unvergesslich mit einer privaten Bootsparty. Von Sweet Sixteen bis zur 50-Jahr-Feier – wir schaffen die perfekte mediterrane Kulisse für deinen besonderen Tag.",
+        "feature1": "Für Alle Altersgruppen",
+        "feature2": "Individuelle Dekoration",
+        "feature3": "Musik & Unterhaltung",
+        "feature4": "Feierpakete"
+      },
+      "bachelor": {
+        "title": "Junggesellenabschiede",
+        "description": "Feiere deine letzten Tage in Freiheit mit Stil! Genieße Schwimmen, Musik, Drinks und gute Stimmung mit deinen engsten Freunden in der wunderschönen Bucht von Alcudia.",
+        "feature1": "Party-Atmosphäre",
+        "feature2": "Premium-Barservice",
+        "feature3": "Wasseraktivitäten",
+        "feature4": "Fotomöglichkeiten"
+      },
+      "family": {
+        "title": "Familientreffen",
+        "description": "Bringe die ganze Familie für ein unvergessliches Erlebnis zusammen. Mit Platz für bis zu 40 Gäste können Großeltern, Eltern und Kinder gemeinsam feiern.",
+        "feature1": "Mehrgenerationenfreundlich",
+        "feature2": "Sicher für Alle Altersgruppen",
+        "feature3": "Familienstil-Catering",
+        "feature4": "Entspannte Atmosphäre"
+      },
+      "friends": {
+        "title": "Freundestreffen",
+        "description": "Manchmal sind die besten Momente die, die man mit Freunden teilt. Miete unser Boot für einen unvergesslichen Tag voller Schwimmen, Essen und gemeinsamer Erinnerungen.",
+        "feature1": "Flexibler Reiseplan",
+        "feature2": "Spaßige Aktivitäten",
+        "feature3": "BYOB-Optionen",
+        "feature4": "Fotografie Inklusive"
+      },
+      "special": {
+        "title": "Besondere Anlässe",
+        "description": "Jubiläen, Heiratsanträge, Abschlussfeiern oder jeder andere Moment, der gefeiert werden sollte. Wir schaffen die perfekte Kulisse für die wichtigsten Augenblicke im Leben.",
+        "feature1": "Romantische Umgebungen",
+        "feature2": "Individuelle Planung",
+        "feature3": "Sonderwünsche",
+        "feature4": "Premium-Service"
+      },
+      "footerTitle": "Hast du ein anderes Event im Sinn?",
+      "footerText": "Jede Feier ist einzigartig! Kontaktiere uns, um über deine speziellen Wünsche zu sprechen. Ob Themenparty, kulturelles Event oder etwas ganz anderes – wir arbeiten mit dir zusammen, um das perfekte Erlebnis für deine Gruppe von bis zu 40 Gästen zu gestalten."
+    },
+    "booking": {
+      "sectionLabel": "Bereit zu Buchen?",
+      "sectionTitle": "Buche Deinen Perfekten Charter",
+      "sectionDescription": "Sieh dir unsere transparenten Preise an, wähle deine Optionen und reserviere dein Datum online",
+      "howItWorksTitle": "So Funktioniert’s",
+      "step1": "<strong>Schritt 1:</strong> Preise ansehen und Charterdauer wählen",
+      "step2": "<strong>Schritt 2:</strong> Optionale Extras wie Catering oder Open Bar auswählen",
+      "step3": "<strong>Schritt 3:</strong> Buchungsanfrage mit deinen Daten absenden",
+      "step4": "<strong>Schritt 4:</strong> Wir bestätigen die Verfügbarkeit innerhalb weniger Stunden",
+      "step5": "<strong>Schritt 5:</strong> Genieße dein unvergessliches Charter-Erlebnis!",
+      "ctaCardTitle": "Buche Deinen Charter Heute",
+      "ctaCardDescription": "Sieh dir unsere transparenten Preise an und buche deinen Charter online. Wähle die Dauer, füge optionale Extras hinzu und wir bestätigen deine Buchung innerhalb weniger Stunden.",
+      "ctaButton": "Preise ansehen & buchen",
+      "trustBadge1": "Voll Versichert",
+      "trustBadge2": "Lizenziert",
+      "trustBadge3": "Bewertung 4.9",
+      "faqTitle": "Häufig Gestellte Fragen",
+      "faq1Question": "Wie früh sollte ich buchen?",
+      "faq1Answer": "Wir empfehlen, 2–4 Wochen im Voraus zu buchen, besonders in der Hochsaison (Juni–September) und an Wochenenden. Wir tun jedoch unser Bestes, um auch kurzfristige Anfragen zu ermöglichen.",
+      "faq2Question": "Was ist im Preis enthalten?",
+      "faq2Answer": "Bootsmiete, professionelle Crew, Treibstoff, Versicherung, Ausrüstung für Wasseraktivitäten und Basissoundsystem. Auf unserer Preisseite findest du detaillierte Preise und optionale Extras wie Catering oder Open Bar.",
+      "faq3Question": "Dürfen wir eigenes Essen und Getränke mitbringen?",
+      "faq3Answer": "Ja! Auch wenn wir Catering anbieten, kannst du gerne dein eigenes mitbringen. An Bord gibt es Kühlschränke und Kühlboxen. Bitte informiere uns im Voraus, damit wir uns entsprechend vorbereiten können.",
+      "faq4Question": "Was passiert bei schlechtem Wetter?",
+      "faq4Answer": "Sicherheit geht vor! Wenn das Wetter das Segeln unsicher macht, vereinbaren wir einen neuen Termin oder erstatten den vollen Betrag. Wir überwachen die Bedingungen genau und informieren dich rechtzeitig, falls nötig."
+    },
+    "gallery": {
+      "label": "Galerie",
+      "title": "Private Charter Erlebnisse",
+      "description": "Sehen Sie unsere exklusiven privaten Bootscharter in Alcúdia"
+    },
+    "pricingCTA": {
+      "badge": "Transparente Preise",
+      "title": "Bereit, Ihren Privatcharter zu Buchen?",
+      "description": "Schauen Sie sich unsere wettbewerbsfähigen Preise und Anpassungsoptionen an. Wir bieten flexible Pakete, die auf Ihre Bedürfnisse und Ihr Budget zugeschnitten sind.",
+      "button": "Vollständige Preise Ansehen",
+      "feature1": "Transparente Preise",
+      "feature2": "Keine Versteckten Kosten",
+      "feature3": "Anpassbare Pakete"
+    }
+  },
+  "premium": {
+    "hero": {
+      "title": "Beste Bootstouren in Alcudia, Mallorca",
+      "subtitle": "Entdecken Sie die Magie der Bucht von Alcudia an Bord unseres klassischen Bootes. Erkunden Sie versteckte Buchten und die schönsten Strände im Norden Mallorcas mit authentischen lokalen Erlebnissen.",
+      "cta_book": "Buchen Sie Ihre Tour",
+      "cta_view_all": "Alle Touren Ansehen"
+    },
+    "tours": {
+      "label": "Unsere Touren",
+      "title": "Wählen Sie Ihre Perfekte Bootstour in Alcudia",
+      "description": "Zwei einzigartige Bootstouren, die das Beste der Küste Mallorcas zeigen. Ob Sie eine entspannte Morgentour oder einen magischen Sonnenuntergang im Hafen von Alcudia bevorzugen, beide Erlebnisse beinhalten mallorquinisches Essen, ein Getränk und Wasseraktivitäten.",
+      "morning_name": "Morgen-Abenteuer",
+      "morning_time": "10:00 - 14:00",
+      "morning_duration": "4 Stunden",
+      "morning_price": "68€",
+      "morning_highlights": "Ideal zum Schnorcheln • Ruhiges Wasser • Beobachtung des Meereslebens",
+      "sunset_name": "Sonnenuntergangs-Zauber",
+      "sunset_time": "18:00 - 21:00",
+      "sunset_duration": "3 Stunden",
+      "sunset_price": "65€",
+      "sunset_highlights": "Spektakuläre Aussichten • Am romantischsten • Premium-Erlebnis",
+      "whats_included": "Was ist Enthalten",
+      "snorkeling_equipment": "Schnorchelausrüstung",
+      "paddle_boards": "Paddle Boards",
+      "mallorcan_tapas": "Mallorquinische Tapas",
+      "free_drink": "Ein Gratisgetränk oder Sangria",
+      "from": "Ab",
+      "per_person": "pro Person",
+      "book_now": "Jetzt Buchen",
+      "departure_title": "Abfahrtsort: Port d'Alcúdia",
+      "departure_description": "Alle Touren starten vom Port d'Alcúdia und beinhalten professionelle Crew, Sicherheitsausrüstung und Versicherung"
+    },
+    "why_choose": {
+      "label": "Warum Uns Wählen",
+      "title": "Die Besten Bootstouren in Alcudia, Mallorca",
+      "description": "Entdecken Sie, warum Tausende von Reisenden Coral Boats für ihr unvergessliches Bootserlebnis in der atemberaubenden Bucht von Alcudia wählen. Vom Schnorcheln in kristallklarem Wasser bis zum Beobachten spektakulärer mediterraner Sonnenuntergänge bieten wir die perfekte Mischung aus Abenteuer, Entspannung und authentischer mallorquinischer Gastfreundschaft.",
+      "reason_1_title": "Authentisches Mallorquinisches Erlebnis",
+      "reason_1_desc": "Segeln Sie durch die unberührten Gewässer der Bucht von Alcudia mit Einheimischen, die jede versteckte Bucht, jeden geheimen Strand und die besten Schnorchelplätze auf Mallorca kennen.",
+      "reason_2_title": "Klassischer 1968 Bootszauber",
+      "reason_2_desc": "Betreten Sie Coral Boat, ein wunderschön restauriertes klassisches Schiff, das vintage maritime Eleganz mit moderner Sicherheit und Komfort für eine unvergessliche Reise verbindet.",
+      "reason_3_title": "Traditionelle Mallorquinische Tapas",
+      "reason_3_desc": "Genießen Sie authentische Aromen Mallorcas mit unserer Auswahl an lokalen Tapas und erfrischenden Getränken, einschließlich traditioneller Sangria, frisch an Bord während Ihrer Bootstour serviert.",
+      "reason_4_title": "Kleingruppen-Abenteuer",
+      "reason_4_desc": "Genießen Sie ein intimes Bootserlebnis in Alcudia mit kleinen Gruppen, die persönliche Aufmerksamkeit, viel Platz zum Entspannen und eine authentischere Verbindung zum Mittelmeer gewährleisten.",
+      "reason_5_title": "Lizenziert & Versichert",
+      "reason_5_desc": "Reisen Sie mit vollständiger Seelenruhe, da unsere Bootstouren alle spanischen maritimen Sicherheitsvorschriften erfüllen, mit professioneller Crew, moderner Ausrüstung und umfassender Versicherung.",
+      "reason_6_title": "Leidenschaft für das Meer",
+      "reason_6_desc": "Wir sind nicht nur Reiseveranstalter – wir sind Meeresliebhaber, die die Magie der Küste Mallorcas, kristallklares Wasser und atemberaubende Sonnenuntergänge mit Reisenden aus aller Welt teilen.",
+      "cta_title": "Bereit für die Beste Bootstour auf Mallorca?",
+      "cta_description": "Buchen Sie heute Ihr Morgenabenteuer oder Ihre magische Sonnenuntergangstour und schaffen Sie Erinnerungen, die ein Leben lang halten. Begleiten Sie uns an Bord von Coral Boats für eine authentische Bootsfahrt durch die atemberaubenden Gewässer der Bucht von Alcudia, komplett mit Schnorcheln, Paddle Boarding, mallorquinischen Tapas und unvergesslichen Aussichten.",
+      "instant_confirmation": "Sofortbestätigung",
+      "free_cancellation": "Kostenlose Stornierung",
+      "best_price": "Bestpreisgarantie",
+      "cta_button": "Buchen Sie Ihr Abenteuer Jetzt",
+      "rating": "4.9 Bewertung auf Google Rezensionen",
+      "seo_subtitle_1": "Erkunden Sie die Bucht von Alcudia Wie Nie Zuvor",
+      "seo_text_1": "Die Bucht von Alcudia ist einer der spektakulärsten Naturschätze Mallorcas mit kristallklarem türkisfarbenem Wasser, versteckten Buchten und unberührten Stränden, die nur mit dem Boot erreichbar sind. Unsere fachkundig geführten Bootstouren bringen Sie zu den schönsten Orten entlang der Nordküste Mallorcas, wo Sie mit bunten mediterranen Fischen schnorcheln, an abgelegenen Stränden entspannen und in Gewässern schwimmen können, die so klar sind, dass Sie den sandigen Boden Meter darunter sehen können.",
+      "seo_subtitle_2": "Perfekt für Jeden Reisenden",
+      "seo_text_2": "Ob Sie mit Familie, Freunden oder als Paar auf der Suche nach Romantik reisen, unsere Bootstouren in Alcudia bieten für jeden etwas Besonderes. Familien lieben unser sicheres, geräumiges Boot und kinderfreundliche Aktivitäten wie Schnorcheln und Paddle Boarding. Paare finden die Sonnenuntergangstour perfekt für romantische Momente, während Freundesgruppen die gesellige Atmosphäre, köstliche Tapas und erfrischende Sangria genießen, während wir durch das Paradies segeln."
+    },
+    "private_charters": {
+      "label": "Exklusive Erlebnisse",
+      "title": "Privatcharter & Besondere Ereignisse",
+      "description": "Schaffen Sie unvergessliche Momente mit einem Privatcharter, der exklusiv für Ihren besonderen Anlass zugeschnitten ist. Ob Sie einen Freundesgeburtstag, eine Firmen-Teambuilding-Veranstaltung, eine Meilensteinfeier oder ein intimes Treffen mit Lieben planen, Coral Boats bietet die perfekte Kulisse für Ihre Veranstaltung. Buchen Sie heute Ihre private Bootsfahrt in Alcudia, Mallorca und lassen Sie uns helfen, ein unvergessliches Erlebnis zu schaffen!",
+      "name": "Privatcharter",
+      "time": "Flexible Zeiten",
+      "duration": "Individuelle Dauer",
+      "price": "Kontaktieren Sie Uns",
+      "highlights": "Exklusives Erlebnis • Vollständig anpassbar • Perfekt für Veranstaltungen",
+      "custom_itinerary": "Individuelle Route",
+      "catering_drinks": "Catering & Getränke",
+      "professional_crew": "Professionelle Crew",
+      "water_activities": "Wasseraktivitäten",
+      "duration_label": "Dauer",
+      "duration_value": "3-4 Stunden",
+      "flexible_options": "flexible Optionen",
+      "info_text": "Privatcharter können an Ihre spezifischen Bedürfnisse angepasst werden. Sehen Sie unsere transparenten Preise und buchen Sie online."
+    },
+    "footer_premium": {
+      "description": "Erleben Sie die Magie der Bucht von Alcudia auf Mallorca an Bord unseres klassischen Bootes. Entdecken Sie versteckte Buchten, schnorcheln Sie in kristallklarem Wasser und schaffen Sie unvergessliche Erinnerungen.",
+      "quick_links": "Schnelllinks",
+      "home": "Startseite",
+      "our_tours": "Unsere Touren",
+      "gallery": "Galerie",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "tours_title": "Unsere Touren",
+      "morning_tour": "Morgentour mit dem Boot",
+      "sunset_tour": "Sonnenuntergangstour mit dem Boot",
+      "private_charter": "Privatcharter",
+      "get_in_touch": "Kontakt Aufnehmen",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "location": "Hafen von Alcudia, Mallorca",
+      "copyright": "Coral Boats Mallorca. Alle Rechte vorbehalten.",
+      "privacy_policy": "Datenschutzrichtlinie",
+      "cookies_policy": "Cookie-Richtlinie",
+      "terms_conditions": "Geschäftsbedingungen"
+    },
+    "contact_new": {
+      "send_message_title": "Senden Sie Uns eine Nachricht",
+      "send_message_subtitle": "Füllen Sie das untenstehende Formular aus und wir melden uns so schnell wie möglich bei Ihnen",
+      "email_label": "E-Mail",
+      "tel_label": "Telefon",
+      "response_time": "Schnelle Antwortzeit",
+      "response_time_desc": "Wir antworten in der Regel innerhalb weniger Stunden auf alle Anfragen. Für dringende Angelegenheiten rufen Sie uns bitte direkt an.",
+      "seo_title": "Kontaktieren Sie Coral Boats Mallorca",
+      "seo_text_1": "Möchten Sie eine Bootstour in Alcudia, Mallorca buchen? Coral Boats bietet die besten Bootserlebnisse in der Bucht von Alcudia. Ob Sie an unserer Morgentour, Sonnenuntergangskreuzfahrt oder einem Privatcharter für einen besonderen Anlass interessiert sind, wir sind hier, um Ihre Mallorca-Bootstour unvergesslich zu machen.",
+      "seo_text_2": "Unser Team ist bereit, alle Fragen zu unseren Bootstouren, Abfahrtszeiten vom Hafen von Alcudia, was mitzubringen ist und wie Sie die schönen Strände und Buchten rund um die Bucht von Alcudia erreichen, zu beantworten. Kontaktieren Sie uns noch heute, um Ihren Platz auf einer der bestbewerteten Bootstouren auf Mallorca zu reservieren.",
+      "seo_text_3": "Wir bieten auch maßgeschneiderte Privatcharter für Gruppen, Familien und besondere Feiern an. Kontaktieren Sie uns, um Ihren perfekten Tag auf dem Wasser zu besprechen und die atemberaubende Küste Nordmallorcas zu erkunden, einschließlich Stopps an Playa de Muro, dem Leuchtturm von Alcanada und versteckten Buchten, die nur mit dem Boot erreichbar sind."
+    },
+    "testimonials": {
+      "label": "Erfahrungsberichte",
+      "title": "Bootstour-Bewertungen in Alcudia, Mallorca",
+      "description": "Vertrauen Sie nicht nur unserem Wort – lesen Sie Bewertungen von Reisenden, die die Magie Mallorcas mit Coral Boats erlebt haben.",
+      "average_rating": "Durchschnittliche Bewertung",
+      "five_star_reviews": "5-Sterne-Bewertungen",
+      "happy_travelers": "Zufriedene Reisende",
+      "find_us_on": "Finden Sie uns auf"
+    },
+    "charter_pricing": {
+      "hero_badge": "Transparente Preise",
+      "hero_title": "Preise für Private Charter",
+      "hero_subtitle": "Klare, einfache Preise für dein exklusives Bootserlebnis in der Bucht von Alcudia. Buche deine private Feier mit Vertrauen – keine versteckten Gebühren, nur unvergessliche Erinnerungen.",
+      "rates_label": "Unsere Tarife",
+      "rates_title": "Charter-Mietpreise",
+      "rates_description": "Wähle deine bevorzugte Dauer und Saison. Alle Preise beinhalten die Bootsmiete, professionelle Crew, Treibstoff, Versicherung und Ausrüstung für Wasseraktivitäten.",
+      "high_season": "Hochsaison",
+      "high_season_dates": "15. Juni - 15. September",
+      "low_season": "Nebensaison",
+      "low_season_dates": "1. Mai - 14. Juni & 16. September - 31. Oktober",
+      "charter_3h": "3-Stunden-Charter",
+      "charter_4h": "4-Stunden-Charter",
+      "charter_3h_desc": "Perfekte Einführung",
+      "charter_4h_desc": "Halbtägiges Erlebnis",
+      "high_season_info": "Hochsaisonpreise gelten während der Sommermonate",
+      "low_season_info": "Beste Preise für Buchungen im Frühling und Herbst",
+      "whats_included_title": "Was in deinem Charter enthalten ist",
+      "included_capacity": "Kapazität bis zu 40 Personen",
+      "included_crew": "Professionelle Crew",
+      "included_fuel": "Treibstoff Inklusive",
+      "included_insurance": "Vollversicherung",
+      "included_activities": "Wasseraktivitäten",
+      "included_sound": "Soundsystem",
+      "included_route": "Individuelle Route",
+      "included_photos": "Fotoassistenz",
+      "extras_label": "Verbessere dein Erlebnis",
+      "extras_title": "Optionale Extras",
+      "extras_description": "Gestalte deinen Charter individuell mit köstlichen Catering- und Getränkeoptionen. Alle Preise sind pro Person und können deiner Buchung hinzugefügt werden.",
+      "extra_popular": "BELIEBT",
+      "extra_snack_title": "Leichter Snack",
+      "extra_snack_desc": "Auswahl an Chips, Nüssen, Oliven und Aufschnitt",
+      "extra_tapas_title": "Traditionelles Tapas-Menü",
+      "extra_tapas_desc": "Coca de trempó, Empanada, Tortilla, Aufschnitt & Käse, Chips, Nüsse, Oliven und Dessert",
+      "extra_bar_title": "Open-Bar-Paket",
+      "extra_bar_desc": "Unbegrenzte Softdrinks, Wein, Bier und Sangria während deines Charters",
+      "per_person": "pro Person",
+      "byo_title": "Option: Eigene Speisen & Getränke Mitbringen",
+      "byo_description": "Du kannst gerne deine eigenen Speisen und Getränke mitbringen! An Bord stehen Kühlschränke und Kühlboxen zur Verfügung. Gib uns einfach vorher Bescheid, damit wir uns vorbereiten können.",
+      "booking_label": "Bereit zu Buchen?",
+      "booking_title": "Fordere Deinen Charter an",
+      "booking_description": "Fülle das folgende Formular aus, und wir melden uns innerhalb weniger Stunden, um die Verfügbarkeit zu bestätigen und dein privates Chartererlebnis zu finalisieren.",
+      "form_first_name": "Vorname",
+      "form_last_name": "Nachname",
+      "form_email": "E-Mail-Adresse",
+      "form_phone": "Telefonnummer",
+      "form_date": "Bevorzugtes Datum",
+      "form_duration": "Charter-Dauer",
+      "form_guests": "Anzahl der Gäste",
+      "form_extras": "Optionale Extras",
+      "form_message": "Zusätzliche Details oder Sonderwünsche",
+      "form_first_name_placeholder": "Dein Vorname",
+      "form_last_name_placeholder": "Dein Nachname",
+      "form_email_placeholder": "deine.email@beispiel.com",
+      "form_phone_placeholder": "+49 123 456 789",
+      "form_duration_placeholder": "Dauer auswählen",
+      "form_duration_3h": "3 Stunden",
+      "form_duration_4h": "4 Stunden",
+      "form_guests_placeholder": "Bis zu 40 Gäste",
+      "form_message_placeholder": "Erzähl uns von deinem Event, besonderen Anforderungen oder Fragen...",
+      "form_extra_snack": "Leichter Snack - €4/Person",
+      "form_extra_tapas": "Traditionelles Tapas-Menü - €10/Person",
+      "form_extra_bar": "Open-Bar-Paket - €12/Person",
+      "form_submit": "Buchungsanfrage Senden",
+      "form_submitting": "Anfrage Wird Gesendet...",
+      "form_privacy": "Mit dem Absenden dieses Formulars erklärst du dich damit einverstanden, in Bezug auf deine Charterbuchung kontaktiert zu werden. Wir antworten in der Regel innerhalb weniger Stunden.",
+      "form_success": "Danke für deine Buchungsanfrage! Wir melden uns in wenigen Stunden, um die Verfügbarkeit zu bestätigen und die Details abzuschließen.",
+      "form_error_first_name": "Vorname ist erforderlich",
+      "form_error_last_name": "Nachname ist erforderlich",
+      "form_error_email": "E-Mail ist erforderlich",
+      "form_error_email_invalid": "Ungültiges E-Mail-Format",
+      "form_error_phone": "Telefonnummer ist erforderlich",
+      "form_error_date": "Bevorzugtes Datum ist erforderlich",
+      "form_error_duration": "Bitte wähle die Charter-Dauer aus",
+      "form_error_guests": "Anzahl der Gäste ist erforderlich",
+      "form_error_message_min": "Nachricht muss mindestens 10 Zeichen enthalten"
+    },
+    "gallery": {
+      "hero_badge": "Fotogalerie",
+      "hero_title": "Entdecke Unsere Bootserlebnisse",
+      "hero_subtitle": "Entdecke die Schönheit der Bucht von Alcudia in unserer Sammlung beeindruckender Fotos. Von kristallklarem Wasser und atemberaubenden Sonnenuntergängen bis zu unvergesslichen Momenten mit Freunden und Familie – entdecke, warum Coral Boats das beste Bootserlebnis auf Mallorca bietet.",
+      "section_label": "Unsere Erinnerungen",
+      "section_title": "Galerie der Bootstouren",
+      "section_description": "Entdecke beeindruckende Fotos von unseren Bootstouren in der Bucht von Alcudia, Mallorca. Sieh das klare Wasser, die wunderschöne Küste und unvergessliche Momente, die unsere Gäste erleben.",
+      "click_to_view": "Zum Anzeigen Klicken",
+      "seo_title": "Erlebe die Besten Bootstouren in Alcudia, Mallorca",
+      "seo_intro": "Willkommen in der Fotogalerie von Coral Boats – hier zeigen wir die unvergesslichen Erlebnisse unserer <strong>Bootstouren in Alcudia, Mallorca</strong>. Durchstöbere beeindruckende Bilder unserer <strong>Morgenabenteuer</strong>, <strong>Sunset-Cruises</strong> und <strong>Privatcharter</strong> in der wunderschönen Bucht von Alcudia.",
+      "tours_title": "Unsere Bootstouren auf Mallorca",
+      "tours_description": "Coral Boats bietet die besten <strong>Bootstouren ab dem Hafen von Alcudia</strong> mit drei einzigartigen Erlebnissen:",
+      "tour_morning": "<strong>Morgenabenteuer</strong>: 4-stündige Bootsfahrt mit Schnorcheln, Paddleboarding und mallorquinischen Tapas",
+      "tour_sunset": "<strong>Sunset Magic Tour</strong>: 3-stündige romantische Fahrt mit atemberaubenden mediterranen Sonnenuntergangsansichten",
+      "tour_private": "<strong>Privatcharter</strong>: Vollständig anpassbares Erlebnis für Gruppen bis zu 40 Personen",
+      "why_alcudia_title": "Warum Die Bucht von Alcudia Wählen?",
+      "why_alcudia_description": "Die <strong>Bucht von Alcudia</strong> ist eines der spektakulärsten Küstengebiete Mallorcas – mit kristallklarem, türkisfarbenem Wasser, versteckten Buchten und atemberaubenden Ausblicken auf den ikonischen <strong>Leuchtturm von Alcanada</strong>. Unsere <strong>Bootsausflüge auf Mallorca</strong> bringen dich zu den schönsten Orten, einschließlich abgelegener Strände und unberührter Schnorchelplätze, die nur mit dem Boot erreichbar sind.",
+      "beaches_title": "Entdecke Mallorcas Schönste Strände per Boot",
+      "beaches_p1": "Unsere <strong>Bootstouren ab Alcudia</strong> bieten exklusiven Zugang zu einigen der <strong>besten Strände Mallorcas</strong> und versteckten Küstenschätze. Erkunde unberührte <strong>Strände in der Nähe von Alcudia</strong> wie <strong>Playa de Muro</strong>, die abgelegenen Buchten von <strong>Alcanada</strong> und die beeindruckenden <strong>Strände im Norden Mallorcas</strong>, die nur über das Meer erreichbar sind.",
+      "beaches_p2": "Erlebe das türkisfarbene Wasser der <strong>Strände von Port d'Alcudia</strong>, entdecke versteckte <strong>Calas auf Mallorca</strong> und genieße das Schwimmen im kristallklaren Mittelmeer an <strong>geheimen Stränden, die nur per Boot erreichbar sind</strong>. Unsere Touren bieten die perfekte Kombination aus <strong>Beach-Hopping</strong>, Schnorcheln in geschützten Buchten und Erkundung der atemberaubenden <strong>Küste von Alcudia</strong>.",
+      "book_title": "Buche Deine Bootstour in Alcudia Noch Heute",
+      "book_description": "Schließe dich über 10.000 zufriedenen Gästen an, die die Magie der <strong>Bootstouren in Alcudia, Mallorca</strong> mit Coral Boats erlebt haben. Ob du nach einem <strong>familienfreundlichen Ausflug</strong>, einer <strong>romantischen Sunset-Cruise</strong> oder einer <strong>privaten Feier auf See</strong> suchst – wir haben das perfekte Bootserlebnis für dich. Alle Touren beinhalten professionelle Crew, Schnorchelausrüstung, Paddleboards, köstliche mallorquinische Tapas und kostenlose Getränke oder Sangria.",
+      "book_footer": "📍 Tägliche Abfahrten vom Hafen von Alcudia, Mallorca | ⭐ 4,9/5 Bewertung aus über 500 Rezensionen | 🏆 Lizenziert & Versichert – Offizieller Anbieter",
+      "image_alcanada_lighthouse": "Blick auf den Leuchtturm von Alcanada",
+      "image_boat_alcanada": "Segeln nach Alcanada",
+      "image_boat_fun": "Spaß an Bord",
+      "image_boat_interior": "Komfortables Bootsinnere",
+      "image_card_morning": "Morgenabenteuer-Erlebnis",
+      "image_card_private": "Privatcharter-Luxus",
+      "image_card_sunset": "Sunset Magic Tour",
+      "image_classic_boat": "Unser Klassisches Boot",
+      "image_coastline_views": "Beeindruckende Küstenansichten",
+      "image_cove": "Entdeckung Versteckter Buchten",
+      "image_crew_service": "Professioneller Crewdienst",
+      "image_friends_enjoy": "Freunde Genießen den Moment",
+      "image_friends_fun": "Unvergessliche Erinnerungen Zusammen",
+      "image_friends_group": "Gruppenfeiern an Bord",
+      "image_golden_hour": "Magie der Goldenen Stunde",
+      "image_hidden_coves": "Erkundung Versteckter Buchten",
+      "image_island_boat": "Inselabenteuer",
+      "image_kids_fun": "Familienspaß für Alle Altersgruppen",
+      "image_mallorca_views": "Atemberaubende Mallorca-Aussichten",
+      "image_mallorcan_tapas": "Leckere Mallorquinische Tapas",
+      "image_matress": "Entspannung auf dem Wasser",
+      "image_meal": "Frische Mediterrane Küche",
+      "image_paddel_board": "Paddleboarding-Spaß",
+      "image_panoramic_beach": "Panoramischer Strand-Paradies",
+      "image_partners": "Romantische Momente auf See",
+      "image_professional_crew": "Erfahrene Crewmitglieder",
+      "image_sangria_tapas": "Sangria & Tapas Erlebnis",
+      "image_sunset": "Spektakuläre Sonnenuntergänge",
+      "image_sunset_image": "Mediterrane Sonnenuntergangsschönheit",
+      "image_sunset_light": "Goldenes Abendlicht",
+      "image_sunset_port": "Hafen von Alcudia bei Sonnenuntergang",
+      "image_tour": "Unglaubliches Bootstour-Erlebnis",
+      "image_water_fun": "Wasseraktivitäten & Spaß"
+    },
+    "contact_page": {
+      "hero_badge": "Kontakt",
+      "form_error_first_name": "Vorname ist erforderlich",
+      "form_error_last_name": "Nachname ist erforderlich",
+      "form_error_email": "E-Mail ist erforderlich",
+      "form_error_email_invalid": "Ungültiges E-Mail-Format",
+      "form_error_phone": "Telefonnummer ist erforderlich",
+      "form_error_subject": "Betreff ist erforderlich",
+      "form_error_message": "Nachricht ist erforderlich",
+      "form_error_message_min": "Nachricht muss mindestens 5 Zeichen enthalten",
+      "form_success": "Vielen Dank für deine Nachricht! Wir werden uns so schnell wie möglich mit dir in Verbindung setzen."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie Coral Boats Mallorca",
+      "body": "Haben Sie Fragen zu unseren Bootstouren in Alcúdia? Möchten Sie einen Privatcharter buchen oder benötigen Sie Hilfe bei der Planung Ihres perfekten Tages auf dem Wasser? Unser freundliches Team ist für Sie da. Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam unvergessliche Erinnerungen in der wunderschönen Bucht von Alcúdia schaffen.",
+      "name": "Vorname",
+      "surname": "Nachname",
+      "tel": "Telefon",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "send_message": "Nachricht Senden"
+    }
+  },
+  "blog_catorce": {
+    "title": "Schnorcheln auf Mallorca: Die besten Plätze in der Nähe von Alcudia",
+    "slug": "schnorcheln-mallorca-beste-orte-alcudia",
+    "keyword": "Schnorcheln Mallorca Alcudia",
+    "meta_description": "Entdecke die besten Schnorchelspots in der Nähe von Alcudia, Mallorca. Kristallklares Wasser, lebendige Meereswelt und verborgene Schätze unter Wasser erwarten dich.",
+    "publishedDate": "18. Juli 2025",
+    "btnText": "Mehr lesen",
+    "badgeTitle": "Meeresleben",
+    "section1": {
+      "title": "Erkunde die Unterwasserwelt an der Nordküste Mallorcas",
+      "body": "Das kristallklare Wasser rund um Alcudia bietet einige der besten Schnorchelerlebnisse im Mittelmeer. Mit hervorragender Sicht, reicher Meeresbiodiversität und beeindruckenden Unterwasserlandschaften ist diese Gegend ideal für Anfänger und erfahrene Schnorchler gleichermaßen. In diesem Leitfaden zeigen wir dir die besten Schnorchelplätze, was du dort entdecken kannst und geben wichtige Tipps, um dein Unterwasserabenteuer optimal zu genießen."
+    },
+    "section2": {
+      "title": "Warum in Alcudia schnorcheln?",
+      "body": "Die Bucht von Alcudia bietet ideale Bedingungen zum Schnorcheln:\n\n- Kristallklares, türkisfarbenes Wasser mit einer Sichtweite von oft mehr als 20 Metern.\n- Geschützte Buchten mit ruhigem Wasser – perfekt für sicheres Erkunden.\n- Eine vielfältige Meereswelt mit bunten Fischen, Oktopussen, Seesternen und gelegentlich sogar Meeresschildkröten.\n- Felsige Meeresböden und Posidonia-Seegraswiesen, die lebendige Ökosysteme schaffen.\n- Zugängliche Orte sowohl vom Ufer als auch mit dem Boot.\n\nEgal, ob du Anfänger oder erfahrener Schnorchler bist – das Wasser rund um Alcudia hat für jeden etwas Magisches zu bieten."
+    },
+    "section3": {
+      "title": "Die 3 besten Schnorchelspots in der Nähe von Alcudia",
+      "body": "Hier sind drei großartige Orte, um die Unterwasserwelt rund um Alcudia zu erkunden.",
+      "sub1": {
+        "subtitle": "Versteckte Buchten entlang der Bucht von Alcudia",
+        "body": "Die abgelegenen Buchten, die nur per Boot erreichbar sind, bieten einige der unberührtesten Bedingungen zum Schnorcheln. Diese natürlichen Orte zeichnen sich durch felsige Formationen voller Meeresleben, lebendige Posidonia-Wiesen (geschütztes Seegras) und so klares Wasser aus, dass man den Sandboden von der Oberfläche aus sehen kann. Schwärme bunter Fische, neugierige Oktopusse und Seesterne leben hier. Unsere Bootstouren beinhalten oft Schnorchelstopps an diesen versteckten Juwelen – inklusive Ausrüstung."
+      },
+      "sub2": {
+        "subtitle": "Playa de Aucanada",
+        "body": "In der Nähe des ikonischen Leuchtturms von Aucanada bietet dieses Gebiet hervorragende Bedingungen zum Schnorcheln mit relativ ruhigem Wasser. Die felsige Küste schafft interessante Unterwasserlandschaften, in denen du Jungfische, Lippfische, Brassen und gelegentlich sogar Muränen in Spalten entdecken kannst. Die Mischung aus sandigen und felsigen Bereichen sorgt für vielfältige Lebensräume. Außerdem ist der Ort leicht vom Ufer aus zugänglich – ideal für eigenständige Erkundungen."
+      },
+      "sub3": {
+        "subtitle": "Cala Sant Vicenç",
+        "body": "Nur eine kurze Autofahrt von Alcudia entfernt liegt dieses beeindruckende Gebiet mit vier kleinen Buchten, die hervorragende Bedingungen zum Schnorcheln bieten. Das klare, ruhige Wasser und die felsigen Meeresböden beherbergen eine Vielzahl mediterraner Arten. Die Unterwassersicht hier ist außergewöhnlich, und die dramatischen Klippen darüber schaffen eine spektakuläre Kulisse. Besonders für Familien geeignet, da die flachen Gewässer in Ufernähe perfekt für Kinder sind, die schnorcheln lernen."
+      }
+    },
+    "section4": {
+      "title": "Was du mitbringen und wie du dich vorbereiten solltest",
+      "body": "Um dein Schnorchelerlebnis rund um Alcudia optimal zu gestalten, solltest du Folgendes mitbringen:\n\n- Eine hochwertige Maske und einen Schnorchel (oder nimm an einer Bootstour teil, bei der die Ausrüstung gestellt wird).\n- Flossen, um dich leichter fortzubewegen, besonders in tieferen Bereichen.\n- Riff-sichere Sonnencreme, um sowohl deine Haut als auch die Meeresumwelt zu schützen.\n- Eine wasserdichte Kamera oder GoPro, um die Unterwasserwelt festzuhalten.\n- Wasserschuhe für felsige Einstiege, wenn du vom Ufer schnorchelst.\n- Einen Netzbeutel, um deine Ausrüstung organisiert zu halten.\n\nWenn du an einer unserer Bootstouren teilnimmst, ist die gesamte Schnorchelausrüstung inbegriffen – ebenso erfahrene Guides, die die besten Plätze kennen und dir interessante Meeresbewohner zeigen. Wir bieten auch Snacks und Getränke an, damit du dich voll und ganz auf dein Erlebnis konzentrieren kannst."
+    },
+    "section5": {
+      "title": "Bereit, Mallorcas Unterwasserwelt zu entdecken?",
+      "body": "Schnorcheln in der Bucht von Alcudia ist eine unvergessliche Möglichkeit, sich mit dem Mittelmeer zu verbinden und seine unglaubliche Artenvielfalt zu erleben. Ob du vom Ufer aus erkundest oder an einer unserer Bootstouren teilnimmst, um die unberührtesten Buchten zu erreichen – du wirst von der Klarheit des Wassers und der Fülle des Meereslebens begeistert sein.\n\nTauche ein und lass dich von der Magie der Unterwasserwelt Mallorcas verzaubern!"
+    }
+  },
+  "about": {
+    "label": "Über Uns",
+    "title": "Seit 1968 auf Mallorcas Gewässern Unterwegs",
+    "badge_since": "Seit",
+    "badge_year": "1968",
+    "paragraph_1": "Willkommen an Bord von Coral Boats, einem wunderschön restaurierten klassischen Boot, das seit 1968 die mediterranen Gewässer ziert. Unsere Geschichte begann mit einer Leidenschaft für das Meer und einem Traum, die verborgenen Schätze Mallorcas mit Reisenden aus aller Welt zu teilen.",
+    "paragraph_2": "Unter der Leitung unseres erfahrenen Kapitäns und der engagierten Crew haben wir die Kunst der Bootstouren in der Bucht von Alcudia perfektioniert. Wir kennen jede Bucht, jeden geheimen Strand und jeden perfekten Ort, an dem das Wasser in Türkistönen schimmert, die fast unwirklich erscheinen.",
+    "paragraph_3": "Was uns auszeichnet, ist unser Engagement für authentische Erlebnisse. Wir sind nicht nur ein Reiseveranstalter – wir sind Einheimische, die unsere Insel lieben und ihre Magie mit Ihnen teilen möchten. Jede Tour ist mit Sorgfalt gestaltet und kombiniert Abenteuer, Entspannung und die echte Wärme mediterraner Gastfreundschaft.",
+    "stat_1_number": "Seit 1968",
+    "stat_1_label": "Klassisches Boot",
+    "stat_2_number": "5 Sterne",
+    "stat_2_label": "Bewertungen",
+    "stat_3_number": "Bucht von Alcudia",
+    "stat_3_label": "Spezialisten",
+    "quote_text": "\"Wir glauben, dass die schönsten Erinnerungen auf dem Wasser entstehen – umgeben von der Schönheit der Natur, guter Gesellschaft und dem Geist des Abenteuers.\"",
+    "quote_author": "— Kapitän & Crew, Coral Boats Mallorca"
+  }
+}

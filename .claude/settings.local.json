@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Read(//c/Users/nacho/Desktop/CORAL BOATS/fotos/mayo25/buenas/getyourguide/Diseño sin título - copia/**)",
+      "Bash(taskkill:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(curl:*)",
+      "Read(//c//**)",
+      "Bash(python:*)",
+      "Bash(node:*)",
+      "Bash(npm run build)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(cat:*)",
+      "Bash(rm -rf \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\(homes)\")",
+      "Bash(rm -rf \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\home-premium\")",
+      "Bash(rm -rf \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\(tour)\\tour\")",
+      "Bash(rm -rf \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\(tour)\\photo-gallery\")",
+      "Bash(rm -rf \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\interesados\")",
+      "Bash(rm -f \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\pages\\homes\\home-1.tsx\")",
+      "Bash(rm -f \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\pages\\tour\\tour.tsx\")",
+      "Bash(rm -f \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\pages\\interesados\\interesados.tsx\")",
+      "Bash(rmdir \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\pages\\tour\")",
+      "Bash(rmdir \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\pages\\interesados\")",
+      "Bash(timeout 5 echo:*)",
+      "Bash(timeout 8 echo:*)",
+      "Bash(timeout:*)",
+      "Bash(for f in \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\(tour)\"/**/page.tsx)",
+      "Bash(do mv \"$f\" \"$f.old\")",
+      "Bash(done)",
+      "Bash(for f in \"C:\\Users\\nacho\\Desktop\\plantillaWeb\\travello-nextjs\\CoralBoats-nextjs\\src\\app\\(blog)\"/**/page.tsx)",
+      "Bash(vercel:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

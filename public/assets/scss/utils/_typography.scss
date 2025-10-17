@@ -1,0 +1,39 @@
+// font url
+$font-url: 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Glass+Antiqua&display=swap" rel="stylesheet" rel="stylesheet';
+
+@font-face {
+  font-family: 'Gloss And Bloom';
+  src: url('../../fonts/gloss_and_bloom_font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Motter Corpus Cond ITC';
+  src: url('../../fonts/MotterCorpusCondITCTT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// font family
+$font-family: (
+  'ff': (
+    'body': "'Montserrat', sans-serif",
+    'heading': "'Montserrat', sans-serif",
+    'gloss': "'Gloss And Bloom', sans-serif",
+    'fontawesome': '"Font Awesome 6 Pro"',
+    'garamond': '"EB Garamond"',
+    'display': "'Montserrat', sans-serif",
+    'motter1': "'Motter Corpus Cond ICG', sans-serif",
+    'motter2': "'Motter Corpus Cond ITC', sans-serif",
+    'vietnam': "'Montserrat', sans-serif",
+
+  ),
+);
+
+// font size
+$font-size: (
+  'fz': (
+    'body': 16px,
+    'p': 18px,
+  ),
+);

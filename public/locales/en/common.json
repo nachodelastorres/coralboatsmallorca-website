@@ -1,0 +1,1573 @@
+{
+    "menu":{
+        "home": "Home",
+        "excursions": "Tours",
+        "morningTour": "Morning Boat Tour",
+        "sunsetTour": "Sunset Boat Tour",
+        "privateTour": "Private Boat Charter",
+        "allTours": "All Tours",
+        "gallery": "Gallery",
+        "blog": "Blog",
+        "contact": "Contact",
+        "getInTouch": "Get in Touch",
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "bookYourTour": "Book Your Tour"
+    },
+
+    "blog_uno": {
+  "title": "The best boat tours in Mallorca for this summer",
+  "slug": "best-boat-tours-mallorca",
+  "keyword": "boat tours Mallorca",
+  "meta_description": "Discover the most recommended boat tours to enjoy the Mediterranean Sea during your holidays in Mallorca.",
+  "publishedDate": "March 26, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Adventure",
+  "section1": {
+    "title": "Planning your holiday on the island and looking for an unforgettable experience?",
+    "body": "Boat tours in Mallorca are undoubtedly one of the best ways to enjoy its coastline, discover hidden coves, and relax at sea under the Mediterranean sun. In this article, we explain why this activity is a must for your summer and share some routes and tips to make the most of it."
+  },
+  "section2": {
+    "title": "Why go on a boat tour in Mallorca?",
+    "body": "Mallorca has more than 550 kilometers of coastline, and many of its natural gems are only accessible by sea. Taking a boat tour allows you to:\n\n- Discover virgin coves away from the crowds.\n- Swim in crystal-clear waters barely visited by other tourists.\n- Relax with the sound of the sea and views of the Tramuntana mountains or the northern cliffs.\n- Enjoy spectacular sunsets from the water.\n\nTours often include swimming stops, snorkeling, drinks on board, and guides who share fun facts about the area. It’s an experience that blends relaxation, adventure, and a deep connection with nature."
+  },
+  "section3": {
+    "title": "Top routes to enjoy by boat",
+    "body": "Here are three standout routes to explore Mallorca from the sea.",
+    "sub1": {
+      "subtitle": "Bay of Alcudia and hidden cove",
+      "body": "A 3-hour tour perfect for families, couples or groups of friends. You’ll sail through the Bay of Alcudia to a secluded cove, ideal for swimming and disconnecting. The turquoise water, peaceful silence, and natural surroundings will transport you to another world."
+    },
+    "sub2": {
+      "subtitle": "Caves of Artà and northeast coast",
+      "body": "This route explores the island’s northeast coast, passing beaches like Cala Mesquida and Cala Torta. Some tours include stops at sea caves — a truly unique experience!"
+    },
+    "sub3": {
+      "subtitle": "Sunset tours",
+      "body": "Sunset tours depart in the late afternoon and let you watch the sun disappear on the horizon as you sail with soft music and a drink in hand. Pure Mallorcan magic."
+    }
+  },
+  "section4": {
+    "title": "What to bring",
+    "body": "To fully enjoy your boat trip in Mallorca, don’t forget to pack:\n\n- Sunscreen (the sun hits hard at sea).\n- Comfortable clothes and swimsuit.\n- Towel, sunglasses, and a hat.\n- Camera or phone with battery to capture special moments.\n- A light jacket if you're going on a sunset tour.\n\nIt's also recommended to book in advance during high season, as spots tend to fill up quickly."
+  },
+  "section5": {
+    "title": "Ready to book your next boat tour?",
+    "body": "Boat tours in Mallorca are much more than a simple ride on the sea: they’re a way to experience the island from a different perspective, feel the sea breeze, discover hidden spots, and create unforgettable memories. Whether you come alone, as a couple, with friends or family, there's a perfect option for you.\nThis summer, hop on board and let the Mediterranean surprise you!"
+  }
+},
+
+"experience": {
+  "title": "Live the Coral Boats experience",
+  "description": "Sail on our classic boat, explore hidden coves, and enjoy the Mediterranean like never before."
+},
+
+"includes": {
+  "title": "What’s included in your Coral Boats experience?",
+  "subtitle": "Everything you'll enjoy on board",
+  "items": [
+    { "label": "3-hour classic boat trip" },
+    { "label": "Stop at a hidden cove" },
+    { "label": "Free time to swim and snorkel" },
+    { "label": "Snorkeling gear included" },
+    { "label": "Paddle surf" },
+    { "label": "Drinks and traditional food on board" },
+    { "label": "Relaxed background music" },
+    { "label": "Local guide and professional crew" }
+  ]
+},
+
+"blog_dos": {
+  "title": "Things to Do in Alcudia: Must-See Plans on Mallorca’s North Coast",
+  "slug": "things-to-do-in-alcudia-must-see-plans",
+  "keyword": "things to do in Alcudia",
+  "meta_description": "Discover the top things to do in Alcudia, from boat tours and historic sights to stunning beaches and local culture.",
+  "publishedDate": "April 5, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Local guide",
+  "section1": {
+    "title": "Alcudia, the heart of Mallorca’s north coast",
+    "body": "Alcudia is one of the most complete destinations on the island: history, beaches, food, and nature come together to offer an unforgettable experience. In this guide, we’ll show you what to see, what to do, and how to make the most of your visit."
+  },
+  "section2": {
+    "title": "Top things to do in Alcudia",
+    "body": "If you're visiting Alcudia, don’t miss:\n\n- A walk through the walled old town and its local market.\n- Relaxing on Alcudia Beach, one of Mallorca’s longest and most family-friendly beaches.\n- A boat tour around the bay to discover hidden coves only accessible by sea.\n- Visiting the s'Albufera natural park for hiking and birdwatching.\n- Tasting local Mallorcan cuisine on a terrace with sea views."
+  },
+  "section3": {
+    "title": "Three unique ways to experience Alcudia",
+    "body": "Beyond the classics, here are three local experiences to help you connect with the true essence of Alcudia.",
+    "sub1": {
+      "subtitle": "Boat tour with Coral Boats",
+      "body": "Explore the Bay of Alcudia aboard a classic boat. Sail to a hidden cove, swim in crystal-clear waters, and enjoy the authentic Mediterranean breeze. An intimate and original way to connect with the sea."
+    },
+    "sub2": {
+      "subtitle": "Coastal bike ride to Aucanada",
+      "body": "Rent a bike and follow the coast from the port to the lighthouse of Aucanada. A peaceful ride with amazing views and stops to swim, take photos or enjoy a drink by the water."
+    },
+    "sub3": {
+      "subtitle": "Sunset from the medieval walls",
+      "body": "End the day with a walk on top of the old town’s medieval walls. Watch the sun set behind the Tramuntana mountains as the city glows in golden light. A perfect spot for a photo or a quiet moment."
+    }
+  },
+  "section4": {
+    "title": "Practical tips for your visit",
+    "body": "Before your trip, keep in mind:\n\n- Check market days if you’d like to visit.\n- Book your tours in advance during high season.\n- Wear comfortable shoes for walking through the historic center or on nature trails.\n- Don’t forget sunscreen—especially for outdoor activities.\n- Alcudia is one of the most family-friendly destinations on the island."
+  },
+  "section5": {
+    "title": "Alcudia welcomes every kind of traveler",
+    "body": "Whether you’re looking for relaxation or adventure, history or coastline, Alcudia has something for you. It’s a well-rounded, accessible destination full of charm that will win you over from the first moment.\nReady to explore? Plan your getaway and experience the most authentic side of Mallorca from the north coast."
+  }
+},
+
+"blog_tres": {
+  "title": "Boat Tours in Mallorca: A Complete Guide to Choosing the Best Option",
+  "slug": "boat-tours-mallorca-complete-guide",
+  "keyword": "boat tours Mallorca",
+  "meta_description": "Speedboat, catamaran or classic boat? Discover which type of boat tour is best for you based on your travel style and what you’re looking for in Mallorca.",
+  "publishedDate": "April 10, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Comparison",
+  "section1": {
+    "title": "An island best seen from the sea",
+    "body": "Mallorca is stunning from land, but its true beauty is revealed from the sea. Hidden coves, dramatic cliffs, and turquoise waters await. Ready for a boat tour? Here’s how to choose the right one."
+  },
+  "section2": {
+    "title": "Before choosing, think about your travel style",
+    "body": "Each boat type offers a unique experience:\n\n- Looking for speed and adrenaline? A speedboat might be perfect.\n- Want something spacious and social? Try a catamaran.\n- Prefer calm, authenticity and charm? A classic boat is your match.\n\nChoosing well is the key to turning a simple trip into a truly memorable one."
+  },
+  "section3": {
+    "title": "Comparison: speedboat, catamaran or classic boat",
+    "body": "Here’s a breakdown of each type of tour to help you decide.",
+    "sub1": {
+      "subtitle": "Speedboats",
+      "body": "Perfect for thrill-seekers. You reach hidden spots fast and the ride is short but intense. Less space, more adrenaline. Not ideal for small children or those looking for peace and quiet."
+    },
+    "sub2": {
+      "subtitle": "Catamarans",
+      "body": "Spacious with lounging areas and music. Often include food and drinks. Popular with groups and great for celebrations. Less intimate but great for social vibes and relaxing in style."
+    },
+    "sub3": {
+      "subtitle": "Classic boats",
+      "body": "The most authentic and peaceful option. Designed for travelers who want to connect with the sea, take in the views at a relaxed pace, and enjoy a more personalized experience. Ideal for couples, families or anyone who values charm and tradition."
+    }
+  },
+  "section4": {
+    "title": "Things to consider before booking",
+    "body": "We recommend:\n\n- Checking the tour’s duration and stops.\n- Reading reviews and looking at real photos.\n- Confirming if food, drinks or snorkeling gear are included.\n- Considering how many people will be on board.\n- Choosing between a quiet or festive atmosphere."
+  },
+  "section5": {
+    "title": "There’s a perfect boat for every kind of traveler",
+    "body": "There’s no one-size-fits-all answer—it all depends on you. What matters is finding the experience that matches how you like to enjoy the sea. If you’re looking for something genuine, relaxed and full of Mediterranean charm, Coral Boats is your ideal choice.\nHop aboard a boat with history and let the sea carry you."
+  }
+},
+
+"blog_cuatro": {
+  "title": "Private vs Shared Boat Tour: Which Option Is Best for You?",
+  "slug": "private-vs-shared-boat-tour",
+  "keyword": "private shared boat tour Mallorca",
+  "meta_description": "Not sure whether to book a private or shared boat tour? We explain the key differences, pros and which experience suits your travel style best.",
+  "publishedDate": "April 15, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Travel tips",
+  "section1": {
+    "title": "Two ways to enjoy the sea",
+    "body": "When planning a boat tour in Mallorca, one of the first choices you’ll face is whether to go for a private or shared experience. Both options have their perks—it all depends on the kind of moment you're looking for."
+  },
+  "section2": {
+    "title": "Main differences between private and shared tours",
+    "body": "Private boat tours are ideal for closed groups like families or friends. You get full exclusivity: flexible schedules, personalized routes, and the boat just for you.\n\nShared tours, on the other hand, bring together different travelers. They’re more affordable, great for solo travelers or couples, and offer the chance to meet new people."
+  },
+  "section3": {
+    "title": "Advantages of each option",
+    "body": "",
+    "sub1": {
+      "subtitle": "Private tour",
+      "body": "More privacy, total flexibility and personalized attention. Perfect for families with kids, special celebrations or anyone looking for a premium experience."
+    },
+    "sub2": {
+      "subtitle": "Shared tour",
+      "body": "Lower cost, social vibe and the chance to connect with other travelers. Great for couples, solo adventurers or small groups."
+    },
+    "sub3": {
+      "subtitle": "",
+      "body": ""
+    }
+  },
+  "section4": {
+    "title": "",
+    "body": ""
+  },
+  "section5": {
+    "title": "Our recommendation",
+    "body": "At Coral Boats, we offer both options. If you want something calm and authentic with a small group, our shared tours are ideal. But if you’re after something more intimate and tailor-made, ask about our private excursions. Either way, the Mediterranean is waiting for you."
+  }
+},
+"blog_cinco": {
+  "title": "What to Bring on a Boat Tour in Mallorca: The Ultimate Checklist",
+  "slug": "what-to-bring-on-a-boat-tour-mallorca",
+  "keyword": "what to bring on a boat tour",
+  "meta_description": "Discover everything you need to enjoy your boat tour in Mallorca to the fullest. An essential guide for your experience at sea.",
+  "publishedDate": "April 16, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Practical tips",
+  "section1": {
+    "title": "Prepare for Your Maritime Adventure in Mallorca",
+    "body": "Mallorca, with its stunning coastline and crystal-clear waters, is the perfect place to enjoy a boat tour. But what should you bring to ensure a comfortable and hassle-free experience? In this ultimate guide, we’ll cover everything you need to know."
+  },
+  "section2": {
+    "title": "Essentials for Your Boat Tour",
+    "body": "Make sure to bring:\n\n- Sunscreen: The Mediterranean sun can be intense, so protect your skin.\n- Towel: Perfect for drying off after a dip in the water.\n- Swimsuit: A must-have to enjoy the coves and crystal-clear waters.\n- Water and snacks: Stay hydrated and energized during the tour.\n- Sunglasses: Protect your eyes while enjoying the scenery.\n- Camera: You won’t want to miss capturing unique moments."
+  },
+  "section3": {
+    "title": "Accessories to Enhance Your Experience",
+    "body": "In addition to the basics, consider bringing:",
+    "sub1": {
+      "subtitle": "Comfortable and Non-Slip Footwear",
+      "body": "Opt for shoes that allow you to move safely on the boat and enjoy any stops comfortably."
+    },
+    "sub2": {
+      "subtitle": "Waterproof Bag",
+      "body": "Protect your personal belongings, such as your phone or camera, from water splashes."
+    },
+    "sub3": {
+      "subtitle": "Light Clothing and a Jacket",
+      "body": "The weather can be warm during the day but cooler at sunset. Bring a light jacket just in case."
+    }
+  },
+  "section4": {
+    "title": "Tips to Make the Most of Your Day at Sea",
+    "body": "A few important tips:\n\n- Don’t forget to confirm your booking details before departing.\n- Ask the crew if you can customize your experience, such as choosing specific stops.\n- If you’re prone to seasickness, consider bringing medication to avoid discomfort.\n- Be punctual to make the most of your tour time.\n- Keep a relaxed attitude and enjoy the beauty and tranquility of the sea."
+  },
+  "section5": {
+    "title": "Mallorca Awaits for an Unforgettable Experience",
+    "body": "A boat tour in Mallorca is a unique opportunity to disconnect and immerse yourself in the beauty of the Mediterranean. With this ultimate checklist, you’ll be ready to enjoy an unforgettable experience. Pack your essentials and set sail for adventure!"
+  }
+},
+"blog_seis": {
+  "title": "Sunset in Alcudia: Why Watching It from the Sea Is Unforgettable",
+  "slug": "sunset-alcudia-sea-unforgettable",
+  "keyword": "sunset Alcudia",
+  "meta_description": "Discover why watching the sunset from the sea in Alcudia is a magical experience. Enjoy unique colors and an unforgettable atmosphere.",
+  "publishedDate": "April 17, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Unique moments",
+  "section1": {
+    "title": "The Magic of a Sunset in Alcudia",
+    "body": "Alcudia, in the heart of Mallorca's northern coast, offers breathtaking sunsets. Discover why the experience is even more special from the sea."
+  },
+  "section2": {
+    "title": "Why Choose the Sea to Watch the Sunset",
+    "body": "From the sea, the perspective is completely different:\n\n- More intense colors reflected on crystal-clear waters.\n- A sense of peace and seclusion, away from the crowds.\n- Unique panoramic views of Alcudia Bay and the Tramuntana Mountains."
+  },
+  "section3": {
+    "title": "What the Onboard Experience Includes",
+    "body": "Watching the sunset from the sea includes:",
+    "sub1": {
+      "subtitle": "Relaxed and Peaceful Sailing",
+      "body": "Enjoy the gentle rocking of the boat as the sun begins to set."
+    },
+    "sub2": {
+      "subtitle": "Unrepeatable Photographic Moments",
+      "body": "Capture the beauty of orange and golden hues on the horizon."
+    },
+    "sub3": {
+      "subtitle": "A Sunset Toast",
+      "body": "Celebrate the moment with a fresh drink as day transitions into night."
+    }
+  },
+  "section4": {
+    "title": "Tips to Make the Most of the Sunset",
+    "body": "Follow these recommendations for an unforgettable experience:\n\n- Bring a light jacket for the evening breeze.\n- Don’t forget your camera or phone with a full battery.\n- Relax and enjoy the moment, leaving all worries on shore."
+  },
+  "section5": {
+    "title": "Experience the Sunset from the Sea",
+    "body": "Immerse yourself in an unforgettable experience that combines natural beauty, serenity, and emotion. Alcudia awaits you with one of nature’s best shows."
+  }
+},
+"blog_siete": {
+  "title": "Boat Plans for Families: Fun for Kids in Mallorca",
+  "slug": "boat-plans-families-kids-mallorca",
+  "keyword": "family plans in Mallorca",
+  "meta_description": "Discover the best boat activities for families in Mallorca. Fun, safety, and unforgettable experiences for the little ones.",
+  "publishedDate": "April 18, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "For the whole family",
+  "section1": {
+    "title": "Alcudia Bay: A Paradise for Families",
+    "body": "Mallorca is an ideal destination for families, and Alcudia Bay combines nature, calm, and adventure, perfect for enjoying with kids. Here’s why a boat tour is the best activity for everyone."
+  },
+  "section2": {
+    "title": "Why Boat Tours Are Loved by Kids",
+    "body": "Boat tours are magical experiences for the little ones:\n\n- They explore the sea like little adventurers.\n- Discover hidden coves and have fun swimming in crystal-clear waters.\n- Spot fish and other sea creatures from the surface.\n- Enjoy the thrill of being aboard a classic and authentic boat."
+  },
+  "section3": {
+    "title": "Why Our Tours Are Perfect for Kids",
+    "body": "Everything is designed for the comfort and enjoyment of the youngest:",
+    "sub1": {
+      "subtitle": "Onboard Safety",
+      "body": "We provide life jackets for all ages and ensure a safe environment."
+    },
+    "sub2": {
+      "subtitle": "Stops at Calm Coves",
+      "body": "Coves with shallow waters, perfect for kids to swim and play safely."
+    },
+    "sub3": {
+      "subtitle": "Interactive Activities",
+      "body": "Activities like collecting seashells or learning about local marine life make the experience both educational and fun."
+    }
+  },
+  "section4": {
+    "title": "Tips for Families with Kids on a Boat Tour",
+    "body": "To make the most of your trip, we recommend:\n\n- Bringing sunscreen and hats to protect kids from the sun.\n- Packing light snacks and water to keep them hydrated and happy.\n- Bringing water toys or fins for extra fun during the stops."
+  },
+  "section5": {
+    "title": "A Family Experience to Remember",
+    "body": "Enjoying a day at sea with your family creates unforgettable memories. Alcudia awaits with activities tailored to let kids and adults experience the magic of the Mediterranean together."
+  }
+},
+
+"blog_ocho": {
+  "title": "Five Hidden Spots You Can Only Discover from the Sea in Alcudia",
+  "slug": "five-hidden-spots-sea-alcudia",
+  "keyword": "boat tours Alcudia",
+  "meta_description": "Discover five hidden gems in Alcudia Bay that you can only explore on a boat tour. Unique experiences and unforgettable landscapes.",
+  "publishedDate": "April 19, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Explore the unknown",
+  "section1": {
+    "title": "Alcudia Bay: Secrets Within Reach",
+    "body": "Alcudia Bay is not just about stunning beaches; it also holds hidden spots accessible only by sea. These exclusive locations make a boat tour an unforgettable adventure."
+  },
+  "section2": {
+    "title": "Five Unique Places to Discover",
+    "body": "Explore these five hidden gems that make Alcudia Bay special:\n\n- Cala de las Águilas: A pristine cove with crystal-clear waters and spectacular scenery.\n- Hidden caves of Cap des Pinar: Accessible only by boat, perfect for adventurers.\n- S’Illot: A small island ideal for swimming or snorkeling.\n- Es Caló: A peaceful spot surrounded by untouched nature.\n- The secret bay of Coll Baix: An isolated beach with impressive cliffs."
+  },
+  "section3": {
+    "title": "What Makes This Experience Special?",
+    "body": "Discovering these spots comes with unique advantages:",
+    "sub1": {
+      "subtitle": "A Unique Perspective",
+      "body": "From the sea, the landscapes come to life in an entirely different way."
+    },
+    "sub2": {
+      "subtitle": "Exclusive Access",
+      "body": "These places are inaccessible by land, ensuring peace and privacy."
+    },
+    "sub3": {
+      "subtitle": "A Direct Connection with Nature",
+      "body": "From hidden coves to crystal-clear waters, the connection with nature is unparalleled."
+    }
+  },
+  "section4": {
+    "title": "Tips to Make the Most of Your Boat Tour",
+    "body": "To fully enjoy this unique experience:\n\n- Bring snorkeling gear; the waters are perfect for it.\n- Wear comfortable shoes and carry a light backpack for freedom of movement.\n- Respect the natural environment to preserve these magical spots."
+  },
+  "section5": {
+    "title": "Set Sail to the Unknown",
+    "body": "Uncover Alcudia Bay's best-kept secrets. A boat tour is not just a trip but a window into a world few have had the chance to explore. \nReady to set sail?"
+  }
+},
+
+"blog_nueve": {
+  "title": "The Magic of Alcudia Bay: The Best Place for a Boat Tour",
+  "slug": "magic-alcudia-bay-boat-tour",
+  "keyword": "boat tours Alcudia Bay",
+  "meta_description": "Discover why Alcudia Bay is the perfect destination for a boat tour. Nature, exclusivity, and the best services with Coral Boats.",
+  "publishedDate": "April 20, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Sail and discover",
+  "section1": {
+    "title": "A Maritime Paradise in Mallorca",
+    "body": "Alcudia Bay is one of the most remarkable treasures of Mallorca. With its crystal-clear waters, stunning landscapes, and rich marine biodiversity, it is the perfect setting for any sea lover. But it’s not just the beauty that makes it special: it’s the experience it offers."
+  },
+  "section2": {
+    "title": "Five Reasons Why Alcudia Bay Stands Out",
+    "body": "Choosing a tour in Alcudia Bay means opting for a one-of-a-kind experience. Here are five reasons that make this destination unbeatable:\n\n1. **Calm and clear waters**: Perfect for relaxing or engaging in water activities like snorkeling.\n2. **Hidden coves and pristine beaches**: Accessible only by boat, offering exclusivity.\n3. **Rich marine diversity**: The bay is home to abundant marine life that you can spot from the surface.\n4. **Iconic landscapes**: With unique views of the Tramuntana Mountains and breathtaking cliffs.\n5. **Cultural heritage**: Historic points of interest visible from the sea, such as the Aucanada lighthouse."
+  },
+  "section3": {
+    "title": "Coral Boats: Your Partner in Adventure",
+    "body": "Coral Boats is the top choice for exploring Alcudia Bay. With a classic boat and exceptional services, they offer an authentic and personalized experience. Whether you’re seeking a romantic getaway, a family adventure, or a moment of peace in nature, Coral Boats ensures that every detail is perfect.",
+    "sub1": {
+      "subtitle": "Comfort and Style",
+      "body": "Aboard a classic boat, you'll enjoy both comfort and authenticity as you explore the bay."
+    },
+    "sub2": {
+      "subtitle": "Tailored Experience",
+      "body": "The crew customizes each tour to your needs, ensuring it’s unforgettable."
+    },
+    "sub3": {
+      "subtitle": "Close to Nature",
+      "body": "Coral Boats takes you to unique, preserved spots where your connection to the environment is unparalleled."
+    }
+  },
+  "section4": {
+    "title": "Tips for Planning Your Boat Tour",
+    "body": "Make the most of your experience in Alcudia Bay by following these tips:\n\n- Book in advance, especially during high season, to secure your spot.\n- Bring snorkeling gear and enjoy the abundant marine life.\n- Use sunscreen and carry a light jacket for changing temperatures.\n- If traveling with kids, pack snacks and drinks to keep them comfortable."
+  },
+  "section5": {
+    "title": "An Unforgettable Destination for Sailing",
+    "body": "Alcudia Bay offers everything you need for the perfect boat tour: landscapes, exclusivity, and an intimate connection with nature. Plus, sailing with Coral Boats takes this experience to the next level, guaranteeing unforgettable memories.\nExplore Alcudia Bay like never before and embark on an adventure that will stay with you forever."
+  }
+},
+
+
+  "cookie": {
+    "banner": {
+      "text": "We use cookies to enhance your experience. You can accept or reject them based on your preferences.",
+      "accept": "Accept cookies",
+      "reject": "Reject",
+      "link_text": "View cookie policy"
+    }
+  },
+
+  "footer": {
+  "home": "Home",
+  "cookies": "Cookie Policy",
+  "privacy": "Privacy Policy",
+  "terms": "Terms and Conditions",
+  "contact": "Contact"
+},
+
+"intro_banner": {
+  "title": "EASY BOOKING!",
+  "description": "Stunning Mallorca awaits",
+  "step1_title": "1. Choose your tour",
+  "step1_subtext": "Morning, Afternoon or Sunset – pick the perfect time to sail!",
+  "step2_title": "2. Select the date",
+  "step2_subtext": "Real-time calendar, guaranteed availability.",
+  "step3_title": "3. Pay and get your tickets",
+  "step3_subtext": "Pay securely online or contact us to pay in cash (we reply on WhatsApp, Email or Phone). Instant confirmation!"
+},
+
+
+"limited_seats": "Limited spots available",
+"popup": {
+  "title": "GET 25% OFF",
+  "subtitle": "Subscribe to our newsletter and get 25% off your first boat tour.",
+  "placeholder": "Your email address",
+  "button": "Unlock discount code",
+  "successMessage": "Thanks for joining!",
+  "codeMessage": "Use the following code at checkout to get 25% off:"
+},
+
+"blog_comida": {
+  "title": "Mediterranean flavors on board: Mallorcan gastronomy on our boat tours",
+  "slug": "mediterranean-flavors-boat-tours",
+  "keyword": "boat tours Mallorca Mediterranean food Mallorcan cuisine authentic experiences",
+  "meta_description": "Enjoy a Mallorcan culinary experience on board: local products, traditional flavors and the essence of the Mediterranean while sailing.",
+  "publishedDate": "May 11, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Gastronomy",
+  "content": "The sea has always been part of Mallorca's identity—not only for travel and trade, but also as inspiration for its cuisine. On our boat tours, you won’t just enjoy crystal-clear waters and hidden coves — you'll also taste the island's soul.\n\n- We serve traditional snacks like pa amb oli: rustic bread with local tomato, olive oil, and cured ham or cheese.\n- You'll also taste sobrasada, Mallorca’s iconic cured sausage, along with trencades olives and roasted almonds.\n- For dessert, we offer the classic ensaïmada, a sweet pastry that’s pure Balearic tradition.\n- Everything is paired with local drinks: island wines, craft beer, and fresh water.\n\nEating on board has deep roots in Mallorcan maritime history. Sailors and fishermen brought simple, lasting foods for their voyages. Today, we honor that custom in our tours — updated for modern palates but true to its heritage.\n\nBoat trips in Mallorca become a cultural immersion: each flavor tells a story. Join us and discover the Mediterranean with every bite.\n\nReady for a flavorful journey at sea?"
+},
+
+
+  "socialTitle": "Follow Coral Boats on Social Media",
+  "socialDescription": "Discover more moments from our boat tours in Alcudia Bay on Instagram and TikTok.",
+
+
+"blog_once": {
+  "title": "Secrets of the Balearic Coastline: Why Alcudia Bay Is So Enchanting",
+  "slug": "secrets-balearic-coastline-alcudia-bay",
+  "keyword": "Balearic coastline, Alcudia Bay, crystal-clear waters Mallorca",
+  "meta_description": "Explore the fascinating secrets of the Balearic coastline and discover why Alcudia Bay is one of Mallorca’s most beautiful and crystal-clear spots.",
+  "publishedDate": "June 11, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Nature",
+  "section1": {
+    "title": "Did you know the Balearic coastline hides unique geological and natural wonders?",
+    "body": "With over 1,400 km of coastline, the Balearic Islands are full of contrasts, stories, and stunning corners. From white-sand beaches to rugged cliffs, the Balearic coast is not only visually striking but also fascinating from geological, ecological, and cultural perspectives. In this article, we’ll uncover some of the curious facts that make it so special, focusing on one of its hidden gems: Alcudia Bay, with its incredibly clear waters."
+  },
+  "section2": {
+    "title": "A coastline shaped over millions of years",
+    "body": "The coastal landscape of the Balearics has been formed over millions of years by tectonic movements, erosion, wind, waves, and rainfall. This natural sculpting has created caves, coves, and dramatic cliffs.\n\nThe predominant limestone composition supports the formation of underground caves and channels, and also filters rainwater—contributing to the remarkable clarity of the surrounding sea. It’s no coincidence that some of the clearest waters in the Mediterranean are found right here."
+  },
+  "section3": {
+    "title": "Alcudia Bay: A northeast Mallorcan treasure",
+    "body": "Among all the Balearic coast’s natural wonders, Alcudia Bay stands out with its serene beauty and unspoiled nature. Its transparent waters, spaciousness, and well-preserved surroundings make it a paradise for locals and visitors alike.",
+    "sub1": {
+      "subtitle": "Turquoise waters thanks to sandy seabeds",
+      "body": "Alcudia Bay owes its turquoise hue and clarity to its fine, white sand seabed, with minimal underwater vegetation in shallow zones. Sunlight reflects and refracts easily here, creating a dazzling optical effect. The absence of nearby rivers also prevents sediment from clouding the water."
+    },
+    "sub2": {
+      "subtitle": "Gentle currents that keep the waters clean",
+      "body": "Unlike more enclosed coastal areas, Alcudia Bay opens to the northeast, allowing soft marine currents to circulate and renew the water continuously. These almost invisible microcurrents help maintain a naturally clean environment, making swimming here feel like dipping into a natural pool."
+    },
+    "sub3": {
+      "subtitle": "Protected and undeveloped natural surroundings",
+      "body": "Large areas near the bay—especially around Albufera and Son Serra de Marina—are either protected or minimally developed. This reduces human pressure and pollution (both visual and acoustic). Responsible boating practices and increased tourist awareness also play a key role in preserving this unique setting."
+    }
+  },
+  "section4": {
+    "title": "Sustainable ways to enjoy the coastline",
+    "body": "The best way to experience Alcudia Bay is from the sea. Boat tours, paddle boarding, kayaking, and snorkeling allow you to reach secluded spots without harming the environment. Here are some eco-friendly tips:\n\n- Choose local, environmentally conscious tour providers.\n- Leave no waste and don’t disturb marine life.\n- Avoid non-biodegradable sunscreen.\n- Respect protected areas and navigation zones.\n\nThese small actions make a big difference in preserving this coastal treasure for generations to come."
+  },
+  "section5": {
+    "title": "A destination that blends science, nature, and beauty",
+    "body": "The Balearic coastline is much more than picturesque beaches—it’s a complex natural system shaped over time, rich in biodiversity and geological interest. Alcudia Bay perfectly represents the balance between preservation and enjoyment. Walking along its shores, swimming in its waters, or simply observing the landscape from a boat can be a transformative experience. It's more than a tourist destination—it’s a living ecosystem we must cherish, learn from, and protect. Its crystal-clear waters are no coincidence; they are the result of conscious conservation and respectful human interaction.\nCome discover it and let the magic of its waters captivate you!"
+  }
+},
+
+
+"blog_doce": {
+  "title": "Discover Alcanada: beach, lighthouse and island near Alcudia",
+  "slug": "discover-alcanada-beach-lighthouse-island-alcudia",
+  "keyword": "Alcanada beach, Alcanada lighthouse, Alcanada island, Alcudia excursions",
+  "meta_description": "Explore Alcanada beach, its iconic lighthouse and the island that surrounds it. A natural gem just minutes from Alcudia, ideal for relaxing by the Mediterranean.",
+  "publishedDate": "June 11, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Local gem",
+  "section1": {
+    "title": "A hidden spot on Mallorca’s north coast",
+    "body": "Just a few kilometers from bustling Port d'Alcudia lies one of the island’s best-kept secrets: Alcanada. Known for its pebble beach, unspoiled natural setting and views of the iconic island with a lighthouse, this area combines tranquility, scenery and authentic Mallorcan charm. If you're looking to escape the crowds and connect with the pure Mediterranean, Alcanada is your place."
+  },
+  "section2": {
+    "title": "A different kind of beach, perfect for switching off",
+    "body": "Unlike many other beaches in Mallorca, Alcanada has a stony shore and a peaceful atmosphere. There are no sunbeds or beach bars here—just nature, clear water and the sound of the waves. It’s ideal for people seeking calm and unspoiled views. Shallow, transparent waters make it perfect for swimming, snorkeling or simply relaxing while staring at the horizon. Popular with locals, it maintains that authentic, slow-paced feel that’s increasingly rare during summer."
+  },
+  "section3": {
+    "title": "The island and lighthouse: history, views and a Mediterranean postcard",
+    "body": "Just 150 meters from the shore stands Alcanada Island with its emblematic lighthouse. You can reach it by swimming or with a small kayak. It’s a quiet gem that offers privileged views of the entire bay. The Alcanada Lighthouse, built in 1861, is still active and is a symbol of the area.",
+    "sub1": {
+      "subtitle": "An ideal spot for small adventures",
+      "body": "Getting to the island is a short, fun journey: many swimmers make the round trip from the beach, while others use paddle boards or kayaks. Once there, you can walk along the rocky edges and pine trees while enjoying the view of northern Mallorca’s coastline."
+    },
+    "sub2": {
+      "subtitle": "A lighthouse with history",
+      "body": "Alcanada Lighthouse was one of the first in Mallorca to guide boats through the bay. Although it’s not open to visitors, its white silhouette and connection to maritime history make it a favorite for sea lovers and photographers. It has witnessed storms, sunrises and generations of sailors."
+    },
+    "sub3": {
+      "subtitle": "A protected natural area",
+      "body": "The surroundings of Alcanada are classified as a Natural Area of Special Interest (ANEI), which limits construction and protects biodiversity. The waters are home to small fish, seagrass meadows and seabirds. It’s the ideal spot for sustainable, nature-respecting tourism."
+    }
+  },
+  "section4": {
+    "title": "How to get there and what to know",
+    "body": "Alcanada is just a 5-minute drive from Alcudia or the Port, and you can also walk there along a scenic coastal path. Parking is limited, so it’s best to arrive early in high season. There are no beach services like showers or bars, so bring water, food, proper footwear and sun protection. Although it’s not a sandy beach, its natural beauty more than makes up for it."
+  },
+  "section5": {
+    "title": "Alcanada: where nature speaks for itself",
+    "body": "Visiting Alcanada is a different kind of experience. You won’t find loud music or crowds, but the gentle sound of waves, the flight of seagulls and the silhouette of a lighthouse against the sky. It’s a place that invites you to slow down, take in the landscape and enjoy the simple things. Perfect for couples, peaceful walks or sunset swims, Alcanada is a place that stays in your memory.\nCome and discover this quiet paradise in northern Mallorca and let yourself be enchanted by its natural charm!"
+  }
+},
+
+"blog_trece": {
+  "title": "Wind and sea in Mallorca: how weather shapes your boat experience",
+  "slug": "wind-weather-boat-mallorca",
+  "keyword": "wind Mallorca, boat weather Mallorca, sea conditions Mallorca",
+  "meta_description": "Learn how wind and weather conditions affect boat trips in Mallorca. Understand the sea to enjoy your adventure safely and comfortably.",
+  "publishedDate": "June 11, 2025",
+  "btnText": "Read more",
+  "badgeTitle": "Nautical tips",
+  "section1": {
+    "title": "The sea isn’t always the same: why weather matters",
+    "body": "When we book a boat trip in Mallorca, we often imagine blue skies and calm seas—but the sea changes constantly. Wind, air pressure, currents and other weather elements directly impact your onboard experience. Understanding these factors not only increases safety but helps you choose the right tour and timing for your day at sea."
+  },
+  "section2": {
+    "title": "Wind: the key player in the Mediterranean",
+    "body": "In Mallorca, wind is the main factor that shapes sea conditions. The most common types are:\n- **Embat**: a light sea breeze blowing inland in the afternoon. Refreshing and pleasant in summer.\n- **Tramuntana**: a northern wind, dry and strong, causing waves especially in the north and west.\n- **Levante**: comes from the east, often brings humidity and choppy seas to the southeast and northeast.\n- **Mistral**: gusty and forceful, less comfortable for sailing.\nKnowing these helps you predict whether the sea will be calm, choppy, or if a trip might be canceled."
+  },
+  "section3": {
+    "title": "How these conditions affect your boat trip",
+    "body": "Weather doesn't just change how the sea looks—it completely transforms the sailing experience. Here's how each type influences your tour:",
+    "sub1": {
+      "subtitle": "Perfectly calm days",
+      "body": "When there’s no wind or just a gentle embat, the sea becomes like a natural pool. These days are ideal for families, swimming, paddleboarding or relaxing. Crystal-clear waters let you see the seabed right from the boat."
+    },
+    "sub2": {
+      "subtitle": "Moderate or changing wind",
+      "body": "Stronger wind brings more waves and movement. On such days, it’s best to choose larger boats or routes in protected areas like bays. It’s a fun option for those looking for a bit of adventure on board."
+    },
+    "sub3": {
+      "subtitle": "Adverse conditions: when to stay ashore",
+      "body": "With storm warnings, tramuntana gusts or sudden pressure changes, it’s best to reschedule. Not just for safety—it’s about comfort too: choppy waves, splashes or motion sickness can ruin the experience. Reliable operators in Mallorca won’t go out in poor conditions."
+    }
+  },
+  "section4": {
+    "title": "Tips to choose the best day to sail",
+    "body": "Always check the forecast and ask your local operator if unsure. Look for days with light wind (under 10 knots), stable high pressure and no alerts. Mornings tend to be calmer, and areas like Alcudia Bay or the south coast are more sheltered. Apps like Windy or Spain’s AEMET give detailed info on wind and wave forecasts."
+  },
+  "section5": {
+    "title": "Weather: your ally for a great boat trip",
+    "body": "Rather than a problem, knowing how to read the weather can make your boat day even better. Choosing the right time boosts safety and enhances your connection with the sea. You'll learn to watch the horizon, listen to the swell and appreciate every moment.\nThe Mediterranean is ever-changing—but always magical. And if you understand it, every sailing day becomes unforgettable."
+  }
+},
+
+"toursPage": {
+  "hero": {
+    "badge": "Discover Mallorca by Sea",
+    "title": "Best Boat Tours in Alcudia, Mallorca",
+    "subtitle": "Choose from three unforgettable boat experiences in the stunning Bay of Alcudia. Whether you prefer a relaxed morning sail, a magical sunset cruise, or a fully customized private charter, Coral Boats offers the perfect boat trip for your Mallorca adventure."
+  },
+  "cards": {
+    "sectionLabel": "Our Boat Tours",
+    "sectionTitle": "Choose Your Perfect Boat Experience",
+    "sectionDescription": "All tours depart from Port d'Alcudia and include professional crew, safety equipment, insurance, and unforgettable memories. Book your boat tour in Mallorca today!",
+    "morningTour": {
+      "name": "Morning Adventure",
+      "subtitle": "Best for Snorkeling & Marine Life",
+      "time": "10:00 - 14:00",
+      "duration": "4 hours",
+      "price": "€68",
+      "badge": "4 Hours",
+      "whyChoose": "Why Choose This Tour:",
+      "feature1": "Crystal-clear morning waters",
+      "feature2": "Best visibility for snorkeling",
+      "feature3": "Explore vibrant marine life",
+      "feature4": "Calm sea conditions",
+      "includedTitle": "Included:",
+      "included1": "Snorkeling Equipment",
+      "included2": "Paddle Boards",
+      "included3": "Mallorcan Tapas",
+      "included4": "Free Drink or Sangria",
+      "priceFrom": "From",
+      "pricePerPerson": "per person",
+      "ctaButton": "Book Now"
+    },
+    "sunsetTour": {
+      "name": "Sunset Magic",
+      "subtitle": "Chill Vibes & Good Times",
+      "time": "18:00 - 21:00",
+      "duration": "3 hours",
+      "price": "€65",
+      "badge": "3 Hours",
+      "whyChoose": "Why Choose This Tour:",
+      "feature1": "Breathtaking sunset views",
+      "feature2": "Relaxed atmosphere with music",
+      "feature3": "Perfect for couples & friends",
+      "feature4": "Golden hour vibes",
+      "includedTitle": "Included:",
+      "included1": "Snorkeling Equipment",
+      "included2": "Paddle Boards",
+      "included3": "Mallorcan Tapas",
+      "included4": "Free Drink or Sangria",
+      "priceFrom": "From",
+      "pricePerPerson": "per person",
+      "ctaButton": "Book Now"
+    },
+    "privateCharter": {
+      "name": "Private Charter",
+      "subtitle": "Fully Customizable Experience",
+      "time": "Flexible Schedule",
+      "duration": "3-4 hours",
+      "price": "From €1,250",
+      "badge": "Exclusive",
+      "whyChoose": "Why Choose This Tour:",
+      "feature1": "Up to 40 passengers",
+      "feature2": "Custom itinerary",
+      "feature3": "Perfect for events",
+      "feature4": "Exclusive experience",
+      "includedTitle": "Included:",
+      "included1": "Custom Itinerary",
+      "included2": "Catering Options",
+      "included3": "Open Bar Available",
+      "included4": "Professional Crew",
+      "pricingLabel": "Pricing",
+      "pricingValue": "Custom Quote",
+      "pricingInfo": "tailored to your event",
+      "ctaButton": "Book Now"
+    }
+  },
+  "seo": {
+    "mainTitle": "The Best Boat Tours in Alcudia, Mallorca",
+    "intro1": "Looking for an unforgettable <strong>boat tour in Alcudia</strong>? Coral Boats offers the most complete and highly-rated <strong>boat excursions in Mallorca</strong>, departing daily from the beautiful <strong>Port d'Alcudia</strong>. Whether you're searching for a <strong>morning boat trip in Mallorca</strong>, a romantic <strong>sunset cruise in Alcudia Bay</strong>, or a fully customized <strong>private boat charter in Mallorca</strong>, we have the perfect experience for you.",
+    "intro2": "Our <strong>boat tours in the Bay of Alcudia</strong> are designed to showcase the stunning Mediterranean coastline, crystal-clear waters, and hidden coves that make <strong>Mallorca boat trips</strong> so special. Every tour includes <strong>snorkeling equipment</strong>, <strong>paddle boards</strong>, delicious <strong>Mallorcan tapas</strong>, and complimentary drinks or sangria, ensuring you have everything you need for an incredible day at sea.",
+    "whyBookTitle": "Why Book a Boat Tour with Coral Boats in Alcudia?",
+    "reason1Title": "Award-Winning Boat Excursions",
+    "reason1Text": "Rated 4.9/5 stars with over 500 verified reviews, our <strong>boat tours in Alcudia Mallorca</strong> are consistently ranked among the best boat excursions in the Balearic Islands.",
+    "reason2Title": "Expert Local Crew",
+    "reason2Text": "Our professional crew knows the <strong>Alcudia Bay</strong> like the back of their hand, taking you to the best snorkeling spots, hidden beaches, and most scenic locations.",
+    "reason3Title": "Complete Boat Trip Experience",
+    "reason3Text": "Unlike basic <strong>boat tours in Port Alcudia</strong>, our excursions include everything: snorkeling gear, paddle boards, traditional tapas, drinks, and expert guidance.",
+    "reason4Title": "Licensed & Fully Insured",
+    "reason4Text": "All our <strong>Mallorca boat tours</strong> are operated with official licenses, comprehensive insurance, and the highest safety standards for your peace of mind.",
+    "toursTitle": "Discover Our Boat Tour Options in Alcudia",
+    "morningTitle": "Morning Adventure: Best Boat Tour for Snorkeling in Mallorca",
+    "morningText1": "Our <strong>morning boat tour in Alcudia</strong> (10:00-14:00) is perfect for those seeking the best <strong>snorkeling experience in Mallorca</strong>. The morning waters are crystal-clear and calm, offering optimal visibility to explore the vibrant marine life of the <strong>Bay of Alcudia</strong>. This 4-hour <strong>boat excursion from Port d'Alcudia</strong> includes snorkeling equipment, paddle boards, authentic Mallorcan tapas, and a free drink or sangria.",
+    "morningText2": "<strong>Perfect for:</strong> Families, snorkeling enthusiasts, marine life spotting, photographers, and anyone wanting to experience the Mediterranean at its most beautiful. This is our most popular <strong>boat trip in Mallorca</strong>, ideal for first-time visitors to Alcudia.",
+    "sunsetTitle": "Sunset Magic: Most Romantic Boat Cruise in Alcudia Bay",
+    "sunsetText1": "Experience the magic of a <strong>sunset boat tour in Alcudia</strong> (18:00-21:00), the most romantic <strong>boat cruise in Mallorca</strong>. Watch the Mediterranean sun paint the sky in stunning colors as you sail through the tranquil waters of <strong>Alcudia Bay</strong>. This 3-hour <strong>evening boat trip</strong> combines spectacular views with snorkeling, paddle boarding, traditional tapas, and complimentary drinks.",
+    "sunsetText2": "<strong>Perfect for:</strong> Couples, honeymooners, special occasions, photography enthusiasts, and anyone seeking a premium <strong>sunset cruise in Mallorca</strong>. This <strong>romantic boat tour in Port Alcudia</strong> creates unforgettable memories and stunning photos.",
+    "privateTitle": "Private Charter: Exclusive Boat Rental in Mallorca for Groups & Events",
+    "privateText1": "Create your perfect day at sea with a <strong>private boat charter in Alcudia</strong>. Our <strong>exclusive boat rental in Mallorca</strong> accommodates up to 40 passengers (most charters are limited to just 12!), making it ideal for <strong>corporate events in Mallorca</strong>, <strong>birthday celebrations</strong>, <strong>bachelor and bachelorette parties</strong>, family reunions, and special occasions. Choose your schedule (3-4 hours), customize your itinerary, and add optional catering and open bar packages.",
+    "privateText2": "<strong>Perfect for:</strong> Large groups, corporate team building in Alcudia, weddings, birthdays, bachelor/bachelorette parties, family celebrations, and any special event. Our <strong>private boat hire in Port d'Alcudia</strong> offers complete flexibility and exclusivity for your group.",
+    "locationTitle": "Boat Tours from Port d'Alcudia: The Perfect Departure Point",
+    "locationText1": "<strong>Port d'Alcudia</strong> is the ideal starting point for <strong>boat excursions in Northern Mallorca</strong>. Located in the stunning <strong>Bay of Alcudia</strong>, our departure point provides easy access to some of the Mediterranean's most beautiful waters, pristine beaches, and incredible snorkeling spots. The port is easily accessible from all major resorts in <strong>Alcudia, Puerto Pollensa, Can Picafort, Playa de Muro</strong>, and throughout <strong>North Mallorca</strong>.",
+    "locationText2": "Our <strong>boat tours departing from Alcudia port</strong> explore the protected waters of the bay, visit secluded coves inaccessible by land, and take you to the best swimming and snorkeling locations. Whether you're staying in <strong>Alcudia town</strong>, <strong>Port de Pollença</strong>, or anywhere in <strong>Northeast Mallorca</strong>, our tours are conveniently located and easy to reach.",
+    "bookingTitle": "Book Your Boat Tour in Alcudia Today",
+    "bookingText": "Don't miss out on the best <strong>boat tour experience in Mallorca</strong>. Our <strong>Alcudia boat trips</strong> sell out quickly, especially during peak season (June-September). Book your <strong>morning adventure</strong>, <strong>sunset cruise</strong>, or <strong>private charter</strong> online now and secure your spot for an unforgettable day on the Mediterranean Sea.",
+    "ctaMorning": "Book Morning Tour",
+    "ctaSunset": "Book Sunset Tour",
+    "ctaPrivate": "Book Private Charter"
+  },
+  "faq": {
+    "sectionLabel": "Have Questions?",
+    "sectionTitle": "Frequently Asked Questions About Our Boat Tours in Alcudia",
+    "sectionDescription": "Everything you need to know about booking and enjoying the best boat excursions in Mallorca",
+    "q1": "What is the best boat tour in Alcudia for families?",
+    "a1": "The Morning Adventure is perfect for families! The 4-hour boat tour from Port d'Alcudia (10:00-14:00) offers calm waters, excellent snorkeling conditions, and plenty of activities for all ages. Kids love spotting marine life, using the paddle boards, and enjoying the traditional Mallorcan tapas.",
+    "q2": "Where do boat tours in Alcudia depart from?",
+    "a2": "All Coral Boats tours depart from Port d'Alcudia, one of the most beautiful marinas in Mallorca. The port is easily accessible from Alcudia, Puerto Pollensa, Can Picafort, Playa de Muro, and all major resorts in Northern Mallorca. Exact meeting point details are provided in your booking confirmation.",
+    "q3": "What's included in your boat tours in Mallorca?",
+    "a3": "Every boat tour includes: professional crew, snorkeling equipment, paddle boards, Mallorcan tapas, one complimentary drink or sangria, safety equipment, and insurance. Our private charters can include additional catering and open bar packages.",
+    "q4": "Can I book a private boat charter in Alcudia for large groups?",
+    "a4": "Yes! Our private charter accommodates up to 40 passengers, perfect for corporate events, weddings, birthdays, and celebrations. Most boat charters in Mallorca are limited to 12 people, making our exclusive boat rental ideal for large groups. Book your private boat tour with flexible scheduling and custom itineraries.",
+    "q5": "What is the best time for a boat tour in Alcudia Bay?",
+    "a5": "Both our tours offer unique experiences! The Morning Adventure (10:00-14:00) provides the best snorkeling with crystal-clear waters and calm conditions. The Sunset Magic tour (18:00-21:00) offers spectacular sunset views and a romantic atmosphere. Choose based on your preferences!",
+    "q6": "Do you offer boat tours year-round in Port d'Alcudia?",
+    "a6": "Our scheduled morning and sunset boat tours operate from May to October, when weather conditions are optimal. Private charters may be available outside these months depending on weather. We recommend booking 2-4 weeks in advance, especially for peak season (June-September).",
+    "q7": "Is snorkeling equipment provided on Mallorca boat tours?",
+    "a7": "Yes! All our boat excursions in Alcudia include professional snorkeling equipment (masks, snorkels, fins) at no extra cost. We also provide paddle boards and all safety equipment. Our crew will guide you to the best snorkeling spots in the Bay of Alcudia.",
+    "q8": "How do I book a boat trip in Alcudia?",
+    "a8": "Booking is easy! Simply choose your preferred tour (Morning Adventure, Sunset Magic, or Private Charter), select your date and number of guests, and complete the secure online booking. You'll receive instant confirmation with all details for your Alcudia boat tour.",
+    "q9": "What makes Coral Boats the best boat tour company in Alcudia?",
+    "a9": "With a 4.9/5 star rating, over 10,000 happy guests, and 500+ verified reviews, we're Alcudia's top-rated boat tour operator. We offer the most complete experience with professional crew, all equipment included, delicious tapas, and the only charter licensed for 40+ passengers in the area.",
+    "q10": "Can I bring food and drinks on the boat tour?",
+    "a10": "While we provide Mallorcan tapas and complimentary drinks on all tours, you're welcome to bring additional snacks or beverages. Private charter guests can customize their catering entirely, including options to bring your own or choose from our open bar and tapas packages.",
+    "finalCtaTitle": "Ready to Experience the Best Boat Tour in Alcudia?",
+    "finalCtaText": "Join thousands of satisfied guests who have discovered why Coral Boats offers the best boat excursions in Mallorca. Book your unforgettable boat tour in Port d'Alcudia today!",
+    "finalCtaButton": "View All Tours"
+  }
+},
+
+"morningTour": {
+  "hero": {
+    "badge": "Morning Adventure",
+    "title": "Morning Boat Tour in Alcudia Bay",
+    "subtitle": "Start your day with crystal-clear waters, snorkeling in hidden coves, and authentic Mallorcan tapas on our 4-hour morning boat trip along Mallorca's stunning northern coastline",
+    "durationLabel": "Duration",
+    "durationValue": "4 Hours",
+    "departureLabel": "Departure",
+    "departureValue": "10:00 AM",
+    "groupSizeLabel": "Group Size",
+    "groupSizeValue": "Small Groups",
+    "priceLabel": "Price",
+    "priceValue": "From €68",
+    "ctaBook": "Book Your Morning Tour",
+    "ctaLearnMore": "Learn More"
+  },
+  "details": {
+    "sectionLabel": "Tour Overview",
+    "sectionTitle": "The Perfect Morning in Mallorca",
+    "paragraph1": "Our <strong>Morning Adventure boat tour</strong> is the perfect way to experience the natural beauty of Alcudia Bay in Mallorca. This 4-hour excursion departs at 10:00 AM when the Mediterranean waters are at their calmest and clearest, making it ideal for snorkeling and swimming.",
+    "paragraph2": "You'll sail aboard our classic 1968 boat, <strong>Coral Boats</strong>, exploring hidden coves, pristine beaches, and the most spectacular snorkeling spots along Mallorca's northern coastline. Our experienced local crew knows every secret corner of the Bay of Alcudia and will take you to places that larger tour boats cannot reach.",
+    "paragraph3": "The morning light creates perfect conditions for underwater photography, and you'll have the chance to see colorful fish, sea urchins, and other Mediterranean marine life in crystal-clear visibility. After your aquatic adventures, relax on board while enjoying authentic Mallorcan tapas and refreshing drinks, including our traditional sangria.",
+    "galleryLink": "Explore Photo Gallery",
+    "highlightsTitle": "Why Choose the Morning Tour?",
+    "highlight1": "Best time for snorkeling with calm, crystal-clear waters",
+    "highlight2": "Visit hidden coves and secret beaches only accessible by boat",
+    "highlight3": "Spot colorful Mediterranean fish and marine life",
+    "highlight4": "Swim in turquoise waters of the Bay of Alcudia",
+    "highlight5": "Enjoy fresh Mallorcan tapas and refreshing drinks on board",
+    "highlight6": "Small group experience with personalized attention",
+    "includedTitle": "What's Included",
+    "included1": "Authentic Mallorcan Tapas",
+    "included2": "One Free Drink or Sangria",
+    "included3": "Snorkeling Equipment",
+    "included4": "Paddle Boards (SUP)",
+    "included5": "Safety Equipment & Insurance",
+    "included6": "Professional Crew & Captain",
+    "importantInfoTitle": "Important Information",
+    "info1": "Arrive 30 minutes before departure time",
+    "info2": "Suitable for all ages and swimming levels",
+    "info3": "Bring sunscreen, towel, and swimwear",
+    "info4": "Free cancellation up to 24 hours before",
+    "info5": "Departure from Port d'Alcúdia",
+    "ctaBook": "Click Here to Book Your Spot"
+  },
+  "itinerary": {
+    "sectionLabel": "Itinerary",
+    "sectionTitle": "Your Morning Adventure Timeline",
+    "sectionDescription": "A detailed breakdown of your 4-hour boat tour experience in the Bay of Alcudia. Times are approximate and may vary based on weather and sea conditions.",
+    "step1Time": "10:00 AM",
+    "step1Title": "Departure from Port d'Alcúdia",
+    "step1Description": "Meet at Port d'Alcúdia marina. Board our classic boat and receive a safety briefing from our professional crew. Set sail into the stunning Bay of Alcudia.",
+    "step2Time": "10:30 AM",
+    "step2Title": "First Swimming & Snorkeling Stop",
+    "step2Description": "Arrive at our first stop, Coll Baix beach, with crystal-clear turquoise waters. Enjoy snorkeling with provided equipment, spot colorful Mediterranean fish, or try paddle boarding.",
+    "step3Time": "11:30 AM",
+    "step3Title": "Coastal Cruise & Sightseeing",
+    "step3Description": "Sail along Mallorca's beautiful northern coastline, exploring dramatic cliffs, pristine coves, and fascinating sea caves. Learn about the area's history and marine life from our local crew.",
+    "step4Time": "12:15 PM",
+    "step4Title": "Second Swimming Stop & Tapas",
+    "step4Description": "Stop at another spectacular location, Alcanada island and lighthouse, for swimming and water activities. Enjoy authentic Mallorcan tapas and refreshing drinks, including sangria, served on board.",
+    "step5Time": "1:30 PM",
+    "step5Title": "Scenic Return Journey",
+    "step5Description": "Relax on deck as we cruise back to Port d'Alcúdia, taking in the stunning coastal views and soaking up the Mediterranean sun.",
+    "step6Time": "2:00 PM",
+    "step6Title": "Arrival at Port d'Alcúdia",
+    "step6Description": "Return to the marina with unforgettable memories of your morning adventure in the Bay of Alcudia.",
+    "ctaTitle": "Ready to Experience the Best Morning Boat Tour in Alcudia?",
+    "ctaDescription": "Join our premium morning boat excursion in Mallorca's Bay of Alcudia. Book your snorkeling adventure today and discover why we're the top-rated boat tour in Northern Mallorca.",
+    "ctaButton": "Secure Your Spot Today"
+  },
+  "booking": {
+    "sectionLabel": "Book Your Adventure",
+    "sectionTitle": "Reserve Your Morning Tour",
+    "sectionDescription": "Join us for an unforgettable morning exploring the Bay of Alcudia",
+    "priceTitle": "Price per Person",
+    "priceValue": "€68",
+    "priceNote": "Best price guarantee",
+    "durationTitle": "Duration & Departure",
+    "durationValue": "4 hours | 10:00 AM",
+    "durationNote": "Returns at 2:00 PM",
+    "meetingPointTitle": "Meeting Point",
+    "meetingPointValue": "Port d'Alcúdia Marina",
+    "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+    "whyBookTitle": "Why Book with Us?",
+    "whyBook1": "Instant confirmation",
+    "whyBook2": "Free cancellation up to 24h",
+    "whyBook3": "Small group experience",
+    "whyBook4": "Authentic Mallorcan food included",
+    "whyBook5": "Professional crew & equipment",
+    "ctaCardTitle": "Start Your Booking Journey",
+    "ctaCardDescription": "Choose your date and reserve your experience in just a few clicks",
+    "ctaButton": "Book Your Morning Tour Now",
+    "trustBadge1": "Secure",
+    "trustBadge2": "Instant",
+    "trustBadge3": "Flexible",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What should I bring?",
+    "faq1Answer": "Bring swimwear, towel, sunscreen, sunglasses, and a camera. We provide all snorkeling equipment, paddle boards, food, and drinks.",
+    "faq2Question": "Is it suitable for children?",
+    "faq2Answer": "Yes! Our morning tour is perfect for families. Children of all ages are welcome, and we provide life jackets and flotation devices.",
+    "faq3Question": "What if the weather is bad?",
+    "faq3Answer": "Safety is our priority. If weather conditions are unsafe, we'll contact you to reschedule or provide a full refund.",
+    "faq4Question": "Can non-swimmers participate?",
+    "faq4Answer": "Absolutely! You can enjoy the boat ride, scenery, and food without swimming. We provide life jackets for those who want to try."
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Experience the Morning Magic",
+    "description": "See what awaits you on our morning boat tour in Alcudia Bay"
+  }
+},
+
+"sunsetTour": {
+  "hero": {
+    "badge": "Sunset Magic",
+    "title": "Sunset Boat Tour in Alcudia Bay",
+    "subtitle": "Experience the magic of a Mediterranean sunset with swimming in crystal-clear waters, authentic Mallorcan tapas, and breathtaking coastal views on our 3-hour evening boat trip along Mallorca's stunning northern coastline",
+    "durationLabel": "Duration",
+    "durationValue": "3 Hours",
+    "departureLabel": "Departure",
+    "departureValue": "6:00 PM",
+    "groupSizeLabel": "Group Size",
+    "groupSizeValue": "Small Groups",
+    "priceLabel": "Price",
+    "priceValue": "From €65",
+    "ctaBook": "Book Your Sunset Tour",
+    "ctaLearnMore": "Learn More"
+  },
+  "details": {
+    "sectionLabel": "Tour Overview",
+    "sectionTitle": "The Perfect Evening in Mallorca",
+    "paragraph1": "Our <strong>Sunset Magic boat tour</strong> is the perfect way to experience the magical evening beauty of Alcudia Bay in Mallorca. This 3-hour excursion departs at 6:00 PM when the Mediterranean light creates a golden glow, making it ideal for swimming, photography, and relaxation.",
+    "paragraph2": "You'll sail aboard our classic 1968 boat, <strong>Coral Boats</strong>, exploring hidden coves, pristine beaches, and the most spectacular viewpoints along Mallorca's northern coastline. Our experienced local crew knows every secret corner of the Bay of Alcudia and will take you to places that larger tour boats cannot reach.",
+    "paragraph3": "The evening light creates perfect conditions for stunning photography, and you'll have the chance to swim in warm waters while enjoying the sunset. After your aquatic adventures, relax on board while enjoying authentic Mallorcan tapas and refreshing drinks, including our traditional sangria, as the sun sets over the Mediterranean.",
+    "galleryLink": "Explore Photo Gallery",
+    "highlightsTitle": "Why Choose the Sunset Tour?",
+    "highlight1": "Witness a spectacular Mediterranean sunset from the water",
+    "highlight2": "Perfect golden hour light for stunning photos",
+    "highlight3": "Explore pristine beaches and dramatic coastal scenery",
+    "highlight4": "Swim in warm evening waters of the Bay of Alcudia",
+    "highlight5": "Enjoy fresh Mallorcan tapas and refreshing drinks on board",
+    "highlight6": "Relaxed Mediterranean vibes perfect for unwinding and connecting",
+    "includedTitle": "What's Included",
+    "included1": "Authentic Mallorcan Tapas",
+    "included2": "One Free Drink or Sangria",
+    "included3": "Snorkeling Equipment",
+    "included4": "Paddle Boards (SUP)",
+    "included5": "Safety Equipment & Insurance",
+    "included6": "Professional Crew & Captain",
+    "importantInfoTitle": "Important Information",
+    "info1": "Arrive 30 minutes before departure time",
+    "info2": "Suitable for all ages and swimming levels",
+    "info3": "Bring sunscreen, towel, and swimwear",
+    "info4": "Free cancellation up to 24 hours before",
+    "info5": "Departure from Port d'Alcúdia",
+    "ctaBook": "Click Here to Book Your Spot"
+  },
+  "itinerary": {
+    "sectionLabel": "Itinerary",
+    "sectionTitle": "Your Sunset Adventure Timeline",
+    "sectionDescription": "A detailed breakdown of your 3-hour boat tour experience in the Bay of Alcudia. Times are approximate and may vary based on weather and sea conditions.",
+    "step1Time": "6:00 PM",
+    "step1Title": "Departure from Port d'Alcúdia",
+    "step1Description": "Meet at Port d'Alcúdia marina. Board our classic boat and receive a safety briefing from our professional crew. Set sail into the stunning Bay of Alcudia.",
+    "step2Time": "6:30 PM",
+    "step2Title": "Coastal Cruise & Sightseeing",
+    "step2Description": "Sail along Mallorca's beautiful northern coastline, exploring dramatic cliffs, pristine coves, and fascinating sea caves. Learn about the area's history and marine life from our local crew while enjoying the golden evening light.",
+    "step3Time": "7:15 PM",
+    "step3Title": "Swimming Stop, Tapas & Sunset Viewing",
+    "step3Description": "Arrive at the spectacular Alcanada island and lighthouse. Enjoy swimming and water activities in the crystal-clear waters. Savor authentic Mallorcan tapas and refreshing drinks, including sangria, while witnessing the breathtaking Mediterranean sunset.",
+    "step4Time": "8:30 PM",
+    "step4Title": "Return Journey",
+    "step4Description": "Relax on deck as we cruise back to Port d'Alcúdia under the beautiful twilight sky, taking in the stunning coastal views.",
+    "step5Time": "9:00 PM",
+    "step5Title": "Arrival at Port d'Alcúdia",
+    "step5Description": "Return to the marina with unforgettable memories of your magical sunset adventure in the Bay of Alcudia.",
+    "ctaTitle": "Ready to Experience the Sunset Magic Boat Tour in Alcudia?",
+    "ctaDescription": "Join our premium Sunset Magic boat excursion in Mallorca's Bay of Alcudia. Book your evening adventure today and discover why we're the top-rated boat tour in Northern Mallorca—pure Mediterranean vibes await!",
+    "ctaButton": "Secure Your Spot Today"
+  },
+  "booking": {
+    "sectionLabel": "Book Your Adventure",
+    "sectionTitle": "Reserve Your Sunset Tour",
+    "sectionDescription": "Join us for an unforgettable evening exploring the Bay of Alcudia",
+    "priceTitle": "Price per Person",
+    "priceValue": "€65",
+    "priceNote": "Best price guarantee",
+    "durationTitle": "Duration & Departure",
+    "durationValue": "3 hours | 6:00 PM",
+    "durationNote": "Returns at 9:00 PM",
+    "meetingPointTitle": "Meeting Point",
+    "meetingPointValue": "Port d'Alcúdia Marina",
+    "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+    "whyBookTitle": "Why Book with Us?",
+    "whyBook1": "Instant confirmation",
+    "whyBook2": "Free cancellation up to 24h",
+    "whyBook3": "Small group experience",
+    "whyBook4": "Authentic Mallorcan food included",
+    "whyBook5": "Professional crew & equipment",
+    "ctaCardTitle": "Start Your Booking Journey",
+    "ctaCardDescription": "Choose your date and reserve your experience in just a few clicks",
+    "ctaButton": "Book Your Sunset Tour Now",
+    "trustBadge1": "Secure",
+    "trustBadge2": "Instant",
+    "trustBadge3": "Flexible",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What should I bring?",
+    "faq1Answer": "Bring swimwear, towel, sunscreen, sunglasses, and a camera. We provide all snorkeling equipment, paddle boards, food, and drinks.",
+    "faq2Question": "Is it suitable for children?",
+    "faq2Answer": "Yes! Our sunset tour is perfect for families. Children of all ages are welcome, and we provide life jackets and flotation devices.",
+    "faq3Question": "What if the weather is bad?",
+    "faq3Answer": "Safety is our priority. If weather conditions are unsafe, we'll contact you to reschedule or provide a full refund.",
+    "faq4Question": "What's the atmosphere like?",
+    "faq4Answer": "Pure Mediterranean magic! The sunset tour offers a relaxed, fun atmosphere with good vibes—perfect for couples, friends, families, and anyone looking to unwind and enjoy the beautiful Mallorcan evening."
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Sunset Magic Moments",
+    "description": "Discover the beauty of our sunset boat tour in Alcudia Bay"
+  }
+},
+
+"privateCharter": {
+  "hero": {
+    "badge": "Exclusive Experience",
+    "title": "Private Charter for Groups Up to 40 People",
+    "subtitle": "Transform your special celebration into an unforgettable experience on the Mediterranean. Our exclusive charter is perfect for corporate events, birthdays, bachelor/bachelorette parties, family celebrations, and friend gatherings.",
+    "capacityLabel": "Capacity",
+    "capacityValue": "Up to 40 Guests",
+    "durationLabel": "Duration",
+    "durationValue": "Flexible Hours",
+    "itineraryLabel": "Itinerary",
+    "itineraryValue": "100% Custom",
+    "cateringLabel": "Catering",
+    "cateringValue": "Tailored Menu",
+    "ctaPricing": "View Pricing & Book",
+    "ctaLearnMore": "Learn More"
+  },
+  "features": {
+    "sectionLabel": "Your Ultimate Charter Experience",
+    "sectionTitle": "Private Boat Charter in Mallorca",
+    "sectionDescription": "Discover why Coral Boats is Alcudia's premier choice for large group celebrations",
+    "introTitle": "The Largest Private Charter in Alcudia",
+    "introText": "Looking for a <strong>private boat charter in Mallorca</strong> that can accommodate your entire group? Coral Boats offers exclusive <strong>boat rental in Alcudia</strong> with capacity for up to 40 passengers—making us the ideal choice for celebrations that most charter companies in Mallorca simply cannot provide.",
+    "capacityTitle": "Capacity That Sets Us Apart",
+    "capacityText": "Our <strong>boat charter in Alcudia</strong> stands out in the Mallorca market thanks to our special licensing. While typical <strong>private boat rentals in Mallorca</strong> are limited to 12 passengers maximum, we accommodate large groups of up to 40 people on the same vessel—perfect for corporate events, birthdays, and celebrations in the stunning <strong>Bay of Alcudia</strong>.",
+    "locationTitle": "Exploring Northern Mallorca",
+    "locationText": "Operating from <strong>Port d'Alcudia</strong>, our <strong>charter boat in Mallorca</strong> sails through crystal-clear waters, visiting hidden coves, pristine beaches, and iconic landmarks like Alcanada lighthouse. Experience <strong>boat charters in Alcudia</strong> with swimming stops, snorkeling, paddle boarding, and authentic Mallorcan catering.",
+    "highlightsTitle": "What Makes Our Boat Charter Special",
+    "highlight1": "Licensed for 40+ Guests",
+    "highlight2": "Classic 1968 Vessel",
+    "highlight3": "100% Customizable",
+    "closingText": "When you book a <strong>private boat charter in Alcudia</strong> with us, you're getting more than just a <strong>boat rental in Mallorca</strong>—you're getting a fully customizable experience with a professional crew dedicated entirely to your group. From flexible departure times to personalized routes along <strong>Alcudia Bay</strong>, every detail is tailored to create unforgettable memories on the Mediterranean.",
+    "ctaButton": "View Pricing & Book Now"
+  },
+  "capacity": {
+    "sectionLabel": "Why Choose Us",
+    "sectionTitle": "Licensed for Large Groups",
+    "paragraph1": "<strong>What sets us apart</strong> from typical charters is our special license that allows us to accommodate <strong>up to 40 passengers</strong>—perfect for larger celebrations that most boats can't handle. Whether you're planning a corporate retreat, a big birthday bash, or a memorable family reunion, we have the capacity and experience to make it extraordinary.",
+    "paragraph2": "Our classic 1968 vessel, <strong>Coral Boats</strong>, combines authentic maritime charm with modern safety features and comfort. The spacious deck provides ample room for your group to mingle, dance, relax, and enjoy the stunning views of the Bay of Alcudia.",
+    "paragraph3": "With our flexible scheduling and fully customizable itineraries, you're in complete control of your experience. Choose your departure time, select your preferred stops, and let us know your catering preferences—we'll handle the rest while you enjoy quality time with your group.",
+    "galleryLink": "Explore Photo Gallery",
+    "advantagesTitle": "Charter Advantages",
+    "advantage1": "Exclusive use of the entire boat for your group",
+    "advantage2": "Capacity for up to 40 people—unlike most private charters",
+    "advantage3": "Fully customizable routes and duration",
+    "advantage4": "Personalized catering and beverage service",
+    "advantage5": "Professional crew dedicated to your event",
+    "advantage6": "Perfect for celebrations most boats can't accommodate",
+    "capacityHighlightsTitle": "Capacity Highlights",
+    "capacity1Value": "Up to 40+",
+    "capacity1Label": "Comfortable Capacity",
+    "capacity2Value": "Fully Licensed",
+    "capacity2Label": "Large Group Permit",
+    "capacity3Value": "Since 1968",
+    "capacity3Label": "Classic Vessel",
+    "infoBoxTitle": "Perfect For Large Groups",
+    "infoBoxText": "<strong>Most private charters are limited to maximum 12 people.</strong> Have more than 12 in your group? That's exactly who we're here for! Our special license allows groups from 12 up to 40+ people to stay together on the same boat. No splitting up, no booking multiple vessels—just one unforgettable experience for everyone.",
+    "ctaButton": "View Pricing & Book"
+  },
+  "events": {
+    "sectionLabel": "Perfect For Every Occasion",
+    "sectionTitle": "Events We Specialize In",
+    "sectionDescription": "Our private charter is the ideal venue for celebrations of all kinds. With capacity for up to 40 guests and complete customization, we bring your vision to life on the beautiful Mediterranean waters.",
+    "corporate": {
+      "title": "Corporate Events",
+      "description": "Team building, client entertainment, product launches, or company celebrations. Create lasting impressions with a unique venue that fosters connection and collaboration.",
+      "feature1": "Team Building Activities",
+      "feature2": "Professional Setting",
+      "feature3": "Networking Space",
+      "feature4": "Catering Options"
+    },
+    "birthday": {
+      "title": "Birthday Celebrations",
+      "description": "Make milestone birthdays truly unforgettable with a private boat party. From sweet sixteens to 50th celebrations, we create the perfect Mediterranean backdrop for your special day.",
+      "feature1": "All Age Groups",
+      "feature2": "Custom Decorations",
+      "feature3": "Music & Entertainment",
+      "feature4": "Celebration Packages"
+    },
+    "bachelor": {
+      "title": "Bachelor/Bachelorette Parties",
+      "description": "Celebrate your last days of freedom in style! Enjoy swimming, music, drinks, and good vibes with your closest friends on the stunning waters of Alcudia Bay.",
+      "feature1": "Party Atmosphere",
+      "feature2": "Premium Bar Service",
+      "feature3": "Water Activities",
+      "feature4": "Photo Opportunities"
+    },
+    "family": {
+      "title": "Family Reunions",
+      "description": "Bring the whole family together for a memorable experience. With capacity for 40 guests, everyone from grandparents to grandchildren can join the celebration.",
+      "feature1": "Multi-Generational",
+      "feature2": "Safe for All Ages",
+      "feature3": "Family-Style Catering",
+      "feature4": "Relaxed Atmosphere"
+    },
+    "friends": {
+      "title": "Friends Gatherings",
+      "description": "Sometimes the best moments are spent with friends doing something extraordinary. Charter our boat for an unforgettable day of swimming, eating, and making memories together.",
+      "feature1": "Flexible Itinerary",
+      "feature2": "Fun Activities",
+      "feature3": "BYOB Options",
+      "feature4": "Photography Included"
+    },
+    "special": {
+      "title": "Special Celebrations",
+      "description": "Anniversaries, proposals, graduations, or any milestone worth celebrating. We help you create the perfect setting for life's most important moments.",
+      "feature1": "Romantic Settings",
+      "feature2": "Custom Planning",
+      "feature3": "Special Requests",
+      "feature4": "Premium Service"
+    },
+    "footerTitle": "Have a Different Event in Mind?",
+    "footerText": "Every celebration is unique! Contact us to discuss your specific needs. Whether it's a themed party, a cultural event, or something entirely different, we'll work with you to create the perfect experience for your group of up to 40 guests."
+  },
+  "booking": {
+    "sectionLabel": "Ready to Book?",
+    "sectionTitle": "Book Your Perfect Charter",
+    "sectionDescription": "View our transparent pricing, choose your options, and reserve your date online",
+    "howItWorksTitle": "How It Works",
+    "step1": "<strong>Step 1:</strong> View our pricing and choose your charter duration",
+    "step2": "<strong>Step 2:</strong> Select optional extras like catering and open bar",
+    "step3": "<strong>Step 3:</strong> Submit your booking request with your details",
+    "step4": "<strong>Step 4:</strong> We'll confirm availability in just a few hours",
+    "step5": "<strong>Step 5:</strong> Enjoy your unforgettable charter experience!",
+    "ctaCardTitle": "Book Your Charter Today",
+    "ctaCardDescription": "View our transparent pricing and request your charter online. Choose your duration, add optional extras, and we'll confirm your booking in just a few hours.",
+    "ctaButton": "View Pricing & Book",
+    "trustBadge1": "Fully Insured",
+    "trustBadge2": "Licensed",
+    "trustBadge3": "4.9 Rating",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "How far in advance should I book?",
+    "faq1Answer": "We recommend booking 2-4 weeks in advance, especially for peak season (June-September) and weekends. However, we'll do our best to accommodate last-minute requests when possible.",
+    "faq2Question": "What's included in the price?",
+    "faq2Answer": "Boat rental, professional crew, fuel, insurance, water activities equipment, and basic sound system. View our pricing page to see detailed rates and optional extras like catering and open bar packages.",
+    "faq3Question": "Can we bring our own food and drinks?",
+    "faq3Answer": "Yes! While we offer catering services, you're welcome to bring your own. We have coolers and refrigeration available. Just let us know in advance so we can prepare accordingly.",
+    "faq4Question": "What if weather conditions are bad?",
+    "faq4Answer": "Safety first! If weather makes sailing unsafe, we'll work with you to reschedule or provide a full refund. We monitor conditions closely and will contact you in advance if needed."
+  },
+  "pricingCTA": {
+    "badge": "Transparent Pricing",
+    "title": "Ready to Book Your Private Charter?",
+    "description": "Check out our competitive pricing and customization options. We offer flexible packages tailored to your needs and budget.",
+    "button": "View Full Pricing",
+    "feature1": "Transparent Pricing",
+    "feature2": "No Hidden Costs",
+    "feature3": "Customizable Packages"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Private Charter Experiences",
+    "description": "See our exclusive private boat charters in Alcudia"
+  }
+},
+
+"premium": {
+  "hero": {
+    "title": "Best Boat Tours in Alcudia, Mallorca",
+    "subtitle": "Discover the magic of Alcudia Bay aboard our classic boat. Explore hidden coves and the best beaches in northern Mallorca with authentic local experiences.",
+    "cta_book": "Book Your Tour",
+    "cta_view_all": "View All Tours"
+  },
+  "tours": {
+    "label": "Our Tours",
+    "title": "Choose Your Perfect Boat Trip in Alcudia",
+    "description": "Two unique boat tours designed to showcase the best of Mallorca's coastline. Whether you prefer a relaxed morning sail or a magical sunset on the Port of Alcudia, both experiences include Mallorcan food, one drink, and water activities.",
+    "morning_name": "Morning Adventure",
+    "morning_time": "10:00 - 14:00",
+    "morning_duration": "4 hours",
+    "morning_price": "€68",
+    "morning_highlights": "Best for snorkeling • Calm waters • Marine life spotting",
+    "sunset_name": "Sunset Magic",
+    "sunset_time": "18:00 - 21:00",
+    "sunset_duration": "3 hours",
+    "sunset_price": "€65",
+    "sunset_highlights": "Spectacular views • Most romantic • Premium experience",
+    "whats_included": "What's Included",
+    "snorkeling_equipment": "Snorkeling Equipment",
+    "paddle_boards": "Paddle Boards",
+    "mallorcan_tapas": "Mallorcan Tapas",
+    "free_drink": "One Free Drink or Sangria",
+    "from": "From",
+    "per_person": "per person",
+    "book_now": "Book Now",
+    "departure_title": "Departure Point: Port d'Alcúdia",
+    "departure_description": "All tours depart from Port d'Alcúdia and include professional crew, safety equipment, and insurance"
+  },
+  "why_choose": {
+    "label": "Why Choose Us",
+    "title": "The Best Boat Tours in Alcudia, Mallorca",
+    "description": "Discover why thousands of travelers choose Coral Boats for their unforgettable boat trip experience in the stunning Bay of Alcudia. From snorkeling in crystal-clear waters to watching spectacular Mediterranean sunsets, we offer the perfect blend of adventure, relaxation, and authentic Mallorcan hospitality.",
+    "reason_1_title": "Authentic Mallorcan Experience",
+    "reason_1_desc": "Sail through pristine waters of the Bay of Alcudia with locals who know every hidden cove, secret beach, and the best snorkeling spots in Mallorca.",
+    "reason_2_title": "Classic 1968 Boat Charm",
+    "reason_2_desc": "Step aboard Coral Boat, a beautifully restored classic vessel that combines vintage maritime elegance with modern safety and comfort for an unforgettable journey.",
+    "reason_3_title": "Traditional Mallorcan Tapas",
+    "reason_3_desc": "Taste authentic flavors of Mallorca with our selection of local tapas and refreshing drinks, including traditional sangria, served fresh on board during your boat tour.",
+    "reason_4_title": "Small Group Adventures",
+    "reason_4_desc": "Enjoy an intimate boat experience in Alcudia with small groups, ensuring personalized attention, plenty of space to relax, and a more authentic connection with the Mediterranean.",
+    "reason_5_title": "Licensed & Insured",
+    "reason_5_desc": "Travel with complete peace of mind knowing our boat tours meet all Spanish maritime safety regulations, with professional crew, modern equipment, and comprehensive insurance.",
+    "reason_6_title": "Passion for the Sea",
+    "reason_6_desc": "We're not just tour operators—we're ocean lovers sharing the magic of Mallorca's coastline, crystal-clear waters, and breathtaking sunsets with travelers from around the world.",
+    "cta_title": "Ready to Experience the Best Boat Tour in Mallorca?",
+    "cta_description": "Book your morning adventure or magical sunset tour today and create memories that will last a lifetime. Join us aboard Coral Boats for an authentic boat trip through the stunning waters of Alcudia Bay, complete with snorkeling, paddle boarding, Mallorcan tapas, and unforgettable views.",
+    "instant_confirmation": "Instant Confirmation",
+    "free_cancellation": "Free Cancellation",
+    "best_price": "Best Price Guarantee",
+    "cta_button": "Book Your Adventure Now",
+    "rating": "4.9 Rating on Google Reviews",
+    "seo_subtitle_1": "Explore Alcudia Bay Like Never Before",
+    "seo_text_1": "The Bay of Alcudia is one of Mallorca's most spectacular natural treasures, featuring crystal-clear turquoise waters, hidden coves, and pristine beaches that can only be accessed by boat. Our expertly guided boat tours take you to the most beautiful spots along the northern coast of Mallorca, where you can snorkel with colorful Mediterranean fish, relax on secluded beaches, and swim in waters so clear you can see the sandy bottom meters below.",
+    "seo_subtitle_2": "Perfect for Every Traveler",
+    "seo_text_2": "Whether you're traveling with family, friends, or as a couple seeking romance, our boat tours in Alcudia offer something special for everyone. Families love our safe, spacious boat and kid-friendly activities like snorkeling and paddle boarding. Couples find the sunset tour perfect for romantic moments, while groups of friends enjoy the social atmosphere, delicious tapas, and refreshing sangria as we sail through paradise."
+  },
+  "private_charters": {
+    "label": "Exclusive Experiences",
+    "title": "Private Charters & Special Events",
+    "description": "Create unforgettable moments with a private charter tailored exclusively for your special occasion. Whether you're planning a frinds birthday, a corporate team-building event, a milestone celebration, or an intimate gathering with loved ones, Coral Boats provides the perfect setting for your event. Book your private boat trip in Alcudia, Mallorca today and let us help you craft and unforgettable experience!",
+    "name": "Private Charter",
+    "time": "Flexible Hours",
+    "duration": "Custom Duration",
+    "price": "Contact Us",
+    "highlights": "Exclusive experience • Fully customizable • Perfect for events",
+    "custom_itinerary": "Custom Itinerary",
+    "catering_drinks": "Catering & Drinks",
+    "professional_crew": "Professional Crew",
+    "water_activities": "Water Activities",
+    "duration_label": "Duration",
+    "duration_value": "3-4 Hours",
+    "flexible_options": "flexible options",
+    "info_text": "Private charters can be customized to your specific needs. View our transparent pricing and book online."
+  },
+  "footer_premium": {
+    "description": "Experience the magic of Mallorca's Bay of Alcudia aboard our classic boat. Discover hidden coves, snorkel in crystal-clear waters, and create unforgettable memories.",
+    "quick_links": "Quick Links",
+    "home": "Home",
+    "our_tours": "Our Tours",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "contact": "Contact",
+    "tours_title": "Our Tours",
+    "morning_tour": "Morning Boat Tour",
+    "sunset_tour": "Sunset Boat Tour",
+    "private_charter": "Private Charter",
+    "get_in_touch": "Get in Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "location": "Port of Alcudia, Mallorca",
+    "copyright": "Coral Boats Mallorca. All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "terms_conditions": "Terms & Conditions"
+  },
+  "contact_new": {
+    "send_message_title": "Send Us a Message",
+    "send_message_subtitle": "Fill out the form below and we'll get back to you as soon as possible",
+    "email_label": "Email",
+    "tel_label": "Phone",
+    "response_time": "Quick Response Time",
+    "response_time_desc": "We typically respond to all inquiries within a few hours. For urgent matters, please call us directly.",
+    "seo_title": "Contact Coral Boats Mallorca",
+    "seo_text_1": "Looking to book a boat tour in Alcudia, Mallorca? Coral Boats offers the best boat experiences in the Bay of Alcudia. Whether you're interested in our morning boat tour, sunset cruise, or a private charter for a special occasion, we're here to help make your Mallorca boat tour unforgettable.",
+    "seo_text_2": "Our team is ready to answer any questions about our boat tours, departure times from Port of Alcudia, what to bring, and how to reach the beautiful beaches and coves around Alcudia Bay. Contact us today to reserve your spot on one of the top-rated boat tours in Mallorca.",
+    "seo_text_3": "We also offer customized private charters for groups, families, and special celebrations. Get in touch to discuss your perfect day on the water exploring the stunning coastline of northern Mallorca, including stops at Playa de Muro, Alcanada lighthouse, and hidden coves only accessible by boat."
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "Boat Tour Reviews in Alcudia, Mallorca",
+    "description": "Don't just take our word for it—read reviews from travelers who have experienced the magic of Mallorca with Coral Boats.",
+    "average_rating": "Average Rating",
+    "five_star_reviews": "5-Star Reviews",
+    "happy_travelers": "Happy Travelers",
+    "find_us_on": "Find us on"
+  },
+  "charter_pricing": {
+    "hero_badge": "Transparent Pricing",
+    "hero_title": "Private Charter Pricing",
+    "hero_subtitle": "Clear, straightforward pricing for your exclusive boat charter experience in Alcudia Bay. Book your private celebration with confidence—no hidden fees, just unforgettable memories.",
+
+    "rates_label": "Our Rates",
+    "rates_title": "Charter Rental Rates",
+    "rates_description": "Choose your preferred duration and season. All prices include boat rental, professional crew, fuel, insurance, and water activities equipment.",
+
+    "high_season": "High Season",
+    "high_season_dates": "June 15 - September 15",
+    "low_season": "Low Season",
+    "low_season_dates": "May 1 - June 14 & Sept 16 - Oct 31",
+
+    "charter_3h": "3 Hours Charter",
+    "charter_4h": "4 Hours Charter",
+    "charter_3h_desc": "Perfect introduction",
+    "charter_4h_desc": "Half-day experience",
+
+    "high_season_info": "Peak season rates apply during summer months",
+    "low_season_info": "Best value rates for spring and fall bookings",
+
+    "whats_included_title": "What's Included in Your Charter",
+    "included_capacity": "Capacity up to 40",
+    "included_crew": "Professional Crew",
+    "included_fuel": "Fuel Included",
+    "included_insurance": "Full Insurance",
+    "included_activities": "Water Activities",
+    "included_sound": "Sound System",
+    "included_route": "Custom Route",
+    "included_photos": "Photo Assistance",
+
+    "extras_label": "Enhance Your Experience",
+    "extras_title": "Optional Extras",
+    "extras_description": "Customize your charter with delicious catering and beverage options. All prices are per person and can be added to your booking.",
+
+    "extra_popular": "POPULAR",
+    "extra_snack_title": "Light Snack Appetizer",
+    "extra_snack_desc": "Potato chips, nuts, olives, and cured meats selection",
+    "extra_tapas_title": "Traditional Tapas Meal",
+    "extra_tapas_desc": "Coca de trempó, empanada, tortilla, cured meats & cheeses, potato chips, nuts, olives, and dessert",
+    "extra_bar_title": "Open Bar Package",
+    "extra_bar_desc": "Unlimited soft drinks, wine, beer, and sangria throughout your charter",
+    "per_person": "per person",
+
+    "byo_title": "Bring Your Own Option",
+    "byo_description": "You're welcome to bring your own food and beverages if you prefer! We have coolers and refrigeration available on board. Just let us know in advance so we can prepare accordingly.",
+
+    "booking_label": "Ready to Book?",
+    "booking_title": "Request Your Charter",
+    "booking_description": "Fill out the form below and we'll get back to you in just a few hours to confirm availability and finalize your private charter experience.",
+
+    "form_first_name": "First Name",
+    "form_last_name": "Last Name",
+    "form_email": "Email Address",
+    "form_phone": "Phone Number",
+    "form_date": "Preferred Date",
+    "form_duration": "Charter Duration",
+    "form_guests": "Number of Guests",
+    "form_extras": "Optional Extras",
+    "form_message": "Additional Details or Special Requests",
+
+    "form_first_name_placeholder": "Your first name",
+    "form_last_name_placeholder": "Your last name",
+    "form_email_placeholder": "your.email@example.com",
+    "form_phone_placeholder": "+34 123 456 789",
+    "form_duration_placeholder": "Select duration",
+    "form_duration_3h": "3 Hours",
+    "form_duration_4h": "4 Hours",
+    "form_guests_placeholder": "Up to 40 guests",
+    "form_message_placeholder": "Tell us about your event, any special requirements, or questions you may have...",
+
+    "form_extra_snack": "Light Snack Appetizer - €4/person",
+    "form_extra_tapas": "Traditional Tapas Meal - €10/person",
+    "form_extra_bar": "Open Bar Package - €12/person",
+
+    "form_submit": "Submit Booking Request",
+    "form_submitting": "Sending Request...",
+    "form_privacy": "By submitting this form, you agree to be contacted regarding your charter booking. We typically respond in just a few hours.",
+
+    "form_success": "Thank you for your booking request! We'll contact you in just a few hours to confirm availability and finalize details.",
+
+    "form_error_first_name": "First name is required",
+    "form_error_last_name": "Last name is required",
+    "form_error_email": "Email is required",
+    "form_error_email_invalid": "Invalid email format",
+    "form_error_phone": "Phone number is required",
+    "form_error_date": "Preferred date is required",
+    "form_error_duration": "Please select charter duration",
+    "form_error_guests": "Number of guests is required",
+    "form_error_message_min": "Message must be at least 10 characters"
+  },
+
+  "gallery": {
+    "hero_badge": "Photo Gallery",
+    "hero_title": "Explore Our Boat Tour Experiences",
+    "hero_subtitle": "Discover the beauty of Alcudia Bay through our collection of stunning photos. From crystal-clear waters and breathtaking sunsets to unforgettable moments with friends and family, see what makes Coral Boats the best boat tour experience in Mallorca.",
+
+    "section_label": "Our Memories",
+    "section_title": "Boat Tour Gallery",
+    "section_description": "Explore stunning photos from our boat tours in Alcudia Bay, Mallorca. See the crystal-clear waters, beautiful coastlines, and unforgettable moments our guests experience.",
+
+    "click_to_view": "Click to view",
+
+    "seo_title": "Experience the Best Boat Tours in Alcudia, Mallorca",
+    "seo_intro": "Welcome to Coral Boats' photo gallery, showcasing the unforgettable experiences we offer on our <strong>boat tours in Alcudia, Mallorca</strong>. Browse through stunning images of our <strong>morning adventures</strong>, <strong>sunset cruises</strong>, and <strong>private boat charters</strong> in the beautiful Bay of Alcudia.",
+
+    "tours_title": "Our Boat Tours in Mallorca",
+    "tours_description": "Coral Boats operates the finest <strong>boat tours in Port d'Alcudia</strong>, offering three distinct experiences:",
+    "tour_morning": "<strong>Morning Adventure Tour</strong>: 4-hour boat trip with snorkeling, paddleboarding, and Mallorcan tapas",
+    "tour_sunset": "<strong>Sunset Magic Tour</strong>: 3-hour romantic cruise with stunning Mediterranean sunset views",
+    "tour_private": "<strong>Private Boat Charter</strong>: Fully customizable experience for groups up to 40 passengers",
+
+    "why_alcudia_title": "Why Choose Alcudia Bay?",
+    "why_alcudia_description": "The <strong>Bay of Alcudia</strong> is one of Mallorca's most spectacular coastal areas, featuring crystal-clear turquoise waters, hidden coves, and breathtaking views of the iconic <strong>Alcanada Lighthouse</strong>. Our <strong>boat excursions in Mallorca</strong> take you to the most beautiful spots, including secluded beaches and pristine snorkeling locations that are only accessible by boat.",
+
+    "beaches_title": "Discover Mallorca's Most Beautiful Beaches by Boat",
+    "beaches_p1": "Our <strong>boat tours from Alcudia</strong> give you exclusive access to some of <strong>Mallorca's best beaches</strong> and hidden coastal gems. Explore pristine <strong>beaches near Alcudia</strong> including <strong>Playa de Muro</strong>, the secluded coves of <strong>Alcanada</strong>, and stunning <strong>beaches in North Mallorca</strong> that are unreachable by land.",
+    "beaches_p2": "Experience the turquoise waters of <strong>Port d'Alcudia beaches</strong>, discover hidden <strong>calas in Mallorca</strong>, and enjoy swimming in crystal-clear Mediterranean waters at <strong>secret beaches only accessible by boat</strong>. Our tours provide the perfect combination of <strong>beach hopping in Mallorca</strong>, snorkeling in protected coves, and exploring the breathtaking <strong>Alcudia coastline</strong>.",
+
+    "book_title": "Book Your Boat Tour in Alcudia Today",
+    "book_description": "Join over 10,000 satisfied guests who have experienced the magic of <strong>boat tours in Alcudia Mallorca</strong> with Coral Boats. Whether you're looking for a <strong>family-friendly boat trip</strong>, a <strong>romantic sunset cruise</strong>, or a <strong>private celebration at sea</strong>, we have the perfect boat tour experience for you. All tours include professional crew, snorkeling equipment, paddle boards, delicious Mallorcan tapas, and complimentary drinks or sangria.",
+    "book_footer": "📍 Departing daily from Port d'Alcudia, Mallorca | ⭐ 4.9/5 Rating from 500+ Reviews | 🏆 Licensed & Insured Official Operator",
+
+    "image_alcanada_lighthouse": "Alcanada Lighthouse Views",
+    "image_boat_alcanada": "Sailing to Alcanada",
+    "image_boat_fun": "Fun Times on Board",
+    "image_boat_interior": "Comfortable Boat Interior",
+    "image_card_morning": "Morning Adventure Experience",
+    "image_card_private": "Private Charter Luxury",
+    "image_card_sunset": "Sunset Magic Tour",
+    "image_classic_boat": "Our Classic Boat",
+    "image_coastline_views": "Stunning Coastline Views",
+    "image_cove": "Secret Cove Discovery",
+    "image_crew_service": "Professional Crew Service",
+    "image_friends_enjoy": "Friends Enjoying the Moment",
+    "image_friends_fun": "Unforgettable Memories Together",
+    "image_friends_group": "Group Celebrations on Board",
+    "image_golden_hour": "Golden Hour Magic",
+    "image_hidden_coves": "Exploring Hidden Coves",
+    "image_island_boat": "Island Adventures",
+    "image_kids_fun": "Family Fun for All Ages",
+    "image_mallorca_views": "Breathtaking Mallorca Views",
+    "image_mallorcan_tapas": "Delicious Mallorcan Tapas",
+    "image_matress": "Relaxing on the Water",
+    "image_meal": "Fresh Mediterranean Cuisine",
+    "image_paddel_board": "Paddle Boarding Fun",
+    "image_panoramic_beach": "Panoramic Beach Paradise",
+    "image_partners": "Romantic Moments at Sea",
+    "image_professional_crew": "Expert Crew Members",
+    "image_sangria_tapas": "Sangria & Tapas Experience",
+    "image_sunset": "Spectacular Sunset Views",
+    "image_sunset_image": "Mediterranean Sunset Beauty",
+    "image_sunset_light": "Sunset Golden Light",
+    "image_sunset_port": "Port Alcudia at Sunset",
+    "image_tour": "Amazing Boat Tour Experience",
+    "image_water_fun": "Water Activities & Fun"
+  },
+
+  "contact_page": {
+    "hero_badge": "Get in Touch",
+    "form_error_first_name": "First name is required",
+    "form_error_last_name": "Last name is required",
+    "form_error_email": "Email is required",
+    "form_error_email_invalid": "Invalid email format",
+    "form_error_phone": "Phone number is required",
+    "form_error_subject": "Subject is required",
+    "form_error_message": "Message is required",
+    "form_error_message_min": "Message must be at least 5 characters",
+    "form_success": "Thank you for your message! We'll get in touch with you as soon as possible"
+  },
+  "contact": {
+    "title": "Get in Touch with Coral Boats Mallorca",
+    "body": "Have questions about our boat tours in Alcudia? Want to book a private charter or need help planning your perfect day on the water? Our friendly team is here to help. Reach out today and let's create unforgettable memories together on the beautiful Bay of Alcudia.",
+    "name": "First Name",
+    "surname": "Last Name",
+    "tel": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message"
+  }
+},
+
+"blog_catorce": {
+    "title": "Snorkeling in Mallorca: Best Spots Near Alcudia",
+    "slug": "snorkeling-mallorca-best-spots-alcudia",
+    "keyword": "snorkeling Mallorca Alcudia",
+    "meta_description": "Discover the best snorkeling spots near Alcudia, Mallorca. Crystal-clear waters, vibrant marine life, and hidden underwater treasures await you.",
+    "publishedDate": "July 18, 2025",
+    "btnText": "Read more",
+    "badgeTitle": "Marine Life",
+    "section1": {
+      "title": "Explore the underwater world of Mallorca's north coast",
+      "body": "The crystal-clear waters around Alcudia offer some of the best snorkeling experiences in the Mediterranean. With excellent visibility, rich marine biodiversity, and stunning underwater landscapes, this area is perfect for both beginners and experienced snorkelers. In this guide, we'll take you through the top snorkeling spots, what you can expect to see, and essential tips for making the most of your underwater adventure."
+    },
+    "section2": {
+      "title": "Why snorkel in Alcudia?",
+      "body": "The Bay of Alcudia is blessed with ideal conditions for snorkeling:\n\n- Crystal-clear turquoise waters with visibility often exceeding 20 meters.\n- Protected coves with calm waters, perfect for safe exploration.\n- Diverse marine life including colorful fish, octopuses, sea stars, and occasionally even sea turtles.\n- Rocky seabeds and Posidonia meadows that create thriving underwater ecosystems.\n- Accessible spots both from shore and by boat.\n\nWhether you're a first-timer or an experienced snorkeler, the waters around Alcudia offer something magical for everyone."
+    },
+    "section3": {
+      "title": "Top 3 snorkeling spots near Alcudia",
+      "body": "Here are three outstanding locations to explore the underwater world around Alcudia.",
+      "sub1": {
+        "subtitle": "Hidden coves along the Bay of Alcudia",
+        "body": "The secluded coves accessible by boat tour offer some of the most pristine snorkeling conditions. These untouched spots feature rocky formations teeming with marine life, vibrant Posidonia meadows (protected sea grass), and waters so clear you can see the sandy bottom from the surface. Schools of colorful fish, curious octopuses, and starfish make their home here. Our boat tours often include snorkeling stops at these hidden gems, complete with equipment provided."
+      },
+      "sub2": {
+        "subtitle": "Playa de Aucanada",
+        "body": "Near the iconic Aucanada lighthouse, this area offers excellent snorkeling conditions with relatively calm waters. The rocky coastline creates interesting underwater landscapes where you can spot damselfish, wrasses, sea bream, and occasionally even moray eels hiding in crevices. The combination of sandy patches and rocky areas makes for diverse marine habitats. It's also accessible from shore, making it ideal for independent exploration."
+      },
+      "sub3": {
+        "subtitle": "Cala Sant Vicenç",
+        "body": "Just a short drive from Alcudia, this stunning area comprises four small coves with exceptional snorkeling. The clear, calm waters and rocky seabeds host a variety of Mediterranean species. The underwater visibility here is outstanding, and the dramatic cliffs above add to the spectacular scenery. It's particularly great for families, as the shallow waters near shore are perfect for kids learning to snorkel."
+      }
+    },
+    "section4": {
+      "title": "What to bring and how to prepare",
+      "body": "To make the most of your snorkeling adventure around Alcudia, come prepared:\n\n- Quality mask and snorkel (or join a boat tour where equipment is provided).\n- Fins for easier movement, especially in deeper areas.\n- Reef-safe sunscreen to protect both your skin and the marine environment.\n- Waterproof camera or GoPro to capture the underwater beauty.\n- Water shoes for rocky entry points if snorkeling from shore.\n- A mesh bag to keep your gear organized.\n\nIf you join one of our boat tours, all snorkeling equipment is included, along with experienced guides who know the best spots and can point out interesting marine life. We also provide snacks and drinks so you can focus entirely on enjoying the experience."
+    },
+    "section5": {
+      "title": "Ready to discover Mallorca's underwater world?",
+      "body": "Snorkeling in the Bay of Alcudia is an unforgettable way to connect with the Mediterranean Sea and witness its incredible biodiversity. Whether you explore from shore or join one of our boat tours to reach the most pristine hidden coves, you'll be amazed by the clarity of the water and the richness of marine life.\n\nDive in and let the underwater magic of Mallorca surprise you!"
+    }
+  },
+
+
+  
+"about": {
+    "page": {
+      "breadcrumb_title": "About Coral Boats Mallorca",
+      "breadcrumb_subtitle": "Discover the story behind Alcudia's favorite boat tour experience"
+    },
+    "hero": {
+      "badge": "About Us",
+      "title": "Sailing Mallorca's Waters Since 1968",
+      "subtitle": "Experience authentic boat tours in Alcudia Bay with our passionate crew and classic 1968 boat. Over 15 years of creating unforgettable memories on the Mediterranean Sea.",
+      "stat1": "Years Experience",
+      "stat2": "Happy Guests",
+      "stat3": "Rating"
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "A Journey of Passion & Adventure",
+      "paragraph1": "Welcome aboard Coral Boats, a beautifully restored classic boat that has been gracing the Mediterranean waters since 1968. Our story began with a passion for the sea and a dream to share the hidden treasures of Mallorca with travelers from around the world.",
+      "paragraph2": "Led by our experienced captain and dedicated crew, we've perfected the art of boat tours in the Bay of Alcudia. We know every cove, every secret beach, and every perfect spot where the water shimmers in shades of turquoise that seem almost unreal.",
+      "paragraph3": "What sets us apart is our commitment to authentic experiences. We're not just a tour operator—we're locals who love our island and want to share its magic with you. Every tour is crafted with care, combining adventure, relaxation, and the genuine warmth of Mediterranean hospitality.",
+      "quote": "We believe that the best memories are made on the water, surrounded by nature's beauty, good company, and the spirit of adventure."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What drives us to deliver exceptional boat tour experiences in Alcudia Bay",
+      "value1_title": "Passion for the Sea",
+      "value1_desc": "We live and breathe the Mediterranean lifestyle. Our love for the ocean and Mallorca's coastline is at the heart of everything we do.",
+      "value2_title": "Environmental Commitment",
+      "value2_desc": "We're committed to protecting Mallorca's pristine waters and marine life. Sustainable tourism is our responsibility and priority.",
+      "value3_title": "Safety First",
+      "value3_desc": "Your safety is paramount. We maintain the highest standards with certified crew, modern equipment, and comprehensive insurance coverage.",
+      "value4_title": "Excellence in Service",
+      "value4_desc": "From booking to disembarkation, we strive for perfection. Every detail matters when creating your dream boat tour experience."
+    },
+    "boat": {
+      "title": "Meet Amayna II",
+      "subtitle": "Our Classic 1968 Boat",
+      "description1": "Amayna II is not just a boat—she's a piece of maritime history. This beautifully maintained classic vessel from 1968 combines vintage charm with modern safety features and amenities. Her spacious deck, comfortable seating areas, and authentic character create the perfect setting for your boat tour adventure in Alcudia.",
+      "description2": "Completely refurbished and equipped with state-of-the-art navigation and safety systems, Amayna II offers the romance of classic sailing with all the comforts you'd expect from a premium boat tour experience. She's been sailing Mallorca's waters for over 50 years and has countless stories to tell.",
+      "feature1": "Built in 1968 - Over 50 Years of History",
+      "feature2": "Capacity up to 40 Passengers",
+      "feature3": "Spacious 15-meter Classic Design",
+      "feature4": "Fully Licensed & Insured Vessel",
+      "badge": "Classic Boat"
+    },
+    "team": {
+      "title": "Our Professional Crew",
+      "subtitle": "Meet the team that makes every boat tour in Alcudia unforgettable",
+      "headline": "Experience, Professionalism & Local Knowledge",
+      "description": "Our crew is the heart and soul of Coral Boats. Led by our experienced captain with over 20 years navigating Mallorca's waters, our team combines deep local knowledge with exceptional hospitality. Every crew member is certified, multilingual, and passionate about sharing the beauty of Alcudia Bay with our guests.",
+      "quality1_title": "Professional & Certified",
+      "quality1_desc": "All crew members hold official maritime certifications and extensive safety training. Your experience is in expert hands.",
+      "quality2_title": "Multilingual Team",
+      "quality2_desc": "We speak English, Spanish, German, French, and Italian fluently, ensuring clear communication and comfort for all guests.",
+      "quality3_title": "Passionate Locals",
+      "quality3_desc": "Born and raised in Mallorca, we share insider knowledge about secret coves, best snorkeling spots, and hidden gems of Alcudia."
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Real reviews from boat tour experiences in Alcudia with Coral Boats Mallorca",
+      "testimonial1_name": "Sarah & Michael",
+      "testimonial1_country": "United Kingdom",
+      "testimonial1_text": "Absolutely the best boat tour we've ever experienced! The crew was fantastic, the snorkeling spots were incredible, and the tapas were delicious. The classic boat adds so much charm. Highly recommend for anyone visiting Alcudia!",
+      "testimonial2_name": "Familie Schmidt",
+      "testimonial2_country": "Germany",
+      "testimonial2_text": "Perfect family day out! Our kids loved the paddleboarding and swimming in the crystal-clear water. The captain knew all the best spots and the crew made us feel so welcome. A must-do experience in Mallorca!",
+      "testimonial3_name": "Emma & Lucas",
+      "testimonial3_country": "France",
+      "testimonial3_text": "The sunset tour was pure magic! Romantic, peaceful, and the views of Alcanada lighthouse at golden hour were breathtaking. The sangria and atmosphere were perfect. We'll definitely be back!",
+      "platforms_text": "See more reviews on Google and TripAdvisor",
+      "reviews": "reviews"
+    },
+    "cta": {
+      "title": "Ready for Your Boat Tour Adventure?",
+      "subtitle": "Choose your perfect boat tour experience in Alcudia Bay",
+      "tour1_title": "Morning Adventure Tour",
+      "tour1_desc": "4-hour morning boat tour with snorkeling, paddleboarding, swimming, and Mallorcan tapas in Alcudia Bay",
+      "tour2_title": "Sunset Magic Tour",
+      "tour2_desc": "3-hour sunset cruise with stunning Mediterranean views, sangria, and the perfect romantic atmosphere",
+      "tour3_title": "Private Charter",
+      "tour3_desc": "Exclusive boat charter for groups up to 40 guests. Fully customizable route, catering, and itinerary",
+      "contact_text": "Have questions or want to learn more? Get in touch with us!",
+      "contact_button": "Contact Us"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+          
+          
+    
+      
+    
+
+      
+  }
+  

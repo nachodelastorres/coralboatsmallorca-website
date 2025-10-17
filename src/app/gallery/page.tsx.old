@@ -1,0 +1,14 @@
+import { Metadata } from 'next';
+import GalleryMain from '@/pages/gallery/gallery';
+
+export const metadata: Metadata = {
+  title: 'Coral Boats – Mallorca Boat Tours',
+  description: 'Explore the Bay of Alcudia on a classic boat. Hidden coves, crystal-clear waters and the Mediterranean breeze await you.',
+
+};
+
+const GalleryPage = () => {
+  return <GalleryMain />;
+};
+
+export default GalleryPage;

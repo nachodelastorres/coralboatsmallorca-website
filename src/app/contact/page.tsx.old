@@ -1,0 +1,91 @@
+import { Metadata } from 'next';
+import ContactMain from '@/pages/contact/contact';
+
+export const metadata: Metadata = {
+  title: 'Contact Us - Book Your Boat Tour in Alcudia, Mallorca | Coral Boats',
+  description: 'Get in touch with Coral Boats to book your boat tour in Alcudia, Mallorca. Quick responses within hours. Contact us via email, phone, or WhatsApp for morning tours, sunset cruises, or private charters. We are here to help plan your perfect day on the Mediterranean.',
+  keywords: [
+    'contact Coral Boats',
+    'book boat tour Alcudia',
+    'Mallorca boat tour booking',
+    'Alcudia boat rental contact',
+    'boat tour inquiries Mallorca',
+    'private charter booking',
+    'Alcudia boat tours phone',
+    'email Coral Boats',
+    'WhatsApp boat booking',
+    'boat tour customer service',
+    'Mallorca boat tour reservations',
+    'Bay of Alcudia boat contact',
+    'boat trip questions Mallorca',
+    'group booking boat tour',
+    'wedding boat charter contact',
+    'corporate event boat Mallorca',
+    'sunset cruise booking',
+    'morning tour reservations',
+    'boat tour availability',
+    'Coral Boats Mallorca contact',
+  ],
+  authors: [{ name: 'Coral Boats Mallorca' }],
+  creator: 'Coral Boats Mallorca',
+  publisher: 'Coral Boats Mallorca',
+  metadataBase: new URL('https://coralboatsmallorca.com'),
+  alternates: {
+    canonical: '/contact',
+    languages: {
+      'en': '/en/contact',
+      'es': '/es/contact',
+      'de': '/de/contact',
+      'fr': '/fr/contact',
+      'it': '/it/contact',
+    },
+  },
+  openGraph: {
+    title: 'Contact Coral Boats - Book Your Boat Tour in Alcudia, Mallorca',
+    description: 'Get in touch with Coral Boats to book your boat tour in Alcudia. Quick responses within hours. Email, phone, or WhatsApp available.',
+    url: 'https://coralboatsmallorca.com/contact',
+    siteName: 'Coral Boats Mallorca',
+    images: [
+      {
+        url: '/assets/img/premium/gallery_new/boat_alcanada.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Coral Boats Mallorca - Book your boat tour in Alcudia',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Coral Boats - Book Your Alcudia Boat Tour',
+    description: 'Get in touch to book your boat tour in Alcudia, Mallorca. Quick responses via email, phone, or WhatsApp.',
+    images: ['/assets/img/premium/gallery_new/boat_alcanada.webp'],
+    creator: '@coralboatsmallorca',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  category: 'travel',
+  other: {
+    'geo.region': 'ES-PM',
+    'geo.placename': 'Alcudia, Mallorca',
+    'geo.position': '39.8525;3.1211',
+    'ICBM': '39.8525, 3.1211',
+  },
+};
+
+const ContactPage = () => {
+  return <ContactMain />;
+};
+
+export default ContactPage;

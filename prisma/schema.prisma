@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Interesado {
+  id                 Int       @id @default(autoincrement())
+  nombre             String    @db.VarChar(100)
+  apellidos          String    @db.VarChar(100)
+  email              String    @unique @db.VarChar(100)
+  telefono           String    @db.VarChar(20)
+  tipoExcursion      String    @db.VarChar(50)
+  numeroDePersonas   Int       @db.Integer
+  fechaRegistro      DateTime? @default(now()) @db.Timestamp(6)
+
+  @@map("interesados") // 👉 Esto le dice a Prisma que el nombre de la tabla en la base de datos es "interesados"
+
+}

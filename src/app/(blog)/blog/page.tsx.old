@@ -1,0 +1,129 @@
+import { Metadata } from 'next';
+import BlogMain from '@/pages/blog/blog';
+
+export const metadata: Metadata = {
+  title: 'Boat Tours Blog - Tips & Guides for Alcudia, Mallorca | Coral Boats',
+  description: 'Discover expert tips, travel guides, and insider secrets for boat tours in Alcudia and Mallorca. Learn about the best beaches, hidden coves, snorkeling spots, and local experiences from Coral Boats. Your ultimate guide to exploring the Bay of Alcudia by sea.',
+  keywords: [
+    'Mallorca travel blog',
+    'Alcudia boat tour tips',
+    'Bay of Alcudia guide',
+    'Mallorca hidden beaches',
+    'best snorkeling spots Mallorca',
+    'Alcudia travel guide',
+    'Mallorca boat trip advice',
+    'northern Mallorca beaches',
+    'boat tour tips',
+    'Mallorca tourism',
+    'Alcudia Bay attractions',
+    'things to do in Alcudia',
+    'Mallorca sailing tips',
+    'boat tour preparation',
+    'Mediterranean travel blog',
+    'Mallorca local experiences',
+    'Alcudia coves and beaches',
+    'Playa de Muro guide',
+    'boat tour safety tips',
+    'Mallorca water sports',
+  ],
+  authors: [{ name: 'Coral Boats Mallorca' }],
+  creator: 'Coral Boats Mallorca',
+  publisher: 'Coral Boats Mallorca',
+  metadataBase: new URL('https://coralboatsmallorca.com'),
+  alternates: {
+    canonical: '/blog',
+    languages: {
+      'en': '/en/blog',
+      'es': '/es/blog',
+      'de': '/de/blog',
+      'fr': '/fr/blog',
+      'it': '/it/blog',
+    },
+  },
+  openGraph: {
+    title: 'Boat Tours Blog - Alcudia & Mallorca Travel Guide | Coral Boats',
+    description: 'Expert tips, travel guides, and insider secrets for boat tours in Alcudia and Mallorca. Discover the best beaches, hidden coves, and local experiences.',
+    url: 'https://coralboatsmallorca.com/blog',
+    siteName: 'Coral Boats Mallorca',
+    images: [
+      {
+        url: '/assets/img/premium/gallery_new/boat_alcanada.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Coral Boats Mallorca blog - Travel guides and tips for boat tours in Alcudia',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Boat Tours Blog - Alcudia & Mallorca Guide',
+    description: 'Expert tips, travel guides, and insider secrets for exploring Alcudia Bay by boat. Your ultimate Mallorca travel resource.',
+    images: ['/assets/img/premium/gallery_new/boat_alcanada.webp'],
+    creator: '@coralboatsmallorca',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  category: 'travel',
+  other: {
+    'geo.region': 'ES-PM',
+    'geo.placename': 'Alcudia, Mallorca',
+    'geo.position': '39.8525;3.1211',
+    'ICBM': '39.8525, 3.1211',
+  },
+};
+
+const BlogPage = () => {
+  return <BlogMain />;
+};
+
+export default BlogPage;
+
+
+// import { getAllBlogPosts } from '@/lib/datocms';
+// import Image from 'next/image';
+// import Link from 'next/link';
+
+// export default async function BlogPage() {
+//   const posts = await getAllBlogPosts();
+
+//   return (
+//     <div className="container mx-auto py-8">
+//       <h1 className="text-3xl font-bold mb-6">Blog</h1>
+      
+//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+//         {posts.map((post: any) => (
+//           <div key={post.id} className="border rounded-lg shadow-md p-4">
+//             <Link href={`/blog/${post.slug}`}>
+//               <div className="cursor-pointer">
+//                 {post.featuredImage?.url && (
+//                   <Image
+//                     src={post.featuredImage.url}
+//                     alt={post.title}
+//                     width={400}
+//                     height={250}
+//                     className="rounded-lg"
+//                   />
+//                 )}
+//                 <h2 className="text-xl font-semibold mt-4">{post.title}</h2>
+//                 <p className="text-gray-600">{post.excerpt}</p>
+//               </div>
+//             </Link>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+

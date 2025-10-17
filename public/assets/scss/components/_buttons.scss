@@ -1,0 +1,310 @@
+@use '../utils' as *;
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.fixed-book-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.book-now-main-button {
+  padding: 14px 80px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #ED6A46;
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  animation: bounce 1.5s ease-in-out infinite; // ✅ Aquí sí se activa
+
+  &:hover {
+    background-color: #ad5742;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+
+/* FAB - Floating Action Button */
+.fab-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ED6A46;
+  color: #fff;
+  border: none;
+
+  @media (max-width: 768px) {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+
+/* FAB - Floating Action Button */
+.fab-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ED6A46;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* Sidebar para móviles */
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -4px 0px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  overflow-y: auto;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Botón para cerrar */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mostrar solo en móvil */
+@media (min-width: 992px) {
+  .fab-button,
+  .mobile-sidebar {
+    display: none;
+  }
+}
+
+
+
+
+
+.it-btn {
+  &-primary {
+  
+  font-size: 20px;
+  font-family: var(--it-ff-vietnam);
+  padding: 12px 24px;
+  display: inline-block;
+  color: #FFFFFF;
+  background: #6DA48F;                // Verde Mar (color principal)
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;            // Transición más suave
+
+  @media #{$xl, $md, $xs} {
+    font-size: 16px;
+    padding: 12px 12px;             // Responsive más cómodo en móvil
+  }
+
+  &:hover {
+    background-color: #ED6A46;      // Cambio a azul marino en hover
+    color: #ffffff;
+  }
+
+  &.it-white-bg {
+    color: #6DA48F;
+    background-color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #6DA48F;
+
+    // font-size: 18px;
+    // padding: 20px 30px;
+    // display: inline-block;
+    // color: var(--it-common-white);
+    // background: var(--it-theme-1);
+    // border-radius: 5px;
+    // transition: 0.3s;
+    // font-weight: 500;
+    // text-transform: none;
+    // transition: 0.3s;
+    // @media #{$xl,$md,$xs} {
+    //   padding: 20px 20px;
+    // }
+
+    // &:hover {
+    //   color: var(--it-common-white);
+    //   background-color: var(--it-theme-2);
+    // }
+
+    // &.it-white-bg {
+    //   color: var(--it-theme-1);
+    //   background-color: var(--it-common-white);
+    //   &:hover {
+    //     color: var(--it-common-white);
+    //     background-color: var(--it-theme-1);
+      }
+    }
+  }
+
+    &-testtour {
+      font-size: 14px;
+      font-family: var(--it-ff-vietnam);
+      padding: 10px 20px;
+      display: inline-block;
+      color: #FFFFFF;
+      background: #6DA48F; // Verde Mar
+      border-radius: 5px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+  
+      @media #{$xl, $md, $xs} {
+        padding: 12px 15px;
+        font-size: 12px;
+      }
+  
+      &:hover {
+        background-color: #ED6A46; // Hover naranja
+        color: #ffffff;
+      }
+  
+      // 🧡 Modificador naranja
+      &.btn-orange {
+        background-color: #ED6A46;
+  
+        &:hover {
+          background-color: #d3573b; // Un poco más oscuro
+        }
+      }
+  
+      // 🟢 Modificador blanco (ya lo tienes)
+      &.it-white-bg {
+        color: #6DA48F;
+        background-color: #ffffff;
+  
+        &:hover {
+          color: #ffffff;
+          background-color: #6DA48F;
+        }
+      }
+    }
+  
+  
+  &-secondary {
+    font-size: 15px;
+    padding: 20px 40px;
+    display: inline-block;
+    color: var(--it-common-white);
+    background: var(--it-theme-2);
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    &:hover {
+      color: var(--it-common-white);
+      background-color: var(--it-theme-1);
+    }
+  }
+
+  &-blog {
+    font-size: 14px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: var(--it-common-white);
+    background: #6DA48F; 
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.3s;
+    font-family: var(--it-ff-vietnam);
+
+    &:hover {
+      color: var(--it-common-white);
+      background-color: #ED6A46;
+    }
+
+    &.featured-btn {
+      // background: rgba(76, 160, 41, 0.4);
+      background: #6DA48F; 
+    }
+  
+
+    &.featured-btn-black {
+      color: var(--it-theme-1);
+      // background: rgba(17, 187, 103, 0.2);
+      background-color: #ED6A46;  
+
+      &:hover {
+        color: var(--it-common-white);
+        // background: var(--it-theme-1);
+        background-color: #ED6A46;
+      }
+    }
+
+    &.blog-style-btn {
+      color: var(--it-theme-1);
+      background: rgba(17, 187, 103, 0.2);
+    }
+  }
+}
+
+.it-slide-btn-1 {
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  background-color: var(--it-theme-1);
+  color: var(--it-common-white);
+  border-radius: 50%;
+  transition: 0.3s;
+  margin-right: 25px;
+
+  &:hover {
+    color: var(--it-common-white);
+    background-color: var(--it-common-black);
+  }
+}
+
+.it-slide-btn-2 {
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  background-color: var(--it-theme-2);
+  color: var(--it-common-white);
+  border-radius: 50%;
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--it-common-white);
+    background-color: var(--it-common-black);
+  }
+}

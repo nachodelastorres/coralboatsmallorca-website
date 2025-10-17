@@ -1,0 +1,315 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  03. blog css start
+/*----------------------------------------*/
+.blog-cta-button {
+    margin: 60px auto;
+    text-align: center;
+  
+    .cta-btn {
+      background-color: #ED6A46;
+      color: #fff;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #d45534;
+      }
+    }
+  }
+  
+.blog-details {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  
+    .blog-hero {
+      text-align: center;
+      margin-bottom: 60px;
+  
+      .hero-image {
+        border-radius: 12px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+  
+      .blog-meta {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+  
+        .blog-badge {
+          background-color: #ED6A46;
+          color: #fff;
+          padding: 2px 8px;
+          border-radius: 4px;
+          font-weight: bold;
+          font-size: 0.8rem;
+        }
+      }
+  
+      .blog-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+  
+      .blog-description {
+        font-size: 1.1rem;
+        color: #444;
+        margin-bottom: 40px;
+      }
+    }
+  
+    .blog-section {
+      margin-bottom: 60px;
+  
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+  
+      h3 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 8px;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+  
+      &.intro {
+        p {
+          font-size: 1.1rem;
+          font-style: italic;
+        }
+      }
+  
+      .benefits-list,
+      .checklist {
+        list-style: none;
+        padding-left: 0;
+  
+        li {
+          position: relative;
+          padding-left: 1.5em;
+          margin-bottom: 8px;
+  
+          &::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #6DA48F;
+            font-weight: bold;
+          }
+        }
+      }
+  
+      .route-cards {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+  
+        @media (min-width: 768px) {
+          grid-template-columns: 1fr 1fr;
+        }
+  
+        @media (min-width: 1024px) {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+  
+        .route-card {
+          background-color: #F5FCFD;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+          transition: transform 0.2s ease;
+  
+          &:hover {
+            transform: translateY(-4px);
+          }
+        }
+      }
+  
+      .blog-quote {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #E6F5EE;
+        border-left: 5px solid #6DA48F;
+        font-style: italic;
+        color: #333;
+      }
+    }
+  }
+  
+.it-blog {
+    &-shape {
+        &-1 {
+            position: absolute;
+            left: 10%;
+            animation: itupdown 0.8s infinite alternate;
+
+            @media #{$xxl} {
+                left: 5%;
+            }
+
+            @media #{$xl} {
+                left: 3%;
+            }
+        }
+    }
+
+    &-item {
+        border-radius: 5px;
+        background: var(--it-common-white);
+        box-shadow: 0 4px 30px 0 rgba(22, 27, 24, 0.05);
+
+        @media #{$md,$sm,$xs} {
+            margin-bottom: 30px;
+        }
+
+        &:hover {
+            & .it-blog-thumb {
+                & img {
+                    transform: scale(1.2);
+                }
+            }
+
+            & .it-blog-button {
+                & .it-btn-blog {
+                    color: var(--it-common-white);
+                    background-color: var(--it-theme-1);
+                }
+            }
+        }
+    }
+
+    &-categories {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+
+        & span {
+            padding: 9px 15px;
+            font-size: 10px;
+            font-weight: 500;
+            text-align: center;
+            display: inline-block;
+            color: var(--it-common-white);
+            background-color: var(--it-theme-2);
+            border-radius: 2px;
+        }
+    }
+
+    &-thumb {
+        overflow: hidden;
+        border-radius: 5px 5px 0 0;
+
+        & img {
+            width: 100%;
+            transition: 1.3s;
+        }
+    }
+
+    &-content {
+        padding: 25px 30px;
+        @media #{$md,$xs}{
+            padding: 25px 15px;
+        }
+    }
+
+    &-meta {
+        & span {
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            margin-right: 30px;
+            display: inline-block;
+
+            @media #{$lg} {
+                font-size: 12px;
+                margin-right: 15px;
+            }
+            @media #{$md,$xs} {
+                margin-right: 15px;
+            }
+
+            & i {
+                color: var(--it-theme-1);
+                margin-right: 6px;
+            }
+        }
+
+    }
+
+    &-title {
+        font-size: 24px;
+        line-height: 1.2;
+        display: inline-block;
+        color: var(--it-common-black);
+        transition: .3s;
+
+        @media #{$xl,$md} {
+            font-size: 22px;
+        }
+
+        @media #{$lg} {
+            font-size: 18px;
+        }
+        @media #{$xs} {
+            font-size: 21px;
+        }
+        @media #{$sm} {
+            font-size: 24px;
+        }
+
+        &:hover {
+            color: var(--it-theme-1);
+        }
+    }
+    &-link {
+        & a {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--it-theme-1);
+            & i {
+                display: inline-block;
+                transform: translateY(2px);
+                margin-left: 10px;
+                transition: .3s;
+            }
+            &:hover {
+                & i {
+                    animation: tfLeftToRight 0.5s forwards;
+                }
+            }
+        }
+    }
+}
+
+.it-blog-style-2{
+    & .it-blog{
+        &-shape{
+            &-1{
+                position: absolute;
+                left: 0;
+            }
+            &-2{
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}

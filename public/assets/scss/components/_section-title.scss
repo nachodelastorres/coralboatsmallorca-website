@@ -1,0 +1,214 @@
+@use '../utils' as *;
+
+
+.it-tour-global-badge {
+  display: inline-block;
+  background-color: #ED6A46;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+
+  @media (max-width: 576px) {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+
+
+.it-section {
+  &-subtitle {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: none;
+    display: inline-block;
+    color: var(--it-theme-2);
+    // font-family: var(--it-ff-gloss);
+    // font-family: var(--it-ff-motter2);
+    margin-bottom: 15px;
+    letter-spacing: 0.04em;
+
+    &.subtitle-green {
+      color: var(--it-theme-1);
+    }
+    @media #{$lg} {
+      font-size: 47px;
+    }
+    @media #{$xs} {
+      font-size: 22px;
+    }
+    @media #{$sm} {
+      font-size: 20px;
+    }
+  }
+
+
+  &-title4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-family: var(--it-ff-motter2);
+    // color: var(--it-common-black);
+    // color: #2d3e47;
+    color: #045454;
+    // z-index: 2;
+
+    & span {
+      color: var(--it-theme-2);
+      &.it-transparent-title {
+        color: transparent;
+        -webkit-text-stroke: 1px var(--it-theme-1);
+      }
+    }
+
+    & .it-breack-text {
+      color: var(--it-theme-1);
+    }
+
+    @media #{$lg} {
+      font-family: var(--it-ff-vietnam);
+      font-size: 47px;
+    }
+    @media #{$xs} {
+      font-family: var(--it-ff-vietnam);
+      margin-bottom: 10px;
+      font-size: 16px;
+      & br {
+        display: none;
+      }
+    }
+    @media #{$sm} {
+      font-family: var(--it-ff-vietnam);
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+  }
+
+
+  &-title3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    // letter-spacing: 0.02em;
+    // font-family: var(--it-ff-motter2);
+    // color: var(--it-common-black);
+    // color: #2d3e47;
+    color: #045454;
+    // z-index: 2;
+
+    & span {
+      color: var(--it-theme-2);
+      &.it-transparent-title {
+        color: transparent;
+        -webkit-text-stroke: 1px var(--it-theme-1);
+      }
+    }
+
+    & .it-breack-text {
+      color: var(--it-theme-1);
+    }
+
+    @media #{$lg} {
+      font-family: var(--it-ff-vietnam);
+      font-size: 47px;
+    }
+    @media #{$xs} {
+      font-family: var(--it-ff-vietnam);
+      margin-bottom: 10px;
+      font-size: 28px;
+      & br {
+        display: none;
+      }
+    }
+    @media #{$sm} {
+      font-family: var(--it-ff-vietnam);
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    font-family: var(--it-ff-motter2);
+    // color: var(--it-common-black);
+    // color: #2d3e47;
+    color: #045454;
+    // z-index: 2;
+
+    & span {
+      color: var(--it-theme-2);
+      &.it-transparent-title {
+        color: transparent;
+        -webkit-text-stroke: 1px var(--it-theme-1);
+      }
+    }
+
+    & .it-breack-text {
+      color: var(--it-theme-1);
+    }
+
+    @media (max-width: 768px){
+      
+      font-weight: 700;
+      font-family: var(--it-ff-vietnam);
+      font-size: 44px;
+      letter-spacing: 0.06em;
+
+    }
+  }
+  &-title2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    font-family: var(--it-ff-motter2);
+    color: var(--it-common-white);
+  
+    & span {
+      color: var(--it-theme-2);
+  
+      &.it-transparent-title {
+        color: transparent;
+        -webkit-text-stroke: 1px var(--it-theme-1);
+      }
+    }
+  
+    & .it-breack-text {
+      color: var(--it-theme-1);
+    }
+  
+    // ✅ Escritorio (más de 992px)
+    @media (max-width: 992px) {
+      font-family: var(--it-ff-vietnam);
+      font-size: 40px; // Tamaño medio para tablets
+    }
+  
+    // ✅ Móvil (576px - 991px)
+    @media (max-width: 768px) {
+      font-family: var(--it-ff-vietnam);
+      font-size: 28px !important; // Tamaño medio para móvil horizontal
+    }
+  
+    // ✅ Móvil pequeño (menos de 576px)
+    @media (max-width: 576px) {
+      font-family: var(--it-ff-vietnam);
+      font-size: 28px !important; // 🔥 Tamaño más pequeño en móvil vertical
+      line-height: 1.1;
+      margin-bottom: 10px;
+  
+      & br {
+        display: none;
+      }
+    }
+  }
+  
+}

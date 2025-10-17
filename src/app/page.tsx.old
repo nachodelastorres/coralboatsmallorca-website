@@ -1,0 +1,110 @@
+import { Metadata } from 'next';
+import HomePremium from '@/pages/homes/home-premium';
+
+export const metadata: Metadata = {
+  title: 'Coral Boats Mallorca - Premium Boat Tours in Bay of Alcudia | Snorkeling & Private Charters',
+  description: 'Experience the magic of Mallorca with Coral Boats premium boat tours in the Bay of Alcudia. Choose from morning, afternoon, or sunset tours featuring snorkeling, paddle boarding, authentic Mallorcan tapas, and unlimited drinks. Book your unforgettable Mediterranean adventure aboard our classic 1968 boat, Amayna II. Private charters available for weddings, corporate events, and special celebrations.',
+  keywords: [
+    'Mallorca boat tours',
+    'Bay of Alcudia boat trips',
+    'Alcudia boat excursions',
+    'snorkeling Mallorca',
+    'Mallorca sunset cruise',
+    'private boat charter Mallorca',
+    'boat tour Port Alcudia',
+    'Mediterranean boat tours',
+    'Mallorca hidden coves',
+    'paddle boarding Mallorca',
+    'Mallorcan tapas boat tour',
+    'boat rental Mallorca',
+    'sunset boat tour Alcudia',
+    'family boat tour Mallorca',
+    'romantic boat cruise Mallorca',
+    'corporate events boat charter',
+    'wedding boat Mallorca',
+    'Amayna II boat',
+    'classic boat tours',
+    'all-inclusive boat tour',
+    'best boat tours Mallorca',
+    'small group boat tour',
+    'authentic Mallorca experience',
+    'crystal clear waters Mallorca',
+    'marine life snorkeling',
+  ],
+  authors: [{ name: 'Coral Boats Mallorca' }],
+  creator: 'Coral Boats Mallorca',
+  publisher: 'Coral Boats Mallorca',
+  metadataBase: new URL('https://coralboatsmallorca.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en': '/en',
+      'es': '/es',
+      'de': '/de',
+      'fr': '/fr',
+      'it': '/it',
+    },
+  },
+  openGraph: {
+    title: 'Coral Boats Mallorca - Premium Boat Tours in Bay of Alcudia',
+    description: 'Discover hidden coves, snorkel in crystal-clear waters, and enjoy authentic Mallorcan tapas on our premium boat tours. Morning, afternoon, and sunset departures available. Private charters for special events.',
+    url: 'https://coralboatsmallorca.com',
+    siteName: 'Coral Boats Mallorca',
+    images: [
+      {
+        url: '/assets/img/premium/01moring.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Crystal-clear Mediterranean waters in Bay of Alcudia with Coral Boats Mallorca luxury boat tour',
+      },
+      {
+        url: '/assets/img/premium/03sunset.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Stunning sunset boat tour in Mallorca Bay of Alcudia',
+      },
+      {
+        url: '/assets/img/premium/crew.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Professional and friendly boat crew of Coral Boats Mallorca',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Coral Boats Mallorca - Premium Boat Tours',
+    description: 'Experience the magic of Mallorca by sea. Snorkeling, hidden coves, tapas & drinks included. Book your unforgettable adventure!',
+    images: ['/assets/img/premium/01moring.jpg'],
+    creator: '@coralboatsmallorca',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+    yandex: 'your-yandex-verification-code',
+  },
+  category: 'travel',
+  other: {
+    'geo.region': 'ES-PM',
+    'geo.placename': 'Alcudia, Mallorca',
+    'geo.position': '39.8525;3.1211',
+    'ICBM': '39.8525, 3.1211',
+  },
+};
+
+export default function Home() {
+  return <HomePremium />;
+}

@@ -1,0 +1,1437 @@
+{
+  "menu": {
+    "home": "Home",
+    "excursions": "Escursioni",
+    "morningTour": "Escursione del Mattino",
+    "sunsetTour": "Escursione al Tramonto",
+    "privateTour": "Charter Privato",
+    "allTours": "Tutte le Escursioni",
+    "gallery": "Galleria",
+    "blog": "Blog",
+    "contact": "Contatti",
+    "getInTouch": "Contattaci",
+    "email": "Email",
+    "phone": "Telefono",
+    "whatsapp": "WhatsApp",
+    "bookYourTour": "Prenota la Tua Escursione"
+  },
+  "blog_uno": {
+    "title": "Le migliori escursioni in barca a Maiorca per quest’estate",
+    "slug": "migliori-escursioni-barca-maiorca",
+    "keyword": "escursioni in barca Maiorca",
+    "meta_description": "Scopri le escursioni in barca più consigliate per goderti il Mar Mediterraneo durante le tue vacanze a Maiorca.",
+    "publishedDate": "26 marzo 2025",
+    "btnText": "Scopri di più",
+    "badgeTitle": "Avventura",
+    "section1": {
+      "title": "Stai pianificando la tua vacanza sull’isola e cerchi un’esperienza indimenticabile?",
+      "body": "Le escursioni in barca a Maiorca sono senza dubbio uno dei modi migliori per godersi la costa, scoprire calette nascoste e rilassarsi in mare aperto sotto il sole del Mediterraneo. In questo articolo ti spieghiamo perché questa attività è un must dell’estate e ti suggeriamo itinerari e consigli per sfruttarla al massimo."
+    },
+    "section2": {
+      "title": "Perché fare un’escursione in barca a Maiorca?",
+      "body": "Maiorca ha oltre 550 chilometri di costa, e molte delle sue meraviglie naturali sono accessibili solo via mare. Un’escursione in barca ti permette di:\n\n- Scoprire calette incontaminate lontane dalla folla.\n- Nuotare in acque cristalline quasi deserte.\n- Rilassarti ascoltando il suono del mare con vista sulla Sierra de Tramuntana o sulle scogliere del nord.\n- Goderti spettacolari tramonti dal mare.\n\nLe escursioni includono spesso soste per nuotare, snorkeling, bevande a bordo e guide che raccontano curiosità sulla zona. È un’esperienza che unisce relax, avventura e contatto diretto con la natura."
+    },
+    "section3": {
+      "title": "Le migliori rotte da esplorare in barca",
+      "body": "Ecco tre rotte imperdibili per esplorare Maiorca dal mare.",
+      "sub1": {
+        "subtitle": "Baia di Alcudia e cala segreta",
+        "body": "Un’escursione di 3 ore perfetta per famiglie, coppie o gruppi di amici. Navigherai nella baia di Alcudia fino a raggiungere una cala nascosta, ideale per nuotare e staccare la spina. L’acqua turchese, il silenzio e la natura ti faranno sentire in un altro mondo."
+      },
+      "sub2": {
+        "subtitle": "Grotte di Artà e costa nord-orientale",
+        "body": "Questo itinerario segue la costa nord-est dell’isola, passando per spiagge come Cala Mesquida e Cala Torta. Alcune escursioni includono soste in grotte marine: un’esperienza davvero unica!"
+      },
+      "sub3": {
+        "subtitle": "Escursioni al tramonto",
+        "body": "Le sunset tour partono nel tardo pomeriggio e ti permettono di vedere il sole scomparire all’orizzonte mentre navighi con musica rilassante e un drink in mano. Una vera magia maiorchina."
+      }
+    },
+    "section4": {
+      "title": "Cosa portare con te",
+      "body": "Per goderti al massimo l’escursione in barca a Maiorca, non dimenticare di portare:\n\n- Crema solare (il sole in mare è forte).\n- Abbigliamento comodo e costume da bagno.\n- Asciugamano, occhiali da sole e cappello.\n- Fotocamera o telefono carico per immortalare momenti speciali.\n- Una giacca leggera se scegli un’escursione al tramonto.\n\nÈ consigliabile prenotare in anticipo durante l’alta stagione, poiché i posti si esauriscono rapidamente."
+    },
+    "section5": {
+      "title": "Pronti a prenotare il vostro prossimo giro in barca?",
+      "body": "Le escursioni in barca a Maiorca sono molto più di una semplice gita in mare: sono un modo per vivere l’isola da una nuova prospettiva, sentire la brezza marina, scoprire angoli nascosti e creare ricordi indimenticabili. Che tu viaggi da solo, in coppia, con amici o in famiglia, c’è un’escursione perfetta per te.\nQuest’estate sali a bordo e lasciati sorprendere dal Mediterraneo!"
+    }
+  },
+  "experience": {
+    "title": "Vivi l’esperienza Coral Boats",
+    "description": "Naviga con la nostra barca classica, esplora calette nascoste e goditi il Mediterraneo come mai prima d’ora."
+  },
+  "includes": {
+    "title": "Cosa è incluso nella tua esperienza Coral Boats?",
+    "subtitle": "Tutto ciò di cui potrai godere a bordo",
+    "items": [
+      {
+        "label": "Giro in barca classica di 3 ore"
+      },
+      {
+        "label": "Sosta in una cala nascosta"
+      },
+      {
+        "label": "Tempo libero per nuotare e fare snorkeling"
+      },
+      {
+        "label": "Attrezzatura per snorkeling inclusa"
+      },
+      {
+        "label": "Paddle surf"
+      },
+      {
+        "label": "Bevande e cibo tipico a bordo"
+      },
+      {
+        "label": "Musica d’ambiente rilassante"
+      },
+      {
+        "label": "Guida locale ed equipaggio professionale"
+      }
+    ]
+  },
+  "blog_dos": {
+    "title": "Cosa fare ad Alcudia: esperienze imperdibili sulla costa nord di Maiorca",
+    "slug": "cosa-fare-ad-alcudia-esperienze-costa-nord",
+    "keyword": "cosa fare ad Alcudia",
+    "meta_description": "Scopri le migliori cose da fare ad Alcudia: escursioni in barca, siti storici, spiagge da sogno e cultura locale.",
+    "publishedDate": "5 aprile 2025",
+    "btnText": "Scopri di più",
+    "badgeTitle": "Guida locale",
+    "section1": {
+      "title": "Alcudia, il cuore della costa nord di Maiorca",
+      "body": "Alcudia è una delle destinazioni più complete dell’isola: storia, spiagge, gastronomia e natura si combinano per offrire un’esperienza indimenticabile. In questa guida ti raccontiamo cosa vedere, cosa fare e come sfruttare al meglio la tua visita."
+    },
+    "section2": {
+      "title": "Attività da non perdere ad Alcudia",
+      "body": "Se visiti Alcudia, non perdere:\n\n- Una passeggiata nel centro storico fortificato e il mercato locale.\n- Un po’ di relax sulla spiaggia di Alcudia, una delle più lunghe e adatte alle famiglie di Maiorca.\n- Un’escursione in barca nella baia per scoprire calette nascoste.\n- Una visita al parco naturale di s'Albufera, perfetto per escursioni e birdwatching.\n- Un pranzo o una cena tipica maiorchina su una terrazza vista mare."
+    },
+    "section3": {
+      "title": "Tre esperienze autentiche per vivere Alcudia",
+      "body": "Oltre alle attività più classiche, ecco tre esperienze locali per scoprire l’essenza vera di Alcudia.",
+      "sub1": {
+        "subtitle": "Escursione in barca con Coral Boats",
+        "body": "Esplora la baia di Alcudia a bordo di un'imbarcazione classica. Raggiungi una cala segreta, nuota in acque cristalline e goditi la vera brezza mediterranea. Un’esperienza intima e originale per connetterti con il mare."
+      },
+      "sub2": {
+        "subtitle": "Giro in bici costiero fino ad Aucanada",
+        "body": "Noleggia una bicicletta e percorri la costa dal porto fino al faro di Aucanada. Un itinerario tranquillo con viste mozzafiato e soste per nuotare, scattare foto o bere qualcosa sul mare."
+      },
+      "sub3": {
+        "subtitle": "Tramonto dalle mura medievali",
+        "body": "Concludi la giornata passeggiando sulle mura medievali del centro storico. Da lì potrai ammirare il tramonto dietro la Serra de Tramuntana mentre la città si colora di toni dorati. Perfetto per una foto o un momento di pace."
+      }
+    },
+    "section4": {
+      "title": "Consigli pratici per la tua visita",
+      "body": "Prima del viaggio, tieni a mente:\n\n- Controlla i giorni di mercato se vuoi visitarlo.\n- Prenota in anticipo le escursioni durante l’alta stagione.\n- Indossa scarpe comode per esplorare il centro storico o i percorsi naturali.\n- Porta con te crema solare, soprattutto per le attività all’aperto.\n- Alcudia è una delle mete più family-friendly dell’isola."
+    },
+    "section5": {
+      "title": "Alcudia ti aspetta con esperienze per tutti",
+      "body": "Che tu cerchi relax o avventura, storia o mare, Alcudia ha qualcosa per te. Una destinazione completa, accessibile e ricca di fascino che conquista tutti.\nPronto a partire? Pianifica la tua fuga e vivi il lato più autentico di Maiorca dalla sua costa nord."
+    }
+  },
+  "blog_tres": {
+    "title": "Escursioni in barca a Maiorca: guida completa per scegliere l’opzione migliore",
+    "slug": "escursioni-barca-maiorca-guida-completa",
+    "keyword": "escursioni in barca Maiorca",
+    "meta_description": "Gommone, catamarano o barca classica? Scopri quale tipo di escursione è più adatto al tuo stile di viaggio e a ciò che cerchi a Maiorca.",
+    "publishedDate": "10 aprile 2025",
+    "btnText": "Scopri di più",
+    "badgeTitle": "Confronto",
+    "section1": {
+      "title": "Maiorca, un’isola da scoprire dal mare",
+      "body": "Maiorca è splendida da terra, ma è dal mare che rivela tutta la sua magia. Calette nascoste, scogliere e acque cristalline ti aspettano. Ma quale tipo di escursione scegliere? Ecco la nostra guida."
+    },
+    "section2": {
+      "title": "Prima di scegliere, pensa al tuo stile di viaggio",
+      "body": "Ogni tipo di barca offre un’esperienza diversa:\n\n- Cerchi velocità e adrenalina? Un gommone fa per te.\n- Vuoi spazio e relax? Il catamarano è l’ideale.\n- Ami l’autenticità e la calma? Una barca classica ti conquisterà.\n\nLa scelta giusta può trasformare una semplice gita in un ricordo indimenticabile."
+    },
+    "section3": {
+      "title": "Confronto: gommone, catamarano o barca classica",
+      "body": "Ecco le principali caratteristiche di ogni opzione per aiutarti a decidere.",
+      "sub1": {
+        "subtitle": "Gommoni",
+        "body": "Perfetti per chi cerca emozioni forti. Raggiungono velocemente luoghi nascosti. Il tour è breve ma intenso. Poco spazio, tanta adrenalina. Non adatti a bambini piccoli o a chi cerca tranquillità."
+      },
+      "sub2": {
+        "subtitle": "Catamarani",
+        "body": "Ampi, con aree per rilassarsi e musica soft. Spesso includono cibo e bevande. Molto popolari, ideali per gruppi e feste. Meno intimi, ma perfetti per socializzare e godersi il sole in compagnia."
+      },
+      "sub3": {
+        "subtitle": "Barche classiche",
+        "body": "L’opzione più autentica e rilassante. Perfetta per chi vuole vivere il mare con calma, godersi il paesaggio e avere un’esperienza personalizzata. Ideale per coppie, famiglie o chi ama il fascino mediterraneo."
+      }
+    },
+    "section4": {
+      "title": "Cosa considerare prima di prenotare",
+      "body": "Ti consigliamo di:\n\n- Verificare la durata e le tappe del tour.\n- Leggere le recensioni e guardare foto reali.\n- Controllare se sono inclusi snack, bevande o attrezzatura da snorkeling.\n- Considerare quante persone ci saranno a bordo.\n- Decidere se preferisci un’atmosfera tranquilla o più vivace."
+    },
+    "section5": {
+      "title": "Ogni viaggiatore ha la sua barca ideale",
+      "body": "Non esiste una scelta giusta o sbagliata: dipende da te. Ciò che conta è trovare l’esperienza che rispecchia il tuo modo di vivere il mare. Se cerchi qualcosa di autentico, rilassato e pieno di fascino mediterraneo, Coral Boats è la scelta perfetta.\nSali a bordo di una barca con storia e lasciati guidare dal mare."
+    }
+  },
+  "blog_cuatro": {
+    "title": "Escursione in barca privata o condivisa: qual è l’opzione giusta per te?",
+    "slug": "escursione-barca-privata-o-condivisa",
+    "keyword": "escursione in barca Maiorca privata condivisa",
+    "meta_description": "Sei indeciso tra un’escursione in barca privata o condivisa? Ti spieghiamo le differenze, i vantaggi e come scegliere in base al tuo stile di viaggio.",
+    "publishedDate": "15 aprile 2025",
+    "btnText": "Scopri di più",
+    "badgeTitle": "Consigli di viaggio",
+    "section1": {
+      "title": "Due modi diversi di vivere il mare",
+      "body": "Quando prenoti un’escursione in barca a Maiorca, la prima scelta da fare è: tour privato o condiviso? Entrambe le soluzioni hanno i loro vantaggi. La scelta dipende da che tipo di esperienza desideri vivere."
+    },
+    "section2": {
+      "title": "Le principali differenze tra tour privato e condiviso",
+      "body": "I tour privati sono pensati per famiglie o gruppi di amici. Offrono massima esclusività: scegli orari, itinerario e hai la barca tutta per te.\n\nLe escursioni condivise riuniscono persone diverse nello stesso tour. Sono più economiche, perfette per coppie o viaggiatori singoli, e permettono di fare nuove conoscenze."
+    },
+    "section3": {
+      "title": "Vantaggi di ogni opzione",
+      "body": "",
+      "sub1": {
+        "subtitle": "Tour privato",
+        "body": "Massima privacy, flessibilità totale e attenzione personalizzata. Ideale per famiglie con bambini, celebrazioni speciali o per chi cerca un’esperienza esclusiva."
+      },
+      "sub2": {
+        "subtitle": "Tour condiviso",
+        "body": "Prezzo più accessibile, atmosfera sociale e possibilità di conoscere altri viaggiatori. Perfetto per coppie, piccoli gruppi o avventurieri solitari."
+      },
+      "sub3": {
+        "subtitle": "",
+        "body": ""
+      }
+    },
+    "section4": {
+      "title": "",
+      "body": ""
+    },
+    "section5": {
+      "title": "Il nostro consiglio",
+      "body": "Con Coral Boats puoi scegliere entrambe le opzioni. Se vuoi un’esperienza rilassata e autentica in piccolo gruppo, i nostri tour condivisi sono perfetti. Se cerchi invece qualcosa di più intimo e personalizzato, chiedici delle escursioni private. Qualsiasi sia la tua scelta, il Mediterraneo ti aspetta."
+    }
+  },
+  "blog_cinco": {
+    "title": "Cosa portare in un tour in barca a Maiorca: la lista definitiva",
+    "slug": "cosa-portare-in-un-tour-in-barca-a-maiorca",
+    "keyword": "cosa portare in un tour in barca",
+    "meta_description": "Scopri tutto ciò di cui hai bisogno per goderti al massimo un tour in barca a Maiorca. Una guida essenziale per la tua esperienza sul mare.",
+    "publishedDate": "16 aprile 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Consigli pratici",
+    "section1": {
+      "title": "Preparati per la tua avventura marittima a Maiorca",
+      "body": "Maiorca, con la sua costa mozzafiato e le acque cristalline, è il luogo ideale per godersi un tour in barca. Ma cosa portare con sé per assicurarsi un'esperienza confortevole e senza problemi? In questa guida definitiva, ti spieghiamo tutto."
+    },
+    "section2": {
+      "title": "Essenziali per il tuo tour in barca",
+      "body": "Assicurati di portare:\n\n- Crema solare: Il sole del Mediterraneo può essere intenso, quindi proteggi la tua pelle.\n- Asciugamano: Perfetto per asciugarti dopo un tuffo in acqua.\n- Costume da bagno: Indispensabile per goderti le cale e le acque cristalline.\n- Acqua e snack: Mantieniti idratato e energico durante il tour.\n- Occhiali da sole: Proteggi i tuoi occhi mentre ammiri il paesaggio.\n- Fotocamera: Non vorrai perdere nessun momento unico."
+    },
+    "section3": {
+      "title": "Accessori per migliorare la tua esperienza",
+      "body": "Oltre agli elementi di base, considera di portare:",
+      "sub1": {
+        "subtitle": "Scarpe comode e antiscivolo",
+        "body": "Opta per scarpe che ti permettano di muoverti con sicurezza sulla barca e di goderti ogni fermata comodamente."
+      },
+      "sub2": {
+        "subtitle": "Borsa impermeabile",
+        "body": "Proteggi i tuoi oggetti personali, come il telefono o la fotocamera, dagli spruzzi d'acqua."
+      },
+      "sub3": {
+        "subtitle": "Abbigliamento leggero e una giacca",
+        "body": "Il clima può essere caldo durante il giorno ma rinfrescarsi al tramonto. Porta con te una giacca leggera per sicurezza."
+      }
+    },
+    "section4": {
+      "title": "Consigli per goderti al massimo la tua giornata in mare",
+      "body": "Alcuni suggerimenti importanti:\n\n- Non dimenticare di confermare i dettagli della tua prenotazione prima di partire.\n- Chiedi all'equipaggio se puoi personalizzare la tua esperienza, come scegliere fermate specifiche.\n- Se soffri di mal di mare, considera di portare dei farmaci per evitare disagi.\n- Sii puntuale per sfruttare al massimo il tempo del tour.\n- Mantieni un atteggiamento rilassato e goditi la bellezza e la tranquillità del mare."
+    },
+    "section5": {
+      "title": "Maiorca ti aspetta per un'esperienza indimenticabile",
+      "body": "Un tour in barca a Maiorca è un'opportunità unica per disconnettersi e immergersi nella bellezza del Mediterraneo. Con questa lista definitiva, sarai pronto per vivere un'esperienza indimenticabile. Prepara i tuoi essenziali e parti per l'avventura!"
+    }
+  },
+  "blog_seis": {
+    "title": "Tramonto ad Alcudia: Perché vederlo dal mare è indimenticabile",
+    "slug": "tramonto-alcudia-mare-indimenticabile",
+    "keyword": "tramonto Alcudia",
+    "meta_description": "Scopri perché ammirare il tramonto dal mare ad Alcudia è un'esperienza magica. Goditi colori unici e un'atmosfera indimenticabile.",
+    "publishedDate": "17 aprile 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Momenti unici",
+    "section1": {
+      "title": "La magia di un tramonto ad Alcudia",
+      "body": "Alcudia, nel cuore della costa nord di Maiorca, offre tramonti mozzafiato. Scopri perché questa esperienza è ancora più speciale vista dal mare."
+    },
+    "section2": {
+      "title": "Perché scegliere il mare per ammirare il tramonto",
+      "body": "Dal mare, la prospettiva cambia completamente:\n\n- Colori più intensi riflessi nelle acque cristalline.\n- Una sensazione di pace e isolamento, lontano dalla folla.\n- Vedute panoramiche uniche sulla baia di Alcudia e sulla Serra de Tramuntana."
+    },
+    "section3": {
+      "title": "Cosa include l’esperienza a bordo",
+      "body": "Un tramonto visto dal mare include:",
+      "sub1": {
+        "subtitle": "Navigazione tranquilla e rilassata",
+        "body": "Goditi il dolce movimento della barca mentre il sole inizia a scomparire."
+      },
+      "sub2": {
+        "subtitle": "Momenti fotografici irripetibili",
+        "body": "Cattura la bellezza delle tonalità arancioni e dorate sull'orizzonte."
+      },
+      "sub3": {
+        "subtitle": "Un brindisi al tramonto",
+        "body": "Festeggia il momento con una bevanda fresca mentre il giorno lascia spazio alla notte."
+      }
+    },
+    "section4": {
+      "title": "Consigli per goderti al massimo il tramonto",
+      "body": "Segui queste raccomandazioni per un'esperienza indimenticabile:\n\n- Porta una giacca leggera per la brezza serale.\n- Non dimenticare la tua fotocamera o telefono con batteria piena.\n- Rilassati e goditi il momento, lasciando tutte le preoccupazioni a terra."
+    },
+    "section5": {
+      "title": "Vivi il tramonto dal mare",
+      "body": "Immergiti in un'esperienza indimenticabile che combina bellezza naturale, serenità ed emozioni. Alcudia ti aspetta con uno degli spettacoli migliori che la natura possa offrire."
+    }
+  },
+  "blog_siete": {
+    "title": "Esperienze in barca per famiglie: divertimento per bambini a Maiorca",
+    "slug": "esperienze-barca-famiglie-bambini-maiorca",
+    "keyword": "attività per famiglie a Maiorca",
+    "meta_description": "Scopri le migliori attività in barca per famiglie a Maiorca. Divertimento, sicurezza ed esperienze indimenticabili per i più piccoli.",
+    "publishedDate": "18 aprile 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Per tutta la famiglia",
+    "section1": {
+      "title": "La baia di Alcudia: un paradiso per le famiglie",
+      "body": "Maiorca è una destinazione ideale per le famiglie, e la baia di Alcudia combina natura, tranquillità e avventura, perfetta per essere vissuta con i bambini. Ecco perché un tour in barca può essere l'attività migliore per tutti."
+    },
+    "section2": {
+      "title": "Perché i bambini amano i tour in barca",
+      "body": "I tour in barca sono esperienze magiche per i più piccoli:\n\n- Esplorano il mare come piccoli avventurieri.\n- Scoprono cale nascoste e si divertono a nuotare in acque cristalline.\n- Osservano pesci e altre creature marine dalla superficie.\n- Vivono l'emozione di salire a bordo di una barca classica e autentica."
+    },
+    "section3": {
+      "title": "Cosa rende i nostri tour perfetti per i bambini",
+      "body": "Tutto è pensato per il comfort e il divertimento dei più piccoli:",
+      "sub1": {
+        "subtitle": "Sicurezza a bordo",
+        "body": "Forniamo giubbotti di salvataggio per tutte le età e garantiamo un ambiente sicuro."
+      },
+      "sub2": {
+        "subtitle": "Soste in cale tranquille",
+        "body": "Cale con acque poco profonde, perfette per far nuotare e giocare i bambini in tutta tranquillità."
+      },
+      "sub3": {
+        "subtitle": "Attività interattive",
+        "body": "Proposte come la raccolta di conchiglie o l'apprendimento sulla fauna locale rendono l'esperienza educativa e divertente."
+      }
+    },
+    "section4": {
+      "title": "Consigli per famiglie con bambini in tour in barca",
+      "body": "Per sfruttare al meglio il tuo tour, ti consigliamo:\n\n- Porta crema solare e cappelli per proteggere i bambini dal sole.\n- Metti in valigia snack leggeri e acqua per mantenerli idratati e felici.\n- Porta giochi d'acqua o pinne per divertirsi ancora di più durante le soste."
+    },
+    "section5": {
+      "title": "Un'esperienza da ricordare in famiglia",
+      "body": "Trascorrere una giornata in mare con la tua famiglia crea ricordi indimenticabili. Alcudia ti aspetta con attività su misura per far vivere la magia del Mediterraneo a grandi e piccini insieme."
+    }
+  },
+  "blog_ocho": {
+    "title": "Cinque angoli segreti che puoi scoprire solo dal mare ad Alcudia",
+    "slug": "cinque-angoli-segreti-mare-alcudia",
+    "keyword": "tour in barca Alcudia",
+    "meta_description": "Scopri cinque angoli segreti nella baia di Alcudia accessibili solo con un tour in barca. Esperienze uniche e paesaggi indimenticabili.",
+    "publishedDate": "19 aprile 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Esplora l'ignoto",
+    "section1": {
+      "title": "La baia di Alcudia: segreti a portata di mano",
+      "body": "La baia di Alcudia non offre solo spiagge paradisiache, ma anche angoli nascosti accessibili esclusivamente dal mare. Questi luoghi esclusivi rendono un tour in barca un'esperienza indimenticabile."
+    },
+    "section2": {
+      "title": "Cinque luoghi unici da scoprire",
+      "body": "Esplora questi cinque tesori che rendono speciale la baia di Alcudia:\n\n- Cala de las Águilas: Una cala incontaminata con acque cristalline e uno scenario spettacolare.\n- Le grotte nascoste di Cap des Pinar: Accessibili solo in barca, perfette per gli avventurieri.\n- S’Illot: Una piccola isola ideale per nuotare o fare snorkeling.\n- Es Caló: Un angolo tranquillo circondato da natura incontaminata.\n- La baia segreta di Coll Baix: Una spiaggia isolata con impressionanti scogliere."
+    },
+    "section3": {
+      "title": "Cosa rende questa esperienza speciale?",
+      "body": "Scoprire questi angoli offre vantaggi unici:",
+      "sub1": {
+        "subtitle": "Una prospettiva unica",
+        "body": "Dal mare, i paesaggi prendono vita in un modo completamente diverso."
+      },
+      "sub2": {
+        "subtitle": "Accesso esclusivo",
+        "body": "Questi luoghi sono inaccessibili via terra, garantendo tranquillità e privacy."
+      },
+      "sub3": {
+        "subtitle": "Un contatto diretto con la natura",
+        "body": "Dalle cale nascoste alle acque limpide, la connessione con la natura è totale."
+      }
+    },
+    "section4": {
+      "title": "Consigli per goderti al massimo il tuo tour in barca",
+      "body": "Per vivere al meglio questa esperienza unica:\n\n- Porta l'attrezzatura da snorkeling, le acque sono perfette.\n- Indossa scarpe comode e porta uno zaino leggero per la libertà di movimento.\n- Rispetta l'ambiente naturale per preservare questi luoghi magici."
+    },
+    "section5": {
+      "title": "Salpa verso l'ignoto",
+      "body": "Scopri i segreti meglio custoditi della baia di Alcudia. Un tour in barca non è solo un viaggio, ma una finestra su un mondo che pochi hanno avuto la fortuna di esplorare. \nPronto a partire?"
+    }
+  },
+  "blog_nueve": {
+    "title": "La magia della baia di Alcudia: Il miglior luogo per un tour in barca",
+    "slug": "magia-baia-alcudia-tour-barca",
+    "keyword": "tour in barca baia di Alcudia",
+    "meta_description": "Scopri perché la baia di Alcudia è la destinazione perfetta per un tour in barca. Natura, esclusività e i migliori servizi con Coral Boats.",
+    "publishedDate": "20 aprile 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Naviga ed esplora",
+    "section1": {
+      "title": "Un paradiso marittimo a Maiorca",
+      "body": "La baia di Alcudia è uno dei tesori più notevoli di Maiorca. Con le sue acque cristalline, i paesaggi mozzafiato e la ricca biodiversità marina, è lo scenario perfetto per qualsiasi amante del mare. Ma non è solo la bellezza a renderla speciale: è l'esperienza che offre."
+    },
+    "section2": {
+      "title": "Cinque motivi per cui la baia di Alcudia è unica",
+      "body": "Scegliere un tour nella baia di Alcudia significa optare per un'esperienza senza paragoni. Ecco cinque motivi che rendono questa destinazione imbattibile:\n\n1. **Acque calme e cristalline**: Perfette per rilassarsi o praticare attività acquatiche come lo snorkeling.\n2. **Cale nascoste e spiagge incontaminate**: Accessibili solo in barca, offrono esclusività.\n3. **Diversità marina ricca**: La baia ospita una fauna marina abbondante che puoi osservare dalla superficie.\n4. **Paesaggi iconici**: Con viste uniche sulla Serra de Tramuntana e scogliere mozzafiato.\n5. **Patrimonio culturale**: Punti di interesse storico visibili dal mare, come il faro di Aucanada."
+    },
+    "section3": {
+      "title": "Coral Boats: Il tuo partner per l'avventura",
+      "body": "Coral Boats è la scelta migliore per esplorare la baia di Alcudia. Con una barca classica e servizi eccezionali, offrono un'esperienza autentica e personalizzata. Che tu stia cercando una fuga romantica, un'avventura in famiglia o un momento di pace nella natura, Coral Boats assicura che ogni dettaglio sia perfetto.",
+      "sub1": {
+        "subtitle": "Comfort e stile",
+        "body": "A bordo di una barca classica, godrai di comfort e autenticità mentre esplori la baia."
+      },
+      "sub2": {
+        "subtitle": "Esperienza su misura",
+        "body": "L'equipaggio personalizza ogni tour in base alle tue esigenze, assicurandoti un'esperienza indimenticabile."
+      },
+      "sub3": {
+        "subtitle": "Vicino alla natura",
+        "body": "Coral Boats ti porta in luoghi unici e preservati, dove il contatto con l'ambiente è totale."
+      }
+    },
+    "section4": {
+      "title": "Consigli per pianificare il tuo tour in barca",
+      "body": "Sfrutta al massimo la tua esperienza nella baia di Alcudia seguendo questi consigli:\n\n- Prenota in anticipo, soprattutto durante l'alta stagione, per assicurarti un posto.\n- Porta con te l'attrezzatura da snorkeling e goditi la ricca vita marina.\n- Usa la crema solare e porta una giacca leggera per i cambiamenti di temperatura.\n- Se viaggi con bambini, porta snack e bevande per il loro comfort."
+    },
+    "section5": {
+      "title": "Una destinazione indimenticabile per navigare",
+      "body": "La baia di Alcudia offre tutto ciò di cui hai bisogno per un tour in barca perfetto: paesaggi, esclusività e una connessione intima con la natura. Inoltre, navigare con Coral Boats porta questa esperienza a un livello superiore, garantendo ricordi indimenticabili.\nEsplora la baia di Alcudia come mai prima e vivi un'avventura che rimarrà impressa nella tua memoria."
+    }
+  },
+  "cookie": {
+    "banner": {
+      "text": "Utilizziamo i cookie per migliorare la tua esperienza. Puoi accettarli o rifiutarli in base alle tue preferenze.",
+      "accept": "Accetta i cookie",
+      "reject": "Rifiuta",
+      "link_text": "Visualizza la politica sui cookie"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "cookies": "Politica sui Cookie",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini e Condizioni",
+    "contact": "Contatto"
+  },
+  "intro_banner": {
+    "title": "PRENOTA FACILE!",
+    "description": "Maiorca ti aspetta",
+    "step1_title": "1. Scegli la tua escursione",
+    "step1_subtext": "Mattina, pomeriggio o tramonto – scegli il momento perfetto per salpare!",
+    "step2_title": "2. Seleziona la data",
+    "step2_subtext": "Calendario in tempo reale, disponibilità garantita.",
+    "step3_title": "3. Paga e ricevi i tuoi biglietti",
+    "step3_subtext": "Paga online in modo sicuro o contattaci per pagare in contanti (rispondiamo su WhatsApp, email o telefono). Conferma immediata!"
+  },
+  "limited_seats": "Posti limitati disponibili",
+  "popup": {
+    "title": "SCONTO DEL 25%",
+    "subtitle": "Iscriviti alla nostra newsletter e ottieni il 25% di sconto sul tuo primo tour in barca.",
+    "placeholder": "Il tuo indirizzo email",
+    "button": "Sblocca il codice sconto",
+    "successMessage": "Grazie per esserti iscritto!",
+    "codeMessage": "Usa questo codice alla fine della prenotazione per ottenere il 25% di sconto:"
+  },
+  "blog_comida": {
+    "title": "Sapori mediterranei a bordo: la gastronomia maiorchina nelle nostre escursioni in barca",
+    "slug": "sapori-mediterranei-barca",
+    "keyword": "escursioni in barca Maiorca cucina maiorchina cibo mediterraneo esperienze autentiche",
+    "meta_description": "Vivi una vera esperienza gastronomica maiorchina: specialità locali a bordo, tradizione e sapori del Mediterraneo durante le nostre escursioni in barca.",
+    "publishedDate": "11 maggio 2025",
+    "btnText": "Scopri di più",
+    "badgeTitle": "Gastronomia",
+    "content": "Il mare ha sempre influenzato la cultura e la cucina di Maiorca. Le nostre escursioni in barca non offrono solo paesaggi da sogno, ma anche sapori autentici dell’isola.\n\n- Serviamo pa amb oli con pomodoro locale, olio d’oliva, prosciutto o formaggio stagionato.\n- Non manca la sobrasada, salume tipico, accompagnata da olive trencades e mandorle tostate.\n- Per concludere: l’ensaimada maiorchina, dolce tradizionale per eccellenza.\n- Il tutto con vino locale, birra artigianale o acqua fresca.\n\nUn tempo, i marinai maiorchini portavano a bordo alimenti semplici e duraturi. Noi riproponiamo quella tradizione in chiave moderna e deliziosa.\n\nOgni tour in barca diventa così un viaggio gastronomico nel cuore del Mediterraneo.\n\nPronto a scoprire Maiorca attraverso i suoi sapori?"
+  },
+  "socialTitle": "Segui Coral Boats sui social media",
+  "socialDescription": "Scopri altri momenti dei nostri tour in barca nella baia di Alcudia su Instagram e TikTok.",
+  "blog_once": {
+    "title": "Curiosità sul litorale delle Baleari: perché la baia di Alcudia è così affascinante",
+    "slug": "curiosita-litorale-baleari-baia-alcudia",
+    "keyword": "litorale Baleari, baia di Alcudia, acque cristalline Maiorca",
+    "meta_description": "Scopri le curiosità del litorale delle Baleari e perché la baia di Alcudia è uno dei luoghi più belli e con le acque più limpide di Maiorca.",
+    "publishedDate": "11 giugno 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Natura",
+    "section1": {
+      "title": "Lo sapevi che il litorale balearico nasconde segreti geologici e naturali unici?",
+      "body": "Le Isole Baleari, con oltre 1.400 km di costa, offrono paesaggi ricchi di contrasti, storie affascinanti e luoghi spettacolari. Spiagge di sabbia bianca, scogliere scoscese, calette appartate... Questo litorale è un tesoro geologico, ecologico e culturale. In questo articolo esploreremo alcune delle sue curiosità più sorprendenti e ci concentreremo su uno dei suoi angoli più speciali: la baia di Alcudia, famosa per le sue acque incredibilmente trasparenti."
+    },
+    "section2": {
+      "title": "Un litorale scolpito nel tempo",
+      "body": "Il paesaggio costiero delle Baleari è stato modellato da milioni di anni di movimenti tettonici, erosione, vento, onde e pioggia. Questo processo ha creato grotte marine, insenature e scogliere spettacolari.\n\nLa predominanza di roccia calcarea favorisce la formazione di cavità sotterranee e contribuisce alla limpidezza delle acque, filtrando l’acqua piovana. Ecco perché molte delle acque più limpide del Mediterraneo si trovano proprio qui."
+    },
+    "section3": {
+      "title": "Baia di Alcudia: un gioiello nel nord-est di Maiorca",
+      "body": "Tra le meraviglie del litorale balearico, la baia di Alcudia si distingue per la sua serenità naturale e le acque trasparenti. È un paradiso per turisti e residenti, amato per la sua ampiezza e la bellezza incontaminata.",
+      "sub1": {
+        "subtitle": "Acque turchesi grazie al fondale sabbioso",
+        "body": "Il fondale sabbioso bianco e fine riflette la luce solare creando un effetto turchese brillante. La scarsa vegetazione subacquea nelle zone poco profonde accentua questa trasparenza. Inoltre, l’assenza di fiumi evita l’accumulo di sedimenti."
+      },
+      "sub2": {
+        "subtitle": "Microcorrenti che mantengono l’acqua pulita",
+        "body": "La baia è aperta a nord-est, il che permette a correnti marine leggere di rinnovare continuamente l’acqua. Queste microcorrenti, quasi impercettibili, garantiscono un ambiente marino pulito e naturale, perfetto per nuotare in acque limpide."
+      },
+      "sub3": {
+        "subtitle": "Un ambiente naturale protetto e poco urbanizzato",
+        "body": "Zone come Albufera e Son Serra de Marina sono protette o scarsamente edificate. Questo riduce l’impatto umano e preserva l’equilibrio dell’ecosistema. Il turismo responsabile e le normative sulle imbarcazioni hanno un ruolo chiave nella sua conservazione."
+      }
+    },
+    "section4": {
+      "title": "Attività sostenibili per vivere il litorale",
+      "body": "Scoprire la baia di Alcudia dal mare è l’esperienza più autentica. Tour in barca, kayak, paddle o snorkeling permettono di esplorare calette senza danneggiare l’ambiente. Consigli ecologici:\n\n- Scegli operatori locali e responsabili.\n- Non lasciare rifiuti e non toccare la fauna marina.\n- Usa solo creme solari biodegradabili.\n- Rispetta le aree protette e i limiti di navigazione.\n\nPiccoli gesti che aiutano a proteggere questo patrimonio naturale."
+    },
+    "section5": {
+      "title": "Una meta che unisce natura, scienza e bellezza",
+      "body": "Il litorale delle Baleari non è solo spiagge da cartolina. È un ecosistema complesso, ricco di biodiversità e modellato da forze naturali nel tempo. La baia di Alcudia rappresenta questo equilibrio tra tutela e fruizione. Passeggiare lungo le sue rive, nuotare nelle sue acque o ammirarla da una barca è un’esperienza profonda. Non si tratta solo di turismo, ma di contatto diretto con la natura. La limpidezza delle sue acque non è casuale, ma frutto di cura, rispetto e consapevolezza.\nVieni a scoprirla e lasciati incantare dalla magia delle sue acque!"
+    }
+  },
+  "blog_doce": {
+    "title": "Scopri Alcanada: spiaggia, faro e isola vicino ad Alcudia",
+    "slug": "scopri-alcanada-spiaggia-faro-isola-alcudia",
+    "keyword": "spiaggia Alcanada, faro Alcanada, isola Alcanada, escursioni Alcudia",
+    "meta_description": "Esplora la spiaggia di Alcanada, il suo iconico faro e l'isola che la circonda. Un angolo naturale a pochi minuti da Alcudia, perfetto per rilassarsi nel Mediterraneo.",
+    "publishedDate": "11 giugno 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Meta locale",
+    "section1": {
+      "title": "Un angolo nascosto sulla costa nord di Maiorca",
+      "body": "A pochi chilometri dal vivace porto di Alcudia si trova uno dei segreti meglio custoditi dell’isola: Alcanada. Nota per la sua spiaggia di ciottoli, l’ambiente naturale incontaminato e la vista sull’isola con il faro, questa zona unisce tranquillità, paesaggio e autenticità maiorchina. Se cerchi un luogo dove fuggire dalla folla e ritrovare il vero Mediterraneo, Alcanada è il posto giusto."
+    },
+    "section2": {
+      "title": "Una spiaggia diversa, perfetta per rilassarsi",
+      "body": "La spiaggia di Alcanada si distingue dalle altre di Maiorca per il suo fondo roccioso e l’atmosfera tranquilla. Qui non ci sono lettini o bar sulla spiaggia, solo natura, acqua cristallina e il suono del mare. Le acque basse e trasparenti sono ideali per nuotare, fare snorkeling o semplicemente rilassarsi guardando l’orizzonte. Frequentata soprattutto dai residenti, ha conservato un’atmosfera autentica e rilassata."
+    },
+    "section3": {
+      "title": "L’isola e il faro: storia, panorami e cartolina mediterranea",
+      "body": "Proprio davanti alla spiaggia, a circa 150 metri dalla riva, si trova l’isola di Alcanada con il suo famoso faro. Raggiungibile a nuoto o in kayak, è un luogo silenzioso da cui si gode una vista privilegiata su tutta la baia. Il faro, costruito nel 1861, è ancora attivo ed è un simbolo della zona.",
+      "sub1": {
+        "subtitle": "Un piccolo viaggio avventuroso",
+        "body": "Raggiungere l’isola è una breve escursione: molti nuotano dalla spiaggia, altri preferiscono paddle o kayak. Una volta arrivati, si può passeggiare tra le rocce e i pini, ammirando la costa nord di Maiorca."
+      },
+      "sub2": {
+        "subtitle": "Un faro ricco di storia",
+        "body": "Il faro di Alcanada è stato uno dei primi di Maiorca a illuminare la baia per le imbarcazioni. Anche se non è visitabile all’interno, la sua sagoma bianca e il legame con la storia marittima lo rendono molto amato dai fotografi e dagli appassionati del mare. Ha visto passare tempeste, albe e generazioni di marinai."
+      },
+      "sub3": {
+        "subtitle": "Un’area naturale protetta",
+        "body": "Il territorio di Alcanada è classificato come ANEI (Area Naturale di Interesse Speciale), che limita le costruzioni e protegge la biodiversità. Le sue acque ospitano piccoli pesci, praterie di posidonia e uccelli marini. È la meta perfetta per un turismo sostenibile e rispettoso della natura."
+      }
+    },
+    "section4": {
+      "title": "Come arrivare e cosa sapere",
+      "body": "Alcanada dista circa 5 minuti in auto dal centro di Alcudia o dal porto, ma è raggiungibile anche a piedi tramite un sentiero panoramico. I parcheggi sono limitati, quindi è meglio arrivare presto in alta stagione. Non ci sono servizi come docce o bar, quindi porta con te acqua, cibo, scarpe adatte e protezione solare. Anche se non è una spiaggia sabbiosa, la sua bellezza naturale compensa ampiamente."
+    },
+    "section5": {
+      "title": "Alcanada: dove parla la natura",
+      "body": "Visitare Alcanada è un’esperienza diversa. Niente musica alta, niente folla, solo il suono del mare, il volo dei gabbiani e la sagoma del faro contro il cielo. È un luogo che invita a rallentare, osservare il paesaggio e godere delle cose semplici. Perfetta per coppie, passeggiate tranquille o un bagno al tramonto, Alcanada è un luogo che resta nel cuore.\nVieni a scoprire questo paradiso nascosto del nord di Maiorca e lasciati conquistare dal suo fascino naturale!"
+    }
+  },
+  "blog_trece": {
+    "title": "Vento e mare a Maiorca: come il meteo influisce sulla tua escursione in barca",
+    "slug": "vento-meteo-barca-maiorca",
+    "keyword": "vento Maiorca, meteo barca Maiorca, stato del mare Maiorca",
+    "meta_description": "Scopri come il vento e le condizioni meteo influenzano le escursioni in barca a Maiorca. Impara a leggere il mare per vivere un’esperienza sicura e piacevole.",
+    "publishedDate": "11 giugno 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Consigli nautici",
+    "section1": {
+      "title": "Il mare non è sempre lo stesso: perché il meteo è importante",
+      "body": "Quando prenotiamo un’escursione in barca a Maiorca, immaginiamo cieli azzurri e acque calme. Ma il mare cambia ogni giorno. Vento, pressione atmosferica e correnti influenzano direttamente l’esperienza a bordo. Conoscere questi fattori aiuta a navigare con più sicurezza e a scegliere il momento migliore per uscire in mare."
+    },
+    "section2": {
+      "title": "Il vento: protagonista nel Mediterraneo",
+      "body": "A Maiorca il vento è l’elemento che incide di più sulle condizioni marine. Ecco i principali:\n- **Embat**: brezza marina pomeridiana, leggera e piacevole.\n- **Tramontana**: vento da nord, secco e forte, che genera onde alte soprattutto a nord e ovest.\n- **Levante**: soffia da est, porta umidità e mare mosso sul lato orientale.\n- **Maestrale**: forte e irregolare, scomodo per la navigazione.\nConoscere questi venti aiuta a capire se il mare sarà tranquillo, mosso o se l’escursione sarà cancellata."
+    },
+    "section3": {
+      "title": "Come cambia l’esperienza a seconda del meteo",
+      "body": "Le condizioni atmosferiche non modificano solo il mare, ma anche la tua escursione. Vediamo come:",
+      "sub1": {
+        "subtitle": "Giornate di bonaccia",
+        "body": "Con poco o nessun vento, il mare è calmo come una piscina. Ideale per famiglie, relax, paddle o snorkeling. Le acque limpide offrono una visibilità eccellente, anche dalla barca."
+      },
+      "sub2": {
+        "subtitle": "Vento moderato o variabile",
+        "body": "Con vento più deciso arrivano onde e movimento. In questi casi è meglio scegliere imbarcazioni più grandi o percorsi protetti, come baie. Ottimo per chi cerca un po’ di avventura."
+      },
+      "sub3": {
+        "subtitle": "Condizioni avverse: meglio rimandare",
+        "body": "Se ci sono allerte meteo, tramontana forte o bruschi cambi di pressione, è consigliabile rimandare. Per sicurezza, certo, ma anche per evitare disagi: mal di mare, spruzzi continui o tour annullati. Gli operatori affidabili non salpano in caso di previsioni negative."
+      }
+    },
+    "section4": {
+      "title": "Quando uscire in mare: i consigli utili",
+      "body": "Controlla sempre il meteo e chiedi consiglio al tuo operatore. Scegli giornate con vento leggero (meno di 10 nodi), alta pressione stabile e nessuna allerta. La mattina è spesso più tranquilla. Zone come la baia di Alcudia o la costa sud sono più riparate. App come Windy o AEMET sono utilissime per previsioni dettagliate."
+    },
+    "section5": {
+      "title": "Il meteo: un alleato per la tua escursione perfetta",
+      "body": "Capire il tempo non è un ostacolo, ma un modo per vivere il mare al meglio. Scegliere il momento giusto rende l'esperienza più sicura e gratificante. Impari a leggere l'orizzonte, a capire il mare e ad apprezzare ogni uscita.\nIl Mediterraneo cambia ogni giorno, ma sa regalare momenti magici. Basta saperlo ascoltare."
+    }
+  },
+  "toursPage": {
+    "hero": {
+      "badge": "Scopri Maiorca dal mare",
+      "title": "Le migliori escursioni in barca ad Alcudia, Maiorca",
+      "subtitle": "Scegli tra tre esperienze indimenticabili nella splendida baia di Alcudia. Che tu preferisca una rilassante uscita mattutina, una magica crociera al tramonto o un charter privato completamente personalizzato, Coral Boats offre l’escursione perfetta per la tua avventura a Maiorca."
+    },
+    "cards": {
+      "sectionLabel": "Le nostre escursioni in barca",
+      "sectionTitle": "Scegli la tua esperienza perfetta in barca",
+      "sectionDescription": "Tutte le escursioni partono dal porto di Alcudia e includono equipaggio professionale, attrezzatura di sicurezza, assicurazione e ricordi indimenticabili. Prenota oggi la tua escursione in barca a Maiorca!",
+      "morningTour": {
+        "name": "Avventura del mattino",
+        "subtitle": "Ideale per snorkeling e vita marina",
+        "time": "10:00 - 14:00",
+        "duration": "4 ore",
+        "price": "68€",
+        "badge": "4 Ore",
+        "whyChoose": "Perché scegliere questa escursione:",
+        "feature1": "Acque cristalline del mattino",
+        "feature2": "Migliore visibilità per lo snorkeling",
+        "feature3": "Esplora la vita marina vibrante",
+        "feature4": "Mare calmo",
+        "includedTitle": "Incluso:",
+        "included1": "Attrezzatura per snorkeling",
+        "included2": "Stand Up Paddle",
+        "included3": "Tapas maiorchine",
+        "included4": "Bevanda o sangria gratuita",
+        "priceFrom": "Da",
+        "pricePerPerson": "a persona",
+        "ctaButton": "Prenota ora"
+      },
+      "sunsetTour": {
+        "name": "Magia del tramonto",
+        "subtitle": "Atmosfera rilassata & divertimento",
+        "time": "18:00 - 21:00",
+        "duration": "3 ore",
+        "price": "65€",
+        "badge": "3 Ore",
+        "whyChoose": "Perché scegliere questa escursione:",
+        "feature1": "Vedute mozzafiato del tramonto",
+        "feature2": "Atmosfera rilassata con musica",
+        "feature3": "Perfetta per coppie & amici",
+        "feature4": "Magia dell’ora d’oro",
+        "includedTitle": "Incluso:",
+        "included1": "Attrezzatura per snorkeling",
+        "included2": "Stand Up Paddle",
+        "included3": "Tapas maiorchine",
+        "included4": "Bevanda o sangria gratuita",
+        "priceFrom": "Da",
+        "pricePerPerson": "a persona",
+        "ctaButton": "Prenota ora"
+      },
+      "privateCharter": {
+        "name": "Charter privato",
+        "subtitle": "Esperienza completamente personalizzabile",
+        "time": "Orari flessibili",
+        "duration": "3-4 ore",
+        "price": "Da 1.250€",
+        "badge": "Esclusivo",
+        "whyChoose": "Perché scegliere questa escursione:",
+        "feature1": "Fino a 40 passeggeri",
+        "feature2": "Itinerario personalizzato",
+        "feature3": "Perfetto per eventi",
+        "feature4": "Esperienza esclusiva",
+        "includedTitle": "Incluso:",
+        "included1": "Itinerario personalizzato",
+        "included2": "Opzioni di catering",
+        "included3": "Open bar disponibile",
+        "included4": "Equipaggio professionale",
+        "pricingLabel": "Prezzi",
+        "pricingValue": "Preventivo personalizzato",
+        "pricingInfo": "adattato al tuo evento",
+        "ctaButton": "Prenota ora"
+      }
+    },
+    "seo": {
+      "mainTitle": "Le migliori escursioni in barca ad Alcudia, Maiorca",
+      "intro1": "Cerchi un’indimenticabile <strong>escursione in barca ad Alcudia</strong>? Coral Boats offre le <strong>escursioni in barca a Maiorca</strong> più complete e meglio recensite, con partenze giornaliere dal bellissimo <strong>porto di Alcudia</strong>. Che tu voglia una <strong>gita in barca al mattino a Maiorca</strong>, una romantica <strong>crociera al tramonto nella baia di Alcudia</strong> o un <strong>charter privato a Maiorca</strong> completamente personalizzato, abbiamo l’esperienza perfetta per te.",
+      "intro2": "Le nostre <strong>escursioni in barca nella baia di Alcudia</strong> sono pensate per mostrarti la splendida costa mediterranea, acque cristalline e calette nascoste che rendono le <strong>gite in barca a Maiorca</strong> così speciali. Ogni escursione include <strong>attrezzatura da snorkeling</strong>, <strong>stand up paddle</strong>, deliziose <strong>tapas maiorchine</strong> e bevande o sangria incluse, per offrirti tutto il necessario per una giornata indimenticabile in mare.",
+      "whyBookTitle": "Perché prenotare un’escursione in barca con Coral Boats ad Alcudia?",
+      "reason1Title": "Escursioni premiate",
+      "reason1Text": "Valutate 4,9/5 stelle con oltre 500 recensioni verificate, le nostre <strong>escursioni in barca ad Alcudia Maiorca</strong> sono tra le migliori delle isole Baleari.",
+      "reason2Title": "Equipaggio locale esperto",
+      "reason2Text": "Il nostro equipaggio professionale conosce la <strong>baia di Alcudia</strong> come le proprie tasche e ti porterà nei migliori spot per snorkeling, spiagge nascoste e paesaggi mozzafiato.",
+      "reason3Title": "Esperienza completa",
+      "reason3Text": "A differenza delle <strong>escursioni in barca di base al porto di Alcudia</strong>, le nostre includono tutto: attrezzatura per snorkeling, paddle, tapas tradizionali, bevande e guida esperta.",
+      "reason4Title": "Licenze & assicurazione completa",
+      "reason4Text": "Tutte le nostre <strong>escursioni in barca a Maiorca</strong> si svolgono con licenze ufficiali, assicurazione completa e i più alti standard di sicurezza.",
+      "toursTitle": "Scopri le nostre escursioni in barca ad Alcudia",
+      "morningTitle": "Avventura del mattino: la migliore escursione di snorkeling a Maiorca",
+      "morningText1": "La nostra <strong>escursione in barca al mattino ad Alcudia</strong> (10:00-14:00) è perfetta per chi cerca la migliore <strong>esperienza di snorkeling a Maiorca</strong>. Le acque mattutine sono cristalline e calme, ideali per esplorare la vibrante vita marina della <strong>baia di Alcudia</strong>. Questa <strong>escursione di 4 ore dal porto di Alcudia</strong> include attrezzatura da snorkeling, paddle, tapas maiorchine autentiche e una bevanda o sangria gratuita.",
+      "morningText2": "<strong>Perfetta per:</strong> famiglie, appassionati di snorkeling, amanti del mare, fotografi e chiunque desideri vivere il Mediterraneo al suo meglio. È la nostra <strong>escursione in barca più popolare a Maiorca</strong>, ideale per chi visita Alcudia per la prima volta.",
+      "sunsetTitle": "Magia del tramonto: la crociera più romantica nella baia di Alcudia",
+      "sunsetText1": "Vivi la magia di una <strong>escursione in barca al tramonto ad Alcudia</strong> (18:00-21:00), la <strong>crociera più romantica a Maiorca</strong>. Ammira il sole mediterraneo colorare il cielo di tonalità spettacolari mentre navighi nelle acque tranquille della <strong>baia di Alcudia</strong>. Questa <strong>uscita serale di 3 ore</strong> combina viste mozzafiato con snorkeling, paddle, tapas tradizionali e bevande incluse.",
+      "sunsetText2": "<strong>Perfetta per:</strong> coppie, novelli sposi, occasioni speciali, appassionati di fotografia e chiunque desideri una <strong>crociera premium al tramonto a Maiorca</strong>. Questa <strong>escursione romantica dal porto di Alcudia</strong> regala ricordi indimenticabili e foto magnifiche.",
+      "privateTitle": "Charter privato: noleggio esclusivo di barca a Maiorca per gruppi & eventi",
+      "privateText1": "Crea la tua giornata perfetta in mare con un <strong>charter privato ad Alcudia</strong>. Il nostro <strong>noleggio esclusivo di barca a Maiorca</strong> ospita fino a 40 passeggeri (la maggior parte dei charter è limitata a 12!), rendendolo ideale per <strong>eventi aziendali</strong>, <strong>compleanni</strong>, <strong>addii al celibato/nubilato</strong>, riunioni familiari e occasioni speciali. Scegli il tuo orario (3-4 ore), personalizza l’itinerario e aggiungi catering o open bar.",
+      "privateText2": "<strong>Perfetto per:</strong> grandi gruppi, team building aziendali ad Alcudia, matrimoni, compleanni, addii al celibato/nubilato, celebrazioni familiari e qualsiasi evento speciale. Il nostro <strong>noleggio privato dal porto di Alcudia</strong> offre flessibilità ed esclusività totali per il tuo gruppo.",
+      "locationTitle": "Escursioni dal porto di Alcudia: il punto di partenza ideale",
+      "locationText1": "Il <strong>porto di Alcudia</strong> è il punto di partenza ideale per le <strong>escursioni in barca nel nord di Maiorca</strong>. Situato nella splendida <strong>baia di Alcudia</strong>, offre un facile accesso ad alcune delle acque più belle del Mediterraneo, spiagge incontaminate e incredibili punti di snorkeling. Il porto è facilmente raggiungibile da <strong>Alcudia, Port de Pollensa, Can Picafort, Playa de Muro</strong> e da tutto il <strong>Nord di Maiorca</strong>.",
+      "locationText2": "Le nostre <strong>escursioni dal porto di Alcudia</strong> esplorano le acque protette della baia, visitano calette appartate accessibili solo dal mare e ti portano nei migliori luoghi per nuotare e fare snorkeling. Che tu soggiorni ad <strong>Alcudia città</strong>, <strong>Port de Pollensa</strong> o ovunque nel <strong>Nord-Est di Maiorca</strong>, le nostre uscite sono comode e facili da raggiungere.",
+      "bookingTitle": "Prenota oggi la tua escursione in barca ad Alcudia",
+      "bookingText": "Non perdere la migliore <strong>esperienza in barca a Maiorca</strong>. Le nostre <strong>uscite ad Alcudia</strong> si esauriscono velocemente, soprattutto in alta stagione (giugno-settembre). Prenota online la tua <strong>avventura del mattino</strong>, la tua <strong>crociera al tramonto</strong> o il tuo <strong>charter privato</strong> e assicurati un posto per una giornata indimenticabile nel Mediterraneo.",
+      "ctaMorning": "Prenota escursione mattutina",
+      "ctaSunset": "Prenota escursione al tramonto",
+      "ctaPrivate": "Prenota charter privato"
+    },
+    "faq": {
+      "sectionLabel": "Domande?",
+      "sectionTitle": "Domande frequenti sulle nostre escursioni in barca ad Alcudia",
+      "sectionDescription": "Tutto ciò che devi sapere per prenotare e goderti le migliori escursioni in barca a Maiorca",
+      "q1": "Qual è la migliore escursione in barca ad Alcudia per le famiglie?",
+      "a1": "L’Avventura del mattino è perfetta per le famiglie! L’escursione di 4 ore dal porto di Alcudia (10:00-14:00) offre acque tranquille, ottime condizioni per lo snorkeling e tante attività per tutte le età. I bambini adorano osservare la vita marina, usare i paddle e gustare le tapas maiorchine.",
+      "q2": "Da dove partono le escursioni in barca ad Alcudia?",
+      "a2": "Tutte le escursioni Coral Boats partono dal porto di Alcudia, uno dei più belli di Maiorca. È facilmente raggiungibile da Alcudia, Port de Pollensa, Can Picafort, Playa de Muro e da tutte le principali località del nord di Maiorca. I dettagli esatti del punto d’incontro sono indicati nella conferma di prenotazione.",
+      "q3": "Cosa includono le vostre escursioni in barca a Maiorca?",
+      "a3": "Ogni escursione include: equipaggio professionale, attrezzatura da snorkeling, paddle, tapas maiorchine, una bevanda o sangria gratuita, attrezzatura di sicurezza e assicurazione. I charter privati possono includere catering aggiuntivo e open bar.",
+      "q4": "Posso prenotare un charter privato ad Alcudia per grandi gruppi?",
+      "a4": "Sì! Il nostro charter privato accoglie fino a 40 passeggeri, perfetto per eventi aziendali, matrimoni, compleanni e celebrazioni. La maggior parte dei charter a Maiorca è limitata a 12 persone, il che rende il nostro noleggio esclusivo perfetto per i gruppi numerosi. Prenota la tua uscita privata con orari flessibili e itinerari personalizzati.",
+      "q5": "Qual è il momento migliore per un’escursione in barca nella baia di Alcudia?",
+      "a5": "Entrambe le escursioni offrono esperienze uniche! L’Avventura del mattino (10:00-14:00) offre le migliori condizioni per lo snorkeling, con acque calme e cristalline. La Magia del tramonto (18:00-21:00) regala panorami spettacolari e un’atmosfera romantica. Scegli in base alle tue preferenze!",
+      "q6": "Offrite escursioni in barca tutto l’anno dal porto di Alcudia?",
+      "a6": "Le nostre escursioni programmate del mattino e della sera si svolgono da maggio a ottobre, quando le condizioni meteo sono ottimali. I charter privati possono essere disponibili anche al di fuori di questi mesi a seconda del meteo. Consigliamo di prenotare 2-4 settimane in anticipo, soprattutto in alta stagione (giugno-settembre).",
+      "q7": "Fornite attrezzatura da snorkeling durante le escursioni a Maiorca?",
+      "a7": "Sì! Tutte le nostre escursioni ad Alcudia includono attrezzatura da snorkeling professionale (maschere, boccagli, pinne) senza costi aggiuntivi. Forniamo anche paddle e tutta l’attrezzatura di sicurezza. Il nostro equipaggio ti guiderà verso i migliori punti di snorkeling nella baia di Alcudia.",
+      "q8": "Come posso prenotare un’escursione in barca ad Alcudia?",
+      "a8": "Prenotare è semplicissimo! Scegli la tua escursione preferita (Avventura del mattino, Magia del tramonto o Charter privato), seleziona la data e il numero di partecipanti e completa la prenotazione online sicura. Riceverai subito la conferma con tutti i dettagli.",
+      "q9": "Perché Coral Boats è la migliore compagnia di escursioni in barca ad Alcudia?",
+      "a9": "Con una valutazione di 4,9/5, oltre 10.000 clienti soddisfatti e più di 500 recensioni verificate, siamo l’operatore più apprezzato ad Alcudia. Offriamo l’esperienza più completa con equipaggio professionale, attrezzatura inclusa, tapas deliziose e l’unico charter con licenza per oltre 40 passeggeri nella zona.",
+      "q10": "Posso portare cibo e bevande a bordo?",
+      "a10": "Offriamo tapas maiorchine e bevande in tutte le escursioni, ma puoi anche portare snack o bevande extra. I clienti dei charter privati possono personalizzare completamente il catering, portando il proprio o scegliendo tra le nostre opzioni di tapas e open bar.",
+      "finalCtaTitle": "Pronto a vivere la migliore escursione in barca ad Alcudia?",
+      "finalCtaText": "Unisciti a migliaia di clienti soddisfatti che hanno già scoperto perché Coral Boats offre le migliori escursioni in barca a Maiorca. Prenota oggi la tua uscita indimenticabile dal porto di Alcudia!",
+      "finalCtaButton": "Vedi tutte le escursioni"
+    }
+  },
+  "morningTour": {
+    "hero": {
+      "badge": "Avventura del Mattino",
+      "title": "Escursione in Barca del Mattino nella Baia di Alcúdia",
+      "subtitle": "Inizia la giornata con acque cristalline, snorkeling in calette nascoste e autentiche tapas maiorchine nella nostra escursione mattutina di 4 ore lungo la splendida costa nord di Maiorca",
+      "durationLabel": "Durata",
+      "durationValue": "4 Ore",
+      "departureLabel": "Partenza",
+      "departureValue": "10:00",
+      "groupSizeLabel": "Dimensione del gruppo",
+      "groupSizeValue": "Piccoli gruppi",
+      "priceLabel": "Prezzo",
+      "priceValue": "Da 68€",
+      "ctaBook": "Prenota la tua escursione del mattino",
+      "ctaLearnMore": "Scopri di più"
+    },
+    "details": {
+      "sectionLabel": "Panoramica del Tour",
+      "sectionTitle": "La Mattina Perfetta a Maiorca",
+      "paragraph1": "La nostra <strong>Avventura del Mattino</strong> è il modo perfetto per scoprire la bellezza naturale della Baia di Alcúdia a Maiorca. Questa escursione di 4 ore parte alle 10:00, quando le acque del Mediterraneo sono più calme e limpide – ideali per snorkeling e nuoto.",
+      "paragraph2": "Navigherai a bordo della nostra barca classica del 1968, <strong>Coral Boats</strong>, esplorando calette nascoste, spiagge incontaminate e i migliori punti di snorkeling lungo la costa nord di Maiorca. Il nostro equipaggio locale esperto conosce ogni angolo della Baia di Alcúdia e ti porterà in luoghi che i grandi battelli turistici non possono raggiungere.",
+      "paragraph3": "La luce del mattino offre condizioni perfette per la fotografia subacquea, e avrai la possibilità di vedere pesci colorati, ricci di mare e altra fauna marina mediterranea con visibilità cristallina. Dopo le tue avventure acquatiche, rilassati a bordo gustando autentiche tapas maiorchine e bevande rinfrescanti, inclusa la nostra tradizionale sangria.",
+      "galleryLink": "Guarda la galleria fotografica",
+      "highlightsTitle": "Perché scegliere l'escursione del mattino?",
+      "highlight1": "Miglior momento per lo snorkeling con acque calme e limpide",
+      "highlight2": "Visita calette e spiagge segrete accessibili solo in barca",
+      "highlight3": "Osserva pesci mediterranei colorati e fauna marina",
+      "highlight4": "Nuota nelle acque turchesi della Baia di Alcúdia",
+      "highlight5": "Goditi tapas maiorchine fresche e bevande a bordo",
+      "highlight6": "Esperienza in piccoli gruppi con attenzione personalizzata",
+      "includedTitle": "Cosa è incluso",
+      "included1": "Autentiche tapas maiorchine",
+      "included2": "Una bevanda o sangria gratuita",
+      "included3": "Attrezzatura per snorkeling",
+      "included4": "Stand Up Paddle (SUP)",
+      "included5": "Attrezzatura di sicurezza & assicurazione",
+      "included6": "Equipaggio professionale & capitano",
+      "importantInfoTitle": "Informazioni Importanti",
+      "info1": "Arrivare 30 minuti prima dell'orario di partenza",
+      "info2": "Adatto a tutte le età e livelli di nuoto",
+      "info3": "Porta crema solare, asciugamano e costume da bagno",
+      "info4": "Cancellazione gratuita fino a 24 ore prima",
+      "info5": "Partenza dal Porto di Alcúdia",
+      "ctaBook": "Clicca qui per prenotare il tuo posto"
+    },
+    "itinerary": {
+      "sectionLabel": "Itinerario",
+      "sectionTitle": "Il Programma della tua Avventura del Mattino",
+      "sectionDescription": "Dettaglio completo della tua escursione in barca di 4 ore nella Baia di Alcúdia. Gli orari sono indicativi e possono variare in base alle condizioni meteo e del mare.",
+      "step1Time": "10:00",
+      "step1Title": "Partenza dal Porto di Alcúdia",
+      "step1Description": "Incontro alla marina del Porto di Alcúdia. Sali a bordo della nostra barca classica e ricevi un briefing di sicurezza dal nostro equipaggio professionale. Partenza verso la splendida baia.",
+      "step2Time": "10:30",
+      "step2Title": "Prima sosta: nuoto & snorkeling",
+      "step2Description": "Arrivo alla prima sosta, la spiaggia di Coll Baix, con acque turchesi e cristalline. Goditi lo snorkeling con l'attrezzatura fornita, osserva pesci mediterranei colorati o prova lo stand up paddle.",
+      "step3Time": "11:30",
+      "step3Title": "Crociera costiera & sightseeing",
+      "step3Description": "Naviga lungo la splendida costa nord di Maiorca, esplorando scogliere, calette incontaminate e affascinanti grotte marine. Scopri di più sulla storia e la fauna marina con il nostro equipaggio locale.",
+      "step4Time": "12:15",
+      "step4Title": "Seconda sosta & tapas",
+      "step4Description": "Sosta in un altro luogo spettacolare – l'isola e il faro di Alcanada – per nuotare e divertirti con le attività acquatiche. Gusta tapas maiorchine autentiche e bevande rinfrescanti, inclusa la sangria, servite a bordo.",
+      "step5Time": "13:30",
+      "step5Title": "Ritorno panoramico",
+      "step5Description": "Rilassati sul ponte mentre navighiamo di ritorno verso il Porto di Alcúdia, godendo delle viste costiere e del sole mediterraneo.",
+      "step6Time": "14:00",
+      "step6Title": "Arrivo al Porto di Alcúdia",
+      "step6Description": "Ritorno alla marina con ricordi indimenticabili della tua avventura del mattino nella Baia di Alcúdia.",
+      "ctaTitle": "Pronto a vivere la migliore escursione mattutina in barca ad Alcúdia?",
+      "ctaDescription": "Partecipa alla nostra escursione premium del mattino nella Baia di Alcúdia. Prenota oggi la tua avventura di snorkeling e scopri perché siamo l'escursione meglio recensita del nord di Maiorca.",
+      "ctaButton": "Assicurati il tuo posto oggi"
+    },
+    "booking": {
+      "sectionLabel": "Prenota la tua Avventura",
+      "sectionTitle": "Prenota la tua Escursione del Mattino",
+      "sectionDescription": "Unisciti a noi per una mattina indimenticabile esplorando la Baia di Alcúdia",
+      "priceTitle": "Prezzo per persona",
+      "priceValue": "68€",
+      "priceNote": "Miglior prezzo garantito",
+      "durationTitle": "Durata & Partenza",
+      "durationValue": "4 ore | 10:00",
+      "durationNote": "Ritorno alle 14:00",
+      "meetingPointTitle": "Punto di incontro",
+      "meetingPointValue": "Marina del Porto di Alcúdia",
+      "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+      "whyBookTitle": "Perché prenotare con noi?",
+      "whyBook1": "Conferma immediata",
+      "whyBook2": "Cancellazione gratuita fino a 24h",
+      "whyBook3": "Esperienza in piccoli gruppi",
+      "whyBook4": "Cibo maiorchino autentico incluso",
+      "whyBook5": "Equipaggio professionale & attrezzatura",
+      "ctaCardTitle": "Inizia la tua prenotazione",
+      "ctaCardDescription": "Scegli la tua data e prenota la tua esperienza in pochi click",
+      "ctaButton": "Prenota ora la tua escursione del mattino",
+      "trustBadge1": "Sicuro",
+      "trustBadge2": "Istantaneo",
+      "trustBadge3": "Flessibile",
+      "faqTitle": "Domande Frequenti",
+      "faq1Question": "Cosa devo portare?",
+      "faq1Answer": "Porta costume da bagno, asciugamano, crema solare, occhiali da sole e fotocamera. Forniamo tutta l'attrezzatura per snorkeling, paddle board, cibo e bevande.",
+      "faq2Question": "È adatto ai bambini?",
+      "faq2Answer": "Sì! La nostra escursione del mattino è perfetta per le famiglie. I bambini di tutte le età sono i benvenuti e forniamo giubbotti salvagente e dispositivi di galleggiamento.",
+      "faq3Question": "Cosa succede se il tempo è brutto?",
+      "faq3Answer": "La sicurezza è la nostra priorità. Se le condizioni meteo non sono sicure, ti contatteremo per riprogrammare o offrire un rimborso completo.",
+      "faq4Question": "I non nuotatori possono partecipare?",
+      "faq4Answer": "Assolutamente! Puoi goderti la gita in barca, i paesaggi e il cibo senza nuotare. Forniamo giubbotti salvagente a chi vuole provare."
+    },
+    "gallery": {
+      "label": "Galleria",
+      "title": "Vivi la Magia del Mattino",
+      "description": "Scopri cosa ti aspetta nella nostra escursione mattutina nella Baia di Alcúdia"
+    }
+  },
+  "sunsetTour": {
+    "hero": {
+      "badge": "Magia del Tramonto",
+      "title": "Escursione in Barca al Tramonto nella Baia di Alcudia",
+      "subtitle": "Vivi la magia di un tramonto mediterraneo nuotando in acque cristalline, gustando autentiche tapas maiorchine e ammirando panorami costieri mozzafiato durante la nostra crociera serale di 3 ore lungo la splendida costa settentrionale di Maiorca.",
+      "durationLabel": "Durata",
+      "durationValue": "3 Ore",
+      "departureLabel": "Partenza",
+      "departureValue": "18:00",
+      "groupSizeLabel": "Dimensione del Gruppo",
+      "groupSizeValue": "Piccoli Gruppi",
+      "priceLabel": "Prezzo",
+      "priceValue": "Da 65 €",
+      "ctaBook": "Prenota la Tua Escursione al Tramonto",
+      "ctaLearnMore": "Scopri di Più"
+    },
+    "details": {
+      "sectionLabel": "Descrizione del Tour",
+      "sectionTitle": "La Serata Perfetta a Maiorca",
+      "paragraph1": "La nostra <strong>escursione in barca Sunset Magic</strong> è il modo perfetto per vivere la magica bellezza serale della Baia di Alcudia, a Maiorca. Questa crociera di 3 ore parte alle 18:00, quando la luce mediterranea assume toni dorati ideali per nuotare, rilassarsi e scattare foto indimenticabili.",
+      "paragraph2": "Navigherai a bordo della nostra barca classica del 1968, <strong>Coral Boats</strong>, esplorando calette nascoste, spiagge incontaminate e i punti panoramici più spettacolari della costa nord di Maiorca. Il nostro equipaggio locale esperto conosce ogni angolo segreto della Baia di Alcudia e ti porterà in luoghi che le grandi barche turistiche non possono raggiungere.",
+      "paragraph3": "La luce del tramonto crea condizioni perfette per foto spettacolari, e avrai la possibilità di nuotare in acque tiepide mentre il sole scompare all’orizzonte. Dopo le attività in mare, rilassati a bordo gustando autentiche tapas maiorchine e bevande rinfrescanti, inclusa la nostra sangria tradizionale, mentre il sole tramonta sul Mediterraneo.",
+      "galleryLink": "Esplora la Galleria Fotografica",
+      "highlightsTitle": "Perché Scegliere il Tour al Tramonto?",
+      "highlight1": "Ammira un tramonto mediterraneo spettacolare dal mare",
+      "highlight2": "Luce dorata perfetta per foto mozzafiato",
+      "highlight3": "Esplora spiagge incontaminate e scenari costieri spettacolari",
+      "highlight4": "Nuota nelle acque calde della Baia di Alcudia al tramonto",
+      "highlight5": "Gusta tapas maiorchine e bevande fresche a bordo",
+      "highlight6": "Atmosfera mediterranea rilassata, perfetta per staccare e connettersi",
+      "includedTitle": "Cosa è Incluso",
+      "included1": "Autentiche Tapas Maiorchine",
+      "included2": "Una Bevanda o Sangria Gratuita",
+      "included3": "Attrezzatura per Snorkeling",
+      "included4": "Tavole da Paddle (SUP)",
+      "included5": "Attrezzatura di Sicurezza e Assicurazione",
+      "included6": "Equipaggio e Capitano Professionisti",
+      "importantInfoTitle": "Informazioni Importanti",
+      "info1": "Arrivare 30 minuti prima della partenza",
+      "info2": "Adatto a tutte le età e livelli di nuoto",
+      "info3": "Porta crema solare, asciugamano e costume da bagno",
+      "info4": "Cancellazione gratuita fino a 24 ore prima",
+      "info5": "Partenza dal Porto di Alcúdia",
+      "ctaBook": "Clicca qui per prenotare il tuo posto"
+    },
+    "itinerary": {
+      "sectionLabel": "Itinerario",
+      "sectionTitle": "Il Programma della Tua Avventura al Tramonto",
+      "sectionDescription": "Una panoramica dettagliata della tua escursione in barca di 3 ore nella Baia di Alcudia. Gli orari sono approssimativi e possono variare a seconda delle condizioni meteorologiche e del mare.",
+      "step1Time": "18:00",
+      "step1Title": "Partenza dal Porto di Alcúdia",
+      "step1Description": "Incontro al porto turistico di Alcúdia. Sali a bordo della nostra barca classica e ricevi un breve briefing sulla sicurezza dal nostro equipaggio professionale. Salpiamo verso la splendida Baia di Alcudia.",
+      "step2Time": "18:30",
+      "step2Title": "Crociera Costiera e Scoperta",
+      "step2Description": "Naviga lungo la bellissima costa settentrionale di Maiorca, esplorando scogliere spettacolari, calette nascoste e affascinanti grotte marine. Scopri la storia e la vita marina della zona mentre godi della luce dorata del tramonto.",
+      "step3Time": "19:15",
+      "step3Title": "Sosta per Nuotare, Tapas e Tramonto",
+      "step3Description": "Arrivo alla spettacolare isola e al faro di Alcanada. Goditi una nuotata e attività acquatiche in acque cristalline. Assapora tapas maiorchine autentiche e bevande fresche, inclusa la sangria, mentre ammiri un tramonto mediterraneo mozzafiato.",
+      "step4Time": "20:30",
+      "step4Title": "Ritorno",
+      "step4Description": "Rilassati sul ponte mentre navighiamo di ritorno verso il porto di Alcúdia sotto il meraviglioso cielo del crepuscolo, ammirando le viste costiere.",
+      "step5Time": "21:00",
+      "step5Title": "Arrivo al Porto di Alcúdia",
+      "step5Description": "Ritorno al porto con ricordi indimenticabili della tua magica avventura al tramonto nella Baia di Alcudia.",
+      "ctaTitle": "Pronto a Vivere la Magia del Tramonto ad Alcudia?",
+      "ctaDescription": "Unisciti alla nostra escursione premium Sunset Magic nella Baia di Alcudia, Maiorca. Prenota oggi stesso la tua avventura serale e scopri perché siamo il tour in barca più apprezzato del nord di Maiorca — pura atmosfera mediterranea ti aspetta!",
+      "ctaButton": "Prenota il Tuo Posto Oggi"
+    },
+    "booking": {
+      "sectionLabel": "Prenota la Tua Avventura",
+      "sectionTitle": "Prenota la Tua Escursione al Tramonto",
+      "sectionDescription": "Unisciti a noi per una serata indimenticabile esplorando la Baia di Alcudia",
+      "priceTitle": "Prezzo per Persona",
+      "priceValue": "65 €",
+      "priceNote": "Miglior prezzo garantito",
+      "durationTitle": "Durata e Partenza",
+      "durationValue": "3 ore | 18:00",
+      "durationNote": "Rientro alle 21:00",
+      "meetingPointTitle": "Punto d’Incontro",
+      "meetingPointValue": "Porto Turistico di Alcúdia",
+      "meetingPointCoords": "39°50'13.1\"N 3°08'22.7\"E",
+      "whyBookTitle": "Perché Prenotare con Noi?",
+      "whyBook1": "Conferma immediata",
+      "whyBook2": "Cancellazione gratuita fino a 24 ore prima",
+      "whyBook3": "Esperienza in piccoli gruppi",
+      "whyBook4": "Cucina maiorchina autentica inclusa",
+      "whyBook5": "Equipaggio e attrezzatura professionali",
+      "ctaCardTitle": "Inizia la Tua Prenotazione",
+      "ctaCardDescription": "Scegli la data e prenota la tua esperienza in pochi clic",
+      "ctaButton": "Prenota Ora la Tua Escursione al Tramonto",
+      "trustBadge1": "Sicuro",
+      "trustBadge2": "Immediato",
+      "trustBadge3": "Flessibile",
+      "faqTitle": "Domande Frequenti",
+      "faq1Question": "Cosa devo portare?",
+      "faq1Answer": "Porta costume da bagno, asciugamano, crema solare, occhiali da sole e macchina fotografica. Forniamo tutta l’attrezzatura per lo snorkeling, le tavole da paddle, il cibo e le bevande.",
+      "faq2Question": "È adatto ai bambini?",
+      "faq2Answer": "Sì! La nostra escursione al tramonto è perfetta per le famiglie. I bambini di tutte le età sono i benvenuti e forniamo giubbotti di salvataggio e dispositivi di galleggiamento.",
+      "faq3Question": "Cosa succede se il tempo è brutto?",
+      "faq3Answer": "La sicurezza è la nostra priorità. Se le condizioni meteorologiche non sono sicure, ti contatteremo per riprogrammare o rimborsarti completamente.",
+      "faq4Question": "Com'è l'atmosfera a bordo?",
+      "faq4Answer": "Pura magia mediterranea! L'escursione al tramonto offre un'atmosfera rilassata e divertente — perfetta per coppie, amici, famiglie e chiunque desideri godersi una splendida serata maiorchina."
+    },
+    "gallery": {
+      "label": "Galleria",
+      "title": "Momenti Magici del Tramonto",
+      "description": "Scopri la bellezza della nostra escursione al tramonto nella Baia di Alcúdia"
+    }
+  },
+  "privateCharter": {
+    "hero": {
+      "badge": "Esperienza Esclusiva",
+      "title": "Charter Privato per Gruppi fino a 40 Persone",
+      "subtitle": "Trasforma la tua celebrazione speciale in un’esperienza indimenticabile nel Mar Mediterraneo. Il nostro charter esclusivo è perfetto per eventi aziendali, compleanni, addii al celibato/nubilato, feste di famiglia e riunioni tra amici.",
+      "capacityLabel": "Capacità",
+      "capacityValue": "Fino a 40 Ospiti",
+      "durationLabel": "Durata",
+      "durationValue": "Orari Flessibili",
+      "itineraryLabel": "Itinerario",
+      "itineraryValue": "100% Personalizzato",
+      "cateringLabel": "Catering",
+      "cateringValue": "Menu su Misura",
+      "ctaPricing": "Vedi Prezzi e Prenota",
+      "ctaLearnMore": "Scopri di Più"
+    },
+    "features": {
+      "sectionLabel": "La Tua Esperienza Charter Definitiva",
+      "sectionTitle": "Charter Privato a Maiorca",
+      "sectionDescription": "Scopri perché Coral Boats è la scelta numero uno ad Alcudia per le celebrazioni di grandi gruppi",
+      "introTitle": "Il Più Grande Charter Privato di Alcudia",
+      "introText": "Cerchi un <strong>charter privato a Maiorca</strong> che possa ospitare tutto il tuo gruppo? Coral Boats offre un’esclusiva <strong>noleggio barca ad Alcudia</strong> con capacità fino a 40 passeggeri — la scelta ideale per feste ed eventi che la maggior parte delle compagnie di charter a Maiorca non può offrire.",
+      "capacityTitle": "Una Capacità che ci Distingue",
+      "capacityText": "Il nostro <strong>charter ad Alcudia</strong> si distingue nel mercato maiorchino grazie alla nostra licenza speciale. Mentre la maggior parte dei <strong>noleggi privati a Maiorca</strong> è limitata a 12 passeggeri, noi possiamo ospitare gruppi fino a 40 persone sulla stessa imbarcazione — perfetto per eventi aziendali, compleanni e celebrazioni nella splendida <strong>Baia di Alcudia</strong>.",
+      "locationTitle": "Esplorando il Nord di Maiorca",
+      "locationText": "Partendo dal <strong>Porto di Alcudia</strong>, il nostro <strong>charter a Maiorca</strong> naviga in acque cristalline, visitando calette nascoste, spiagge incontaminate e luoghi iconici come il faro di Alcanada. Vivi <strong>charter ad Alcudia</strong> con soste per nuotare, fare snorkeling, paddle board e gustare autentico catering maiorchino.",
+      "highlightsTitle": "Cosa Rende Speciale il Nostro Charter",
+      "highlight1": "Licenza per oltre 40 Ospiti",
+      "highlight2": "Barca Classica del 1968",
+      "highlight3": "100% Personalizzabile",
+      "closingText": "Quando prenoti un <strong>charter privato ad Alcudia</strong> con noi, ottieni molto più di un semplice <strong>noleggio barca a Maiorca</strong>: vivi un’esperienza completamente personalizzata con un equipaggio professionale dedicato esclusivamente al tuo gruppo. Dagli orari flessibili agli itinerari su misura lungo la <strong>Baia di Alcudia</strong>, ogni dettaglio è pensato per creare ricordi indimenticabili nel Mediterraneo.",
+      "ctaButton": "Vedi Prezzi e Prenota Ora"
+    },
+    "capacity": {
+      "sectionLabel": "Perché Sceglierci",
+      "sectionTitle": "Licenza per Grandi Gruppi",
+      "paragraph1": "<strong>Ciò che ci distingue</strong> dagli altri charter è la nostra licenza speciale che ci permette di ospitare <strong>fino a 40 passeggeri</strong> — perfetta per celebrazioni che la maggior parte delle barche non può accogliere. Che si tratti di un ritiro aziendale, di un grande compleanno o di una riunione familiare, abbiamo la capacità e l’esperienza per renderlo straordinario.",
+      "paragraph2": "La nostra imbarcazione classica del 1968, <strong>Coral Boats</strong>, combina il fascino marittimo autentico con sicurezza e comfort moderni. L’ampio ponte offre spazio a sufficienza per rilassarsi, ballare e godere della magnifica vista sulla Baia di Alcudia.",
+      "paragraph3": "Con orari flessibili e itinerari completamente personalizzabili, hai il pieno controllo della tua esperienza. Scegli l’orario di partenza, le tappe preferite e le tue opzioni di catering — al resto pensiamo noi, mentre ti godi il tempo con il tuo gruppo.",
+      "galleryLink": "Guarda la Galleria Fotografica",
+      "advantagesTitle": "Vantaggi del Charter",
+      "advantage1": "Uso esclusivo dell’intera barca per il tuo gruppo",
+      "advantage2": "Capacità fino a 40 persone — più della maggior parte dei charter privati",
+      "advantage3": "Rotte e durata completamente personalizzabili",
+      "advantage4": "Servizio di catering e bevande personalizzato",
+      "advantage5": "Equipaggio professionale dedicato al tuo evento",
+      "advantage6": "Perfetto per celebrazioni che altre barche non possono ospitare",
+      "capacityHighlightsTitle": "Punti Salienti della Capacità",
+      "capacity1Value": "Fino a 40+",
+      "capacity1Label": "Capacità Confortevole",
+      "capacity2Value": "Licenza Ufficiale",
+      "capacity2Label": "Permesso per Grandi Gruppi",
+      "capacity3Value": "Dal 1968",
+      "capacity3Label": "Barca Classica",
+      "infoBoxTitle": "Perfetto per Grandi Gruppi",
+      "infoBoxText": "<strong>La maggior parte dei charter privati è limitata a 12 persone.</strong> Più di 12 nel tuo gruppo? Siamo qui per questo! La nostra licenza speciale consente gruppi da 12 a oltre 40 persone di restare insieme sulla stessa barca. Nessuna divisione, nessuna doppia prenotazione — solo un’esperienza indimenticabile per tutti.",
+      "ctaButton": "Visualizza Prezzi e Prenota"
+    },
+    "events": {
+      "sectionLabel": "Perfetto per Ogni Occasione",
+      "sectionTitle": "Eventi in Cui Siamo Specializzati",
+      "sectionDescription": "Il nostro charter privato è la location ideale per ogni tipo di celebrazione. Con capacità fino a 40 ospiti e una personalizzazione totale, diamo vita alla tua visione sulle splendide acque del Mediterraneo.",
+      "corporate": {
+        "title": "Eventi Aziendali",
+        "description": "Team building, eventi con clienti, lanci di prodotti o feste aziendali. Crea un’impressione duratura in un ambiente unico che favorisce connessione e collaborazione.",
+        "feature1": "Attività di Team Building",
+        "feature2": "Ambiente Professionale",
+        "feature3": "Spazio per Networking",
+        "feature4": "Opzioni di Catering"
+      },
+      "birthday": {
+        "title": "Feste di Compleanno",
+        "description": "Rendi i tuoi compleanni più importanti davvero indimenticabili con una festa privata in barca. Dai 16 ai 50 anni, creiamo lo scenario perfetto per il tuo giorno speciale nel Mediterraneo.",
+        "feature1": "Per Tutte le Età",
+        "feature2": "Decorazioni Personalizzate",
+        "feature3": "Musica e Intrattenimento",
+        "feature4": "Pacchetti Celebrazione"
+      },
+      "bachelor": {
+        "title": "Addii al Celibato/Nubilato",
+        "description": "Festeggia i tuoi ultimi giorni di libertà con stile! Goditi bagni, musica, drink e tanto divertimento con i tuoi amici nelle splendide acque della Baia di Alcudia.",
+        "feature1": "Atmosfera da Festa",
+        "feature2": "Servizio Bar Premium",
+        "feature3": "Attività Acquatiche",
+        "feature4": "Opportunità Fotografiche"
+      },
+      "family": {
+        "title": "Riunioni Familiari",
+        "description": "Riunisci tutta la famiglia per un’esperienza indimenticabile. Con capacità per 40 ospiti, dai nonni ai nipoti, tutti possono partecipare alla festa.",
+        "feature1": "Multigenerazionale",
+        "feature2": "Sicuro per Tutte le Età",
+        "feature3": "Catering in Stile Familiare",
+        "feature4": "Atmosfera Rilassata"
+      },
+      "friends": {
+        "title": "Ritrovi tra Amici",
+        "description": "A volte i momenti migliori sono quelli condivisi con gli amici. Noleggia la nostra barca per una giornata indimenticabile di nuoto, buon cibo e divertimento insieme.",
+        "feature1": "Itinerario Flessibile",
+        "feature2": "Attività Divertenti",
+        "feature3": "Opzione Porta le Tue Bevande",
+        "feature4": "Fotografia Inclusa"
+      },
+      "special": {
+        "title": "Celebrazioni Speciali",
+        "description": "Anniversari, proposte di matrimonio, lauree o qualsiasi momento importante da festeggiare. Creiamo l’atmosfera perfetta per i momenti più belli della vita.",
+        "feature1": "Ambientazioni Romantiche",
+        "feature2": "Pianificazione Personalizzata",
+        "feature3": "Richieste Speciali",
+        "feature4": "Servizio Premium"
+      },
+      "footerTitle": "Hai in Mente un Altro Tipo di Evento?",
+      "footerText": "Ogni celebrazione è unica! Contattaci per discutere le tue esigenze specifiche. Che si tratti di una festa a tema, di un evento culturale o di qualcosa di completamente diverso, lavoreremo con te per creare l’esperienza perfetta per il tuo gruppo fino a 40 persone."
+    },
+    "booking": {
+      "sectionLabel": "Pronto a Prenotare?",
+      "sectionTitle": "Prenota il Tuo Charter Perfetto",
+      "sectionDescription": "Consulta i nostri prezzi trasparenti, scegli le tue opzioni e prenota la data online",
+      "howItWorksTitle": "Come Funziona",
+      "step1": "<strong>Passaggio 1:</strong> Consulta i nostri prezzi e scegli la durata del charter",
+      "step2": "<strong>Passaggio 2:</strong> Seleziona gli extra opzionali come catering e open bar",
+      "step3": "<strong>Passaggio 3:</strong> Invia la tua richiesta di prenotazione con i tuoi dati",
+      "step4": "<strong>Passaggio 4:</strong> Confermeremo la disponibilità entro poche ore",
+      "step5": "<strong>Passaggio 5:</strong> Goditi la tua indimenticabile esperienza in charter!",
+      "ctaCardTitle": "Prenota il Tuo Charter Oggi",
+      "ctaCardDescription": "Consulta i nostri prezzi trasparenti e richiedi il tuo charter online. Scegli la durata, aggiungi extra opzionali e confermeremo la tua prenotazione entro poche ore.",
+      "ctaButton": "Vedi Prezzi e Prenota",
+      "trustBadge1": "Completamente Assicurato",
+      "trustBadge2": "Con Licenza",
+      "trustBadge3": "Valutazione 4.9",
+      "faqTitle": "Domande Frequenti",
+      "faq1Question": "Con quanto anticipo devo prenotare?",
+      "faq1Answer": "Consigliamo di prenotare con 2–4 settimane di anticipo, soprattutto in alta stagione (giugno–settembre) e nei fine settimana. Tuttavia, faremo del nostro meglio per accettare anche richieste last minute.",
+      "faq2Question": "Cosa è incluso nel prezzo?",
+      "faq2Answer": "Noleggio barca, equipaggio professionale, carburante, assicurazione, attrezzatura per attività acquatiche e sistema audio di base. Consulta la nostra pagina dei prezzi per vedere tariffe dettagliate ed extra opzionali come catering e open bar.",
+      "faq3Question": "Possiamo portare cibo e bevande nostre?",
+      "faq3Answer": "Sì! Anche se offriamo un servizio di catering, puoi portare i tuoi. A bordo abbiamo frigoriferi e ghiacciaie. Basta avvisarci in anticipo così ci prepariamo di conseguenza.",
+      "faq4Question": "Cosa succede in caso di maltempo?",
+      "faq4Answer": "La sicurezza prima di tutto! Se le condizioni meteorologiche non consentono di navigare in sicurezza, riprogrammeremo la partenza o forniremo un rimborso completo. Monitoriamo attentamente le condizioni e ti informeremo in anticipo se necessario."
+    },
+    "gallery": {
+      "label": "Galleria",
+      "title": "Esperienze di Charter Privato",
+      "description": "Scopri i nostri charter privati esclusivi ad Alcúdia"
+    },
+    "pricingCTA": {
+      "badge": "Prezzi Trasparenti",
+      "title": "Pronto a Prenotare il Tuo Charter Privato?",
+      "description": "Dai un'occhiata ai nostri prezzi competitivi e alle opzioni di personalizzazione. Offriamo pacchetti flessibili su misura per le tue esigenze e il tuo budget.",
+      "button": "Visualizza Prezzi Completi",
+      "feature1": "Prezzi Trasparenti",
+      "feature2": "Nessun Costo Nascosto",
+      "feature3": "Pacchetti Personalizzabili"
+    }
+  },
+  "premium": {
+    "hero": {
+      "title": "Il Migliori Tour in Barca ad Alcudia, Maiorca",
+      "subtitle": "Scopri la magia della baia di Alcudia a bordo della nostra barca classica. Esplora calette nascoste e le migliori spiagge del nord di Maiorca con autentiche esperienze locali.",
+      "cta_book": "Prenota il Tuo Tour",
+      "cta_view_all": "Vedi Tutti i Tour"
+    },
+    "tours": {
+      "label": "I Nostri Tour",
+      "title": "Scegli il Tuo Tour in Barca Perfetto ad Alcudia",
+      "description": "Due tour unici in barca progettati per mostrarti il meglio della costa di Maiorca. Che tu preferisca una rilassante passeggiata mattutina o un magico tramonto al porto di Alcudia, entrambe le esperienze includono cibo maiorchino, una bevanda e attività acquatiche.",
+      "morning_name": "Avventura Mattutina",
+      "morning_time": "10:00 - 14:00",
+      "morning_duration": "4 ore",
+      "morning_price": "68€",
+      "morning_highlights": "Ideale per lo snorkeling • Acque calme • Osservazione della vita marina",
+      "sunset_name": "Magia del Tramonto",
+      "sunset_time": "18:00 - 21:00",
+      "sunset_duration": "3 ore",
+      "sunset_price": "65€",
+      "sunset_highlights": "Viste spettacolari • Più romantico • Esperienza premium",
+      "whats_included": "Cosa È Incluso",
+      "snorkeling_equipment": "Attrezzatura da Snorkeling",
+      "paddle_boards": "Paddle Boards",
+      "mallorcan_tapas": "Tapas Maiorchine",
+      "free_drink": "Una Bevanda Gratuita o Sangria",
+      "from": "A partire da",
+      "per_person": "a persona",
+      "book_now": "Prenota Ora",
+      "departure_title": "Punto di Partenza: Porto di Alcudia",
+      "departure_description": "Tutti i tour partono dal porto di Alcudia e includono equipaggio professionale, attrezzature di sicurezza e assicurazione"
+    },
+    "why_choose": {
+      "label": "Perché Sceglierci",
+      "title": "Migliori Tour in Barca ad Alcudia, Maiorca",
+      "description": "Scopri perché migliaia di viaggiatori scelgono Coral Boats per la loro indimenticabile esperienza in barca nella splendida baia di Alcudia. Dallo snorkeling nelle acque cristalline all'osservazione di spettacolari tramonti mediterranei, offriamo la combinazione perfetta di avventura, relax e autentica ospitalità maiorchina.",
+      "reason_1_title": "Esperienza Maiorchina Autentica",
+      "reason_1_desc": "Naviga nelle acque cristalline della baia di Alcudia con gente del posto che conosce ogni caletta nascosta, spiaggia segreta e i migliori spot per lo snorkeling a Maiorca.",
+      "reason_2_title": "Fascino di una Barca Classica del 1968",
+      "reason_2_desc": "Sali a bordo di Coral Boat, un'imbarcazione classica magnificamente restaurata che combina l'eleganza marittima vintage con sicurezza e comfort moderni per un viaggio indimenticabile.",
+      "reason_3_title": "Tapas Tradizionali Maiorchine",
+      "reason_3_desc": "Assapora i veri sapori di Maiorca con la nostra selezione di tapas locali e bevande rinfrescanti, inclusa la tradizionale sangria, servite fresche a bordo durante il tuo tour in barca.",
+      "reason_4_title": "Avventure in Piccoli Gruppi",
+      "reason_4_desc": "Goditi un'esperienza intima in barca ad Alcudia con piccoli gruppi, garantendo attenzione personalizzata, molto spazio per rilassarsi e una connessione più autentica con il Mediterraneo.",
+      "reason_5_title": "Autorizzato e Assicurato",
+      "reason_5_desc": "Viaggia con totale tranquillità sapendo che i nostri tour in barca rispettano tutte le normative di sicurezza marittima spagnole, con equipaggio professionale, attrezzature moderne e assicurazione completa.",
+      "reason_6_title": "Passione per il Mare",
+      "reason_6_desc": "Non siamo solo operatori turistici, siamo amanti dell'oceano che condividono la magia della costa di Maiorca, le acque cristalline e i tramonti mozzafiato con viaggiatori di tutto il mondo.",
+      "cta_title": "Pronto a Vivere il Miglior Tour in Barca a Maiorca?",
+      "cta_description": "Prenota oggi la tua avventura mattutina o il tuo tour magico al tramonto e crea ricordi che dureranno tutta la vita. Unisciti a noi a bordo di Coral Boats per un autentico viaggio in barca attraverso le acque mozzafiato della baia di Alcudia, completo di snorkeling, paddle boarding, tapas maiorchine e viste indimenticabili.",
+      "instant_confirmation": "Conferma Immediata",
+      "free_cancellation": "Cancellazione Gratuita",
+      "best_price": "Garanzia Miglior Prezzo",
+      "cta_button": "Prenota Ora la Tua Avventura",
+      "rating": "Valutazione 4.9 nelle Recensioni Google",
+      "seo_subtitle_1": "Esplora la Baia di Alcudia Come Mai Prima",
+      "seo_text_1": "La baia di Alcudia è uno dei tesori naturali più spettacolari di Maiorca, con acque turchesi cristalline, calette nascoste e spiagge incontaminate accessibili solo in barca. I nostri tour in barca guidati da esperti ti portano nei luoghi più belli della costa nord di Maiorca, dove puoi fare snorkeling con pesci mediterranei colorati, rilassarti su spiagge isolate e nuotare in acque così limpide da vedere il fondo sabbioso metri sotto.",
+      "seo_subtitle_2": "Perfetto per Ogni Viaggiatore",
+      "seo_text_2": "Che tu stia viaggiando con la famiglia, con gli amici o in coppia alla ricerca di romanticismo, i nostri tour in barca ad Alcudia offrono qualcosa di speciale per tutti. Le famiglie adorano la nostra barca sicura e spaziosa e le attività per bambini come lo snorkeling e il paddle boarding. Le coppie trovano il tour al tramonto perfetto per momenti romantici, mentre i gruppi di amici apprezzano l'atmosfera sociale, le deliziose tapas e la sangria rinfrescante mentre navighiamo in paradiso."
+    },
+    "private_charters": {
+      "label": "Esperienze Esclusive",
+      "title": "Charter Privati ed Eventi Speciali",
+      "description": "Crea momenti indimenticabili con un charter privato progettato esclusivamente per la tua occasione speciale. Che tu stia pianificando un compleanno con amici, un evento aziendale di team-building, una celebrazione importante o una riunione intima con i tuoi cari, Coral Boats offre l'ambientazione perfetta per il tuo evento. Prenota oggi il tuo viaggio privato in barca ad Alcudia, Maiorca e lascia che ti aiutiamo a creare un'esperienza indimenticabile!",
+      "name": "Charter Privato",
+      "time": "Orario Flessibile",
+      "duration": "Durata Personalizzata",
+      "price": "Contattaci",
+      "highlights": "Esperienza esclusiva • Completamente personalizzabile • Perfetto per eventi",
+      "custom_itinerary": "Itinerario Personalizzato",
+      "catering_drinks": "Catering e Bevande",
+      "professional_crew": "Equipaggio Professionale",
+      "water_activities": "Attività Acquatiche",
+      "duration_label": "Durata",
+      "duration_value": "3-4 Ore",
+      "flexible_options": "opzioni flessibili",
+      "info_text": "I charter privati possono essere personalizzati in base alle tue esigenze specifiche. Consulta i nostri prezzi trasparenti e prenota online."
+    },
+    "footer_premium": {
+      "description": "Vivi la magia della baia di Alcudia di Maiorca a bordo della nostra barca classica. Scopri calette nascoste, fai snorkeling in acque cristalline e crea ricordi indimenticabili.",
+      "quick_links": "Link Rapidi",
+      "home": "Home",
+      "our_tours": "I Nostri Tour",
+      "gallery": "Galleria",
+      "blog": "Blog",
+      "contact": "Contatto",
+      "tours_title": "I Nostri Tour",
+      "morning_tour": "Tour in Barca Mattutino",
+      "sunset_tour": "Tour al Tramonto",
+      "private_charter": "Charter Privato",
+      "get_in_touch": "Contattaci",
+      "email": "Email",
+      "phone": "Telefono",
+      "whatsapp": "WhatsApp",
+      "location": "Porto di Alcudia, Maiorca",
+      "copyright": "Coral Boats Mallorca. Tutti i diritti riservati.",
+      "privacy_policy": "Informativa sulla Privacy",
+      "cookies_policy": "Politica sui Cookie",
+      "terms_conditions": "Termini e Condizioni"
+    },
+    "contact_new": {
+      "send_message_title": "Inviaci un Messaggio",
+      "send_message_subtitle": "Compila il modulo qui sotto e ti risponderemo il prima possibile",
+      "email_label": "Email",
+      "tel_label": "Telefono",
+      "response_time": "Tempo di Risposta Rapido",
+      "response_time_desc": "Rispondiamo generalmente a tutte le richieste entro poche ore. Per questioni urgenti, chiamaci direttamente.",
+      "seo_title": "Contatta Coral Boats Mallorca",
+      "seo_text_1": "Vuoi prenotare un tour in barca ad Alcudia, Maiorca? Coral Boats offre le migliori esperienze in barca nella baia di Alcudia. Che tu sia interessato al nostro tour mattutino, crociera al tramonto o un charter privato per un'occasione speciale, siamo qui per rendere il tuo tour in barca a Maiorca indimenticabile.",
+      "seo_text_2": "Il nostro team è pronto a rispondere a tutte le tue domande sui nostri tour in barca, orari di partenza dal porto di Alcudia, cosa portare e come raggiungere le bellissime spiagge e calette intorno alla baia di Alcudia. Contattaci oggi per prenotare il tuo posto su uno dei tour in barca più apprezzati di Maiorca.",
+      "seo_text_3": "Offriamo anche charter privati personalizzati per gruppi, famiglie e celebrazioni speciali. Contattaci per discutere la tua giornata perfetta sull'acqua esplorando la splendida costa nord di Maiorca, incluse soste a Platja de Muro, il faro di Alcanada e calette nascoste accessibili solo in barca."
+    },
+    "testimonials": {
+      "label": "Testimonianze",
+      "title": "Recensioni di Tour in Barca ad Alcudia, Maiorca",
+      "description": "Non crederci solo sulla parola: leggi le recensioni di viaggiatori che hanno vissuto la magia di Maiorca con Coral Boats.",
+      "average_rating": "Valutazione Media",
+      "five_star_reviews": "Recensioni 5 Stelle",
+      "happy_travelers": "Viaggiatori Felici",
+      "find_us_on": "Trovaci su"
+    },
+    "charter_pricing": {
+      "hero_badge": "Prezzi Trasparenti",
+      "hero_title": "Tariffe per Charter Privato",
+      "hero_subtitle": "Prezzi chiari e semplici per la tua esperienza esclusiva in barca nella Baia di Alcudia. Prenota la tua celebrazione privata con fiducia — nessun costo nascosto, solo ricordi indimenticabili.",
+      "rates_label": "Le Nostre Tariffe",
+      "rates_title": "Tariffe di Noleggio Charter",
+      "rates_description": "Scegli la durata e la stagione che preferisci. Tutti i prezzi includono il noleggio della barca, l’equipaggio professionale, il carburante, l’assicurazione e l’attrezzatura per le attività acquatiche.",
+      "high_season": "Alta Stagione",
+      "high_season_dates": "15 giugno - 15 settembre",
+      "low_season": "Bassa Stagione",
+      "low_season_dates": "1 maggio - 14 giugno e 16 settembre - 31 ottobre",
+      "charter_3h": "Charter di 3 Ore",
+      "charter_4h": "Charter di 4 Ore",
+      "charter_3h_desc": "Introduzione perfetta",
+      "charter_4h_desc": "Esperienza di mezza giornata",
+      "high_season_info": "Le tariffe di alta stagione si applicano durante i mesi estivi",
+      "low_season_info": "Le migliori tariffe per prenotazioni in primavera e autunno",
+      "whats_included_title": "Cosa È Incluso nel Tuo Charter",
+      "included_capacity": "Capacità fino a 40 persone",
+      "included_crew": "Equipaggio Professionale",
+      "included_fuel": "Carburante Incluso",
+      "included_insurance": "Assicurazione Completa",
+      "included_activities": "Attività Acquatiche",
+      "included_sound": "Impianto Audio",
+      "included_route": "Itinerario Personalizzato",
+      "included_photos": "Assistenza Fotografica",
+      "extras_label": "Migliora la Tua Esperienza",
+      "extras_title": "Extra Opzionali",
+      "extras_description": "Personalizza il tuo charter con deliziose opzioni di catering e bevande. Tutti i prezzi sono per persona e possono essere aggiunti alla tua prenotazione.",
+      "extra_popular": "POPOLARE",
+      "extra_snack_title": "Aperitivo Leggero",
+      "extra_snack_desc": "Selezione di patatine, frutta secca, olive e salumi",
+      "extra_tapas_title": "Pasto Tradizionale di Tapas",
+      "extra_tapas_desc": "Coca de trempó, empanada, tortilla, salumi e formaggi, patatine, frutta secca, olive e dessert",
+      "extra_bar_title": "Pacchetto Open Bar",
+      "extra_bar_desc": "Bevande analcoliche, vino, birra e sangria illimitati durante tutto il charter",
+      "per_person": "a persona",
+      "byo_title": "Opzione Porta il Tuo Cibo",
+      "byo_description": "Se preferisci, puoi portare il tuo cibo e le tue bevande! A bordo sono disponibili frigoriferi e ghiacciaie. Ti chiediamo solo di avvisarci in anticipo per prepararci al meglio.",
+      "booking_label": "Pronto a Prenotare?",
+      "booking_title": "Richiedi il Tuo Charter",
+      "booking_description": "Compila il modulo qui sotto e ti contatteremo entro poche ore per confermare la disponibilità e finalizzare la tua esperienza di charter privato.",
+      "form_first_name": "Nome",
+      "form_last_name": "Cognome",
+      "form_email": "Indirizzo Email",
+      "form_phone": "Numero di Telefono",
+      "form_date": "Data Preferita",
+      "form_duration": "Durata del Charter",
+      "form_guests": "Numero di Ospiti",
+      "form_extras": "Extra Opzionali",
+      "form_message": "Dettagli Aggiuntivi o Richieste Speciali",
+      "form_first_name_placeholder": "Il tuo nome",
+      "form_last_name_placeholder": "Il tuo cognome",
+      "form_email_placeholder": "tuo.email@esempio.com",
+      "form_phone_placeholder": "+39 123 456 789",
+      "form_duration_placeholder": "Seleziona la durata",
+      "form_duration_3h": "3 Ore",
+      "form_duration_4h": "4 Ore",
+      "form_guests_placeholder": "Fino a 40 ospiti",
+      "form_message_placeholder": "Raccontaci del tuo evento, eventuali richieste speciali o domande...",
+      "form_extra_snack": "Aperitivo Leggero - €4/persona",
+      "form_extra_tapas": "Pasto Tradizionale di Tapas - €10/persona",
+      "form_extra_bar": "Pacchetto Open Bar - €12/persona",
+      "form_submit": "Invia Richiesta di Prenotazione",
+      "form_submitting": "Invio della Richiesta...",
+      "form_privacy": "Inviando questo modulo, accetti di essere contattato in merito alla tua prenotazione del charter. Di solito rispondiamo entro poche ore.",
+      "form_success": "Grazie per la tua richiesta di prenotazione! Ti contatteremo entro poche ore per confermare la disponibilità e finalizzare i dettagli.",
+      "form_error_first_name": "Il nome è obbligatorio",
+      "form_error_last_name": "Il cognome è obbligatorio",
+      "form_error_email": "L'indirizzo email è obbligatorio",
+      "form_error_email_invalid": "Formato email non valido",
+      "form_error_phone": "Il numero di telefono è obbligatorio",
+      "form_error_date": "La data preferita è obbligatoria",
+      "form_error_duration": "Seleziona la durata del charter",
+      "form_error_guests": "Il numero di ospiti è obbligatorio",
+      "form_error_message_min": "Il messaggio deve contenere almeno 10 caratteri"
+    },
+    "gallery": {
+      "hero_badge": "Galleria Fotografica",
+      "hero_title": "Scopri le Nostre Esperienze in Barca",
+      "hero_subtitle": "Scopri la bellezza della Baia di Alcudia attraverso la nostra collezione di splendide foto. Dalle acque cristalline ai tramonti mozzafiato, fino ai momenti indimenticabili con amici e famiglia — scopri perché Coral Boats offre la migliore esperienza in barca a Maiorca.",
+      "section_label": "I Nostri Ricordi",
+      "section_title": "Galleria delle Escursioni in Barca",
+      "section_description": "Scopri foto straordinarie delle nostre escursioni in barca nella Baia di Alcudia, a Maiorca. Ammira le acque cristalline, le coste spettacolari e i momenti indimenticabili vissuti dai nostri ospiti.",
+      "click_to_view": "Clicca per vedere",
+      "seo_title": "Vivi le Migliori Escursioni in Barca ad Alcudia, Maiorca",
+      "seo_intro": "Benvenuto nella galleria fotografica di Coral Boats, che mostra le esperienze indimenticabili che offriamo durante le nostre <strong>escursioni in barca ad Alcudia, Maiorca</strong>. Sfoglia splendide immagini delle nostre <strong>avventure mattutine</strong>, <strong>crociere al tramonto</strong> e <strong>charter privati</strong> nella splendida Baia di Alcudia.",
+      "tours_title": "Le Nostre Escursioni in Barca a Maiorca",
+      "tours_description": "Coral Boats offre le migliori <strong>escursioni in barca dal porto di Alcudia</strong>, con tre esperienze uniche:",
+      "tour_morning": "<strong>Avventura del Mattino</strong>: escursione di 4 ore con snorkeling, paddle board e tapas maiorchine",
+      "tour_sunset": "<strong>Sunset Magic Tour</strong>: crociera romantica di 3 ore con viste spettacolari sul tramonto mediterraneo",
+      "tour_private": "<strong>Charter Privato</strong>: esperienza completamente personalizzabile per gruppi fino a 40 passeggeri",
+      "why_alcudia_title": "Perché Scegliere la Baia di Alcudia?",
+      "why_alcudia_description": "La <strong>Baia di Alcudia</strong> è una delle aree costiere più spettacolari di Maiorca, con acque turchesi cristalline, calette nascoste e viste mozzafiato sull’iconico <strong>Faro di Alcanada</strong>. Le nostre <strong>escursioni in barca a Maiorca</strong> ti porteranno nei luoghi più belli, incluse spiagge appartate e zone di snorkeling incontaminate accessibili solo via mare.",
+      "beaches_title": "Scopri le Spiagge Più Belle di Maiorca in Barca",
+      "beaches_p1": "Le nostre <strong>escursioni in barca da Alcudia</strong> offrono accesso esclusivo ad alcune delle <strong>migliori spiagge di Maiorca</strong> e a tesori costieri nascosti. Esplora spiagge incontaminate vicino ad <strong>Alcudia</strong> come <strong>Playa de Muro</strong>, le calette segrete di <strong>Alcanada</strong> e le splendide <strong>spiagge del nord di Maiorca</strong> raggiungibili solo via mare.",
+      "beaches_p2": "Vivi le acque turchesi delle <strong>spiagge di Port d’Alcudia</strong>, scopri le <strong>calette nascoste di Maiorca</strong> e goditi una nuotata nelle acque cristalline del Mediterraneo in <strong>spiagge segrete accessibili solo in barca</strong>. Le nostre escursioni offrono la combinazione perfetta di <strong>beach hopping</strong>, snorkeling in calette protette ed esplorazione della spettacolare <strong>costa di Alcudia</strong>.",
+      "book_title": "Prenota Oggi la Tua Escursione in Barca ad Alcudia",
+      "book_description": "Unisciti a oltre 10.000 ospiti soddisfatti che hanno vissuto la magia delle <strong>escursioni in barca ad Alcudia, Maiorca</strong> con Coral Boats. Che tu stia cercando una <strong>gita in famiglia</strong>, una <strong>crociera romantica al tramonto</strong> o una <strong>celebrazione privata in mare</strong>, abbiamo l’esperienza perfetta per te. Tutte le escursioni includono equipaggio professionale, attrezzatura da snorkeling, paddle board, deliziose tapas maiorchine e bevande o sangria incluse.",
+      "book_footer": "📍 Partenze giornaliere dal Porto di Alcudia, Maiorca | ⭐ Valutazione 4.9/5 da oltre 500 recensioni | 🏆 Operatore Ufficiale Autorizzato e Assicurato",
+      "image_alcanada_lighthouse": "Vista del Faro di Alcanada",
+      "image_boat_alcanada": "Navigando verso Alcanada",
+      "image_boat_fun": "Divertimento a Bordo",
+      "image_boat_interior": "Interni Confortevoli della Barca",
+      "image_card_morning": "Esperienza d’Avventura Mattutina",
+      "image_card_private": "Lusso del Charter Privato",
+      "image_card_sunset": "Tour Sunset Magic",
+      "image_classic_boat": "La Nostra Barca Classica",
+      "image_coastline_views": "Vedute Costiere Spettacolari",
+      "image_cove": "Scoperta di Calette Segrete",
+      "image_crew_service": "Servizio Professionale dell’Equipaggio",
+      "image_friends_enjoy": "Amici che Godono del Momento",
+      "image_friends_fun": "Ricordi Indimenticabili Insieme",
+      "image_friends_group": "Celebrazioni di Gruppo a Bordo",
+      "image_golden_hour": "Magia dell’Ora d’Oro",
+      "image_hidden_coves": "Esplorazione di Calette Nascoste",
+      "image_island_boat": "Avventure sull’Isola",
+      "image_kids_fun": "Divertimento per Tutte le Età",
+      "image_mallorca_views": "Vedute Mozzafiato di Maiorca",
+      "image_mallorcan_tapas": "Deliziose Tapas Maiorchine",
+      "image_matress": "Relax sull’Acqua",
+      "image_meal": "Cucina Mediterranea Fresca",
+      "image_paddel_board": "Divertimento con il Paddle Board",
+      "image_panoramic_beach": "Paradiso di Spiagge Panoramiche",
+      "image_partners": "Momenti Romantici in Mare",
+      "image_professional_crew": "Membri Esperti dell’Equipaggio",
+      "image_sangria_tapas": "Esperienza Sangria & Tapas",
+      "image_sunset": "Tramonti Spettacolari",
+      "image_sunset_image": "Bellezza del Tramonto Mediterraneo",
+      "image_sunset_light": "Luce Dorata del Tramonto",
+      "image_sunset_port": "Porto di Alcudia al Tramonto",
+      "image_tour": "Esperienza Straordinaria in Barca",
+      "image_water_fun": "Attività Acquatiche e Divertimento"
+    },
+    "contact_page": {
+      "hero_badge": "Contattaci",
+      "form_error_first_name": "Il nome è obbligatorio",
+      "form_error_last_name": "Il cognome è obbligatorio",
+      "form_error_email": "L'indirizzo email è obbligatorio",
+      "form_error_email_invalid": "Formato email non valido",
+      "form_error_phone": "Il numero di telefono è obbligatorio",
+      "form_error_subject": "L’oggetto è obbligatorio",
+      "form_error_message": "Il messaggio è obbligatorio",
+      "form_error_message_min": "Il messaggio deve contenere almeno 5 caratteri",
+      "form_success": "Grazie per il tuo messaggio! Ti contatteremo il prima possibile."
+    },
+    "contact": {
+      "title": "Contatta Coral Boats Maiorca",
+      "body": "Hai domande sui nostri tour in barca ad Alcúdia? Vuoi prenotare un charter privato o hai bisogno di aiuto per pianificare la tua giornata perfetta sull'acqua? Il nostro team cordiale è qui per aiutarti. Contattaci oggi e creiamo insieme ricordi indimenticabili nella splendida baia di Alcúdia.",
+      "name": "Nome",
+      "surname": "Cognome",
+      "tel": "Telefono",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send_message": "Invia Messaggio"
+    }
+  },
+  "blog_catorce": {
+    "title": "Snorkeling a Maiorca: i migliori punti vicino ad Alcudia",
+    "slug": "snorkeling-maiorca-migliori-punti-alcudia",
+    "keyword": "snorkeling Maiorca Alcudia",
+    "meta_description": "Scopri i migliori punti per fare snorkeling vicino ad Alcudia, Maiorca. Acque cristalline, vita marina colorata e tesori sommersi ti aspettano.",
+    "publishedDate": "18 luglio 2025",
+    "btnText": "Leggi di più",
+    "badgeTitle": "Vita marina",
+    "section1": {
+      "title": "Esplora il mondo sottomarino della costa nord di Maiorca",
+      "body": "Le acque cristalline intorno ad Alcudia offrono alcune delle migliori esperienze di snorkeling del Mediterraneo. Con un’eccellente visibilità, una ricca biodiversità marina e paesaggi subacquei mozzafiato, quest’area è perfetta sia per i principianti che per gli snorkeler esperti. In questa guida ti porteremo nei migliori punti per fare snorkeling, ti spiegheremo cosa puoi vedere e ti daremo consigli utili per goderti al massimo la tua avventura sott’acqua."
+    },
+    "section2": {
+      "title": "Perché fare snorkeling ad Alcudia?",
+      "body": "La baia di Alcudia è caratterizzata da condizioni ideali per lo snorkeling:\n\n- Acque turchesi e cristalline con una visibilità che spesso supera i 20 metri.\n- Calette protette con acque tranquille, perfette per un’esplorazione sicura.\n- Una vita marina varia che include pesci colorati, polpi, stelle marine e occasionalmente anche tartarughe marine.\n- Fondali rocciosi e praterie di Posidonia che creano ecosistemi subacquei rigogliosi.\n- Punti facilmente accessibili sia dalla costa che in barca.\n\nChe tu sia un principiante o un esperto, le acque intorno ad Alcudia offrono qualcosa di magico per tutti."
+    },
+    "section3": {
+      "title": "I 3 migliori punti per fare snorkeling vicino ad Alcudia",
+      "body": "Ecco tre luoghi eccezionali dove esplorare il mondo sottomarino nei dintorni di Alcudia.",
+      "sub1": {
+        "subtitle": "Calette nascoste nella baia di Alcudia",
+        "body": "Le calette più appartate, accessibili solo in barca, offrono alcune delle condizioni più incontaminate per lo snorkeling. Questi angoli nascosti presentano formazioni rocciose ricche di vita marina, vivaci praterie di Posidonia (erba marina protetta) e acque così limpide che si può vedere il fondale sabbioso dalla superficie. Banchi di pesci colorati, polpi curiosi e stelle marine trovano qui la loro casa. I nostri tour in barca includono spesso soste per lo snorkeling in queste gemme nascoste, con tutta l’attrezzatura fornita."
+      },
+      "sub2": {
+        "subtitle": "Playa de Aucanada",
+        "body": "Vicino al famoso faro di Aucanada, questa zona offre ottime condizioni per lo snorkeling con acque relativamente calme. La costa rocciosa crea paesaggi subacquei affascinanti dove è possibile avvistare castagnole, labridi, orate e talvolta anche murene nascoste tra le rocce. La combinazione di zone sabbiose e rocciose rende l’ambiente molto vario. È anche facilmente accessibile dalla riva, ideale per esplorazioni indipendenti."
+      },
+      "sub3": {
+        "subtitle": "Cala Sant Vicenç",
+        "body": "A pochi minuti di auto da Alcudia, quest’area spettacolare comprende quattro piccole calette perfette per lo snorkeling. Le acque limpide e tranquille, insieme ai fondali rocciosi, ospitano una grande varietà di specie mediterranee. La visibilità subacquea qui è eccezionale e le scogliere circostanti rendono il paesaggio ancora più suggestivo. È particolarmente adatta alle famiglie, poiché le acque poco profonde vicino alla riva sono ideali per i bambini che imparano a fare snorkeling."
+      }
+    },
+    "section4": {
+      "title": "Cosa portare e come prepararsi",
+      "body": "Per vivere al meglio la tua esperienza di snorkeling ad Alcudia, preparati con cura:\n\n- Maschera e boccaglio di buona qualità (oppure partecipa a un tour in barca dove l’attrezzatura è fornita).\n- Pinne per muoverti più facilmente, soprattutto nelle aree più profonde.\n- Crema solare ecologica, sicura per la barriera corallina, per proteggere la pelle e l’ambiente marino.\n- Fotocamera impermeabile o GoPro per catturare la bellezza subacquea.\n- Scarpe da acqua per ingressi rocciosi se fai snorkeling dalla spiaggia.\n- Borsa a rete per mantenere ordinata la tua attrezzatura.\n\nSe partecipi a uno dei nostri tour in barca, tutta l’attrezzatura da snorkeling è inclusa, insieme a guide esperte che conoscono i migliori punti e possono mostrarti le specie marine più interessanti. Forniamo anche snack e bevande per permetterti di concentrarti solo sul divertimento."
+    },
+    "section5": {
+      "title": "Pronto a scoprire il mondo sottomarino di Maiorca?",
+      "body": "Fare snorkeling nella baia di Alcudia è un modo indimenticabile per connettersi con il Mar Mediterraneo e ammirare la sua incredibile biodiversità. Che tu esplori dalla costa o partecipi a uno dei nostri tour in barca per raggiungere le calette più incontaminate, rimarrai stupito dalla limpidezza dell’acqua e dalla ricchezza della vita marina.\n\nImmergiti e lasciati incantare dalla magia sottomarina di Maiorca!"
+    }
+  },
+  "about": {
+    "label": "Chi Siamo",
+    "title": "Navigando le Acque di Maiorca dal 1968",
+    "badge_since": "Dal",
+    "badge_year": "1968",
+    "paragraph_1": "Benvenuto a bordo di Coral Boats, una barca classica magnificamente restaurata che naviga le acque del Mediterraneo dal 1968. La nostra storia è iniziata con una passione per il mare e un sogno di condividere i tesori nascosti di Maiorca con viaggiatori di tutto il mondo.",
+    "paragraph_2": "Guidati dal nostro capitano esperto e dall'equipaggio dedicato, abbiamo perfezionato l'arte dei tour in barca nella baia di Alcudia. Conosciamo ogni caletta, ogni spiaggia segreta e ogni luogo perfetto dove l'acqua brilla in tonalità turchesi che sembrano quasi irreali.",
+    "paragraph_3": "Ciò che ci distingue è il nostro impegno per esperienze autentiche. Non siamo solo un operatore turistico, siamo gente del posto che ama la propria isola e vuole condividere la sua magia con te. Ogni tour è attentamente elaborato, combinando avventura, relax e il calore genuino dell'ospitalità mediterranea.",
+    "stat_1_number": "Dal 1968",
+    "stat_1_label": "Barca Classica",
+    "stat_2_number": "5 Stelle",
+    "stat_2_label": "Recensioni",
+    "stat_3_number": "Baia di Alcudia",
+    "stat_3_label": "Specialisti",
+    "quote_text": "\"Crediamo che i ricordi più belli nascano sull’acqua, circondati dalla bellezza della natura, dalla buona compagnia e dallo spirito d’avventura.\"",
+    "quote_author": "— Capitano e Equipaggio, Coral Boats Mallorca"
+  }
+}

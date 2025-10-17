@@ -1,0 +1,82 @@
+'use client'
+
+import ContactForm from '../form/contact-form';
+import { ClockSvgTwo, LocationSvgThree, PhoneSvgTwo, MailSvg } from '../svg';
+import { useTranslation } from 'react-i18next';
+
+const ContactArea = () => {
+  const { t } = useTranslation('common');
+  return (
+    <div className="it-contact-area pt-120 pb-120">
+      <div className="container">
+        <div className="row">
+            <h3 className="it-discover-sm-title mb-25">{t("contact.title")}</h3>
+            <div className="it-discover-discover-included-content mb-40">
+              {/* <ol> */}
+                <p>
+                  {/* <strong>Punto de encuentro y puntualidad</strong><br /> */}
+                  {t("contact.body")}
+                </p>
+              {/* </ol> */}
+            </div>
+          <div className="col-xl-7 col-lg-6">
+            <div className="it-contact-form-box">
+              <ContactForm />
+            </div>
+          </div>
+          <div className="col-xl-5 col-lg-6">
+            <div className="it-contact-right">
+              <ul>
+                <li>
+                  <div className="it-contact-box">
+                    <div className="it-contact-icon">
+                      <span>
+                        <MailSvg />
+                      </span>
+                    </div>
+                    <div className="it-contact-text">
+                      <span>Email:</span>
+                      <a href="#">
+                        info@coralboatsmallorca.com <br />
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="it-contact-box">
+                    <div className="it-contact-icon">
+                      <span>
+                        <PhoneSvgTwo />
+                      </span>
+                    </div>
+                    <div className="it-contact-text">
+                      <span>{t("contact.tel")}:</span>
+                      <a href="tel:+34626681867">(+34) 626 681 867</a>
+                      {/* <a href="tel:+88568956238">+88 568 956 238</a> */}
+                    </div>
+                  </div>
+                </li>
+                {/* <li>
+                  <div className="it-contact-box">
+                    <div className="it-contact-icon">
+                      <span>
+                        <LocationSvgThree />
+                      </span>
+                    </div>
+                    <div className="it-contact-text">
+                      <span>Location:</span>
+                      <a target="_blank" href="#">
+                        242 Carlyle RdZebulon, North <br /> Carolina(NC), 27597
+                      </a>
+                    </div>
+                  </div>
+                </li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default ContactArea;
