@@ -14,11 +14,11 @@ export const tourPackagesData = (): ITourDT[] => [
     metaTitle: 'morning_metaTitle',
     metaDescription: 'morning_metaDescription',
     image: packageImg111,
-    title: 'morning_title', 
+    title: 'morning_title',
     title2: 'morning_excursion_title',
-    price: 60,
-    price2: 40,
-    price3: 0,
+    price: 68,  // Adults (13+ years)
+    price2: 48, // Children (4-12 years)
+    price3: 0,  // Infants (0-3 years)
     address: 'excursion_address',
     duration: 3,
     detailsImg: detailsImg,
@@ -33,9 +33,9 @@ export const tourPackagesData = (): ITourDT[] => [
     image: packageImg2,
     title: 'day_title',
     title2: 'day_excursion_title',
-    price: 60,
-    price2: 40,
-    price3: 0,
+    price: 68,  // Adults (13+ years)
+    price2: 48, // Children (4-12 years)
+    price3: 0,  // Infants (0-3 years)
     address: 'excursion_address',
     duration: 3,
     detailsImg: detailsImg,
@@ -50,9 +50,9 @@ export const tourPackagesData = (): ITourDT[] => [
     image: packageImg3,
     title: 'sunset_title',
     title2: 'sunset_excursion_title',
-    price: 65,
-    price2: 45,
-    price3: 0,
+    price: 65,  // Adults (13+ years)
+    price2: 45, // Children (4-12 years)
+    price3: 0,  // Infants (0-3 years)
     address: 'excursion_address',
     duration: 3,
     detailsImg: detailsImg,

@@ -7,7 +7,19 @@ interface TourItemProps {
   tour: ITourDT;
 }
 
+// Helper function to get the correct route for each tour
+const getTourRoute = (slug: string): string => {
+  const routeMap: { [key: string]: string } = {
+    'morning-tour': '/alcudia-morning-boat-tour',
+    'day-tour': '/alcudia-morning-boat-tour',
+    'sunset-tour': '/alcudia-sunset-boat-tour',
+  };
+  return routeMap[slug] || `/alcudia-morning-boat-tour`;
+};
+
 const TourItemFour = ({ tour }: TourItemProps) => {
+  const tourRoute = getTourRoute(tour.slug);
+
   return (
     <div className="it-featured-item p-relative">
       <div className="it-featured-4-thumb p-relative">
@@ -25,7 +37,7 @@ const TourItemFour = ({ tour }: TourItemProps) => {
             </a>
           </div>
           <h3 className="it-featured-title">
-            <Link href={`/tour-details/${tour.slug}`}>{tour.title}</Link>
+            <Link href={tourRoute}>{tour.title}</Link>
           </h3>
           <div className="it-featured-review-box pb-25 mb-25 d-flex align-items-center justify-content-between">
             <div className="it-featured-price d-flex align-items-center">

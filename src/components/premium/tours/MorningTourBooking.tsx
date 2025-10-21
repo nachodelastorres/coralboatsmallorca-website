@@ -32,7 +32,11 @@ const MorningTourBooking = () => {
               <div className="detail-content">
                 <h4>{t('morningTour.booking.priceTitle')}</h4>
                 <p className="price">{t('morningTour.booking.priceValue')}</p>
-                <span className="price-note">{t('morningTour.booking.priceNote')}</span>
+                <div style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '8px', lineHeight: '1.6' }}>
+                  <div>{t('premium.tours.adults')} {t('premium.tours.adults_age')}: €68</div>
+                  <div>{t('premium.tours.children')} {t('premium.tours.children_age')}: €48</div>
+                  <div>{t('premium.tours.infants')} {t('premium.tours.infants_age')}: {t('premium.tours.free')}</div>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,10 @@
 'use client';
 
+import { useTranslation } from 'react-i18next';
+
 const BlogHero = () => {
+  const { t } = useTranslation('common');
+
   return (
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
@@ -18,16 +22,15 @@ const BlogHero = () => {
             <div className="premium-tour-hero__content">
               <div className="hero-badge">
                 <i className="fa-solid fa-book-open"></i>
-                <span>Coral Boats Blog</span>
+                <span>{t('blog_page.hero.badge')}</span>
               </div>
 
               <h1 className="hero-title">
-                Your Guide to Boat Tours in Mallorca
+                {t('blog_page.hero.title')}
               </h1>
 
               <p className="hero-subtitle">
-                Discover insider tips, local secrets, and everything you need to know about boat tours in Alcudia Bay.
-                From hidden coves to the best snorkeling spots, we share our knowledge to make your Mallorca boat tour unforgettable.
+                {t('blog_page.hero.subtitle')}
               </p>
             </div>
           </div>

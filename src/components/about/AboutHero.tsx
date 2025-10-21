@@ -27,29 +27,29 @@ const AboutHero = () => {
             <div className="premium-tour-hero__content">
               <div className="hero-badge">
                 <i className="fa-solid fa-anchor"></i>
-                <span>{t('about.hero.badge')}</span>
+                <span>{t('about_page.hero.badge')}</span>
               </div>
 
               <h1 className="hero-title">
-                {t('about.hero.title')}
+                {t('about_page.hero.title')}
               </h1>
 
               <p className="hero-subtitle">
-                {t('about.hero.subtitle')}
+                {t('about_page.hero.subtitle')}
               </p>
 
               <div className="hero-stats">
                 <div className="stat-card">
-                  <div className="stat-number">15+</div>
-                  <div className="stat-label">{t('about.hero.stat1')}</div>
+                  <div className="stat-number">1968</div>
+                  <div className="stat-label">{t('about_page.hero.stat1')}</div>
                 </div>
                 <div className="stat-card">
-                  <div className="stat-number">10K+</div>
-                  <div className="stat-label">{t('about.hero.stat2')}</div>
+                  <div className="stat-number">100%</div>
+                  <div className="stat-label">{t('about_page.hero.stat2')}</div>
                 </div>
                 <div className="stat-card">
                   <div className="stat-number">5★</div>
-                  <div className="stat-label">{t('about.hero.stat3')}</div>
+                  <div className="stat-label">{t('about_page.hero.stat3')}</div>
                 </div>
               </div>
             </div>

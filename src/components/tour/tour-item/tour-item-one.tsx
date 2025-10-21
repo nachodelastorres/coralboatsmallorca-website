@@ -11,16 +11,27 @@ interface TourItemProps {
   tour: ITourDT;
 }
 
+// Helper function to get the correct route for each tour
+const getTourRoute = (slug: string): string => {
+  const routeMap: { [key: string]: string } = {
+    'morning-tour': '/alcudia-morning-boat-tour',
+    'day-tour': '/alcudia-morning-boat-tour',
+    'sunset-tour': '/alcudia-sunset-boat-tour',
+  };
+  return routeMap[slug] || `/alcudia-morning-boat-tour`;
+};
+
 const TourItemOne = ({ tour }: TourItemProps) => {
   const [isInLove, setIsInLove] = useState<boolean>(false);
   const { t, i18n } = useTranslation('common'); // añade i18n aquí
   const lang = i18n.language; // idioma actual, ej: 'en', 'es', etc.
 
-  
+  const tourRoute = getTourRoute(tour.slug);
+
   return (
     <div className="it-featured-item p-relative">
       <div className="it-featured-thumb p-relative" style={{ zIndex: 1 }}>
-        <Link href={`/tour-details/${tour.slug}`} style={{ display: 'block' }}>
+        <Link href={tourRoute} style={{ display: 'block' }}>
           <Image
             src={tour.image}
             alt={tour.title}
@@ -53,7 +64,7 @@ const TourItemOne = ({ tour }: TourItemProps) => {
           </a>
         </div>
         <h3 className="it-featured-title">
-          <Link href={`/tour-details/${tour.slug}`}>{tour.title}</Link>
+          <Link href={tourRoute}>{tour.title}</Link>
         </h3>
         <div className="it-featured-review-box pb-25 mb-25 d-flex align-items-center justify-content-between">
           <div className="it-featured-price d-flex align-items-center">
@@ -82,8 +93,11 @@ const TourItemOne = ({ tour }: TourItemProps) => {
     </div>
     <div className="it-featured-user">
       <span>
-        <i className="fa fa-coins"></i> {tour.price} €
+        <i className="fa fa-coins"></i> {t('premium.tours.from')} {tour.price} €
       </span>
+      <div style={{ fontSize: '0.7rem', color: '#64748b', marginTop: '4px' }}>
+        {t('premium.tours.children')}: {tour.price2}€ · {t('premium.tours.infants')}: {t('premium.tours.free')}
+      </div>
     </div>
   </div>
 
@@ -91,7 +105,7 @@ const TourItemOne = ({ tour }: TourItemProps) => {
   <div className="d-flex justify-content-between align-items-center">
     {/* Botón "Más info" a la izquierda */}
     <Link
-      href={`/tour-details/${tour.slug}`}
+      href={tourRoute}
       className="it-btn-testtour"
     >
       {t('more_info')}

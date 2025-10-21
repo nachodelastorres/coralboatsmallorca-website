@@ -1,6 +1,7 @@
 {
   "menu": {
     "home": "Startseite",
+    "about": "Über uns",
     "excursions": "Touren",
     "morningTour": "Morgen Bootstour",
     "sunsetTour": "Sonnenuntergang Tour",
@@ -1126,6 +1127,13 @@
       "free_drink": "Ein Gratisgetränk oder Sangria",
       "from": "Ab",
       "per_person": "pro Person",
+      "adults": "Erwachsene",
+      "children": "Kinder",
+      "infants": "Säuglinge",
+      "adults_age": "(13+ Jahre)",
+      "children_age": "(4-12 Jahre)",
+      "infants_age": "(0-3 Jahre)",
+      "free": "Kostenlos",
       "book_now": "Jetzt Buchen",
       "departure_title": "Abfahrtsort: Port d'Alcúdia",
       "departure_description": "Alle Touren starten vom Port d'Alcúdia und beinhalten professionelle Crew, Sicherheitsausrüstung und Versicherung"
@@ -1180,6 +1188,7 @@
       "description": "Erleben Sie die Magie der Bucht von Alcudia auf Mallorca an Bord unseres klassischen Bootes. Entdecken Sie versteckte Buchten, schnorcheln Sie in kristallklarem Wasser und schaffen Sie unvergessliche Erinnerungen.",
       "quick_links": "Schnelllinks",
       "home": "Startseite",
+      "about": "Über uns",
       "our_tours": "Unsere Touren",
       "gallery": "Galerie",
       "blog": "Blog",
@@ -1433,5 +1442,113 @@
     "stat_3_label": "Spezialisten",
     "quote_text": "\"Wir glauben, dass die schönsten Erinnerungen auf dem Wasser entstehen – umgeben von der Schönheit der Natur, guter Gesellschaft und dem Geist des Abenteuers.\"",
     "quote_author": "— Kapitän & Crew, Coral Boats Mallorca"
+  },
+
+  "about_page": {
+  "page": {
+    "breadcrumb_title": "Über Coral Boats Mallorca",
+    "breadcrumb_subtitle": "Entdecke die Geschichte hinter Alcudias beliebtester Bootstour-Erfahrung"
+  },
+  "hero": {
+    "badge": "Über uns",
+    "title": "Seit 1968 auf Mallorcas Gewässern unterwegs",
+    "subtitle": "Unvergessliche Erinnerungen auf dem Mittelmeer seit 1968.",
+    "stat1": "Seit 1968",
+    "stat2": "Lokale Crew",
+    "stat3": "Bewertung"
+  },
+  "history": {
+    "badge": "Unsere Geschichte",
+    "title": "Geboren in Pollença, Segelnd im Mittelmeer",
+    "subtitle": "Ein klassisches Boot mit einer zeitlosen Geschichte von Abenteuer und Authentizität",
+    "intro": "Im Jahr 1968, begleitet vom sanften Klang von Hämmern und Sägen, entstand unser Boot in den Astilleros Cabanellas in Port de Pollença – einer der angesehensten Werften Mallorcas. Mit traditionellen Bootsbau-Techniken, die über Generationen weitergegeben wurden, wurde sie geschaffen, um den mediterranen Geist zu ehren: stark, elegant und für die Ewigkeit gebaut.",
+    "section1_title": "Mit Tradition gebaut",
+    "section1_text": "Die Handwerker von Astilleros Cabanellas legten ihr Herz und ihr Können in jedes Brett, jede Verbindung, jede Kurve. Dies war nicht nur Bootsbau – es war eine Kunstform. Mit lokalem Holz und traditionellen Methoden schufen sie ein Schiff, das das authentische mallorquinische maritime Erbe verkörpert. Die Werft, gelegen in der Bucht von Pollença, baut seit Anfang des 20. Jahrhunderts Boote, und unser Boot ist ein stolzes Zeugnis dieses Erbes.",
+    "section2_title": "Ein Leben auf dem Wasser",
+    "section2_text": "Seit Jahrzehnten heißt unser Boot Gäste an Bord willkommen und bietet Touren entlang der atemberaubenden Nordküste Mallorcas und sogar zu den türkisfarbenen Gewässern Ibizas. Sie hat unzählige Sonnenaufgänge über dem Leuchtturm von Alcanada gesehen, versteckte Buchten entdeckt, die nur Einheimische kennen, und Familien, Paare und Abenteurer auf unvergessliche Mittelmeerreisen begleitet. Jede Fahrt hat zu ihrer Geschichte beigetragen, jede Welle hat ihren Charakter geprägt.",
+    "section3_title": "Restauriert & Erneuert",
+    "section3_text": "Durch einen kontinuierlichen Prozess sorgfältiger Restaurierung und gewissenhafter Wartung haben wir ihren klassischen Charme bewahrt und gleichzeitig moderne Sicherheit und Komfort gewährleistet. Wir haben die Seele des ursprünglichen Designs von 1968 beibehalten – das warme Holzdeck, die authentischen Linien, den Charakter, den nur ein Vintage-Boot bieten kann. Gleichzeitig wurde sie mit moderner Navigationstechnik, Sicherheitssystemen und Annehmlichkeiten ausgestattet, die jede Tour angenehm und reibungslos machen.",
+    "section4_title": "Der Mediterrane Lebensstil",
+    "section4_text": "Was unser Boot besonders macht, ist nicht nur sein Alter oder seine Schönheit, sondern die Philosophie, die es verkörpert. Wir glauben an die traditionelle mediterrane Gastfreundschaft: warm, aufrichtig und unbeschwert. Unsere Touren werden so gestaltet, wie sie hier schon immer durchgeführt wurden – in kleinen Gruppen, mit lokalem Wissen und authentischen Erlebnissen. Wir versuchen nicht, Bootsausflüge neu zu erfinden; wir ehren die Art, wie sie auf Mallorca seit Generationen durchgeführt werden – mit einem Fokus auf Verbindung, Natur und der einfachen Freude, auf dem Wasser zu sein.",
+    "quote": "Ein Boot ist mehr als Holz und Nägel. Es ist ein Hüter von Geschichten, eine Brücke zwischen Generationen und ein Versprechen von Abenteuern, das niemals alt wird.",
+    "cta_button": "Unsere Touren ansehen",
+    "seo_title": "Buche deine Bootstour in der Bucht von Alcudia",
+    "seo_text": "Begleite uns an Bord unseres klassischen Bootes von 1968 für ein authentisches Mittelmeer-Erlebnis. Wir bieten Morgentouren, Sonnenuntergangsfahrten und private Charter in den wunderschönen Gewässern der Bucht von Alcudia im Norden Mallorcas an. Buche noch heute deine unvergessliche Bootstour und entdecke versteckte Buchten, unberührte Strände und die Magie des Mittelmeers mit unserer erfahrenen lokalen Crew."
   }
+},
+"blog_page": {
+  "hero": {
+    "badge": "Coral Boats Blog",
+    "title": "Dein Reiseführer für Bootstouren auf Mallorca",
+    "subtitle": "Entdecke Insidertipps, lokale Geheimnisse und alles, was du über Bootstouren in der Bucht von Alcudia wissen musst. Von versteckten Buchten bis zu den besten Schnorchelplätzen teilen wir unser Wissen, damit deine Bootstour auf Mallorca unvergesslich wird."
+  },
+  "categories": {
+    "all": "Alle Beiträge",
+    "guides": "Anleitungen & Tipps",
+    "tours": "Bootstouren",
+    "destinations": "Reiseziele",
+    "tips": "Reisetipps"
+  },
+  "featured": {
+    "badge": "Empfohlener Beitrag",
+    "title": "Neu von Coral Boats",
+    "subtitle": "Entdecke unsere neuesten Einblicke und Tipps für das perfekte Bootstour-Erlebnis auf Mallorca"
+  },
+  "load_more": "Weitere Beiträge Laden",
+  "seo": {
+    "title": "Dein kompletter Reiseführer für Bootstouren auf Mallorca",
+    "intro": "Willkommen im Coral Boats Blog – deine vertrauenswürdige Quelle für alles rund um Bootstouren in Alcudia, Mallorca. Ob du deine erste Bootsfahrt planst oder als erfahrener Segler neue Geheimtipps suchst – unser Blog bietet Insiderwissen, lokale Einblicke und fachkundige Ratschläge, um dein Erlebnis unvergesslich zu machen.",
+    "card1_title": "Expertenrat & Anleitungen",
+    "card1_text": "Lerne aus unseren jahrelangen Erfahrungen mit Bootstouren in der Bucht von Alcudia. Von Packtipps für deine Bootsfahrt auf Mallorca bis zu den besten Zeiten, um Meereslebewesen zu beobachten – wir teilen praktische Ratschläge, um dein Abenteuer zu bereichern.",
+    "card2_title": "Verborgene Schätze Entdecken",
+    "card2_text": "Erkunde geheime Strände auf Mallorca, entdecke versteckte Buchten in der Nähe von Alcudia und erfahre mehr über die beeindruckende Nordküste Mallorcas, die nur per Boot erreichbar ist. Unser lokales Fachwissen enthüllt die bestgehüteten Geheimnisse der Insel.",
+    "cta_title": "Plane deine perfekte Bootstour auf Mallorca",
+    "cta_text": "Von morgendlichen Bootstouren ideal zum Schnorcheln über romantische Sonnenuntergangsfahrten bis hin zu privaten Chartertouren für besondere Anlässe – wir decken alles ab, was du über Bootstouren ab Port d’Alcudia wissen musst. Schließe dich den Tausenden zufriedenen Gästen an, die ihren Mallorca-Urlaub mit Coral Boats zu einem unvergesslichen Erlebnis gemacht haben.",
+    "footer_info": "📍 Abfahrt vom Port d’Alcudia, Mallorca | ⭐ Bewertung 4.9/5 | 🏆 Über 10 Jahre Erfahrung"
+  }
+},
+
+"blog_quince": {
+  "badgeTitle": "Wassersport",
+  "title": "Die besten Wasseraktivitäten in der Bucht von Alcudia: Dein vollständiger Reiseführer",
+  "publishedDate": "5. August 2025",
+  "meta_description": "Entdecke die besten Wasseraktivitäten in Alcudia, Mallorca. Von Schnorcheln und Paddleboarding bis Jet-Ski und Segeln – dein ultimativer Leitfaden für Wassersport in der Bucht von Alcudia.",
+  "btnText": "Weiterlesen",
+  "keyword": "Wasseraktivitäten Alcudia, Wassersport Mallorca, Bucht von Alcudia, Paddleboarding Alcudia, Jet Ski Alcudia, Segeln Mallorca, Schnorcheln Alcudia",
+  "section1": {
+    "title": "Warum die Bucht von Alcudia ein Paradies für Wasseraktivitäten ist",
+    "body": "Die Bucht von Alcudia, an der Nordküste Mallorcas gelegen, ist zweifellos eines der besten Ziele im Mittelmeer für Wassersport und maritime Aktivitäten. Mit ihrem ruhigen türkisfarbenen Wasser, den konstanten Wetterbedingungen und der atemberaubenden Naturkulisse bietet sie den perfekten Spielplatz für Anfänger und erfahrene Wassersportfans gleichermaßen.\n\nDie einzigartige Geographie der Bucht schafft ideale Bedingungen das ganze Jahr über: flache Gewässer in Ufernähe sind perfekt für Anfänger, während tiefere Bereiche und gelegentliche Brisen auch fortgeschrittene Sportler zufriedenstellen. Die Wassertemperatur reicht von 15 °C im Winter bis zu angenehmen 26 °C im Sommer, was Aktivitäten von Mai bis Oktober besonders angenehm macht.\n\nEgal, ob du Adrenalin suchst oder Ruhe auf dem Wasser genießen möchtest – die Bucht von Alcudia bietet beides. Die Kombination aus kristallklarer Sicht (oft über 20 Meter), vielfältigem Meeresleben und einer gut entwickelten Infrastruktur an Wassersportzentren macht dieses Reiseziel wirklich besonders."
+  },
+  "section2": {
+    "title": "Top-Wasseraktivitäten in Alcudia",
+    "body": "Die Bucht von Alcudia bietet eine beeindruckende Vielfalt an Wasseraktivitäten für jedes Alter, jedes Können und jeden Geschmack. Von ruhigen Unternehmungen wie Paddleboarding durch versteckte Buchten bis zu aufregenden Jet-Ski-Fahrten entlang der Küste – hier ist für jeden etwas dabei.\n\nDas geschützte Wasser der Bucht sorgt dafür, dass du auch an windigeren Tagen ruhige Bereiche finden kannst, um deine Lieblingsaktivität zu genießen. Lokale Anbieter stellen hochwertige Ausrüstung, professionelle Anleitung und Sicherheitsausrüstung bereit, damit dein Erlebnis sicher und unvergesslich wird. Viele Aktivitäten lassen sich kombinieren, sodass du deinen perfekten Tag auf dem Wasser gestalten kannst.\n\nLass uns die beliebtesten und lohnendsten Wasseraktivitäten entdecken, die du während deines Aufenthalts in Alcudia erleben kannst."
+  },
+  "section3": {
+    "title": "Von Schnorcheln bis Paddleboarding: Erlebnisse für jeden Geschmack",
+    "body": "Ob du lieber an der Oberfläche bleibst oder in die Tiefe tauchst, ob du motorisierte Action oder ruhige Erkundung mit dem Paddel bevorzugst – Alcudias Gewässer erfüllen alle Wünsche.",
+    "sub1": {
+      "subtitle": "Schnorcheln & Tauchen: die Unterwasserwelt Mallorcas erkunden",
+      "body": "Schnorcheln in der Bucht von Alcudia ist leicht zugänglich und gleichzeitig unglaublich lohnend. Das kristallklare Wasser offenbart eine lebendige Unterwasserwelt voller bunter Fische, interessanter Felsformationen und gelegentlich sogar Oktopusse und Meeresschildkröten.\n\nDie besten Schnorchelplätze befinden sich rund um den Leuchtturm von Alcanada, in den kleinen Buchten von Cala Sant Vicenç und an abgelegenen Stränden, die nur per Boot erreichbar sind. Die Sicht ist hervorragend, besonders am Morgen, wenn das Wasser ruhig ist. Du wirst Arten wie Mönchsfische, Lippfische, Brassen, Seesterne und Seeigel entdecken.\n\nFür zertifizierte Taucher bieten mehrere Tauchzentren in Alcudia Ausflüge zu tieferen Plätzen, Höhlen und sogar zu Schiffswracks an. Die Kombination aus Küstentauchgängen und Bootsausfahrten macht diesen Ort zu einem vielseitigen Ziel für Unterwasserentdecker."
+    },
+    "sub2": {
+      "subtitle": "Stand-Up-Paddleboarding (SUP): friedliche Erkundung",
+      "body": "Stand-Up-Paddleboarding hat sich in Alcudia zu einer der beliebtesten Aktivitäten entwickelt – und das aus gutem Grund. Es ist leicht zu lernen, trainiert den ganzen Körper und bietet eine einzigartige Perspektive auf die Küste und die Berge.\n\nDas ruhige Wasser bei Playa de Muro und im Hafen von Alcudia ist ideal für Anfänger. Mehrere Verleihstationen bieten Ausrüstung und Unterricht an. Wenn du dich sicher fühlst, kannst du weiter hinaus paddeln, versteckte Buchten entdecken, entlang von Klippen gleiten und sogar das Meeresleben unter deinem Board beobachten.\n\nViele Besucher genießen SUP bei Sonnenaufgang oder Sonnenuntergang, wenn das goldene Licht magische Reflexe auf dem Wasser erzeugt und die Bucht besonders friedlich ist. Einige Anbieter bieten auch SUP-Yoga an – stell dir vor, du machst Sonnengrüße, während du auf dem Mittelmeer schwebst!"
+    },
+    "sub3": {
+      "subtitle": "Kajakfahren: Abenteuer in deinem eigenen Tempo",
+      "body": "Kajakfahren verbindet körperliche Aktivität mit Erkundung und ist ideal für Familien, Paare und Einzelabenteurer. Einzel- und Doppelkajaks können gemietet werden, und geführte Touren stehen für diejenigen zur Verfügung, die lokales Wissen bevorzugen.\n\nBeim Paddeln entlang der Küste entdeckst du versteckte Strände, beeindruckende Felsformationen und kannst unterwegs schwimmen oder schnorcheln. Das Tempo bestimmst du selbst – von gemütlichem Küstenpaddeln bis zu sportlichem Training.\n\nZu den besten Kajakrouten gehören Fahrten von Port d'Alcudia zu versteckten Buchten wie Cala Molins, die Erkundung der Gegend rund um die Insel Alcanada oder Ausflüge in geschützte Buchten, die zu Fuß nicht erreichbar sind. Geführte Kajaktouren beinhalten meist Ausrüstung, Sicherheitseinweisungen und Erfrischungen."
+    }
+  },
+  "section4": {
+    "title": "Motorisierte Wassersportarten und Segeln",
+    "body": "Für alle, die Geschwindigkeit und Nervenkitzel suchen, bietet Alcudia zahlreiche motorisierte Wassersportmöglichkeiten:\n\n**Jet-Ski:** Spüre den Adrenalinkick, während du über das türkisfarbene Wasser rast. Jet-Ski-Verleihe bieten sowohl geführte Touren als auch eigenständige Fahrten an (in einigen Fällen ist ein Führerschein erforderlich). Die Mietzeiten reichen von 30 Minuten bis zu 2 Stunden.\n\n**Parasailing:** Schwebe hoch über der Bucht, gezogen von einem Schnellboot. Diese aufregende Aktivität bietet atemberaubende Ausblicke auf die Küste, die Berge und das kristallklare Meer. Tandemflüge sind für Paare oder Freunde verfügbar.\n\n**Wakeboarding & Wasserski:** Mehrere Anbieter bieten Wakeboard- und Wasserski-Erlebnisse für Anfänger und Fortgeschrittene an. Die ruhigen Morgenstunden bieten ideale Bedingungen.\n\n**Segeln:** Vom kleinen Segelboot bis zur gecharterten Yacht – Segeln ist eine wunderbare Art, die Bucht zu erleben. Segelschulen bieten Kurse für alle Niveaus, während Charterunternehmen Tages- oder Mehrtagestörns mit oder ohne Skipper anbieten.\n\n**Windsurfen & Kitesurfen:** Wenn der Wind auffrischt, wird Alcudia zum Paradies für windgetriebene Sportarten. Die Kombination aus flachem Wasser und stetigem Wind schafft perfekte Lernbedingungen, während erfahrene Surfer weiter draußen Sprünge und Wellen genießen."
+  },
+  "section5": {
+    "title": "Erlebe Wasseraktivitäten mit Coral Boats",
+    "body": "Auch wenn Alcudia unzählige Möglichkeiten bietet, das Meer zu genießen, ist eine der schönsten und entspanntesten Varianten eine Bootstour mit Coral Boats. Unser klassisches Holzboot aus dem Jahr 1968 bietet eine einzigartige Plattform, um verschiedene Wasseraktivitäten in einem unvergesslichen Ausflug zu vereinen.\n\nWährend unserer Touren kannst du:\n\n- **In unberührten, versteckten Buchten schnorcheln**, die vom Land aus nicht erreichbar sind, mit kristallklarer Sicht und reichhaltigem Meeresleben.\n- **In abgelegenen türkisfarbenen Gewässern schwimmen**, fernab der überfüllten Strände.\n- **Vom Boot aus paddeln**, in geschützten Buchten umgeben von herrlicher Landschaft.\n- **Vom Deck ins erfrischende Mittelmeer springen**, für die Abenteuerlustigen!\n- **An Bord entspannen**, mit kostenlosen Getränken und Snacks, während du die Aussicht auf die Küste genießt.\n\nWir stellen alle notwendigen Ausrüstungen bereit, einschließlich Schnorchelmasken, Paddleboards und Schwimmwesten. Unsere erfahrene Crew kennt die Bucht genau und bringt dich – je nach Wetter und deinen Wünschen – zu den schönsten Orten.\n\nEgal, ob du dich für unsere Morgentour oder die Sonnenuntergangsfahrt entscheidest, du wirst die Magie der Gewässer von Alcudia auf authentische und gelassene Weise erleben – der mediterrane Weg, das Meer zu genießen.\n\n**Bereit zum Eintauchen?** Buche dein Coral Boats-Erlebnis und finde heraus, warum unsere Gäste es als das Highlight ihres Mallorca-Urlaubs bezeichnen. Von Familien mit Kindern über Freundesgruppen bis hin zu Paaren auf der Suche nach Romantik – jeder findet seinen perfekten Moment auf dem Wasser mit uns."
+  }
+}
+
+
+
 }

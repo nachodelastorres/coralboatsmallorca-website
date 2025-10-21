@@ -551,6 +551,13 @@
     "free_drink": "Una Beguda Gratis o Sangria",
     "from": "Des de",
     "per_person": "per persona",
+    "adults": "Adults",
+    "children": "Nens",
+    "infants": "Nadons",
+    "adults_age": "(13+ anys)",
+    "children_age": "(4-12 anys)",
+    "infants_age": "(0-3 anys)",
+    "free": "Gratis",
     "book_now": "Reservar Ara",
     "departure_title": "Punt de Sortida: Port d'Alcúdia",
     "departure_description": "Totes les excursions surten del Port d'Alcúdia i inclouen tripulació professional, equip de seguretat i assegurança"
@@ -639,24 +646,6 @@
     "label": "Testimonis",
     "title": "Ressenyes d'Excursions en Vaixell a Alcúdia, Mallorca",
     "description": "No confiïs només en la nostra paraula: llegeix les ressenyes de viatgers que han experimentat la màgia de Mallorca amb Coral Boats."
-  },
-  "about": {
-    "label": "Sobre Nosaltres",
-    "title": "Navegant les Aigües de Mallorca Des de 1968",
-    "badge_since": "Des de",
-    "badge_year": "1968",
-    "paragraph_1": "Benvingut a bord de Coral Boats, un vaixell clàssic bellament restaurat que ha estat surcant les aigües del Mediterrani des de 1968. La nostra història va començar amb una passió pel mar i un somni de compartir els tresors amagats de Mallorca amb viatgers de tot el món.",
-    "paragraph_2": "Liderats pel nostre experimentat capità i tripulació dedicada, hem perfeccionat l'art de les excursions en vaixell a la Badia d'Alcúdia. Coneixem cada cala, cada platja secreta i cada lloc perfecte on l'aigua brilla en tons turquesa que semblen gairebé irreals.",
-    "paragraph_3": "El que ens distingeix és el nostre compromís amb experiències autèntiques. No som només un operador turístic, som locals que estimem la nostra illa i volem compartir la seva màgia amb tu. Cada excursió està elaborada amb cura, combinant aventura, relaxació i la genuïna calidesa de l'hospitalitat mediterrània.",
-    "stat_1_number": "Des de 1968",
-    "stat_1_label": "Vaixell Clàssic",
-    "stat_2_number": "5 Estrelles",
-    "stat_2_label": "Ressenyes",
-    "stat_3_number": "Badia d'Alcúdia",
-    "stat_3_label": "Especialistes",
-    "quote_text": "\"Creiem que els millors records neixen al mar, envoltats de la bellesa de la natura, bona companyia i l’esperit d’aventura.\"",
-"quote_author": "— Capità i Tripulació, Coral Boats Mallorca"
-
   },
 
   "charter_pricing": {
@@ -884,6 +873,134 @@
     "title": "Preparat per descobrir el món submarí de Mallorca?",
     "body": "Fer snorkel a la Badia d’Alcúdia és una manera inoblidable de connectar amb la mar Mediterrània i admirar la seva increïble biodiversitat. Tant si explores des de la costa com si t’uneixes a una de les nostres excursions amb vaixell per arribar a les cales més verges, et sorprendrà la claredat de l’aigua i la riquesa de la vida marina.\n\nSubmergeix-te i deixa’t meravellar per la màgia submarina de Mallorca!"
   }
+},
+
+
+  "about": {
+    "label": "Sobre Nosaltres",
+    "title": "Navegant les Aigües de Mallorca Des de 1968",
+    "badge_since": "Des de",
+    "badge_year": "1968",
+    "paragraph_1": "Benvingut a bord de Coral Boats, un vaixell clàssic bellament restaurat que ha estat surcant les aigües del Mediterrani des de 1968. La nostra història va començar amb una passió pel mar i un somni de compartir els tresors amagats de Mallorca amb viatgers de tot el món.",
+    "paragraph_2": "Liderats pel nostre experimentat capità i tripulació dedicada, hem perfeccionat l'art de les excursions en vaixell a la Badia d'Alcúdia. Coneixem cada cala, cada platja secreta i cada lloc perfecte on l'aigua brilla en tons turquesa que semblen gairebé irreals.",
+    "paragraph_3": "El que ens distingeix és el nostre compromís amb experiències autèntiques. No som només un operador turístic, som locals que estimem la nostra illa i volem compartir la seva màgia amb tu. Cada excursió està elaborada amb cura, combinant aventura, relaxació i la genuïna calidesa de l'hospitalitat mediterrània.",
+    "stat_1_number": "Des de 1968",
+    "stat_1_label": "Vaixell Clàssic",
+    "stat_2_number": "5 Estrelles",
+    "stat_2_label": "Ressenyes",
+    "stat_3_number": "Badia d'Alcúdia",
+    "stat_3_label": "Especialistes",
+    "quote_text": "\"Creiem que els millors records neixen al mar, envoltats de la bellesa de la natura, bona companyia i l’esperit d’aventura.\"",
+"quote_author": "— Capità i Tripulació, Coral Boats Mallorca"
+
+  }, 
+
+"about_page": {
+  "page": {
+    "breadcrumb_title": "Sobre Coral Boats Mallorca",
+    "breadcrumb_subtitle": "Descobreix la història darrere l’experiència d’excursions en vaixell més estimada d’Alcúdia"
+  },
+  "hero": {
+    "badge": "Sobre Nosaltres",
+    "title": "Navegant per les aigües de Mallorca des del 1968",
+    "subtitle": "Creant records inoblidables al mar Mediterrani des del 1968.",
+    "stat1": "Des del 1968",
+    "stat2": "Tripulació Local",
+    "stat3": "Valoració"
+  },
+  "history": {
+    "badge": "La Nostra Història",
+    "title": "Nascut a Pollença, Navegant pel Mediterrani",
+    "subtitle": "Un vaixell clàssic amb una història atemporal d’aventura i autenticitat",
+    "intro": "L’any 1968, entre el suau so dels martells i les serres, el nostre vaixell va prendre vida als Astilleros Cabanellas de Port de Pollença, un dels drassanes més respectades de Mallorca. Construït amb tècniques tradicionals de fusteria naval transmeses de generació en generació, fou creat per honorar l’esperit mediterrani: fort, elegant i fet per perdurar.",
+    "section1_title": "Construït amb Tradició",
+    "section1_text": "Els artesans dels Astilleros Cabanellas hi van posar el cor i l’habilitat en cada tauló, en cada unió, en cada corba. No era només construir un vaixell — era un art. Fent servir fusta local i mètodes tradicionals, van crear una embarcació que representa l’autèntic patrimoni mariner mallorquí. La drassana, situada a la badia de Pollença, construeix vaixells des de principis del segle XX, i el nostre vaixell n’és un orgullós testimoni.",
+    "section2_title": "Una Vida a la Mar",
+    "section2_text": "Durant dècades, el nostre vaixell ha donat la benvinguda a passatgers de tot el món, oferint excursions que mostren la impressionant costa nord de Mallorca i fins i tot les aigües turqueses d’Eivissa. Ha vist innumerables sortides de sol sobre el far d’Alcanada, ha explorat cales amagades que només els locals coneixen i ha portat famílies, parelles i aventurers en experiències mediterrànies inoblidables. Cada viatge ha afegit un capítol a la seva història, cada onada n’ha modelat el caràcter.",
+    "section3_title": "Restaurat i Renovellat",
+    "section3_text": "Mitjançant un procés continu de restauració acurada i manteniment meticulós, hem preservat el seu encant clàssic assegurant alhora la seguretat i el confort moderns. Hem mantingut l’ànima del disseny original de 1968: la càlida coberta de fusta, les línies autèntiques i aquell caràcter únic que només un vaixell clàssic pot oferir. L’hem equipat també amb tecnologia de navegació moderna, sistemes de seguretat i comoditats que fan que cada excursió sigui fluida i agradable.",
+    "section4_title": "L’Estil Mediterrani",
+    "section4_text": "El que fa especial el nostre vaixell no és només la seva edat o la seva bellesa, sinó la filosofia que representa. Creiem en l’hospitalitat tradicional mediterrània: càlida, genuïna i sense presses. Les nostres excursions estan dissenyades tal com sempre s’han fet aquí — en grups petits, amb coneixement local i experiències autèntiques. No volem reinventar les excursions en vaixell; honorem la manera com s’han fet durant generacions a Mallorca, amb un enfocament en la connexió, la natura i el simple plaer d’estar a la mar.",
+    "quote": "Un vaixell és més que fusta i claus. És un guardià d’històries, un pont entre generacions i una promesa d’aventura que mai no envelleix.",
+    "cta_button": "Veure les Nostres Excursions",
+    "seo_title": "Reserva la teva excursió en vaixell a la badia d’Alcúdia",
+    "seo_text": "Uneix-te a nosaltres a bord del nostre vaixell clàssic de 1968 per viure una experiència mediterrània autèntica. Oferim excursions de matí, creuers al capvespre i sortides privades a les meravelloses aigües de la badia d’Alcúdia, al nord de Mallorca. Reserva avui mateix la teva excursió inoblidable i descobreix cales amagades, platges verges i la màgia del Mediterrani amb la nostra tripulació local experimentada."
+  }
+},
+
+"blog_page": {
+  "hero": {
+    "badge": "Blog de Coral Boats",
+    "title": "La teva guia d’excursions en vaixell a Mallorca",
+    "subtitle": "Descobreix consells locals, secrets amagats i tot el que has de saber sobre les excursions en vaixell per la badia d’Alcúdia. Des de cales ocultes fins als millors llocs per fer snorkel, compartim els nostres coneixements perquè la teva experiència en vaixell per Mallorca sigui inoblidable."
+  },
+  "categories": {
+    "all": "Totes les Publicacions",
+    "guides": "Guies i Consells",
+    "tours": "Excursions en Vaixell",
+    "destinations": "Destinacions",
+    "tips": "Consells de Viatge"
+  },
+  "featured": {
+    "badge": "Publicació Destacada",
+    "title": "Les Últimes Novetats de Coral Boats",
+    "subtitle": "Descobreix els nostres darrers consells i recomanacions per gaudir de l’experiència perfecta d’excursió en vaixell a Mallorca"
+  },
+  "load_more": "Carrega Més Publicacions",
+  "seo": {
+    "title": "La teva guia completa d’excursions en vaixell a Mallorca",
+    "intro": "Benvingut al blog de Coral Boats, la teva font de confiança per a tot allò relacionat amb les excursions en vaixell a Alcúdia, Mallorca. Tant si planeges la teva primera sortida com si ets un navegant experimentat a la recerca de racons secrets, el nostre blog t’ofereix consells locals, coneixement expert i recomanacions pràctiques per fer que la teva experiència sigui inoblidable.",
+    "card1_title": "Consells i Guies d’Experts",
+    "card1_text": "Aprofita els nostres anys d’experiència operant excursions en vaixell per la badia d’Alcúdia. Des de què portar a bord fins al millor moment per veure vida marina, compartim consells pràctics per enriquir la teva aventura.",
+    "card2_title": "Descobreix Tresors Amagats",
+    "card2_text": "Explora platges secretes a Mallorca, descobreix cales amagades prop d’Alcúdia i coneix la impressionant costa nord de l’illa, accessible només per mar. La nostra experiència local revela els secrets més ben guardats de Mallorca.",
+    "cta_title": "Planifica la Teva Excursió en Vaixell Perfecta a Mallorca",
+    "cta_text": "Des d’excursions matinals ideals per fer snorkel fins a creuers romàntics al capvespre i sortides privades per a celebracions especials — et mostrem tot el que necessites saber sobre les excursions en vaixell des del port d’Alcúdia. Uneix-te als milers de visitants satisfets que han convertit les seves vacances a Mallorca en una experiència extraordinària amb Coral Boats.",
+    "footer_info": "📍 Operant des del Port d’Alcúdia, Mallorca | ⭐ Valoració 4.9/5 | 🏆 Més de 10 Anys d’Experiència"
+  }
+},
+"blog_quince": {
+  "badgeTitle": "Esports aquàtics",
+  "title": "Les millors activitats aquàtiques a la badia d’Alcúdia: guia completa",
+  "publishedDate": "5 d’agost de 2025",
+  "meta_description": "Descobreix les millors activitats aquàtiques a Alcúdia, Mallorca. Des de l’snorkel i el paddle surf fins a la moto d’aigua i la vela – la teva guia definitiva dels esports aquàtics a la badia d’Alcúdia.",
+  "btnText": "Llegir més",
+  "keyword": "activitats aquàtiques Alcúdia, esports aquàtics Mallorca, badia d’Alcúdia, paddle surf Alcúdia, moto d’aigua Alcúdia, vela Mallorca, snorkel Alcúdia",
+  "section1": {
+    "title": "Per què la badia d’Alcúdia és un paradís per a les activitats aquàtiques",
+    "body": "La badia d’Alcúdia, situada a la costa nord de Mallorca, és sens dubte una de les millors destinacions de la Mediterrània per practicar esports i activitats aquàtiques. Amb les seves aigües turqueses i tranquil·les, un clima estable i un entorn natural espectacular, ofereix l’escenari perfecte tant per a principiants com per a aficionats experimentats.\n\nLa geografia única de la badia crea condicions ideals durant tot l’any: les aigües poc profundes a prop de la costa són perfectes per als que s’inicien, mentre que les zones més fondes i les brises ocasionals satisfan els més aventurers. La temperatura de l’aigua oscil·la entre els 15 °C a l’hivern i uns agradables 26 °C a l’estiu, fent que la majoria d’activitats siguin ideals de maig a octubre.\n\nTant si cerques aventures plenes d’adrenalina com moments de calma sobre l’aigua, la badia d’Alcúdia ho té tot. La seva visibilitat cristal·lina (sovint superior als 20 metres), la riquesa marina i la bona infraestructura de centres nàutics converteixen aquest indret en un destí molt especial."
+  },
+  "section2": {
+    "title": "Les millors activitats aquàtiques per provar a Alcúdia",
+    "body": "La badia d’Alcúdia ofereix una gran varietat d’activitats aquàtiques per a totes les edats, nivells i gustos. Des d’experiències tranquil·les com remar amb paddle surf per cales amagades fins a la força del jet ski vorejant la costa, hi ha opcions per a tothom.\n\nLes aigües protegides de la badia garanteixen que, fins i tot en dies ventosos, puguis trobar zones calmades per gaudir de la teva activitat preferida. Els operadors locals ofereixen equipament de qualitat, instrucció professional i tot el material de seguretat necessari, assegurant una experiència divertida i segura. Moltes activitats es poden combinar, permetent-te dissenyar el teu dia perfecte al mar.\n\nDescobrim ara les activitats aquàtiques més populars i recomanades que pots gaudir durant la teva visita a Alcúdia."
+  },
+  "section3": {
+    "title": "De l’snorkel al paddle surf: experiències per a tothom",
+    "body": "Tant si prefereixes mantenir-te a la superfície com submergir-te sota l’aigua, si busques emocions fortes o tranquil·litat amb el rem, les aigües d’Alcúdia s’adapten a tots els gustos.",
+    "sub1": {
+      "subtitle": "Snorkel i busseig: explora el món submarí de Mallorca",
+      "body": "Fer snorkel a la badia d’Alcúdia és una activitat accessible però molt gratificant. Les aigües transparents revelen un món submarí ple de peixos acolorits, formacions rocoses fascinants i, de vegades, fins i tot pops i tortugues marines.\n\nEls millors punts per fer snorkel són a les zones rocoses prop del far d’Alcanada, a les petites cales de Cala Sant Vicenç i a les platges més amagades, accessibles només amb vaixell. La visibilitat és excel·lent, especialment al matí quan el mar està més tranquil. Hi podràs veure castanyoles, fadrins, sards, estrelles de mar i garotes.\n\nPer als bussejadors certificats, diversos centres de busseig d’Alcúdia ofereixen excursions a punts més profunds, coves i fins i tot vaixells enfonsats. La combinació d’immersions des de la costa i sortides amb vaixell fa que sigui una destinació molt completa per a l’exploració submarina."
+    },
+    "sub2": {
+      "subtitle": "Paddle surf (SUP): exploració relaxada",
+      "body": "El paddle surf s’ha convertit en una de les activitats més populars a Alcúdia, i amb raó. És fàcil d’aprendre, ofereix un bon exercici complet i permet gaudir d’una vista única de la costa i les muntanyes.\n\nLes aigües tranquil·les de Playa de Muro i del Port d’Alcúdia són ideals per als principiants, amb diversos punts de lloguer que ofereixen material i classes. Quan ja et sentis còmode, pots aventurar-te més enllà per explorar cales amagades, remar al costat dels penya-segats i fins i tot observar la vida marina sota la teva taula.\n\nMolts visitants practiquen paddle surf a la sortida o posta del sol, quan la llum daurada es reflecteix sobre l’aigua i la badia està més serena. Alguns operadors també ofereixen sessions de ioga sobre paddle – imagina’t fent una salutació al sol mentre flotes damunt del Mediterrani!"
+    },
+    "sub3": {
+      "subtitle": "Caiac: aventura al teu ritme",
+      "body": "El caiac combina activitat física i exploració, i és ideal per a famílies, parelles o aventurers solitaris. Hi ha caiacs individuals i dobles de lloguer, i excursions guiades per a qui vulgui descobrir la zona amb un guia local.\n\nRemar al llarg de la costa et permet descobrir platges amagades, formacions rocoses espectaculars i fer parades per nedar o fer snorkel. El ritme el decideixes tu: pot ser una excursió relaxada o un entrenament més intens.\n\nAlgunes de les millors rutes en caiac inclouen remar des de Port d’Alcúdia fins a cales com Cala Molins, explorar l’àrea de l’illa d’Alcanada o endinsar-se en badies protegides inaccessibles a peu. Les excursions guiades solen incloure equipament, instruccions de seguretat i refrigeris."
+    }
+  },
+  "section4": {
+    "title": "Esports aquàtics motoritzats i vela",
+    "body": "Per als qui cerquen velocitat i emoció, Alcúdia ofereix diverses opcions d’esports aquàtics motoritzats:\n\n**Moto d’aigua:** Sent l’adrenalina mentre travesses les aigües turqueses. Es poden llogar amb excursions guiades o per compte propi (en alguns casos cal tenir llicència). La majoria d’operadors ofereixen lloguers d’entre 30 minuts i 2 hores.\n\n**Parasailing:** Vola sobre la badia arrossegat per una llanxa ràpida. Aquesta activitat emocionant ofereix vistes espectaculars de la costa, les muntanyes i el mar cristal·lí. Hi ha vols en tàndem disponibles per a parelles o amics.\n\n**Wakeboard i esquí aquàtic:** Diversos operadors ofereixen experiències per a principiants i avançats. Les aigües tranquil·les del matí ofereixen condicions ideals.\n\n**Vela:** Des de petits vaixells fins a iots amb tripulació, la vela és una manera meravellosa de gaudir de la badia. Les escoles de vela ofereixen cursos per a tots els nivells, mentre que les empreses de xàrter ofereixen lloguers amb o sense patró per a un dia o diversos dies.\n\n**Windsurf i kitesurf:** Quan bufa la brisa, Alcúdia es converteix en un paradís per als esports de vent. La combinació d’aigües poc profundes i vents constants crea condicions ideals per aprendre, mentre que els més experimentats gaudeixen de les onades i els salts més lluny de la costa."
+  },
+  "section5": {
+    "title": "Viu les activitats aquàtiques amb Coral Boats",
+    "body": "Tot i que Alcúdia ofereix infinites maneres de gaudir del mar, una de les més memorables i relaxants és unir-te a una excursió amb Coral Boats. El nostre vaixell clàssic, construït el 1968, ofereix una plataforma única per gaudir de diverses activitats aquàtiques en una sola experiència inoblidable.\n\nDurant les nostres excursions podràs:\n\n- **Fer snorkel en cales amagades i verges**, inaccessibles des de terra, amb aigües cristal·lines i abundant vida marina.\n- **Banyar-te en aigües turqueses i tranquil·les**, lluny de les platges concorregudes.\n- **Fer paddle surf des del vaixell**, en badies protegides envoltades de paisatges espectaculars.\n- **Saltar des de la coberta al Mediterrani**, per als més aventurers!\n- **Relaxar-te a bord**, amb begudes i aperitius inclosos, mentre gaudeixes de les vistes de la costa.\n\nProporcionem tot l’equipament necessari, incloent màscares de snorkel, taules de paddle i armilles salvavides. La nostra tripulació experimentada coneix perfectament la badia i t’acompanyarà als millors racons segons les condicions meteorològiques i les teves preferències.\n\nTant si tries la nostra excursió del matí com la del capvespre, viuràs la màgia de les aigües d’Alcúdia d’una manera autèntica i pausada – l’estil mediterrani de gaudir del mar.\n\n**Preparat per submergir-te?** Reserva la teva experiència amb Coral Boats i descobreix per què els nostres visitants la consideren el millor moment de les seves vacances a Mallorca. Des de famílies amb infants fins a grups d’amics o parelles que cerquen romanticisme, tothom troba el seu moment perfecte al mar amb nosaltres."
+  }
 }
+
+
+
 
 }

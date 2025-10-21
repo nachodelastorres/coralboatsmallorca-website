@@ -12,6 +12,17 @@ interface VisualLayoutProps {
 const VisualLayout = ({ blog }: VisualLayoutProps) => {
   const { t } = useTranslation('common');
 
+  // Function to convert markdown bold syntax to HTML
+  const processMarkdown = (text: string) => {
+    return text.split(/(\*\*.*?\*\*)/).map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        const boldText = part.slice(2, -2);
+        return <strong key={index}>{boldText}</strong>;
+      }
+      return part;
+    });
+  };
+
   return (
     <article style={{ background: '#ffffff' }}>
       {/* Full-width Hero with Parallax Effect */}
@@ -456,14 +467,14 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                                 }}>
                                   <i className="fa-solid fa-check"></i>
                                 </span>
-                                <span>{line.replace('- ', '')}</span>
+                                <span>{processMarkdown(line.replace('- ', ''))}</span>
                               </li>
                             ))}
                           </ul>
                         );
                       }
                       // Regular paragraph
-                      return <p key={pIdx} style={{ marginBottom: '15px' }}>{paragraph}</p>;
+                      return <p key={pIdx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
                     })}
                   </div>
 
@@ -480,9 +491,44 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                         {t(blog.section5Title)}
                       </h3>
                       <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
-                        {t(blog.section5Body!).split('\n\n').map((paragraph, idx) => (
-                          <p key={idx} style={{ marginBottom: '15px' }}>{paragraph}</p>
-                        ))}
+                        {t(blog.section5Body!).split('\n\n').map((paragraph, idx) => {
+                          // Check if paragraph contains bullet points
+                          if (paragraph.includes('- ')) {
+                            return (
+                              <ul key={idx} style={{ listStyle: 'none', padding: 0, marginTop: '20px', marginBottom: '20px' }}>
+                                {paragraph.split('\n').filter(line => line.trim()).map((line, lIdx) => (
+                                  <li key={lIdx} style={{
+                                    display: 'flex',
+                                    alignItems: 'flex-start',
+                                    marginBottom: '15px',
+                                    paddingLeft: '0'
+                                  }}>
+                                    <span style={{
+                                      display: 'inline-flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      width: '24px',
+                                      height: '24px',
+                                      borderRadius: '50%',
+                                      background: 'linear-gradient(135deg, #0891b2, #0e7490)',
+                                      color: '#ffffff',
+                                      fontSize: '0.75rem',
+                                      fontWeight: 'bold',
+                                      flexShrink: 0,
+                                      marginRight: '15px',
+                                      marginTop: '2px'
+                                    }}>
+                                      <i className="fa-solid fa-check"></i>
+                                    </span>
+                                    <span>{processMarkdown(line.replace('- ', ''))}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            );
+                          }
+                          // Regular paragraph
+                          return <p key={idx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
+                        })}
                       </div>
                     </>
                   )}

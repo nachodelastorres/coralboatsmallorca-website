@@ -79,6 +79,7 @@ const FooterOne = ({
                   <h4 className="premium-footer__title">{t('premium.footer_premium.quick_links')}</h4>
                   <ul>
                     <li><Link href={getPath('/')}>{t('premium.footer_premium.home')}</Link></li>
+                    <li><Link href={getPath('/about')}>{t('premium.footer_premium.about')}</Link></li>
                     <li><Link href={getPath('/boat-tours-alcudia')}>{t('premium.footer_premium.our_tours')}</Link></li>
                     <li><Link href={getPath('/gallery')}>{t('premium.footer_premium.gallery')}</Link></li>
                     <li><Link href={getPath('/blog')}>{t('premium.footer_premium.blog')}</Link></li>

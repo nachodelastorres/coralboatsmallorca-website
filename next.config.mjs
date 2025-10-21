@@ -56,6 +56,42 @@ const nextConfig = {
     }
     return config;
   },
+  async redirects() {
+    return [
+      // Redirect old tour-details URLs to new premium URLs (with locale support)
+      {
+        source: '/:lang(en|es|de|fr|it|ca)/tour-details/morning-tour',
+        destination: '/:lang/alcudia-morning-boat-tour',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/:lang(en|es|de|fr|it|ca)/tour-details/day-tour',
+        destination: '/:lang/alcudia-morning-boat-tour',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/:lang(en|es|de|fr|it|ca)/tour-details/sunset-tour',
+        destination: '/:lang/alcudia-sunset-boat-tour',
+        permanent: true, // 301 redirect
+      },
+      // Redirect without locale prefix
+      {
+        source: '/tour-details/morning-tour',
+        destination: '/en/alcudia-morning-boat-tour',
+        permanent: true,
+      },
+      {
+        source: '/tour-details/day-tour',
+        destination: '/en/alcudia-morning-boat-tour',
+        permanent: true,
+      },
+      {
+        source: '/tour-details/sunset-tour',
+        destination: '/en/alcudia-sunset-boat-tour',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

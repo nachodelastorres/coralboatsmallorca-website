@@ -31,6 +31,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   // Skip Next.js internals and static files
   matcher: [
-    '/((?!api|_next/static|_next/image|assets|favicon.ico|robots.txt|sitemap.xml).*)',
+    '/((?!api|_next/static|_next/image|assets|flags|favicon.ico|robots.txt|sitemap.xml).*)',
   ],
 };

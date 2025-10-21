@@ -156,7 +156,7 @@ const HeaderOne = ({ hasTopBar, hasTopBarTwo, headerClass }: HeaderProps) => {
 
                 {/* MENÚ */}
                 <div className="col-xl-10 col-lg-6 col-md-6 col-6 d-flex justify-content-end align-items-center" style={{ position: 'relative' }}>
-                  <div className="d-none d-xl-block" style={{ maxWidth: '60%', overflow: 'hidden' }}>
+                  <div className="d-none d-xl-block" style={{ flex: '1', overflow: 'visible', marginRight: '60px' }}>
                     <div className="it-main-menu text-center">
                       <nav className="it-menu-content">
                         <MenuItems />

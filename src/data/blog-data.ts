@@ -26,6 +26,7 @@ import blogDetailsImg11 from '@/assets/img/inner-page/blog/calobra1.webp';
 import blogDetailsImg12 from '@/assets/img/inner-page/blog/aucanada-faro.webp';
 import blogDetailsImg13 from '@/assets/img/inner-page/blog/sol.webp';
 import blogDetailsImg14 from '@/assets/img/premium/gallery_new/hidden_coves.webp';
+import blogDetailsImg15 from '@/assets/img/premium/whychoose/06.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -453,6 +454,39 @@ export const blogDataOne: IBlogDT[] = [
   section4Body: 'blog_catorce.section4.body',
   section5Title: 'blog_catorce.section5.title',
   section5Body: 'blog_catorce.section5.body',
+  layout: 'visual',
+},
+
+{
+  id: 15,
+  slug: 'water-activities-alcudia-bay-guide',
+  image: blogDetailsImg15,
+  badgeTitle: 'blog_quince.badgeTitle',
+  title: 'blog_quince.title',
+  metaTitle: 'Best Water Activities in Alcudia Bay: Complete Guide | Coral Boats',
+  commentCount: '0',
+  detailsImg: blogDetailsImg15,
+  publishedDate: 'blog_quince.publishedDate',
+  description: 'blog_quince.meta_description',
+  metaDescription: 'Discover the best water activities in Alcudia, Mallorca. From snorkeling and paddleboarding to jet skiing and sailing - your ultimate guide to water sports in the Bay of Alcudia.',
+  btnText: 'blog_quince.btnText',
+  keyword: 'water activities Alcudia, water sports Mallorca, Alcudia bay activities, paddleboarding Alcudia, jet ski Alcudia, sailing Mallorca, snorkeling Alcudia',
+  section1Title: 'blog_quince.section1.title',
+  section1Body: 'blog_quince.section1.body',
+  section2Title: 'blog_quince.section2.title',
+  section2Body: 'blog_quince.section2.body',
+  section3Title: 'blog_quince.section3.title',
+  section3Body: 'blog_quince.section3.body',
+  section3sub1Subtitle: 'blog_quince.section3.sub1.subtitle',
+  section3sub1Body: 'blog_quince.section3.sub1.body',
+  section3sub2Subtitle: 'blog_quince.section3.sub2.subtitle',
+  section3sub2Body: 'blog_quince.section3.sub2.body',
+  section3sub3Subtitle: 'blog_quince.section3.sub3.subtitle',
+  section3sub3Body: 'blog_quince.section3.sub3.body',
+  section4Title: 'blog_quince.section4.title',
+  section4Body: 'blog_quince.section4.body',
+  section5Title: 'blog_quince.section5.title',
+  section5Body: 'blog_quince.section5.body',
   layout: 'visual',
 }
 

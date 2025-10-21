@@ -50,6 +50,7 @@ const OffCanvasPremium = ({
 
   const menuItems = [
     { id: 'home', label: t('menu.home'), href: getPath('/'), icon: 'fa-house' },
+    { id: 'about', label: t('menu.about'), href: getPath('/about'), icon: 'fa-anchor' },
     {
       id: 'tours',
       label: t('menu.excursions'),

@@ -66,6 +66,9 @@ const MenuItems = ({ isMobileMenu }: IProps) => {
         <li>
           <Link href={getPath('/')}>{t('menu.home')}</Link>
         </li>
+        <li>
+          <Link href={getPath('/about')}>{t('menu.about')}</Link>
+        </li>
       <li className="has-dropdown">
         <Link href={getPath('/boat-tours-alcudia')} onClick={handleClick}>
           {t('menu.excursions')}

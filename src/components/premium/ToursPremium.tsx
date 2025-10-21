@@ -4,10 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
+import { useState } from 'react';
 
 const ToursPremium = () => {
   const { t } = useTranslation('common');
   const { getPath } = useLocale();
+  const [showPriceBreakdown, setShowPriceBreakdown] = useState<string | null>(null);
 
   const tours = [
     {
@@ -110,9 +112,140 @@ const ToursPremium = () => {
 
                       <div className="premium-tour-card__footer">
                         <div className="premium-tour-card__price">
-                          <span className="price-label">{t('premium.tours.from')}</span>
-                          <span className="price-amount">{t(tour.priceKey)}</span>
-                          <span className="price-unit">{t('premium.tours.per_person')}</span>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', position: 'relative' }}>
+                            <div>
+                              <span className="price-label">{t('premium.tours.from')}</span>
+                              <span className="price-amount">{t(tour.priceKey)}</span>
+                              <span className="price-unit">{t('premium.tours.per_person')}</span>
+                            </div>
+                            <button
+                              onClick={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                setShowPriceBreakdown(showPriceBreakdown === tour.id ? null : tour.id);
+                              }}
+                              onMouseEnter={() => setShowPriceBreakdown(tour.id)}
+                              onMouseLeave={() => setShowPriceBreakdown(null)}
+                              style={{
+                                background: 'rgba(8, 145, 178, 0.1)',
+                                border: '1px solid rgba(8, 145, 178, 0.3)',
+                                borderRadius: '50%',
+                                width: '24px',
+                                height: '24px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                cursor: 'pointer',
+                                transition: 'all 0.3s ease',
+                                color: '#0891b2',
+                                fontSize: '12px',
+                                fontWeight: 'bold'
+                              }}
+                              aria-label="Show price breakdown"
+                            >
+                              <i className="fa-solid fa-info"></i>
+                            </button>
+
+                            {showPriceBreakdown === tour.id && (
+                              <div
+                                style={{
+                                  position: 'absolute',
+                                  bottom: '100%',
+                                  left: '0',
+                                  marginBottom: '12px',
+                                  background: 'white',
+                                  border: '1px solid #e2e8f0',
+                                  borderRadius: '12px',
+                                  padding: '16px',
+                                  boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
+                                  zIndex: 1000,
+                                  minWidth: '280px',
+                                  animation: 'fadeInUp 0.2s ease'
+                                }}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  e.stopPropagation();
+                                }}
+                              >
+                                <div style={{ fontSize: '0.875rem', fontWeight: '600', color: '#1e293b', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                  <i className="fa-solid fa-ticket" style={{ color: '#0891b2' }}></i>
+                                  Price Breakdown
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                  <div style={{
+                                    display: 'flex',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'center',
+                                    padding: '8px 12px',
+                                    background: '#f8fafc',
+                                    borderRadius: '8px'
+                                  }}>
+                                    <div>
+                                      <div style={{ fontSize: '0.875rem', fontWeight: '500', color: '#334155' }}>
+                                        {t('premium.tours.adults')}
+                                      </div>
+                                      <div style={{ fontSize: '0.75rem', color: '#64748b' }}>
+                                        {t('premium.tours.adults_age')}
+                                      </div>
+                                    </div>
+                                    <div style={{ fontSize: '1rem', fontWeight: '700', color: '#0891b2' }}>
+                                      {tour.id === 'morning' ? '€68' : '€65'}
+                                    </div>
+                                  </div>
+
+                                  <div style={{
+                                    display: 'flex',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'center',
+                                    padding: '8px 12px',
+                                    background: '#f8fafc',
+                                    borderRadius: '8px'
+                                  }}>
+                                    <div>
+                                      <div style={{ fontSize: '0.875rem', fontWeight: '500', color: '#334155' }}>
+                                        {t('premium.tours.children')}
+                                      </div>
+                                      <div style={{ fontSize: '0.75rem', color: '#64748b' }}>
+                                        {t('premium.tours.children_age')}
+                                      </div>
+                                    </div>
+                                    <div style={{ fontSize: '1rem', fontWeight: '700', color: '#0891b2' }}>
+                                      {tour.id === 'morning' ? '€48' : '€45'}
+                                    </div>
+                                  </div>
+
+                                  <div style={{
+                                    display: 'flex',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'center',
+                                    padding: '8px 12px',
+                                    background: '#f0fdf4',
+                                    borderRadius: '8px',
+                                    border: '1px solid #86efac'
+                                  }}>
+                                    <div>
+                                      <div style={{ fontSize: '0.875rem', fontWeight: '500', color: '#334155' }}>
+                                        {t('premium.tours.infants')}
+                                      </div>
+                                      <div style={{ fontSize: '0.75rem', color: '#64748b' }}>
+                                        {t('premium.tours.infants_age')}
+                                      </div>
+                                    </div>
+                                    <div style={{
+                                      fontSize: '0.875rem',
+                                      fontWeight: '700',
+                                      color: '#16a34a',
+                                      background: '#dcfce7',
+                                      padding: '4px 12px',
+                                      borderRadius: '6px'
+                                    }}>
+                                      {t('premium.tours.free')}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+                          </div>
                         </div>
                         <div className="premium-tour-card__cta">
                           <span>{t('premium.tours.book_now')}</span>

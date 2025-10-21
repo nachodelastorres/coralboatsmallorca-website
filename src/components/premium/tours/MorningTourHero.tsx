@@ -64,9 +64,22 @@ const MorningTourHero = () => {
                 </div>
                 <div className="highlight-item">
                   <i className="fa-solid fa-euro-sign"></i>
-                  <div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                     <strong>{t('morningTour.hero.priceLabel')}</strong>
-                    <span>{t('morningTour.hero.priceValue')}</span>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
+                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.adults')}:</span>
+                        <strong style={{ color: '#f59e0b', fontSize: '1.1rem' }}>€68</strong>
+                      </span>
+                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
+                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.children')}:</span>
+                        <strong style={{ color: '#f59e0b', fontSize: '1.1rem' }}>€48</strong>
+                      </span>
+                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
+                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.infants')}:</span>
+                        <strong style={{ color: '#10b981', fontSize: '1.1rem' }}>{t('premium.tours.free')}</strong>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>

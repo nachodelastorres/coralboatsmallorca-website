@@ -1,6 +1,7 @@
 {
   "menu": {
     "home": "Home",
+    "about": "Chi siamo",
     "excursions": "Escursioni",
     "morningTour": "Escursione del Mattino",
     "sunsetTour": "Escursione al Tramonto",
@@ -1126,6 +1127,13 @@
       "free_drink": "Una Bevanda Gratuita o Sangria",
       "from": "A partire da",
       "per_person": "a persona",
+      "adults": "Adulti",
+      "children": "Bambini",
+      "infants": "Neonati",
+      "adults_age": "(13+ anni)",
+      "children_age": "(4-12 anni)",
+      "infants_age": "(0-3 anni)",
+      "free": "Gratis",
       "book_now": "Prenota Ora",
       "departure_title": "Punto di Partenza: Porto di Alcudia",
       "departure_description": "Tutti i tour partono dal porto di Alcudia e includono equipaggio professionale, attrezzature di sicurezza e assicurazione"
@@ -1180,6 +1188,7 @@
       "description": "Vivi la magia della baia di Alcudia di Maiorca a bordo della nostra barca classica. Scopri calette nascoste, fai snorkeling in acque cristalline e crea ricordi indimenticabili.",
       "quick_links": "Link Rapidi",
       "home": "Home",
+      "about": "Chi siamo",
       "our_tours": "I Nostri Tour",
       "gallery": "Galleria",
       "blog": "Blog",
@@ -1433,5 +1442,114 @@
     "stat_3_label": "Specialisti",
     "quote_text": "\"Crediamo che i ricordi più belli nascano sull’acqua, circondati dalla bellezza della natura, dalla buona compagnia e dallo spirito d’avventura.\"",
     "quote_author": "— Capitano e Equipaggio, Coral Boats Mallorca"
+  },
+
+  "about_page": {
+  "page": {
+    "breadcrumb_title": "Su Coral Boats Mallorca",
+    "breadcrumb_subtitle": "Scopri la storia dietro l’esperienza di escursioni in barca più amata di Alcudia"
+  },
+  "hero": {
+    "badge": "Chi Siamo",
+    "title": "Navigando nelle acque di Maiorca dal 1968",
+    "subtitle": "Creando ricordi indimenticabili nel Mar Mediterraneo dal 1968.",
+    "stat1": "Dal 1968",
+    "stat2": "Equipaggio Locale",
+    "stat3": "Valutazione"
+  },
+  "history": {
+    "badge": "La Nostra Storia",
+    "title": "Nato a Pollença, Navigando nel Mediterraneo",
+    "subtitle": "Una barca classica con una storia senza tempo di avventura e autenticità",
+    "intro": "Nel 1968, tra il dolce suono di martelli e seghe, la nostra barca prese vita ai cantieri navali Cabanellas di Port de Pollença, uno dei più rinomati di Maiorca. Costruita con tecniche tradizionali di carpenteria navale tramandate di generazione in generazione, fu creata per onorare lo spirito del Mediterraneo: forte, elegante e fatta per durare.",
+    "section1_title": "Costruita con Tradizione",
+    "section1_text": "Gli artigiani dei cantieri Cabanellas misero cuore e maestria in ogni tavola, in ogni giunzione, in ogni curva. Non era solo costruzione navale: era arte. Utilizzando legno locale e metodi tradizionali, crearono un’imbarcazione che incarna l’autentico patrimonio marittimo maiorchino. Il cantiere, situato nella baia di Pollença, costruisce barche sin dai primi anni del XX secolo, e la nostra barca è un orgoglioso testimone di questa eredità.",
+    "section2_title": "Una Vita sul Mare",
+    "section2_text": "Da decenni, la nostra barca accoglie ospiti a bordo, offrendo escursioni lungo la splendida costa nord di Maiorca e persino fino alle acque turchesi di Ibiza. Ha visto innumerevoli albe sul faro di Alcanada, esplorato cale nascoste conosciute solo dai locali e trasportato famiglie, coppie e avventurieri in esperienze mediterranee indimenticabili. Ogni viaggio aggiunge un capitolo alla sua storia, ogni onda ne modella il carattere.",
+    "section3_title": "Restaurata e Rinnovata",
+    "section3_text": "Attraverso un processo continuo di attenta restaurazione e manutenzione scrupolosa, abbiamo preservato il suo fascino classico garantendo al contempo sicurezza e comfort moderni. Abbiamo mantenuto l’anima del design originale del 1968 — il caldo ponte in legno, le linee autentiche, quel carattere che solo una barca d’epoca può offrire. L’abbiamo anche equipaggiata con strumenti di navigazione moderni, sistemi di sicurezza e comodità che rendono ogni escursione piacevole e sicura.",
+    "section4_title": "Lo Stile Mediterraneo",
+    "section4_text": "Ciò che rende speciale la nostra barca non è solo la sua età o la sua bellezza, ma la filosofia che rappresenta. Crediamo nell’ospitalità tradizionale mediterranea: calorosa, autentica e senza fretta. Le nostre escursioni sono pensate come si sono sempre fatte qui — in piccoli gruppi, con conoscenze locali ed esperienze autentiche. Non cerchiamo di reinventare le gite in barca; onoriamo il modo in cui si fanno da generazioni a Maiorca, con un’attenzione alla connessione, alla natura e alla semplice gioia di essere sul mare.",
+    "quote": "Una barca è più che legno e chiodi. È custode di storie, un ponte tra generazioni e una promessa di avventura che non invecchia mai.",
+    "cta_button": "Guarda le Nostre Escursioni",
+    "seo_title": "Prenota la tua escursione in barca nella baia di Alcudia",
+    "seo_text": "Sali a bordo della nostra barca classica del 1968 per vivere un’autentica esperienza mediterranea. Offriamo escursioni mattutine, crociere al tramonto e charter privati nelle splendide acque della baia di Alcudia, nel nord di Maiorca. Prenota oggi stesso la tua escursione indimenticabile e scopri calette nascoste, spiagge incontaminate e la magia del Mediterraneo con il nostro equipaggio locale esperto."
   }
+},
+
+"blog_page": {
+  "hero": {
+    "badge": "Blog di Coral Boats",
+    "title": "La tua guida alle escursioni in barca a Maiorca",
+    "subtitle": "Scopri consigli locali, segreti nascosti e tutto ciò che devi sapere sulle escursioni in barca nella baia di Alcudia. Dalle calette segrete ai migliori punti per fare snorkeling, condividiamo la nostra esperienza per rendere la tua escursione in barca a Maiorca indimenticabile."
+  },
+  "categories": {
+    "all": "Tutti gli Articoli",
+    "guides": "Guide e Consigli",
+    "tours": "Escursioni in Barca",
+    "destinations": "Destinazioni",
+    "tips": "Consigli di Viaggio"
+  },
+  "featured": {
+    "badge": "Articolo in Evidenza",
+    "title": "Le Ultime da Coral Boats",
+    "subtitle": "Scopri i nostri ultimi consigli e idee per vivere l’esperienza perfetta di escursione in barca a Maiorca"
+  },
+  "load_more": "Carica Altri Articoli",
+  "seo": {
+    "title": "La tua guida completa alle escursioni in barca a Maiorca",
+    "intro": "Benvenuto nel blog di Coral Boats, la tua fonte di fiducia per tutto ciò che riguarda le escursioni in barca ad Alcudia, Maiorca. Che tu stia pianificando la tua prima gita in barca o che sia un navigatore esperto alla ricerca di angoli segreti, il nostro blog ti offre consigli locali, conoscenze esperte e suggerimenti pratici per rendere la tua esperienza indimenticabile.",
+    "card1_title": "Consigli e Guide di Esperti",
+    "card1_text": "Approfitta dei nostri anni di esperienza nell’organizzazione di escursioni in barca nella baia di Alcudia. Dalla lista di cosa portare a bordo ai migliori momenti per osservare la vita marina, condividiamo consigli pratici per arricchire la tua avventura.",
+    "card2_title": "Scopri Tesori Nascosti",
+    "card2_text": "Esplora spiagge segrete a Maiorca, scopri calette nascoste vicino ad Alcudia e ammira la splendida costa nord dell’isola, accessibile solo via mare. La nostra esperienza locale rivela i segreti meglio custoditi di Maiorca.",
+    "cta_title": "Pianifica la Tua Escursione in Barca Perfetta a Maiorca",
+    "cta_text": "Dalle escursioni mattutine perfette per lo snorkeling alle crociere romantiche al tramonto e ai charter privati per celebrazioni speciali — copriamo tutto ciò che devi sapere sulle escursioni in barca dal porto di Alcudia. Unisciti a migliaia di ospiti soddisfatti che hanno reso la loro vacanza a Maiorca straordinaria con Coral Boats.",
+    "footer_info": "📍 In partenza dal Porto di Alcudia, Maiorca | ⭐ Valutazione 4.9/5 | 🏆 Oltre 10 Anni di Esperienza"
+  }
+},
+
+"blog_quince": {
+  "badgeTitle": "Sport acquatici",
+  "title": "Le migliori attività acquatiche nella baia di Alcudia: guida completa",
+  "publishedDate": "5 agosto 2025",
+  "meta_description": "Scopri le migliori attività acquatiche ad Alcudia, Maiorca. Dallo snorkeling e paddleboarding alle moto d’acqua e alla vela – la tua guida definitiva agli sport acquatici nella baia di Alcudia.",
+  "btnText": "Leggi di più",
+  "keyword": "attività acquatiche Alcudia, sport acquatici Maiorca, baia di Alcudia, paddleboarding Alcudia, jet ski Alcudia, vela Maiorca, snorkeling Alcudia",
+  "section1": {
+    "title": "Perché la baia di Alcudia è un paradiso per le attività acquatiche",
+    "body": "La baia di Alcudia, situata sulla costa nord di Maiorca, è senza dubbio una delle migliori destinazioni del Mediterraneo per gli sport e le attività acquatiche. Con le sue acque turchesi tranquille, il clima costante e i paesaggi naturali mozzafiato, offre il luogo ideale sia per i principianti che per gli appassionati più esperti.\n\nLa geografia unica della baia crea condizioni ideali tutto l’anno: le acque basse vicino alla riva sono perfette per chi è alle prime armi, mentre le zone più profonde e le brezze occasionali soddisfano anche i più esperti. La temperatura dell’acqua varia dai 15 °C in inverno ai piacevoli 26 °C in estate, rendendo la maggior parte delle attività godibili da maggio a ottobre.\n\nChe tu cerchi avventura e adrenalina o momenti di puro relax sull’acqua, la baia di Alcudia ha tutto. La combinazione di un’acqua cristallina (spesso con visibilità oltre i 20 metri), una fauna marina ricca e una rete di centri sportivi ben sviluppata rende questa destinazione davvero speciale."
+  },
+  "section2": {
+    "title": "Le migliori attività acquatiche da provare ad Alcudia",
+    "body": "La baia di Alcudia offre un’incredibile varietà di attività acquatiche adatte a tutte le età, livelli ed esigenze. Dalle esperienze rilassanti come il paddle nelle calette nascoste alle emozioni del jet ski lungo la costa, ce n’è per tutti i gusti.\n\nLe acque protette della baia assicurano che, anche nelle giornate più ventose, sia possibile trovare zone tranquille per godersi l’attività scelta. Gli operatori locali forniscono attrezzatura di qualità, istruttori professionisti e tutto l’equipaggiamento di sicurezza, garantendo un’esperienza divertente e sicura. Molte attività possono essere combinate, permettendoti di creare la tua giornata perfetta in mare.\n\nScopriamo insieme le attività acquatiche più popolari e appaganti da vivere durante la tua visita ad Alcudia."
+  },
+  "section3": {
+    "title": "Dallo snorkeling al paddle: esperienze per tutti",
+    "body": "Che tu preferisca restare in superficie o immergerti sott’acqua, che tu voglia azione motorizzata o tranquillità a pagaia, le acque di Alcudia offrono esperienze per ogni preferenza.",
+    "sub1": {
+      "subtitle": "Snorkeling e immersioni: esplora il mondo sottomarino di Maiorca",
+      "body": "Fare snorkeling nella baia di Alcudia è un’attività accessibile ma incredibilmente gratificante. Le acque cristalline rivelano un mondo sottomarino vibrante, popolato da pesci colorati, interessanti formazioni rocciose e, a volte, persino polpi e tartarughe marine.\n\nI migliori punti per fare snorkeling si trovano nelle zone rocciose vicino al faro di Alcanada, nelle piccole calette di Cala Sant Vicenç e sulle spiagge appartate raggiungibili solo in barca. La visibilità è eccezionale, soprattutto al mattino quando il mare è più calmo. Potrai incontrare castagnole, labridi, orate, stelle marine e ricci di mare.\n\nPer i subacquei certificati, diversi centri immersione di Alcudia offrono escursioni in siti più profondi, grotte e perfino relitti. La combinazione di immersioni dalla costa e uscite in barca rende questa destinazione molto versatile per l’esplorazione subacquea."
+    },
+    "sub2": {
+      "subtitle": "Stand-up paddle (SUP): esplorazione tranquilla",
+      "body": "Il paddleboarding è diventato una delle attività più popolari ad Alcudia, e non a caso. È facile da imparare, offre un ottimo allenamento completo e regala una prospettiva unica sulla costa e sulle montagne.\n\nLe acque calme vicino a Playa de Muro e al porto di Alcudia sono perfette per i principianti, con diversi punti di noleggio che offrono attrezzature e lezioni. Una volta presa confidenza, puoi avventurarti più lontano per esplorare calette nascoste, pagaiare lungo le scogliere e persino osservare la vita marina sotto la tavola.\n\nMolti visitatori praticano il paddle al sorgere o al tramontare del sole, quando la luce dorata crea riflessi magici sull’acqua e la baia è più silenziosa. Alcuni operatori offrono anche sessioni di yoga su paddle – immagina di fare il saluto al sole mentre galleggi sul Mediterraneo!"
+    },
+    "sub3": {
+      "subtitle": "Kayak: avventura al tuo ritmo",
+      "body": "Il kayak unisce attività fisica e scoperta, ed è ideale per famiglie, coppie o avventurieri solitari. Sono disponibili kayak singoli e doppi a noleggio, e vengono offerte escursioni guidate per chi desidera affidarsi all’esperienza di una guida locale.\n\nPagaiando lungo la costa scoprirai spiagge nascoste, imponenti formazioni rocciose e potrai fermarti per nuotare o fare snorkeling. Il ritmo lo decidi tu: può essere un’esplorazione rilassata o un allenamento più intenso.\n\nTra i migliori percorsi in kayak ci sono quello da Port d’Alcudia verso calette come Cala Molins, l’esplorazione della zona intorno all’isola di Alcanada o le baie protette non raggiungibili a piedi. Le escursioni guidate includono solitamente attrezzatura, briefing di sicurezza e rinfreschi."
+    }
+  },
+  "section4": {
+    "title": "Sport acquatici motorizzati e vela",
+    "body": "Per chi cerca velocità ed emozioni, Alcudia offre diverse opzioni di sport acquatici motorizzati:\n\n**Moto d’acqua:** Vivi l’adrenalina sfrecciando sulle acque turchesi. Sono disponibili noleggi con tour guidati o guida autonoma (in alcuni casi è richiesta la patente nautica). La durata varia da 30 minuti a 2 ore.\n\n**Parasailing:** Sorvola la baia trainato da un motoscafo. Questa emozionante attività offre una vista mozzafiato sulla costa, sulle montagne e sulle acque cristalline. Sono disponibili voli in tandem per coppie o amici.\n\n**Wakeboard e sci nautico:** Diversi operatori offrono esperienze per principianti e avanzati. Le acque calme del mattino offrono condizioni perfette.\n\n**Vela:** Dalle piccole imbarcazioni ai charter con equipaggio, la vela è un modo meraviglioso per vivere la baia. Le scuole di vela propongono corsi per tutti i livelli, mentre le compagnie di charter offrono noleggi con o senza skipper per uno o più giorni.\n\n**Windsurf e kitesurf:** Quando soffia la brezza, Alcudia diventa un paradiso per gli sport a vento. L’unione tra acque basse e venti costanti crea condizioni ideali per imparare, mentre i più esperti possono divertirsi con onde e salti più lontano dalla costa."
+  },
+  "section5": {
+    "title": "Vivi le attività acquatiche con Coral Boats",
+    "body": "Anche se Alcudia offre innumerevoli modi per godersi il mare, uno dei più memorabili e rilassanti è partecipare a un’escursione in barca con Coral Boats. La nostra imbarcazione classica, costruita nel 1968, offre una piattaforma unica per vivere diverse attività acquatiche in un’unica esperienza indimenticabile.\n\nDurante le nostre escursioni potrai:\n\n- **Fare snorkeling in calette nascoste e incontaminate**, accessibili solo via mare, con acque cristalline e abbondante vita marina.\n- **Nuotare in acque turchesi e tranquille**, lontano dalle spiagge affollate.\n- **Fare paddle direttamente dalla barca**, in baie protette circondate da panorami spettacolari.\n- **Tuffarti dal ponte nel Mediterraneo**, per chi ama l’avventura!\n- **Rilassarti a bordo**, con bevande e snack inclusi, mentre ammiri la costa.\n\nForniamo tutta l’attrezzatura necessaria, inclusi maschere da snorkeling, tavole da paddle e giubbotti di salvataggio. Il nostro equipaggio esperto conosce perfettamente la baia e ti porterà nei migliori luoghi in base alle condizioni meteo e alle tue preferenze.\n\nChe tu scelga la nostra escursione del mattino o quella al tramonto, vivrai la magia delle acque di Alcudia in modo autentico e rilassato – il modo mediterraneo di godersi il mare.\n\n**Pronto a tuffarti?** Prenota la tua esperienza con Coral Boats e scopri perché i nostri ospiti la definiscono il momento più bello della loro vacanza a Maiorca. Dalle famiglie con bambini ai gruppi di amici e alle coppie in cerca di romanticismo, tutti trovano il loro momento perfetto in mare con noi."
+  }
+}
+
+
+
 }
