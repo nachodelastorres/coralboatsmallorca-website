@@ -9,6 +9,36 @@ interface MinimalistLayoutProps {
   blog: IBlogDT;
 }
 
+// Helper function to process markdown text
+const processMarkdown = (text: string) => {
+  if (!text) return { paragraphs: [], bullets: [] };
+
+  const lines = text.split('\n').filter(line => line.trim());
+  const paragraphs: string[] = [];
+  const bullets: string[] = [];
+
+  lines.forEach(line => {
+    if (line.trim().startsWith('- ')) {
+      bullets.push(line.replace(/^-\s*/, '').trim());
+    } else {
+      paragraphs.push(line.trim());
+    }
+  });
+
+  return { paragraphs, bullets };
+};
+
+// Helper function to render text with bold markers
+const renderTextWithBold = (text: string) => {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx} style={{ fontWeight: '700', color: '#1e293b' }}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
 const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
   const { t } = useTranslation('common');
 
@@ -116,10 +146,10 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
               {/* Section 1 */}
               <div style={{ marginBottom: '50px' }}>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
-                  {t(blog.section1Title!)}
+                  {renderTextWithBold(t(blog.section1Title!))}
                 </p>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', fontWeight: '300' }}>
-                  {t(blog.section1Body!)}
+                  {renderTextWithBold(t(blog.section1Body!))}
                 </p>
               </div>
 
@@ -141,42 +171,52 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                 >
                   {t(blog.section2Title!)}
                 </h2>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
-                  {t(blog.section2Body!).split('\n')[0]}
-                </p>
-                <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                  {t(blog.section2Body!)
-                    .split('\n')
-                    .slice(1)
-                    .filter(item => item.trim())
-                    .map((item, idx) => (
-                      <li
-                        key={idx}
-                        style={{
-                          fontSize: '1.05rem',
-                          color: '#475569',
-                          lineHeight: '2',
-                          marginBottom: '15px',
-                          paddingLeft: '30px',
-                          position: 'relative',
-                          fontWeight: '300',
-                        }}
-                      >
-                        <span
-                          style={{
-                            position: 'absolute',
-                            left: 0,
-                            top: '12px',
-                            width: '6px',
-                            height: '6px',
-                            borderRadius: '50%',
-                            background: '#0891b2',
-                          }}
-                        ></span>
-                        {item.replace('- ', '')}
-                      </li>
-                    ))}
-                </ul>
+                {(() => {
+                  const section2Content = t(blog.section2Body!);
+                  const { paragraphs, bullets } = processMarkdown(section2Content);
+
+                  return (
+                    <>
+                      {paragraphs.map((para, idx) => (
+                        <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
+                          {renderTextWithBold(para)}
+                        </p>
+                      ))}
+
+                      {bullets.length > 0 && (
+                        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                          {bullets.map((bullet, idx) => (
+                            <li
+                              key={idx}
+                              style={{
+                                fontSize: '1.05rem',
+                                color: '#475569',
+                                lineHeight: '2',
+                                marginBottom: '15px',
+                                paddingLeft: '30px',
+                                position: 'relative',
+                                fontWeight: '300',
+                              }}
+                            >
+                              <span
+                                style={{
+                                  position: 'absolute',
+                                  left: 0,
+                                  top: '12px',
+                                  width: '6px',
+                                  height: '6px',
+                                  borderRadius: '50%',
+                                  background: '#0891b2',
+                                }}
+                              ></span>
+                              {renderTextWithBold(bullet)}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </>
+                  );
+                })()}
               </div>
 
               {/* Simple CTA */}
@@ -237,24 +277,64 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     { subtitle: blog.section3sub1Subtitle, body: blog.section3sub1Body },
                     { subtitle: blog.section3sub2Subtitle, body: blog.section3sub2Body },
                     { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
-                  ].map((section, idx) => (
-                    <div key={idx}>
-                      <h3
-                        style={{
-                          fontSize: '1.5rem',
-                          fontWeight: '400',
-                          color: '#1e293b',
-                          marginBottom: '15px',
-                          letterSpacing: '-0.01em',
-                        }}
-                      >
-                        {t(section.subtitle!)}
-                      </h3>
-                      <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '2', fontWeight: '300' }}>
-                        {t(section.body!)}
-                      </p>
-                    </div>
-                  ))}
+                  ].map((section, idx) => {
+                    const content = t(section.body!);
+                    const { paragraphs, bullets } = processMarkdown(content);
+
+                    return (
+                      <div key={idx}>
+                        <h3
+                          style={{
+                            fontSize: '1.5rem',
+                            fontWeight: '400',
+                            color: '#1e293b',
+                            marginBottom: '15px',
+                            letterSpacing: '-0.01em',
+                          }}
+                        >
+                          {t(section.subtitle!)}
+                        </h3>
+
+                        {paragraphs.map((para, pIdx) => (
+                          <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '2', fontWeight: '300', marginBottom: '20px' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0' }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '2',
+                                  marginBottom: '15px',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                  fontWeight: '300',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: 0,
+                                    top: '12px',
+                                    width: '6px',
+                                    height: '6px',
+                                    borderRadius: '50%',
+                                    background: '#0891b2',
+                                  }}
+                                ></span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
 
@@ -276,9 +356,52 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     >
                       {t(blog.section4Title)}
                     </h2>
-                    <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', fontWeight: '300' }}>
-                      {t(blog.section4Body!)}
-                    </p>
+                    {(() => {
+                      const section4Content = t(blog.section4Body!);
+                      const { paragraphs, bullets } = processMarkdown(section4Content);
+
+                      return (
+                        <>
+                          {paragraphs.map((para, idx) => (
+                            <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
+                              {renderTextWithBold(para)}
+                            </p>
+                          ))}
+
+                          {bullets.length > 0 && (
+                            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                              {bullets.map((bullet, idx) => (
+                                <li
+                                  key={idx}
+                                  style={{
+                                    fontSize: '1.05rem',
+                                    color: '#475569',
+                                    lineHeight: '2',
+                                    marginBottom: '15px',
+                                    paddingLeft: '30px',
+                                    position: 'relative',
+                                    fontWeight: '300',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      position: 'absolute',
+                                      left: 0,
+                                      top: '12px',
+                                      width: '6px',
+                                      height: '6px',
+                                      borderRadius: '50%',
+                                      background: '#0891b2',
+                                    }}
+                                  ></span>
+                                  {renderTextWithBold(bullet)}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </>
+                      );
+                    })()}
                   </div>
                 </>
               )}
@@ -303,9 +426,52 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   >
                     {t(blog.section5Title)}
                   </h2>
-                  <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', fontWeight: '300' }}>
-                    {t(blog.section5Body!)}
-                  </p>
+                  {(() => {
+                    const section5Content = t(blog.section5Body!);
+                    const { paragraphs, bullets } = processMarkdown(section5Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, idx) => (
+                              <li
+                                key={idx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '2',
+                                  marginBottom: '15px',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                  fontWeight: '300',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: 0,
+                                    top: '12px',
+                                    width: '6px',
+                                    height: '6px',
+                                    borderRadius: '50%',
+                                    background: '#0891b2',
+                                  }}
+                                ></span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               )}
 

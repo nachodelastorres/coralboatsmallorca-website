@@ -58,6 +58,27 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Redirect /tour and /tours to main tours page
+      {
+        source: '/tour',
+        destination: '/boat-tours-alcudia',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/tours',
+        destination: '/boat-tours-alcudia',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/:lang(en|es|de|fr|it|ca)/tour',
+        destination: '/:lang/boat-tours-alcudia',
+        permanent: true, // 301 redirect
+      },
+      {
+        source: '/:lang(en|es|de|fr|it|ca)/tours',
+        destination: '/:lang/boat-tours-alcudia',
+        permanent: true, // 301 redirect
+      },
       // Redirect old tour-details URLs to new premium URLs (with locale support)
       {
         source: '/:lang(en|es|de|fr|it|ca)/tour-details/morning-tour',
