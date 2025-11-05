@@ -10,6 +10,8 @@ import PrivateCharterFeatures from '@/components/premium/charter/PrivateCharterF
 import PrivateCharterGallery from '@/components/premium/charter/PrivateCharterGallery';
 import PrivateCharterBooking from '@/components/premium/charter/PrivateCharterBooking';
 import PrivateCharterPricingCTA from '@/components/premium/charter/PrivateCharterPricingCTA';
+import RelatedTours from '@/components/premium/tours/RelatedTours';
+import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
 
 const PrivateCharterPage = () => {
   return (
@@ -24,6 +26,8 @@ const PrivateCharterPage = () => {
         <PrivateCharterGallery />
         <PrivateCharterBooking />
         <PrivateCharterFeatures />
+        <RelatedTours currentTour="charter" />
+        <BlogPreviewSection />
       </main>
 
       <FooterOne />

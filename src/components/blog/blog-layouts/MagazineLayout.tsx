@@ -9,6 +9,36 @@ interface MagazineLayoutProps {
   blog: IBlogDT;
 }
 
+// Helper function to process markdown text
+const processMarkdown = (text: string) => {
+  if (!text) return { paragraphs: [], bullets: [] };
+
+  const lines = text.split('\n').filter(line => line.trim());
+  const paragraphs: string[] = [];
+  const bullets: string[] = [];
+
+  lines.forEach(line => {
+    if (line.trim().startsWith('- ')) {
+      bullets.push(line.replace(/^-\s*/, '').trim());
+    } else if (!line.startsWith('**¿Qué significa esto para ti?**') && !line.startsWith('**What does this mean for you?**')) {
+      paragraphs.push(line.trim());
+    }
+  });
+
+  return { paragraphs, bullets };
+};
+
+// Helper function to render text with bold markers
+const renderTextWithBold = (text: string) => {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx} style={{ fontWeight: '700', color: '#1e293b' }}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
 const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
   const { t } = useTranslation('common');
 
@@ -122,10 +152,10 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
               {/* Section 1 */}
               <div style={{ marginBottom: '50px' }}>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '20px' }}>
-                  {t(blog.section1Title!)}
+                  {renderTextWithBold(t(blog.section1Title!))}
                 </p>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
-                  {t(blog.section1Body!)}
+                  {renderTextWithBold(t(blog.section1Body!))}
                 </p>
               </div>
 
@@ -142,47 +172,62 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 >
                   {t(blog.section2Title!)}
                 </h2>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
-                  {t(blog.section2Body!).split('\n')[0]}
-                </p>
-                <div className="row g-4">
-                  {t(blog.section2Body!)
-                    .split('\n')
-                    .slice(1)
-                    .filter(item => item.trim())
-                    .map((item, idx) => (
-                      <div key={idx} className="col-md-6">
-                        <div
-                          style={{
-                            display: 'flex',
-                            gap: '15px',
-                            padding: '20px',
-                            background: '#f8fafc',
-                            borderRadius: '12px',
-                            border: '1px solid #e2e8f0',
-                          }}
-                        >
-                          <div
-                            style={{
-                              width: '40px',
-                              height: '40px',
-                              borderRadius: '50%',
-                              background: '#e0f2fe',
-                              display: 'flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                              flexShrink: 0,
-                            }}
-                          >
-                            <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '1.1rem' }}></i>
-                          </div>
-                          <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.7', margin: 0 }}>
-                            {item.replace('- ', '')}
-                          </p>
+                {(() => {
+                  const section2Content = t(blog.section2Body!);
+                  const { paragraphs, bullets } = processMarkdown(section2Content);
+
+                  return (
+                    <>
+                      {paragraphs.map((para, idx) => (
+                        <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          {renderTextWithBold(para)}
+                        </p>
+                      ))}
+
+                      {bullets.length > 0 && (
+                        <div className="row g-4">
+                          {bullets.map((bullet, idx) => (
+                            <div key={idx} className="col-md-6">
+                              <div
+                                style={{
+                                  display: 'flex',
+                                  gap: '15px',
+                                  padding: '25px',
+                                  background: 'linear-gradient(135deg, #f8fafc 0%, #ffffff 100%)',
+                                  borderRadius: '15px',
+                                  border: '2px solid #e0f2fe',
+                                  boxShadow: '0 4px 15px rgba(8, 145, 178, 0.08)',
+                                  transition: 'all 0.3s ease',
+                                  minHeight: '120px',
+                                }}
+                                className="benefit-card"
+                              >
+                                <div
+                                  style={{
+                                    width: '45px',
+                                    height: '45px',
+                                    borderRadius: '12px',
+                                    background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    flexShrink: 0,
+                                    boxShadow: '0 4px 12px rgba(8, 145, 178, 0.3)',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#ffffff', fontSize: '1.2rem' }}></i>
+                                </div>
+                                <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', margin: 0 }}>
+                                  {renderTextWithBold(bullet)}
+                                </p>
+                              </div>
+                            </div>
+                          ))}
                         </div>
-                      </div>
-                    ))}
-                </div>
+                      )}
+                    </>
+                  );
+                })()}
               </div>
 
               {/* CTA Mid-Article */}
@@ -237,7 +282,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                   {t(blog.section3Title!)}
                 </h2>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
-                  {t(blog.section3Body!)}
+                  {renderTextWithBold(t(blog.section3Body!))}
                 </p>
 
                 {/* Sub-sections as cards */}
@@ -246,51 +291,95 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     { subtitle: blog.section3sub1Subtitle, body: blog.section3sub1Body },
                     { subtitle: blog.section3sub2Subtitle, body: blog.section3sub2Body },
                     { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
-                  ].map((section, idx) => (
-                    <div
-                      key={idx}
-                      style={{
-                        padding: '30px',
-                        background: '#ffffff',
-                        borderRadius: '15px',
-                        border: '2px solid #e2e8f0',
-                        transition: 'all 0.3s ease',
-                      }}
-                      className="magazine-feature-card"
-                    >
-                      <h3
+                  ].map((section, idx) => {
+                    const subsectionContent = t(section.body!);
+                    const { paragraphs, bullets } = processMarkdown(subsectionContent);
+
+                    return (
+                      <div
+                        key={idx}
                         style={{
-                          fontSize: '1.5rem',
-                          fontWeight: '700',
-                          color: '#0891b2',
-                          marginBottom: '15px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '12px',
+                          padding: '30px',
+                          background: '#ffffff',
+                          borderRadius: '15px',
+                          border: '2px solid #e2e8f0',
+                          transition: 'all 0.3s ease',
                         }}
+                        className="magazine-feature-card"
                       >
-                        <span
+                        <h3
                           style={{
-                            width: '35px',
-                            height: '35px',
-                            borderRadius: '50%',
-                            background: '#e0f2fe',
+                            fontSize: '1.5rem',
+                            fontWeight: '700',
+                            color: '#0891b2',
+                            marginBottom: '15px',
                             display: 'flex',
                             alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '1rem',
-                            fontWeight: '700',
+                            gap: '12px',
                           }}
                         >
-                          {idx + 1}
-                        </span>
-                        {t(section.subtitle!)}
-                      </h3>
-                      <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', margin: 0 }}>
-                        {t(section.body!)}
-                      </p>
-                    </div>
-                  ))}
+                          <span
+                            style={{
+                              width: '35px',
+                              height: '35px',
+                              borderRadius: '50%',
+                              background: '#e0f2fe',
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              fontSize: '1rem',
+                              fontWeight: '700',
+                            }}
+                          >
+                            {idx + 1}
+                          </span>
+                          {renderTextWithBold(t(section.subtitle!))}
+                        </h3>
+
+                        {paragraphs.map((para, pIdx) => (
+                          <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: '12px',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
 
@@ -307,9 +396,56 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                   >
                     {t(blog.section4Title)}
                   </h2>
-                  <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
-                    {t(blog.section4Body!)}
-                  </p>
+                  {(() => {
+                    const section4Content = t(blog.section4Body!);
+                    const { paragraphs, bullets } = processMarkdown(section4Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: '12px',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               )}
 
@@ -333,9 +469,56 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                   >
                     {t(blog.section5Title)}
                   </h2>
-                  <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', margin: 0 }}>
-                    {t(blog.section5Body!)}
-                  </p>
+                  {(() => {
+                    const section5Content = t(blog.section5Body!);
+                    const { paragraphs, bullets } = processMarkdown(section5Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               )}
             </div>
@@ -348,6 +531,11 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
           border-color: #0891b2;
           box-shadow: 0 8px 25px rgba(8, 145, 178, 0.15);
           transform: translateY(-2px);
+        }
+        .benefit-card:hover {
+          border-color: #0891b2;
+          box-shadow: 0 8px 30px rgba(8, 145, 178, 0.2);
+          transform: translateY(-3px);
         }
       `}</style>
     </article>

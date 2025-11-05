@@ -5,6 +5,7 @@ import { IBlogDT } from '@/types/blog-d-t';
 import MagazineLayout from '../blog-layouts/MagazineLayout';
 import MinimalistLayout from '../blog-layouts/MinimalistLayout';
 import VisualLayout from '../blog-layouts/VisualLayout';
+import StorytellingLayout from '../blog-layouts/StorytellingLayout';
 import RelatedPosts from '../RelatedPosts';
 
 interface BlogDetailsProps {
@@ -23,6 +24,8 @@ const BlogDetailsArea = ({ blog }: BlogDetailsProps) => {
         return <MinimalistLayout blog={blog} />;
       case 'visual':
         return <VisualLayout blog={blog} />;
+      case 'storytelling':
+        return <StorytellingLayout blog={blog} />;
       case 'simple':
         // Simple layout for very short posts
         return <MinimalistLayout blog={blog} />;

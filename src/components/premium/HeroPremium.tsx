@@ -4,13 +4,46 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
+import Script from 'next/script';
 
 const HeroPremium = () => {
   const { t } = useTranslation('common');
-  const { getPath } = useLocale();
+  const { getPath, locale } = useLocale();
+
+  // Video Schema Markup for SEO
+  const videoSchema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": t('premium.hero.video.name'),
+    "description": t('premium.hero.video.description'),
+    "thumbnailUrl": "https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp",
+    "uploadDate": "2025-10-01T00:00:00Z",
+    "duration": "PT33S",
+    "contentUrl": "https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca.mp4",
+    "embedUrl": `https://coralboats.com/${locale}`,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Coral Boats Mallorca",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coralboats.com/assets/img/logo/logo transparente sobre oscuro.png"
+      }
+    },
+    "inLanguage": locale,
+    "isFamilyFriendly": true,
+    "regionsAllowed": "ES,EU"
+  };
 
   return (
     <section className="premium-hero">
+      {/* Video Schema Markup */}
+      <Script
+        id="video-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
+        strategy="afterInteractive"
+      />
+
       {/* Video Background */}
       <div className="premium-hero__background">
         <video
@@ -20,8 +53,15 @@ const HeroPremium = () => {
           muted
           playsInline
           preload="auto"
+          itemScope
+          itemType="https://schema.org/VideoObject"
         >
-          <source src="/assets/img/premium/test/copy4.mp4" type="video/mp4" />
+          <source src="/assets/img/premium/alcudia-boat-trips-mallorca.mp4" type="video/mp4" />
+          <meta itemProp="name" content={t('premium.hero.video.name')} />
+          <meta itemProp="description" content={t('premium.hero.video.description')} />
+          <meta itemProp="thumbnailUrl" content="https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp" />
+          <meta itemProp="uploadDate" content="2025-10-01T00:00:00Z" />
+          <meta itemProp="duration" content="PT33S" />
         </video>
       </div>
 

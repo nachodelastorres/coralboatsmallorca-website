@@ -832,9 +832,93 @@
 
 },
 
+  "gallery_section": {
+    "label": "Galeria",
+    "title": "Capturem moments inoblidables",
+    "description": "Descobreix la bellesa de la Mediterrània a través de les nostres imatges. Cales amagades, capvespres màgics i experiències úniques.",
+    "cta_button": "Veure tota la galeria",
+    "cta_secondary": "Més de 100 fotos",
+    "featured_images": {
+      "image_1": "Explorant cales secretes",
+      "image_2": "Capvespres espectaculars",
+      "image_3": "Diversió a bord",
+      "image_4": "Aventures aquàtiques"
+    }
+  },
+  "blog_section": {
+    "label": "Blog",
+    "title": "Descobreix Mallorca amb els nostres consells",
+    "description": "Guies, recomanacions i experiències per aprofitar al màxim la teva aventura a la badia d'Alcúdia.",
+    "cta_button": "Veure tots els articles",
+    "cta_secondary": "Consells, guies i experiències",
+    "read_time": "5 min",
+    "read_more": "Llegir més"
+  },
+  "tours": {
+    "gallery": {
+      "cta_button": "Veure tota la galeria",
+      "cta_secondary": "Descobreix més moments inoblidables"
+    }
+  },
+  "relatedTours": {
+    "label": "Descobreix Més Experiències",
+    "title": "Altres Excursions en Barca a Alcúdia",
+    "description": "Explora les nostres altres experiències úniques a la badia d'Alcúdia. Cada excursió ofereix quelcom especial per crear records inoblidables.",
+    "from": "Des de",
+    "per_person": "per persona",
+    "view_details": "Veure detalls",
+    "morning": {
+      "name": "Excursió Matinal en Barca",
+      "description": "Comença el teu dia navegant per les aigües cristal·lines de la badia d'Alcúdia. Perfecta per a famílies i amants de l'snorkel, inclou parada en una cala amagada, equip d'snorkel, paddle surf, tapes mallorquines i beguda. Una experiència completa de 4 hores sota el sol mediterrani.",
+      "time": "10:00 - 14:00",
+      "duration": "4 hores",
+      "price": "€68",
+      "highlights": "Ideal per a snorkel • Aigües tranquil·les • Diversió en família"
+    },
+    "sunset": {
+      "name": "Excursió al Capvespre en Barca",
+      "description": "Gaudeix de la màgia del capvespre mediterrani navegant per la costa d'Alcúdia. Una experiència romàntica perfecta per a parelles, inclou música ambiental, tapes gurmet, sangria casolana i vistes espectaculars del sol amagant-se a l'horitzó. Tres hores de pura màgia.",
+      "time": "18:00 - 21:00",
+      "duration": "3 hores",
+      "price": "€65",
+      "highlights": "Capvespre espectacular • Ambient romàntic • Experiència premium"
+    },
+    "charter": {
+      "name": "Charter Privat",
+      "description": "Celebra el teu esdeveniment especial a bord del nostre vaixell clàssic amb capacitat per a fins a 40 persones. Ideal per a aniversaris, comiats, esdeveniments corporatius o reunions familiars. Itinerari personalitzat, càtering a mida, tripulació professional i total flexibilitat per crear la teva experiència perfecta.",
+      "time": "Flexible",
+      "duration": "3-4 hores",
+      "price": "Consultar",
+      "highlights": "Experiència exclusiva • Totalment personalitzable • Perfecte per a esdeveniments"
+    }
+  },
+  "experiences_timeline": {
+    "label": "Les Nostres Aventures",
+    "title": "La Teva Pròxima Experiència T’Espera",
+    "description": "Des de l'alba fins al capvespre, cada viatge explica una història única. Descobreix quina serà la teva.",
+    "cta_inline": "Descobreix més",
+    "morning": {
+      "title": "Aventura Matinal",
+      "description": "Inicia el teu dia amb energia explorant cales secretes, fent snorkel en aigües cristal·lines i gaudint de tapes tradicionals sota el sol mediterrani.",
+      "time": "10:00 - 14:00"
+    },
+    "sunset": {
+      "title": "Màgia del Capvespre",
+      "description": "Viu l’experiència més romàntica de Mallorca mentre el sol es pon a l’horitzó, amb música suau i gastronomia gurmet.",
+      "time": "18:00 - 21:00"
+    },
+    "charter": {
+      "title": "El Teu Esdeveniment Privat",
+      "description": "Crea records únics celebrant el teu esdeveniment especial a bord. Totalment personalitzable per a aniversaris, comiats o reunions corporatives.",
+      "time": "Horari flexible"
+    }
+  },
+
 
 "blog_catorce": {
-  "title": "Snorkel a Mallorca: els millors llocs prop d’Alcúdia",
+  "metaTitle": "Snorkel a Mallorca: Millors Llocs Prop d'Alcúdia | Coral Boats",
+  "metaDescription": "Descobreix els millors llocs per fer snorkel a prop d'Alcúdia, Mallorca. Aigües cristal·lines, vida marina vibrant i tresors submarins amagats t'esperen en el teu proper tour amb vaixell.",
+  "title": "Snorkel a Mallorca: els millors llocs prop d'Alcúdia",
   "slug": "snorkel-mallorca-millors-llocs-alcudia",
   "keyword": "snorkel Mallorca Alcúdia",
   "meta_description": "Descobreix els millors llocs per fer snorkel prop d’Alcúdia, Mallorca. Aigües cristal·lines, vida marina vibrant i tresors subaquàtics amagats t’esperen.",
@@ -960,8 +1044,10 @@
   }
 },
 "blog_quince": {
+  "metaTitle": "Millors Activitats Aquàtiques a la Badia d'Alcúdia: Guia Completa | Coral Boats",
+  "metaDescription": "Descobreix les millors activitats aquàtiques a Alcúdia, Mallorca. Des de snorkel i paddle surf fins a motos d'aigua i vela – la teva guia definitiva d'esports aquàtics a la Badia d'Alcúdia.",
   "badgeTitle": "Esports aquàtics",
-  "title": "Les millors activitats aquàtiques a la badia d’Alcúdia: guia completa",
+  "title": "Les millors activitats aquàtiques a la badia d'Alcúdia: guia completa",
   "publishedDate": "5 d’agost de 2025",
   "meta_description": "Descobreix les millors activitats aquàtiques a Alcúdia, Mallorca. Des de l’snorkel i el paddle surf fins a la moto d’aigua i la vela – la teva guia definitiva dels esports aquàtics a la badia d’Alcúdia.",
   "btnText": "Llegir més",
@@ -998,7 +1084,224 @@
     "title": "Viu les activitats aquàtiques amb Coral Boats",
     "body": "Tot i que Alcúdia ofereix infinites maneres de gaudir del mar, una de les més memorables i relaxants és unir-te a una excursió amb Coral Boats. El nostre vaixell clàssic, construït el 1968, ofereix una plataforma única per gaudir de diverses activitats aquàtiques en una sola experiència inoblidable.\n\nDurant les nostres excursions podràs:\n\n- **Fer snorkel en cales amagades i verges**, inaccessibles des de terra, amb aigües cristal·lines i abundant vida marina.\n- **Banyar-te en aigües turqueses i tranquil·les**, lluny de les platges concorregudes.\n- **Fer paddle surf des del vaixell**, en badies protegides envoltades de paisatges espectaculars.\n- **Saltar des de la coberta al Mediterrani**, per als més aventurers!\n- **Relaxar-te a bord**, amb begudes i aperitius inclosos, mentre gaudeixes de les vistes de la costa.\n\nProporcionem tot l’equipament necessari, incloent màscares de snorkel, taules de paddle i armilles salvavides. La nostra tripulació experimentada coneix perfectament la badia i t’acompanyarà als millors racons segons les condicions meteorològiques i les teves preferències.\n\nTant si tries la nostra excursió del matí com la del capvespre, viuràs la màgia de les aigües d’Alcúdia d’una manera autèntica i pausada – l’estil mediterrani de gaudir del mar.\n\n**Preparat per submergir-te?** Reserva la teva experiència amb Coral Boats i descobreix per què els nostres visitants la consideren el millor moment de les seves vacances a Mallorca. Des de famílies amb infants fins a grups d’amics o parelles que cerquen romanticisme, tothom troba el seu moment perfecte al mar amb nosaltres."
   }
+},
+
+"blog_dieciseis": {
+  "metaTitle": "Charters Privats per a Esdeveniments i Celebracions a Mallorca | Coral Boats",
+  "metaDescription": "Descobreix per què Coral Boats és el lloc perfecte per al teu esdeveniment privat a Mallorca. Amb llicència per a fins a 50 convidats, a diferència dels charters estàndard limitats a 12 persones. Perfecte per a esdeveniments corporatius, aniversaris, comiats i celebracions especials.",
+  "badgeTitle": "Esdeveniments privats",
+  "title": "Charters privats per a esdeveniments i celebracions: per què Coral Boats és l'opció perfecta",
+  "publishedDate": "23 d’agost de 2025",
+  "meta_description": "Descobreix per què Coral Boats és el lloc perfecte per al teu esdeveniment privat a Mallorca. Amb llicència per a fins a 50 persones — a diferència dels charters estàndard limitats a 12. Ideal per a esdeveniments corporatius, aniversaris, comiats de solter o soltera i celebracions especials.",
+  "btnText": "Llegir més",
+  "keyword": "charter privat Mallorca, lloguer vaixell Alcúdia, esdeveniments empresa vaixell Mallorca, aniversari vaixell, comiat de solter vaixell, charter grups grans Mallorca, vaixell 50 persones, casament vaixell Mallorca, charter celebracions",
+  "section1": {
+    "title": "Celebra els teus moments especials al Mediterrani",
+    "body": "Quan es tracta d’organitzar un esdeveniment o una celebració inoblidable, l’espai marca la diferència. I què pot ser més memorable que celebrar a bord d’un vaixell clàssic navegant per les aigües cristal·lines de la badia d’Alcúdia?\n\nA Coral Boats estem especialitzats en charters privats per a grups que cerquen una experiència realment única. Tant si estàs planejant un esdeveniment d’empresa, un aniversari especial, un comiat de solter o soltera, una trobada familiar o qualsevol altra ocasió, el nostre vaixell ofereix l’escenari perfecte per crear records duradors al Mediterrani.\n\nPerò què ens diferencia realment d’altres charters de Mallorca? La nostra capacitat i llicència especial ens permeten oferir celebracions que la majoria de vaixells simplement no poden acollir."
+  },
+  "section2": {
+    "title": "L’avantatge de Coral Boats: llicència per a fins a 50 passatgers",
+    "body": "Aquesta és la realitat dels charters privats a Mallorca: la gran majoria d’embarcacions estan limitades per la normativa marítima a un màxim de 12 passatgers. Això obliga els grups grans a dividir-se en diversos vaixells o a reduir la seva llista d’invitats.\n\nAquí és on Coral Boats destaca. Gràcies a la nostra llicència comercial especial, estem autoritzats legalment per portar fins a 50 persones en un sol charter, fet que ens converteix en un dels pocs vaixells de la zona d’Alcúdia capaç d’acollir grans celebracions de grup.\n\n**Què significa això per a tu:**\n\n- **Tot el grup junts** – No cal dividir amics, família o companys en diferents vaixells\n- **Millor relació qualitat-preu** – Més econòmic que reservar diversos charters petits\n- **Experiència compartida** – Tothom gaudeix dels mateixos moments, parades i activitats\n- **Ambient de festa únic** – Els grups grans creen una energia increïble i un ambient inoblidable\n- **Flexibilitat per a afegir convidats d’última hora** – Espai suficient sense preocupar-te per la capacitat\n\nTant si sou 15 com 45 persones, podem acollir tot el grup a bord del nostre vaixell clàssic del 1968, assegurant que tothom visqui la celebració plegats del principi al final."
+  },
+  "section3": {
+    "title": "Perfecte per a tot tipus de celebracions",
+    "body": "La nostra gran capacitat i la possibilitat de personalitzar l’experiència fan de Coral Boats l’espai ideal per a gairebé qualsevol tipus d’esdeveniment o celebració:",
+    "sub1": {
+      "subtitle": "Esdeveniments corporatius i team building",
+      "body": "Surt de l’oficina i porta el teu equip al mar per a una experiència que no oblidaran. Els nostres charters privats són ideals per a:\n\n- **Celebracions d’empresa** – Recompensa el teu equip amb una experiència única\n- **Activitats de team building** – Fomenta la col·laboració i la comunicació en un entorn relaxat i inspirador\n- **Atenció a clients** – Impressiona els teus clients o socis amb una experiència mediterrània exclusiva\n- **Llançament de productes** – Dona visibilitat amb un esdeveniment memorable sobre l’aigua\n- **Retirs corporatius** – Combina treball i relax en plena natura\n\nAmb capacitat per a fins a 50 persones, pots convidar tot el departament o grup de clients sense deixar ningú enrere. Podem adaptar el catering, preparar presentacions i crear un itinerari que equilibri productivitat i diversió."
+    },
+    "sub2": {
+      "subtitle": "Aniversaris i celebracions especials",
+      "body": "Des dels 18 fins als 50 anys, Coral Boats és l’escenari ideal per celebrar moments únics:\n\n- **Els grans aniversaris mereixen grans festes** – Convida tots els teus amics i familiars\n- **Experiència personalitzable** – Tria l’hora de sortida, les parades, la música, el menjar i les begudes\n- **Únic i inoblidable** – Molt més especial que una festa en un restaurant o local\n- **Diversió assegurada** – Bany, snorkel, paddle surf i els paisatges de la badia\n- **Perfecte per a les fotos** – El Mediterrani com a fons incomparable\n\nImagina celebrar el teu dia envoltat de les teves persones preferides, nedant en cales amagades, brindant amb sangria a coberta i veient la posta de sol sobre la Serra de Tramuntana. Aquesta és l’experiència Coral Boats."
+    },
+    "sub3": {
+      "subtitle": "Comiats de solter i soltera",
+      "body": "Estàs organitzant una festa abans del casament? Els nostres charters privats són una de les opcions més populars per a comiats de solter i soltera a Mallorca:\n\n- **Ambient de festa** – Porta tot el grup per a una celebració èpica al mar\n- **Activitats aquàtiques** – Salta des del vaixell, fes paddle surf, snorkel i gaudeix de l’aigua\n- **Opcions de barra lliure** – Paquets amb begudes il·limitades (sangria, cervesa, vi i refrescos)\n- **Càtering** – Tapas i aperitius mallorquins tradicionals\n- **Música i ball** – El nostre sistema de so manté l’ambient festiu\n- **Privacitat total** – El vaixell és exclusivament per al vostre grup\n\nTant si prefereixes una festa animada com una celebració més relaxada amb els amics, adaptem l’experiència al teu estil. I amb capacitat per a fins a 50 convidats, no hauràs de deixar ningú fora."
+    }
+  },
+  "section4": {
+    "title": "Per què triar un charter per al teu esdeveniment?",
+    "body": "Més enllà de la nostra gran capacitat, celebrar el teu esdeveniment en un vaixell privat ofereix avantatges que cap espai tradicional pot igualar:\n\n**Entorn inoblidable:** La bellesa natural de la badia d’Alcúdia, amb aigües turqueses, cales amagades i vistes espectaculars, crea un escenari que cap local interior pot superar.\n\n**Diversió inclosa:** A diferència dels espais convencionals, un vaixell ja inclou activitats com banys, snorkel, paddle surf i salts des de coberta.\n\n**Clima ideal:** El nord de Mallorca gaudeix de més de 300 dies de sol a l’any, perfecte per a celebracions d’abril a octubre.\n\n**Experiència única:** Els teus convidats recordaran aquesta festa durant anys. És molt més especial que una celebració en un restaurant o hotel.\n\n**Tot inclòs:** Ens encarreguem de tot — equip de seguretat, activitats aquàtiques, càtering opcional i servei de bar. Tu només has de gaudir.\n\n**Flexible i personalitzable:** Tria l’hora de sortida, la durada (3-4 hores o més), l’itinerari, les parades, el menjar, les begudes i la música. Ens adaptem a la teva visió.\n\n**Tripulació professional:** El nostre equip s’encarrega de la navegació, la seguretat i l’atenció a bord, perquè tu només hagis de relaxar-te i gaudir de la teva celebració."
+  },
+  "section5": {
+    "title": "Preparat per organitzar la teva celebració privada?",
+    "body": "Si estàs planejant un esdeveniment o una celebració a Mallorca i necessites un lloc on càpiga tot el grup —ja siguin 15 o 50 persones—, Coral Boats t’ofereix una solució única.\n\nLa nostra llicència especial ens diferencia de la majoria de charters privats, limitats a 12 passatgers. Això ens permet organitzar celebracions que altres empreses no poden, mantenint el grup unit per a una experiència compartida al Mediterrani.\n\nDes d’esdeveniments corporatius i activitats de team building fins a aniversaris, comiats o reunions familiars, personalitzem cada detall per crear el dia perfecte al mar.\n\n**Inclou:**\n- Ús exclusiu del nostre vaixell clàssic de 1968\n- Tripulació professional i amable dedicada a l’esdeveniment\n- Itinerari personalitzable amb parades en cales amagades\n- Equip per a bany, snorkel i paddle surf\n- Sistema de so per a música i anuncis\n- Opcions de càtering amb tapes mallorquines\n- Paquets de barra lliure amb begudes il·limitades\n- Flexibilitat en horaris, durada i peticions especials\n\n**Preparat per fer la teva celebració inoblidable?**\n\nVisita la nostra pàgina de charters privats per consultar preus transparents, veure fotos d’esdeveniments anteriors i enviar la teva sol·licitud de reserva. Normalment responem en poques hores per confirmar la disponibilitat i adaptar l’experiència a les teves necessitats.\n\nNo divideixis el teu grup en diversos vaixells — celebra tots junts! Amb Coral Boats, viuràs una experiència extraordinària a les aigües de la badia d’Alcúdia.\n\nCreem records que durin tota la vida. Reserva avui mateix el teu charter privat."
+  }
+},
+
+"blog_diecisiete": {
+  "metaTitle": "Sangria Casolana Autèntica a Bord de Coral Boats: La Millor Sangria de Mallorca | Begudes en Barca",
+  "metaDescription": "Descobreix per què Coral Boats serveix la millor sangria casolana de Mallorca. Preparada fresca a bord amb ingredients locals secrets, la nostra autèntica sangria mediterrània és la companya perfecta per al teu tour en vaixell per la badia d’Alcúdia. A més, còctels, begudes fredes i sabors de l’illa.",
+  "badgeTitle": "Begudes i Experiència",
+  "title": "El Secret de la Nostra Sangria Casolana Llegendària: Per què Té un Gust Millor al Mar",
+  "publishedDate": "30 d’agost de 2025",
+  "meta_description": "Gaudeix de la millor sangria casolana de Mallorca a bord de Coral Boats. Ingredients frescos, recepta local secreta i feta amb amor. Descobreix per què la sangria té un gust únic al mar durant la teva excursió en vaixell per Alcúdia.",
+  "btnText": "Llegir més",
+  "keyword": "sangria Mallorca, sangria casolana, begudes vaixell Alcúdia, recepta sangria, begudes mediterrànies, sangria excursió vaixell, millor sangria Mallorca, còctels vaixell, begudes fredes navegació, sangria espanyola autèntica",
+  "section1": {
+    "title": "Hi ha alguna cosa màgica en beure sangria al Mediterrani",
+    "body": "El sol a la pell, el suau balanceig del vaixell, les rialles que ressonen sobre les aigües turqueses i, a la mà, una copa freda de sangria perfectament preparada. Aquesta és l’experiència mediterrània en la seva màxima expressió, i a Coral Boats l’hem perfeccionada.\n\nPerò no totes les sangries són iguals. En molts bars turístics de Mallorca trobaràs sangria preparada o, fins i tot, servida des d’un barril. A Coral Boats ho fem diferent. La nostra sangria és **casolana, feta fresca a bord i infusionada amb ingredients locals secrets**, que li donen aquest caràcter autèntic de l’illa que no trobaràs enlloc més.\n\nNo és només una beguda: és una celebració de la cultura mallorquina, un brindis pels bons moments i, probablement, la millor sangria que tastaràs mai. Aquí t’expliquem per què s’ha convertit en una llegenda entre els nostres convidats."
+  },
+  "section2": {
+    "title": "Què fa que la nostra sangria sigui la millor de l’illa?",
+    "body": "A Coral Boats no escatimem esforços amb la nostra sangria estrella. Cada tanda es prepara amb cura, passió i respecte per la tradició mediterrània. Això és el que la fa única:\n\n- **Feta fresca i amb amor** – La preparem a bord amb mètodes tradicionals, mai amb mescles industrials\n- **Ingredients locals secrets** – Recepta transmesa de generació en generació amb gust mallorquí autèntic\n- **Base de vi negre espanyol de qualitat** – L’essència de qualsevol bona sangria\n- **Fruita fresca de temporada** – Taronges, llimones, pomes i altres fruites tallades al moment\n- **Equilibri perfecte** – Ni massa dolça ni massa forta: harmonia ideal entre fruita, vi i licor\n- **Servida ben freda** – Refrescant sota el sol mediterrani\n- **Preparada en petites quantitats** – Prioritzem la qualitat per damunt de la quantitat"
+  },
+  "section3": {
+    "title": "Per què la sangria té un gust millor al mar (ciència i ànima)",
+    "body": "Hi ha un motiu pel qual la sangria en vaixell té un gust infinitament millor que en un bar de platja. És una combinació d’entorn, experiència i un toc de màgia mediterrània:",
+    "sub1": {
+      "subtitle": "L’estímul sensorial de ser sobre l’aigua",
+      "body": "Quan navegues per la badia d’Alcúdia, tots els sentits s’activen. La brisa marina, la calor del sol, el so de les ones contra el casc — tot intensifica cada glop de sangria. El cervell associa el gust amb l’experiència i el resultat és **extraordinari**.\n\nEls estudis demostren que el context influeix enormement en la percepció del gust. La mateixa sangria que pot semblar agradable en terra ferma esdevé inoblidable quan la gaudeixes fondejat en una cala amagada envoltat d’aigües cristal·lines."
+    },
+    "sub2": {
+      "subtitle": "Temperatura perfecta, moment perfecte",
+      "body": "Durant un tour en vaixell, el moment ho és tot. Després de nedar al Mediterrani o fer paddle surf, el cos demana alguna cosa fresca. És llavors quan la nostra sangria casolana ben freda arriba al moment ideal: no és només una beguda, és **exactament el que necessites**.\n\nEl contrast entre el sol càlid i la sangria freda, entre activitat i relax, crea una experiència que recordaràs molt de temps."
+    },
+    "sub3": {
+      "subtitle": "L’alegria compartida amplifica el gust",
+      "body": "La sangria és una beguda social, pensada per compartir entre amics, família o nous companys de viatge. Quan brindes envoltat de la bellesa de la costa mallorquina, cada glop es converteix en un record compartit.\n\nBrindar amb sangria en un vaixell uneix les persones: és informal però festiu, relaxat però especial. Aquest esperit comunitari forma part de l’essència de la sangria i es viu intensament en els nostres tours."
+    }
+  },
+  "section4": {
+    "title": "Més enllà de la sangria: una carta completa de begudes i còctels",
+    "body": "Tot i que la nostra sangria casolana és la protagonista, sabem que cadascú té els seus gustos. Per això, Coral Boats ofereix una àmplia selecció de begudes fredes i còctels deliciosos per a tots els paladars:\n\n**Còctels clàssics:**\n- Mojitos amb menta i llima fresca\n- Gin-tonics refrescants amb destil·lats premium\n- Piña coladas amb toc tropical\n- Margarites (frozen o clàssiques)\n\n**Cervesa i vi:**\n- Cerveses locals i internacionals ben fredes\n- Vi blanc fresc, perfecte per als dies calorosos\n- Rosat espanyol, clàssic mediterrani\n- Vi negre per als qui prefereixen intensitat\n\n**Begudes sense alcohol:**\n- Sucs naturals\n- Refrescos (Coca-Cola, Fanta, Sprite, etc.)\n- Aigua amb gas o natural\n- Te fred i llimonada\n\nTant si et ve de gust un còctel afruitat, una cervesa freda o la nostra llegendària sangria, tenim la beguda ideal per a tu. La tripulació serveix durant tot el trajecte perquè sempre estiguis fresc i content."
+  },
+  "section5": {
+    "title": "L’experiència Coral Boats: on les bones begudes creen moments inoblidables",
+    "body": "Una excursió en vaixell no és només una destinació, sinó una experiència completa. I això inclou allò que beus a bord.\n\nA Coral Boats creiem que **els petits detalls marquen la diferència**. Per això posem tanta cura en la nostra sangria casolana i en el servei de còctels. Volem que cada convidat se senti especial, assaboreixi l’autenticitat i creï records que perdurin.\n\nQuan reserves amb nosaltres, no només reserves un viatge en vaixell — reserves una experiència mediterrània completa, on la millor sangria de Mallorca és només l’inici d’un dia ple de moments màgics.\n\n**Preparat per tastar la llegendària sangria de Coral Boats?** Reserva la teva excursió avui mateix i descobreix per què els nostres convidats tornen una i altra vegada, no només per les cales amagades i les aigües cristal·lines, sinó també per la nostra inigualable sangria casolana. Salut!"
+    }
+  },
+"blog_dieciocho": {
+  "metaTitle": "Què Fer a Playa de Muro 2025: Guia Completa de la Badia d’Alcúdia | Activitats i Excursions",
+  "metaDescription": "Descobreix les millors activitats i coses per fer a Playa de Muro, Port d’Alcúdia i Alcúdia. Platges verges, esports aquàtics, excursions en vaixell i gastronomia local. La teva guia completa per a unes vacances inoblidables al nord de Mallorca.",
+  "badgeTitle": "Guia de Viatge",
+  "title": "Guia Definitiva: Les Millors Coses per Fer a Playa de Muro i a la Badia d’Alcúdia",
+  "publishedDate": "2 de setembre de 2025",
+  "meta_description": "Guia completa de Playa de Muro, Port d’Alcúdia i Alcúdia. Les millors platges, restaurants, activitats aquàtiques, excursions en vaixell i racons secrets del nord de Mallorca. Planifica les teves vacances mediterrànies perfectes.",
+  "btnText": "Llegir més",
+  "keyword": "què fer Playa de Muro, activitats Port d’Alcúdia, turisme Alcúdia, platja Playa de Muro, excursions vaixell Badia d’Alcúdia, esports aquàtics Mallorca, millors platges Alcúdia, restaurants Playa de Muro, activitats familiars Alcúdia, guia vacances Mallorca",
+  "section1": {
+    "title": "Per què Playa de Muro és el paradís amagat de Mallorca",
+    "body": "Situada a la impressionant costa nord de Mallorca, Playa de Muro representa tot allò que somies quan penses en unes vacances perfectes al Mediterrani. Amb **7 quilòmetres de sorra blanca i fina**, aigües turqueses i cristal·lines i el majestuós teló de fons de la Serra de Tramuntana, aquesta zona ofereix un refugi idíl·lic que combina bellesa natural i serveis turístics de qualitat.\n\nA diferència dels resorts massificats del sud de l’illa, Playa de Muro, Port d’Alcúdia i la històrica vila d’Alcúdia mantenen el seu encant autèntic mentre ofereixen comoditats modernes i de primer nivell. Tant si viatges en família, en parella o amb amics, aquest racó de Mallorca té alguna cosa especial per a tothom.\n\nEn aquesta guia completa explorarem les millors coses per fer a Playa de Muro i a la Badia d’Alcúdia: esports aquàtics, excursions en vaixell, experiències culturals i gastronomia local. Descobreix per què aquesta regió ha d’estar al teu itinerari per Mallorca."
+  },
+  "section2": {
+    "title": "Les platges: el tresor més gran de Playa de Muro",
+    "body": "La protagonista indiscutible d’aquesta zona és, sens dubte, la seva espectacular línia de costa. Playa de Muro figura regularment entre les millors platges d’Espanya i d’Europa, i quan la visitis, entendràs per què:\n\n- **Aigües poc profundes i tranquil·les** – Perfectes per a famílies amb infants; pots caminar més de 50 metres sense que cobreixi\n- **Sorra blanca i suau** – Ideal per relaxar-te o jugar a la platja\n- **Aigües cristal·lines** – Visibilitat excel·lent, perfecta per fer snorkel o admirar el fons marí\n- **Distinció Bandera Blava** – Reconeixement per la neteja, la seguretat i la gestió ambiental\n- **Protecció natural** – La forma de la badia protegeix de vents i onades fortes\n- **Parc Natural de s’Albufera** – Situat just darrere de la platja, aporta un toc de natura verge\n- **Serveis excel·lents** – Xiringuitos, gandules, dutxes i socorristes durant la temporada d’estiu"
+  },
+  "section3": {
+    "title": "Activitats i experiències imprescindibles a Playa de Muro i a la Badia d’Alcúdia",
+    "body": "Més enllà de relaxar-te a la platja, aquesta regió ofereix una gran varietat d’activitats per gaudir d’unes vacances inoblidables:",
+    "sub1": {
+      "subtitle": "Esports aquàtics i aventures al mar",
+      "body": "Les aigües calmades i transparents de la Badia d’Alcúdia ofereixen les condicions ideals per als amants dels esports aquàtics de tots els nivells:\n\n- **Paddle surf (SUP)** – Ideal per a principiants, amb punts de lloguer al llarg de tota la platja\n- **Caiac** – Explora la costa al teu ritme i descobreix racons amagats\n- **Windsurf i kitesurf** – Condicions excel·lents al proper Port de Pollença\n- **Moto aquàtica** – Perfecta per als qui busquen adrenalina\n- **Snorkel i busseig** – Descobreix la vida marina de la Mediterrània\n- **Excursions en vaixell i vela** – La millor manera de gaudir de la badia\n- **Paracaigudisme nàutic (parasailing)** – Vistes espectaculars des de l’aire\n- **Banana boat** – Diversió assegurada per a famílies i grups d’amics"
+    },
+    "sub2": {
+      "subtitle": "Descoberta cultural i històrica",
+      "body": "La vila medieval d’Alcúdia, a només uns minuts de Playa de Muro, és plena d’història i encant:\n\n- **Muralles medievals** – Passeja per les fortificacions del segle XIV\n- **Mercats de dimarts i diumenge** – Artesania, productes locals, roba i records\n- **Restes romanes de Pollentia** – Descobreix les ruïnes d’una antiga ciutat romana\n- **Església de Sant Jaume** – Bonic exemple d’arquitectura gòtica\n- **Museu Monogràfic de Pollentia** – Col·leccions i peces històriques de l’època romana\n- **Carrerons empedrats** – Plens de botigues, galeries i cafeteries amb encant\n- **Portes de la ciutat** – Porta del Moll i Porta de Mallorca, antigues entrades al recinte emmurallat"
+    },
+    "sub3": {
+      "subtitle": "Natura i activitats a l’aire lliure",
+      "body": "La bellesa natural que envolta Playa de Muro ofereix infinites possibilitats per als amants de l’activitat a l’aire lliure:\n\n- **Parc Natural de s’Albufera** – El major aiguamoll de Mallorca, perfecte per a l’observació d’ocells\n- **Rutes ciclistes** – Terreny pla ideal per a passejades en bicicleta al costat del mar\n- **Senders de muntanya** – Excursions cap a la Serra de Tramuntana amb vistes impressionants\n- **Passejades a cavall** – Per la platja o la campanya\n- **Camps de golf** – Diversos camps professionals a la zona\n- **Fars i miradors** – El Far de Formentor ofereix unes vistes espectaculars\n- **Rutes panoràmiques** – Carreteres costaneres amb vistes increïbles al Mediterrani"
+    }
+  },
+  "section4": {
+    "title": "On menjar: restaurants i gastronomia local",
+    "body": "L’oferta gastronòmica de Playa de Muro, Port d’Alcúdia i Alcúdia és variada i deliciosa, des de la cuina mallorquina tradicional fins a opcions internacionals:\n\n**Restaurants a peu de platja:** Xiringuitos que serveixen peix fresc, paella i begudes refrescants amb els peus a la sorra.\n\n**Port d’Alcúdia:** L’àrea del port acull nombrosos restaurants especialitzats en peix i marisc, ideals per sopar amb vistes als vaixells.\n\n**Centre històric d’Alcúdia:** Dins les muralles medievals trobaràs restaurants acollidors amb plats típics com el tumbet, la sobrassada i l’ensaïmada.\n\n**Opcions internacionals:** Cuina italiana, asiàtica, alemanya, britànica i fusió per a tots els gustos.\n\n**Mercats locals:** Els de dimarts i diumenge són perfectes per comprar productes frescos, formatges, olives i dolços típics.\n\n**Vins i tapes:** Bars de vins i restaurants de tapes ideals per gaudir d’un vespre relaxat a l’estil mallorquí."
+  },
+  "section5": {
+    "title": "L’experiència definitiva: excursions en vaixell amb Coral Boats",
+    "body": "Tot i que les platges de Playa de Muro són espectaculars, veure la Badia d’Alcúdia des del mar transforma les teves vacances en una experiència inoblidable. Aquí entra en joc **Coral Boats**, que ofereix les excursions més autèntiques i memorables del nord de Mallorca.\n\n**Per què una excursió en vaixell és imprescindible:**\n\nDes del mar, descobriràs **caletes amagades**, aigües cristal·lines on nedar lluny de la gent i vistes impressionants de la Serra de Tramuntana.\n\n**Què fa especial Coral Boats:**\n\nNaveguem amb un **vaixell clàssic de fusta de 1968**, amb encant mediterrani. Els nostres tours en grups reduïts o privats ofereixen una experiència íntima i personalitzada.\n\n**Les nostres excursions inclouen:**\n\n- **Excursions de matí** – Bany, snorkel i paddle surf amb begudes i snacks\n- **Creuers al capvespre** – Gaudeix de la posta de sol darrere la Tramuntana\n- **Charters privats** – Experiències a mida per a famílies, parelles o grups de fins a 50 persones\n- **Sangria casolana i bar a bord** – La nostra sangria s’ha fet famosa entre els visitants\n- **Tripulació local experta** – Coneixedors de cada racó de la badia\n\n**Perfecte per a tothom:**\n\nFamílies, parelles, grups d’amics o viatgers solitaris — tothom troba el seu moment perfecte al mar.\n\n**Sortida des del Port d’Alcúdia:**\n\nA només 10 minuts de Playa de Muro. Reserva fàcilment en línia i assegura la teva plaça amb antelació.\n\n**La teva escapada perfecta combina el millor dels dos mons: platges verges a terra i aventures inoblidables al mar amb Coral Boats.**"
+  }
+},
+"blog_diecinueve": {
+  "metaTitle": "Mallorca al Setembre 2025: Les Millors Coses per Fer al Final de l’Estiu | Guia d’Activitats i Esdeveniments",
+  "metaDescription": "Descobreix per què el setembre és el mes perfecte per visitar Mallorca. Menys gent, clima ideal, excursions amb vaixell, festes culturals, verema i gastronomia. La teva guia completa d’activitats de tardor a Mallorca, Alcúdia i Palma.",
+  "badgeTitle": "Guia Estacional",
+  "title": "Mallorca al Setembre: El Secret Millor Guardat de l’Illa per a Escapades de Tardor Perfectes",
+  "publishedDate": "17 de setembre de 2025",
+  "meta_description": "Per què el setembre és el mes daurat de Mallorca: clima perfecte, menys turistes, excursions amb vaixell, esdeveniments culturals, verema i experiències locals autèntiques. Guia completa amb les millors activitats per gaudir de Mallorca quan l’estiu dóna pas a la tardor.",
+  "btnText": "Llegeix més",
+  "keyword": "Mallorca setembre, què fer Mallorca tardor, temps setembre Mallorca, baixa temporada Mallorca, excursions vaixell setembre Mallorca, Alcúdia setembre, esdeveniments Palma setembre, verema Mallorca, temporada mitjana Mallorca, millor època visitar Mallorca",
+  "section1": {
+    "title": "Per què el setembre pot ser el millor moment per visitar Mallorca",
+    "body": "Quan la calor intensa de l’agost s’esvaeix i la multitud disminueix, Mallorca es transforma en un lloc realment màgic. **El setembre a Mallorca** és el punt ideal que molts viatgers experts consideren el secret millor guardat de l’illa: un moment en què la Mediterrània conserva la seva calidesa estiuenca, però l’illa recupera el seu ritme autèntic i relaxat.\n\nLes platges continuen sent encantadores, el mar arriba a la seva temperatura més càlida de l’any i, alhora, pots gaudir-les amb tranquil·litat. Els restaurants, bars i espais culturals que estaven plens a l’estiu ara ofereixen una experiència més calmada i genuïna. La vida local reneix: tornen les festes tradicionals, la verema i una sensació palpable d’alleujament després de la temporada alta.\n\nA més, **el setembre a Mallorca ofereix un valor excepcional**. Els preus dels allotjaments baixen, els vols són més econòmics i els operadors turístics (incloses les excursions amb Coral Boats) ofereixen més disponibilitat i flexibilitat. Pots gaudir de tots els avantatges d’un estiu mediterrani —bon temps, platges boniques i activitats a l’aire lliure— sense els inconvenients del turisme massiu.\n\nEn aquesta guia completa explorarem tot allò que fa del setembre un moment tan especial per descobrir Mallorca: clima perfecte, excursions amb vaixell, esdeveniments culturals, gastronomia i l’atmosfera única de l’inici de la tardor."
+  },
+  "section2": {
+    "title": "L’avantatge del clima: les condicions daurades del setembre",
+    "body": "El temps al setembre a Mallorca troba l’equilibri perfecte: prou càlid per anar a la platja i banyar-se, però prou suau per fer excursions, anar amb bicicleta o visitar pobles històrics sense la calor intensa de l’estiu.\n\n- **Temperatures mitjanes: 23–28°C** – Ideals per a qualsevol activitat, des de prendre el sol fins a fer turisme\n- **Temperatura del mar: 24–25°C** – La més càlida de l’any, perfecta per nedar i practicar esports aquàtics\n- **Hores de sol: 8–9 al dia** – Dies llargs i postes de sol daurades\n- **Poca pluja: 40–50 mm de mitjana** – Ruixats breus, sobretot a finals de mes\n- **Brises suaus** – Refresquen sense molestar\n- **Intensitat UV més baixa** – Encara ideal per bronzejarsense risc\n- **Clima perfecte per a excursions amb vaixell** – Mar en calma, gran visibilitat i temperatura agradable"
+  },
+  "section3": {
+    "title": "Les millors coses per fer a Mallorca durant el setembre",
+    "body": "El setembre ofereix una gran varietat d’activitats, combinant el millor de l’estiu amb les primeres experiències de la tardor:",
+    "sub1": {
+      "subtitle": "Excursions amb vaixell i activitats aquàtiques (l’autèntic imprescindible)",
+      "body": "El setembre és, sens dubte, **el millor mes per fer excursions amb vaixell a Mallorca**. El mar és càlid, el temps estable i les cales estan molt menys concorregudes que a l’estiu.\n\n**Per què les excursions amb Coral Boats són excepcionals al setembre:**\n\nLa combinació d’aigua càlida, temperatures agradables i menys turistes crea les condicions ideals per explorar la Badia d’Alcúdia. Podràs gaudir de **cales amagades pràcticament per a tu sol**, ideals per nedar, fer snorkel o paddle surf amb tranquil·litat.\n\nLes nostres **excursions de matí** ofereixen una visibilitat espectacular i mar en calma. Les **sortides al capvespre** són especialment màgiques, amb colors més intensos i una llum daurada preciosa. Els **charters privats** permeten més flexibilitat i una atmosfera íntima.\n\n**Altres activitats aquàtiques al setembre:**\n\n- **Dies de platja i bany** – Aigua més càlida i espai per relaxar-se\n- **Snorkel i immersió** – Bona visibilitat i temperatura ideal\n- **Paddle surf i caiac** – Condicions perfectes per a principiants\n- **Vela** – Brises suaus i constants\n- **Moto d’aigua i parasailing** – Sense cues ni aglomeracions\n- **Passejades costaneres** – Temperatures agradables per caminar vora el mar"
+    },
+    "sub2": {
+      "subtitle": "Experiències culturals i festes locals",
+      "body": "El setembre marca el retorn de la vida autèntica a Mallorca, amb festes tradicionals i esdeveniments culturals que poques vegades coincideixen amb la temporada alta.\n\n**Festes i esdeveniments del setembre:**\n\n- **Verema (La Verema)** – Els cellers obren les seves portes amb visites, tastos i experiències de collita\n- **Festes patronals** – Processons, música i celebracions populars\n- **Mercat medieval d’Alcúdia** – Més autèntic i menys concorregut\n- **Temporada cultural a Palma** – Reobertura de teatres, òperes i auditoris\n- **Exposicions d’art** – Galeries que inauguren noves mostres després de l’estiu\n- **Festes gastronòmiques** – Celebració dels productes de temporada i la cuina tradicional\n\n**Llocs culturals i històrics:**\n\nExplorar Mallorca al setembre és un plaer: sense calor ni masses de gent. Descobreix el centre històric d’Alcúdia, la catedral gòtica de Palma, les ruïnes romanes de Pollèntia o pobles de muntanya com Valldemossa i Deià."
+    },
+    "sub3": {
+      "subtitle": "Aventures a l’aire lliure i natura",
+      "body": "Les temperatures agradables del setembre són perfectes per gaudir d’activitats a l’aire lliure que a l’estiu podrien ser massa exigents.\n\n**Excursions i muntanya:**\n\nLa **Serra de Tramuntana**, Patrimoni Mundial de la UNESCO, és esplèndida al setembre. Rutes com el GR-221, el Puig de Galatzó o el Torrent de Pareis es poden fer sense la calor extrema.\n\n**Ciclisme:**\n\nEl setembre és temporada alta per als ciclistes. Menys trànsit, temperatures ideals i pauses més agradables als cafès.\n\n**Observació de la natura:**\n\n- **Parc Natural de s’Albufera** – Excel·lent per observar aus migratòries\n- **Cap de Formentor** – Impressionants vistes sense la multitud d’estiu\n- **Camins costaners** – Itineraris panoràmics entre cales i platges\n- **Coves** – Descobreix les coves del Drach o dels Hams sense llargues esperes"
+    }
+  },
+  "section4": {
+    "title": "Gastronomia i vi: els sabors del setembre",
+    "body": "El setembre és un mes fantàstic per als amants del bon menjar a Mallorca. La gastronomia es nodreix dels productes de tardor i la verema aporta experiències úniques.\n\n**Productes i plats de temporada:**\n\n- **Figos frescos** – En el seu millor moment, presents en postres o amb formatge local\n- **Ametlles** – Comença la collita, amb dolços i productes tradicionals\n- **Bolets** – Les primeres pluges porten els apreciats bolets silvestres\n- **Peix i marisc** – Torna la pesca després de l’agost, amb producte fresc i abundant\n\n**Plats tradicionals recomanats:**\n\n- **Tumbet** – Cassola de verdures típica mallorquina\n- **Sobrassada** – Embotit curat ideal per als dies més frescos\n- **Coca de Trampó** – Coca salada amb verdures de temporada\n- **Arròs brut** – Plat de cullera perfecte per a les nits de tardor\n- **Ensaimada** – El dolç més emblemàtic de Mallorca\n\n**Experiències de verema i enoturisme:**\n\nEls cellers de les zones de **Binissalem** i **Pla i Llevant** ofereixen visites especials al setembre amb tastos i activitats relacionades amb la collita.\n\n**Menjar fora al setembre:**\n\nEls restaurants tornen a oferir un servei més relaxat i proper. Ja no cal reservar amb antelació i sopar a l’aire lliure continua sent un plaer. L’ambient és més local i autèntic, fidel al ritme real de l’illa."
+  },
+  "section5": {
+    "title": "On allotjar-se a Mallorca durant el setembre",
+    "body": "Cada zona de Mallorca ofereix avantatges diferents al setembre, segons el que busquis:\n\n**Alcúdia i Port d’Alcúdia (altament recomanades):**\n\nEl nord de Mallorca brilla especialment en aquesta època. El nucli antic d’Alcúdia recupera el seu encant local, i les platges de Playa de Muro i Alcúdia continuen càlides i tranquil·les. Els restaurants del port ofereixen una excel·lent relació qualitat-preu sense la multitud estival.\n\n**Extra: ubicació ideal per a les excursions de Coral Boats**, que operen durant tot el mes amb condicions perfectes. La badia està en calma, l’aigua és càlida i l’ambient més íntim: el millor moment per viure una experiència màgica al mar.\n\n**Palma:**\n\nLa capital torna a ser agradable i autèntica. Museus sense cues, cafès tranquils i una vibrant vida cultural. Ideal per passejar pel centre històric i gaudir d’una copa de vi sense presses.\n\n**Sóller i Port de Sóller:**\n\nPerfectes per combinar mar i muntanya. Bon punt de partida per fer rutes per la Tramuntana i gaudir del famós tren històric fins a Palma.\n\n**Deià, Valldemossa i pobles de muntanya:**\n\nAmb temperatures més fresques i menys trànsit, passejar pels seus carrers empedrats i veure la posta de sol és un autèntic plaer.\n\n**Costa sud-est (Santanyí, Cala d’Or):**\n\nMés tranquil·la i relaxada, amb platges precioses i mercats locals. Molts restaurants i beach clubs romanen oberts tot el setembre."
+  }
+},
+
+"blog_veinte": {
+  "metaTitle": "Costa Nord de Mallorca: Guia Completa de Penya-segats, Caletes i Paisatges Mediterranis 2025",
+  "metaDescription": "Descobreix la espectacular costa nord de Mallorca i els seus majestuosos penya-segats. Guia completa dels millors miradors, cales secretes, rutes de senderisme costaner i excursions amb vaixell. Del Cap de Formentor fins a Alcúdia: tot el que has de saber sobre la costa més salvatge de l’illa.",
+  "badgeTitle": "Natura i Aventura",
+  "title": "La Costa Nord de Mallorca: Penya-segats, Caletes Secretes i Paisatges que Et Deixaran Sense Alè",
+  "slug": "costa-nord-mallorca-penyasegats-caletes-secretes",
+  "keyword": "costa nord Mallorca, penyasegats Mallorca, cales costa nord, Cap Formentor, Serra Tramuntana costa, miradors nord Mallorca, excursions vaixell costa nord, cales secretes Mallorca, senderisme costa Mallorca, paisatges mediterranis, Formentor Mallorca, Cala Figuera, costa Pollença, penyasegats Alcúdia, turisme natura Mallorca",
+  "meta_description": "Explora la impressionant costa nord de Mallorca, els seus penya-segats vertiginosos, les cales verges i els paisatges mediterranis de somni. Descobreix els millors miradors, rutes costaneres i excursions amb vaixell per viure aquesta experiència única.",
+  "publishedDate": "1 de novembre de 2025",
+  "btnText": "Llegir més",
+  "section1": {
+    "title": "Un viatge al cor de la costa més espectacular de Mallorca",
+    "body": "La costa nord de Mallorca és un dels secrets més ben guardats del Mediterrani. Mentre el sud de l’illa es caracteritza per les seves platges de sorra i zones turístiques, el nord ofereix alguna cosa completament diferent: **penya-segats majestuosos que s’alcen sobre aigües turqueses**, cales secretes accessibles només des del mar, i una natura salvatge que sembla aturada en el temps.\n\nDes del mític **Cap de Formentor** fins als penya-segats de la **Serra de Tramuntana**, passant per les cales amagades de Pollença i Alcúdia, aquesta regió costanera és un paradís per als amants de la natura, la fotografia i l’aventura. En aquest article t’enduguem de viatge pels llocs més espectaculars de la costa nord, et donem consells pràctics per explorar-los i t’expliquem per què una excursió amb vaixell és la millor manera de descobrir els seus tresors amagats.\n\nPrepara’t per conèixer una Mallorca que pocs turistes arriben a veure: la Mallorca dels penya-segats, les cales verges i els paisatges que desafien la imaginació."
+  },
+  "section2": {
+    "title": "Els Penya-segats de la Serra de Tramuntana: una obra mestra natural",
+    "body": "La **Serra de Tramuntana**, declarada Patrimoni Mundial per la UNESCO, no només travessa l’interior muntanyós de Mallorca, sinó que també defineix dramàticament la línia costanera del nord. Aquests penya-segats, formats durant milions d’anys per l’erosió del vent i del mar, arriben a alçades impressionants de més de 300 metres en alguns punts.\n\n**Característiques úniques dels penya-segats del nord:**\n\n- **Formacions calcàries** que reflecteixen la llum mediterrània en tons daurats i blancs\n- **Vegetació mediterrània** que s’adhereix a les parets verticals: pins, alzines i plantes endèmiques de les Balears\n- **Coves marines** esculpides per les onades durant mil·lennis\n- **Vistes panoràmiques** que s’estenen fins a Menorca en dies clars\n- **Fauna marina protegida** a les aigües profundes que banyen la base dels penya-segats\n\n**El fenomen de l’erosió marina:**\n\nAquests penya-segats són el resultat d’un procés geològic fascinant. L’acció constant de les onades, especialment durant els temporals d’hivern, ha anat modelant la roca calcària, creant arcs naturals, coves submarines i formacions que semblen escultures naturals. Algunes d’aquestes formacions daten del període Mesozoic, fa més de 65 milions d’anys.\n\n**Per què aquests penya-segats són únics al Mediterrani:**\n\nA diferència d’altres costes mediterrànies dominades per platges i badies, la costa nord de Mallorca ofereix un dels perfils costaners més espectaculars del sud d’Europa. Aquesta combinació d’alçada, verticalitat i bellesa natural atrau fotògrafs, senderistes i navegants d’arreu del món."
+  },
+  "section3": {
+    "title": "Llocs imprescindibles de la Costa Nord de Mallorca",
+    "body": "Explorar la costa nord de Mallorca és descobrir una successió de llocs de somni. Cada punt té la seva pròpia personalitat, història i secrets. Aquests són els que no et pots perdre:",
+    "sub1": {
+      "subtitle": "Cap de Formentor: el far del cap del món",
+      "body": "El **Cap de Formentor** és, sens dubte, un dels llocs més fotografiats i visitats de Mallorca. Situat a la punta més al nord de la península de Formentor, aquest cap ofereix vistes realment espectaculars.\n\n**Què hi trobaràs al Cap de Formentor:**\n\n- **Far històric**, construït el 1863, que guia els mariners des de fa més de 150 anys\n- **Miradors impressionants** amb vistes de 360 graus sobre el Mediterrani\n- **Platja de Formentor** – Una de les platges més exclusives i boniques de l’illa\n- **Carretera sinuosa** que recorre penya-segats de més de 200 metres d’alçada\n- **Cales amagades** com Cala Figuera o Cala Murta, accessibles només a peu o amb vaixell\n\n**Com arribar-hi i quan visitar-lo:**\n\nLa carretera que porta al Cap de Formentor és estreta i plena de revolts, així que és recomanable anar-hi al matí d’hora (abans de les 10:00) o al final de la tarda per evitar aglomeracions. L’accés pot restringir-se a l’estiu per motius de seguretat. **Alternativa recomanada:** arribar-hi amb vaixell des del Port de Pollença o Alcúdia per evitar el trànsit i gaudir d’una perspectiva completament diferent.\n\n**L’experiència des del mar:**\n\nVeure el Cap de Formentor des d’un vaixell és una experiència completament diferent. Els penya-segats semblen encara més imponents quan els contemples des de baix, navegant prop de la seva base. Moltes excursions en vaixell inclouen parades per banyar-se en cales secretes visibles només des de l’aigua."
+    },
+    "sub2": {
+      "subtitle": "Cala Figuera i les cales secretes de Pollença",
+      "body": "Entre Pollença i Formentor es troba una de les zones més verges i boniques de Mallorca. Aquí, els penya-segats s’alternen amb petites cales que semblen tretes d’un somni mediterrani.\n\n**Cala Figuera:** Una de les cales més fotogèniques de Mallorca, amb aigües turqueses que contrasten amb les roques blanques i els pins que arriben fins a la mar. Accessible només a peu (uns 45 minuts des de l’aparcament) o amb vaixell, aquesta cala manté el seu encant precisament gràcies a la seva dificultat d’accés.\n\n**Altres cales secretes de la zona:**\n\n- **Cala Murta** – Envoltada de penya-segats, amb aigües profundes ideals per fer snorkel\n- **Cala Tuent** – Al peu de la muntanya més alta de Mallorca, amb una sorra fosca i singular\n- **Cala Bóquer** – Petita i protegida, ideal per a famílies\n- **Cala Castell** – Prop de Pollença, més accessible però igualment bonica\n\n**Per què aquestes cales són especials:**\n\nA diferència de les platges turístiques del sud, aquestes cales conserven la seva natura salvatge. No hi ha xiringuitos, ni para-sols, ni multituds. Només natura, silenci (excepte el so de les onades) i una sensació d’aventura que és cada vegada més difícil de trobar al Mediterrani.\n\n**El millor moment per visitar-les:**\n\nLes primeres hores del matí o les últimes de la tarda són ideals. El sol banya els penya-segats amb una llum daurada que fa que l’experiència sigui encara més màgica. Si vens amb vaixell, podràs accedir a cales completament inaccessibles per terra."
+    },
+    "sub3": {
+      "subtitle": "La Badia d’Alcúdia: on els penya-segats troben la platja",
+      "body": "La **Badia d’Alcúdia** representa la transició perfecta entre els penya-segats salvatges del nord i les platges més familiars i accessibles. Aquesta badia de 7 quilòmetres és una de les més protegides i belles de Mallorca, però la seva veritable màgia es revela quan la explores des de la mar.\n\n**Els penya-segats a l’entrada de la badia:**\n\nQuan navegues cap a la badia des del nord, veus com els penya-segats de la península de Formentor donen pas a formacions més suaus i, finalment, a les platges de sorra blanca de Platja de Muro i Alcúdia. Aquest contrast geològic és fascinant d’observar des d’un vaixell.\n\n**Punts destacats de la badia:**\n\n- **El Far d’Alcúdia** – Situat a l’extrem nord, ofereix vistes espectaculars\n- **Illa dels Ocells** – Petita illa davant Alcúdia, popular per fer snorkel\n- **Cala Sant Vicenç** – A l’oest de la badia, amb penya-segats i aigües cristal·lines\n- **Desembocadura del torrent** – On l’aigua dolça es troba amb la mar, creant ecosistemes únics\n\n**Per què explorar la badia amb vaixell:**\n\nDes de terra, veus les platges. Des del mar, veus el panorama complet: com els penya-segats del nord s’estenen cap a l’est, com la Serra de Tramuntana forma un fons dramàtic, i com apareixen cales amagades que no sabies ni que existien.\n\n**Excursions recomanades:**\n\nLes excursions en vaixell des del Port d’Alcúdia et permeten combinar el millor dels dos mons: explorar els penya-segats del nord i relaxar-te a les aigües tranquil·les de la badia. Moltes rutes inclouen parades per banyar-se en cales secretes i temps per fer snorkel en aigües cristal·lines."
+    }
+  },
+  "section4": {
+    "title": "Com explorar la costa nord: senderisme, navegació i miradors",
+    "body": "La costa nord de Mallorca ofereix múltiples maneres d’explorar-la, cadascuna amb els seus encants. Segons el teu nivell d’aventura i condició física, pots triar la que millor s’adapti a tu:\n\n**1. Senderisme costaner:**\n\nHi ha diverses rutes de senderisme que recorren la costa nord, oferint vistes des d’alçada:\n\n- **Camí de Cala Bóquer** – Dificultat mitjana (2-3 hores anada i tornada) fins a una cala amagada\n- **Ruta del Far de Formentor** – Caminada fàcil d’unes 2 hores amb vistes constants a la mar\n- **GR 221 (variant costanera)** – Per a senderistes experimentats, connecta diversos punts de la costa nord\n- **Ruta Cala Tuent des d’Escorca** – Una de les més exigents però amb les millors vistes\n\n**Consells per al senderisme costaner:**\n\n- Porta calçat adequat (les roques poden relliscar)\n- Crema solar i molta aigua (el sol i la brisa marina deshidraten ràpid)\n- Surt d’hora per evitar la calor del migdia\n- Respecta la senyalització i no surtis dels camins marcats\n- Algunes rutes requereixen permís o tenen accés restringit a l’estiu\n\n**2. Excursions amb vaixell (l’opció més completa):**\n\nNavegar per la costa nord és la manera més efectiva de veure tots els seus secrets. Les excursions amb vaixell et permeten:\n\n- **Accedir a cales inaccessibles per terra**\n- **Veure els penya-segats des del millor angle** – des de baix, la seva alçada impressiona\n- **Explorar coves marines** – algunes excursions inclouen parades a coves com la Cova des General a Pollença\n- **Fer snorkel en aigües profundes** – les aigües al voltant dels penya-segats tenen una fauna rica i protegida\n- **Veure fauna marina** – dofins, tortugues i moltes espècies de peixos\n- **Combinar relax i aventura** – navegació tranquil·la per la badia i emocions a les zones de penya-segats\n\n**Per què triar una excursió amb Coral Boats:**\n\nLes nostres excursions des del Port d’Alcúdia estan dissenyades per mostrar la bellesa de la costa nord. Coneixem cada cala secreta, cada formació rocosa i cada punt d’interès. El nostre vaixell clàssic de fusta arriba a llocs on els grans no poden accedir, oferint una experiència íntima i autèntica.\n\n**3. Miradors estratègics:**\n\nSi prefereixes una experiència més tranquil·la però igualment espectacular, aquests miradors ofereixen vistes panoràmiques:\n\n- **Mirador de Sa Creueta** (Formentor) – Vistes de 360 graus\n- **Mirador d’Es Colomer** – Un dels més famosos de Mallorca\n- **Mirador des Pinar** – Amb vistes a la badia de Pollença\n- **Torre d’Albercutx** – Antiga torre de vigilància amb vistes històriques\n\n**4. Combinació perfecta:**\n\nMolts visitants combinen senderisme amb una excursió en vaixell: caminen al matí fins a un mirador i naveguen a la tarda per veure les mateixes formacions des del mar. Aquesta doble perspectiva fa que l’experiència sigui encara més completa."
+  },
+  "section5": {
+    "title": "Planifica la teva aventura per la costa nord: consells pràctics i experiències inoblidables",
+    "body": "Explorar la costa nord de Mallorca requereix una mica de planificació, però la recompensa és increïble. Aquí tens tot el que has de saber per viure aquesta experiència al màxim:\n\n**Millor època de l’any:**\n\n- **Primavera (abril-maig)** – Temperatures perfectes, menys turistes, natura en flor\n- **Estiu (juny-setembre)** – Dies llargs, aigua càlida, però més gent\n- **Tardor (octubre-novembre)** – Clima suau, menys multituds, llum perfecta per fer fotos\n- **Hivern** – Per als més aventurers, amb mar més forta però paisatges espectaculars\n\n**Què portar:**\n\n- **Roba còmoda** i capes (el vent pot ser fresc)\n- **Calçat adequat** si penses caminar\n- **Banyador i tovallola** – mai saps quan trobaràs la cala perfecta\n- **Protector solar** – el sol mediterrani és intens fins i tot en dies ennuvolats\n- **Càmera o mòbil amb bateria** – voldràs immortalitzar cada moment\n- **Tub i ulleres de busseig** – per explorar el món submarí\n- **Aigua i snacks** – especialment si fas senderisme\n\n**Seguretat i respecte pel medi ambient:**\n\nLa costa nord és un ecosistema fràgil. Per conservar-lo:\n\n- No deixis brossa (endú-te tot el que portis)\n- Respecta la senyalització i els camins\n- No recullis plantes ni molestis la fauna\n- A l’estiu (juliol-setembre), extrema les precaucions contra incendis\n- Si nades prop de penya-segats, ves amb compte amb els corrents\n- Si fas senderisme sol, informa algú de la teva ruta\n\n**L’experiència completa amb Coral Boats:**\n\nPer a aquells que cerquen la manera més còmoda, segura i completa d’explorar la costa nord, les nostres excursions amb vaixell són l’opció ideal. No només t’enduguem als llocs més espectaculars, sinó que ho fem amb:\n\n- **Coneixement local** – el nostre equip coneix cada racó, cada història i cada secret\n- **Comoditat i seguretat** – vaixell ben equipat amb totes les mesures de seguretat\n- **Experiència personalitzada** – grups reduïts per a una atenció individualitzada\n- **Equipament inclòs** – snorkel, paddle surf, begudes i snacks a bord\n- **Flexibilitat** – adaptem la ruta segons el mar i les teves preferències\n\n**Tours recomanats:**\n\n- **Tour de matí** – Perfecte per a famílies, inclou snorkel, paddle i temps per explorar cales\n- **Creuer al capvespre** – Veure els penya-segats banyats per la llum daurada és màgic\n- **Xàrter privat** – Personalitza totalment la teva experiència i explora al teu ritme\n\n**Últims consells:**\n\n- **Reserva amb antelació** – especialment a l’estiu, les excursions s’omplen ràpid\n- **Comprova el temps** – el mar pot estar mogut alguns dies\n- **Vine amb la ment oberta** – la costa nord té el seu propi ritme; gaudeix-lo\n- **Aprofita l’alba i el capvespre** – la llum en aquests moments fa que els penya-segats brillin d’una manera especial\n\n**Conclusió: un tresor natural que val la pena descobrir**\n\nLa costa nord de Mallorca és molt més que una línia en el mapa. És una experiència sensorial que combina la força de la natura amb la serenor del Mediterrani. Els seus penya-segats, cales secretes i paisatges espectaculars mostren una Mallorca que contrasta completament amb la imatge turística del sud.\n\nJa sigui que l’exploris a peu, amb vaixell o des d’un mirador, aquesta costa et deixarà una empremta inesborrable. I si ho fas des de la mar, descobriràs secrets que ni els senderistes més experts poden veure.\n\n**La costa nord de Mallorca t’està esperant. Estàs preparat per descobrir-la?**\n\nReserva la teva excursió amb Coral Boats i viu l’experiència de navegar per una de les costes més espectaculars del Mediterrani. Els penya-segats, les cales secretes i els paisatges de somni t’esperen."
+  }
 }
+
+
+
 
 
 

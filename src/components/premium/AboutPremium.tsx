@@ -1,10 +1,13 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const AboutPremium = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section className="premium-about">
@@ -112,6 +115,40 @@ const AboutPremium = () => {
                   </p>
                   <cite>{t('about.quote_author')}</cite>
                 </blockquote>
+              </div>
+
+              <div style={{ marginTop: '30px' }}>
+                <Link href={getPath('/about')}>
+                  <button
+                    className="premium-about-cta"
+                    style={{
+                      background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+                      color: '#ffffff',
+                      padding: '16px 40px',
+                      fontSize: '1rem',
+                      fontWeight: '600',
+                      border: 'none',
+                      borderRadius: '50px',
+                      cursor: 'pointer',
+                      boxShadow: '0 8px 25px rgba(8, 145, 178, 0.3)',
+                      transition: 'all 0.3s ease',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '10px',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 12px 35px rgba(8, 145, 178, 0.4)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = '0 8px 25px rgba(8, 145, 178, 0.3)';
+                    }}
+                  >
+                    <span>{t('about.cta_button')}</span>
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

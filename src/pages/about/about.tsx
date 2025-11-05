@@ -5,6 +5,7 @@ import HeaderOne from '@/layouts/headers/header-one';
 import Wrapper from '@/layouts/wrapper';
 import AboutHero from '@/components/about/AboutHero';
 import AboutBoatHistory from '@/components/about/AboutBoatHistory';
+import OurExperiencesTimeline from '@/components/about/OurExperiencesTimeline';
 
 const AboutMain = () => {
   return (
@@ -13,6 +14,7 @@ const AboutMain = () => {
       <main>
         <AboutHero />
         <AboutBoatHistory />
+        <OurExperiencesTimeline />
       </main>
       <FooterOne />
     </Wrapper>

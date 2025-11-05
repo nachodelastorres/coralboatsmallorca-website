@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { blogData } from '@/data/blog-data';
 import BlogDetailsMain from '@/pages/blog-details/blog-details';
 import { DynamicPageProps } from '@/types/params';
+import { getTranslations } from '@/lib/get-translations';
 
 interface BlogDetailsParams {
   slug: string;
@@ -19,15 +20,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  // Use metaTitle and metaDescription if available (literal strings for SEO)
-  // Otherwise fallback to translation keys
-  const seoTitle = blog.metaTitle || `${blog.title} – Coral Boats Mallorca`;
-  const seoDescription = blog.metaDescription || blog.description || 'Discover tips, guides, and inspiration for your boat trips in Mallorca.';
+  // Get translations for the current locale
+  const t = await getTranslations(params.lang);
+
+  // Translate metaTitle and metaDescription if they are translation keys
+  const seoTitle = blog.metaTitle && blog.metaTitle.includes('.')
+    ? t(blog.metaTitle) || blog.metaTitle
+    : blog.metaTitle || t(blog.title) || `${blog.title} – Coral Boats Mallorca`;
+
+  const seoDescription = blog.metaDescription && blog.metaDescription.includes('.')
+    ? t(blog.metaDescription) || blog.metaDescription
+    : blog.metaDescription || (blog.description ? t(blog.description) : null) || 'Discover tips, guides, and inspiration for your boat trips in Mallorca.';
+
+  const keywords = blog.keyword && blog.keyword.includes('.')
+    ? t(blog.keyword) || blog.keyword
+    : blog.keyword;
 
   return {
     title: seoTitle,
     description: seoDescription,
-    keywords: blog.keyword,
+    keywords: keywords,
     alternates: {
       canonical: `/${params.lang}/blog-details/${params.slug}`,
     },
@@ -35,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: seoTitle,
       description: seoDescription,
       type: 'article',
-      publishedTime: blog.publishedDate,
+      publishedTime: t(blog.publishedDate) || blog.publishedDate,
       url: `https://coralboatsmallorca.com/${params.lang}/blog-details/${params.slug}`,
       images: [
         {

@@ -8,6 +8,8 @@ import MorningTourDetails from '@/components/premium/tours/MorningTourDetails';
 import MorningTourGallery from '@/components/premium/tours/MorningTourGallery';
 import MorningTourItinerary from '@/components/premium/tours/MorningTourItinerary';
 import MorningTourBooking from '@/components/premium/tours/MorningTourBooking';
+import RelatedTours from '@/components/premium/tours/RelatedTours';
+import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
 
 const MorningTourPage = () => {
   return (
@@ -20,6 +22,8 @@ const MorningTourPage = () => {
         <MorningTourItinerary />
         <MorningTourGallery />
         <MorningTourBooking />
+        <RelatedTours currentTour="morning" />
+        <BlogPreviewSection />
       </main>
 
       <FooterOne />

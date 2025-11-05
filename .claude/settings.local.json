@@ -39,7 +39,10 @@
       "Bash(for dir in alcudia-morning-boat-tour alcudia-private-boat-charter alcudia-sunset-boat-tour boat-tours-alcudia charter-pricing)",
       "Bash(do if [ -f \"$dir/page.tsx.old\" ])",
       "Bash(then mv \"$dir/page.tsx.old\" \"$dir/page.tsx\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(git push)",
+      "Bash(find:*)",
+      "Bash(where:*)"
     ],
     "deny": [],
     "ask": []

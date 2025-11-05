@@ -37,5 +37,5 @@ export interface IBlogDT {
 
   // Nuevo: contenido libre y tipo de layout
   content?: string;
-  layout: 'classic' | 'simple' | 'magazine' | 'minimalist' | 'visual'; // mejor con literal types
+  layout: 'classic' | 'simple' | 'magazine' | 'minimalist' | 'visual' | 'storytelling'; // mejor con literal types
 }

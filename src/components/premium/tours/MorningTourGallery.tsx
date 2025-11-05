@@ -1,11 +1,14 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const MorningTourGallery = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
   const [activeImage, setActiveImage] = useState(0);
 
   const images = [
@@ -135,6 +138,53 @@ const MorningTourGallery = () => {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="row" style={{ marginTop: '50px' }}>
+          <div className="col-12 text-center">
+            <Link href={getPath('/gallery')}>
+              <button
+                className="premium-gallery-cta"
+                style={{
+                  background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+                  color: '#ffffff',
+                  padding: '18px 45px',
+                  fontSize: '1.1rem',
+                  fontWeight: '600',
+                  border: 'none',
+                  borderRadius: '50px',
+                  cursor: 'pointer',
+                  boxShadow: '0 8px 25px rgba(8, 145, 178, 0.3)',
+                  transition: 'all 0.3s ease',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '12px',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-3px)';
+                  e.currentTarget.style.boxShadow = '0 12px 35px rgba(8, 145, 178, 0.4)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 8px 25px rgba(8, 145, 178, 0.3)';
+                }}
+              >
+                <span>{t('tours.gallery.cta_button')}</span>
+                <i className="fa-solid fa-images"></i>
+              </button>
+            </Link>
+            <p
+              style={{
+                marginTop: '15px',
+                color: '#64748b',
+                fontSize: '0.95rem',
+                fontWeight: '500'
+              }}
+            >
+              <i className="fa-solid fa-camera" style={{ marginRight: '8px', color: '#0891b2' }}></i>
+              {t('tours.gallery.cta_secondary')}
+            </p>
           </div>
         </div>
       </div>

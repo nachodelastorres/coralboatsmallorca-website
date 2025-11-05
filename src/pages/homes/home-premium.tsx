@@ -9,6 +9,8 @@ import AboutPremium from '@/components/premium/AboutPremium';
 import PrivateChartersPremium from '@/components/premium/PrivateChartersPremium';
 import TestimonialsPremium from '@/components/premium/TestimonialsPremium';
 import WhyChooseUsPremium from '@/components/premium/WhyChooseUsPremium';
+import GalleryPreviewSection from '@/components/premium/GalleryPreviewSection';
+import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
 
 const HomePremium = () => {
   return (
@@ -21,6 +23,8 @@ const HomePremium = () => {
         <PrivateChartersPremium />
         <AboutPremium />
         <TestimonialsPremium />
+        <GalleryPreviewSection />
+        <BlogPreviewSection />
         <WhyChooseUsPremium />
       </main>
 
