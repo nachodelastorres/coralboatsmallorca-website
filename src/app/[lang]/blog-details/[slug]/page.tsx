@@ -3,6 +3,7 @@ import { blogData } from '@/data/blog-data';
 import BlogDetailsMain from '@/pages/blog-details/blog-details';
 import { DynamicPageProps } from '@/types/params';
 import { getTranslations } from '@/lib/get-translations';
+import { buildCanonical } from '@/lib/metadata-helpers';
 
 interface BlogDetailsParams {
   slug: string;
@@ -36,19 +37,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? t(blog.keyword) || blog.keyword
     : blog.keyword;
 
+  const canonicalUrl = buildCanonical(params.lang, `blog-details/${params.slug}`);
+
   return {
     title: seoTitle,
     description: seoDescription,
     keywords: keywords,
+    metadataBase: new URL('https://www.coralboatsmallorca.com'),
     alternates: {
-      canonical: `/${params.lang}/blog-details/${params.slug}`,
+      canonical: canonicalUrl,
     },
     openGraph: {
       title: seoTitle,
       description: seoDescription,
       type: 'article',
       publishedTime: t(blog.publishedDate) || blog.publishedDate,
-      url: `https://www.coralboatsmallorca.com/${params.lang}/blog-details/${params.slug}`,
+      url: canonicalUrl,
       images: [
         {
           url: blog.image.src,

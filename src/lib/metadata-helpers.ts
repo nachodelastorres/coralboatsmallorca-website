@@ -19,11 +19,29 @@ import { getAlternateLinks } from './locale-helpers';
 const baseUrl = 'https://www.coralboatsmallorca.com';
 
 /**
+ * Build a canonical URL with locale and path
+ * Ensures no double slashes and proper formatting
+ * @param locale - The locale code (e.g., 'en', 'es')
+ * @param path - The path without locale (e.g., '/tours' or 'tours')
+ * @returns Complete canonical URL (e.g., 'https://www.coralboatsmallorca.com/en/tours')
+ */
+export function buildCanonical(locale: Locale, path: string = ''): string {
+  // Normalize path: remove leading slash if present
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+
+  // Build canonical: baseUrl + / + locale + / + path (if path exists)
+  // For home page, cleanPath will be empty, so we get: baseUrl/locale
+  return cleanPath
+    ? `${baseUrl}/${locale}/${cleanPath}`
+    : `${baseUrl}/${locale}`;
+}
+
+/**
  * Generate metadata for homepage with locale support
  */
 export function generateHomeMetadata(locale: Locale): Metadata {
   const meta = homeMetadata[locale];
-  const path = '/';
+  const path = '';
 
   return {
     title: meta.title,
@@ -34,16 +52,16 @@ export function generateHomeMetadata(locale: Locale): Metadata {
     publisher: 'Coral Boats Mallorca',
     metadataBase: new URL(baseUrl),
     alternates: {
-      canonical: `/${locale}`,
+      canonical: buildCanonical(locale, path),
       languages: Object.fromEntries(
-        getAlternateLinks(path, baseUrl, Object.keys(homeMetadata) as Locale[])
+        getAlternateLinks('/', baseUrl, Object.keys(homeMetadata) as Locale[])
           .map(({ hreflang, href }) => [hreflang, href])
       ),
     },
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: `${baseUrl}/${locale}`,
+      url: buildCanonical(locale, path),
       siteName: 'Coral Boats Mallorca',
       images: [
         {
@@ -119,7 +137,7 @@ export function generatePageMetadata(
     publisher: 'Coral Boats Mallorca',
     metadataBase: new URL(baseUrl),
     alternates: {
-      canonical: `/${locale}${path}`,
+      canonical: buildCanonical(locale, path),
       languages: Object.fromEntries(
         getAlternateLinks(path, baseUrl, Object.keys(metadata) as Locale[])
           .map(({ hreflang, href }) => [hreflang, href])
@@ -128,7 +146,7 @@ export function generatePageMetadata(
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: `${baseUrl}/${locale}${path}`,
+      url: buildCanonical(locale, path),
       siteName: 'Coral Boats Mallorca',
       locale: localeHreflang[locale],
       type: 'website',
