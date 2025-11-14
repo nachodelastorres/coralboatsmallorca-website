@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: seoDescription,
       type: 'article',
       publishedTime: t(blog.publishedDate) || blog.publishedDate,
-      url: `https://coralboatsmallorca.com/${params.lang}/blog-details/${params.slug}`,
+      url: `https://www.coralboatsmallorca.com/${params.lang}/blog-details/${params.slug}`,
       images: [
         {
           url: blog.image.src,

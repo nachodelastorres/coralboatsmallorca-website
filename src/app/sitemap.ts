@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { blogData } from '@/data/blog-data';
 import { locales } from '@/config/locales';
 
-const baseUrl = 'https://coralboatsmallorca.com';
+const baseUrl = 'https://www.coralboatsmallorca.com';
 
 // Páginas estáticas principales (sin prefijo de idioma en la ruta interna)
 const staticPages = [

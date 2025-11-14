@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://coralboatsmallorca.com';
+const baseUrl = 'https://www.coralboatsmallorca.com';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -14,4 +14,5 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
+
 

@@ -16,7 +16,7 @@ import {
 } from '@/config/secondary-pages-metadata';
 import { getAlternateLinks } from './locale-helpers';
 
-const baseUrl = 'https://coralboatsmallorca.com';
+const baseUrl = 'https://www.coralboatsmallorca.com';
 
 /**
  * Generate metadata for homepage with locale support
