@@ -3,7 +3,7 @@ import { tourPackagesData } from '@/data/tour-packages-data';
 import TourItemOne from './tour-item/tour-item-one';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
-
+import { useLocale } from '@/hooks/useLocale';
 
 import shapeImg2 from '@/assets/img/home-1/featured/shape/logo transparente sobre claro.png';
 import shapeImg3 from '@/assets/img/home-1/featured/shape/logo transparente sobre claro - copia.png';
@@ -14,6 +14,7 @@ import { FiMap, FiCalendar, FiMail } from 'react-icons/fi';
 
 const TourOne = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   // ✅ Traducimos y prevenimos valores undefined con el operador ?? ''
   const translatedTours = tourPackagesData().map((tour) => ({
@@ -26,7 +27,8 @@ const TourOne = () => {
   }));
 
 const IntroBlock = () => {
-  const { t } = useTranslation('common'); // o 'common', según dónde tengas los textos
+  const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section
@@ -67,7 +69,7 @@ const IntroBlock = () => {
 <div className="text-center mb-4">
   <div className="d-flex justify-content-center">
     <Link
-      href="/tours"
+      href={getPath('/boat-tours-alcudia')}
       // className="btn btn-primary btn-lg px-5 py-3"
       className="it-btn-testtour"
       style={{

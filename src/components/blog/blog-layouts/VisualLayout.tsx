@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 import { IBlogDT } from '@/types/blog-d-t';
 
 interface VisualLayoutProps {
@@ -11,6 +12,7 @@ interface VisualLayoutProps {
 
 const VisualLayout = ({ blog }: VisualLayoutProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   // Function to convert markdown bold syntax to HTML
   const processMarkdown = (text: string) => {
@@ -310,7 +312,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                     Join thousands of happy guests who've discovered the beauty of Alcudia Bay
                   </p>
                   <Link
-                    href="/boat-tours-alcudia"
+                    href={getPath('/boat-tours-alcudia')}
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',

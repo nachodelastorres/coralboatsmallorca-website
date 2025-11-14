@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 import { IBlogDT } from '@/types/blog-d-t';
 
 interface MagazineLayoutProps {
@@ -41,6 +42,7 @@ const renderTextWithBold = (text: string) => {
 
 const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <article style={{ background: '#ffffff' }}>
@@ -248,7 +250,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                   Book your unforgettable boat tour in Alcudia today
                 </p>
                 <Link
-                  href="/boat-tours-alcudia"
+                  href={getPath('/boat-tours-alcudia')}
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',

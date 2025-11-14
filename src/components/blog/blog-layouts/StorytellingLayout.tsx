@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 import { IBlogDT } from '@/types/blog-d-t';
 
 interface StorytellingLayoutProps {
@@ -41,6 +42,7 @@ const renderTextWithBold = (text: string) => {
 
 const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <article style={{ background: '#ffffff' }}>
@@ -311,7 +313,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                     Join us for an unforgettable boat tour and experience our legendary homemade sangria
                   </p>
                   <Link
-                    href="/boat-tours-alcudia"
+                    href={getPath('/boat-tours-alcudia')}
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',

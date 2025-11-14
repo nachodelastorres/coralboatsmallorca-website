@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 import { IBlogDT } from '@/types/blog-d-t';
 
 interface MinimalistLayoutProps {
@@ -41,6 +42,7 @@ const renderTextWithBold = (text: string) => {
 
 const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <article style={{ background: '#ffffff' }}>
@@ -233,7 +235,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   Interested in exploring Alcudia Bay?
                 </p>
                 <Link
-                  href="/boat-tours-alcudia"
+                  href={getPath('/boat-tours-alcudia')}
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',

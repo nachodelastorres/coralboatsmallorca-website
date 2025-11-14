@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const ExperienceVideoBanner = () => {
-  const { t } = useTranslation('common'); // ✅ Traducción multilenguaje
+  const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <div className="experience-video-banner position-relative">
@@ -35,7 +37,7 @@ const ExperienceVideoBanner = () => {
             <p className="lead text-white mb-4">
               {t('experience.description')}
             </p>
-            <Link href="/tours" className="it-btn-primary">
+            <Link href={getPath('/boat-tours-alcudia')} className="it-btn-primary">
               {t('book_now')}
             </Link>
           </div>

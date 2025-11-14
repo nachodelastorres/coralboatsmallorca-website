@@ -23,19 +23,14 @@ const validBlogPosts = blogData.filter(blog => blog.slug && blog.slug.trim() !==
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
-  
+
   // Generar todas las URLs del sitemap
   const urls: MetadataRoute.Sitemap = [];
 
-  // 1. Página principal (raíz) - redirige al idioma por defecto
-  urls.push({
-    url: baseUrl,
-    lastModified: currentDate,
-    changeFrequency: 'daily',
-    priority: 1.0,
-  });
+  // REMOVED: Root URL (baseUrl) redirects to /en, should NOT be in sitemap
+  // Only include final, locale-specific URLs that return 200 status
 
-  // 2. Páginas estáticas para cada idioma
+  // 1. Páginas estáticas para cada idioma
   staticPages.forEach(page => {
     locales.forEach(locale => {
       const url = `${baseUrl}/${locale}${page}`;

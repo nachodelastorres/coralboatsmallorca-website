@@ -3,9 +3,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const WhyChooseUsPremium = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   const reasons = [
     {
@@ -123,7 +125,7 @@ const WhyChooseUsPremium = () => {
               </div>
             </div>
             <div className="col-lg-4 text-center">
-              <Link href="/boat-tours-alcudia" className="premium-cta-button">
+              <Link href={getPath('/boat-tours-alcudia')} className="premium-cta-button">
                 <span>{t('premium.why_choose.cta_button')}</span>
                 <i className="fa-solid fa-arrow-right"></i>
               </Link>

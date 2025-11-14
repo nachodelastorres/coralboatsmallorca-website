@@ -49,7 +49,7 @@ import { i18n } from './next-i18next.config.mjs';
 
 const nextConfig = {
   reactStrictMode: true,
-  trailingSlash: true,
+  // trailingSlash removed to prevent 3XX redirects in sitemap and canonical URLs
   webpack: (config, { isServer }) => {
     if (isServer) {
       config.externals.push('@prisma/client');
