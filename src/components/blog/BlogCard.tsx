@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { IBlogDT } from '@/types/blog-d-t';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 interface BlogCardProps {
   blog: IBlogDT;
@@ -12,10 +13,11 @@ interface BlogCardProps {
 
 const BlogCard = ({ blog, featured = false }: BlogCardProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   if (featured) {
     return (
-      <Link href={`/blog-details/${blog.slug}`} style={{ textDecoration: 'none' }}>
+      <Link href={getPath(`/blog-details/${blog.slug}`)} style={{ textDecoration: 'none' }}>
         <div
           className="blog-card blog-card--featured"
           style={{
@@ -105,7 +107,7 @@ const BlogCard = ({ blog, featured = false }: BlogCardProps) => {
   }
 
   return (
-    <Link href={`/blog-details/${blog.slug}`} style={{ textDecoration: 'none' }}>
+    <Link href={getPath(`/blog-details/${blog.slug}`)} style={{ textDecoration: 'none' }}>
       <div
         className="blog-card"
         style={{

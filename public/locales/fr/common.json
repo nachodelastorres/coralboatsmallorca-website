@@ -1130,7 +1130,12 @@
       "title": "Meilleures Excursions en Bateau à Alcudia, Majorque",
       "subtitle": "Découvrez la magie de la baie d'Alcudia à bord de notre bateau classique. Explorez des criques cachées et les meilleures plages du nord de Majorque avec des expériences locales authentiques.",
       "cta_book": "Réservez Votre Excursion",
-      "cta_view_all": "Voir Toutes les Excursions"
+      "cta_view_all": "Voir Toutes les Excursions",
+      "video": {
+  "name": "Excursions en Bateau à Alcudia - Coral Boats Mallorca",
+  "description": "Découvrez nos excursions en bateau dans la baie d'Alcudia, à Majorque. Nous naviguons sur un bateau classique en visitant des criques cachées, des plages vierges et les meilleurs endroits pour faire du snorkeling. Expériences authentiques avec repas majorquin inclus."
+}
+
     },
     "tours": {
       "label": "Nos Excursions",
@@ -1554,7 +1559,8 @@
     "stat_3_number": "Baie d'Alcudia",
     "stat_3_label": "Spécialistes",
     "quote_text": "\"Nous croyons que les plus beaux souvenirs se créent sur l’eau, entourés par la beauté de la nature, une bonne compagnie et un esprit d’aventure.\"",
-    "quote_author": "— Capitaine et Équipage, Coral Boats Mallorca"
+    "quote_author": "— Capitaine et Équipage, Coral Boats Mallorca",
+    "cta_button": "Découvrez Notre Histoire"
   },
 
   "about_page": {
@@ -1876,7 +1882,51 @@
     "title": "Planifiez votre aventure sur la côte nord : conseils pratiques et expériences inoubliables",
     "body": "Explorer la côte nord de Majorque demande un peu de préparation, mais la récompense en vaut largement la peine. Voici tout ce qu’il faut savoir pour profiter pleinement de cette expérience :\n\n**Meilleure période de l’année :**\n\n- **Printemps (avril–mai)** – Températures idéales, moins de touristes, nature en fleurs\n- **Été (juin–septembre)** – Journées longues, mer chaude, mais plus de monde\n- **Automne (octobre–novembre)** – Climat doux, moins de foule, lumière parfaite pour la photo\n- **Hiver** – Pour les plus aventureux, mer agitée mais paysages grandioses\n\n**À emporter :**\n\n- **Vêtements confortables** et plusieurs couches (le vent peut être frais)\n- **Chaussures de marche** si vous comptez randonner\n- **Maillot de bain et serviette** – une crique parfaite vous attend peut-être\n- **Crème solaire** – le soleil méditerranéen est fort même sous les nuages\n- **Appareil photo ou téléphone chargé** – vous voudrez tout immortaliser\n- **Masque et tuba** – pour explorer le monde sous-marin\n- **Eau et encas** – surtout pour les randonnées\n\n**Sécurité et respect de l’environnement :**\n\nLa côte nord est un écosystème fragile. Pour la préserver :\n\n- Ne laissez aucun déchet\n- Restez sur les sentiers balisés\n- Ne cueillez pas de plantes ni ne dérangez la faune\n- Faites attention pendant la saison des incendies (juillet–septembre)\n- Méfiez-vous des courants si vous nagez près des falaises\n- Informez quelqu’un de votre itinéraire si vous partez seul\n\n**L’expérience complète avec Coral Boats :**\n\nPour ceux qui recherchent la façon la plus confortable, sûre et complète d’explorer la côte nord, nos excursions en bateau sont le choix idéal. Nous vous emmenons vers les plus beaux endroits avec :\n\n- **Connaissance locale** – notre équipe connaît chaque recoin, chaque histoire, chaque secret\n- **Confort et sécurité** – bateau bien équipé avec toutes les mesures de sécurité\n- **Expérience personnalisée** – petits groupes pour une attention individuelle\n- **Équipement inclus** – snorkeling, paddle, boissons et encas à bord\n- **Flexibilité** – itinéraires adaptés selon la mer et vos envies\n\n**Tours recommandés :**\n\n- **Tour du matin** – Idéal pour les familles, avec snorkeling, paddle et criques\n- **Croisière au coucher du soleil** – Les falaises baignées de lumière dorée, un moment magique\n- **Charter privé** – Expérience totalement personnalisée à votre rythme\n\n**Derniers conseils :**\n\n- **Réservez à l’avance** – surtout en haute saison, les places partent vite\n- **Vérifiez la météo** – la mer peut être agitée certains jours\n- **Gardez l’esprit ouvert** – la côte nord a son propre rythme ; savourez-le\n- **Profitez du lever ou du coucher du soleil** – la lumière rend les falaises encore plus magnifiques\n\n**Conclusion : un trésor naturel à découvrir absolument**\n\nLa côte nord de Majorque est bien plus qu’une simple ligne sur la carte. C’est une expérience sensorielle qui unit la puissance brute de la nature à la sérénité méditerranéenne. Ses falaises, criques secrètes et paysages spectaculaires révèlent une autre facette de Majorque, loin de l’image touristique du sud.\n\nQue vous l’exploriez à pied, en bateau ou depuis un belvédère, cette côte vous laissera une impression inoubliable. Et si vous choisissez de le faire en mer, vous découvrirez des secrets que même les randonneurs les plus expérimentés ignorent.\n\n**La côte nord de Majorque vous attend. Êtes-vous prêt à la découvrir ?**\n\nRéservez votre excursion avec Coral Boats et vivez l’expérience de naviguer le long de l’une des plus belles côtes de Méditerranée. Falaises, criques secrètes et paysages de rêve vous attendent."
   }
+},
+"blog_veintiuno": {
+  "metaTitle": "Vie marine dans la baie d’Alcúdia : espèces et biodiversité méditerranéenne 2025 | Coral Boats",
+  "metaDescription": "Découvrez la fascinante vie marine de la baie d’Alcúdia. Apprenez-en davantage sur les poissons méditerranéens, les prairies de posidonie, les tortues, les dauphins et la riche biodiversité observable lors de votre excursion en bateau. Guide complet des espèces marines à Majorque.",
+  "badgeTitle": "Nature",
+  "title": "Vie marine dans la baie d’Alcúdia : découvrez le trésor sous-marin de Majorque",
+  "slug": "vie-marine-baie-alcudia-especes-mediterraneennes",
+  "keyword": "vie marine baie d’Alcúdia, espèces marines Majorque, biodiversité méditerranéenne, faune marine Alcúdia, posidonie Majorque, dauphins baie Alcúdia",
+  "meta_description": "Explorez la riche biodiversité marine de la baie d’Alcúdia : poissons méditerranéens, prairies de posidonie, tortues et dauphins dans des eaux cristallines.",
+  "publishedDate": "13 novembre 2025",
+  "btnText": "Lire plus",
+  "section1": {
+    "title": "Un écosystème marin unique en Méditerranée",
+    "body": "La baie d’Alcúdia se distingue non seulement par ses eaux cristallines et ses paysages de carte postale, mais aussi par la richesse biologique extraordinaire qu’elle abrite sous sa surface. Dans ce coin du nord de Majorque se trouve un véritable laboratoire naturel où la vie marine se développe en harmonie, grâce à la pureté de l’eau, à la température constante et à la préservation des écosystèmes. Plonger ici – que ce soit en snorkeling ou depuis le bateau – c’est entrer dans un monde vibrant de couleurs, de formes et de mouvements racontant l’histoire vivante de la Méditerranée. Chaque excursion devient une expérience sensorielle : la lumière du soleil se reflétant sur l’eau, les éclats argentés des poissons, la sérénité du paysage marin… Alcúdia est un lieu incomparable pour les amoureux de la mer et de la nature."
+  },
+  "section2": {
+    "title": "Pourquoi la baie d’Alcúdia est spéciale pour la vie marine",
+    "body": "Les eaux de cette baie offrent des conditions exceptionnelles qui favorisent le développement de la vie sous-marine et en font l’un des écosystèmes les plus précieux de Majorque :\n\nDes températures stables toute l’année, propices à la diversité et à la résilience des communautés marines.\nDe vastes prairies de posidonie océanique, véritables forêts sous-marines qui produisent de l’oxygène et capturent le carbone – les poumons de la Méditerranée.\nDes fonds sablonneux et rocheux qui créent des habitats parfaits pour une multitude d’espèces.\nDes courants doux et une salinité équilibrée permettant à des organismes fragiles de prospérer.\nDes zones protégées, comme celles du réseau Natura 2000, qui garantissent la régénération naturelle des écosystèmes.\n\nGrâce à cette combinaison unique, la baie d’Alcúdia est devenue un sanctuaire naturel où la biodiversité méditerranéenne s’épanouit dans toute sa splendeur. C’est la preuve vivante que la Méditerranée, malgré les défis environnementaux, reste un océan vibrant et généreux lorsqu’elle est respectée."
+  },
+  "section3": {
+    "title": "Les espèces que vous pouvez observer pendant vos excursions",
+    "body": "Lors d’une excursion en bateau ou d’une session de snorkeling, chaque instant est une opportunité de découvrir une nouvelle forme de vie. La baie d’Alcúdia est une véritable encyclopédie marine ouverte, où chaque recoin révèle un univers différent : des minuscules crustacés cachés parmi les algues jusqu’aux grands bancs de poissons se déplaçant en harmonie. Voici quelques-unes des espèces les plus fascinantes que vous pourrez observer au cours de votre expérience nautique.",
+    "sub1": {
+      "subtitle": "Les prairies de posidonie et leur écosystème",
+      "body": "La posidonie océanique est une plante marine endémique de la Méditerranée formant de vastes prairies sous-marines, essentielles à la santé des mers. Ces prairies ne sont pas de simples algues : elles fleurissent, produisent de l’oxygène et abritent des centaines d’espèces. Entre leurs feuilles se déplacent pieuvres, seiches, étoiles de mer, oursins et de nombreux petits poissons qui y trouvent refuge et nourriture. Les observer, c’est contempler la base même de la chaîne alimentaire marine. De plus, les prairies de posidonie contribuent à la stabilité des plages et filtrent l’eau, donnant à la baie cette teinte turquoise si emblématique."
+    },
+    "sub2": {
+      "subtitle": "Les poissons méditerranéens des eaux cristallines",
+      "body": "Dans les eaux peu profondes des criques, on peut observer des saupes, oblades, girelles, rougets et petits bancs de mulets nageant ensemble avec élégance. Avec un peu de chance, on aperçoit des mérous cachés entre les rochers ou des bogues aux reflets argentés. Ces poissons, typiques de la Méditerranée, témoignent de la bonne santé de l’écosystème. On y trouve également des éponges, anémones et crustacés colorés qui enrichissent le paysage sous-marin. Pour les curieux, chaque plongée est une découverte nouvelle dans un monde clair et vibrant."
+    },
+    "sub3": {
+      "subtitle": "Dauphins, tortues et visiteurs occasionnels",
+      "body": "Bien que rares, les dauphins tursiops peuvent être aperçus dans la baie d’Alcúdia lors des excursions en bateau, surtout à l’aube ou au crépuscule, lorsque la mer est calme et la visibilité parfaite. Leur présence apporte une touche magique à la traversée, car ils nagent souvent près du bateau, jouant avec les vagues. Des tortues caouannes, espèce protégée, ont également été observées, venant chercher nourriture et repos dans ces eaux. Parfois, des méduses lumineuses ou des poissons-lunes font une apparition. Ces rencontres, bien que peu fréquentes, sont vécues comme un véritable cadeau de la nature – un rappel que la Méditerranée garde encore ses mystères pour ceux qui la regardent avec respect et émerveillement."
+    }
+  },
+  "section4": {
+    "title": "Comment profiter de la vie marine de manière responsable",
+    "body": "Observer la vie marine est un privilège qui implique une responsabilité. Profiter de la mer de façon responsable permet de préserver sa beauté pour les générations futures. Voici quelques conseils essentiels pour un tourisme conscient et durable :\n\nNe touchez pas et ne dérangez pas les animaux marins lors du snorkeling ou de la plongée, même s’ils semblent inoffensifs.\nUtilisez une crème solaire biodégradable afin d’éviter de libérer des substances toxiques nuisibles à la posidonie et aux coraux.\nNe nourrissez pas les poissons, car cela modifie leur comportement naturel.\nRespectez les zones protégées et suivez toujours les indications des guides locaux, qui connaissent les règles environnementales.\nÉvitez de jeter l’ancre sur les prairies de posidonie – une seule ancre peut détruire plusieurs mètres de végétation fragile.\nRamassez les déchets ou plastiques flottants que vous trouvez. Chaque petit geste compte.\n\nAdopter un comportement respectueux, c’est faire partie de la solution. Chaque excursion devient alors une expérience plus authentique et pleine de sens."
+  },
+  "section5": {
+    "title": "Vivez la Méditerranée de l’intérieur",
+    "body": "Découvrir la vie marine de la baie d’Alcúdia, c’est donner une nouvelle dimension à votre séjour à Majorque. Il ne s’agit pas seulement de naviguer ou de se baigner dans des eaux turquoise, mais de comprendre l’histoire naturelle qui se cache sous chaque vague et d’apprécier l’équilibre délicat qui soutient cette richesse biologique. S’immerger ici, c’est se reconnecter avec l’essence même de la Méditerranée – une mer qui, depuis des siècles, nourrit la vie, la culture et la beauté.\n\nChez Coral Boats, nous naviguons avec respect pour la mer et ses habitants, en promouvant un tourisme responsable et durable. Nos excursions sont conçues pour vous permettre de profiter de la nature sans la perturber, en observant calmement et en apprenant à reconnaître les espèces qui donnent vie à cet écosystème unique. Nous souhaitons que chaque passager reparte avec bien plus qu’une photo : une conscience renouvelée de l’importance de protéger la mer qui nous entoure.\n\nCar le vrai luxe n’est pas matériel – c’est ressentir une profonde connexion avec la nature, respirer sa sérénité et se laisser porter par le rythme de la mer.\n\nLa Méditerranée vous attend – vivante, lumineuse et éternelle."
+  }
 }
+
 
 
 

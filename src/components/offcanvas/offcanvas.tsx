@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuItems from '@/layouts/headers/menu-items';
+import { useLocale } from '@/hooks/useLocale';
 
 import Logo from '@/assets/img/logo/logo transparente sobre oscuro.png';
 
@@ -39,6 +40,7 @@ const OffCanvas = ({
   selectedLanguage,
   handleLanguageChange,
 }: IProps) => {
+  const { getPath } = useLocale();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
@@ -57,7 +59,7 @@ const OffCanvas = ({
 
           {/* ✅ Logo */}
           <div className="itoffcanvas__logo">
-            <Link href="/">
+            <Link href={getPath('/')}>
               <Image src={Logo} alt="Coral Boats Logo" width={72} height={72} />
             </Link>
           </div>

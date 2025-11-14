@@ -1,10 +1,13 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 import ContactForm from '../form/contact-form';
 
 const ContactAreaNew = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section style={{ padding: '100px 0', background: '#ffffff' }}>
@@ -260,6 +263,83 @@ const ContactAreaNew = () => {
                 <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.9', margin: 0 }}>
                   {t('premium.contact_new.seo_text_3')}
                 </p>
+
+                {/* Outgoing Links Section */}
+                <div style={{ marginTop: '40px', textAlign: 'center' }}>
+                  <h3 style={{ fontSize: '1.3rem', fontWeight: '700', color: '#1e293b', marginBottom: '20px' }}>
+                    {t('premium.contact_new.explore_more', 'Explore More')}
+                  </h3>
+                  <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <Link href={getPath('/tours')} style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '12px 24px',
+                      background: 'linear-gradient(135deg, #0891b2, #0e7490)',
+                      color: '#ffffff',
+                      fontSize: '0.95rem',
+                      fontWeight: '600',
+                      borderRadius: '50px',
+                      textDecoration: 'none',
+                      boxShadow: '0 4px 15px rgba(8, 145, 178, 0.3)',
+                      transition: 'all 0.3s ease',
+                    }}>
+                      <i className="fa-solid fa-ship"></i>
+                      <span>{t('premium.contact_new.our_tours', 'Our Tours')}</span>
+                    </Link>
+                    <Link href={getPath('/gallery')} style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '12px 24px',
+                      background: '#ffffff',
+                      color: '#0891b2',
+                      fontSize: '0.95rem',
+                      fontWeight: '600',
+                      borderRadius: '50px',
+                      textDecoration: 'none',
+                      border: '2px solid #0891b2',
+                      transition: 'all 0.3s ease',
+                    }}>
+                      <i className="fa-solid fa-images"></i>
+                      <span>{t('premium.contact_new.gallery', 'Gallery')}</span>
+                    </Link>
+                    <Link href={getPath('/about')} style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '12px 24px',
+                      background: '#ffffff',
+                      color: '#0891b2',
+                      fontSize: '0.95rem',
+                      fontWeight: '600',
+                      borderRadius: '50px',
+                      textDecoration: 'none',
+                      border: '2px solid #0891b2',
+                      transition: 'all 0.3s ease',
+                    }}>
+                      <i className="fa-solid fa-info-circle"></i>
+                      <span>{t('premium.contact_new.about_us', 'About Us')}</span>
+                    </Link>
+                    <Link href={getPath('/blog')} style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      padding: '12px 24px',
+                      background: '#ffffff',
+                      color: '#0891b2',
+                      fontSize: '0.95rem',
+                      fontWeight: '600',
+                      borderRadius: '50px',
+                      textDecoration: 'none',
+                      border: '2px solid #0891b2',
+                      transition: 'all 0.3s ease',
+                    }}>
+                      <i className="fa-solid fa-blog"></i>
+                      <span>{t('premium.contact_new.blog', 'Blog')}</span>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

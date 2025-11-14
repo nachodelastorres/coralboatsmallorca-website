@@ -528,7 +528,12 @@
     "title": "Les Millors Excursions en Vaixell a Alcúdia, Mallorca",
     "subtitle": "Descobreix la màgia de la Badia d'Alcúdia a bord del nostre vaixell clàssic. Explora cales amagades i les millors platges del nord de Mallorca amb autèntiques experiències locals.",
     "cta_book": "Reserva la Teva Excursió",
-    "cta_view_all": "Veure Totes les Excursions"
+    "cta_view_all": "Veure Totes les Excursions",
+    "video": {
+  "name": "Excursions en Vaixell per Alcúdia - Coral Boats Mallorca",
+  "description": "Descobreix les nostres excursions en vaixell per la Badia d'Alcúdia, Mallorca. Naveguem en un vaixell clàssic visitant cales amagades, platges verges i les millors zones per fer snorkel. Experiències autèntiques amb menjar mallorquí inclòs."
+}
+
   },
   "tours": {
     "label": "Les Nostres Excursions",
@@ -975,7 +980,8 @@
     "stat_3_number": "Badia d'Alcúdia",
     "stat_3_label": "Especialistes",
     "quote_text": "\"Creiem que els millors records neixen al mar, envoltats de la bellesa de la natura, bona companyia i l’esperit d’aventura.\"",
-"quote_author": "— Capità i Tripulació, Coral Boats Mallorca"
+"quote_author": "— Capità i Tripulació, Coral Boats Mallorca",
+    "cta_button": "Coneix La Nostra Història"
 
   }, 
 
@@ -1298,7 +1304,52 @@
     "title": "Planifica la teva aventura per la costa nord: consells pràctics i experiències inoblidables",
     "body": "Explorar la costa nord de Mallorca requereix una mica de planificació, però la recompensa és increïble. Aquí tens tot el que has de saber per viure aquesta experiència al màxim:\n\n**Millor època de l’any:**\n\n- **Primavera (abril-maig)** – Temperatures perfectes, menys turistes, natura en flor\n- **Estiu (juny-setembre)** – Dies llargs, aigua càlida, però més gent\n- **Tardor (octubre-novembre)** – Clima suau, menys multituds, llum perfecta per fer fotos\n- **Hivern** – Per als més aventurers, amb mar més forta però paisatges espectaculars\n\n**Què portar:**\n\n- **Roba còmoda** i capes (el vent pot ser fresc)\n- **Calçat adequat** si penses caminar\n- **Banyador i tovallola** – mai saps quan trobaràs la cala perfecta\n- **Protector solar** – el sol mediterrani és intens fins i tot en dies ennuvolats\n- **Càmera o mòbil amb bateria** – voldràs immortalitzar cada moment\n- **Tub i ulleres de busseig** – per explorar el món submarí\n- **Aigua i snacks** – especialment si fas senderisme\n\n**Seguretat i respecte pel medi ambient:**\n\nLa costa nord és un ecosistema fràgil. Per conservar-lo:\n\n- No deixis brossa (endú-te tot el que portis)\n- Respecta la senyalització i els camins\n- No recullis plantes ni molestis la fauna\n- A l’estiu (juliol-setembre), extrema les precaucions contra incendis\n- Si nades prop de penya-segats, ves amb compte amb els corrents\n- Si fas senderisme sol, informa algú de la teva ruta\n\n**L’experiència completa amb Coral Boats:**\n\nPer a aquells que cerquen la manera més còmoda, segura i completa d’explorar la costa nord, les nostres excursions amb vaixell són l’opció ideal. No només t’enduguem als llocs més espectaculars, sinó que ho fem amb:\n\n- **Coneixement local** – el nostre equip coneix cada racó, cada història i cada secret\n- **Comoditat i seguretat** – vaixell ben equipat amb totes les mesures de seguretat\n- **Experiència personalitzada** – grups reduïts per a una atenció individualitzada\n- **Equipament inclòs** – snorkel, paddle surf, begudes i snacks a bord\n- **Flexibilitat** – adaptem la ruta segons el mar i les teves preferències\n\n**Tours recomanats:**\n\n- **Tour de matí** – Perfecte per a famílies, inclou snorkel, paddle i temps per explorar cales\n- **Creuer al capvespre** – Veure els penya-segats banyats per la llum daurada és màgic\n- **Xàrter privat** – Personalitza totalment la teva experiència i explora al teu ritme\n\n**Últims consells:**\n\n- **Reserva amb antelació** – especialment a l’estiu, les excursions s’omplen ràpid\n- **Comprova el temps** – el mar pot estar mogut alguns dies\n- **Vine amb la ment oberta** – la costa nord té el seu propi ritme; gaudeix-lo\n- **Aprofita l’alba i el capvespre** – la llum en aquests moments fa que els penya-segats brillin d’una manera especial\n\n**Conclusió: un tresor natural que val la pena descobrir**\n\nLa costa nord de Mallorca és molt més que una línia en el mapa. És una experiència sensorial que combina la força de la natura amb la serenor del Mediterrani. Els seus penya-segats, cales secretes i paisatges espectaculars mostren una Mallorca que contrasta completament amb la imatge turística del sud.\n\nJa sigui que l’exploris a peu, amb vaixell o des d’un mirador, aquesta costa et deixarà una empremta inesborrable. I si ho fas des de la mar, descobriràs secrets que ni els senderistes més experts poden veure.\n\n**La costa nord de Mallorca t’està esperant. Estàs preparat per descobrir-la?**\n\nReserva la teva excursió amb Coral Boats i viu l’experiència de navegar per una de les costes més espectaculars del Mediterrani. Els penya-segats, les cales secretes i els paisatges de somni t’esperen."
   }
+},
+
+"blog_veintiuno": {
+  "metaTitle": "Vida marina a la Badia d’Alcúdia: espècies i biodiversitat mediterrània 2025 | Coral Boats",
+  "metaDescription": "Descobreix la fascinant vida marina de la Badia d’Alcúdia. Coneix els peixos mediterranis, les praderies de posidònia, les tortugues, els dofins i la rica biodiversitat que pots observar durant el teu tour en vaixell. Guia completa d’espècies marines a Mallorca.",
+  "badgeTitle": "Natura",
+  "title": "Vida marina a la Badia d’Alcúdia: descobreix el tresor submarí de Mallorca",
+  "slug": "vida-marina-badia-alcudia-especies-mediterrani",
+  "keyword": "vida marina Badia d’Alcúdia, espècies marines Mallorca, biodiversitat mediterrània, fauna marina Alcúdia, posidònia Mallorca, dofins Badia Alcúdia",
+  "meta_description": "Explora la rica biodiversitat marina de la Badia d’Alcúdia: peixos mediterranis, praderies de posidònia, tortugues i dofins que habiten aquestes aigües cristal·lines.",
+  "publishedDate": "13 de novembre de 2025",
+  "btnText": "Llegeix més",
+  "section1": {
+    "title": "Un ecosistema marí únic a la Mediterrània",
+    "body": "La Badia d’Alcúdia no només destaca per les seves aigües cristal·lines i els seus paisatges de postal, sinó també per la riquesa biològica que s’amaga sota la seva superfície. En aquest racó del nord de Mallorca s’hi troba un autèntic laboratori natural on la vida marina prospera en equilibri gràcies a la puresa de l’aigua, la temperatura constant i la bona conservació dels ecosistemes. Submergir-s’hi —ja sigui fent snorkel o observant des del vaixell— és entrar en un món vibrant, ple de colors, textures i moviments que expliquen la història viva de la Mediterrània. Cada excursió en vaixell es converteix en una experiència sensorial: la llum del sol reflectint-se sobre l’aigua, el moviment dels peixos i la calma d’aquest entorn natural fan de la Badia d’Alcúdia un lloc incomparable per als amants del mar i de la natura."
+  },
+  "section2": {
+    "title": "Per què la Badia d’Alcúdia és especial per a la vida marina",
+    "body": "Les aigües d’aquesta badia reuneixen condicions excepcionals que afavoreixen el desenvolupament de la vida submarina i converteixen aquest entorn en un dels ecosistemes més valuosos de Mallorca:\n\nTemperatures estables durant tot l’any que fomenten la presència de comunitats biològiques diverses i resistents.\nPraderies extenses de posidònia oceànica, veritables boscos submarins que produeixen oxigen i capturen carboni, conegudes com els pulmons de la Mediterrània.\nFons sorrencs i rocosos que ofereixen refugi a moltes espècies amb diferents necessitats.\nCorrents suaus i una salinitat equilibrada que permeten que organismes fràgils prosperin sense estrès.\nZones protegides sota figures com la Xarxa Natura 2000, que garanteixen la regeneració natural dels ecosistemes.\n\nGràcies a aquesta combinació de factors, la Badia d’Alcúdia s’ha convertit en un autèntic santuari natural on la biodiversitat mediterrània floreix en tot el seu esplendor. És un exemple viu de com la Mediterrània, tot i els reptes ambientals, continua essent un mar generós i ple de vida quan se’l respecta."
+  },
+  "section3": {
+    "title": "Espècies que pots descobrir durant les excursions",
+    "body": "Durant una excursió en vaixell o una sessió d’snorkel, cada moment ofereix la possibilitat de descobrir noves formes de vida. La Badia d’Alcúdia és com una enciclopèdia marina oberta, on cada racó revela alguna cosa diferent: des de petits crustacis amagats entre les algues fins a grans bancs de peixos que es mouen en harmonia. A continuació, t’expliquem algunes de les espècies més fascinants que podràs observar durant la teva experiència marítima.",
+    "sub1": {
+      "subtitle": "Les praderies de posidònia i el seu ecosistema",
+      "body": "La posidònia oceànica és una planta marina endèmica de la Mediterrània que forma àmplies praderies submarines essencials per a la salut del mar. Aquestes praderies no són simples algues: floreixen, produeixen oxigen i serveixen d’habitat per a centenars d’espècies. Entre les seves fulles hi viuen pops, sípies, estrelles de mar, eriçons i petits peixos que hi troben aliment i protecció. Observar-les és contemplar la base de tota la cadena alimentària marina. A més, les praderies de posidònia ajuden a mantenir les platges de sorra i filtren l’aigua, donant a la badia aquell característic color turquesa que tant enamora els visitants."
+    },
+    "sub2": {
+      "subtitle": "Peixos mediterranis en aigües cristal·lines",
+      "body": "A les aigües poc profundes de les cales es poden observar salpes, oblades, donzelles i molls, així com petits bancs de llisses que neden en grup. Si tens sort, també podràs veure meros amagats entre les roques o bogues que brillen sota el sol. Aquests peixos, típics de la Mediterrània, són un clar indicador de la bona salut de l’ecosistema. També hi ha esponges, anemones i petits crustacis que aporten color i vida al paisatge submarí. Per als més curiosos, cada immersió és una oportunitat de descobrir nous detalls en aquest món transparent i ple de moviment."
+    },
+    "sub3": {
+      "subtitle": "Dofins, tortugues i visitants ocasionals",
+      "body": "Encara que no és habitual, a la Badia d’Alcúdia és possible albirar dofins mulars durant les excursions en vaixell, especialment a l’alba o al capvespre, quan el mar està tranquil i la visibilitat és òptima. La seva presència aporta un toc màgic a la travessia, ja que sovint neden al costat de l’embarcació jugant amb les onades. També s’han registrat albiraments de tortuga babaua, una espècie protegida que visita aquestes aigües per alimentar-se o descansar. De vegades, fins i tot es poden veure meduses lluminoses o peixos lluna a l’horitzó. Aquestes trobades, tot i ser poc freqüents, es viuen com un regal de la natura, un recordatori que la Mediterrània encara guarda meravelles per a qui sap observar-la amb respecte i admiració."
+    }
+  },
+  "section4": {
+    "title": "Com gaudir de la vida marina de manera responsable",
+    "body": "Observar la vida marina és un privilegi que comporta responsabilitat. Gaudir del mar de manera conscient i respectuosa assegura que les futures generacions també puguin meravellar-se amb la seva bellesa. Aquí tens algunes recomanacions essencials per practicar un turisme sostenible:\n\nNo toquis ni molestis els animals marins durant l’snorkel o el busseig, encara que semblin inofensius.\nFes servir protector solar biodegradable per evitar alliberar substàncies tòxiques que puguin danyar la posidònia o els coralls.\nNo alimentis els peixos ni alteris el seu comportament natural: el millor espectacle és veure’ls actuar lliurement.\nRespecta les zones protegides i segueix sempre les indicacions dels guies locals, que coneixen bé les normes ambientals.\nEvita fondejar sobre praderies de posidònia, ja que una sola àncora pot destruir metres de vegetació que trigarien anys a recuperar-se.\nRecull qualsevol residu o plàstic que trobis flotant — cada petit gest compta.\n\nCada acció responsable suma. Formar part d’aquesta cultura de respecte converteix cada excursió en una experiència més autèntica i significativa."
+  },
+  "section5": {
+    "title": "Viu la Mediterrània des de dins",
+    "body": "Conèixer la vida marina de la Badia d’Alcúdia afegeix una nova dimensió a la teva experiència a Mallorca. No es tracta només de navegar o banyar-se en aigües turqueses, sinó d’entendre la història natural que batega sota cada onada i valorar l’equilibri delicat que sosté aquesta riquesa biològica. Submergir-s’hi és reconnectar amb l’essència de la Mediterrània: un mar que, des de fa segles, ha estat font de vida, cultura i bellesa.\n\nA Coral Boats naveguem amb respecte pel mar i pels seus habitants, promovent un turisme responsable i sostenible. Les nostres excursions estan pensades perquè puguis gaudir de la natura sense alterar-la, observant amb calma i aprenent a reconèixer les espècies que donen vida a aquest ecosistema únic. Volem que cada passatger s’endugui més que una fotografia: una consciència renovada sobre la importància de protegir el mar que ens envolta.\n\nPerquè el veritable luxe no és material — és sentir una connexió profunda amb la natura, respirar la seva calma i deixar-se portar pel ritme del mar.\n\nLa Mediterrània t’espera: viva, lluminosa i eterna."
+  }
 }
+
 
 
 

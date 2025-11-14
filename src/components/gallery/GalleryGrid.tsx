@@ -2,10 +2,13 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const GalleryGrid = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
@@ -167,9 +170,21 @@ const GalleryGrid = () => {
                     </h3>
                     <p style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7', marginBottom: '15px' }} dangerouslySetInnerHTML={{ __html: t('premium.gallery.tours_description') }} />
                     <ul style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7', paddingLeft: '20px' }}>
-                      <li dangerouslySetInnerHTML={{ __html: t('premium.gallery.tour_morning') }} />
-                      <li dangerouslySetInnerHTML={{ __html: t('premium.gallery.tour_sunset') }} />
-                      <li dangerouslySetInnerHTML={{ __html: t('premium.gallery.tour_private') }} />
+                      <li>
+                        <Link href={getPath('/alcudia-morning-boat-tour')} style={{ color: '#0891b2', textDecoration: 'none', fontWeight: '600' }}>
+                          {t('premium.gallery.tour_morning').replace(/<[^>]*>/g, '')}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={getPath('/alcudia-sunset-boat-tour')} style={{ color: '#0891b2', textDecoration: 'none', fontWeight: '600' }}>
+                          {t('premium.gallery.tour_sunset').replace(/<[^>]*>/g, '')}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={getPath('/alcudia-private-boat-charter')} style={{ color: '#0891b2', textDecoration: 'none', fontWeight: '600' }}>
+                          {t('premium.gallery.tour_private').replace(/<[^>]*>/g, '')}
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -199,6 +214,44 @@ const GalleryGrid = () => {
                   {t('premium.gallery.book_title')}
                 </h3>
                 <p style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7', marginBottom: '20px' }} dangerouslySetInnerHTML={{ __html: t('premium.gallery.book_description') }} />
+
+                <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', marginBottom: '20px', flexWrap: 'wrap' }}>
+                  <Link href={getPath('/tours')} style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: '14px 30px',
+                    background: 'linear-gradient(135deg, #0891b2, #0e7490)',
+                    color: '#ffffff',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    borderRadius: '50px',
+                    textDecoration: 'none',
+                    boxShadow: '0 4px 15px rgba(8, 145, 178, 0.3)',
+                    transition: 'all 0.3s ease',
+                  }}>
+                    <i className="fa-solid fa-ship"></i>
+                    <span>{t('premium.gallery.view_tours_button', 'View Our Tours')}</span>
+                  </Link>
+                  <Link href={getPath('/contact')} style={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '10px',
+                    padding: '14px 30px',
+                    background: '#ffffff',
+                    color: '#0891b2',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    borderRadius: '50px',
+                    textDecoration: 'none',
+                    border: '2px solid #0891b2',
+                    transition: 'all 0.3s ease',
+                  }}>
+                    <i className="fa-solid fa-envelope"></i>
+                    <span>{t('premium.gallery.contact_button', 'Contact Us')}</span>
+                  </Link>
+                </div>
+
                 <p style={{ fontSize: '0.95rem', color: '#64748b', fontStyle: 'italic' }}>
                   {t('premium.gallery.book_footer')}
                 </p>

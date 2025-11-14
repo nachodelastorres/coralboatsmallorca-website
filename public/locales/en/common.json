@@ -1130,7 +1130,12 @@
       "title": "Best Boat Tours in Alcudia, Mallorca",
       "subtitle": "Discover the magic of Alcudia Bay aboard our classic boat. Explore hidden coves and the best beaches in northern Mallorca with authentic local experiences.",
       "cta_book": "Book Your Tour",
-      "cta_view_all": "View All Tours"
+      "cta_view_all": "View All Tours",
+      "video": {
+  "name": "Boat Excursions in Alcudia - Coral Boats Mallorca",
+  "description": "Discover our boat excursions through Alcudia Bay, Mallorca. We sail on a classic boat visiting hidden coves, virgin beaches, and the best snorkeling spots. Authentic experiences with Mallorcan food included."
+}
+
     },
     "tours": {
       "label": "Our Tours",
@@ -1552,7 +1557,8 @@
     "stat_3_number": "Alcudia Bay",
     "stat_3_label": "Specialists",
     "quote_text": "\"We believe the best memories are made at sea, surrounded by the beauty of nature, good company, and the spirit of adventure.\"",
-    "quote_author": "— Captain and Crew, Coral Boats Mallorca"
+    "quote_author": "— Captain and Crew, Coral Boats Mallorca",
+    "cta_button": "Discover Our Story"
   },
   "about_page": {
     "page": {
@@ -1873,6 +1879,51 @@
     "title": "Where to Stay in Mallorca in September",
     "body": "Each area of Mallorca offers distinct advantages in September, depending on what you’re looking for:\n\n**Alcudia and Port d'Alcudia (highly recommended):**\n\nThe north of Mallorca shines in September. Alcudia’s old town regains its local charm, and the beaches of Playa de Muro and Alcudia remain warm and peaceful. The harbor’s restaurants offer excellent quality without summer crowds.\n\n**Bonus: the ideal base for Coral Boats excursions**, which operate all month under perfect conditions. The bay is calm, the water warm, and the atmosphere more intimate — the best time of year to enjoy a magical experience at sea.\n\n**Palma:**\n\nThe capital breathes again in September. No queues at museums, quiet cafés, and a vibrant cultural calendar. The old town is perfect for strolling, enjoying coffee or a glass of wine at a relaxed pace.\n\n**Sóller and Port de Sóller:**\n\nPerfect for combining mountains and sea. From here, you can hike in the Tramuntana range and take the historic tram to Palma.\n\n**Deià, Valldemossa, and other mountain villages:**\n\nCooler temperatures and less traffic make it easier to explore, enjoy cobblestone streets, and admire unforgettable sunsets.\n\n**Southeast coast (Santanyí, Cala d'Or):**\n\nQuieter and more relaxed, with beautiful beaches and local markets. Many beach bars and restaurants remain open throughout September."
   }
+},
+
+"blog_veintiuno": {
+  "metaTitle": "Marine Life in Alcudia Bay: Mediterranean Species and Biodiversity 2025 | Coral Boats",
+  "metaDescription": "Discover the fascinating marine life of Alcudia Bay. Learn about Mediterranean fish, Posidonia meadows, turtles, dolphins, and the rich biodiversity you can observe during your boat tour. Complete guide to marine species in Mallorca.",
+  "badgeTitle": "Nature",
+  "title": "Marine life in Alcudia Bay: discover Mallorca’s underwater treasure",
+  "slug": "marine-life-alcudia-bay-mediterranean-species",
+  "keyword": "marine life Alcudia Bay, marine species Mallorca, Mediterranean biodiversity, marine fauna Alcudia, Posidonia Mallorca, dolphins Alcudia Bay",
+  "meta_description": "Explore the rich marine biodiversity of Alcudia Bay: Mediterranean fish, Posidonia meadows, turtles, and dolphins that inhabit these crystal-clear waters.",
+  "publishedDate": "November 13, 2025",
+  "btnText": "Read more",
+  "section1": {
+    "title": "A unique marine ecosystem in the Mediterranean",
+    "body": "Alcudia Bay stands out not only for its crystal-clear waters and postcard-perfect landscapes, but also for the incredible biological richness hidden beneath its surface. In this corner of northern Mallorca lies a true natural laboratory where marine life thrives in balance, thanks to pure waters, constant temperature, and well-preserved ecosystems. Diving here —whether snorkeling or simply watching from the boat— is like entering a vibrant world full of colors, textures, and movements that tell the living story of the Mediterranean. Each boat tour becomes a sensory experience: the reflection of sunlight on the water, the shimmer of moving fish, and the peace of this natural environment make Alcudia an incomparable destination for sea and nature lovers."
+  },
+  "section2": {
+    "title": "Why Alcudia Bay is special for marine life",
+    "body": "The waters of this bay offer exceptional conditions that nurture the flourishing of marine life and make it one of Mallorca’s most valuable ecosystems:\n\nStable temperatures throughout the year that foster diverse and resilient biological communities.\nExtensive meadows of Posidonia oceanica, true underwater forests that produce oxygen and capture carbon, known as the lungs of the Mediterranean.\nSandy and rocky seabeds that create perfect habitats for species with different needs.\nGentle currents and balanced salinity that allow fragile organisms to thrive without stress.\nProtected areas under networks like Natura 2000, ensuring the natural regeneration and continuity of species.\n\nThanks to this combination of factors, Alcudia Bay has become a genuine natural sanctuary where Mediterranean biodiversity flourishes in all its splendor. It is a living example that, despite environmental challenges, the Mediterranean remains a vibrant and generous sea when treated with respect."
+  },
+  "section3": {
+    "title": "Species you can discover during your excursions",
+    "body": "During a boat tour or snorkeling session, every moment offers the chance to spot new forms of life. Alcudia Bay is like an open marine encyclopedia, where each corner reveals something new: from tiny crustaceans hiding among algae to large schools of fish moving in harmony. Below are some of the most fascinating species you may encounter on your nautical adventure.",
+    "sub1": {
+      "subtitle": "Posidonia meadows and their ecosystem",
+      "body": "Posidonia oceanica is a marine plant endemic to the Mediterranean that forms vast underwater meadows vital for ocean health. These meadows are not simple algae: they flower, produce oxygen, and serve as shelter for hundreds of species. Among their leaves move octopus, cuttlefish, starfish, sea urchins, and countless small fish seeking food and protection. Observing them is like watching the foundation of the entire marine food chain. Moreover, Posidonia meadows help preserve sandy beaches and filter the water, giving the bay its iconic turquoise color that fascinates visitors."
+    },
+    "sub2": {
+      "subtitle": "Mediterranean fish in crystal waters",
+      "body": "In the shallow waters of the coves, you can spot salema, saddled bream, wrasse, red mullet, and small schools of mullets swimming gracefully together. With a bit of patience, you might even find groupers camouflaged among rocks or shimmering bogue fish under the sun. These species are typical of the Mediterranean, and their abundance is a direct indicator of ecosystem health. You can also see sponges, anemones, and small crustaceans that add vibrant color to the underwater landscape. For the curious eye, every dive becomes a new discovery in this transparent, living world."
+    },
+    "sub3": {
+      "subtitle": "Dolphins, turtles, and occasional visitors",
+      "body": "Although not common, bottlenose dolphins can sometimes be spotted in Alcudia Bay during boat tours, especially at sunrise or sunset, when the sea is calm and visibility is perfect. Their presence adds a magical touch to the journey, as they often swim alongside the boat, playing with the waves. Loggerhead turtles, a protected species, have also been sighted in these waters, visiting in search of food or rest. Occasionally, glowing jellyfish or ocean sunfish may appear on the horizon. These rare encounters are experienced as gifts from nature — reminders that the Mediterranean still holds surprises for those who observe it with respect and wonder."
+    }
+  },
+  "section4": {
+    "title": "How to responsibly enjoy marine life",
+    "body": "Observing marine life is a privilege that comes with responsibility. Enjoying the sea responsibly ensures that future generations can also marvel at its beauty. Here are some essential recommendations for conscious, sustainable tourism:\n\nDo not touch or disturb marine animals while snorkeling or diving, no matter how harmless they seem.\nUse biodegradable sunscreen to avoid releasing toxic substances that harm corals and Posidonia.\nDo not feed fish or alter their natural behavior — the best show is seeing them act freely.\nRespect protected zones and always follow the instructions of local guides, who know the environmental rules.\nAvoid anchoring over Posidonia meadows; a single anchor can destroy meters of vegetation that may take years to recover.\nPick up any floating plastic or waste you find. A small action can make a huge difference to marine health.\n\nEach responsible gesture adds up. Being part of this culture of respect turns every excursion into a more meaningful and authentic experience."
+  },
+  "section5": {
+    "title": "Experience the Mediterranean from within",
+    "body": "Discovering the marine life of Alcudia Bay adds a new dimension to your experience in Mallorca. It’s not just about sailing or swimming in turquoise waters, but about understanding the natural story that flows beneath every wave and appreciating the delicate balance that sustains this biological richness. Immersing yourself here is reconnecting with the essence of the Mediterranean — a sea that has been a source of life, culture, and beauty for centuries.\n\nAt Coral Boats, we sail with deep respect for the sea and its inhabitants, promoting responsible and sustainable tourism. Our tours are designed for you to enjoy nature without disturbing it, observing calmly and learning to recognize the species that give life to this unique ecosystem. We want each passenger to take away more than just a photo: a renewed awareness of the importance of protecting the sea around us.\n\nBecause true luxury is not material — it’s feeling a deep connection with nature, breathing its calm, and letting yourself be carried by the rhythm of the sea.\n\nThe Mediterranean awaits you: alive, radiant, and eternal."
+  }
 }
+
 
 }

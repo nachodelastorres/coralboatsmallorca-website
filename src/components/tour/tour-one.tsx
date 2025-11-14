@@ -177,7 +177,7 @@ const IntroBlock = () => {
         <div className="it-featured-shape-2">
           <Image
             src={shapeImg2}
-            alt="Shape Img"
+            alt=""
             width={138}
             height={123}
             style={{ height: 'auto' }}

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { IBlogDT } from '@/types/blog-d-t';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 interface BlogItemProps {
   blog: IBlogDT;
@@ -9,13 +10,14 @@ interface BlogItemProps {
 
 const BlogItem = ({ blog }: BlogItemProps) => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
   return (
     <div className="it-blog-item p-relative">
       <div className="it-blog-thumb">
-        <Link href={`/blog-details/${blog.slug}`}>
+        <Link href={getPath(`/blog-details/${blog.slug}`)}>
           <Image
             src={blog.image}
-            alt="Blog Img"
+            alt={blog.title}
             width={370}
             height={250}
             style={{ height: 'auto' }}
@@ -41,11 +43,11 @@ const BlogItem = ({ blog }: BlogItemProps) => {
           </div> */}
         </div>
         <h3 className="it-blog-title mb-20">
-          <Link href={`/blog-details/${blog.slug}`}>{t(blog.title)}</Link>
+          <Link href={getPath(`/blog-details/${blog.slug}`)}>{t(blog.title)}</Link>
         </h3>
         <div className="it-blog-button">
           <Link
-            href={`/blog-details/${blog.slug}`}
+            href={getPath(`/blog-details/${blog.slug}`)}
             className="it-btn-blog blog-style-btn"
           >
             {t(blog.btnText!)}

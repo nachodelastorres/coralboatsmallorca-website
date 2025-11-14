@@ -1130,7 +1130,12 @@
       "title": "Il Migliori Tour in Barca ad Alcudia, Maiorca",
       "subtitle": "Scopri la magia della baia di Alcudia a bordo della nostra barca classica. Esplora calette nascoste e le migliori spiagge del nord di Maiorca con autentiche esperienze locali.",
       "cta_book": "Prenota il Tuo Tour",
-      "cta_view_all": "Vedi Tutti i Tour"
+      "cta_view_all": "Vedi Tutti i Tour",
+      "video": {
+  "name": "Escursioni in Barca ad Alcudia - Coral Boats Mallorca",
+  "description": "Scopri le nostre escursioni in barca nella Baia di Alcudia, Maiorca. Navighiamo su una barca classica visitando calette nascoste, spiagge incontaminate e i migliori punti per lo snorkeling. Esperienze autentiche con cibo maiorchino incluso."
+}
+
     },
     "tours": {
       "label": "I Nostri Tour",
@@ -1553,7 +1558,8 @@
     "stat_3_number": "Baia di Alcudia",
     "stat_3_label": "Specialisti",
     "quote_text": "\"Crediamo che i ricordi più belli nascano sull’acqua, circondati dalla bellezza della natura, dalla buona compagnia e dallo spirito d’avventura.\"",
-    "quote_author": "— Capitano e Equipaggio, Coral Boats Mallorca"
+    "quote_author": "— Capitano e Equipaggio, Coral Boats Mallorca",
+    "cta_button": "Scopri La Nostra Storia"
   },
 
   "about_page": {
@@ -1876,7 +1882,52 @@
     "title": "Organizza la tua avventura sulla costa nord: consigli pratici ed esperienze indimenticabili",
     "body": "Esplorare la costa nord di Maiorca richiede un po’ di pianificazione, ma la ricompensa è straordinaria. Ecco tutto ciò che devi sapere per vivere al meglio questa esperienza:\n\n**Periodo migliore dell’anno:**\n\n- **Primavera (aprile–maggio)** – Temperature perfette, pochi turisti, natura in fiore\n- **Estate (giugno–settembre)** – Giornate lunghe, mare caldo, ma più affollamento\n- **Autunno (ottobre–novembre)** – Clima mite, meno gente, luce perfetta per le foto\n- **Inverno** – Per gli avventurosi, mare mosso ma scenari spettacolari\n\n**Cosa portare:**\n\n- **Abbigliamento comodo** e a strati (il vento può essere fresco)\n- **Scarpe adatte** se prevedi di camminare\n- **Costume e asciugamano** – potresti trovare la caletta perfetta\n- **Crema solare** – il sole mediterraneo è forte anche con le nuvole\n- **Macchina fotografica o telefono carico** – vorrai immortalare ogni momento\n- **Maschera e boccaglio** – per esplorare il mondo sottomarino\n- **Acqua e snack** – soprattutto per le escursioni\n\n**Sicurezza e rispetto per l’ambiente:**\n\nLa costa nord è un ecosistema fragile. Per preservarla:\n\n- Non lasciare rifiuti\n- Rispetta i sentieri tracciati\n- Non raccogliere piante né disturbare gli animali\n- In estate (luglio–settembre) fai attenzione agli incendi\n- Se nuoti vicino alle scogliere, attento alle correnti\n- Se fai trekking da solo, informa qualcuno del tuo percorso\n\n**L’esperienza completa con Coral Boats:**\n\nPer chi cerca il modo più comodo, sicuro e completo per esplorare la costa nord, le nostre escursioni in barca sono la scelta ideale. Ti portiamo nei luoghi più spettacolari con:\n\n- **Conoscenza locale** – il nostro equipaggio conosce ogni angolo e ogni storia\n- **Comfort e sicurezza** – barca ben attrezzata con tutte le misure di sicurezza\n- **Esperienza personalizzata** – piccoli gruppi per un’attenzione dedicata\n- **Attrezzatura inclusa** – snorkeling, paddle board, bevande e snack a bordo\n- **Flessibilità** – itinerari adattati alle condizioni del mare e alle tue preferenze\n\n**Tour consigliati:**\n\n- **Tour del mattino** – Perfetto per famiglie, include snorkeling, paddle e soste bagno\n- **Crociera al tramonto** – Le scogliere illuminate dalla luce dorata, un’esperienza magica\n- **Charter privato** – Esperienza completamente personalizzata, al tuo ritmo\n\n**Ultimi consigli:**\n\n- **Prenota in anticipo** – in alta stagione i posti si esauriscono rapidamente\n- **Controlla il meteo** – il mare può essere agitato in alcuni giorni\n- **Mantieni la mente aperta** – la costa nord ha il suo ritmo; goditelo\n- **Sfrutta alba e tramonto** – la luce rende le scogliere ancora più suggestive\n\n**Conclusione: un tesoro naturale da scoprire**\n\nLa costa nord di Maiorca è molto più di una semplice linea sulla mappa. È un’esperienza multisensoriale che unisce la forza della natura alla serenità del Mediterraneo. Le sue scogliere, calette segrete e paesaggi spettacolari mostrano un volto di Maiorca completamente diverso da quello turistico del sud.\n\nChe tu la esplori a piedi, in barca o da un punto panoramico, questa costa ti lascerà un ricordo indelebile. E se scegli di farlo dal mare, scoprirai segreti che nemmeno gli escursionisti più esperti possono raggiungere.\n\n**La costa nord di Maiorca ti aspetta. Sei pronto a scoprirla?**\n\nPrenota la tua escursione con Coral Boats e vivi l’esperienza di navigare lungo una delle coste più spettacolari del Mediterraneo. Le scogliere, le calette segrete e i paesaggi da sogno ti aspettano."
   }
+},
+
+"blog_veintiuno": {
+  "metaTitle": "Vita marina nella Baia di Alcudia: specie e biodiversità mediterranea 2025 | Coral Boats",
+  "metaDescription": "Scopri l’affascinante vita marina della Baia di Alcudia. Conosci i pesci mediterranei, le praterie di posidonia, le tartarughe, i delfini e la ricca biodiversità che puoi osservare durante un tour in barca. Guida completa alle specie marine di Maiorca.",
+  "badgeTitle": "Natura",
+  "title": "Vita marina nella Baia di Alcudia: scopri il tesoro sottomarino di Maiorca",
+  "slug": "vita-marina-baia-alcudia-specie-mediterranee",
+  "keyword": "vita marina Baia di Alcudia, specie marine Maiorca, biodiversità mediterranea, fauna marina Alcudia, posidonia Maiorca, delfini Baia Alcudia",
+  "meta_description": "Esplora la ricca biodiversità marina della Baia di Alcudia: pesci mediterranei, praterie di posidonia, tartarughe e delfini che popolano queste acque cristalline.",
+  "publishedDate": "13 novembre 2025",
+  "btnText": "Leggi di più",
+  "section1": {
+    "title": "Un ecosistema marino unico nel Mediterraneo",
+    "body": "La Baia di Alcudia non si distingue solo per le sue acque cristalline e i paesaggi da cartolina, ma anche per la straordinaria ricchezza biologica nascosta sotto la superficie. In questo angolo del nord di Maiorca si trova un vero laboratorio naturale dove la vita marina prospera in equilibrio, grazie alla purezza dell’acqua, alla temperatura stabile e alla conservazione degli ecosistemi. Immergersi qui – che sia facendo snorkeling o semplicemente osservando dal ponte di una barca – significa entrare in un mondo vibrante, pieno di colori, forme e movimenti che raccontano la storia viva del Mediterraneo. Ogni escursione in barca diventa un’esperienza sensoriale: la luce del sole che si riflette sull’acqua, il luccichio dei pesci e la calma che emana questo ambiente naturale rendono Alcudia una meta incomparabile per gli amanti del mare e della natura."
+  },
+  "section2": {
+    "title": "Perché la Baia di Alcudia è speciale per la vita marina",
+    "body": "Le acque di questa baia offrono condizioni eccezionali che favoriscono lo sviluppo della vita sottomarina, rendendola uno degli ecosistemi più preziosi di Maiorca:\n\nTemperature stabili durante tutto l’anno che incoraggiano la presenza di comunità marine diversificate e resistenti.\nEstese praterie di Posidonia oceanica, vere e proprie foreste sottomarine che producono ossigeno e catturano carbonio, considerate i polmoni del Mediterraneo.\nFondali sabbiosi e rocciosi che offrono habitat ideali per numerose specie.\nCorrenti leggere e salinità equilibrata che permettono a organismi delicati di prosperare senza stress.\nZone protette, come quelle della rete Natura 2000, che assicurano la rigenerazione naturale degli ecosistemi e la continuità delle specie.\n\nGrazie a questa combinazione di fattori, la Baia di Alcudia è diventata un vero santuario naturale dove la biodiversità mediterranea si manifesta in tutto il suo splendore. È la dimostrazione che, nonostante le sfide ambientali, il Mediterraneo rimane un mare vivo e generoso, quando viene rispettato."
+  },
+  "section3": {
+    "title": "Specie che puoi scoprire durante le escursioni",
+    "body": "Durante un tour in barca o una sessione di snorkeling, ogni momento offre la possibilità di scoprire nuove forme di vita. La Baia di Alcudia è come un’enciclopedia marina a cielo aperto, dove ogni angolo rivela qualcosa di diverso: dai minuscoli crostacei nascosti tra le alghe ai grandi banchi di pesci che si muovono all’unisono. Di seguito, alcune delle specie più affascinanti che potrai osservare durante la tua avventura in mare.",
+    "sub1": {
+      "subtitle": "Le praterie di posidonia e il loro ecosistema",
+      "body": "La Posidonia oceanica è una pianta marina endemica del Mediterraneo che forma vaste praterie sottomarine, fondamentali per la salute del mare. Queste praterie non sono semplici alghe: fioriscono, producono ossigeno e ospitano centinaia di specie. Tra le loro foglie si muovono polpi, seppie, stelle marine, ricci di mare e piccoli pesci che vi trovano rifugio e nutrimento. Osservarle significa contemplare la base stessa della catena alimentare marina. Inoltre, le praterie di posidonia contribuiscono a mantenere le spiagge sabbiose e a filtrare l’acqua, regalando alla baia quel tipico colore turchese che incanta i visitatori."
+    },
+    "sub2": {
+      "subtitle": "Pesci mediterranei nelle acque cristalline",
+      "body": "Nelle acque poco profonde delle cale si possono osservare salpe, occhiate, donzelle, triglie e piccoli branchi di muggini che nuotano insieme in modo armonioso. Con un po’ di pazienza si possono scorgere anche cernie nascoste tra le rocce o boghe che brillano alla luce del sole. Questi pesci, tipici del Mediterraneo, indicano un ecosistema sano e in equilibrio. È possibile ammirare anche spugne, anemoni e piccoli crostacei che colorano il paesaggio sottomarino. Per i più curiosi, ogni immersione è una nuova scoperta in un mondo trasparente e pieno di vita."
+    },
+    "sub3": {
+      "subtitle": "Delfini, tartarughe e visitatori occasionali",
+      "body": "Anche se non è comune, nella Baia di Alcudia è possibile avvistare delfini tursiopi durante le escursioni in barca, specialmente all’alba o al tramonto, quando il mare è calmo e la visibilità è perfetta. La loro presenza aggiunge un tocco magico al viaggio, poiché spesso nuotano accanto alla barca, giocando con le onde. Sono stati registrati anche avvistamenti di tartarughe caretta caretta, una specie protetta che visita queste acque alla ricerca di cibo o riposo. A volte si possono vedere meduse luminose o pesci luna all’orizzonte. Questi incontri, seppur rari, sono vissuti come un dono della natura, un promemoria che il Mediterraneo conserva ancora sorprese per chi lo osserva con rispetto e meraviglia."
+    }
+  },
+  "section4": {
+    "title": "Come godersi responsabilmente la vita marina",
+    "body": "Osservare la vita marina è un privilegio che comporta una grande responsabilità. Godere del mare in modo consapevole e rispettoso garantisce che anche le future generazioni possano ammirarne la bellezza. Ecco alcuni consigli fondamentali per un turismo sostenibile e rispettoso:\n\nNon toccare né disturbare gli animali marini durante lo snorkeling o le immersioni, anche se sembrano innocui.\nUsa creme solari biodegradabili per evitare di rilasciare sostanze tossiche dannose per i coralli e la posidonia.\nNon nutrire i pesci e non alterare il loro comportamento naturale – il vero spettacolo è vederli liberi nel loro ambiente.\nRispetta le zone protette e segui sempre le indicazioni delle guide locali, che conoscono le regole ambientali.\nEvita di ancorare sopra le praterie di posidonia: un’unica ancora può distruggere metri di vegetazione che impiegano anni a rigenerarsi.\nRaccogli i rifiuti o la plastica che trovi galleggiare – anche un piccolo gesto può fare la differenza.\n\nOgni azione responsabile contribuisce alla salvaguardia del mare. Far parte di questa cultura del rispetto rende ogni escursione un’esperienza più autentica e significativa."
+  },
+  "section5": {
+    "title": "Vivi il Mediterraneo dall’interno",
+    "body": "Scoprire la vita marina della Baia di Alcudia aggiunge una nuova dimensione alla tua esperienza a Maiorca. Non si tratta solo di navigare o nuotare in acque turchesi, ma di comprendere la storia naturale che pulsa sotto ogni onda e di apprezzare il delicato equilibrio che sostiene questa straordinaria biodiversità. Immergersi in questo ambiente significa riconnettersi con l’essenza del Mediterraneo – un mare che da secoli è fonte di vita, cultura e bellezza.\n\nIn Coral Boats navighiamo con profondo rispetto per il mare e i suoi abitanti, promuovendo un turismo responsabile e sostenibile. I nostri tour sono progettati per permetterti di godere della natura senza disturbarla, osservando con calma e imparando a riconoscere le specie che danno vita a questo ecosistema unico. Vogliamo che ogni passeggero porti con sé più di una semplice foto: una rinnovata consapevolezza dell’importanza di proteggere il mare che ci circonda.\n\nPerché il vero lusso non è materiale – è sentire una profonda connessione con la natura, respirare la sua calma e lasciarsi trasportare dal ritmo del mare.\n\nIl Mediterraneo ti aspetta: vivo, luminoso ed eterno."
+  }
 }
+
 
 
 

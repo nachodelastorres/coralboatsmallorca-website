@@ -184,7 +184,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               >
                 <Image
                   src={blog.image}
-                  alt="Section illustration"
+                  alt={`${blog.title} - Coral Boats Mallorca`}
                   fill
                   style={{ objectFit: 'cover' }}
                 />
@@ -270,7 +270,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               >
                 <Image
                   src="/assets/img/premium/gallery_new/sunset.webp"
-                  alt="Book your tour"
+                  alt="Sunset boat tour Alcudia Mallorca - Book your exclusive experience"
                   fill
                   style={{ objectFit: 'cover' }}
                 />

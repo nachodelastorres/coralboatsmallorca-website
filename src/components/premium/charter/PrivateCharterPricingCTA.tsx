@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const PrivateCharterPricingCTA = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section style={{ padding: '80px 0', background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)' }}>
@@ -51,7 +53,7 @@ const PrivateCharterPricingCTA = () => {
               </div>
 
               <Link
-                href="/charter-pricing"
+                href={getPath('/charter-pricing')}
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',

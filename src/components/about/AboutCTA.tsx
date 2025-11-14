@@ -13,21 +13,21 @@ const AboutCTA = () => {
       icon: 'fa-sun',
       titleKey: 'about.cta.tour1_title',
       descKey: 'about.cta.tour1_desc',
-      link: getPath('/morning-tour'),
+      link: getPath('/alcudia-morning-boat-tour'),
       color: '#f59e0b'
     },
     {
       icon: 'fa-water',
       titleKey: 'about.cta.tour2_title',
       descKey: 'about.cta.tour2_desc',
-      link: getPath('/sunset-tour'),
+      link: getPath('/alcudia-sunset-boat-tour'),
       color: '#ec4899'
     },
     {
       icon: 'fa-crown',
       titleKey: 'about.cta.tour3_title',
       descKey: 'about.cta.tour3_desc',
-      link: getPath('/private-charter'),
+      link: getPath('/alcudia-private-boat-charter'),
       color: '#8b5cf6'
     }
   ];

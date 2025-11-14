@@ -3,9 +3,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const PrivateCharterHero = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section className="premium-tour-hero">
@@ -71,7 +73,7 @@ const PrivateCharterHero = () => {
               </div>
 
               <div className="hero-actions">
-                <Link href="/charter-pricing" className="premium-hero__cta premium-hero__cta--primary">
+                <Link href={getPath('/charter-pricing')} className="premium-hero__cta premium-hero__cta--primary">
                   <i className="fa-solid fa-euro-sign"></i>
                   <span>{t('privateCharter.hero.ctaPricing')}</span>
                 </Link>

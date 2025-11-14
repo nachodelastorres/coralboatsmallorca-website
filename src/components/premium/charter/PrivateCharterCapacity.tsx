@@ -3,9 +3,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const PrivateCharterCapacity = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section className="premium-tour-details">
@@ -143,7 +145,7 @@ const PrivateCharterCapacity = () => {
           <div className="col-12">
             <div style={{ textAlign: 'center' }}>
               <Link
-                href="/charter-pricing"
+                href={getPath('/charter-pricing')}
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',

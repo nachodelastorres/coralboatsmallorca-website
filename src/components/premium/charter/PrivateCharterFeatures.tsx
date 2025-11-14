@@ -1,9 +1,12 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const PrivateCharterFeatures = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   return (
     <section style={{
@@ -136,10 +139,10 @@ const PrivateCharterFeatures = () => {
               {/* Closing paragraph */}
               <div style={{ textAlign: 'center', marginTop: '40px' }}>
                 <p className="charter-closing-text" dangerouslySetInnerHTML={{ __html: t('privateCharter.features.closingText') }} />
-                <a href="/charter-pricing" className="charter-cta-button">
+                <Link href={getPath('/charter-pricing')} className="charter-cta-button">
                   <span>{t('privateCharter.features.ctaButton')}</span>
                   <i className="fa-solid fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
 
             </div>

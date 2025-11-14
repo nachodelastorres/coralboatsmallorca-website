@@ -32,6 +32,7 @@ import blogDetailsImg17 from '@/assets/img/premium/gallery_new/sangria_tapas.web
 import blogDetailsImg18 from '@/assets/img/inner-page/blog/muro.webp';
 import blogDetailsImg19 from '@/assets/img/premium/gallery_new/alcudia_pueblo.webp';
 import blogDetailsImg20 from '@/assets/img/premium/gallery_new/coastline_views.webp';
+import blogDetailsImg21 from '@/assets/img/premium/gallery_new/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -684,6 +685,39 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veinte.section5.title',
   section5Body: 'blog_veinte.section5.body',
   layout: 'magazine',
+},
+
+{
+  id: 21,
+  slug: 'vida-marina-bahia-alcudia-especies-mediterraneo',
+  image: blogDetailsImg21,
+  badgeTitle: 'blog_veintiuno.badgeTitle',
+  title: 'blog_veintiuno.title',
+  metaTitle: 'blog_veintiuno.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg21,
+  publishedDate: 'blog_veintiuno.publishedDate',
+  description: 'blog_veintiuno.meta_description',
+  metaDescription: 'blog_veintiuno.metaDescription',
+  btnText: 'blog_veintiuno.btnText',
+  keyword: 'blog_veintiuno.keyword',
+  section1Title: 'blog_veintiuno.section1.title',
+  section1Body: 'blog_veintiuno.section1.body',
+  section2Title: 'blog_veintiuno.section2.title',
+  section2Body: 'blog_veintiuno.section2.body',
+  section3Title: 'blog_veintiuno.section3.title',
+  section3Body: 'blog_veintiuno.section3.body',
+  section3sub1Subtitle: 'blog_veintiuno.section3.sub1.subtitle',
+  section3sub1Body: 'blog_veintiuno.section3.sub1.body',
+  section3sub2Subtitle: 'blog_veintiuno.section3.sub2.subtitle',
+  section3sub2Body: 'blog_veintiuno.section3.sub2.body',
+  section3sub3Subtitle: 'blog_veintiuno.section3.sub3.subtitle',
+  section3sub3Body: 'blog_veintiuno.section3.sub3.body',
+  section4Title: 'blog_veintiuno.section4.title',
+  section4Body: 'blog_veintiuno.section4.body',
+  section5Title: 'blog_veintiuno.section5.title',
+  section5Body: 'blog_veintiuno.section5.body',
+  layout: 'minimalist',
 }
 
 ];

@@ -140,7 +140,7 @@ const HeaderOne = ({ hasTopBar, hasTopBarTwo, headerClass }: HeaderProps) => {
                 {/* LOGO */}
                 <div className="col-xl-2 col-lg-6 col-md-6 col-6 justify-content-start">
                   <div className="it-main-logo">
-                    <Link href="/">
+                    <Link href={getPath('/')}>
                       <Image
                         src={Logo}
                         alt="Coral Boats Logo"

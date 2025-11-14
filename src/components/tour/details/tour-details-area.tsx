@@ -176,7 +176,7 @@ const TourDetailsArea = ({ tour: selectedTour }: { tour: ITourDT }) => {
                 <div className="it-discover-thumb mb-15">
                   <Image
                     src={tour.image ?? ''}
-                    alt="Tour Image"
+                    alt={`${tour.title} - Boat tour in Alcudia Mallorca`}
                     width={770}
                     height={451}
                     style={{ width: '100%', height: 'auto', borderRadius: '0px', objectFit: 'cover' }}
@@ -204,7 +204,7 @@ const TourDetailsArea = ({ tour: selectedTour }: { tour: ITourDT }) => {
                     <Image
                       key={i}
                       src={shapeImg2}
-                      alt="Logo Coral"
+                      alt=""
                       width={40}
                       height={40}
                       style={{ margin: '0 15px', opacity: 1 }}

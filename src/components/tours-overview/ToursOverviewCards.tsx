@@ -3,9 +3,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '@/hooks/useLocale';
 
 const ToursOverviewCards = () => {
   const { t } = useTranslation('common');
+  const { getPath } = useLocale();
 
   const tours = [
     {
@@ -118,7 +120,7 @@ const ToursOverviewCards = () => {
         <div className="row">
           {tours.map((tour, index) => (
             <div key={tour.id} className="col-lg-4 col-md-6" style={{ marginBottom: '30px' }}>
-              <Link href={tour.link} style={{ textDecoration: 'none', color: 'inherit', display: 'block', height: '100%' }}>
+              <Link href={getPath(tour.link)} style={{ textDecoration: 'none', color: 'inherit', display: 'block', height: '100%' }}>
                 <div id={tour.id} style={{
                   background: '#ffffff',
                   borderRadius: '20px',

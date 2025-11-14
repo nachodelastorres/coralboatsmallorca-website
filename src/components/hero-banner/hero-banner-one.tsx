@@ -16,7 +16,7 @@ const HeroBannerOne = () => {
         <div className="it-slider-bg-wrapper" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
           <Image
             src="/assets/img/home-1/slider/hero2.webp"
-            alt="Hero background"
+            alt="Boat tours in Alcudia Bay Mallorca - Coral Boats exclusive excursions"
             fill
             priority
             sizes="100vw"
