@@ -61,7 +61,7 @@ const languageOptions: LanguageOptions = {
 
 const HeaderOne = ({ hasTopBar, hasTopBarTwo, headerClass }: HeaderProps) => {
   const { t, i18n } = useTranslation('common'); // ✅ Obtenemos i18n desde useTranslation
-  const { locale, getCurrentPathWithoutLocale } = useLocale();
+  const { locale, getCurrentPathWithoutLocale, getPath } = useLocale();
   const router = useRouter();
   const [isVisible, setIsVisible] = useState<boolean>(false);
   const [isOffCanvasOpen, setIsOffCanvasOpen] = useState<boolean>(false);
