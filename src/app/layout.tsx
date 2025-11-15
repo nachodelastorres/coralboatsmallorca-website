@@ -121,6 +121,14 @@ export default function RootLayout({
         `}
       </Script>
 
+        {/* Ahrefs Web Analytics */}
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="oD3yHu5oe5BbBlZgypHTMw"
+          strategy="afterInteractive"
+          async
+        />
+
 
         {/* ✅ Script obligatorio de FareHarbor */}
         <Script
