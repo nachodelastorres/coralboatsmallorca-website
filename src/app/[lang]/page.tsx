@@ -256,37 +256,37 @@ export default function Home({ params }: PageProps) {
       {
         "@type": "ImageObject",
         "@id": `${canonicalUrl}#gallery-image-1`,
-        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/hidden_coves.webp",
-        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/hidden_coves.webp",
-        "name": "Hidden Coves in Alcudia Bay",
-        "description": "Explore pristine hidden coves only accessible by boat",
+        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/classic_boat.webp",
+        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/classic_boat.webp",
+        "name": "Classic Wooden Boat",
+        "description": "Our beautiful classic wooden boat - traditional Mediterranean charm",
         "encodingFormat": "image/webp"
       },
       {
         "@type": "ImageObject",
         "@id": `${canonicalUrl}#gallery-image-2`,
-        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/sunset.webp",
-        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/sunset.webp",
-        "name": "Magical Mediterranean Sunset",
-        "description": "Experience breathtaking sunsets on our evening boat tours",
+        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/mallorca_views.webp",
+        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/mallorca_views.webp",
+        "name": "Stunning Mallorca Coastal Views",
+        "description": "Breathtaking views of Mallorca's coastline from the sea",
         "encodingFormat": "image/webp"
       },
       {
         "@type": "ImageObject",
         "@id": `${canonicalUrl}#gallery-image-3`,
-        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/friends_fun.webp",
-        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/friends_fun.webp",
-        "name": "Friends Having Fun",
-        "description": "Create unforgettable memories with friends and family",
+        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/sangria_tapas.webp",
+        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/sangria_tapas.webp",
+        "name": "Authentic Sangria and Mallorcan Tapas",
+        "description": "Enjoy homemade sangria and traditional Mallorcan tapas on board",
         "encodingFormat": "image/webp"
       },
       {
         "@type": "ImageObject",
         "@id": `${canonicalUrl}#gallery-image-4`,
-        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/water_fun.webp",
-        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/water_fun.webp",
-        "name": "Water Activities and Fun",
-        "description": "Enjoy snorkeling, paddle boarding and swimming in crystal-clear waters",
+        "url": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/friends_fun.webp",
+        "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/friends_fun.webp",
+        "name": "Friends Having Fun",
+        "description": "Create unforgettable memories with friends and family on our boat tours",
         "encodingFormat": "image/webp"
       }
     ]
