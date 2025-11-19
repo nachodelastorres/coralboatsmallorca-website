@@ -14,24 +14,27 @@ const HeroPremium = () => {
   const videoSchema = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
+    "@id": "https://www.coralboatsmallorca.com/#hero-video",
     "name": t('premium.hero.video.name'),
     "description": t('premium.hero.video.description'),
-    "thumbnailUrl": "https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp",
-    "uploadDate": "2025-10-01T00:00:00Z",
+    "thumbnailUrl": "https://www.coralboatsmallorca.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp",
+    "uploadDate": "2024-04-01T09:00:00+02:00",
     "duration": "PT33S",
-    "contentUrl": "https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca.mp4",
-    "embedUrl": `https://coralboats.com/${locale}`,
+    "contentUrl": "https://www.coralboatsmallorca.com/assets/img/premium/alcudia-boat-trips-mallorca.mp4",
+    "embedUrl": `https://www.coralboatsmallorca.com/${locale}`,
+    "encodingFormat": "video/mp4",
     "publisher": {
       "@type": "Organization",
-      "name": "Coral Boats Mallorca",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://coralboats.com/assets/img/logo/logo transparente sobre oscuro.png"
-      }
+      "@id": "https://www.coralboatsmallorca.com/#organization",
+      "name": "Coral Boats Mallorca"
     },
     "inLanguage": locale,
     "isFamilyFriendly": true,
-    "regionsAllowed": "ES,EU"
+    "regionsAllowed": "ES,EU",
+    "potentialAction": {
+      "@type": "WatchAction",
+      "target": `https://www.coralboatsmallorca.com/${locale}`
+    }
   };
 
   return (
@@ -59,9 +62,11 @@ const HeroPremium = () => {
           <source src="/assets/img/premium/alcudia-boat-trips-mallorca.mp4" type="video/mp4" />
           <meta itemProp="name" content={t('premium.hero.video.name')} />
           <meta itemProp="description" content={t('premium.hero.video.description')} />
-          <meta itemProp="thumbnailUrl" content="https://coralboats.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp" />
-          <meta itemProp="uploadDate" content="2025-10-01T00:00:00Z" />
+          <meta itemProp="thumbnailUrl" content="https://www.coralboatsmallorca.com/assets/img/premium/alcudia-boat-trips-mallorca-thumbnail.webp" />
+          <meta itemProp="uploadDate" content="2024-04-01T09:00:00+02:00" />
           <meta itemProp="duration" content="PT33S" />
+          <meta itemProp="contentUrl" content="https://www.coralboatsmallorca.com/assets/img/premium/alcudia-boat-trips-mallorca.mp4" />
+          <meta itemProp="encodingFormat" content="video/mp4" />
         </video>
       </div>
 

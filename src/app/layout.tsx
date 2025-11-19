@@ -136,20 +136,116 @@ export default function RootLayout({
           strategy="lazyOnload"
         />
 
-        {/* ✅ Datos estructurados para SEO */}
+        {/* ✅ Schema.org: LocalBusiness + TouristAttraction (Unificado y Optimizado) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Coral Boats Mallorca",
-              url: "https://www.coralboatsmallorca.com",
-              logo: "https://www.coralboatsmallorca.com/assets/img/logo/favicon2.png",
-              sameAs: [
-                "https://www.instagram.com/coralboatsmallorca"
-                // "https://www.facebook.com/tu_pagina"
+              "@type": ["LocalBusiness", "TouristAttraction"],
+              "@id": "https://www.coralboatsmallorca.com/#organization",
+              "name": "Coral Boats Mallorca",
+              "description": "Coral Boats Mallorca provides morning, sunset and private boat tours from Port d'Alcudia on a classic wooden boat, offering swimming stops, coastal views and a calm, authentic Mediterranean experience.",
+              "url": "https://www.coralboatsmallorca.com",
+              "telephone": "+34626681867",
+              "email": "info@coralboatsmallorca.com",
+              "image": "https://www.coralboatsmallorca.com/assets/img/logo/logo.png",
+              "logo": {
+                "@type": "ImageObject",
+                "@id": "https://www.coralboatsmallorca.com/#logo",
+                "url": "https://www.coralboatsmallorca.com/assets/img/logo/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "Coral Boats Mallorca Logo"
+              },
+              "priceRange": "€€",
+              "currenciesAccepted": "EUR",
+              "paymentAccepted": "Cash, Credit Card, Debit Card, Bank Transfer, Online Payment",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "c/ del Moll Comercial s/n",
+                "addressLocality": "Puerto de Alcudia",
+                "addressRegion": "Balearic Islands",
+                "postalCode": "07400",
+                "addressCountry": "ES"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 39.8371,
+                "longitude": 3.1219
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "09:00",
+                "closes": "21:00",
+                "validFrom": "2024-04-01",
+                "validThrough": "2024-10-31"
+              },
+              "sameAs": [
+                "https://www.instagram.com/coralboatsmallorca",
+                "https://www.facebook.com/coralboatsmallorca"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "500",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "hasMap": "https://maps.google.com/?q=39.8371,3.1219",
+              "areaServed": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.8371,
+                  "longitude": 3.1219
+                },
+                "geoRadius": "50000"
+              },
+              "knowsAbout": [
+                "Boat Tours",
+                "Alcudia Bay",
+                "Mediterranean Sea",
+                "Snorkeling",
+                "Hidden Coves",
+                "Sunset Tours",
+                "Private Charters"
+              ],
+              "slogan": "Discover the hidden treasures of Alcudia Bay",
+              "foundingDate": "2018",
+              "founders": [
+                {
+                  "@type": "Person",
+                  "name": "Coral Boats Team"
+                }
               ]
+            }),
+          }}
+        />
+
+        {/* ✅ Schema.org: WebSite (Knowledge Graph y Sitelinks) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.coralboatsmallorca.com/#website",
+              "name": "Coral Boats Mallorca",
+              "alternateName": "Coral Boats",
+              "url": "https://www.coralboatsmallorca.com",
+              "description": "Official website of Coral Boats Mallorca - Boat tours in Port d'Alcudia. Morning tours, sunset cruises, and private charters in the Bay of Alcudia.",
+              "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.coralboatsmallorca.com/#organization"
+              },
+              "inLanguage": ["en", "es", "de", "fr", "it", "ca"],
+              "copyrightYear": 2018,
+              "copyrightHolder": {
+                "@type": "Organization",
+                "@id": "https://www.coralboatsmallorca.com/#organization"
+              }
             }),
           }}
         />

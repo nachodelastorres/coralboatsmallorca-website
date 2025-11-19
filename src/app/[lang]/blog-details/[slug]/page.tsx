@@ -71,14 +71,141 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function BlogDetailsPage({ params }: Props) {
+export default async function BlogDetailsPage({ params }: Props) {
   const blog = blogData.find((blog) => blog.slug === params.slug);
 
-  return blog ? (
-    <BlogDetailsMain blog={blog} />
-  ) : (
-    <div className="text-center pt-100">
-      Blog not found with slug: {params.slug}
-    </div>
+  if (!blog) {
+    return (
+      <div className="text-center pt-100">
+        Blog not found with slug: {params.slug}
+      </div>
+    );
+  }
+
+  // Get translations for schema
+  const t = await getTranslations(params.lang);
+
+  const seoTitle = blog.metaTitle && blog.metaTitle.includes('.')
+    ? t(blog.metaTitle) || blog.metaTitle
+    : blog.metaTitle || t(blog.title) || blog.title;
+
+  const seoDescription = blog.metaDescription && blog.metaDescription.includes('.')
+    ? t(blog.metaDescription) || blog.metaDescription
+    : blog.metaDescription || (blog.description ? t(blog.description) : null) || '';
+
+  const publishedDate = blog.publishedDate && blog.publishedDate.includes('.')
+    ? t(blog.publishedDate) || blog.publishedDate
+    : blog.publishedDate || new Date().toISOString();
+
+  // Convert Spanish date format to ISO 8601
+  const parseSpanishDate = (dateStr: string): string => {
+    const months: { [key: string]: string } = {
+      'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
+      'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
+      'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
+    };
+
+    const match = dateStr.match(/(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})/);
+    if (match) {
+      const day = match[1].padStart(2, '0');
+      const month = months[match[2].toLowerCase()] || '01';
+      const year = match[3];
+      return `${year}-${month}-${day}T09:00:00+02:00`;
+    }
+
+    // Fallback to current date if parsing fails
+    return new Date().toISOString();
+  };
+
+  const isoPublishedDate = parseSpanishDate(publishedDate);
+  const canonicalUrl = `https://www.coralboatsmallorca.com/${params.lang}/blog-details/${params.slug}`;
+  const imageUrl = `https://www.coralboatsmallorca.com${blog.image.src}`;
+
+  // BreadcrumbList Schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.coralboatsmallorca.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": `https://www.coralboatsmallorca.com/${params.lang}/blog`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": seoTitle,
+        "item": canonicalUrl
+      }
+    ]
+  };
+
+  // BlogPosting Schema
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${canonicalUrl}#blogposting`,
+    "headline": seoTitle,
+    "description": seoDescription,
+    "image": {
+      "@type": "ImageObject",
+      "url": imageUrl,
+      "width": blog.image.width || 1200,
+      "height": blog.image.height || 630,
+    },
+    "datePublished": isoPublishedDate,
+    "dateModified": isoPublishedDate,
+    "author": {
+      "@type": "Organization",
+      "@id": "https://www.coralboatsmallorca.com/#organization",
+      "name": "Coral Boats Mallorca",
+      "url": "https://www.coralboatsmallorca.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://www.coralboatsmallorca.com/#organization",
+      "name": "Coral Boats Mallorca",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.coralboatsmallorca.com/assets/img/logo/logo.png",
+        "width": 512,
+        "height": 512
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "inLanguage": params.lang,
+    "keywords": blog.keyword && blog.keyword.includes('.')
+      ? t(blog.keyword) || blog.keyword
+      : blog.keyword,
+    "articleSection": "Boat Tours & Travel Guides",
+    "isPartOf": {
+      "@type": "Blog",
+      "@id": "https://www.coralboatsmallorca.com/#blog",
+      "name": "Coral Boats Mallorca Blog"
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
+      <BlogDetailsMain blog={blog} />
+    </>
   );
 }

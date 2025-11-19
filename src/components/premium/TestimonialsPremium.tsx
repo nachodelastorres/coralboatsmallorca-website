@@ -67,59 +67,8 @@ const TestimonialsPremium = () => {
     ));
   };
 
-  // Schema.org JSON-LD for reviews
-  const schemaMarkup = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Coral Boats Mallorca",
-    "image": "https://www.coralboatsmallorca.com/assets/img/logo/logo.png",
-    "url": "https://www.coralboatsmallorca.com",
-    "telephone": "+34626681867",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Alcudia",
-      "addressRegion": "Mallorca",
-      "addressCountry": "ES"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 39.8371,
-      "longitude": 3.1219
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "500",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": testimonials.map(testimonial => ({
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": testimonial.name
-      },
-      "datePublished": testimonial.date === "August 2024" ? "2024-08-15" :
-                       testimonial.date === "July 2024" ? "2024-07-15" :
-                       testimonial.date === "September 2024" ? "2024-09-15" : "2024-08-01",
-      "reviewBody": testimonial.text,
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": testimonial.rating.toString(),
-        "bestRating": "5",
-        "worstRating": "1"
-      }
-    }))
-  };
-
   return (
     <>
-      {/* Schema.org JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
-      />
-
       <section className="premium-testimonials">
         <div className="container">
         <div className="row">
