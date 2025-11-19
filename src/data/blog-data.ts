@@ -33,6 +33,7 @@ import blogDetailsImg18 from '@/assets/img/inner-page/blog/muro.webp';
 import blogDetailsImg19 from '@/assets/img/premium/gallery_new/alcudia_pueblo.webp';
 import blogDetailsImg20 from '@/assets/img/premium/gallery_new/coastline_views.webp';
 import blogDetailsImg21 from '@/assets/img/premium/gallery_new/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
+import blogDetailsImg22 from '@/assets/img/premium/gallery_new/alcudia-port-plans-things-to-do.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -717,6 +718,39 @@ export const blogDataOne: IBlogDT[] = [
   section4Body: 'blog_veintiuno.section4.body',
   section5Title: 'blog_veintiuno.section5.title',
   section5Body: 'blog_veintiuno.section5.body',
+  layout: 'minimalist',
+},
+
+{
+  id: 22,
+  slug: 'guia-puerto-alcudia-mallorca',
+  image: blogDetailsImg22,
+  badgeTitle: 'blog_veintidos.badgeTitle',
+  title: 'blog_veintidos.title',
+  metaTitle: 'blog_veintidos.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg22,
+  publishedDate: 'blog_veintidos.publishedDate',
+  description: 'blog_veintidos.meta_description',
+  metaDescription: 'blog_veintidos.metaDescription',
+  btnText: 'blog_veintidos.btnText',
+  keyword: 'blog_veintidos.keyword',
+  section1Title: 'blog_veintidos.section1.title',
+  section1Body: 'blog_veintidos.section1.body',
+  section2Title: 'blog_veintidos.section2.title',
+  section2Body: 'blog_veintidos.section2.body',
+  section3Title: 'blog_veintidos.section3.title',
+  section3Body: 'blog_veintidos.section3.body',
+  section3sub1Subtitle: 'blog_veintidos.section3.sub1.subtitle',
+  section3sub1Body: 'blog_veintidos.section3.sub1.body',
+  section3sub2Subtitle: 'blog_veintidos.section3.sub2.subtitle',
+  section3sub2Body: 'blog_veintidos.section3.sub2.body',
+  section3sub3Subtitle: 'blog_veintidos.section3.sub3.subtitle',
+  section3sub3Body: 'blog_veintidos.section3.sub3.body',
+  section4Title: 'blog_veintidos.section4.title',
+  section4Body: 'blog_veintidos.section4.body',
+  section5Title: 'blog_veintidos.section5.title',
+  section5Body: 'blog_veintidos.section5.body',
   layout: 'minimalist',
 }
 

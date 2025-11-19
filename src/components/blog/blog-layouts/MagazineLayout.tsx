@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
@@ -29,15 +30,120 @@ const processMarkdown = (text: string) => {
   return { paragraphs, bullets };
 };
 
-// Helper function to render text with bold markers
-const renderTextWithBold = (text: string) => {
-  const parts = text.split(/(\*\*.*?\*\*)/g);
-  return parts.map((part, idx) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={idx} style={{ fontWeight: '700', color: '#1e293b' }}>{part.slice(2, -2)}</strong>;
+// Helper function to render text with bold markers and markdown links
+const renderTextWithBold = (text: string): React.ReactNode => {
+  if (!text) return null;
+
+  // Helper to convert absolute URLs to relative paths for internal navigation
+  const convertToRelativePath = (url: string): string => {
+    try {
+      // Check if it's an absolute URL from coralboats.com
+      if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/')) {
+        const urlObj = new URL(url);
+        return urlObj.pathname; // Returns just the path part (e.g., /es/blog-details/...)
+      }
+      // If it's already a relative path, return as is
+      return url;
+    } catch (e) {
+      // If URL parsing fails, return original
+      return url;
     }
-    return part;
-  });
+  };
+
+  const elements: React.ReactNode[] = [];
+  let currentIndex = 0;
+  let keyCounter = 0;
+
+  // Process text sequentially, handling patterns in priority order
+  while (currentIndex < text.length) {
+    const remainingText = text.substring(currentIndex);
+
+    // Pattern 1: Bold links **[text](url)**
+    const boldLinkMatch = remainingText.match(/^\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/);
+    if (boldLinkMatch) {
+      const linkText = boldLinkMatch[1];
+      const url = boldLinkMatch[2];
+
+      elements.push(
+        <Link
+          key={`bold-link-${keyCounter++}`}
+          href={convertToRelativePath(url)}
+          style={{
+            color: '#0891b2',
+            textDecoration: 'none',
+            fontWeight: '700',
+            transition: 'color 0.2s ease'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.color = '#0e7490'}
+          onMouseLeave={(e) => e.currentTarget.style.color = '#0891b2'}
+        >
+          {linkText}
+        </Link>
+      );
+
+      currentIndex += boldLinkMatch[0].length;
+      continue;
+    }
+
+    // Pattern 2: Regular links [text](url)
+    const linkMatch = remainingText.match(/^\[([^\]]+)\]\(([^)]+)\)/);
+    if (linkMatch) {
+      const linkText = linkMatch[1];
+      const url = linkMatch[2];
+
+      elements.push(
+        <Link
+          key={`link-${keyCounter++}`}
+          href={convertToRelativePath(url)}
+          style={{
+            color: '#0891b2',
+            textDecoration: 'none',
+            fontWeight: '600',
+            transition: 'color 0.2s ease'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.color = '#0e7490'}
+          onMouseLeave={(e) => e.currentTarget.style.color = '#0891b2'}
+        >
+          {linkText}
+        </Link>
+      );
+
+      currentIndex += linkMatch[0].length;
+      continue;
+    }
+
+    // Pattern 3: Bold text **text** (with recursive processing for nested links)
+    const boldMatch = remainingText.match(/^\*\*([^*]+)\*\*/);
+    if (boldMatch) {
+      const boldContent = boldMatch[1];
+
+      // Recursively process the content inside bold markers to handle nested links
+      elements.push(
+        <strong key={`bold-${keyCounter++}`} style={{ fontWeight: '700', color: '#1e293b' }}>
+          {renderTextWithBold(boldContent)}
+        </strong>
+      );
+
+      currentIndex += boldMatch[0].length;
+      continue;
+    }
+
+    // No pattern matched - find the next special character or end of string
+    const nextSpecialChar = remainingText.search(/[\*\[]/);
+    const plainTextEnd = nextSpecialChar === -1 ? remainingText.length : nextSpecialChar;
+
+    if (plainTextEnd > 0) {
+      const plainText = remainingText.substring(0, plainTextEnd);
+      elements.push(<span key={`text-${keyCounter++}`}>{plainText}</span>);
+      currentIndex += plainTextEnd;
+    } else {
+      // Single character that didn't match any pattern
+      elements.push(<span key={`text-${keyCounter++}`}>{remainingText[0]}</span>);
+      currentIndex += 1;
+    }
+  }
+
+  return <>{elements}</>;
 };
 
 const MagazineLayout = ({ blog }: MagazineLayoutProps) => {

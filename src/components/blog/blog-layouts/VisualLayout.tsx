@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
@@ -14,15 +15,120 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
   const { t } = useTranslation('common');
   const { getPath } = useLocale();
 
-  // Function to convert markdown bold syntax to HTML
-  const processMarkdown = (text: string) => {
-    return text.split(/(\*\*.*?\*\*)/).map((part, index) => {
-      if (part.startsWith('**') && part.endsWith('**')) {
-        const boldText = part.slice(2, -2);
-        return <strong key={index}>{boldText}</strong>;
+  // Function to convert markdown bold syntax and links to HTML
+  const processMarkdown = (text: string): React.ReactNode => {
+    if (!text) return null;
+
+    // Helper to convert absolute URLs to relative paths for internal navigation
+    const convertToRelativePath = (url: string): string => {
+      try {
+        // Check if it's an absolute URL from coralboats.com
+        if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/')) {
+          const urlObj = new URL(url);
+          return urlObj.pathname; // Returns just the path part (e.g., /es/blog-details/...)
+        }
+        // If it's already a relative path, return as is
+        return url;
+      } catch (e) {
+        // If URL parsing fails, return original
+        return url;
       }
-      return part;
-    });
+    };
+
+    const elements: React.ReactNode[] = [];
+    let currentIndex = 0;
+    let keyCounter = 0;
+
+    // Process text sequentially, handling patterns in priority order
+    while (currentIndex < text.length) {
+      const remainingText = text.substring(currentIndex);
+
+      // Pattern 1: Bold links **[text](url)**
+      const boldLinkMatch = remainingText.match(/^\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/);
+      if (boldLinkMatch) {
+        const linkText = boldLinkMatch[1];
+        const url = boldLinkMatch[2];
+
+        elements.push(
+          <Link
+            key={`bold-link-${keyCounter++}`}
+            href={convertToRelativePath(url)}
+            style={{
+              color: '#0891b2',
+              textDecoration: 'none',
+              fontWeight: '700',
+              transition: 'color 0.2s ease'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.color = '#0e7490'}
+            onMouseLeave={(e) => e.currentTarget.style.color = '#0891b2'}
+          >
+            {linkText}
+          </Link>
+        );
+
+        currentIndex += boldLinkMatch[0].length;
+        continue;
+      }
+
+      // Pattern 2: Regular links [text](url)
+      const linkMatch = remainingText.match(/^\[([^\]]+)\]\(([^)]+)\)/);
+      if (linkMatch) {
+        const linkText = linkMatch[1];
+        const url = linkMatch[2];
+
+        elements.push(
+          <Link
+            key={`link-${keyCounter++}`}
+            href={convertToRelativePath(url)}
+            style={{
+              color: '#0891b2',
+              textDecoration: 'none',
+              fontWeight: '600',
+              transition: 'color 0.2s ease'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.color = '#0e7490'}
+            onMouseLeave={(e) => e.currentTarget.style.color = '#0891b2'}
+          >
+            {linkText}
+          </Link>
+        );
+
+        currentIndex += linkMatch[0].length;
+        continue;
+      }
+
+      // Pattern 3: Bold text **text** (with recursive processing for nested links)
+      const boldMatch = remainingText.match(/^\*\*([^*]+)\*\*/);
+      if (boldMatch) {
+        const boldContent = boldMatch[1];
+
+        // Recursively process the content inside bold markers to handle nested links
+        elements.push(
+          <strong key={`bold-${keyCounter++}`}>
+            {processMarkdown(boldContent)}
+          </strong>
+        );
+
+        currentIndex += boldMatch[0].length;
+        continue;
+      }
+
+      // No pattern matched - find the next special character or end of string
+      const nextSpecialChar = remainingText.search(/[\*\[]/);
+      const plainTextEnd = nextSpecialChar === -1 ? remainingText.length : nextSpecialChar;
+
+      if (plainTextEnd > 0) {
+        const plainText = remainingText.substring(0, plainTextEnd);
+        elements.push(<span key={`text-${keyCounter++}`}>{plainText}</span>);
+        currentIndex += plainTextEnd;
+      } else {
+        // Single character that didn't match any pattern
+        elements.push(<span key={`text-${keyCounter++}`}>{remainingText[0]}</span>);
+        currentIndex += 1;
+      }
+    }
+
+    return <>{elements}</>;
   };
 
   return (
@@ -166,10 +272,10 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                   fontWeight: '500',
                 }}
               >
-                {t(blog.section1Title!)}
+                {processMarkdown(t(blog.section1Title!))}
               </p>
               <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: '1.9' }}>
-                {t(blog.section1Body!)}
+                {processMarkdown(t(blog.section1Body!))}
               </p>
             </div>
             <div className="col-lg-6">
@@ -208,7 +314,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                   {t(blog.section2Title!)}
                 </h2>
                 <p style={{ fontSize: '1.15rem', color: '#64748b', maxWidth: '700px', margin: '0 auto' }}>
-                  {t(blog.section2Body!).split('\n')[0]}
+                  {processMarkdown(t(blog.section2Body!).split('\n')[0])}
                 </p>
               </div>
 
@@ -247,7 +353,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                           <i className="fa-solid fa-check" style={{ color: '#ffffff', fontSize: '1.5rem' }}></i>
                         </div>
                         <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.7', margin: 0 }}>
-                          {item.replace('- ', '')}
+                          {processMarkdown(item.replace('- ', ''))}
                         </p>
                       </div>
                     </div>
@@ -360,7 +466,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                   margin: '0 auto 60px',
                 }}
               >
-                {t(blog.section3Body!)}
+                {processMarkdown(t(blog.section3Body!))}
               </p>
 
               <div className="row g-4">
@@ -405,10 +511,10 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                             marginBottom: '15px',
                           }}
                         >
-                          {t(section.subtitle!)}
+                          {processMarkdown(t(section.subtitle!))}
                         </h3>
                         <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: '1.8' }}>
-                          {t(section.body!)}
+                          {processMarkdown(t(section.body!))}
                         </p>
                       </div>
                     </div>
