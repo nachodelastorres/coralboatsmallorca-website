@@ -80,7 +80,7 @@ export default function Home({ params }: PageProps) {
           "offers": {
             "@type": "AggregateOffer",
             "lowPrice": "0.00",
-            "highPrice": "68.00",
+            "highPrice": "65.00",
             "priceCurrency": "EUR",
             "availability": "https://schema.org/InStock"
           }

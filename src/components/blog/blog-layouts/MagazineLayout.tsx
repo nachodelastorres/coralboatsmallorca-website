@@ -350,10 +350,10 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 }}
               >
                 <h3 style={{ fontSize: '1.75rem', fontWeight: '700', color: '#ffffff', marginBottom: '15px' }}>
-                  Ready to Experience It Yourself?
+                  {t('blogCTA.title')}
                 </h3>
                 <p style={{ fontSize: '1.1rem', color: '#e0f2fe', marginBottom: '25px' }}>
-                  Book your unforgettable boat tour in Alcudia today
+                  {t('blogCTA.description')}
                 </p>
                 <Link
                   href={getPath('/boat-tours-alcudia')}
@@ -372,7 +372,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     boxShadow: '0 4px 15px rgba(0,0,0,0.1)',
                   }}
                 >
-                  <span>View Our Tours</span>
+                  <span>{t('blogCTA.buttonText')}</span>
                   <i className="fa-solid fa-arrow-right"></i>
                 </Link>
               </div>
@@ -399,7 +399,16 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     { subtitle: blog.section3sub1Subtitle, body: blog.section3sub1Body },
                     { subtitle: blog.section3sub2Subtitle, body: blog.section3sub2Body },
                     { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
-                  ].map((section, idx) => {
+                    { subtitle: blog.section3sub4Subtitle, body: blog.section3sub4Body },
+                    { subtitle: blog.section3sub5Subtitle, body: blog.section3sub5Body },
+                    { subtitle: blog.section3sub6Subtitle, body: blog.section3sub6Body },
+                    { subtitle: blog.section3sub7Subtitle, body: blog.section3sub7Body },
+                    { subtitle: blog.section3sub8Subtitle, body: blog.section3sub8Body },
+                    { subtitle: blog.section3sub9Subtitle, body: blog.section3sub9Body },
+                    { subtitle: blog.section3sub10Subtitle, body: blog.section3sub10Body },
+                    { subtitle: blog.section3sub11Subtitle, body: blog.section3sub11Body },
+                    { subtitle: blog.section3sub12Subtitle, body: blog.section3sub12Body },
+                  ].filter(section => section.subtitle && section.body).map((section, idx) => {
                     const subsectionContent = t(section.body!);
                     const { paragraphs, bullets } = processMarkdown(subsectionContent);
 

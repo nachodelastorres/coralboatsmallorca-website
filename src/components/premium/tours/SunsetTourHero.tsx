@@ -64,21 +64,21 @@ const SunsetTourHero = () => {
                 </div>
                 <div className="highlight-item">
                   <i className="fa-solid fa-euro-sign"></i>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    <strong>{t('sunsetTour.hero.priceLabel')}</strong>
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
-                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.adults')}:</span>
-                        <strong style={{ color: '#f59e0b', fontSize: '1.1rem' }}>€65</strong>
-                      </span>
-                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
-                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.children')}:</span>
-                        <strong style={{ color: '#f59e0b', fontSize: '1.1rem' }}>€45</strong>
-                      </span>
-                      <span style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline' }}>
-                        <span style={{ opacity: 0.75, fontSize: '0.75rem', fontWeight: '400' }}>{t('premium.tours.infants')}:</span>
-                        <strong style={{ color: '#10b981', fontSize: '1.1rem' }}>{t('premium.tours.free')}</strong>
-                      </span>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', width: '100%' }}>
+                    <div style={{ fontSize: '0.75rem', opacity: 0.85 }}>{t('premium.tours.adults')}:</div>
+                    <div style={{
+                      fontSize: 'clamp(1.4rem, 3.5vw, 1.9rem)',
+                      fontWeight: '700',
+                      color: '#f59e0b',
+                      lineHeight: '1'
+                    }}>
+                      €65
+                    </div>
+                    <div style={{ fontSize: '0.75rem', opacity: 0.75, lineHeight: '1.4' }}>
+                      {t('premium.tours.children')}: €45
+                    </div>
+                    <div style={{ fontSize: '0.75rem', opacity: 0.75, lineHeight: '1.4' }}>
+                      {t('premium.tours.infants')}: {t('premium.tours.free')}
                     </div>
                   </div>
                 </div>

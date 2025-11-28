@@ -34,6 +34,7 @@ import blogDetailsImg19 from '@/assets/img/premium/gallery_new/alcudia_pueblo.we
 import blogDetailsImg20 from '@/assets/img/premium/gallery_new/coastline_views.webp';
 import blogDetailsImg21 from '@/assets/img/premium/gallery_new/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
 import blogDetailsImg22 from '@/assets/img/premium/gallery_new/alcudia-port-plans-things-to-do.webp';
+import blogDetailsImg23 from '@/assets/img/premium/gallery_new/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -752,6 +753,57 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veintidos.section5.title',
   section5Body: 'blog_veintidos.section5.body',
   layout: 'minimalist',
+},
+
+{
+  id: 23,
+  slug: 'pueblos-mas-bonitos-mallorca-2025',
+  image: blogDetailsImg23,
+  badgeTitle: 'blog_veintitres.badgeTitle',
+  title: 'blog_veintitres.title',
+  metaTitle: 'blog_veintitres.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg23,
+  publishedDate: 'blog_veintitres.publishedDate',
+  description: 'blog_veintitres.meta_description',
+  metaDescription: 'blog_veintitres.metaDescription',
+  btnText: 'blog_veintitres.btnText',
+  keyword: 'blog_veintitres.keyword',
+  section1Title: 'blog_veintitres.section1.title',
+  section1Body: 'blog_veintitres.section1.body',
+  section2Title: 'blog_veintitres.section2.title',
+  section2Body: 'blog_veintitres.section2.body',
+  section3Title: 'blog_veintitres.section3.title',
+  section3Body: 'blog_veintitres.section3.body',
+  section3sub1Subtitle: 'blog_veintitres.section3.sub1.subtitle',
+  section3sub1Body: 'blog_veintitres.section3.sub1.body',
+  section3sub2Subtitle: 'blog_veintitres.section3.sub2.subtitle',
+  section3sub2Body: 'blog_veintitres.section3.sub2.body',
+  section3sub3Subtitle: 'blog_veintitres.section3.sub3.subtitle',
+  section3sub3Body: 'blog_veintitres.section3.sub3.body',
+  section3sub4Subtitle: 'blog_veintitres.section3.sub4.subtitle',
+  section3sub4Body: 'blog_veintitres.section3.sub4.body',
+  section3sub5Subtitle: 'blog_veintitres.section3.sub5.subtitle',
+  section3sub5Body: 'blog_veintitres.section3.sub5.body',
+  section3sub6Subtitle: 'blog_veintitres.section3.sub6.subtitle',
+  section3sub6Body: 'blog_veintitres.section3.sub6.body',
+  section3sub7Subtitle: 'blog_veintitres.section3.sub7.subtitle',
+  section3sub7Body: 'blog_veintitres.section3.sub7.body',
+  section3sub8Subtitle: 'blog_veintitres.section3.sub8.subtitle',
+  section3sub8Body: 'blog_veintitres.section3.sub8.body',
+  section3sub9Subtitle: 'blog_veintitres.section3.sub9.subtitle',
+  section3sub9Body: 'blog_veintitres.section3.sub9.body',
+  section3sub10Subtitle: 'blog_veintitres.section3.sub10.subtitle',
+  section3sub10Body: 'blog_veintitres.section3.sub10.body',
+  section3sub11Subtitle: 'blog_veintitres.section3.sub11.subtitle',
+  section3sub11Body: 'blog_veintitres.section3.sub11.body',
+  section3sub12Subtitle: 'blog_veintitres.section3.sub12.subtitle',
+  section3sub12Body: 'blog_veintitres.section3.sub12.body',
+  section4Title: 'blog_veintitres.section4.title',
+  section4Body: 'blog_veintitres.section4.body',
+  section5Title: 'blog_veintitres.section5.title',
+  section5Body: 'blog_veintitres.section5.body',
+  layout: 'magazine',
 }
 
 ];

@@ -1,20 +1,22 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { blogDataOne } from '@/data/blog-data';
 import BlogCard from './BlogCard';
 
 const BlogGridArea = () => {
+  const { t } = useTranslation('common');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [visiblePosts, setVisiblePosts] = useState(6);
 
   // Define categories based on badge titles
   const categories = [
-    { id: 'all', label: 'All Posts', icon: 'fa-grip' },
-    { id: 'Guías', label: 'Guides & Tips', icon: 'fa-map' },
-    { id: 'Excursiones', label: 'Boat Tours', icon: 'fa-ship' },
-    { id: 'Destinos', label: 'Destinations', icon: 'fa-location-dot' },
-    { id: 'Consejos', label: 'Travel Tips', icon: 'fa-lightbulb' },
+    { id: 'all', labelKey: 'blogCategories.all', icon: 'fa-grip' },
+    { id: 'Guías', labelKey: 'blogCategories.guides', icon: 'fa-map' },
+    { id: 'Excursiones', labelKey: 'blogCategories.tours', icon: 'fa-ship' },
+    { id: 'Destinos', labelKey: 'blogCategories.destinations', icon: 'fa-location-dot' },
+    { id: 'Consejos', labelKey: 'blogCategories.tips', icon: 'fa-lightbulb' },
   ];
 
   // Sort blogs by ID (newest first)
@@ -55,7 +57,7 @@ const BlogGridArea = () => {
                   }}
                 >
                   <i className="fa-solid fa-star" style={{ marginRight: '8px' }}></i>
-                  Featured Post
+                  {t('blogHero.featuredBadge')}
                 </span>
                 <h2
                   style={{
@@ -65,10 +67,10 @@ const BlogGridArea = () => {
                     marginBottom: '10px',
                   }}
                 >
-                  Latest from Coral Boats
+                  {t('blogHero.title')}
                 </h2>
                 <p style={{ fontSize: '1.1rem', color: '#64748b', maxWidth: '600px', margin: '0 auto' }}>
-                  Discover our most recent insights and tips for the perfect boat tour experience in Mallorca
+                  {t('blogHero.description')}
                 </p>
               </div>
             </div>
@@ -128,7 +130,7 @@ const BlogGridArea = () => {
                     }}
                   >
                     <i className={`fa-solid ${category.icon}`}></i>
-                    {category.label}
+                    {t(category.labelKey)}
                   </button>
                 ))}
               </div>
@@ -178,7 +180,7 @@ const BlogGridArea = () => {
                     e.currentTarget.style.boxShadow = '0 4px 20px rgba(8, 145, 178, 0.3)';
                   }}
                 >
-                  <span>Load More Posts</span>
+                  <span>{t('blogActions.loadMore')}</span>
                   <i className="fa-solid fa-chevron-down"></i>
                 </button>
               </div>
@@ -201,14 +203,12 @@ const BlogGridArea = () => {
                     marginBottom: '20px',
                   }}
                 >
-                  Your Complete Guide to Boat Tours in Mallorca
+                  {t('blogSEO.title')}
                 </h2>
-                <p style={{ fontSize: '1.1rem', color: '#64748b', lineHeight: '1.8' }}>
-                  Welcome to the <strong>Coral Boats blog</strong>, your trusted source for everything related to{' '}
-                  <strong>boat tours in Alcudia, Mallorca</strong>. Whether you're planning your first{' '}
-                  <strong>boat trip in Mallorca</strong> or you're a seasoned sailor looking for hidden gems, our blog
-                  provides insider tips, local knowledge, and expert advice to make your experience unforgettable.
-                </p>
+                <p
+                  style={{ fontSize: '1.1rem', color: '#64748b', lineHeight: '1.8' }}
+                  dangerouslySetInnerHTML={{ __html: t('blogSEO.intro') }}
+                />
               </div>
 
               <div className="row g-4">
@@ -231,13 +231,12 @@ const BlogGridArea = () => {
                       }}
                     >
                       <i className="fa-solid fa-lightbulb" style={{ marginRight: '10px' }}></i>
-                      Expert Tips & Guides
+                      {t('blogSEO.expertTips.title')}
                     </h3>
-                    <p style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7' }}>
-                      Learn from our years of experience operating <strong>boat tours in Alcudia Bay</strong>. From what to
-                      pack for your <strong>boat excursion in Mallorca</strong> to the best time to spot marine life, we
-                      share practical advice to enhance your adventure.
-                    </p>
+                    <p
+                      style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7' }}
+                      dangerouslySetInnerHTML={{ __html: t('blogSEO.expertTips.description') }}
+                    />
                   </div>
                 </div>
 
@@ -260,13 +259,12 @@ const BlogGridArea = () => {
                       }}
                     >
                       <i className="fa-solid fa-map-location-dot" style={{ marginRight: '10px' }}></i>
-                      Discover Hidden Treasures
+                      {t('blogSEO.hiddenTreasures.title')}
                     </h3>
-                    <p style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7' }}>
-                      Explore <strong>secret beaches in Mallorca</strong>, discover <strong>hidden coves near Alcudia</strong>,
-                      and learn about the stunning <strong>coastline of North Mallorca</strong> that you can only access by
-                      boat. Our local expertise reveals the island's best-kept secrets.
-                    </p>
+                    <p
+                      style={{ fontSize: '1rem', color: '#475569', lineHeight: '1.7' }}
+                      dangerouslySetInnerHTML={{ __html: t('blogSEO.hiddenTreasures.description') }}
+                    />
                   </div>
                 </div>
               </div>
@@ -288,7 +286,7 @@ const BlogGridArea = () => {
                     marginBottom: '15px',
                   }}
                 >
-                  Plan Your Perfect Boat Tour in Mallorca
+                  {t('blogSEO.planTour.title')}
                 </h3>
                 <p
                   style={{
@@ -297,14 +295,10 @@ const BlogGridArea = () => {
                     lineHeight: '1.7',
                     marginBottom: '20px',
                   }}
-                >
-                  From <strong>morning boat tours</strong> perfect for snorkeling to <strong>romantic sunset cruises</strong> and{' '}
-                  <strong>private boat charters</strong> for special celebrations, we cover everything you need to know about{' '}
-                  <strong>boat tours from Port d'Alcudia</strong>. Join thousands of satisfied guests who have made their Mallorca
-                  vacation extraordinary with Coral Boats.
-                </p>
+                  dangerouslySetInnerHTML={{ __html: t('blogSEO.planTour.description') }}
+                />
                 <p style={{ fontSize: '0.95rem', color: '#64748b', fontStyle: 'italic' }}>
-                  📍 Operating from Port d'Alcudia, Mallorca | ⭐ 4.9/5 Rating | 🏆 10+ Years of Excellence
+                  {t('blogSEO.planTour.footer')}
                 </p>
               </div>
             </div>

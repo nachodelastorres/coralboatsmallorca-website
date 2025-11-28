@@ -10,8 +10,8 @@ export interface PageMetadata {
 // Metadata for homepage by locale
 export const homeMetadata: Record<Locale, PageMetadata> = {
   en: {
-    title: 'Coral Boats Mallorca - Premium Boat Tours in Bay of Alcudia | Snorkeling & Private Charters',
-    description: 'Experience the magic of Mallorca with Coral Boats premium boat tours in the Bay of Alcudia. Choose from morning, afternoon, or sunset tours featuring snorkeling, paddle boarding, authentic Mallorcan tapas, and unlimited drinks. Book your unforgettable Mediterranean adventure aboard our classic 1968 boat, Amayna II. Private charters available for weddings, corporate events, and special celebrations.',
+    title: 'Boat Trips in Alcudia | Morning & Sunset Tours in Mallorca',
+    description: 'Discover the best boat trips in Alcudia. Enjoy morning or sunset tours in small groups with snorkeling, paddleboarding, and beautiful coastal views. Private charters available.',
     keywords: [
       'Mallorca boat tours',
       'Bay of Alcudia boat trips',
@@ -31,8 +31,8 @@ export const homeMetadata: Record<Locale, PageMetadata> = {
     ],
   },
   es: {
-    title: 'Coral Boats Mallorca - Tours en Barco Premium en la Bahía de Alcudia | Snorkel y Charters Privados',
-    description: 'Experimenta la magia de Mallorca con los tours en barco premium de Coral Boats en la Bahía de Alcudia. Elige entre tours de mañana, tarde o atardecer con snorkel, paddle surf, tapas mallorquinas auténticas y bebidas ilimitadas. Reserva tu aventura mediterránea inolvidable a bordo de nuestro barco clásico de 1968, Amayna II. Charters privados disponibles para bodas, eventos corporativos y celebraciones especiales.',
+    title: 'Excursiones en Barco en Alcudia | Tours de Mañana y Atardecer en Mallorca',
+    description: 'Descubre las mejores excursiones en barco en Alcudia. Disfruta tours de mañana o atardecer en grupos reducidos con snorkel, paddleboard y vistas costeras. Charters privados disponibles.',
     keywords: [
       'tours en barco Mallorca',
       'excursiones en barco Bahía de Alcudia',
@@ -52,8 +52,8 @@ export const homeMetadata: Record<Locale, PageMetadata> = {
     ],
   },
   de: {
-    title: 'Coral Boats Mallorca - Premium Bootstouren in der Bucht von Alcudia | Schnorcheln & Private Charter',
-    description: 'Erleben Sie die Magie Mallorcas mit den Premium-Bootstouren von Coral Boats in der Bucht von Alcudia. Wählen Sie zwischen Morgen-, Nachmittags- oder Sonnenuntergangstouren mit Schnorcheln, Paddle-Boarding, authentischen mallorquinischen Tapas und unbegrenzten Getränken. Buchen Sie Ihr unvergessliches Mittelmeer-Abenteuer an Bord unseres klassischen Bootes von 1968, Amayna II. Private Charter für Hochzeiten, Firmenevents und besondere Feiern verfügbar.',
+    title: 'Bootstouren in Alcudia | Morgen- & Sonnenuntergangsfahrten auf Mallorca',
+    description: 'Entdecke die besten Bootstouren in Alcudia. Genieße Morgen- oder Sonnenuntergangsfahrten in kleinen Gruppen mit Schnorcheln, Paddleboarding und wunderschönen Küstenblicken. Private Charters verfügbar.',
     keywords: [
       'Mallorca Bootstouren',
       'Bucht von Alcudia Bootsausflüge',
@@ -73,8 +73,8 @@ export const homeMetadata: Record<Locale, PageMetadata> = {
     ],
   },
   fr: {
-    title: 'Coral Boats Majorque - Excursions en Bateau Premium dans la Baie d\'Alcudia | Snorkeling & Charters Privés',
-    description: 'Découvrez la magie de Majorque avec les excursions en bateau premium de Coral Boats dans la Baie d\'Alcudia. Choisissez parmi des tours matinaux, d\'après-midi ou au coucher du soleil avec snorkeling, paddle board, tapas majorquines authentiques et boissons illimitées. Réservez votre aventure méditerranéenne inoubliable à bord de notre bateau classique de 1968, Amayna II. Charters privés disponibles pour mariages, événements d\'entreprise et célébrations spéciales.',
+    title: 'Excursions en Bateau à Alcudia | Tours du Matin et du Coucher du Soleil à Majorque',
+    description: 'Découvrez les meilleures excursions en bateau à Alcudia. Profitez de tours matinaux ou au coucher du soleil en petits groupes avec snorkeling, paddleboard et magnifiques vues côtières. Charters privés disponibles.',
     keywords: [
       'excursions bateau Majorque',
       'sorties bateau Baie d\'Alcudia',
@@ -94,8 +94,8 @@ export const homeMetadata: Record<Locale, PageMetadata> = {
     ],
   },
   it: {
-    title: 'Coral Boats Maiorca - Tour in Barca Premium nella Baia di Alcudia | Snorkeling e Charter Privati',
-    description: 'Vivi la magia di Maiorca con i tour in barca premium di Coral Boats nella Baia di Alcudia. Scegli tra tour mattutini, pomeridiani o al tramonto con snorkeling, paddle boarding, autentiche tapas maiorchine e bevande illimitate. Prenota la tua indimenticabile avventura mediterranea a bordo della nostra barca classica del 1968, Amayna II. Charter privati disponibili per matrimoni, eventi aziendali e celebrazioni speciali.',
+    title: 'Gite in Barca ad Alcudia | Tour del Mattino e del Tramonto a Maiorca',
+    description: 'Scopri le migliori gite in barca ad Alcudia. Goditi tour mattutini o al tramonto in piccoli gruppi con snorkeling, paddleboard e splendide viste costiere. Disponibili charter privati.',
     keywords: [
       'tour in barca Maiorca',
       'gite in barca Baia di Alcudia',
@@ -115,8 +115,8 @@ export const homeMetadata: Record<Locale, PageMetadata> = {
     ],
   },
   ca: {
-    title: 'Coral Boats Mallorca - Tours en Vaixell Premium a la Badia d\'Alcúdia | Snorkel i Charters Privats',
-    description: 'Experimenta la màgia de Mallorca amb els tours en vaixell premium de Coral Boats a la Badia d\'Alcúdia. Tria entre tours de matí, tarda o posta de sol amb snorkel, paddle surf, tapes mallorquines autèntiques i begudes il·limitades. Reserva la teva aventura mediterrània inoblidable a bord del nostre vaixell clàssic de 1968, Amayna II. Charters privats disponibles per a casaments, events corporatius i celebracions especials.',
+    title: 'Excursions en Vaixell a Alcúdia | Tours de Matí i Capvespre a Mallorca',
+    description: 'Descobreix les millors excursions en barco a Alcúdia. Gaudeix de tours de matí o capvespre en grups reduïts amb snorkel, paddleboard i vistes costaneres. Charters privats disponibles.',
     keywords: [
       'tours en vaixell Mallorca',
       'excursions vaixell Badia d\'Alcúdia',
