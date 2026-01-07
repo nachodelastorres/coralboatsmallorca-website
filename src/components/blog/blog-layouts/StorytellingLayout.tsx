@@ -346,45 +346,28 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                       ))}
 
                       {bullets.length > 0 && (
-                        <div className="row g-4" style={{ marginTop: '40px' }}>
+                        <div
+                          style={{
+                            marginTop: '40px',
+                            borderLeft: '4px solid #0891b2',
+                            paddingLeft: '30px',
+                            maxWidth: '700px',
+                            margin: '40px auto 0',
+                          }}
+                        >
                           {bullets.map((bullet, idx) => (
-                            <div key={idx} className="col-md-6">
-                              <div
-                                style={{
-                                  padding: '30px',
-                                  background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)',
-                                  borderRadius: '20px',
-                                  border: '2px solid #e0f2fe',
-                                  boxShadow: '0 10px 30px rgba(8, 145, 178, 0.1)',
-                                  transition: 'all 0.3s ease',
-                                  minHeight: '140px',
-                                  display: 'flex',
-                                  flexDirection: 'column',
-                                  alignItems: 'center',
-                                  textAlign: 'center',
-                                }}
-                                className="storytelling-feature-card"
-                              >
-                                <div
-                                  style={{
-                                    width: '60px',
-                                    height: '60px',
-                                    borderRadius: '50%',
-                                    background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    marginBottom: '20px',
-                                    boxShadow: '0 6px 20px rgba(8, 145, 178, 0.4)',
-                                  }}
-                                >
-                                  <i className="fa-solid fa-glass-cheers" style={{ color: '#ffffff', fontSize: '1.5rem' }}></i>
-                                </div>
-                                <p style={{ fontSize: '1.05rem', color: '#334155', lineHeight: '1.8', margin: 0 }}>
-                                  {renderTextWithBold(bullet)}
-                                </p>
-                              </div>
-                            </div>
+                            <p
+                              key={idx}
+                              style={{
+                                fontSize: '1.1rem',
+                                color: '#334155',
+                                lineHeight: '1.9',
+                                marginBottom: idx < bullets.length - 1 ? '20px' : '0',
+                                position: 'relative',
+                              }}
+                            >
+                              {renderTextWithBold(bullet)}
+                            </p>
                           ))}
                         </div>
                       )}
@@ -728,12 +711,6 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
           60% {
             transform: translateX(-50%) translateY(-5px);
           }
-        }
-
-        .storytelling-feature-card:hover {
-          border-color: #0891b2;
-          box-shadow: 0 15px 40px rgba(8, 145, 178, 0.25);
-          transform: translateY(-5px);
         }
 
         .cta-button:hover {

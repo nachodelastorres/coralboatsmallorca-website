@@ -318,49 +318,60 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 </p>
               </div>
 
-              <div className="row g-4 justify-content-center">
-                {t(blog.section2Body!)
-                  .split('\n')
-                  .slice(1)
-                  .filter(item => item.trim())
-                  .map((item, idx) => (
-                    <div key={idx} className="col-md-6 col-lg-4">
-                      <div
-                        style={{
-                          padding: '35px 25px',
-                          background: '#ffffff',
-                          borderRadius: '15px',
-                          textAlign: 'center',
-                          height: '100%',
-                          border: '1px solid #e2e8f0',
-                          transition: 'all 0.3s ease',
-                        }}
-                        className="visual-feature-box"
-                      >
-                        <div
+              <div className="row justify-content-center">
+                <div className="col-lg-8">
+                  <div
+                    style={{
+                      borderLeft: '4px solid #0891b2',
+                      paddingLeft: '30px',
+                    }}
+                  >
+                    {t(blog.section2Body!)
+                      .split('\n')
+                      .slice(1)
+                      .filter(item => item.trim())
+                      .map((item, idx, arr) => (
+                        <p
+                          key={idx}
                           style={{
-                            width: '70px',
-                            height: '70px',
-                            borderRadius: '50%',
-                            background: 'linear-gradient(135deg, #0891b2, #0e7490)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            margin: '0 auto 20px',
-                            boxShadow: '0 8px 20px rgba(8, 145, 178, 0.3)',
+                            fontSize: '1.1rem',
+                            color: '#475569',
+                            lineHeight: '1.9',
+                            marginBottom: idx < arr.length - 1 ? '20px' : '0',
                           }}
                         >
-                          <i className="fa-solid fa-check" style={{ color: '#ffffff', fontSize: '1.5rem' }}></i>
-                        </div>
-                        <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.7', margin: 0 }}>
                           {processMarkdown(item.replace('- ', ''))}
                         </p>
-                      </div>
-                    </div>
-                  ))}
+                      ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* Secondary Image 1 - Full Width with Caption */}
+          {blog.secondaryImage1 && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '500px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage1}
+                    alt={`${t(blog.title)} - Coral Boats Mallorca`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Immersive CTA */}
           <div className="row" style={{ marginBottom: '100px' }}>
@@ -524,6 +535,30 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
             </div>
           </div>
 
+          {/* Secondary Image 2 - Full Width with Caption */}
+          {blog.secondaryImage2 && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '500px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage2}
+                    alt={`${t(blog.title)} - Vista de Mallorca`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Section 4 & 5 - Combined Final Section */}
           {blog.section4Title && (
             <div className="row justify-content-center">
@@ -662,11 +697,6 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           60% {
             transform: translateY(-5px) translateX(-50%);
           }
-        }
-        .visual-feature-box:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15) !important;
-          border-color: #0891b2;
         }
         .visual-story-card:hover {
           transform: translateY(-5px);

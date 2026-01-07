@@ -256,9 +256,43 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                   {renderTextWithBold(t(blog.section1Title!))}
                 </p>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', fontWeight: '300' }}>
-                  {renderTextWithBold(t(blog.section1Body!))}
-                </p>
+                {(() => {
+                  const section1Content = t(blog.section1Body!);
+                  const lines = section1Content.split('\n').filter((line: string) => line.trim());
+
+                  return (
+                    <>
+                      {lines.map((line: string, idx: number) => {
+                        const isBullet = line.trim().startsWith('- ');
+
+                        if (isBullet) {
+                          return (
+                            <p
+                              key={idx}
+                              style={{
+                                fontSize: '1.05rem',
+                                color: '#475569',
+                                lineHeight: '2',
+                                marginBottom: '15px',
+                                paddingLeft: '20px',
+                                fontWeight: '300',
+                                borderLeft: '3px solid #0891b2',
+                              }}
+                            >
+                              {renderTextWithBold(line.trim())}
+                            </p>
+                          );
+                        }
+
+                        return (
+                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                            {renderTextWithBold(line.trim())}
+                          </p>
+                        );
+                      })}
+                    </>
+                  );
+                })()}
               </div>
 
               {/* Divider */}
@@ -281,47 +315,38 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                 </h2>
                 {(() => {
                   const section2Content = t(blog.section2Body!);
-                  const { paragraphs, bullets } = processMarkdown(section2Content);
+                  const lines = section2Content.split('\n').filter((line: string) => line.trim());
 
                   return (
                     <>
-                      {paragraphs.map((para, idx) => (
-                        <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
-                          {renderTextWithBold(para)}
-                        </p>
-                      ))}
+                      {lines.map((line: string, idx: number) => {
+                        const isBullet = line.trim().startsWith('- ');
 
-                      {bullets.length > 0 && (
-                        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                          {bullets.map((bullet, idx) => (
-                            <li
+                        if (isBullet) {
+                          return (
+                            <p
                               key={idx}
                               style={{
                                 fontSize: '1.05rem',
                                 color: '#475569',
                                 lineHeight: '2',
                                 marginBottom: '15px',
-                                paddingLeft: '30px',
-                                position: 'relative',
+                                paddingLeft: '20px',
                                 fontWeight: '300',
+                                borderLeft: '3px solid #0891b2',
                               }}
                             >
-                              <span
-                                style={{
-                                  position: 'absolute',
-                                  left: 0,
-                                  top: '12px',
-                                  width: '6px',
-                                  height: '6px',
-                                  borderRadius: '50%',
-                                  background: '#0891b2',
-                                }}
-                              ></span>
-                              {renderTextWithBold(bullet)}
-                            </li>
-                          ))}
-                        </ul>
-                      )}
+                              {renderTextWithBold(line.trim())}
+                            </p>
+                          );
+                        }
+
+                        return (
+                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                            {renderTextWithBold(line.trim())}
+                          </p>
+                        );
+                      })}
                     </>
                   );
                 })()}
@@ -376,7 +401,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   {t(blog.section3Title!)}
                 </h2>
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '40px', fontWeight: '300' }}>
-                  {t(blog.section3Body!)}
+                  {renderTextWithBold(t(blog.section3Body!))}
                 </p>
 
                 {/* Sub-sections */}
@@ -387,7 +412,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
                   ].map((section, idx) => {
                     const content = t(section.body!);
-                    const { paragraphs, bullets } = processMarkdown(content);
+                    const lines = content.split('\n').filter((line: string) => line.trim());
 
                     return (
                       <div key={idx}>
@@ -403,43 +428,34 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                           {t(section.subtitle!)}
                         </h3>
 
-                        {paragraphs.map((para, pIdx) => (
-                          <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '2', fontWeight: '300', marginBottom: '20px' }}>
-                            {renderTextWithBold(para)}
-                          </p>
-                        ))}
+                        {lines.map((line: string, lIdx: number) => {
+                          const isBullet = line.trim().startsWith('- ');
 
-                        {bullets.length > 0 && (
-                          <ul style={{ listStyle: 'none', padding: 0, margin: '20px 0' }}>
-                            {bullets.map((bullet, bIdx) => (
-                              <li
-                                key={bIdx}
+                          if (isBullet) {
+                            return (
+                              <p
+                                key={lIdx}
                                 style={{
                                   fontSize: '1.05rem',
                                   color: '#475569',
                                   lineHeight: '2',
                                   marginBottom: '15px',
-                                  paddingLeft: '30px',
-                                  position: 'relative',
+                                  paddingLeft: '20px',
                                   fontWeight: '300',
+                                  borderLeft: '3px solid #0891b2',
                                 }}
                               >
-                                <span
-                                  style={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    top: '12px',
-                                    width: '6px',
-                                    height: '6px',
-                                    borderRadius: '50%',
-                                    background: '#0891b2',
-                                  }}
-                                ></span>
-                                {renderTextWithBold(bullet)}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                            );
+                          }
+
+                          return (
+                            <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '2', fontWeight: '300', marginBottom: '20px' }}>
+                              {renderTextWithBold(line.trim())}
+                            </p>
+                          );
+                        })}
                       </div>
                     );
                   })}
@@ -466,47 +482,38 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     </h2>
                     {(() => {
                       const section4Content = t(blog.section4Body!);
-                      const { paragraphs, bullets } = processMarkdown(section4Content);
+                      const lines = section4Content.split('\n').filter((line: string) => line.trim());
 
                       return (
                         <>
-                          {paragraphs.map((para, idx) => (
-                            <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
-                              {renderTextWithBold(para)}
-                            </p>
-                          ))}
+                          {lines.map((line: string, idx: number) => {
+                            const isBullet = line.trim().startsWith('- ');
 
-                          {bullets.length > 0 && (
-                            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                              {bullets.map((bullet, idx) => (
-                                <li
+                            if (isBullet) {
+                              return (
+                                <p
                                   key={idx}
                                   style={{
                                     fontSize: '1.05rem',
                                     color: '#475569',
                                     lineHeight: '2',
                                     marginBottom: '15px',
-                                    paddingLeft: '30px',
-                                    position: 'relative',
+                                    paddingLeft: '20px',
                                     fontWeight: '300',
+                                    borderLeft: '3px solid #0891b2',
                                   }}
                                 >
-                                  <span
-                                    style={{
-                                      position: 'absolute',
-                                      left: 0,
-                                      top: '12px',
-                                      width: '6px',
-                                      height: '6px',
-                                      borderRadius: '50%',
-                                      background: '#0891b2',
-                                    }}
-                                  ></span>
-                                  {renderTextWithBold(bullet)}
-                                </li>
-                              ))}
-                            </ul>
-                          )}
+                                  {renderTextWithBold(line.trim())}
+                                </p>
+                              );
+                            }
+
+                            return (
+                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                            );
+                          })}
                         </>
                       );
                     })()}
@@ -536,47 +543,38 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   </h2>
                   {(() => {
                     const section5Content = t(blog.section5Body!);
-                    const { paragraphs, bullets } = processMarkdown(section5Content);
+                    const lines = section5Content.split('\n').filter((line: string) => line.trim());
 
                     return (
                       <>
-                        {paragraphs.map((para, idx) => (
-                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '30px', fontWeight: '300' }}>
-                            {renderTextWithBold(para)}
-                          </p>
-                        ))}
+                        {lines.map((line: string, idx: number) => {
+                          const isBullet = line.trim().startsWith('- ');
 
-                        {bullets.length > 0 && (
-                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                            {bullets.map((bullet, idx) => (
-                              <li
+                          if (isBullet) {
+                            return (
+                              <p
                                 key={idx}
                                 style={{
                                   fontSize: '1.05rem',
                                   color: '#475569',
                                   lineHeight: '2',
                                   marginBottom: '15px',
-                                  paddingLeft: '30px',
-                                  position: 'relative',
+                                  paddingLeft: '20px',
                                   fontWeight: '300',
+                                  borderLeft: '3px solid #0891b2',
                                 }}
                               >
-                                <span
-                                  style={{
-                                    position: 'absolute',
-                                    left: 0,
-                                    top: '12px',
-                                    width: '6px',
-                                    height: '6px',
-                                    borderRadius: '50%',
-                                    background: '#0891b2',
-                                  }}
-                                ></span>
-                                {renderTextWithBold(bullet)}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                            );
+                          }
+
+                          return (
+                            <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                              {renderTextWithBold(line.trim())}
+                            </p>
+                          );
+                        })}
                       </>
                     );
                   })()}

@@ -129,6 +129,12 @@ export default function RootLayout({
           async
         />
 
+        {/* ContentSquare Analytics */}
+        <Script
+          src="https://t.contentsquare.net/uxa/244c8ffae8ec7.js"
+          strategy="afterInteractive"
+        />
+
 
         {/* ✅ Script obligatorio de FareHarbor */}
         <Script

@@ -11,7 +11,7 @@ interface MagazineLayoutProps {
   blog: IBlogDT;
 }
 
-// Helper function to process markdown text
+// Helper function to process markdown text (legacy - separates bullets)
 const processMarkdown = (text: string) => {
   if (!text) return { paragraphs: [], bullets: [] };
 
@@ -28,6 +28,12 @@ const processMarkdown = (text: string) => {
   });
 
   return { paragraphs, bullets };
+};
+
+// Helper function to get lines in order (preserves bullet position)
+const getOrderedLines = (text: string) => {
+  if (!text) return [];
+  return text.split('\n').filter(line => line.trim());
 };
 
 // Helper function to render text with bold markers and markdown links
@@ -225,7 +231,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 </span>
                 <span>
                   <i className="fa-solid fa-clock" style={{ marginRight: '8px' }}></i>
-                  5 min read
+                  {t('blogReadTime')}
                 </span>
                 <span>
                   <i className="fa-solid fa-user" style={{ marginRight: '8px' }}></i>
@@ -281,58 +287,51 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                   {t(blog.section2Title!)}
                 </h2>
                 {(() => {
-                  const section2Content = t(blog.section2Body!);
-                  const { paragraphs, bullets } = processMarkdown(section2Content);
+                  const lines = getOrderedLines(t(blog.section2Body!));
 
                   return (
                     <>
-                      {paragraphs.map((para, idx) => (
-                        <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
-                          {renderTextWithBold(para)}
-                        </p>
-                      ))}
-
-                      {bullets.length > 0 && (
-                        <div className="row g-4">
-                          {bullets.map((bullet, idx) => (
-                            <div key={idx} className="col-md-6">
-                              <div
+                      {lines.map((line, idx) => {
+                        const isBullet = line.trim().startsWith('- ');
+                        if (isBullet) {
+                          return (
+                            <div
+                              key={idx}
+                              style={{
+                                fontSize: '1.05rem',
+                                color: '#475569',
+                                lineHeight: '1.8',
+                                marginBottom: '12px',
+                                paddingLeft: '30px',
+                                position: 'relative',
+                              }}
+                            >
+                              <span
                                 style={{
+                                  position: 'absolute',
+                                  left: '0',
+                                  top: '5px',
+                                  width: '20px',
+                                  height: '20px',
+                                  borderRadius: '50%',
+                                  background: '#e0f2fe',
                                   display: 'flex',
-                                  gap: '15px',
-                                  padding: '25px',
-                                  background: 'linear-gradient(135deg, #f8fafc 0%, #ffffff 100%)',
-                                  borderRadius: '15px',
-                                  border: '2px solid #e0f2fe',
-                                  boxShadow: '0 4px 15px rgba(8, 145, 178, 0.08)',
-                                  transition: 'all 0.3s ease',
-                                  minHeight: '120px',
+                                  alignItems: 'center',
+                                  justifyContent: 'center',
                                 }}
-                                className="benefit-card"
                               >
-                                <div
-                                  style={{
-                                    width: '45px',
-                                    height: '45px',
-                                    borderRadius: '12px',
-                                    background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    flexShrink: 0,
-                                    boxShadow: '0 4px 12px rgba(8, 145, 178, 0.3)',
-                                  }}
-                                >
-                                  <i className="fa-solid fa-check" style={{ color: '#ffffff', fontSize: '1.2rem' }}></i>
-                                </div>
-                                <p style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', margin: 0 }}>
-                                  {renderTextWithBold(bullet)}
-                                </p>
-                              </div>
+                                <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                              </span>
+                              {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
                             </div>
-                          ))}
-                        </div>
-                      )}
+                          );
+                        }
+                        return (
+                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                            {renderTextWithBold(line.trim())}
+                          </p>
+                        );
+                      })}
                     </>
                   );
                 })()}
@@ -377,7 +376,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 </Link>
               </div>
 
-              {/* Section 3 - Feature Cards */}
+              {/* Section 3 - Feature Cards or Regular Content */}
               <div style={{ marginBottom: '50px' }}>
                 <h2
                   style={{
@@ -389,13 +388,10 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 >
                   {t(blog.section3Title!)}
                 </h2>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
-                  {renderTextWithBold(t(blog.section3Body!))}
-                </p>
 
-                {/* Sub-sections as cards */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
-                  {[
+                {(() => {
+                  // Check if there are subsections
+                  const subsections = [
                     { subtitle: blog.section3sub1Subtitle, body: blog.section3sub1Body },
                     { subtitle: blog.section3sub2Subtitle, body: blog.section3sub2Body },
                     { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
@@ -408,62 +404,121 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     { subtitle: blog.section3sub10Subtitle, body: blog.section3sub10Body },
                     { subtitle: blog.section3sub11Subtitle, body: blog.section3sub11Body },
                     { subtitle: blog.section3sub12Subtitle, body: blog.section3sub12Body },
-                  ].filter(section => section.subtitle && section.body).map((section, idx) => {
-                    const subsectionContent = t(section.body!);
-                    const { paragraphs, bullets } = processMarkdown(subsectionContent);
+                  ].filter(section => section.subtitle && section.body);
+
+                  const hasSubsections = subsections.length > 0;
+
+                  if (hasSubsections) {
+                    // Render with subsection cards
+                    return (
+                      <>
+                        <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          {renderTextWithBold(t(blog.section3Body!))}
+                        </p>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+                          {subsections.map((section, idx) => {
+                            const lines = getOrderedLines(t(section.body!));
+
+                            return (
+                              <div
+                                key={idx}
+                                style={{
+                                  padding: '30px',
+                                  background: '#ffffff',
+                                  borderRadius: '15px',
+                                  border: '2px solid #e2e8f0',
+                                  transition: 'all 0.3s ease',
+                                }}
+                                className="magazine-feature-card"
+                              >
+                                <h3
+                                  style={{
+                                    fontSize: '1.5rem',
+                                    fontWeight: '700',
+                                    color: '#0891b2',
+                                    marginBottom: '15px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '12px',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      width: '35px',
+                                      height: '35px',
+                                      borderRadius: '50%',
+                                      background: '#e0f2fe',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      fontSize: '1rem',
+                                      fontWeight: '700',
+                                    }}
+                                  >
+                                    {idx + 1}
+                                  </span>
+                                  {renderTextWithBold(t(section.subtitle!))}
+                                </h3>
+
+                                {lines.map((line, lIdx) => {
+                                  const isBullet = line.trim().startsWith('- ');
+                                  if (isBullet) {
+                                    return (
+                                      <div
+                                        key={lIdx}
+                                        style={{
+                                          fontSize: '1.05rem',
+                                          color: '#475569',
+                                          lineHeight: '1.8',
+                                          marginBottom: '12px',
+                                          paddingLeft: '30px',
+                                          position: 'relative',
+                                        }}
+                                      >
+                                        <span
+                                          style={{
+                                            position: 'absolute',
+                                            left: '0',
+                                            top: '5px',
+                                            width: '20px',
+                                            height: '20px',
+                                            borderRadius: '50%',
+                                            background: '#e0f2fe',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                          }}
+                                        >
+                                          <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                        </span>
+                                        {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                                      </div>
+                                    );
+                                  }
+                                  return (
+                                    <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                      {renderTextWithBold(line.trim())}
+                                    </p>
+                                  );
+                                })}
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </>
+                    );
+                  } else {
+                    // Render as regular section with bullet points
+                    const lines = getOrderedLines(t(blog.section3Body!));
 
                     return (
-                      <div
-                        key={idx}
-                        style={{
-                          padding: '30px',
-                          background: '#ffffff',
-                          borderRadius: '15px',
-                          border: '2px solid #e2e8f0',
-                          transition: 'all 0.3s ease',
-                        }}
-                        className="magazine-feature-card"
-                      >
-                        <h3
-                          style={{
-                            fontSize: '1.5rem',
-                            fontWeight: '700',
-                            color: '#0891b2',
-                            marginBottom: '15px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '12px',
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: '35px',
-                              height: '35px',
-                              borderRadius: '50%',
-                              background: '#e0f2fe',
-                              display: 'flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                              fontSize: '1rem',
-                              fontWeight: '700',
-                            }}
-                          >
-                            {idx + 1}
-                          </span>
-                          {renderTextWithBold(t(section.subtitle!))}
-                        </h3>
-
-                        {paragraphs.map((para, pIdx) => (
-                          <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
-                            {renderTextWithBold(para)}
-                          </p>
-                        ))}
-
-                        {bullets.length > 0 && (
-                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                            {bullets.map((bullet, bIdx) => (
-                              <li
-                                key={bIdx}
+                      <>
+                        {lines.map((line, idx) => {
+                          const isBullet = line.trim().startsWith('- ');
+                          if (isBullet) {
+                            return (
+                              <div
+                                key={idx}
                                 style={{
                                   fontSize: '1.05rem',
                                   color: '#475569',
@@ -489,15 +544,20 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                 >
                                   <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
                                 </span>
-                                {renderTextWithBold(bullet)}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
+                                {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                              </div>
+                            );
+                          }
+                          return (
+                            <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                              {renderTextWithBold(line.trim())}
+                            </p>
+                          );
+                        })}
+                      </>
                     );
-                  })}
-                </div>
+                  }
+                })()}
               </div>
 
               {/* Section 4 */}
@@ -514,13 +574,714 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     {t(blog.section4Title)}
                   </h2>
                   {(() => {
-                    const section4Content = t(blog.section4Body!);
-                    const { paragraphs, bullets } = processMarkdown(section4Content);
+                    // Check if there are subsections for section4
+                    const subsections = [
+                      { subtitle: blog.section4sub1Subtitle, body: blog.section4sub1Body },
+                      { subtitle: blog.section4sub2Subtitle, body: blog.section4sub2Body },
+                      { subtitle: blog.section4sub3Subtitle, body: blog.section4sub3Body },
+                    ].filter(section => section.subtitle && section.body);
+
+                    const hasSubsections = subsections.length > 0;
+
+                    if (hasSubsections) {
+                      return (
+                        <>
+                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                            {renderTextWithBold(t(blog.section4Body!))}
+                          </p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+                            {subsections.map((section, idx) => {
+                              const lines = getOrderedLines(t(section.body!));
+
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    padding: '30px',
+                                    background: '#ffffff',
+                                    borderRadius: '15px',
+                                    border: '2px solid #e2e8f0',
+                                    transition: 'all 0.3s ease',
+                                  }}
+                                  className="magazine-feature-card"
+                                >
+                                  <h3
+                                    style={{
+                                      fontSize: '1.5rem',
+                                      fontWeight: '700',
+                                      color: '#0891b2',
+                                      marginBottom: '15px',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      gap: '12px',
+                                    }}
+                                  >
+                                    <span
+                                      style={{
+                                        width: '35px',
+                                        height: '35px',
+                                        borderRadius: '50%',
+                                        background: '#e0f2fe',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        fontSize: '1rem',
+                                        fontWeight: '700',
+                                      }}
+                                    >
+                                      {idx + 1}
+                                    </span>
+                                    {renderTextWithBold(t(section.subtitle!))}
+                                  </h3>
+
+                                  {lines.map((line, lIdx) => {
+                                    const isBullet = line.trim().startsWith('- ');
+                                    if (isBullet) {
+                                      return (
+                                        <div
+                                          key={lIdx}
+                                          style={{
+                                            fontSize: '1.05rem',
+                                            color: '#475569',
+                                            lineHeight: '1.8',
+                                            marginBottom: '12px',
+                                            paddingLeft: '30px',
+                                            position: 'relative',
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              position: 'absolute',
+                                              left: '0',
+                                              top: '5px',
+                                              width: '20px',
+                                              height: '20px',
+                                              borderRadius: '50%',
+                                              background: '#e0f2fe',
+                                              display: 'flex',
+                                              alignItems: 'center',
+                                              justifyContent: 'center',
+                                            }}
+                                          >
+                                            <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                          </span>
+                                          {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                        {renderTextWithBold(line.trim())}
+                                      </p>
+                                    );
+                                  })}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </>
+                      );
+                    } else {
+                      const lines = getOrderedLines(t(blog.section4Body!));
+
+                      return (
+                        <>
+                          {lines.map((line, idx) => {
+                            const isBullet = line.trim().startsWith('- ');
+                            if (isBullet) {
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    fontSize: '1.05rem',
+                                    color: '#475569',
+                                    lineHeight: '1.8',
+                                    marginBottom: '12px',
+                                    paddingLeft: '30px',
+                                    position: 'relative',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      position: 'absolute',
+                                      left: '0',
+                                      top: '5px',
+                                      width: '20px',
+                                      height: '20px',
+                                      borderRadius: '50%',
+                                      background: '#e0f2fe',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                    }}
+                                  >
+                                    <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                  </span>
+                                  {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                                </div>
+                              );
+                            }
+                            return (
+                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                            );
+                          })}
+                        </>
+                      );
+                    }
+                  })()}
+                </div>
+              )}
+
+              {/* Section 5 */}
+              {blog.section5Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section5Title)}
+                  </h2>
+                  {(() => {
+                    // Check if there are subsections for section5
+                    const subsections = [
+                      { subtitle: blog.section5sub1Subtitle, body: blog.section5sub1Body },
+                      { subtitle: blog.section5sub2Subtitle, body: blog.section5sub2Body },
+                      { subtitle: blog.section5sub3Subtitle, body: blog.section5sub3Body },
+                    ].filter(section => section.subtitle && section.body);
+
+                    const hasSubsections = subsections.length > 0;
+
+                    if (hasSubsections) {
+                      return (
+                        <>
+                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                            {renderTextWithBold(t(blog.section5Body!))}
+                          </p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+                            {subsections.map((section, idx) => {
+                              const lines = getOrderedLines(t(section.body!));
+
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    padding: '30px',
+                                    background: '#ffffff',
+                                    borderRadius: '15px',
+                                    border: '2px solid #e2e8f0',
+                                    transition: 'all 0.3s ease',
+                                  }}
+                                  className="magazine-feature-card"
+                                >
+                                  <h3
+                                    style={{
+                                      fontSize: '1.5rem',
+                                      fontWeight: '700',
+                                      color: '#0891b2',
+                                      marginBottom: '15px',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      gap: '12px',
+                                    }}
+                                  >
+                                    <span
+                                      style={{
+                                        width: '35px',
+                                        height: '35px',
+                                        borderRadius: '50%',
+                                        background: '#e0f2fe',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        fontSize: '1rem',
+                                        fontWeight: '700',
+                                      }}
+                                    >
+                                      {idx + 1}
+                                    </span>
+                                    {renderTextWithBold(t(section.subtitle!))}
+                                  </h3>
+
+                                  {lines.map((line, lIdx) => {
+                                    const isBullet = line.trim().startsWith('- ');
+                                    if (isBullet) {
+                                      return (
+                                        <div
+                                          key={lIdx}
+                                          style={{
+                                            fontSize: '1.05rem',
+                                            color: '#475569',
+                                            lineHeight: '1.8',
+                                            marginBottom: '12px',
+                                            paddingLeft: '30px',
+                                            position: 'relative',
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              position: 'absolute',
+                                              left: '0',
+                                              top: '5px',
+                                              width: '20px',
+                                              height: '20px',
+                                              borderRadius: '50%',
+                                              background: '#e0f2fe',
+                                              display: 'flex',
+                                              alignItems: 'center',
+                                              justifyContent: 'center',
+                                            }}
+                                          >
+                                            <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                          </span>
+                                          {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                                        </div>
+                                      );
+                                    }
+                                    return (
+                                      <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                        {renderTextWithBold(line.trim())}
+                                      </p>
+                                    );
+                                  })}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </>
+                      );
+                    } else {
+                      const lines = getOrderedLines(t(blog.section5Body!));
+
+                      return (
+                        <>
+                          {lines.map((line, idx) => {
+                            const isBullet = line.trim().startsWith('- ');
+                            if (isBullet) {
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    fontSize: '1.05rem',
+                                    color: '#475569',
+                                    lineHeight: '1.8',
+                                    marginBottom: '12px',
+                                    paddingLeft: '30px',
+                                    position: 'relative',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      position: 'absolute',
+                                      left: '0',
+                                      top: '5px',
+                                      width: '20px',
+                                      height: '20px',
+                                      borderRadius: '50%',
+                                      background: '#e0f2fe',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                    }}
+                                  >
+                                    <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                  </span>
+                                  {renderTextWithBold(line.replace(/^-\s*/, '').trim())}
+                                </div>
+                              );
+                            }
+                            return (
+                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                            );
+                          })}
+                        </>
+                      );
+                    }
+                  })()}
+                </div>
+              )}
+
+              {/* Section 6 */}
+              {blog.section6Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section6Title)}
+                  </h2>
+                  {(() => {
+                    // Check if there are subsections for section6
+                    const subsections = [
+                      { subtitle: blog.section6sub1Subtitle, body: blog.section6sub1Body },
+                      { subtitle: blog.section6sub2Subtitle, body: blog.section6sub2Body },
+                      { subtitle: blog.section6sub3Subtitle, body: blog.section6sub3Body },
+                      { subtitle: blog.section6sub4Subtitle, body: blog.section6sub4Body },
+                    ].filter(section => section.subtitle && section.body);
+
+                    const hasSubsections = subsections.length > 0;
+
+                    if (hasSubsections) {
+                      return (
+                        <>
+                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                            {renderTextWithBold(t(blog.section6Body!))}
+                          </p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+                            {subsections.map((section, idx) => {
+                              const subsectionContent = t(section.body!);
+                              const { paragraphs, bullets } = processMarkdown(subsectionContent);
+
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    padding: '30px',
+                                    background: '#ffffff',
+                                    borderRadius: '15px',
+                                    border: '2px solid #e2e8f0',
+                                    transition: 'all 0.3s ease',
+                                  }}
+                                  className="magazine-feature-card"
+                                >
+                                  <h3
+                                    style={{
+                                      fontSize: '1.5rem',
+                                      fontWeight: '700',
+                                      color: '#0891b2',
+                                      marginBottom: '15px',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      gap: '12px',
+                                    }}
+                                  >
+                                    <span
+                                      style={{
+                                        width: '35px',
+                                        height: '35px',
+                                        borderRadius: '50%',
+                                        background: '#e0f2fe',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        fontSize: '1rem',
+                                        fontWeight: '700',
+                                      }}
+                                    >
+                                      {idx + 1}
+                                    </span>
+                                    {renderTextWithBold(t(section.subtitle!))}
+                                  </h3>
+
+                                  {paragraphs.map((para, pIdx) => (
+                                    <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
+                                      {renderTextWithBold(para)}
+                                    </p>
+                                  ))}
+
+                                  {bullets.length > 0 && (
+                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                                      {bullets.map((bullet, bIdx) => (
+                                        <li
+                                          key={bIdx}
+                                          style={{
+                                            fontSize: '1.05rem',
+                                            color: '#475569',
+                                            lineHeight: '1.8',
+                                            marginBottom: '12px',
+                                            paddingLeft: '30px',
+                                            position: 'relative',
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              position: 'absolute',
+                                              left: '0',
+                                              top: '5px',
+                                              width: '20px',
+                                              height: '20px',
+                                              borderRadius: '50%',
+                                              background: '#e0f2fe',
+                                              display: 'flex',
+                                              alignItems: 'center',
+                                              justifyContent: 'center',
+                                            }}
+                                          >
+                                            <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                          </span>
+                                          {renderTextWithBold(bullet)}
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </>
+                      );
+                    } else {
+                      const section6Content = t(blog.section6Body!);
+                      const { paragraphs, bullets } = processMarkdown(section6Content);
+
+                      return (
+                        <>
+                          {paragraphs.map((para, idx) => (
+                            <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                              {renderTextWithBold(para)}
+                            </p>
+                          ))}
+
+                          {bullets.length > 0 && (
+                            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                              {bullets.map((bullet, bIdx) => (
+                                <li
+                                  key={bIdx}
+                                  style={{
+                                    fontSize: '1.05rem',
+                                    color: '#475569',
+                                    lineHeight: '1.8',
+                                    marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                    paddingLeft: '30px',
+                                    position: 'relative',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      position: 'absolute',
+                                      left: '0',
+                                      top: '5px',
+                                      width: '20px',
+                                      height: '20px',
+                                      borderRadius: '50%',
+                                      background: '#e0f2fe',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                    }}
+                                  >
+                                    <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                  </span>
+                                  {renderTextWithBold(bullet)}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </>
+                      );
+                    }
+                  })()}
+                </div>
+              )}
+
+              {/* Section 7 */}
+              {blog.section7Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section7Title)}
+                  </h2>
+                  {(() => {
+                    // Check if there are subsections for section7
+                    const subsections = [
+                      { subtitle: blog.section7sub1Subtitle, body: blog.section7sub1Body },
+                      { subtitle: blog.section7sub2Subtitle, body: blog.section7sub2Body },
+                      { subtitle: blog.section7sub3Subtitle, body: blog.section7sub3Body },
+                    ].filter(section => section.subtitle && section.body);
+
+                    const hasSubsections = subsections.length > 0;
+
+                    if (hasSubsections) {
+                      return (
+                        <>
+                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                            {renderTextWithBold(t(blog.section7Body!))}
+                          </p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+                            {subsections.map((section, idx) => {
+                              const subsectionContent = t(section.body!);
+                              const { paragraphs, bullets } = processMarkdown(subsectionContent);
+
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    padding: '30px',
+                                    background: '#ffffff',
+                                    borderRadius: '15px',
+                                    border: '2px solid #e2e8f0',
+                                    transition: 'all 0.3s ease',
+                                  }}
+                                  className="magazine-feature-card"
+                                >
+                                  <h3
+                                    style={{
+                                      fontSize: '1.5rem',
+                                      fontWeight: '700',
+                                      color: '#0891b2',
+                                      marginBottom: '15px',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      gap: '12px',
+                                    }}
+                                  >
+                                    <span
+                                      style={{
+                                        width: '35px',
+                                        height: '35px',
+                                        borderRadius: '50%',
+                                        background: '#e0f2fe',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        fontSize: '1rem',
+                                        fontWeight: '700',
+                                      }}
+                                    >
+                                      {idx + 1}
+                                    </span>
+                                    {renderTextWithBold(t(section.subtitle!))}
+                                  </h3>
+
+                                  {paragraphs.map((para, pIdx) => (
+                                    <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
+                                      {renderTextWithBold(para)}
+                                    </p>
+                                  ))}
+
+                                  {bullets.length > 0 && (
+                                    <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                                      {bullets.map((bullet, bIdx) => (
+                                        <li
+                                          key={bIdx}
+                                          style={{
+                                            fontSize: '1.05rem',
+                                            color: '#475569',
+                                            lineHeight: '1.8',
+                                            marginBottom: '12px',
+                                            paddingLeft: '30px',
+                                            position: 'relative',
+                                          }}
+                                        >
+                                          <span
+                                            style={{
+                                              position: 'absolute',
+                                              left: '0',
+                                              top: '5px',
+                                              width: '20px',
+                                              height: '20px',
+                                              borderRadius: '50%',
+                                              background: '#e0f2fe',
+                                              display: 'flex',
+                                              alignItems: 'center',
+                                              justifyContent: 'center',
+                                            }}
+                                          >
+                                            <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                          </span>
+                                          {renderTextWithBold(bullet)}
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </>
+                      );
+                    } else {
+                      const section7Content = t(blog.section7Body!);
+                      const { paragraphs, bullets } = processMarkdown(section7Content);
+
+                      return (
+                        <>
+                          {paragraphs.map((para, idx) => (
+                            <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                              {renderTextWithBold(para)}
+                            </p>
+                          ))}
+
+                          {bullets.length > 0 && (
+                            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                              {bullets.map((bullet, bIdx) => (
+                                <li
+                                  key={bIdx}
+                                  style={{
+                                    fontSize: '1.05rem',
+                                    color: '#475569',
+                                    lineHeight: '1.8',
+                                    marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                    paddingLeft: '30px',
+                                    position: 'relative',
+                                  }}
+                                >
+                                  <span
+                                    style={{
+                                      position: 'absolute',
+                                      left: '0',
+                                      top: '5px',
+                                      width: '20px',
+                                      height: '20px',
+                                      borderRadius: '50%',
+                                      background: '#e0f2fe',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                    }}
+                                  >
+                                    <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                  </span>
+                                  {renderTextWithBold(bullet)}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </>
+                      );
+                    }
+                  })()}
+                </div>
+              )}
+
+              {/* Section 8 */}
+              {blog.section8Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section8Title)}
+                  </h2>
+                  {(() => {
+                    const section8Content = t(blog.section8Body!);
+                    const { paragraphs, bullets } = processMarkdown(section8Content);
 
                     return (
                       <>
                         {paragraphs.map((para, idx) => (
-                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : '0' }}>
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
                             {renderTextWithBold(para)}
                           </p>
                         ))}
@@ -534,7 +1295,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                   fontSize: '1.05rem',
                                   color: '#475569',
                                   lineHeight: '1.8',
-                                  marginBottom: '12px',
+                                  marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
                                   paddingLeft: '30px',
                                   position: 'relative',
                                 }}
@@ -566,8 +1327,206 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 </div>
               )}
 
-              {/* Section 5 - Conclusion */}
-              {blog.section5Title && (
+              {/* Section 9 */}
+              {blog.section9Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section9Title)}
+                  </h2>
+                  {(() => {
+                    const section9Content = t(blog.section9Body!);
+                    const { paragraphs, bullets } = processMarkdown(section9Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              )}
+
+              {/* Section 10 */}
+              {blog.section10Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section10Title)}
+                  </h2>
+                  {(() => {
+                    const section10Content = t(blog.section10Body!);
+                    const { paragraphs, bullets } = processMarkdown(section10Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              )}
+
+              {/* Section 11 */}
+              {blog.section11Title && (
+                <div style={{ marginBottom: '50px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section11Title)}
+                  </h2>
+                  {(() => {
+                    const section11Content = t(blog.section11Body!);
+                    const { paragraphs, bullets } = processMarkdown(section11Content);
+
+                    return (
+                      <>
+                        {paragraphs.map((para, idx) => (
+                          <p key={`para-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : idx < paragraphs.length - 1 ? '15px' : '0' }}>
+                            {renderTextWithBold(para)}
+                          </p>
+                        ))}
+
+                        {bullets.length > 0 && (
+                          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                            {bullets.map((bullet, bIdx) => (
+                              <li
+                                key={bIdx}
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '1.8',
+                                  marginBottom: bIdx < bullets.length - 1 ? '12px' : '0',
+                                  paddingLeft: '30px',
+                                  position: 'relative',
+                                }}
+                              >
+                                <span
+                                  style={{
+                                    position: 'absolute',
+                                    left: '0',
+                                    top: '5px',
+                                    width: '20px',
+                                    height: '20px',
+                                    borderRadius: '50%',
+                                    background: '#e0f2fe',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                  }}
+                                >
+                                  <i className="fa-solid fa-check" style={{ color: '#0891b2', fontSize: '0.7rem' }}></i>
+                                </span>
+                                {renderTextWithBold(bullet)}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              )}
+
+              {/* Section 12 - Conclusion */}
+              {blog.section12Title && (
                 <div
                   style={{
                     padding: '35px',
@@ -584,11 +1543,11 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                       marginBottom: '20px',
                     }}
                   >
-                    {t(blog.section5Title)}
+                    {t(blog.section12Title)}
                   </h2>
                   {(() => {
-                    const section5Content = t(blog.section5Body!);
-                    const { paragraphs, bullets } = processMarkdown(section5Content);
+                    const section12Content = t(blog.section12Body!);
+                    const { paragraphs, bullets } = processMarkdown(section12Content);
 
                     return (
                       <>
