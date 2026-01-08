@@ -134,7 +134,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
   return (
     <article style={{ background: '#ffffff' }}>
       {/* Full-width Hero with Parallax Effect */}
-      <section style={{ position: 'relative', height: '85vh', overflow: 'hidden' }}>
+      <section className="visual-layout-hero" style={{ position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
           <Image
             src={blog.detailsImg!}
@@ -155,12 +155,12 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           }}
         />
         <div
-          className="container"
+          className="container visual-layout-hero-content"
           style={{
             position: 'absolute',
-            bottom: '100px',
+            top: '50%',
             left: '50%',
-            transform: 'translateX(-50%)',
+            transform: 'translate(-50%, -50%)',
             width: '100%',
           }}
         >
@@ -182,20 +182,20 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 {t(blog.badgeTitle!)}
               </div>
               <h1
+                className="visual-layout-title"
                 style={{
-                  fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
                   fontWeight: '800',
                   color: '#ffffff',
                   marginBottom: '25px',
-                  lineHeight: '1.1',
+                  lineHeight: '1.15',
                   textShadow: '0 6px 30px rgba(0,0,0,0.6)',
                 }}
               >
                 {t(blog.title)}
               </h1>
               <p
+                className="visual-layout-description"
                 style={{
-                  fontSize: '1.3rem',
                   color: '#f0f9ff',
                   maxWidth: '800px',
                   margin: '0 auto 30px',
@@ -701,6 +701,76 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
         .visual-story-card:hover {
           transform: translateY(-5px);
           box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15) !important;
+        }
+
+        /* Hero section responsive */
+        .visual-layout-hero {
+          height: 85vh;
+        }
+
+        .visual-layout-hero-content {
+          padding: 0 15px;
+        }
+
+        /* Title responsive */
+        .visual-layout-title {
+          font-size: 3.5rem;
+        }
+
+        /* Description responsive */
+        .visual-layout-description {
+          font-size: 1.3rem;
+        }
+
+        /* Tablet */
+        @media (max-width: 991px) {
+          .visual-layout-hero {
+            height: 75vh;
+          }
+
+          .visual-layout-title {
+            font-size: 2.5rem;
+          }
+
+          .visual-layout-description {
+            font-size: 1.1rem;
+          }
+        }
+
+        /* Mobile */
+        @media (max-width: 767px) {
+          .visual-layout-hero {
+            height: 100vh;
+            min-height: 500px;
+          }
+
+          .visual-layout-hero-content {
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+
+          .visual-layout-title {
+            font-size: 1.75rem;
+            line-height: 1.25;
+            margin-bottom: 15px;
+          }
+
+          .visual-layout-description {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+          }
+        }
+
+        /* Small mobile */
+        @media (max-width: 480px) {
+          .visual-layout-title {
+            font-size: 1.5rem;
+          }
+
+          .visual-layout-description {
+            font-size: 0.95rem;
+          }
         }
       `}</style>
     </article>
