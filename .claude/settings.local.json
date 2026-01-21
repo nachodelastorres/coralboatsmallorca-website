@@ -40,7 +40,9 @@
       "Bash(do node -e \"try { JSON.parse\\(require\\(''fs''\\).readFileSync\\(''public/locales/$lang/common.json'', ''utf8''\\)\\); console.log\\(''$lang: valid''\\); } catch\\(e\\) { console.log\\(''$lang: ERROR -'', e.message\\); }\")",
       "Bash(done)",
       "Bash(npx next start -p 3000)",
-      "Bash(ss:*)"
+      "Bash(ss:*)",
+      "Bash(gh auth:*)",
+      "Bash(git remote add:*)"
     ],
     "deny": [],
     "ask": []
