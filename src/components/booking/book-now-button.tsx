@@ -1,13 +1,18 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { trackInitiateCheckout } from '@/lib/metaPixel';
 
 interface BookNowButtonProps {
   itemId: string;
   label?: string;
+  /** Tour name for tracking (required for InitiateCheckout) */
+  tourName?: string;
+  /** Price value for tracking (optional) */
+  tourPrice?: number;
 }
 
-const BookNowButton = ({ itemId, label = '¡Reservar ahora!' }: BookNowButtonProps) => {
+const BookNowButton = ({ itemId, label = '¡Reservar ahora!', tourName, tourPrice }: BookNowButtonProps) => {
   const [fhReady, setFhReady] = useState(false);
 
   useEffect(() => {
@@ -24,6 +29,16 @@ const BookNowButton = ({ itemId, label = '¡Reservar ahora!' }: BookNowButtonPro
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
+
+    // Track InitiateCheckout event
+    if (tourName) {
+      trackInitiateCheckout({
+        contentName: tourName,
+        contentId: itemId,
+        value: tourPrice,
+        currency: 'EUR',
+      });
+    }
 
     if ((window as any).FH) {
       (window as any).FH.open({

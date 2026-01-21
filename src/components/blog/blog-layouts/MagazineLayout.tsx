@@ -162,7 +162,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
       <section style={{ position: 'relative', height: '70vh', minHeight: '500px' }}>
         <Image
           src={blog.detailsImg!}
-          alt={t(blog.title)}
+          alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
           fill
           style={{ objectFit: 'cover' }}
           priority
@@ -905,6 +905,56 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                       );
                     }
                   })()}
+                </div>
+              )}
+
+              {/* Secondary Images Gallery */}
+              {(blog.secondaryImage1 || blog.secondaryImage2) && (
+                <div style={{ marginBottom: '50px' }}>
+                  <div
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: blog.secondaryImage1 && blog.secondaryImage2 ? 'repeat(2, 1fr)' : '1fr',
+                      gap: '20px',
+                    }}
+                  >
+                    {blog.secondaryImage1 && (
+                      <div
+                        style={{
+                          position: 'relative',
+                          height: '350px',
+                          borderRadius: '15px',
+                          overflow: 'hidden',
+                          boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
+                        }}
+                      >
+                        <Image
+                          src={blog.secondaryImage1}
+                          alt={blog.secondaryImage1Alt ? t(blog.secondaryImage1Alt) : `${t(blog.title)} - Coral Boats Mallorca`}
+                          fill
+                          style={{ objectFit: 'cover' }}
+                        />
+                      </div>
+                    )}
+                    {blog.secondaryImage2 && (
+                      <div
+                        style={{
+                          position: 'relative',
+                          height: '350px',
+                          borderRadius: '15px',
+                          overflow: 'hidden',
+                          boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
+                        }}
+                      >
+                        <Image
+                          src={blog.secondaryImage2}
+                          alt={blog.secondaryImage2Alt ? t(blog.secondaryImage2Alt) : `${t(blog.title)} - Vista de Mallorca`}
+                          fill
+                          style={{ objectFit: 'cover' }}
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
               )}
 

@@ -12,39 +12,39 @@ const GalleryGrid = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const images = [
-    { file: 'alcanada_lighthouse.webp', titleKey: 'premium.gallery.image_alcanada_lighthouse' },
-    { file: 'boat_alcanada.webp', titleKey: 'premium.gallery.image_boat_alcanada' },
-    { file: 'boat_fun.webp', titleKey: 'premium.gallery.image_boat_fun' },
-    { file: 'boat_interior.webp', titleKey: 'premium.gallery.image_boat_interior' },
-    { file: 'card_morning.webp', titleKey: 'premium.gallery.image_card_morning' },
-    { file: 'card_private.webp', titleKey: 'premium.gallery.image_card_private' },
-    { file: 'card_sunset.webp', titleKey: 'premium.gallery.image_card_sunset' },
-    { file: 'classic_boat.webp', titleKey: 'premium.gallery.image_classic_boat' },
-    { file: 'coastline_views.webp', titleKey: 'premium.gallery.image_coastline_views' },
-    { file: 'cove.webp', titleKey: 'premium.gallery.image_cove' },
-    { file: 'crew_service.webp', titleKey: 'premium.gallery.image_crew_service' },
-    { file: 'friends_enjoy.webp', titleKey: 'premium.gallery.image_friends_enjoy' },
-    { file: 'friends_fun.webp', titleKey: 'premium.gallery.image_friends_fun' },
-    { file: 'friends_group.webp', titleKey: 'premium.gallery.image_friends_group' },
-    { file: 'golden_hour.webp', titleKey: 'premium.gallery.image_golden_hour' },
-    { file: 'hidden_coves.webp', titleKey: 'premium.gallery.image_hidden_coves' },
-    { file: 'island_boat.webp', titleKey: 'premium.gallery.image_island_boat' },
-    { file: 'kids_fun.webp', titleKey: 'premium.gallery.image_kids_fun' },
-    { file: 'mallorca_views.webp', titleKey: 'premium.gallery.image_mallorca_views' },
-    { file: 'mallorcan_tapas.webp', titleKey: 'premium.gallery.image_mallorcan_tapas' },
-    { file: 'matress.webp', titleKey: 'premium.gallery.image_matress' },
-    { file: 'meal.webp', titleKey: 'premium.gallery.image_meal' },
-    { file: 'paddel_board.webp', titleKey: 'premium.gallery.image_paddel_board' },
-    { file: 'panoramic_beach.webp', titleKey: 'premium.gallery.image_panoramic_beach' },
-    { file: 'partners.webp', titleKey: 'premium.gallery.image_partners' },
-    { file: 'professional_crew.webp', titleKey: 'premium.gallery.image_professional_crew' },
-    { file: 'sangria_tapas.webp', titleKey: 'premium.gallery.image_sangria_tapas' },
-    { file: 'sunset.webp', titleKey: 'premium.gallery.image_sunset' },
-    { file: 'sunset_image.webp', titleKey: 'premium.gallery.image_sunset_image' },
-    { file: 'sunset_light.webp', titleKey: 'premium.gallery.image_sunset_light' },
-    { file: 'sunset_port.webp', titleKey: 'premium.gallery.image_sunset_port' },
-    { file: 'tour.webp', titleKey: 'premium.gallery.image_tour' },
-    { file: 'water_fun.webp', titleKey: 'premium.gallery.image_water_fun' },
+    { file: 'faro-alcanada-excursion-barco-alcudia-mallorca.webp', titleKey: 'premium.gallery.image_alcanada_lighthouse' },
+    { file: 'coral-boats-navegando-isla-alcanada-alcudia.webp', titleKey: 'premium.gallery.image_boat_alcanada' },
+    { file: 'turistas-paseo-barco-aguas-cristalinas-mallorca.webp', titleKey: 'premium.gallery.image_boat_fun' },
+    { file: 'interior-barco-coral-boats-puerto-alcudia.webp', titleKey: 'premium.gallery.image_boat_interior' },
+    { file: 'excursion-matutina-snorkel-paddle-surf-alcudia.webp', titleKey: 'premium.gallery.image_card_morning' },
+    { file: 'charter-privado-lujo-grupos-alcudia-mallorca.webp', titleKey: 'premium.gallery.image_card_private' },
+    { file: 'crucero-atardecer-sunset-magic-alcudia.webp', titleKey: 'premium.gallery.image_card_sunset' },
+    { file: 'barco-clasico-madera-coral-boats-mallorca.webp', titleKey: 'premium.gallery.image_classic_boat' },
+    { file: 'vistas-costa-norte-mallorca-excursion-barco.webp', titleKey: 'premium.gallery.image_coastline_views' },
+    { file: 'cala-secreta-accesible-barco-alcudia-mallorca.webp', titleKey: 'premium.gallery.image_cove' },
+    { file: 'tripulacion-profesional-sirviendo-paseo-barco-alcudia.webp', titleKey: 'premium.gallery.image_crew_service' },
+    { file: 'amigos-excursion-barco-bahia-alcudia.webp', titleKey: 'premium.gallery.image_friends_enjoy' },
+    { file: 'amigos-recuerdos-paseo-barco-calas-mallorca.webp', titleKey: 'premium.gallery.image_friends_fun' },
+    { file: 'celebracion-grupo-charter-privado-alcudia-mallorca.webp', titleKey: 'premium.gallery.image_friends_group' },
+    { file: 'hora-dorada-mediterraneo-crucero-mallorca.webp', titleKey: 'premium.gallery.image_golden_hour' },
+    { file: 'calas-escondidas-norte-mallorca-excursion-barco.webp', titleKey: 'premium.gallery.image_hidden_coves' },
+    { file: 'excursion-barco-isla-alcanada-puerto-alcudia.webp', titleKey: 'premium.gallery.image_island_boat' },
+    { file: 'ninos-actividades-acuaticas-excursion-familiar-mallorca.webp', titleKey: 'premium.gallery.image_kids_fun' },
+    { file: 'paisaje-costero-mallorca-barco-excursiones-alcudia.webp', titleKey: 'premium.gallery.image_mallorca_views' },
+    { file: 'tapas-mallorquinas-tradicionales-bordo-paseo-barco.webp', titleKey: 'premium.gallery.image_mallorcan_tapas' },
+    { file: 'relax-colchoneta-flotante-aguas-alcudia.webp', titleKey: 'premium.gallery.image_matress' },
+    { file: 'comida-mediterranea-excursion-barco-mallorca.webp', titleKey: 'premium.gallery.image_meal' },
+    { file: 'paddle-surf-aguas-turquesas-excursion-alcudia.webp', titleKey: 'premium.gallery.image_paddel_board' },
+    { file: 'vista-panoramica-playa-muro-bahia-alcudia.webp', titleKey: 'premium.gallery.image_panoramic_beach' },
+    { file: 'pareja-crucero-romantico-atardecer-mallorca.webp', titleKey: 'premium.gallery.image_partners' },
+    { file: 'tripulacion-experta-coral-boats-alcudia.webp', titleKey: 'premium.gallery.image_professional_crew' },
+    { file: 'sangria-espanola-tapas-excursion-barco-mallorca.webp', titleKey: 'premium.gallery.image_sangria_tapas' },
+    { file: 'atardecer-espectacular-mar-bahia-alcudia.webp', titleKey: 'premium.gallery.image_sunset' },
+    { file: 'puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp', titleKey: 'premium.gallery.image_sunset_image' },
+    { file: 'luz-dorada-atardecer-aguas-alcudia-mallorca.webp', titleKey: 'premium.gallery.image_sunset_light' },
+    { file: 'puerto-alcudia-atardecer-barcos-excursiones.webp', titleKey: 'premium.gallery.image_sunset_port' },
+    { file: 'pasajeros-excursion-barco-coral-boats-mallorca.webp', titleKey: 'premium.gallery.image_tour' },
+    { file: 'actividades-acuaticas-snorkel-paddle-surf-alcudia.webp', titleKey: 'premium.gallery.image_water_fun' },
   ];
 
   const getImageTitle = (index: number) => {
@@ -124,23 +124,15 @@ const GalleryGrid = () => {
                       left: 0,
                       right: 0,
                       bottom: 0,
-                      background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%, transparent 100%)',
+                      background: 'rgba(0,0,0,0.3)', 
                       display: 'flex',
-                      alignItems: 'flex-end',
-                      padding: '20px',
+                      alignItems: 'center',
+                      justifyContent: 'center', 
                       opacity: 0,
                       transition: 'opacity 0.3s ease',
                     }}
                   >
-                    <div>
-                      <h4 style={{ fontSize: '1.1rem', fontWeight: '700', margin: 0, color: '#ffdd57', textShadow: '0 2px 10px rgba(0,0,0,1)' }}>
-                        {t(image.titleKey)}
-                      </h4>
-                      <p style={{ fontSize: '0.9rem', margin: '5px 0 0', fontWeight: '500', color: '#ffffff', textShadow: '0 2px 8px rgba(0,0,0,1)' }}>
-                        <i className="fa-solid fa-expand" style={{ marginRight: '8px' }}></i>
-                        {t('premium.gallery.click_to_view')}
-                      </p>
-                    </div>
+                    <i className="fa-solid fa-expand" style={{ fontSize: '2rem', color: '#ffffff' }}></i> 
                   </div>
                 </div>
               </div>
@@ -402,17 +394,13 @@ const GalleryGrid = () => {
                 marginTop: '20px',
                 color: '#ffffff',
                 textAlign: 'center',
-                textShadow: '0 2px 10px rgba(0,0,0,0.9)',
                 background: 'rgba(0,0,0,0.5)',
-                padding: '15px 30px',
-                borderRadius: '10px',
+                padding: '10px 25px',
+                borderRadius: '25px',
                 backdropFilter: 'blur(10px)',
               }}
             >
-              <h3 style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '5px' }}>
-                {t(images[selectedImage].titleKey)}
-              </h3>
-              <p style={{ fontSize: '1rem', opacity: 1, fontWeight: '500' }}>
+ <p style={{ fontSize: '1rem', margin: 0, fontWeight: '500' }}> 
                 {selectedImage + 1} / {images.length}
               </p>
             </div>

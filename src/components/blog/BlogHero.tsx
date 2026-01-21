@@ -9,7 +9,7 @@ const BlogHero = () => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <img
-          src="/assets/img/premium/gallery_new/sunset.webp"
+          src="/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp"
           alt="Coral Boats Blog - Boat Tours in Mallorca"
           style={{ objectFit: 'cover', width: '100%', height: '100%' }}
         />

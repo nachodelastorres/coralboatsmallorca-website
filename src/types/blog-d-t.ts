@@ -16,6 +16,7 @@ export interface IBlogDT {
   metaDescription?: string; // Literal string for SEO meta description
   btnText?: string;
   keyword: string; // Already literal for SEO
+  category?: string; // Category for filtering (Guías, Excursiones, Destinos, Consejos)
 
   // Secciones clásicas (opcional para posts tipo simple)
   section1Title?: string;
@@ -100,4 +101,10 @@ export interface IBlogDT {
   // Imágenes secundarias para posts con múltiples imágenes
   secondaryImage1?: StaticImageData;
   secondaryImage2?: StaticImageData;
+
+  // Metadata SEO de imágenes (claves i18n)
+  imageAlt?: string;              // Alt específico imagen principal
+  imageCaption?: string;          // Caption/descripción larga para Schema.org
+  secondaryImage1Alt?: string;    // Alt imagen secundaria 1
+  secondaryImage2Alt?: string;    // Alt imagen secundaria 2
 }

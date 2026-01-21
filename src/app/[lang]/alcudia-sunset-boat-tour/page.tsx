@@ -1,16 +1,57 @@
 import { Metadata } from 'next';
-import SunsetTourPage from '@/pages/tours/sunset-tour';
 import { PageProps } from '@/types/params';
 import { generateSunsetTourMetadata } from '@/lib/metadata-helpers';
+import { getDictionary } from '@/lib/dictionaries';
+import { getHeaderTranslations, getFooterTranslations } from '@/lib/layout-translations';
+import type { Locale } from '@/config/locales';
+
+// SSR Components (Server-rendered for SEO)
+import SunsetTourHeroSSR from '@/components/premium/tours/SunsetTourHeroSSR';
+import SunsetTourDetailsSSR from '@/components/premium/tours/SunsetTourDetailsSSR';
+import SunsetTourItinerarySSR from '@/components/premium/tours/SunsetTourItinerarySSR';
+import SunsetTourBookingSSR from '@/components/premium/tours/SunsetTourBookingSSR';
+import SunsetTourGallerySSR from '@/components/premium/tours/SunsetTourGallerySSR';
+import RelatedToursSSR from '@/components/premium/tours/RelatedToursSSR';
+import BlogPreviewSectionSSR from '@/components/premium/BlogPreviewSectionSSR';
+
+// Blog data for SSR
+import { blogDataOne } from '@/data/blog-data';
+
+import Wrapper from '@/layouts/wrapper';
+import HeaderSSR from '@/layouts/headers/HeaderSSR';
+import FooterSSR from '@/layouts/footers/FooterSSR';
+import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return generateSunsetTourMetadata(params.lang);
 }
 
-export default function SunsetTour({ params }: PageProps) {
+// Make this an async Server Component to load translations server-side
+export default async function SunsetTour({ params }: PageProps) {
+  // Load dictionary on the server
+  const dict = await getDictionary(params.lang);
+
+  // Access sunsetTour translations
+  const t = (dict.sunsetTour || {}) as Record<string, Record<string, string>>;
+  const hero = (t.hero || {}) as Record<string, string>;
+  const details = (t.details || {}) as Record<string, string>;
+  const itinerary = (t.itinerary || {}) as Record<string, string>;
+  const booking = (t.booking || {}) as Record<string, string>;
+
+  // Access premium.tours for price labels
+  const premium = (dict.premium || {}) as Record<string, Record<string, string>>;
+  const tours = (premium.tours || {}) as Record<string, string>;
+
   const canonicalUrl = `https://www.coralboatsmallorca.com/${params.lang}/alcudia-sunset-boat-tour`;
 
-  // BreadcrumbList Schema
+  // Access menu translations for breadcrumbs
+  const menu = (dict.menu || {}) as Record<string, string>;
+
+  // ============================================
+  // STRUCTURED DATA SCHEMAS (Translated)
+  // ============================================
+
+  // BreadcrumbList Schema - Translated
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -18,79 +59,74 @@ export default function SunsetTour({ params }: PageProps) {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Home",
-        "item": "https://www.coralboatsmallorca.com"
+        "name": menu.home || "Home",
+        "item": `https://www.coralboatsmallorca.com/${params.lang}`
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Boat Tours Alcudia",
+        "name": menu.allTours || "Boat Tours",
         "item": `https://www.coralboatsmallorca.com/${params.lang}/boat-tours-alcudia`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Sunset Boat Tour",
+        "name": menu.sunsetTour || "Sunset Boat Tour",
         "item": canonicalUrl
       }
     ]
   };
 
-  // FAQPage Schema
+  // FAQPage Schema - Uses same FAQs as visible on page (translated)
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "inLanguage": params.lang,
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "¿Cómo llego a la zona de embarque?",
+        "name": booking.faq1Question || "What should I bring?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "El punto de encuentro es el muelle comercial del Puerto de Alcudia (Estación Marítima del Puerto de Alcudia). Puedes llegar andando, en coche, taxi o bus. Si vienes en coche, hay un parking gratuito en la zona. La ubicación exacta está en Google Maps en las coordenadas 39.8371, 3.1219."
+          "text": booking.faq1Answer || "Bring swimwear, towel, sunscreen, sunglasses, and a camera. We provide all snorkeling equipment, paddle boards, food, and drinks."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Dónde puedo dejar mis pertenencias cuando entro en el barco?",
+        "name": booking.faq2Question || "Is it suitable for children?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Contamos con estanterías en el barco donde puedes dejar tus pertenencias. Si bien la tripulación se queda vigilante en el barco mientras los pasajeros disfrutan de la parada en la cala, no nos hacemos responsables de la pérdida o daño de tus pertenencias."
+          "text": booking.faq2Answer || "Yes! Our sunset tour is perfect for families. Children of all ages are welcome, and we provide life jackets and flotation devices."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Es necesario saber nadar?",
+        "name": booking.faq3Question || "What if the weather is bad?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No, no es necesario saber nadar para disfrutar de la excursión, pues el trayecto, las vistas y la gastronomía ya hacen de la excursión una actividad memorable. Si quieres disfrutar de la experiencia completa, se recomienda saber nadar. Contamos con múltiples chalecos salvavidas y objetos de flotación a bordo que podrás utilizar si lo necesitas."
+          "text": booking.faq3Answer || "Safety is our priority. If weather conditions are unsafe, we'll contact you to reschedule or provide a full refund."
         }
       },
       {
         "@type": "Question",
-        "name": "¿Qué pasa si tengo alergias o intolerancias alimenticias?",
+        "name": booking.faq4Question || "What is the atmosphere like?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Por favor, ponte en contacto con nosotros si tienes alergias o intolerancias alimenticias para que podamos adaptar el menú a tus necesidades. Puedes contactarnos por email en info@coralboatsmallorca.com o por teléfono en +34626681867."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "¿Puedo pagar en efectivo el ticket de la excursión?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sí, podrás pagar en efectivo tanto el ticket de la excursión como cualquier otro producto que compres a bordo. Aunque recomendamos comprar el ticket online para reservar tu plaza, si decides pagar en efectivo, ponte en contacto con nosotros para reservar tu plaza."
+          "text": booking.faq4Answer || "Pure Mediterranean magic! The sunset tour offers a relaxed and fun atmosphere, perfect for couples, friends, families and anyone who wants to enjoy a beautiful Mallorcan evening."
         }
       }
     ]
   };
 
+  // TouristTrip Schema - Translated
   const touristTripSchema = {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
     "@id": `${canonicalUrl}#tour`,
-    "name": "Sunset Boat Tour Alcudia",
-    "description": "Experience the magic of a Mediterranean sunset on our 3-hour evening boat tour. Sail to Cabo Menorca, explore Alcanada's coastal beauty, and witness breathtaking sunset views over the Bay of Alcudia from a classic wooden boat.",
-    "image": "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/sunset-boat-tour-alcudia.webp",
+    "inLanguage": params.lang,
+    "name": hero.title || "Sunset Boat Tour in Alcudia Bay",
+    "description": hero.subtitle || "Experience the magic of a Mediterranean sunset on our 3-hour evening boat tour.",
+    "image": "https://www.coralboatsmallorca.com/assets/img/premium/sunset_new/sunset_hero.webp",
     "provider": {
       "@type": "Organization",
       "@id": "https://www.coralboatsmallorca.com/#organization",
@@ -99,15 +135,15 @@ export default function SunsetTour({ params }: PageProps) {
     "touristType": ["Couples", "Families", "Friends", "Photographers", "Romantic Travelers"],
     "itinerary": {
       "@type": "ItemList",
-      "numberOfItems": 3,
+      "numberOfItems": 5,
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
             "@type": "TouristDestination",
-            "name": "Cabo Menorca",
-            "description": "Northern cape with stunning sunset views over the Mediterranean"
+            "name": itinerary.step1Title || "Departure from Port d'Alcúdia",
+            "description": itinerary.step1Description || "Board our classic boat and receive a safety briefing."
           }
         },
         {
@@ -115,8 +151,8 @@ export default function SunsetTour({ params }: PageProps) {
           "position": 2,
           "item": {
             "@type": "TouristDestination",
-            "name": "Alcanada",
-            "description": "Picturesque coastal area with lighthouse and golden hour scenery"
+            "name": itinerary.step2Title || "Coastal Cruise & Sightseeing",
+            "description": itinerary.step2Description || "Sail along Mallorca's beautiful northern coastline."
           }
         },
         {
@@ -124,15 +160,33 @@ export default function SunsetTour({ params }: PageProps) {
           "position": 3,
           "item": {
             "@type": "TouristDestination",
-            "name": "Puerto de Alcudia",
-            "description": "Return to the commercial pier after sunset"
+            "name": itinerary.step3Title || "Swimming Stop & Sunset Tapas",
+            "description": itinerary.step3Description || "Enjoy swimming and tapas while watching the sunset."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "TouristDestination",
+            "name": itinerary.step4Title || "Return Journey",
+            "description": itinerary.step4Description || "Relax on deck cruising back to port under twilight skies."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "TouristDestination",
+            "name": itinerary.step5Title || "Arrival at Port d'Alcúdia",
+            "description": itinerary.step5Description || "Return to the marina with unforgettable memories."
           }
         }
       ]
     },
     "duration": "PT3H",
-    "startDate": "2025-05-01",
-    "endDate": "2025-10-31",
+    "startDate": "2026-05-01",
+    "endDate": "2026-10-31",
     "schedule": {
       "@type": "Schedule",
       "repeatFrequency": "Daily",
@@ -143,16 +197,16 @@ export default function SunsetTour({ params }: PageProps) {
     "offers": [
       {
         "@type": "Offer",
-        "name": "Adult Ticket (13+ years)",
-        "price": "68.00",
+        "name": `${tours.adults || "Adults"} ${tours.adults_age || "(13+ years)"}`,
+        "price": "65.00",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2025-05-01",
-        "validThrough": "2025-10-31",
+        "validFrom": "2026-05-01",
+        "validThrough": "2026-10-31",
         "url": canonicalUrl,
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "price": "68.00",
+          "price": "65.00",
           "priceCurrency": "EUR",
           "eligibleQuantity": {
             "@type": "QuantitativeValue",
@@ -164,12 +218,12 @@ export default function SunsetTour({ params }: PageProps) {
       },
       {
         "@type": "Offer",
-        "name": "Child Ticket (4-12 years)",
+        "name": `${tours.children || "Children"} ${tours.children_age || "(4-12 years)"}`,
         "price": "45.00",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2025-05-01",
-        "validThrough": "2025-10-31",
+        "validFrom": "2026-05-01",
+        "validThrough": "2026-10-31",
         "url": canonicalUrl,
         "priceSpecification": {
           "@type": "PriceSpecification",
@@ -185,12 +239,12 @@ export default function SunsetTour({ params }: PageProps) {
       },
       {
         "@type": "Offer",
-        "name": "Infant Ticket (0-3 years)",
+        "name": `${tours.infants || "Infants"} ${tours.infants_age || "(0-3 years)"} - ${tours.free || "Free"}`,
         "price": "0.00",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2025-05-01",
-        "validThrough": "2025-10-31",
+        "validFrom": "2026-05-01",
+        "validThrough": "2026-10-31",
         "url": canonicalUrl,
         "priceSpecification": {
           "@type": "PriceSpecification",
@@ -207,8 +261,8 @@ export default function SunsetTour({ params }: PageProps) {
     ],
     "location": {
       "@type": "Place",
-      "name": "Muelle Comercial del Puerto de Alcudia",
-      "description": "Commercial Pier at Port d'Alcudia, in front of the Maritime Station",
+      "name": booking.meetingPointValue || "Port d'Alcúdia Marina",
+      "description": details.info5 || "Departure from Port d'Alcúdia",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "c/ del Moll Comercial s/n",
@@ -226,22 +280,283 @@ export default function SunsetTour({ params }: PageProps) {
     "departureLocation": {
       "@type": "Place",
       "@id": "https://www.coralboatsmallorca.com/#meeting-point",
-      "name": "Puerto de Alcudia - Muelle Comercial"
+      "name": booking.meetingPointValue || "Port d'Alcúdia Marina"
     },
     "arrivalLocation": {
       "@type": "Place",
       "@id": "https://www.coralboatsmallorca.com/#meeting-point",
-      "name": "Puerto de Alcudia - Muelle Comercial"
+      "name": booking.meetingPointValue || "Port d'Alcúdia Marina"
     },
     "includedInDataCatalog": {
       "@type": "DataCatalog",
       "name": "Coral Boats Tours",
-      "url": "https://www.coralboatsmallorca.com/boat-tours-alcudia"
+      "url": `https://www.coralboatsmallorca.com/${params.lang}/boat-tours-alcudia`
     }
+  };
+
+  // ============================================
+  // PREPARE TEXTS FOR SSR COMPONENTS
+  // ============================================
+
+  // Hero texts
+  const heroTexts = {
+    badge: hero.badge || 'Sunset Magic',
+    title: hero.title || 'Sunset Boat Tour in Alcudia Bay',
+    subtitle: hero.subtitle || 'Experience the magic of a Mediterranean sunset',
+    durationLabel: hero.durationLabel || 'Duration',
+    durationValue: hero.durationValue || '3 Hours',
+    departureLabel: hero.departureLabel || 'Departure',
+    departureValue: hero.departureValue || '6:00 PM',
+    groupSizeLabel: hero.groupSizeLabel || 'Group Size',
+    groupSizeValue: hero.groupSizeValue || 'Small Groups',
+    ctaBook: hero.ctaBook || 'Book Your Sunset Tour',
+    ctaLearnMore: hero.ctaLearnMore || 'Learn More',
+    adults: tours.adults || 'Adults',
+    children: tours.children || 'Children',
+    infants: tours.infants || 'Infants',
+    free: tours.free || 'Free',
+  };
+
+  // Details texts
+  const detailsTexts = {
+    sectionLabel: details.sectionLabel || 'Tour Overview',
+    sectionTitle: details.sectionTitle || 'The Perfect Evening in Mallorca',
+    paragraph1: details.paragraph1 || 'Our Sunset Magic boat tour is the perfect way to experience the magical beauty of sunset in Alcudia Bay, Mallorca.',
+    paragraph2: details.paragraph2 || "You'll sail aboard our classic 1968 boat, exploring hidden coves, pristine beaches, and spectacular sunset viewpoints.",
+    paragraph3: details.paragraph3 || 'The evening light creates perfect conditions for stunning photography, and you can swim in warm waters as the sun sets on the horizon.',
+    galleryLink: details.galleryLink || 'Explore Photo Gallery',
+    highlightsTitle: details.highlightsTitle || 'Why Choose the Sunset Tour?',
+    highlights: [
+      details.highlight1 || 'Watch a spectacular Mediterranean sunset from the sea',
+      details.highlight2 || 'Perfect golden light for stunning photography',
+      details.highlight3 || 'Explore pristine beaches and unique coastal landscapes',
+      details.highlight4 || 'Swim in warm waters of Alcudia Bay at sunset',
+      details.highlight5 || 'Enjoy Mallorcan tapas and refreshing drinks on board',
+      details.highlight6 || 'Relaxed Mediterranean atmosphere, perfect for unwinding',
+    ],
+    includedTitle: details.includedTitle || "What's Included",
+    included: [
+      { icon: 'fa-utensils', text: details.included1 || 'Authentic Mallorcan Tapas' },
+      { icon: 'fa-champagne-glasses', text: details.included2 || 'One Free Drink or Sangria' },
+      { icon: 'fa-water', text: details.included3 || 'Snorkeling Equipment' },
+      { icon: 'fa-person-swimming', text: details.included4 || 'Paddle Boards (SUP)' },
+      { icon: 'fa-life-ring', text: details.included5 || 'Safety Equipment & Insurance' },
+      { icon: 'fa-user-tie', text: details.included6 || 'Professional Crew & Captain' },
+    ],
+    importantInfoTitle: details.importantInfoTitle || 'Important Information',
+    infoItems: [
+      details.info1 || 'Arrive 30 minutes before departure time',
+      details.info2 || 'Suitable for all ages and swimming levels',
+      details.info3 || 'Bring sunscreen, towel, and swimwear',
+      details.info4 || 'Free cancellation up to 24 hours before',
+      details.info5 || "Departure from Port d'Alcúdia",
+    ],
+    ctaBook: details.ctaBook || 'Click Here to Book Your Spot',
+  };
+
+  // Itinerary texts
+  const itineraryTexts = {
+    sectionLabel: itinerary.sectionLabel || 'Itinerary',
+    sectionTitle: itinerary.sectionTitle || 'Your Sunset Adventure Timeline',
+    sectionDescription: itinerary.sectionDescription || 'A detailed breakdown of your 3-hour boat tour experience in the Bay of Alcudia.',
+    steps: [
+      {
+        time: itinerary.step1Time || '6:00 PM',
+        title: itinerary.step1Title || "Departure from Port d'Alcúdia",
+        description: itinerary.step1Description || "Meet at Port d'Alcúdia marina. Board our classic boat and receive a safety briefing.",
+        icon: 'fa-anchor',
+        image: '/assets/img/premium/morning_new/embarque.webp'
+      },
+      {
+        time: itinerary.step2Time || '6:30 PM',
+        title: itinerary.step2Title || 'Coastal Cruise & Sightseeing',
+        description: itinerary.step2Description || "Sail along Mallorca's beautiful northern coastline, exploring cliffs, coves and sea caves.",
+        icon: 'fa-ship',
+        image: '/assets/img/premium/morning_new/tour.webp'
+      },
+      {
+        time: itinerary.step3Time || '7:15 PM',
+        title: itinerary.step3Title || 'Swimming Stop, Tapas & Sunset',
+        description: itinerary.step3Description || 'Arrive at Alcanada island and lighthouse. Enjoy swimming, tapas and sangria while watching the sunset.',
+        icon: 'fa-utensils',
+        image: '/assets/img/premium/morning_new/matress.webp'
+      },
+      {
+        time: itinerary.step4Time || '8:30 PM',
+        title: itinerary.step4Title || 'Return to Port',
+        description: itinerary.step4Description || "Relax on deck as we cruise back to Port d'Alcúdia under the beautiful twilight sky.",
+        icon: 'fa-sun',
+        image: '/assets/img/premium/sunset_new/sunset_hero.webp'
+      },
+      {
+        time: itinerary.step5Time || '9:00 PM',
+        title: itinerary.step5Title || "Arrival at Port d'Alcúdia",
+        description: itinerary.step5Description || 'Return to the marina with unforgettable memories of your magical sunset adventure.',
+        icon: 'fa-flag-checkered',
+        image: '/assets/img/premium/sunset_new/sunset_port.webp'
+      }
+    ],
+    ctaTitle: itinerary.ctaTitle || 'Ready to Experience the Magic of Sunset in Alcudia?',
+    ctaDescription: itinerary.ctaDescription || "Join our premium Sunset Magic boat tour in Mallorca's Bay of Alcudia.",
+    ctaButton: itinerary.ctaButton || 'Secure Your Spot Today',
+  };
+
+  // Booking texts
+  const bookingTexts = {
+    sectionLabel: booking.sectionLabel || 'Book Your Adventure',
+    sectionTitle: booking.sectionTitle || 'Reserve Your Sunset Tour',
+    sectionDescription: booking.sectionDescription || 'Join us for an unforgettable evening exploring the Bay of Alcudia',
+    priceTitle: booking.priceTitle || 'Price per Person',
+    priceValue: booking.priceValue || '€65',
+    adults: tours.adults || 'Adults',
+    adultsAge: tours.adults_age || '(13+ years)',
+    children: tours.children || 'Children',
+    childrenAge: tours.children_age || '(4-12 years)',
+    infants: tours.infants || 'Infants',
+    infantsAge: tours.infants_age || '(0-3 years)',
+    free: tours.free || 'Free',
+    durationTitle: booking.durationTitle || 'Duration & Departure',
+    durationValue: booking.durationValue || '3 hours | 6:00 PM',
+    durationNote: booking.durationNote || 'Returns at 9:00 PM',
+    meetingPointTitle: booking.meetingPointTitle || 'Meeting Point',
+    meetingPointValue: booking.meetingPointValue || "Port d'Alcúdia Marina",
+    meetingPointCoords: booking.meetingPointCoords || '39°50\'13.1"N 3°08\'22.7"E',
+    whyBookTitle: booking.whyBookTitle || 'Why Book with Us?',
+    whyBookItems: [
+      booking.whyBook1 || 'Instant confirmation',
+      booking.whyBook2 || 'Free cancellation up to 24h',
+      booking.whyBook3 || 'Small group experience',
+      booking.whyBook4 || 'Authentic Mallorcan food included',
+      booking.whyBook5 || 'Professional crew & equipment',
+    ],
+    ctaCardTitle: booking.ctaCardTitle || 'Start Your Booking Journey',
+    ctaCardDescription: booking.ctaCardDescription || 'Choose your date and reserve your experience in just a few clicks',
+    ctaButton: booking.ctaButton || 'Book Your Sunset Tour Now',
+    trustBadge1: booking.trustBadge1 || 'Secure',
+    trustBadge2: booking.trustBadge2 || 'Instant',
+    trustBadge3: booking.trustBadge3 || 'Flexible',
+    faqTitle: booking.faqTitle || 'Frequently Asked Questions',
+    faqs: [
+      {
+        question: booking.faq1Question || 'What should I bring?',
+        answer: booking.faq1Answer || 'Bring swimwear, towel, sunscreen, sunglasses, and a camera. We provide all snorkeling equipment, paddle boards, food, and drinks.',
+      },
+      {
+        question: booking.faq2Question || 'Is it suitable for children?',
+        answer: booking.faq2Answer || 'Yes! Our sunset tour is perfect for families. Children of all ages are welcome, and we provide life jackets.',
+      },
+      {
+        question: booking.faq3Question || 'What if the weather is bad?',
+        answer: booking.faq3Answer || "Safety is our priority. If weather conditions are unsafe, we'll contact you to reschedule or provide a full refund.",
+      },
+      {
+        question: booking.faq4Question || 'What is the atmosphere like?',
+        answer: booking.faq4Answer || 'Pure Mediterranean magic! The sunset tour offers a relaxed and fun atmosphere, perfect for couples, friends, families and anyone who wants to enjoy a beautiful Mallorcan evening.',
+      },
+    ],
+  };
+
+  // Access gallery translations (inside sunsetTour)
+  const gallery = (t.gallery || {}) as Record<string, string>;
+
+  // Access tours.gallery for CTA translations
+  const toursSection = (dict.tours || {}) as Record<string, Record<string, string>>;
+  const toursGallery = (toursSection.gallery || {}) as Record<string, string>;
+
+  // Gallery texts
+  const galleryTexts = {
+    label: gallery.label || 'Gallery',
+    title: gallery.title || 'Magical Sunset Moments',
+    description: gallery.description || 'Discover the beauty of our sunset tour in Alcudia Bay',
+    ctaButton: toursGallery.cta_button || 'View Full Gallery',
+    ctaSecondary: toursGallery.cta_secondary || 'Discover more unforgettable moments',
+    galleryPath: `/${params.lang}/gallery`,
+  };
+
+  // Access relatedTours translations
+  const relatedToursT = (dict.relatedTours || {}) as Record<string, unknown>;
+  const morningTourT = (relatedToursT.morning || {}) as Record<string, string>;
+  const charterTourT = (relatedToursT.charter || {}) as Record<string, string>;
+
+  // RelatedTours texts - only show morning and charter (not sunset since we're on sunset page)
+  const relatedToursTexts = {
+    label: (relatedToursT.label as string) || 'Discover More Experiences',
+    title: (relatedToursT.title as string) || 'Other Boat Excursions in Alcudia',
+    description: (relatedToursT.description as string) || 'Explore our other unique experiences in Alcudia Bay.',
+    from: (relatedToursT.from as string) || 'From',
+    perPerson: (relatedToursT.per_person as string) || 'per person',
+    viewDetails: (relatedToursT.view_details as string) || 'View details',
+    tours: [
+      {
+        id: 'morning',
+        name: morningTourT.name || 'Morning Boat Excursion',
+        description: morningTourT.description || 'Start your day sailing through crystal-clear waters.',
+        time: morningTourT.time || '9:30 - 13:30',
+        duration: morningTourT.duration || '4 hours',
+        price: morningTourT.price || '€68',
+        highlights: morningTourT.highlights || 'Ideal for snorkeling • Calm waters',
+        image: '/assets/img/premium/home_new/card_morning.webp',
+        link: `/${params.lang}/alcudia-morning-boat-tour`,
+      },
+      {
+        id: 'charter',
+        name: charterTourT.name || 'Private Charter',
+        description: charterTourT.description || 'Celebrate your special event aboard our classic boat.',
+        time: charterTourT.time || 'Flexible',
+        duration: charterTourT.duration || '3-4 hours',
+        price: charterTourT.price || 'Inquire',
+        highlights: charterTourT.highlights || 'Exclusive experience • Fully customizable',
+        image: '/assets/img/premium/home_new/card_private.webp',
+        link: `/${params.lang}/alcudia-private-boat-charter`,
+      },
+    ],
+  };
+
+  // Access blog section translations
+  const blogSection = (dict.blog_section || {}) as Record<string, string>;
+
+  // Helper function to safely get translated string from dictionary
+  const getTranslation = (key: string, fallback: string): string => {
+    const parts = key.split('.');
+    let value: unknown = dict;
+    for (const part of parts) {
+      if (value && typeof value === 'object') {
+        value = (value as Record<string, unknown>)[part];
+      } else {
+        return fallback;
+      }
+    }
+    return typeof value === 'string' ? value : fallback;
+  };
+
+  // Blog Preview texts - translate all blog items
+  const translatedBlogs = [...blogDataOne].reverse().slice(0, 8).map((blog) => ({
+    id: blog.id,
+    slug: blog.slug,
+    image: typeof blog.image === 'string' ? blog.image : blog.image.src,
+    badgeTitle: getTranslation(blog.badgeTitle!, blog.badgeTitle!),
+    title: getTranslation(blog.title, blog.title),
+    description: getTranslation(blog.description!, blog.description!),
+    publishedDate: getTranslation(blog.publishedDate, blog.publishedDate),
+    imageAlt: blog.imageAlt ? getTranslation(blog.imageAlt, blog.imageAlt) : undefined,
+    link: `/${params.lang}/blog-details/${blog.slug}`,
+  }));
+
+  const blogPreviewTexts = {
+    label: blogSection.label || 'Blog',
+    title: blogSection.title || 'Discover Mallorca with our tips',
+    description: blogSection.description || 'Guides, recommendations and experiences to make the most of your adventure.',
+    readTime: blogSection.read_time || '5 min',
+    readMore: blogSection.read_more || 'Read more',
+    ctaButton: blogSection.cta_button || 'View all articles',
+    ctaSecondary: blogSection.cta_secondary || 'Tips, guides and experiences',
+    blogPath: `/${params.lang}/blog`,
+    blogs: translatedBlogs,
   };
 
   return (
     <>
+      {/* JSON-LD Schemas */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
@@ -254,7 +569,37 @@ export default function SunsetTour({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripSchema) }}
       />
-      <SunsetTourPage />
+
+      <Wrapper>
+        <ViewContentTracker
+          tourName="Sunset Boat Tour Alcudia"
+          tourSlug="alcudia-sunset-boat-tour"
+        />
+        <HeaderSSR locale={params.lang as Locale} translations={getHeaderTranslations(dict)} hasTopBar />
+
+        <main>
+          {/* ============================================ */}
+          {/* SSR Components - Server-rendered for SEO    */}
+          {/* ============================================ */}
+          <SunsetTourHeroSSR texts={heroTexts} />
+          <SunsetTourDetailsSSR texts={detailsTexts} />
+          <SunsetTourItinerarySSR texts={itineraryTexts} />
+
+          {/* Gallery - SSR header + Client interactivity */}
+          <SunsetTourGallerySSR texts={galleryTexts} />
+
+          {/* Booking with FAQs - SSR for SEO */}
+          <SunsetTourBookingSSR texts={bookingTexts} />
+
+          {/* Related Tours - SSR for SEO */}
+          <RelatedToursSSR texts={relatedToursTexts} />
+
+          {/* Blog Preview - SSR for SEO */}
+          <BlogPreviewSectionSSR texts={blogPreviewTexts} />
+        </main>
+
+        <FooterSSR locale={params.lang as Locale} translations={getFooterTranslations(dict)} />
+      </Wrapper>
     </>
   );
 }

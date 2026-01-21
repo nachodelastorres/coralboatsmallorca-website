@@ -54,15 +54,24 @@ export function switchLocale(currentPath: string, newLocale: Locale): string {
  * @param path - Current path without locale (e.g., '/contact')
  * @param baseUrl - Base URL of the site
  * @param locales - Array of locales
- * @returns Array of alternate link objects
+ * @returns Array of alternate link objects including x-default pointing to /en
  */
 export function getAlternateLinks(
   path: string,
   baseUrl: string,
   locales: readonly Locale[]
 ): Array<{ hreflang: string; href: string }> {
-  return locales.map((locale) => ({
+  // Generate links for each locale
+  const localeLinks = locales.map((locale) => ({
     hreflang: locale,
     href: `${baseUrl}${getLocalizedPath(locale, path)}`,
   }));
+
+  // Add x-default pointing to /en version (international fallback)
+  const xDefaultLink = {
+    hreflang: 'x-default',
+    href: `${baseUrl}${getLocalizedPath('en', path)}`,
+  };
+
+  return [...localeLinks, xDefaultLink];
 }

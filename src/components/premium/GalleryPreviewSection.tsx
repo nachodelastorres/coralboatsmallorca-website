@@ -11,19 +11,19 @@ const GalleryPreviewSection = () => {
 
   const featuredImages = [
     {
-      file: 'hidden_coves.webp',
+      file: 'calas-escondidas-norte-mallorca-excursion-barco.webp',
       titleKey: 'gallery_section.featured_images.image_1',
     },
     {
-      file: 'sunset.webp',
+      file: 'puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp',
       titleKey: 'gallery_section.featured_images.image_2',
     },
     {
-      file: 'friends_fun.webp',
+      file: 'amigos-recuerdos-paseo-barco-calas-mallorca.webp',
       titleKey: 'gallery_section.featured_images.image_3',
     },
     {
-      file: 'water_fun.webp',
+      file: 'actividades-acuaticas-snorkel-paddle-surf-alcudia.webp',
       titleKey: 'gallery_section.featured_images.image_4',
     },
   ];

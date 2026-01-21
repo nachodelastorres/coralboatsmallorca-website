@@ -9,7 +9,7 @@ const ContactHero = () => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <img
-          src="/assets/img/premium/gallery_new/boat_alcanada.webp"
+          src="/assets/img/premium/gallery_new/coral-boats-navegando-isla-alcanada-alcudia.webp"
           alt="Contact Coral Boats Mallorca"
           style={{
             width: '100%',

@@ -10,10 +10,15 @@ import MorningTourItinerary from '@/components/premium/tours/MorningTourItinerar
 import MorningTourBooking from '@/components/premium/tours/MorningTourBooking';
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 const MorningTourPage = () => {
   return (
     <Wrapper>
+      <ViewContentTracker
+        tourName="Morning Boat Tour Alcudia"
+        tourSlug="alcudia-morning-boat-tour"
+      />
       <HeaderOne hasTopBar />
 
       <main>

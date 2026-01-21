@@ -161,7 +161,7 @@ const BlogPreviewSection = () => {
                   <div style={{ position: 'relative', height: '180px', overflow: 'hidden' }}>
                     <Image
                       src={blog.image}
-                      alt={t(blog.title)}
+                      alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
                       fill
                       style={{ objectFit: 'cover', transition: 'transform 0.3s ease' }}
                       sizes="320px"

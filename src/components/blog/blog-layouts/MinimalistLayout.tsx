@@ -220,7 +220,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
               <div style={{ position: 'relative', height: '500px', borderRadius: '8px', overflow: 'hidden' }}>
                 <Image
                   src={blog.detailsImg!}
-                  alt={t(blog.title)}
+                  alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
                   fill
                   style={{ objectFit: 'cover' }}
                   priority

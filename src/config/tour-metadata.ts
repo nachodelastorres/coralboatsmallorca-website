@@ -5,32 +5,32 @@ import { PageMetadata } from './metadata';
 export const morningTourMetadata: Record<Locale, PageMetadata> = {
   en: {
     title: 'Morning Boat Tour in Alcudia – Coral Boats Mallorca',
-    description: 'Join our 4-hour morning boat trip from Port d\'Alcúdia. Snorkel in crystal-clear waters, explore hidden coves, and enjoy authentic Mallorcan tapas. Daily departures at 10:00 AM.',
+    description: 'Join our 4-hour morning boat trip from Port d\'Alcúdia. Snorkel in crystal-clear waters, explore hidden coves, and enjoy authentic Mallorcan tapas. Daily departures at 9:30 AM.',
     keywords: ['morning boat tour Alcudia', 'boat trip Mallorca', 'snorkeling Alcudia', 'Bay of Alcudia tour', 'Mallorca boat excursion', 'morning sailing Mallorca'],
   },
   es: {
     title: 'Tour en Barco por la Mañana en Alcudia – Coral Boats Mallorca',
-    description: 'Únete a nuestro tour en barco de 4 horas desde el Puerto de Alcúdia. Haz snorkel en aguas cristalinas, explora calas escondidas y disfruta de auténticas tapas mallorquinas. Salidas diarias a las 10:00 AM.',
+    description: 'Únete a nuestro tour en barco de 4 horas desde el Puerto de Alcúdia. Haz snorkel en aguas cristalinas, explora calas escondidas y disfruta de auténticas tapas mallorquinas. Salidas diarias a las 9:30 AM.',
     keywords: ['tour barco mañana Alcudia', 'excursión barco Mallorca', 'snorkel Alcudia', 'tour Bahía Alcudia', 'excursión barco Mallorca', 'navegación mañana Mallorca'],
   },
   de: {
     title: 'Bootstour am Morgen in Alcudia – Coral Boats Mallorca',
-    description: 'Begleite uns auf einer 4-stündigen Bootstour am Morgen ab Port d\'Alcúdia. Schnorchle im kristallklaren Wasser, entdecke versteckte Buchten und genieße authentische mallorquinische Tapas. Tägliche Abfahrten um 10:00 Uhr.',
+    description: 'Begleite uns auf einer 4-stündigen Bootstour am Morgen ab Port d\'Alcúdia. Schnorchle im kristallklaren Wasser, entdecke versteckte Buchten und genieße authentische mallorquinische Tapas. Tägliche Abfahrten um 9:30 Uhr.',
     keywords: ['Morgen Bootstour Alcudia', 'Bootsfahrt Mallorca', 'Schnorcheln Alcudia', 'Bucht von Alcudia Tour', 'Mallorca Bootsausflug', 'Morgen Segeln Mallorca'],
   },
   fr: {
     title: 'Excursion en Bateau le Matin à Alcudia – Coral Boats Mallorca',
-    description: 'Rejoignez notre excursion en bateau de 4 heures au départ de Port d\'Alcúdia. Faites du snorkeling dans des eaux cristallines, explorez des criques cachées et dégustez des tapas majorquines authentiques. Départs quotidiens à 10h00.',
+    description: 'Rejoignez notre excursion en bateau de 4 heures au départ de Port d\'Alcúdia. Faites du snorkeling dans des eaux cristallines, explorez des criques cachées et dégustez des tapas majorquines authentiques. Départs quotidiens à 9h30.',
     keywords: ['excursion bateau matin Alcudia', 'sortie bateau Majorque', 'snorkeling Alcudia', 'tour Baie d\'Alcudia', 'excursion bateau Majorque', 'navigation matin Majorque'],
   },
   it: {
     title: 'Tour in Barca del Mattino ad Alcudia – Coral Boats Mallorca',
-    description: 'Partecipa al nostro tour in barca di 4 ore con partenza da Port d\'Alcúdia. Fai snorkeling in acque cristalline, esplora calette nascoste e gusta autentiche tapas maiorchine. Partenze giornaliere alle 10:00.',
+    description: 'Partecipa al nostro tour in barca di 4 ore con partenza da Port d\'Alcúdia. Fai snorkeling in acque cristalline, esplora calette nascoste e gusta autentiche tapas maiorchine. Partenze giornaliere alle 9:30 AM.',
     keywords: ['tour barca mattina Alcudia', 'gita in barca Maiorca', 'snorkeling Alcudia', 'tour Baia di Alcudia', 'escursione barca Maiorca', 'navigazione mattina Maiorca'],
   },
   ca: {
     title: 'Excursió en Vaixell al Matí a Alcúdia – Coral Boats Mallorca',
-    description: 'Uneix-te al nostre tour en barco de 4 hores des del Port d\'Alcúdia. Fes snorkel en aigües cristal·lines, explora cales amagades i gaudeix d\'autèntiques tapes mallorquines. Sortides diàries a les 10:00 h.',
+    description: 'Uneix-te al nostre tour en barco de 4 hores des del Port d\'Alcúdia. Fes snorkel en aigües cristal·lines, explora cales amagades i gaudeix d\'autèntiques tapes mallorquines. Sortides diàries a les 9:30 h.',
     keywords: ['tour vaixell matí Alcúdia', 'excursió vaixell Mallorca', 'snorkel Alcúdia', 'tour Badia Alcúdia', 'excursió vaixell Mallorca', 'navegació matí Mallorca'],
   },
 };

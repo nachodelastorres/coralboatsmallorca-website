@@ -157,7 +157,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
           <Image
             src={blog.detailsImg!}
-            alt={t(blog.title)}
+            alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
             fill
             style={{ objectFit: 'cover', transform: 'scale(1.05)' }}
             priority

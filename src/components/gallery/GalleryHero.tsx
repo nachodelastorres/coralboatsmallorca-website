@@ -9,7 +9,7 @@ const GalleryHero = () => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <img
-          src="/assets/img/premium/gallery_new/boat_fun.webp"
+          src="/assets/img/premium/gallery_new/amigos-excursion-barco-bahia-alcudia.webp"
           alt="Coral Boats Mallorca Photo Gallery"
           style={{ objectFit: 'cover', width: '100%', height: '100%' }}
         />

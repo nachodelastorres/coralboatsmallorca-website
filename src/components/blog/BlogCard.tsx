@@ -32,7 +32,7 @@ const BlogCard = ({ blog, featured = false }: BlogCardProps) => {
         >
           <Image
             src={blog.image}
-            alt={t(blog.title)}
+            alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
             fill
             style={{ objectFit: 'cover' }}
             sizes="(max-width: 768px) 100vw, 50vw"
@@ -125,7 +125,7 @@ const BlogCard = ({ blog, featured = false }: BlogCardProps) => {
         <div style={{ position: 'relative', height: '220px', overflow: 'hidden' }}>
           <Image
             src={blog.image}
-            alt={t(blog.title)}
+            alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
             fill
             style={{ objectFit: 'cover', transition: 'transform 0.3s ease' }}
             sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw"

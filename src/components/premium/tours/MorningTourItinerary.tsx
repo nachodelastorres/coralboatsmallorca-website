@@ -113,7 +113,7 @@ const MorningTourItinerary = () => {
             <div className="itinerary-cta">
               <h3>{t('morningTour.itinerary.ctaTitle')}</h3>
               <p>{t('morningTour.itinerary.ctaDescription')}</p>
-              <BookingCTA text={t('morningTour.itinerary.ctaButton')} size="large" />
+              <BookingCTA text={t('morningTour.itinerary.ctaButton')} size="large" tourName="Morning Boat Tour Alcudia" tourPrice={68} />
             </div>
           </div>
         </div>

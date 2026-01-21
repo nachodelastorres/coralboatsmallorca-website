@@ -18,14 +18,14 @@ export function middleware(request: NextRequest) {
   if (pathname === '/') {
     const url = request.nextUrl.clone();
     url.pathname = `/${defaultLocale}`;
-    return NextResponse.redirect(url);
+    return NextResponse.redirect(url, 308);
   }
 
   // For other paths without locale, add default locale
   // This handles cases like /about, /contact, etc.
   const url = request.nextUrl.clone();
   url.pathname = `/${defaultLocale}${pathname}`;
-  return NextResponse.redirect(url);
+  return NextResponse.redirect(url, 308);
 }
 
 export const config = {

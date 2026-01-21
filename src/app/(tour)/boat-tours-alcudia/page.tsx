@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ToursPage from "@/pages/tours/tours";
+import ToursListSchema from "@/components/schema/ToursListSchema";
 
 export const metadata: Metadata = {
   title: "Boat Tours in Alcudia Mallorca | Morning, Sunset & Private Charters - Coral Boats",
@@ -20,5 +21,10 @@ export const metadata: Metadata = {
 };
 
 export default function Tours() {
-  return <ToursPage />;
+  return (
+    <>
+      <ToursListSchema lang="en" />
+      <ToursPage />
+    </>
+  );
 }

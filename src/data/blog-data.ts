@@ -12,42 +12,56 @@ import blogImg8 from '@/assets/img/inner-page/blog/details-1-2.jpg';
 import blogImg9 from '@/assets/img/inner-page/blog/details-1-3.jpg';
 import blogImg10 from '@/assets/img/inner-page/blog/details-1-4.jpg';
 import blogDetailsImg from '@/assets/img/inner-page/blog/details-1-1.jpg';
-import blogDetailsImg1 from '@/assets/img/inner-page/blog/betlemEdit.webp';
+import blogDetailsImg1 from '@/assets/img/premium/gallery_new/new_blog/boat-charter-rent-in-mallorca-and-boat-trips-excursions-alcudia.webp';
 import blogDetailsImg2 from '@/assets/img/inner-page/blog/fotograma2editado.webp';
-import blogDetailsImg3 from '@/assets/img/inner-page/blog/salto_proa.webp';
-import blogDetailsImg4 from '@/assets/img/inner-page/blog/tipo_barco.webp';
-import blogDetailsImg5 from '@/assets/img/inner-page/blog/comida.webp';
-import blogDetailsImg6 from '@/assets/img/inner-page/blog/puestasol.webp';
-import blogDetailsImg7 from '@/assets/img/inner-page/blog/family.webp';
-import blogDetailsImg8 from '@/assets/img/inner-page/blog/cala_velero.webp';
-import blogDetailsImg9 from '@/assets/img/inner-page/blog/muro.webp';
-import blogDetailsImg10 from '@/assets/img/inner-page/blog/sangría.webp';
-import blogDetailsImg11 from '@/assets/img/inner-page/blog/calobra1.webp';
-import blogDetailsImg12 from '@/assets/img/inner-page/blog/aucanada-faro.webp';
-import blogDetailsImg13 from '@/assets/img/inner-page/blog/sol.webp';
-import blogDetailsImg14 from '@/assets/img/premium/gallery_new/hidden_coves.webp';
-import blogDetailsImg15 from '@/assets/img/premium/whychoose/06.webp';
-import blogDetailsImg16 from '@/assets/img/premium/gallery_new/friends_group.webp';
-import blogDetailsImg17 from '@/assets/img/premium/gallery_new/sangria_tapas.webp';
-import blogDetailsImg18 from '@/assets/img/inner-page/blog/muro.webp';
-import blogDetailsImg19 from '@/assets/img/premium/gallery_new/alcudia_pueblo.webp';
-import blogDetailsImg20 from '@/assets/img/premium/gallery_new/coastline_views.webp';
-import blogDetailsImg21 from '@/assets/img/premium/gallery_new/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
-import blogDetailsImg22 from '@/assets/img/premium/gallery_new/alcudia-port-plans-things-to-do.webp';
-import blogDetailsImg23 from '@/assets/img/premium/gallery_new/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp';
-import blogDetailsImg24 from '@/assets/img/premium/gallery_new/playa-de-muro-alcudia-mallorca-mejor-zona-alojarse.webp';
-import blogDetailsImg25 from '@/assets/img/premium/gallery_new/alcudia-port-and-bay-history-mallorca.webp';
-import blogDetailsImg26 from '@/assets/img/premium/gallery_new/calas-ninos-mallorca-alcudia.webp';
-import blogDetailsImg27 from '@/assets/img/premium/gallery_new/como-elegir-tour-barco-mallorca.webp';
-import blogDetailsImg28 from '@/assets/img/premium/gallery_new/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp';
-import blogDetailsImg29 from '@/assets/img/premium/gallery_new/cap-de-formentor-mallorca-como-moverse-transporte.webp';
-import blogDetailsImg30 from '@/assets/img/premium/gallery_new/que-hacer-en-alcudia-puerto-paseo-en-barco-mallorca-verano.webp';
-import blogDetailsImgIntro from '@/assets/img/premium/gallery_new/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp';
+import blogDetailsImg3 from '@/assets/img/premium/gallery_new/new_blog/snorkel-en-alcudia-mallorca-durante-paseo-en-barco-sup.webp';
+import blogDetailsImg4 from '@/assets/img/premium/gallery_new/new_blog/alquiler-de-barcos-en-alcudia-charter-mallorca-excursiones-maritimas.webp';
+import blogDetailsImg5 from '@/assets/img/premium/gallery_new/new_blog/comida-local-tipica-mallorquina-durante-excursion-en-barco.webp';
+import blogDetailsImg6 from '@/assets/img/premium/gallery_new/new_blog/where-to-watch-the-best-sunset-in-mallorca.webp';
+import blogDetailsImg7 from '@/assets/img/premium/gallery_new/new_blog/best-plans-and-boat-trips-for-families-with-kids-in-mallorca.webp';
+import blogDetailsImg8 from '@/assets/img/premium/gallery_new/new_blog/boat-ride-in-north-of-mallorca-hidden-cove.webp';
+import blogDetailsImg9 from '@/assets/img/premium/gallery_new/new_blog/playa-de-muro-mallorca-departure-point-for-best-boat-excursions-alcudia.webp';
+import blogDetailsImg10 from '@/assets/img/premium/gallery_new/new_blog/mallorca-local-gastronomy-authentic-spanish-food-sangria.webp';
+import blogDetailsImg11 from '@/assets/img/premium/gallery_new/new_blog/boat-trip-north-mallorca-with-snorkel-and-water-activities.webp';
+import blogDetailsImg12 from '@/assets/img/premium/gallery_new/new_blog/faro-de-alcanada-alcudia-mejores-playas-para-ir-en-barco.webp';
+import blogDetailsImg13 from '@/assets/img/premium/gallery_new/new_blog/sunset-in-alcudia-from-a-classic-boat-during-boat-ride-mallorca.webp';
+import blogDetailsImg14 from '@/assets/img/premium/gallery_new/new_blog/mejores-calas-escondias-para-llegar-en-barco-excursion-mallorca.webp';
+import blogDetailsImg15 from '@/assets/img/premium/gallery_new/new_blog/snorkel-sup-water-activities-in-a-boat-sea-trip-alcudia-mallorca.webp';
+import blogDetailsImg16 from '@/assets/img/premium/gallery_new/new_blog/friends-in-a-boat-ride-for-large-groups-private-rent-alcudia-mallorca.webp';
+import blogDetailsImg17 from '@/assets/img/premium/gallery_new/new_blog/best-sangria-in-mallorca-alcudia-with-spanish-tapas-during-boat-excursion.webp';
+import blogDetailsImg18 from '@/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp';
+import blogDetailsImg19 from '@/assets/img/premium/gallery_new/new_blog/alcudia-village-market-and-things-to-visit-with-families.webp';
+import blogDetailsImg20 from '@/assets/img/premium/gallery_new/new_blog/coastline-views-from-boat-excursion-mallorca-trip-activities.webp';
+import blogDetailsImg21 from '@/assets/img/premium/gallery_new/new_blog/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
+import blogDetailsImg22 from '@/assets/img/premium/gallery_new/new_blog/alcudia-port-plans-things-to-do.webp';
+import blogDetailsImg23 from '@/assets/img/premium/gallery_new/new_blog/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp';
+import blogDetailsImg24 from '@/assets/img/premium/gallery_new/new_blog/playa-de-muro-alcudia-mallorca-mejor-zona-alojarse.webp';
+import blogDetailsImg25 from '@/assets/img/premium/gallery_new/new_blog/alcudia-port-and-bay-history-mallorca.webp';
+import blogDetailsImg26 from '@/assets/img/premium/gallery_new/new_blog/calas-para-ir-con-ninos-mallorca-alcudia-facil-aparcamiento.webp';
+import blogDetailsImg27 from '@/assets/img/premium/gallery_new/new_blog/como-elegir-tour-barco-mallorca.webp';
+import blogDetailsImg28 from '@/assets/img/premium/gallery_new/new_blog/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp';
+import blogDetailsImg29 from '@/assets/img/premium/gallery_new/new_blog/cap-de-formentor-mallorca-como-moverse-transporte.webp';
+import blogDetailsImg30 from '@/assets/img/premium/gallery_new/new_blog/que-hacer-en-alcudia-puerto-paseo-en-barco-mallorca-verano.webp';
+import blogDetailsImgIntro from '@/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp';
 
 // Blog 30 - Faro de Formentor
-import blogDetailsImg31 from '@/assets/img/premium/gallery_new/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp';
-import blogDetailsImg31Secondary1 from '@/assets/img/premium/gallery_new/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp';
-import blogDetailsImg31Secondary2 from '@/assets/img/premium/gallery_new/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp';
+import blogDetailsImg31 from '@/assets/img/premium/gallery_new/new_blog/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp';
+import blogDetailsImg31Secondary1 from '@/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp';
+import blogDetailsImg31Secondary2 from '@/assets/img/premium/gallery_new/new_blog/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp';
+
+// Blog 31 - Paddle Surf en Alcudia
+import blogDetailsImg32 from '@/assets/img/premium/gallery_new/new_blog/paddle-surf-and-water-activities-in-mallorca-during-boat-excursion.webp';
+import blogDetailsImg32Secondary1 from '@/assets/img/premium/gallery_new/new_blog/sup-mallorca-paddle-surf-during-boat-trip-alcudia.webp';
+import blogDetailsImg32Secondary2 from '@/assets/img/premium/gallery_new/new_blog/paddle-surf-sup-in-alcudia-mallorca-and-boat-tour-water-activities-beatutiful-beaches.webp';
+
+// Blog 32 - Parking en Alcudia
+import blogDetailsImg33 from '@/assets/img/premium/gallery_new/new_blog/parking-alcudia-free-spots-best-palces-to-park-your-car-mallorca.webp';
+
+// Blog 33 - Mercados Semanales en Mallorca
+import blogDetailsImg34 from '@/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp';
+import blogDetailsImg34Secondary1 from '@/assets/img/premium/gallery_new/new_blog/artesania-mallorca-telas-lenguas-mercado-alcudia.webp';
+import blogDetailsImg34Secondary2 from '@/assets/img/premium/gallery_new/new_blog/mercado-semanal-alcudia-casco-antiguo-mallorca.webp';
+import blogDetailsImg34Secondary3 from '@/assets/img/premium/gallery_new/new_blog/souvenirs-tipicos-mallorca-siurells-artesania.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -86,6 +100,8 @@ export const blogDataOne: IBlogDT[] = [
     section6Title: 'blog_intro.section6.title',
     section6Body: 'blog_intro.section6.body',
     layout: 'magazine',
+    imageAlt: 'blog_intro.imageAlt',
+    imageCaption: 'blog_intro.imageCaption',
   },
   {
     id: 1,
@@ -118,6 +134,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_uno.section5.title',
     section5Body: 'blog_uno.section5.body',
     layout: 'magazine',
+    imageAlt: 'blog_uno.imageAlt',
+    imageCaption: 'blog_uno.imageCaption',
   },
 
   {
@@ -161,6 +179,8 @@ export const blogDataOne: IBlogDT[] = [
     section7Title: 'blog_dos.section7.title',
     section7Body: 'blog_dos.section7.body',
     layout: 'magazine',
+    imageAlt: 'blog_dos.imageAlt',
+    imageCaption: 'blog_dos.imageCaption',
   },
 
   {
@@ -198,6 +218,8 @@ export const blogDataOne: IBlogDT[] = [
     section7Title: 'blog_tres.section7.title',
     section7Body: 'blog_tres.section7.body',
     layout: 'magazine',
+    imageAlt: 'blog_tres.imageAlt',
+    imageCaption: 'blog_tres.imageCaption',
   },
 
   {
@@ -231,6 +253,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_cuatro.section5.title',
     section5Body: 'blog_cuatro.section5.body',
     layout: 'magazine',
+    imageAlt: 'blog_cuatro.imageAlt',
+    imageCaption: 'blog_cuatro.imageCaption',
   },
 
 
@@ -265,6 +289,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_cinco.section5.title',
     section5Body: 'blog_cinco.section5.body',
     layout: 'minimalist',
+    imageAlt: 'blog_cinco.imageAlt',
+    imageCaption: 'blog_cinco.imageCaption',
   },
 
 
@@ -300,6 +326,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_seis.section5.title',
     section5Body: 'blog_seis.section5.body',
     layout: 'visual',
+    imageAlt: 'blog_seis.imageAlt',
+    imageCaption: 'blog_seis.imageCaption',
   },
 
 
@@ -335,6 +363,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_siete.section5.title',
     section5Body: 'blog_siete.section5.body',
     layout: 'magazine',
+    imageAlt: 'blog_siete.imageAlt',
+    imageCaption: 'blog_siete.imageCaption',
   },
 
   {
@@ -368,6 +398,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_ocho.section5.title',
     section5Body: 'blog_ocho.section5.body',
     layout: 'minimalist',
+    imageAlt: 'blog_ocho.imageAlt',
+    imageCaption: 'blog_ocho.imageCaption',
   },
 
   {
@@ -401,7 +433,8 @@ export const blogDataOne: IBlogDT[] = [
     section5Title: 'blog_nueve.section5.title',
     section5Body: 'blog_nueve.section5.body',
     layout: 'visual',
-
+    imageAlt: 'blog_nueve.imageAlt',
+    imageCaption: 'blog_nueve.imageCaption',
   },
 
   {
@@ -444,7 +477,9 @@ export const blogDataOne: IBlogDT[] = [
     section6Body: 'blog_diez.section6.body',
     section7Title: 'blog_diez.section7.title',
     section7Body: 'blog_diez.section7.body',
-    layout: 'magazine'
+    layout: 'magazine',
+    imageAlt: 'blog_diez.imageAlt',
+    imageCaption: 'blog_diez.imageCaption',
   },
 
   {
@@ -478,6 +513,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_once.section5.title',
   section5Body: 'blog_once.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_once.imageAlt',
+  imageCaption: 'blog_once.imageCaption',
 },
 
 {
@@ -511,6 +548,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_doce.section5.title',
   section5Body: 'blog_doce.section5.body',
   layout: 'visual',
+  imageAlt: 'blog_doce.imageAlt',
+  imageCaption: 'blog_doce.imageCaption',
 },
 
 {
@@ -544,6 +583,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_trece.section5.title',
   section5Body: 'blog_trece.section5.body',
   layout: 'minimalist',
+  imageAlt: 'blog_trece.imageAlt',
+  imageCaption: 'blog_trece.imageCaption',
 },
 
 {
@@ -577,6 +618,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_catorce.section5.title',
   section5Body: 'blog_catorce.section5.body',
   layout: 'visual',
+  imageAlt: 'blog_catorce.imageAlt',
+  imageCaption: 'blog_catorce.imageCaption',
 },
 
 {
@@ -610,6 +653,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_quince.section5.title',
   section5Body: 'blog_quince.section5.body',
   layout: 'visual',
+  imageAlt: 'blog_quince.imageAlt',
+  imageCaption: 'blog_quince.imageCaption',
 },
 
 {
@@ -643,6 +688,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_dieciseis.section5.title',
   section5Body: 'blog_dieciseis.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_dieciseis.imageAlt',
+  imageCaption: 'blog_dieciseis.imageCaption',
 },
 
 {
@@ -676,6 +723,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_diecisiete.section5.title',
   section5Body: 'blog_diecisiete.section5.body',
   layout: 'storytelling',
+  imageAlt: 'blog_diecisiete.imageAlt',
+  imageCaption: 'blog_diecisiete.imageCaption',
 },
 
 {
@@ -709,6 +758,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_dieciocho.section5.title',
   section5Body: 'blog_dieciocho.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_dieciocho.imageAlt',
+  imageCaption: 'blog_dieciocho.imageCaption',
 },
 
 {
@@ -742,6 +793,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_diecinueve.section5.title',
   section5Body: 'blog_diecinueve.section5.body',
   layout: 'minimalist',
+  imageAlt: 'blog_diecinueve.imageAlt',
+  imageCaption: 'blog_diecinueve.imageCaption',
 },
 
 {
@@ -775,6 +828,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veinte.section5.title',
   section5Body: 'blog_veinte.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_veinte.imageAlt',
+  imageCaption: 'blog_veinte.imageCaption',
 },
 
 {
@@ -808,6 +863,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veintiuno.section5.title',
   section5Body: 'blog_veintiuno.section5.body',
   layout: 'minimalist',
+  imageAlt: 'blog_veintiuno.imageAlt',
+  imageCaption: 'blog_veintiuno.imageCaption',
 },
 
 {
@@ -841,6 +898,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veintidos.section5.title',
   section5Body: 'blog_veintidos.section5.body',
   layout: 'minimalist',
+  imageAlt: 'blog_veintidos.imageAlt',
+  imageCaption: 'blog_veintidos.imageCaption',
 },
 
 {
@@ -892,6 +951,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veintitres.section5.title',
   section5Body: 'blog_veintitres.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_veintitres.imageAlt',
+  imageCaption: 'blog_veintitres.imageCaption',
 },
 
 {
@@ -929,6 +990,8 @@ export const blogDataOne: IBlogDT[] = [
   section5Title: 'blog_veinticuatro.section5.title',
   section5Body: 'blog_veinticuatro.section5.body',
   layout: 'magazine',
+  imageAlt: 'blog_veinticuatro.imageAlt',
+  imageCaption: 'blog_veinticuatro.imageCaption',
 },
 
 {
@@ -960,6 +1023,8 @@ export const blogDataOne: IBlogDT[] = [
   section7Title: 'blog_veinticinco.section7.title',
   section7Body: 'blog_veinticinco.section7.body',
   layout: 'magazine',
+  imageAlt: 'blog_veinticinco.imageAlt',
+  imageCaption: 'blog_veinticinco.imageCaption',
 },
 
 {
@@ -1005,6 +1070,8 @@ export const blogDataOne: IBlogDT[] = [
   section7Title: 'blog_veintiseis.section7.title',
   section7Body: 'blog_veintiseis.section7.body',
   layout: 'magazine',
+  imageAlt: 'blog_veintiseis.imageAlt',
+  imageCaption: 'blog_veintiseis.imageCaption',
 },
 
 {
@@ -1046,6 +1113,8 @@ export const blogDataOne: IBlogDT[] = [
   section12Title: 'blog_veintisiete.section12.title',
   section12Body: 'blog_veintisiete.section12.body',
   layout: 'magazine',
+  imageAlt: 'blog_veintisiete.imageAlt',
+  imageCaption: 'blog_veintisiete.imageCaption',
 },
 
 {
@@ -1101,6 +1170,8 @@ export const blogDataOne: IBlogDT[] = [
   section10Title: 'blog_veintiocho.section10.title',
   section10Body: 'blog_veintiocho.section10.body',
   layout: 'magazine',
+  imageAlt: 'blog_veintiocho.imageAlt',
+  imageCaption: 'blog_veintiocho.imageCaption',
 },
 
 {
@@ -1172,6 +1243,8 @@ export const blogDataOne: IBlogDT[] = [
   section12Title: 'blog_veintinueve.section12.title',
   section12Body: 'blog_veintinueve.section12.body',
   layout: 'magazine',
+  imageAlt: 'blog_veintinueve.imageAlt',
+  imageCaption: 'blog_veintinueve.imageCaption',
 },
 
 {
@@ -1207,6 +1280,195 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'visual',
   secondaryImage1: blogDetailsImg31Secondary1,
   secondaryImage2: blogDetailsImg31Secondary2,
+  imageAlt: 'blog_treinta.imageAlt',
+  imageCaption: 'blog_treinta.imageCaption',
+  secondaryImage1Alt: 'blog_treinta.secondaryImage1Alt',
+  secondaryImage2Alt: 'blog_treinta.secondaryImage2Alt',
+},
+
+{
+  id: 31,
+  slug: 'paddle-surf-alcudia-mallorca-guia-completa-sup',
+  image: blogDetailsImg32,
+  badgeTitle: 'blog_treintayuno.badgeTitle',
+  title: 'blog_treintayuno.title',
+  metaTitle: 'blog_treintayuno.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg32,
+  publishedDate: 'blog_treintayuno.publishedDate',
+  description: 'blog_treintayuno.meta_description',
+  metaDescription: 'blog_treintayuno.metaDescription',
+  btnText: 'blog_treintayuno.btnText',
+  keyword: 'blog_treintayuno.keyword',
+  section1Title: 'blog_treintayuno.section1.title',
+  section1Body: 'blog_treintayuno.section1.body',
+  section2Title: 'blog_treintayuno.section2.title',
+  section2Body: 'blog_treintayuno.section2.body',
+  section3Title: 'blog_treintayuno.section3.title',
+  section3Body: 'blog_treintayuno.section3.body',
+  section3sub1Subtitle: 'blog_treintayuno.section3.sub1.subtitle',
+  section3sub1Body: 'blog_treintayuno.section3.sub1.body',
+  section3sub2Subtitle: 'blog_treintayuno.section3.sub2.subtitle',
+  section3sub2Body: 'blog_treintayuno.section3.sub2.body',
+  section3sub3Subtitle: 'blog_treintayuno.section3.sub3.subtitle',
+  section3sub3Body: 'blog_treintayuno.section3.sub3.body',
+  section4Title: 'blog_treintayuno.section4.title',
+  section4Body: 'blog_treintayuno.section4.body',
+  section4sub1Subtitle: 'blog_treintayuno.section4.sub1.subtitle',
+  section4sub1Body: 'blog_treintayuno.section4.sub1.body',
+  section4sub2Subtitle: 'blog_treintayuno.section4.sub2.subtitle',
+  section4sub2Body: 'blog_treintayuno.section4.sub2.body',
+  section4sub3Subtitle: 'blog_treintayuno.section4.sub3.subtitle',
+  section4sub3Body: 'blog_treintayuno.section4.sub3.body',
+  section5Title: 'blog_treintayuno.section5.title',
+  section5Body: 'blog_treintayuno.section5.body',
+  section5sub1Subtitle: 'blog_treintayuno.section5.sub1.subtitle',
+  section5sub1Body: 'blog_treintayuno.section5.sub1.body',
+  section5sub2Subtitle: 'blog_treintayuno.section5.sub2.subtitle',
+  section5sub2Body: 'blog_treintayuno.section5.sub2.body',
+  section6Title: 'blog_treintayuno.section6.title',
+  section6Body: 'blog_treintayuno.section6.body',
+  section6sub1Subtitle: 'blog_treintayuno.section6.sub1.subtitle',
+  section6sub1Body: 'blog_treintayuno.section6.sub1.body',
+  section6sub2Subtitle: 'blog_treintayuno.section6.sub2.subtitle',
+  section6sub2Body: 'blog_treintayuno.section6.sub2.body',
+  section6sub3Subtitle: 'blog_treintayuno.section6.sub3.subtitle',
+  section6sub3Body: 'blog_treintayuno.section6.sub3.body',
+  section7Title: 'blog_treintayuno.section7.title',
+  section7Body: 'blog_treintayuno.section7.body',
+  section7sub1Subtitle: 'blog_treintayuno.section7.sub1.subtitle',
+  section7sub1Body: 'blog_treintayuno.section7.sub1.body',
+  section7sub2Subtitle: 'blog_treintayuno.section7.sub2.subtitle',
+  section7sub2Body: 'blog_treintayuno.section7.sub2.body',
+  section8Title: 'blog_treintayuno.section8.title',
+  section8Body: 'blog_treintayuno.section8.body',
+  section9Title: 'blog_treintayuno.section9.title',
+  section9Body: 'blog_treintayuno.section9.body',
+  section10Title: 'blog_treintayuno.section10.title',
+  section10Body: 'blog_treintayuno.section10.body',
+  layout: 'magazine',
+  secondaryImage1: blogDetailsImg32Secondary1,
+  secondaryImage2: blogDetailsImg32Secondary2,
+  imageAlt: 'blog_treintayuno.imageAlt',
+  imageCaption: 'blog_treintayuno.imageCaption',
+  secondaryImage1Alt: 'blog_treintayuno.secondaryImage1Alt',
+  secondaryImage2Alt: 'blog_treintayuno.secondaryImage2Alt',
+},
+
+{
+  id: 32,
+  slug: 'parking-alcudia-donde-aparcar-gratis-puerto-playa',
+  image: blogDetailsImg33,
+  badgeTitle: 'blog_treintaydos.badgeTitle',
+  title: 'blog_treintaydos.title',
+  metaTitle: 'blog_treintaydos.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg33,
+  publishedDate: 'blog_treintaydos.publishedDate',
+  description: 'blog_treintaydos.meta_description',
+  metaDescription: 'blog_treintaydos.metaDescription',
+  btnText: 'blog_treintaydos.btnText',
+  keyword: 'blog_treintaydos.keyword',
+  section1Title: 'blog_treintaydos.section1.title',
+  section1Body: 'blog_treintaydos.section1.body',
+  section2Title: 'blog_treintaydos.section2.title',
+  section2Body: 'blog_treintaydos.section2.body',
+  section3Title: 'blog_treintaydos.section3.title',
+  section3Body: 'blog_treintaydos.section3.body',
+  section3sub1Subtitle: 'blog_treintaydos.section3.sub1.subtitle',
+  section3sub1Body: 'blog_treintaydos.section3.sub1.body',
+  section3sub2Subtitle: 'blog_treintaydos.section3.sub2.subtitle',
+  section3sub2Body: 'blog_treintaydos.section3.sub2.body',
+  section3sub3Subtitle: 'blog_treintaydos.section3.sub3.subtitle',
+  section3sub3Body: 'blog_treintaydos.section3.sub3.body',
+  section4Title: 'blog_treintaydos.section4.title',
+  section4Body: 'blog_treintaydos.section4.body',
+  section4sub1Subtitle: 'blog_treintaydos.section4.sub1.subtitle',
+  section4sub1Body: 'blog_treintaydos.section4.sub1.body',
+  section4sub2Subtitle: 'blog_treintaydos.section4.sub2.subtitle',
+  section4sub2Body: 'blog_treintaydos.section4.sub2.body',
+  section4sub3Subtitle: 'blog_treintaydos.section4.sub3.subtitle',
+  section4sub3Body: 'blog_treintaydos.section4.sub3.body',
+  section5Title: 'blog_treintaydos.section5.title',
+  section5Body: 'blog_treintaydos.section5.body',
+  section5sub1Subtitle: 'blog_treintaydos.section5.sub1.subtitle',
+  section5sub1Body: 'blog_treintaydos.section5.sub1.body',
+  section5sub2Subtitle: 'blog_treintaydos.section5.sub2.subtitle',
+  section5sub2Body: 'blog_treintaydos.section5.sub2.body',
+  section6Title: 'blog_treintaydos.section6.title',
+  section6Body: 'blog_treintaydos.section6.body',
+  section6sub1Subtitle: 'blog_treintaydos.section6.sub1.subtitle',
+  section6sub1Body: 'blog_treintaydos.section6.sub1.body',
+  section6sub2Subtitle: 'blog_treintaydos.section6.sub2.subtitle',
+  section6sub2Body: 'blog_treintaydos.section6.sub2.body',
+  section7Title: 'blog_treintaydos.section7.title',
+  section7Body: 'blog_treintaydos.section7.body',
+  section8Title: 'blog_treintaydos.section8.title',
+  section8Body: 'blog_treintaydos.section8.body',
+  section9Title: 'blog_treintaydos.section9.title',
+  section9Body: 'blog_treintaydos.section9.body',
+  layout: 'magazine',
+  imageAlt: 'blog_treintaydos.imageAlt',
+  imageCaption: 'blog_treintaydos.imageCaption',
+},
+
+{
+  id: 33,
+  slug: 'mercados-semanales-mallorca-alcudia-artesania',
+  image: blogDetailsImg34,
+  badgeTitle: 'blog_treintaytres.badgeTitle',
+  title: 'blog_treintaytres.title',
+  metaTitle: 'blog_treintaytres.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg34,
+  publishedDate: 'blog_treintaytres.publishedDate',
+  description: 'blog_treintaytres.meta_description',
+  metaDescription: 'blog_treintaytres.metaDescription',
+  btnText: 'blog_treintaytres.btnText',
+  keyword: 'blog_treintaytres.keyword',
+  section1Title: 'blog_treintaytres.section1.title',
+  section1Body: 'blog_treintaytres.section1.body',
+  section2Title: 'blog_treintaytres.section2.title',
+  section2Body: 'blog_treintaytres.section2.body',
+  section3Title: 'blog_treintaytres.section3.title',
+  section3Body: 'blog_treintaytres.section3.body',
+  section3sub1Subtitle: 'blog_treintaytres.section3.sub1.subtitle',
+  section3sub1Body: 'blog_treintaytres.section3.sub1.body',
+  section3sub2Subtitle: 'blog_treintaytres.section3.sub2.subtitle',
+  section3sub2Body: 'blog_treintaytres.section3.sub2.body',
+  section3sub3Subtitle: 'blog_treintaytres.section3.sub3.subtitle',
+  section3sub3Body: 'blog_treintaytres.section3.sub3.body',
+  section4Title: 'blog_treintaytres.section4.title',
+  section4Body: 'blog_treintaytres.section4.body',
+  section4sub1Subtitle: 'blog_treintaytres.section4.sub1.subtitle',
+  section4sub1Body: 'blog_treintaytres.section4.sub1.body',
+  section4sub2Subtitle: 'blog_treintaytres.section4.sub2.subtitle',
+  section4sub2Body: 'blog_treintaytres.section4.sub2.body',
+  section4sub3Subtitle: 'blog_treintaytres.section4.sub3.subtitle',
+  section4sub3Body: 'blog_treintaytres.section4.sub3.body',
+  section5Title: 'blog_treintaytres.section5.title',
+  section5Body: 'blog_treintaytres.section5.body',
+  section5sub1Subtitle: 'blog_treintaytres.section5.sub1.subtitle',
+  section5sub1Body: 'blog_treintaytres.section5.sub1.body',
+  section5sub2Subtitle: 'blog_treintaytres.section5.sub2.subtitle',
+  section5sub2Body: 'blog_treintaytres.section5.sub2.body',
+  section6Title: 'blog_treintaytres.section6.title',
+  section6Body: 'blog_treintaytres.section6.body',
+  section7Title: 'blog_treintaytres.section7.title',
+  section7Body: 'blog_treintaytres.section7.body',
+  section8Title: 'blog_treintaytres.section8.title',
+  section8Body: 'blog_treintaytres.section8.body',
+  section9Title: 'blog_treintaytres.section9.title',
+  section9Body: 'blog_treintaytres.section9.body',
+  section10Title: 'blog_treintaytres.section10.title',
+  section10Body: 'blog_treintaytres.section10.body',
+  layout: 'magazine',
+  secondaryImage1: blogDetailsImg34Secondary1,
+  secondaryImage2: blogDetailsImg34Secondary2,
+  imageAlt: 'blog_treintaytres.imageAlt',
+  imageCaption: 'blog_treintaytres.imageCaption',
+  secondaryImage1Alt: 'blog_treintaytres.secondaryImage1Alt',
+  secondaryImage2Alt: 'blog_treintaytres.secondaryImage2Alt',
 }
 
 ];

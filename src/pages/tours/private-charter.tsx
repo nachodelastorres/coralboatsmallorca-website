@@ -12,10 +12,15 @@ import PrivateCharterBooking from '@/components/premium/charter/PrivateCharterBo
 import PrivateCharterPricingCTA from '@/components/premium/charter/PrivateCharterPricingCTA';
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 const PrivateCharterPage = () => {
   return (
     <Wrapper>
+      <ViewContentTracker
+        tourName="Private Boat Charter Alcudia"
+        tourSlug="alcudia-private-boat-charter"
+      />
       <HeaderOne hasTopBar />
 
       <main>

@@ -138,7 +138,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
           <Image
             src={blog.detailsImg!}
-            alt={t(blog.title)}
+            alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
             fill
             style={{ objectFit: 'cover' }}
             priority
@@ -290,7 +290,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               >
                 <Image
                   src={blog.image}
-                  alt={`${blog.title} - Coral Boats Mallorca`}
+                  alt={blog.imageAlt ? t(blog.imageAlt) : `${t(blog.title)} - Coral Boats Mallorca`}
                   fill
                   style={{ objectFit: 'cover' }}
                 />
@@ -364,7 +364,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 >
                   <Image
                     src={blog.secondaryImage1}
-                    alt={`${t(blog.title)} - Coral Boats Mallorca`}
+                    alt={blog.secondaryImage1Alt ? t(blog.secondaryImage1Alt) : `${t(blog.title)} - Coral Boats Mallorca`}
                     fill
                     style={{ objectFit: 'cover' }}
                   />
@@ -386,7 +386,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 }}
               >
                 <Image
-                  src="/assets/img/premium/gallery_new/sunset.webp"
+                  src="/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp"
                   alt="Sunset boat tour Alcudia Mallorca - Book your exclusive experience"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -550,7 +550,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 >
                   <Image
                     src={blog.secondaryImage2}
-                    alt={`${t(blog.title)} - Vista de Mallorca`}
+                    alt={blog.secondaryImage2Alt ? t(blog.secondaryImage2Alt) : `${t(blog.title)} - Vista de Mallorca`}
                     fill
                     style={{ objectFit: 'cover' }}
                   />

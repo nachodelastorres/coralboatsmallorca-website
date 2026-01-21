@@ -3,7 +3,14 @@
 import { useEffect } from 'react';
 import BookNowButton from '@/components/booking/book-now-button';
 
-const StickyCTA = ({ itemId, label }: { itemId: string; label: string }) => {
+interface StickyCTAProps {
+  itemId: string;
+  label: string;
+  tourName?: string;
+  tourPrice?: number;
+}
+
+const StickyCTA = ({ itemId, label, tourName, tourPrice }: StickyCTAProps) => {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://static.elfsight.com/platform/platform.js';
@@ -41,7 +48,7 @@ const StickyCTA = ({ itemId, label }: { itemId: string; label: string }) => {
 
         {/* Línea 2: botón de reserva centrado */}
         <div className="d-flex justify-content-center">
-          <BookNowButton itemId={itemId} label={label} />
+          <BookNowButton itemId={itemId} label={label} tourName={tourName} tourPrice={tourPrice} />
         </div>
       </div>
     </div>

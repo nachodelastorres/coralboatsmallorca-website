@@ -104,7 +104,7 @@ const MorningTourBooking = () => {
               </div>
               <h3>{t('morningTour.booking.ctaCardTitle')}</h3>
               <p>{t('morningTour.booking.ctaCardDescription')}</p>
-              <BookingCTA text={t('morningTour.booking.ctaButton')} size="large" />
+              <BookingCTA text={t('morningTour.booking.ctaButton')} size="large" tourName="Morning Boat Tour Alcudia" tourPrice={68} />
 
               <div className="trust-badges-inline">
                 <div className="trust-badge">

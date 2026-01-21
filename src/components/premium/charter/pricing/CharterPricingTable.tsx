@@ -81,7 +81,7 @@ const CharterPricingTable = () => {
                     <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: '400' }}>{t('premium.charter_pricing.charter_4h_desc')}</div>
                   </div>
                   <div style={{ fontSize: '1.75rem', fontWeight: '700', color: '#0891b2' }}>
-                    €2,015
+                    €1,985
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const CharterPricingTable = () => {
                     <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: '400' }}>{t('premium.charter_pricing.charter_4h_desc')}</div>
                   </div>
                   <div style={{ fontSize: '1.75rem', fontWeight: '700', color: '#10b981' }}>
-                    €1,615
+                    €1,685
                   </div>
                 </div>
               </div>

@@ -64,7 +64,7 @@ const MorningTourDetails = () => {
             </div>
 
             <div className="tour-cta-section d-lg-none">
-              <BookingCTA text={t('morningTour.details.ctaBook')} />
+              <BookingCTA text={t('morningTour.details.ctaBook')} tourName="Morning Boat Tour Alcudia" tourPrice={68} />
             </div>
           </div>
 
@@ -109,7 +109,7 @@ const MorningTourDetails = () => {
                 </div>
 
                 <div className="tour-cta-section d-none d-lg-block">
-                  <BookingCTA text={t('morningTour.details.ctaBook')} />
+                  <BookingCTA text={t('morningTour.details.ctaBook')} tourName="Morning Boat Tour Alcudia" tourPrice={68} />
                 </div>
               </div>
             </div>

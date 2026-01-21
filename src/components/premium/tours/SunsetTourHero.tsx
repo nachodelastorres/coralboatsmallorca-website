@@ -85,7 +85,7 @@ const SunsetTourHero = () => {
               </div>
 
               <div className="hero-actions">
-                <BookingCTA size="large" text={t('sunsetTour.hero.ctaBook')} itemId="674280"/>
+                <BookingCTA size="large" text={t('sunsetTour.hero.ctaBook')} itemId="674280" tourName="Sunset Boat Tour Alcudia" tourPrice={65} />
                 <Link href="#details" className="btn-secondary">
                   <i className="fa-solid fa-info-circle"></i>
                   <span>{t('sunsetTour.hero.ctaLearnMore')}</span>
