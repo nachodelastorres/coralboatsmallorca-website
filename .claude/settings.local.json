@@ -42,7 +42,11 @@
       "Bash(npx next start -p 3000)",
       "Bash(ss:*)",
       "Bash(gh auth:*)",
-      "Bash(git remote add:*)"
+      "Bash(git remote add:*)",
+      "Bash(git filter-branch:*)",
+      "Bash(git stash:*)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch:*)",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []
