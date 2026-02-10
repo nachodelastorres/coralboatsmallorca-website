@@ -1,4 +1,13 @@
 {
+  "discountDrawer": {
+    "tabLabel": "Ver descuento",
+    "title": "Oferta exclusiva web",
+    "subtitle": "Reserva directamente desde nuestra web y obtén un descuento especial. ¡Plazas limitadas!",
+    "codeLabel": "Usa este código al reservar:",
+    "copy": "Copiar",
+    "urgency": "Oferta por tiempo limitado",
+    "cta": "Reservar ahora"
+  },
   "menu": {
     "home": "Inicio",
     "about": "Nosotros",
@@ -403,10 +412,13 @@
     "title": "Vive la puesta de sol desde el mar",
     "body": "La puesta de sol en Alcudia desde el mar no es solo “ver el sol caer”. Es sentir Mallorca de forma distinta: más abierta, más silenciosa, más auténtica. Es ese momento en el que el Mediterráneo se vuelve dorado y entiendes por qué tanta gente recuerda su atardecer en barco como uno de los mejores recuerdos del viaje.\n\nSi quieres vivirlo con nosotros, puedes reservar directamente aquí:\n\n- [Excursión al atardecer (Sunset Tour)](https://coralboats.com/es/tour-details/sunset-tour)\n- [Ver todos los tours en barco desde Alcudia](https://coralboats.com/es/boat-tours-alcudia)\n\nY si estás construyendo tu itinerario por Mallorca, completa la experiencia con una ruta optimizada: [Qué ver en Mallorca en 3 días](https://coralboats.com/es/blog-details/que-ver-mallorca-3-dias-itinerario-completo).\n\nMallorca te espera. El mar también. Y cuando el cielo empiece a encenderse, entenderás por qué este plan se recomienda una y otra vez."
   },
-  "imageAlt": "Puesta de sol sobre el mar en Alcudia",
-"imageCaption": "El sol se pone sobre el mar frente a Alcudia, tiñendo el horizonte de tonos cálidos y creando uno de los momentos más especiales e inolvidables para disfrutar desde el agua."
-
-},
+  "imageAlt": "Atardecer en el puerto de Alcudia con veleros y colores dorados sobre el Mediterráneo",
+    "imageCaption": "El sol se pone sobre el mar frente a Alcudia, tiñendo el horizonte de tonos cálidos y creando uno de los momentos más especiales e inolvidables para disfrutar desde el agua.",
+    "secondaryImage1Alt": "Atardecer espectacular sobre el mar en la bahía de Alcudia Mallorca",
+    "secondaryImage2Alt": "Puerto de Alcudia al atardecer con barcos de excursiones en Mallorca",
+    "secondaryImage3Alt": "Crucero al atardecer Sunset Magic en la bahía de Alcudia",
+    "secondaryImage4Alt": "Puesta de sol mediterránea durante un crucero Sunset Magic en Mallorca"
+  },
 
 "blog_siete": {
   "metaTitle": "Excursiones en Barco para Familias en Mallorca: Planes con Niños en Alcudia",
@@ -658,7 +670,7 @@
     "slug": "curiosidades-litoral-balear-bahia-alcudia",
     "keyword": "litoral balear, bahía de Alcudia, aguas cristalinas Mallorca",
     "meta_description": "Explora las curiosidades del litoral balear y descubre por qué la bahía de Alcudia es uno de los lugares más bellos y con aguas más cristalinas de Mallorca.",
-    "publishedDate": "11 de junio de 2025",
+    "publishedDate": "23 de mayo de 2025",
     "btnText": "Leer más",
     "badgeTitle": "Naturaleza",
     "section1": {
@@ -698,50 +710,75 @@
 
   },
   "blog_doce": {
-    "metaTitle": "Playa y Faro de Alcanada: Guía de la Joya Escondida de Alcudia 2025",
-    "metaDescription": "Guía completa de Alcanada: playa prístina, faro histórico, vistas de la isla y aguas tranquilas. Descubre por qué este rincón pacífico de Alcudia es perfecto para familias, parejas y amantes de la naturaleza. Consejos de acceso, mejores momentos para visitar y opciones de tours en barco.",
+    "metaTitle": "Playa y Faro de Alcanada: Guía Completa de la Joya Escondida de Alcudia",
+    "metaDescription": "Guía completa de Alcanada: playa prístina, faro histórico, Golf de Alcanada, Cala Poncet, Museo Sa Bassa Blanca y más. Descubre por qué este rincón de Alcudia es perfecto para familias, parejas y amantes de la naturaleza.",
     "title": "Descubre Alcanada: playa, faro e isla en un entorno natural único cerca de Alcudia",
     "slug": "descubre-alcanada-playa-faro-isla-alcudia",
-    "keyword": "playa de Alcanada, faro de Alcanada, isla de Alcanada, excursiones Alcudia",
-    "meta_description": "Explora la playa de Alcanada, su emblemático faro y la isla que la rodea. Una joya natural a pocos minutos de Alcudia ideal para relajarse y disfrutar del Mediterráneo.",
-    "publishedDate": "11 de junio de 2025",
+    "keyword": "playa de Alcanada, faro de Alcanada, isla de Alcanada, Golf Alcanada, Cala Poncet, Museo Sa Bassa Blanca, excursiones Alcudia",
+    "meta_description": "Explora la playa de Alcanada, su emblemático faro, el Golf de Alcanada, Cala Poncet y el Museo Sa Bassa Blanca. Una joya natural a pocos minutos de Alcudia ideal para relajarse y disfrutar del Mediterráneo.",
+    "publishedDate": "1 de junio de 2025",
     "btnText": "Leer más",
     "badgeTitle": "Destino local",
     "section1": {
       "title": "Un rincón escondido en la costa norte de Mallorca",
-      "body": "A pocos kilómetros del bullicioso Puerto de Alcudia se encuentra uno de los secretos mejor guardados de la isla: Alcanada. Esta zona, conocida por su playa de piedra, su entorno natural intacto y las vistas hacia su famosa isla con faro, es un destino que combina tranquilidad, paisaje y autenticidad mallorquina. Si buscas escapar de las multitudes y conectar con el Mediterráneo más puro durante tus [excursiones en barco por Alcudia](https://coralboats.com/es/boat-tours-alcudia), Alcanada es tu lugar."
+      "body": "A pocos kilómetros del bullicioso Puerto de Alcudia se encuentra uno de los secretos mejor guardados de la isla: Alcanada. Esta zona, conocida por su playa de piedra, su entorno natural intacto y las vistas hacia su famosa isla con faro, es un destino que combina tranquilidad, paisaje y autenticidad mallorquina. Pero Alcanada es mucho más que una playa: es un ecosistema de experiencias que incluye campos de golf de prestigio internacional, restaurantes con vistas privilegiadas, arte contemporáneo y una gastronomía que celebra lo mejor del Mediterráneo. Si buscas escapar de las multitudes y conectar con el Mediterráneo más puro durante tus [excursiones en barco por Alcudia](https://coralboats.com/es/boat-tours-alcudia), Alcanada es tu lugar."
     },
     "section2": {
       "title": "Una playa diferente, perfecta para desconectar",
-      "body": "La playa de Alcanada se distingue de otras en Mallorca por su carácter pedregoso y su tranquilidad. Aquí no hay tumbonas ni bares a pie de playa: solo naturaleza, [aguas claras](https://coralboats.com/es/blog-details/curiosidades-litoral-balear-bahia-alcudia) y el sonido del mar. Es ideal para quienes valoran la calma y el paisaje sin artificios. Las aguas poco profundas y transparentes invitan a nadar, hacer [snorkel en Mallorca](https://coralboats.com/es/blog-details/snorkeling-mallorca-best-spots-alcudia) o simplemente relajarse mirando el horizonte. A menudo frecuentada por locales, esta playa conserva ese ambiente auténtico y pausado que tanto escasea en verano."
+      "body": "La playa de Alcanada se distingue de otras en Mallorca por su carácter pedregoso y su tranquilidad. Aquí no hay tumbonas ni bares a pie de playa: solo naturaleza, [aguas claras](https://coralboats.com/es/blog-details/curiosidades-litoral-balear-bahia-alcudia) y el sonido del mar. Es ideal para quienes valoran la calma y el paisaje sin artificios.\n\nLas aguas poco profundas y transparentes invitan a nadar, hacer [snorkel en Mallorca](https://coralboats.com/es/blog-details/snorkeling-mallorca-best-spots-alcudia) o simplemente relajarse mirando el horizonte. A menudo frecuentada por locales, esta playa conserva ese ambiente auténtico y pausado que tanto escasea en verano.\n\nA diferencia de otras playas más comerciales de la zona, Alcanada ofrece un contraste refrescante: aquí el protagonista es el paisaje, no los servicios. El fondo marino es excepcional para practicar snorkel, con praderas de posidonia que albergan una rica biodiversidad. Los días de calma, el agua adquiere tonalidades turquesas que rivalizan con las mejores calas de Mallorca."
     },
     "section3": {
       "title": "La isla y el faro: historia, vistas y postal mediterránea",
       "body": "Justo frente a la playa, a escasos 150 metros de la orilla, se alza la isla de Alcanada con su icónico faro. Esta isla, que se puede alcanzar nadando o con un pequeño kayak, es una joya silenciosa que ofrece una vista privilegiada de toda la bahía. El faro de Alcanada, construido en 1861, sigue activo y es un símbolo de la zona. Muchos [tours en barco](https://coralboats.com/es/alcudia-morning-boat-tour) pasan cerca de esta isla ofreciendo una perspectiva única.",
       "sub1": {
         "subtitle": "Un lugar ideal para pequeñas travesías",
-        "body": "Llegar a la isla es una pequeña aventura accesible: muchos nadadores hacen el trayecto ida y vuelta desde la playa, y otros prefieren hacerlo en paddle surf o kayak. En cualquier caso, una vez allí, se puede bordear la isla caminando entre rocas y pinos mientras se disfruta de la vista del litoral norte de Mallorca."
+        "body": "Llegar a la isla es una pequeña aventura accesible: muchos nadadores hacen el trayecto ida y vuelta desde la playa, y otros prefieren hacerlo en paddle surf o kayak. La profundidad es escasa y el agua suele estar en calma, lo que hace el cruce seguro incluso para nadadores moderados. Una vez allí, se puede bordear la isla caminando entre rocas y pinos mientras se disfruta de la vista del litoral norte de Mallorca. En días despejados, las vistas hacia la Serra de Tramuntana son espectaculares."
       },
       "sub2": {
-        "subtitle": "Un faro con historia",
-        "body": "El faro de Alcanada fue uno de los primeros de Mallorca en iluminar el paso de embarcaciones en la bahía. Aunque no se puede visitar por dentro, su silueta blanca y su historia ligada a la navegación lo convierten en un punto emblemático para los amantes del mar y la fotografía. Ha sido testigo de tormentas, amaneceres y generaciones de pescadores y navegantes."
+        "subtitle": "Un faro con más de 160 años de historia",
+        "body": "El faro de Alcanada fue uno de los primeros de Mallorca en iluminar el paso de embarcaciones en la bahía. Construido en 1861, ha sido testigo de tormentas, amaneceres y generaciones de pescadores y navegantes. Aunque no se puede visitar por dentro, su silueta blanca recortada contra el azul del Mediterráneo es una de las imágenes más fotografiadas de la zona. Al atardecer, cuando el sol tiñe de dorado sus paredes encaladas, el faro se convierte en un espectáculo visual inolvidable."
       },
       "sub3": {
         "subtitle": "Un enclave protegido",
-        "body": "El entorno de Alcanada está clasificado como Área Natural de Especial Interés (ANEI), lo que limita la construcción y protege su biodiversidad. En sus aguas es habitual ver peces pequeños, posidonia y aves marinas, parte de la rica [vida marina de la bahía de Alcudia](https://coralboats.com/es/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo). Este entorno limpio y poco intervenido es perfecto para disfrutar de un turismo respetuoso con el medio ambiente."
+        "body": "El entorno de Alcanada está clasificado como Área Natural de Especial Interés (ANEI), lo que limita la construcción y protege su biodiversidad. En sus aguas es habitual ver peces pequeños, estrellas de mar, posidonia y aves marinas como cormoranes y gaviotas, parte de la rica [vida marina de la bahía de Alcudia](https://coralboats.com/es/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo). Este entorno limpio y poco intervenido es perfecto para disfrutar de un turismo respetuoso con el medio ambiente."
       }
     },
     "section4": {
-      "title": "Cómo llegar y qué tener en cuenta",
-      "body": "Alcanada se encuentra a unos 5 minutos en coche desde el centro de Alcudia o el Puerto. También se puede acceder caminando por un bonito sendero costero. No cuenta con grandes parkings, por lo que conviene llegar temprano en temporada alta. No hay servicios de playa como duchas o bares, así que se recomienda llevar agua, algo de comida, calzado adecuado para roca y, por supuesto, protección solar. Aunque la playa no es de arena, su belleza natural compensa con creces la falta de comodidades. Si prefieres explorar esta zona desde el mar, las [excursiones en barco por Alcudia](https://coralboats.com/es/boat-tours-alcudia) son una excelente opción."
+      "title": "Cómo llegar a Alcanada: todas las opciones",
+      "body": "Alcanada se encuentra a unos 5 minutos en coche desde el centro de Alcudia o el Puerto de Alcudia. La carretera que lleva a la zona es la que conecta con el Golf de Alcanada, bien señalizada desde la salida del casco antiguo de Alcudia.\n\n- **En coche desde Palma**: Toma la autopista Ma-13 dirección Alcudia. A la altura de Alcudia, sigue las indicaciones hacia el centro histórico y luego hacia Alcanada/Golf Alcanada. El trayecto desde Palma es de aproximadamente 50 minutos.\n- **En coche desde el Puerto de Alcudia**: Son apenas 5-7 minutos bordeando la costa. Sal por la carretera del paseo marítimo en dirección norte.\n- **A pie o en bicicleta**: Existe un bonito sendero costero que conecta el Puerto de Alcudia con Alcanada, ideal para paseos matutinos o al atardecer. El recorrido a pie es de unos 40 minutos.\n- **En barco**: Las [excursiones en barco por Alcudia](https://coralboats.com/es/boat-tours-alcudia) suelen incluir una parada cerca de la isla de Alcanada, ofreciendo una perspectiva única desde el mar.\n\n**Aparcamiento**: El parking junto a la playa es pequeño y gratuito, pero se llena rápidamente en temporada alta. Conviene llegar temprano (antes de las 10:00) o a última hora de la tarde. También hay zonas de aparcamiento cerca del Golf de Alcanada.\n\n**Qué llevar**: No hay servicios de playa como duchas, chiringuitos o alquiler de hamacas. Se recomienda llevar agua abundante, algo de comida, calzado adecuado para roca (cangrejeras o escarpines), protección solar, sombrilla y equipo de snorkel si quieres explorar el fondo marino."
     },
     "section5": {
+      "title": "Cala Poncet: gastronomía con vistas antes de llegar a Alcanada",
+      "body": "Justo antes de llegar a la playa de Alcanada, a escasos metros del Golf, se encuentra **Cala Poncet**, una pequeña ensenada que alberga algunos de los restaurantes más emblemáticos de toda la bahía de Alcudia. A diferencia de la playa de Alcanada, que carece de servicios, Cala Poncet ofrece una experiencia gastronómica de primer nivel con vistas privilegiadas al mar.\n\nEste contraste es precisamente lo que hace especial a la zona: puedes disfrutar de un almuerzo o cena con los pies casi en el agua en Cala Poncet, y después caminar unos minutos hasta la playa de Alcanada para un baño en un entorno completamente natural.\n\nLos restaurantes de Cala Poncet son conocidos por su cocina mediterránea con productos locales, especialmente pescado y marisco fresco. Muchos visitantes combinan una mañana de playa en Alcanada con una comida en uno de estos establecimientos, creando una jornada perfecta que equilibra naturaleza y gastronomía. La terraza del restaurante principal ofrece vistas directas a la isla de Alcanada y su faro, convirtiendo cualquier comida en una experiencia visual."
+    },
+    "section6": {
+      "title": "El entorno de Alcanada: golf, arte y experiencias únicas",
+      "body": "Alcanada no es solo una playa: es un ecosistema de experiencias que abarca desde el deporte de élite hasta el arte contemporáneo. La zona se ha consolidado como uno de los destinos más exclusivos del norte de Mallorca, atrayendo a visitantes que buscan combinar naturaleza, cultura y gastronomía de alta calidad.",
+      "sub1": {
+        "subtitle": "Golf Alcanada: uno de los mejores campos de Europa",
+        "body": "El **Golf Alcanada** está considerado uno de los mejores campos de golf de España y de toda Europa. Diseñado por Robert Trent Jones Jr., este campo de 18 hoyos ofrece vistas espectaculares a la bahía de Alcudia y a la isla de Alcanada durante todo el recorrido. El hoyo 8 es especialmente famoso: un par 3 donde hay que lanzar la bola sobre el mar hacia un green situado en un pequeño promontorio. El club cuenta con restaurante propio con terraza panorámica, tienda de golf y todas las instalaciones necesarias. Incluso si no juegas al golf, merece la pena pasear por los alrededores para disfrutar de los jardines y las vistas."
+      },
+      "sub2": {
+        "subtitle": "Museo Sa Bassa Blanca: arte contemporáneo junto al mar",
+        "body": "A pocos minutos de Alcanada se encuentra la **Fundación Yannick y Ben Jakober**, también conocida como Museo Sa Bassa Blanca. Este espacio único alberga una importante colección de arte que incluye retratos de niños de los siglos XVI al XIX, esculturas contemporáneas y obras de artistas como Rebecca Horn. Los jardines del museo, con esculturas al aire libre y vistas al mar, son una experiencia en sí mismos. El edificio principal, diseñado con influencias árabes, se integra armónicamente en el paisaje. Es una visita obligada para los amantes del arte y una forma perfecta de complementar una jornada de playa."
+      },
+      "sub3": {
+        "subtitle": "Gastronomía de altura en el norte de Mallorca",
+        "body": "La zona de Alcanada cuenta con varios restaurantes de referencia que aprovechan tanto los productos del mar como los de la huerta mallorquina. Desde cocina tradicional hasta propuestas más innovadoras, la oferta gastronómica de la zona es variada y de calidad. El restaurante del Golf Alcanada ofrece cocina mediterránea con vistas panorámicas, mientras que los establecimientos de Cala Poncet se especializan en pescado y marisco fresco. Para una experiencia completa, combina tu visita a la playa con una comida en alguno de estos locales emblemáticos."
+      }
+    },
+    "section7": {
       "title": "Alcanada: donde la naturaleza habla por sí sola",
-      "body": "Visitar Alcanada es una experiencia distinta. Aquí no encontrarás música alta ni aglomeraciones, sino el murmullo del mar, el vuelo de las gaviotas y la silueta de un faro recortado contra el cielo. Es un lugar que invita a parar el tiempo, a mirar el paisaje con calma y a disfrutar de la simplicidad. Perfecto para escapadas en pareja, paseos tranquilos o baños al atardecer, Alcanada es uno de esos rincones que se quedan en la memoria. Combínalo con un [tour al atardecer](https://coralboats.com/es/alcudia-sunset-boat-tour) para vivir una experiencia inolvidable, o descubre otras [actividades acuáticas en la bahía](https://coralboats.com/es/blog-details/water-activities-alcudia-bay-guide).\nVen a descubrir este paraíso discreto del norte de Mallorca y déjate envolver por su encanto natural."
+      "body": "Visitar Alcanada es una experiencia distinta a cualquier otra en Mallorca. Aquí no encontrarás música alta ni aglomeraciones, sino el murmullo del mar, el vuelo de las gaviotas y la silueta de un faro recortado contra el cielo. Es un lugar que invita a parar el tiempo, a mirar el paisaje con calma y a disfrutar de la simplicidad.\n\nPerfecto para escapadas en pareja, paseos tranquilos, baños al atardecer o jornadas familiares lejos del bullicio, Alcanada es uno de esos rincones que se quedan en la memoria. Combínalo con un [tour al atardecer](https://coralboats.com/es/alcudia-sunset-boat-tour) para vivir una experiencia inolvidable, o descubre otras [actividades acuáticas en la bahía](https://coralboats.com/es/blog-details/water-activities-alcudia-bay-guide).\n\nVen a descubrir este paraíso discreto del norte de Mallorca y déjate envolver por su encanto natural. Ya sea que busques un día de playa en estado puro, una ronda de golf con vistas al Mediterráneo, una experiencia gastronómica memorable o un encuentro con el arte contemporáneo, Alcanada tiene algo especial que ofrecerte."
     },
     "imageAlt": "Vista aérea de la isla de Alcanada con su faro y barcos fondeados cerca de Alcudia",
-"imageCaption": "Vista aérea de la isla de Alcanada, con su emblemático faro y varios barcos fondeados en sus aguas cristalinas, uno de los lugares más especiales frente a la costa de Alcudia."
-
+    "imageCaption": "Vista aérea de la isla de Alcanada, con su emblemático faro y varios barcos fondeados en sus aguas cristalinas, uno de los lugares más especiales frente a la costa de Alcudia.",
+    "secondaryImage1Alt": "Faro de Alcanada visto desde una excursión en barco por Alcudia Mallorca",
+    "secondaryImage2Alt": "Panorámica de la isla de Alcanada con barcos fondeados en la bahía de Alcudia",
+    "secondaryImage3Alt": "Vista aérea del puerto de Alcudia con barcos amarrados en Mallorca",
+    "secondaryImage4Alt": "Aguas cristalinas de la playa de Alcanada ideales para snorkel en Mallorca",
+    "secondaryImage5Alt": "Campo de golf de Alcanada con vistas al mar Mediterráneo en Mallorca",
+    "secondaryImage6Alt": "Comida mediterránea típica durante una excursión en barco por Mallorca"
   },
   "blog_trece": {
     "metaTitle": "Guía de Clima y Viento para Tours en Barco Mallorca: Mejores Condiciones 2025",
@@ -968,7 +1005,12 @@
       "info3": "Traer protector solar, toalla y bañador",
       "info4": "Cancelación gratuita hasta 24 horas antes",
       "info5": "Salida desde el Puerto de Alcúdia",
-      "ctaBook": "Haz clic aquí para reservar tu plaza"
+      "ctaBook": "Haz clic aquí para reservar tu plaza",
+      "transferTitle": "¿Necesitas transfer?",
+      "transferDescription": "Ofrecemos servicio de recogida desde tu hotel o alojamiento.",
+      "transferLocations": "Alcudia, Playa de Muro, Puerto de Pollença",
+      "transferContactNote": "Tras la reserva, la tripulación te contactará para organizar los detalles de la recogida.",
+      "transferCta": "Selecciona la opción de transfer al reservar →"
     },
     "itinerary": {
       "sectionLabel": "Itinerario",
@@ -1034,7 +1076,23 @@
     "gallery": {
       "label": "Galería",
       "title": "Vive la Magia Matinal",
-      "description": "Descubre lo que te espera en nuestra excursión matinal en la Bahía de Alcúdia"
+      "description": "Descubre lo que te espera en nuestra excursión matinal en la Bahía de Alcúdia",
+      "images": {
+        "img1": "Navegando por las aguas cristalinas de la Bahía de Alcudia, donde el azul turquesa se funde con el horizonte",
+        "img2": "Descubriendo la costa norte de Mallorca a bordo de nuestro barco clásico de 1968",
+        "img3": "Snorkel entre peces mediterráneos en las calas más vírgenes de Alcudia",
+        "img4": "Aguas turquesa de transparencia perfecta, ideales para el baño matinal",
+        "img5": "Degustando auténticas tapas mallorquinas preparadas con productos locales frescos",
+        "img6": "Nuestro barco clásico Coral Boats: tradición marinera mallorquina desde 1968",
+        "img7": "Momentos únicos compartidos entre amigos en el Mediterráneo",
+        "img8": "Sangría casera servida a bordo con la receta tradicional mallorquina",
+        "img9": "Aventuras acuáticas con colchonetas flotantes en calas de ensueño",
+        "img10": "Acantilados y playas secretas de la espectacular costa de Alcudia",
+        "img11": "Dulces momentos refrescantes bajo el sol del Mediterráneo",
+        "img12": "Navegando junto a los impresionantes acantilados de la Serra de Tramuntana",
+        "img13": "Interior acogedor de nuestro barco, perfecto para relajarse entre baños",
+        "img14": "Vistas panorámicas del litoral mallorquín desde cubierta"
+      }
     }
   },
   "sunsetTour": {
@@ -1080,7 +1138,12 @@
       "info3": "Trae protector solar, toalla y bañador",
       "info4": "Cancelación gratuita hasta 24 horas antes",
       "info5": "Salida desde el Puerto de Alcúdia",
-      "ctaBook": "Haz clic aquí para reservar tu plaza"
+      "ctaBook": "Haz clic aquí para reservar tu plaza",
+      "transferTitle": "¿Necesitas transfer?",
+      "transferDescription": "Ofrecemos servicio de recogida desde tu hotel o alojamiento.",
+      "transferLocations": "Alcudia, Playa de Muro, Puerto de Pollença",
+      "transferContactNote": "Tras la reserva, la tripulación te contactará para organizar los detalles de la recogida.",
+      "transferCta": "Selecciona la opción de transfer al reservar →"
     },
     "itinerary": {
       "sectionLabel": "Itinerario",
@@ -1143,7 +1206,23 @@
     "gallery": {
       "label": "Galería",
       "title": "Momentos Mágicos del Atardecer",
-      "description": "Descubre la belleza de nuestra excursión al atardecer en la Bahía de Alcúdia"
+      "description": "Descubre la belleza de nuestra excursión al atardecer en la Bahía de Alcúdia",
+      "images": {
+        "img1": "La luz dorada del atardecer tiñe las aguas de la Bahía de Alcudia de tonos mágicos",
+        "img2": "Navegando hacia el horizonte mientras el sol se despide de Mallorca",
+        "img3": "Baño al atardecer en las cálidas aguas del Mediterráneo",
+        "img4": "Reflejos dorados sobre las aguas cristalinas de la costa mallorquina",
+        "img5": "Tapas mallorquinas y vino servidos con el espectáculo del atardecer de fondo",
+        "img6": "Nuestro barco clásico de 1968 bañado por la luz del ocaso mediterráneo",
+        "img7": "Brindando por los mejores atardeceres del Mediterráneo en buena compañía",
+        "img8": "Sangría casera tradicional: el complemento perfecto para el sunset",
+        "img9": "Momentos de relax flotando en aguas templadas mientras el sol se pone",
+        "img10": "La silueta de la costa de Alcudia recortada contra un cielo de colores",
+        "img11": "Dulces instantes mientras el cielo se tiñe de naranja y rosa",
+        "img12": "Navegando entre tonos rojizos: la excursión al atardecer en todo su esplendor",
+        "img13": "Ambiente acogedor a bordo para disfrutar del espectáculo natural",
+        "img14": "Vistas panorámicas del sunset mallorquín desde la cubierta"
+      }
     }
   },
   "privateCharter": {
@@ -1297,7 +1376,27 @@
     "gallery": {
       "label": "Galería",
       "title": "Experiencias de Charter Privado",
-      "description": "Descubre nuestros charters privados exclusivos en Alcúdia"
+      "description": "Descubre nuestros charters privados exclusivos en Alcúdia",
+      "images": {
+        "img1": "Nuestro barco clásico: el escenario perfecto para tu evento privado en Alcudia",
+        "img2": "Grupos grandes disfrutando de un charter exclusivo en la Bahía de Alcudia",
+        "img3": "Navegando por las aguas cristalinas de la costa norte de Mallorca",
+        "img4": "Momentos de relax en cubierta con vistas al Mediterráneo",
+        "img5": "Paisajes espectaculares desde tu charter privado en Mallorca",
+        "img6": "Celebraciones memorables con la tripulación de Coral Boats",
+        "img7": "Interior espacioso y acogedor para eventos de hasta 40 personas",
+        "img8": "Charter perfecto para eventos corporativos y teambuilding en Mallorca",
+        "img9": "Grupos de amigos creando recuerdos únicos en el mar",
+        "img10": "Atardeceres mágicos desde tu barco privado en Alcudia",
+        "img11": "La hora dorada sobre el Mediterráneo: momentos irrepetibles",
+        "img12": "Llegando al puerto de Alcudia con los últimos rayos del sol",
+        "img13": "Actividades acuáticas exclusivas para tu grupo privado",
+        "img14": "Celebraciones especiales en un entorno único",
+        "img15": "Experiencia exclusiva de alquiler de barco en la Bahía de Alcudia",
+        "img16": "Explorando calas escondidas del norte de Mallorca en charter privado",
+        "img17": "Capacidad para hasta 40 personas: perfecta para grandes celebraciones",
+        "img18": "La proa de nuestro barco clásico: elegancia marinera mallorquina"
+      }
     }
   },
   "premium": {
@@ -1341,7 +1440,12 @@
       "free": "Gratis",
       "book_now": "Reservar Ahora",
       "departure_title": "Punto de Salida: Puerto de Alcúdia",
-      "departure_description": "Todas las excursiones salen desde el Puerto de Alcúdia e incluyen tripulación profesional, equipo de seguridad y seguro"
+      "departure_description": "Todas las excursiones salen desde el Puerto de Alcúdia e incluyen tripulación profesional, equipo de seguridad y seguro",
+      "transfer_title": "¿No tienes transporte? ¡Te recogemos!",
+      "transfer_description": "Ofrecemos servicio de recogida desde tu hotel o alojamiento.",
+      "transfer_locations": "Playa de Alcudia, Playa de Muro, Puerto de Pollença.",
+      "transfer_contact_note": "Tras la reserva, la tripulación te contactará para organizar los detalles de la recogida.",
+      "transfer_cta": "Selecciona la opción de transfer al reservar →"
     },
     "why_choose": {
       "label": "Por Qué Elegirnos",
@@ -1625,6 +1729,46 @@
       "cta_secondary": "Descubre más momentos inolvidables"
     }
   },
+  "tours_cta_banner": {
+    "home": {
+      "headline": "¿Listo para reservar tu aventura?",
+      "subheadline": "Elige tu experiencia perfecta en la Bahía de Alcudia"
+    },
+    "blog_index": {
+      "headline": "Descubre nuestras excursiones en barco",
+      "subheadline": "Vive las mejores experiencias en la Bahía de Alcudia"
+    },
+    "tours": {
+      "headline": "¿Listo para zarpar?",
+      "subheadline": "Explora nuestras excursiones en barco más populares en la Bahía de Alcudia"
+    },
+    "destinations": {
+      "headline": "Visita estos destinos con nosotros",
+      "subheadline": "Convierte la inspiración en tu próxima aventura sobre el agua"
+    },
+    "guides": {
+      "headline": "Pon esta guía en práctica",
+      "subheadline": "Reserva la experiencia y vívela tú mismo"
+    },
+    "tips": {
+      "headline": "Aplica estos consejos en tu próximo viaje",
+      "subheadline": "Nuestras excursiones están diseñadas con estos tips en mente"
+    },
+    "cta": "Todas las excursiones salen desde el Puerto de Alcudia",
+    "book_cta": "Reserva tu plaza",
+    "morning": {
+      "name": "Excursión Matutina",
+      "tagline": "Aguas cristalinas y snorkel"
+    },
+    "sunset": {
+      "name": "Excursión Atardecer",
+      "tagline": "Hora dorada y brindis con cava"
+    },
+    "charter": {
+      "name": "Charter Privado",
+      "tagline": "Tu barco, tu horario"
+    }
+  },
   "relatedTours": {
     "label": "Descubre Más Experiencias",
     "title": "Otras Excursiones en Barco en Alcudia",
@@ -1805,6 +1949,7 @@
       "footer_info": "📍 Operando desde el Puerto de Alcudia, Mallorca | ⭐ Valoración 4.9/5 | 🏆 Más de 10 Años de Experiencia"
     }
   },
+
   "blog_quince": {
     "metaTitle": "Mejores Actividades Acuáticas en la Bahía de Alcudia: Guía Completa | Coral Boats",
     "metaDescription": "Descubre las mejores actividades acuáticas en Alcudia, Mallorca. Desde snorkel y paddle surf hasta motos de agua y vela - tu guía definitiva de deportes acuáticos en la Bahía de Alcudia.",
@@ -3017,6 +3162,172 @@
     }
   },
 
+  "blog_treintaycuatro": {
+    "metaTitle": "Un Día en Alcudia: Itinerario Perfecto del Casco Antiguo al Puerto | Coral Boats",
+    "metaDescription": "Descubre qué hacer en Alcudia en un día: itinerario paso a paso por el casco antiguo medieval, el puerto y sus rincones con más encanto. Murallas, iglesia de Sant Jaume, paseo marítimo y atardecer desde el mar.",
+    "badgeTitle": "Itinerarios",
+    "title": "El Día Perfecto en Alcudia: Del Desayuno entre Murallas al Atardecer en el Puerto",
+    "slug": "un-dia-en-alcudia-itinerario-casco-antiguo-puerto",
+    "keyword": "qué hacer en Alcudia en un día, un día en Alcudia, itinerario Alcudia, casco antiguo Alcudia, puerto de Alcudia, visitar Alcudia, Alcudia Mallorca, murallas Alcudia, iglesia Sant Jaume, paseo marítimo Alcudia, atardecer puerto Alcudia, qué ver en Alcudia",
+    "meta_description": "Alcudia merece mucho más que una visita rápida. Te proponemos un itinerario perfecto de un día: del casco antiguo medieval al puerto, con paradas imprescindibles, rincones secretos y un atardecer que no olvidarás.",
+    "publishedDate": "26 de enero de 2026",
+    "btnText": "Leer más",
+    "imageAlt": "Plaza del Ayuntamiento de Alcudia con la torre del reloj y fachadas típicas mallorquinas bajo el cielo azul",
+    "imageCaption": "La plaza del Ayuntamiento de Alcudia, con su característica torre del reloj, es el corazón del casco antiguo y el punto de partida perfecto para explorar este pueblo medieval de Mallorca.",
+    "secondaryImage1Alt": "Porta del Moll entrada principal a las murallas medievales del casco antiguo de Alcudia Mallorca con palmeras",
+    "secondaryImage2Alt": "Iglesia de Sant Jaume en el casco antiguo de Alcudia Mallorca fachada gótica con rosetón de piedra",
+    "secondaryImage3Alt": "Callejón típico del casco histórico de Alcudia Mallorca con escaleras de piedra y persianas verdes",
+    "secondaryImage4Alt": "Mercado semanal al aire libre junto a las murallas medievales de Alcudia Mallorca con puestos de fruta y verdura",
+    "secondaryImage5Alt": "Paseo marítimo del Puerto de Alcudia Mallorca con palmeras y terrazas junto al mar",
+    "secondaryImage6Alt": "Atardecer espectacular sobre el Puerto de Alcudia Mallorca con veleros y cielo rojizo reflejado en el agua",
+    "section1": {
+      "title": "Hay pueblos que se visitan y pueblos que se viven. Alcudia pertenece a la segunda categoría.",
+      "body": "Muchos viajeros que llegan a Mallorca pasan por Alcudia de camino a la playa, le dedican una hora al casco antiguo y se van pensando que ya lo han visto todo. Error. Alcudia es uno de esos lugares que necesitan un día entero para revelarse: sus murallas medievales esconden rincones que no aparecen en la primera caminata, el puerto tiene una vida propia que merece tiempo, y los mejores momentos llegan cuando la luz de la tarde transforma las piedras en oro.\n\nEn este artículo te proponemos un itinerario completo para exprimir Alcudia en un día, desde el primer café de la mañana entre murallas hasta un atardecer que, si todo sale bien, recordarás mucho tiempo. Sin prisas, sin listas interminables de monumentos, sino disfrutando cada parada como merece.\n\nSi ya conoces la zona, quizás te interese echar un vistazo a nuestra guía sobre [qué hacer en Alcudia](https://coralboats.com/es/blog-details/que-hacer-en-alcudia-planes-imprescindibles) para completar tu visita con más planes. Y si es tu primera vez, estás en el lugar correcto: vamos a contarte Alcudia como la conocemos quienes vivimos aquí."
+    },
+    "section2": {
+      "title": "Por qué Alcudia merece un día entero",
+      "body": "Alcudia no es un pueblo grande. Se puede recorrer su casco antiguo en veinte minutos si vas con prisa. Pero ahí está la trampa: con prisa no ves nada.\n\nLo que hace especial a Alcudia es la densidad de cosas interesantes concentradas en un espacio pequeño. En apenas unos cientos de metros tienes **murallas medievales del siglo XIV** que se pueden recorrer por arriba, una **iglesia gótica** que parece una fortaleza, calles empedradas con casas de piedra que llevan en pie quinientos años, restos romanos bajo tus pies y plazas donde la vida sigue el ritmo lento del Mediterráneo.\n\nY luego está el puerto. A solo cinco minutos en coche (o un paseo agradable de veinte minutos), el [Puerto de Alcudia](https://coralboats.com/es/blog-details/guia-puerto-alcudia-mallorca) ofrece un cambio de registro total: paseo marítimo, terrazas frente al mar, barcos de pesca y, si te animas, la posibilidad de salir a navegar por una de las bahías más bonitas del Mediterráneo.\n\nCombinar ambos mundos —el medieval y el marinero— es lo que convierte un día en Alcudia en algo especial. No es solo turismo: es entender cómo un lugar puede tener dos almas y que las dos funcionen a la perfección.\n\nAquí va nuestro itinerario, probado y perfeccionado después de años viviendo en esta zona de Mallorca. Síguelo al pie de la letra o adáptalo a tu ritmo; lo importante es que disfrutes."
+    },
+    "section3": {
+      "title": "Mañana: El casco antiguo de Alcudia paso a paso",
+      "body": "Tu día empieza temprano, pero no demasiado. Las 9:00-9:30 es la hora perfecta para llegar al casco antiguo: las tiendas están abriendo, los bares sacan las mesas a la calle y la luz de la mañana ilumina las fachadas de piedra sin el calor aplastante del mediodía. Si vienes en coche, aquí tienes nuestra guía sobre [dónde aparcar en Alcudia](https://coralboats.com/es/blog-details/parking-alcudia-donde-aparcar-gratis-puerto-playa) para encontrar sitio sin complicaciones.",
+      "sub1": {
+        "subtitle": "La Porta del Moll y el paseo por las murallas",
+        "body": "Empieza por la **Porta del Moll** (también llamada Porta de Xara), la puerta principal del recinto amurallado. Es la imagen más icónica de Alcudia: una torre cuadrada de piedra dorada flanqueada por palmeras que lleva dando la bienvenida a los visitantes desde el siglo XIV.\n\nDesde aquí, sube a las **murallas**. Alcudia es uno de los pocos pueblos de Mallorca que conserva su recinto amurallado casi intacto, y se puede caminar por encima de buena parte de él. El paseo no es largo (unos 20 minutos a ritmo tranquilo), pero las vistas merecen cada paso: por un lado, los tejados del pueblo viejo; por el otro, la bahía y las montañas de la Serra de Tramuntana al fondo.\n\n**Dato curioso**: Las murallas que ves hoy son en realidad las segundas. Las primeras las construyó Jaime II en el siglo XIII, y fueron ampliadas en el XIV. Los restos de la primera muralla todavía son visibles en algunos tramos."
+      },
+      "sub2": {
+        "subtitle": "La Iglesia de Sant Jaume y la plaza",
+        "body": "Bajando de las murallas, dirígete a la **Iglesia de Sant Jaume**, en pleno corazón del casco antiguo. Su fachada de piedra con el gran rosetón gótico impone desde la plaza, y su aspecto de fortaleza no es casualidad: en épocas de ataques piratas, la iglesia servía de refugio para los vecinos.\n\nEl interior merece una visita rápida: es austero pero elegante, con ese silencio fresco que solo tienen las iglesias de piedra antiguas. Si está abierta (suele estarlo por las mañanas), entra unos minutos.\n\nJusto al lado está la **Plaza de la Constitución**, con el Ayuntamiento y su bonita torre del reloj. Esta plaza es el epicentro de la vida social del pueblo: mercados, fiestas, encuentros... Todo pasa aquí. Tómate un café en alguna de las terrazas y simplemente observa. Es la mejor forma de sentir el pulso de Alcudia."
+      },
+      "sub3": {
+        "subtitle": "Perderse por las calles empedradas",
+        "body": "Este es el consejo más importante del itinerario: **después de ver los monumentos, piérdete**. El casco antiguo de Alcudia está lleno de callejones sin salida, patios escondidos, escaleras de piedra que suben a ninguna parte y rincones donde el tiempo parece haberse detenido.\n\nAléjate de la calle principal (Carrer Major) y métete por las calles laterales. Encontrarás fachadas con persianas verdes descoloridas por el sol, buganvillas que caen sobre muros de piedra centenarios, gatos dormitando en portales y ese silencio particular de los pueblos mediterráneos a media mañana.\n\nNo busques nada concreto. La gracia está en girar esquinas sin saber qué hay detrás. Alcudia se disfruta más cuando dejas el mapa guardado.\n\n**Curiosidad**: Si te fijas en el suelo de algunas calles, verás marcas de cantero en las piedras. Son las señales que dejaban los constructores medievales para identificar su trabajo. Cada maestro tenía su marca personal."
+      }
+    },
+    "section4": {
+      "title": "Mediodía: Dónde comer en el casco antiguo de Alcudia",
+      "body": "Después de la caminata matutina, te habrás ganado una buena comida. El casco antiguo de Alcudia tiene varios restaurantes interesantes, pero te recomendamos buscar los que están en las calles secundarias, no en la plaza principal (donde los precios suben y la calidad a veces baja).\n\nBusca un sitio que sirva **cocina mallorquina**: tumbet (verduras asadas con tomate), frit mallorquí (fritura de verduras con carne o pescado), pa amb oli (pan con tomate, aceite y embutido) o arroz brut (arroz caldoso con carne y setas). Son platos contundentes pero honestos, hechos con producto de la tierra.\n\nSi prefieres algo más ligero, varias cafeterías del casco antiguo ofrecen ensaladas, bocadillos y platos combinados a buen precio. Lo importante es sentarse en una terraza a la sombra y dejar que pase la parte más calurosa del día.\n\nY si quieres descubrir los sabores del Mediterráneo de otra forma, nuestros [tours en barco](https://coralboats.com/es/boat-tours-alcudia) incluyen **tapas mallorquinas y sangría artesanal** preparada a bordo por nuestra tripulación. Otra manera de comer bien, pero con vistas al mar. Puedes leer más sobre la experiencia gastronómica en nuestro post sobre [sabores mediterráneos desde el mar](https://coralboats.com/es/blog-details/sabores-mediterraneos-en-barco)."
+    },
+    "section5": {
+      "title": "Si es martes o domingo: el mercado de Alcudia",
+      "body": "Si tu día en Alcudia coincide con un **martes o un domingo**, estás de suerte: es día de mercado. El [mercado semanal de Alcudia](https://coralboats.com/es/blog-details/mercados-semanales-mallorca-alcudia-artesania) se extiende por las calles del casco antiguo y es uno de los más completos de Mallorca.\n\nEntre los puestos encontrarás de todo: sobrasada artesana, quesos, aceitunas, hierbas secas, miel, telas de lenguas (el tejido típico mallorquín), cerámica, alpargatas hechas a mano, aceite de oliva de la Serra de Tramuntana... Es una explosión de colores, olores y sabores que añade una capa extra a la visita.\n\n**Nuestro consejo**: Si vas al mercado, llega temprano (antes de las 10:00). A partir de las 11:00 en verano, el mercado se llena y moverse se hace complicado. Además, los mejores productos vuelan pronto.\n\nEl mercado suele terminar hacia las 13:00-13:30, así que encaja perfectamente con el itinerario: paseo por las murallas, mercado y comida en el casco antiguo antes de ir al puerto por la tarde.\n\nSi no coincide con día de mercado, no pasa nada. El casco antiguo tiene tiendas interesantes de artesanía, productos locales y moda que abren toda la semana. Pero el mercado, si puedes, merece la pena."
+    },
+    "section6": {
+      "title": "Tarde: Rumbo al Puerto de Alcudia",
+      "body": "Después de comer, es hora de cambiar de escenario. El [Puerto de Alcudia](https://coralboats.com/es/blog-details/guia-puerto-alcudia-mallorca) está a solo unos minutos del casco antiguo y ofrece un ambiente completamente diferente: brisa marina, veleros meciéndose en el agua, paseo marítimo y esa energía tranquila de los puertos mediterráneos.",
+      "sub1": {
+        "subtitle": "El paseo marítimo y la zona del puerto",
+        "body": "El paseo marítimo del Puerto de Alcudia es ideal para caminar después de comer. Palmeras, bancos con vistas al mar, terrazas donde tomar un helado o un café con hielo... El ritmo aquí es lento por definición.\n\nPasea por la zona del puerto deportivo y observa los barcos. Desde pequeños llaüts tradicionales hasta veleros de recreo, el puerto tiene ese encanto particular de los sitios donde el mar es el protagonista. Si te fijas, verás también los barcos de pesca locales, que todavía salen cada noche a faenar.\n\nDesde aquí también puedes ver la **Bahía de Alcudia** en toda su extensión: la línea de costa curvándose hacia el este, las montañas al fondo y, si el día está despejado, la silueta del Cap de Formentor cerrando la bahía por el norte."
+      },
+      "sub2": {
+        "subtitle": "Merienda y helados frente al mar",
+        "body": "El Puerto de Alcudia tiene varias heladerías artesanas que merecen una parada. Después de una mañana caminando por calles empedradas, un helado frente al mar es uno de esos pequeños placeres que hacen que un día sea perfecto.\n\nSi prefieres algo más consistente, las cafeterías del paseo marítimo ofrecen pasteles, granizados y esos cafés con leche de almendra que tanto gustan en Mallorca. Busca un sitio con terraza mirando al mar y simplemente relájate. La tarde en el puerto es para eso.\n\nDesde [Coral Boats](https://coralboats.com/es/about) operamos precisamente aquí, en el Puerto de Alcudia. Si nos ves preparando los barcos para el siguiente tour, acércate a saludar. Nuestra tripulación, 100% mallorquina, estará encantada de recomendarte el mejor helado de la zona o contarte alguna historia del puerto."
+      }
+    },
+    "section7": {
+      "title": "El broche de oro: un atardecer que no olvidarás",
+      "body": "Si hay algo que convierte un buen día en Alcudia en un día inolvidable, es el atardecer. Y la mejor forma de verlo es desde el mar.\n\nNuestro [tour al atardecer](https://coralboats.com/es/alcudia-sunset-boat-tour) sale del Puerto de Alcudia a última hora de la tarde y navega por la costa norte mientras el sol baja hacia el horizonte. Calas escondidas, aguas cristalinas, [snorkel](https://coralboats.com/es/blog-details/snorkeling-mallorca-best-spots-alcudia), paddle surf, y la sangría artesanal que prepara nuestra tripulación mientras los colores del cielo pasan del dorado al rosa y al violeta.\n\nEs la forma perfecta de cerrar un día que empezó entre murallas medievales y termina en el mar, con la Bahía de Alcudia pintada de colores que ninguna foto puede capturar del todo. Si prefieres navegar por la mañana, también tenemos un [tour matutino](https://coralboats.com/es/alcudia-morning-boat-tour) que encaja con el itinerario (mañana en barco, tarde en el pueblo). Y si buscas algo más exclusivo, nuestro [alquiler de barco privado](https://coralboats.com/es/alcudia-private-boat-charter) te permite diseñar tu propia ruta por la bahía.\n\nPuedes leer más sobre la experiencia de ver la [puesta de sol en Alcudia desde el mar](https://coralboats.com/es/blog-details/puesta-de-sol-alcudia-mar-inolvidable) y sobre los [rincones secretos de la bahía](https://coralboats.com/es/blog-details/cinco-rincones-secretos-desde-el-mar-alcudia) que solo se descubren navegando."
+    },
+    "section8": {
+      "title": "Consejos prácticos para tu día en Alcudia",
+      "body": "Unos apuntes rápidos para que todo salga rodado:\n\n- **Calzado cómodo**: Las calles del casco antiguo son de piedra irregular. Zapatillas o sandalias con buen agarre, nada de tacones.\n- **Protección solar**: Incluso en primavera y otoño, el sol mallorquín pega fuerte. Crema, gorra y gafas de sol, especialmente para el paseo por el puerto.\n- **Agua**: Lleva una botella. En verano, el calor dentro de las murallas puede ser intenso.\n- **Efectivo**: Algunos bares y tiendas pequeñas del casco antiguo no aceptan tarjeta. Lleva algo de efectivo por si acaso.\n- **Horarios**: Las tiendas del casco antiguo suelen cerrar de 13:30 a 17:00 en verano (la siesta es sagrada). Planifica la visita al pueblo por la mañana.\n- **Aparcamiento**: El [parking en Alcudia](https://coralboats.com/es/blog-details/parking-alcudia-donde-aparcar-gratis-puerto-playa) puede ser complicado en temporada alta. Nosotros recomendamos aparcar en las zonas gratuitas fuera de las murallas y caminar.\n- **Si viajas con niños**: Alcudia es muy cómoda para familias. El casco antiguo es peatonal en su mayor parte y el puerto tiene zonas amplias. Echa un vistazo a nuestros [planes en barco para familias](https://coralboats.com/es/blog-details/planes-barco-familias-ninos) si quieres combinar el pueblo con una excursión marítima.\n- **Transporte**: Si no tienes coche, puedes leer nuestra guía sobre [cómo moverse por Mallorca](https://coralboats.com/es/blog-details/como-moverse-por-mallorca-transporte-alquiler-coche) para ver opciones de bus y alquiler."
+    },
+    "section9": {
+      "title": "Alcudia en un día: mucho más que murallas y puerto",
+      "body": "Un día en Alcudia es un día bien aprovechado. Empiezas entre piedras medievales que cuentan historias de siglos, pasas por calles donde el tiempo camina más despacio que en cualquier otro sitio, comes como se come en Mallorca (bien y sin prisas), y terminas viendo cómo el sol se esconde detrás del mar desde la cubierta de un barco.\n\nPero lo mejor de Alcudia no es lo que ves, sino lo que sientes. Esa mezcla de historia y mar, de pueblo viejo y puerto vivo, de tradición y Mediterráneo. Es lo que hace que la gente vuelva. Y vuelve.\n\nNosotros lo vemos cada día desde el Puerto de Alcudia, cuando nuestros barcos salen con nuevos pasajeros que, muchas veces, ya vinieron el año pasado. Si quieres conocer la bahía desde el agua, [aquí tienes nuestros tours](https://coralboats.com/es/boat-tours-alcudia). Y si tienes más días en la isla, no dejes de leer nuestro [itinerario de 3 días por Mallorca](https://coralboats.com/es/blog-details/que-ver-mallorca-3-dias-itinerario-completo) para seguir descubriendo.\n\nAlcudia te espera. Con sus murallas, su puerto, su luz y ese ritmo que solo tienen los pueblos que llevan aquí desde siempre.\n\n**Ens veim al port!** (¡Nos vemos en el puerto!)"
+    }
+  },
+
+  "blog_treintaycinco": {
+    "metaTitle": "Jet Ski en Alcudia y Norte de Mallorca: Guía Completa de Motos de Agua | Precios, Requisitos y Mejores Rutas",
+    "metaDescription": "Guía completa de jetski y motos de agua en Alcudia, Playa de Muro, Can Picafort y Puerto Pollença. Precios actualizados, requisitos de edad y carnet, rutas recomendadas, empresas locales y consejos de expertos para alquilar una moto de agua en el norte de Mallorca.",
+    "badgeTitle": "Actividades acuáticas",
+    "title": "Jetski en Alcudia: Guía Completa para Alquilar Motos de Agua en el Norte de Mallorca",
+    "slug": "jetski-motos-de-agua-alcudia-mallorca-guia-completa",
+    "keyword": "jetski Alcudia, motos de agua Mallorca, alquiler jetski Puerto de Alcudia, jetski Playa de Muro, motos de agua Can Picafort, jetski Puerto Pollença, alquiler motos acuáticas Mallorca, precio jetski Alcudia, requisitos jetski Mallorca, carnet moto de agua, edad mínima jetski, rutas jetski bahía de Alcudia, actividades acuáticas Alcudia, deportes náuticos Mallorca",
+    "meta_description": "Todo lo que necesitas saber sobre el alquiler de jetski y motos de agua en Alcudia y el norte de Mallorca. Precios, requisitos, edad mínima, necesidad de carnet, mejores zonas para navegar y consejos de locales para disfrutar de las motos acuáticas.",
+    "publishedDate": "3 de febrero",
+    "btnText": "Leer más",
+    "imageAlt": "Jetski navegando en las aguas cristalinas de la bahía de Alcudia Mallorca con la costa al fondo",
+    "imageCaption": "Las motos de agua o jetskis son una de las actividades acuáticas más emocionantes que puedes disfrutar en las aguas turquesas del norte de Mallorca, con la Bahía de Alcudia como escenario principal.",
+    "section1": {
+      "title": "El jetski, una de las experiencias más emocionantes del Mediterráneo",
+      "body": "Si hay una actividad acuática que combina adrenalina, libertad y las mejores vistas de la costa mallorquina, esa es sin duda el **jetski** o **moto de agua**. El norte de Mallorca, con su extensa Bahía de Alcudia, sus aguas tranquilas y protegidas, y sus paisajes espectaculares, se ha convertido en uno de los destinos favoritos de Europa para disfrutar de esta experiencia.\n\nDesde el **Puerto de Alcudia** hasta **Puerto Pollença**, pasando por **Playa de Muro** y **Can Picafort**, la zona ofrece múltiples opciones para **alquilar motos de agua** y explorar la costa desde una perspectiva única. Ya seas un principiante absoluto o un piloto experimentado, hay opciones para todos los niveles.\n\nEn **Coral Boats** nos dedicamos a los [paseos en barco por Alcudia](https://coralboats.com/es/boat-tours-alcudia), pero como empresa local con años de experiencia en la bahía, conocemos perfectamente todas las **actividades náuticas** disponibles en la zona. Nuestra tripulación, 100% mallorquina, estará encantada de orientarte sobre las **mejores empresas de alquiler de jetski**, las rutas más espectaculares y todos esos detalles que solo los locales conocemos.\n\nEn esta guía completa te contamos absolutamente todo lo que necesitas saber para **alquilar un jetski en Alcudia**: precios actualizados, requisitos legales, edad mínima, si necesitas carnet o no, las mejores zonas para navegar, consejos de seguridad y mucho más. Vamos allá."
+    },
+    "section2": {
+      "title": "¿Qué es un jetski y por qué es tan popular en Mallorca?",
+      "body": "El **jetski** (también conocido como **moto de agua**, **moto náutica** o **watercraft**) es una embarcación personal propulsada por un motor de reacción que aspira agua y la expulsa a gran presión para generar movimiento. A diferencia de las lanchas tradicionales, el jetski se maneja de forma similar a una motocicleta, con el piloto (y un posible acompañante) sentado a horcajadas.\n\nLa marca **Jet Ski** es en realidad un nombre comercial de Kawasaki, aunque se ha convertido en el término genérico para referirse a todas las motos de agua. Otras marcas populares incluyen **Sea-Doo** (de BRP), **Yamaha WaveRunner** y **Honda AquaTrax**. Todas ellas se pueden encontrar en los centros de alquiler del norte de Mallorca.\n\n**¿Por qué son tan populares en la Bahía de Alcudia?**\n\nLa bahía ofrece condiciones casi perfectas para el jetski:\n\n- **Aguas tranquilas y protegidas**: La forma de herradura de la bahía protege de los vientos predominantes, creando condiciones ideales casi todos los días de la temporada.\n- **Temperatura del agua agradable**: Entre junio y octubre, el agua oscila entre 22°C y 27°C, perfecta para actividades acuáticas.\n- **Paisajes espectaculares**: Desde el mar se pueden contemplar los acantilados, las playas vírgenes, la Serra de Tramuntana al fondo y la silueta del Cap de Formentor.\n- **Infraestructura náutica**: El Puerto de Alcudia, Puerto Pollença y las playas principales cuentan con empresas profesionales de alquiler.\n- **Diversidad de rutas**: Desde paseos tranquilos por aguas someras hasta travesías más largas explorando la costa norte.\n\nSi te interesa conocer la bahía desde otra perspectiva, nuestros [tours en barco](https://coralboats.com/es/boat-tours-alcudia) recorren muchos de los mismos paisajes, pero con un ritmo más relajado, paradas para snorkel, tapas a bordo y la posibilidad de disfrutar de la puesta de sol desde el agua."
+    },
+    "section3": {
+      "title": "Requisitos legales para pilotar un jetski en Mallorca",
+      "body": "Antes de lanzarte al agua, es fundamental conocer la **normativa española** sobre motos de agua. Las reglas han cambiado en los últimos años y hay mucha confusión al respecto, así que vamos a aclarar todas las dudas.",
+      "sub1": {
+        "subtitle": "¿Necesito carnet o licencia para pilotar un jetski?",
+        "body": "**Sí y no**, dependiendo de la potencia de la moto de agua y de cómo la alquiles:\n\n- **Jetskis de hasta 55 CV (caballos de vapor)**: NO necesitas ninguna titulación náutica. Cualquier persona mayor de edad puede pilotarlo tras recibir las instrucciones básicas de la empresa de alquiler.\n- **Jetskis de más de 55 CV**: Necesitas la **Licencia de Navegación** (anteriormente conocida como titulín) como mínimo. Para motos muy potentes puede requerirse el **PNB (Patrón de Navegación Básica)** o titulaciones superiores.\n\n**La buena noticia**: La inmensa mayoría de empresas de alquiler en Alcudia, Playa de Muro y Can Picafort ofrecen **jetskis de hasta 55 CV** precisamente para que cualquier turista pueda disfrutar de la experiencia sin necesidad de carnet.\n\n**Importante**: Aunque no necesites carnet, las empresas de alquiler están obligadas a darte una **formación básica de seguridad** antes de salir. Esta formación incluye:\n- Cómo arrancar y apagar la moto\n- Control del acelerador y la dirección\n- Qué hacer en caso de caída al agua\n- Normas de navegación básicas\n- Zonas permitidas y prohibidas\n- Uso del chaleco salvavidas y la llave de seguridad"
+      },
+      "sub2": {
+        "subtitle": "Edad mínima para pilotar una moto de agua",
+        "body": "La **edad mínima para pilotar un jetski en España** es de **18 años** si vas solo, ya que se considera que eres el patrón de la embarcación.\n\nSin embargo, existe una excepción importante: los **menores de entre 16 y 17 años** pueden pilotar un jetski de hasta 55 CV si van **acompañados de un adulto** (mayor de 18 años) que asuma la responsabilidad. En este caso, el adulto no necesita titulación si la moto es de baja potencia.\n\n**¿Y los niños más pequeños?**\n\nLos menores de 16 años **no pueden pilotar**, pero sí pueden ir como **pasajeros** en el asiento trasero de un jetski biplaza siempre que:\n- El piloto sea mayor de edad\n- El menor lleve chaleco salvavidas homologado\n- La empresa de alquiler lo permita (algunas establecen mínimos de edad propios, generalmente 6-8 años)\n\nCada empresa puede tener sus propias políticas adicionales, por lo que siempre recomendamos consultar antes de reservar si viajas con menores."
+      },
+      "sub3": {
+        "subtitle": "Documentación necesaria",
+        "body": "Para **alquilar un jetski en Mallorca** necesitarás presentar:\n\n- **DNI o pasaporte** en vigor (imprescindible para el contrato de alquiler)\n- **Tarjeta de crédito** (la mayoría de empresas retienen una fianza que se devuelve al entregar la moto en buen estado)\n- **Titulación náutica** (solo si la moto supera los 55 CV)\n\n**Consejo práctico**: Lleva también una **fotocopia del DNI** o una foto en el móvil. Algunas empresas se quedan con una copia durante el alquiler.\n\nSi tienes cualquier duda sobre requisitos, documentación o qué empresa elegir, no dudes en preguntarnos cuando vengas a hacer uno de nuestros [tours en barco](https://coralboats.com/es/boat-tours-alcudia). Conocemos a la mayoría de operadores de la zona y podemos orientarte sin compromiso."
+      }
+    },
+    "section4": {
+      "title": "¿Dónde alquilar jetski en el norte de Mallorca?",
+      "body": "La zona norte de Mallorca concentra varias opciones para el **alquiler de motos de agua**. Cada ubicación tiene sus particularidades, ventajas y tipo de experiencia. Aquí te detallamos las principales zonas.",
+      "sub1": {
+        "subtitle": "Puerto de Alcudia: la opción más completa",
+        "body": "El **Puerto de Alcudia** es probablemente la mejor zona para alquilar un jetski si buscas variedad de empresas, buenas infraestructuras y acceso fácil a rutas espectaculares.\n\n**Ventajas**:\n- Mayor concentración de empresas de alquiler\n- Fácil acceso desde el paseo marítimo\n- Servicios completos: duchas, vestuarios, parking cercano\n- Acceso directo a la bahía y a la costa de Alcanada\n- Posibilidad de combinar con otras actividades (restaurantes, paseos, [excursiones en barco](https://coralboats.com/es/boat-tours-alcudia))\n\n**Rutas populares desde el Puerto de Alcudia**:\n- Hacia la **Isla de Alcanada** y su faro (ruta corta, ideal para principiantes)\n- Bordeando la costa hasta **Playa de Muro** (ruta intermedia)\n- Hacia el norte, dirección **Cap des Pinar** (más exigente, paisajes espectaculares)\n\nSi te alojas en el [Puerto de Alcudia](https://coralboats.com/es/blog-details/guia-puerto-alcudia-mallorca) o en los hoteles cercanos, esta es sin duda tu mejor opción."
+      },
+      "sub2": {
+        "subtitle": "Playa de Muro y Can Picafort",
+        "body": "Las playas de **Playa de Muro** y **Can Picafort** también cuentan con puntos de alquiler de jetski, normalmente ubicados directamente en la arena o en pequeños embarcaderos.\n\n**Ventajas de Playa de Muro**:\n- Salida directa desde la playa (muy cómodo si estás tomando el sol)\n- Aguas especialmente tranquilas y poco profundas cerca de la orilla\n- Ideal para familias que quieren hacer una actividad rápida sin desplazarse\n- Ambiente más relajado que en el puerto\n\n**Ventajas de Can Picafort**:\n- Precio a veces ligeramente inferior\n- Menos masificación en temporada alta\n- Buenas rutas hacia el sur de la bahía y las calas de Son Serra de Marina\n\nSi quieres conocer mejor estas zonas, te recomendamos nuestro artículo sobre [qué hacer en Playa de Muro](https://coralboats.com/es/blog-details/best-things-to-do-playa-de-muro-alcudia)."
+      },
+      "sub3": {
+        "subtitle": "Puerto Pollença: la alternativa tranquila",
+        "body": "**Puerto Pollença** (Port de Pollença) se encuentra al norte de Alcudia, en la otra bahía. Es una opción excelente si buscas un ambiente más tranquilo y exclusivo.\n\n**Ventajas**:\n- Ambiente más selecto y menos turístico\n- Acceso privilegiado a la **Bahía de Pollença** y las calas del norte\n- Vistas espectaculares hacia **Formentor**\n- Menos tráfico marítimo que en Alcudia\n\n**Rutas populares desde Puerto Pollença**:\n- Hacia la **Playa de Formentor** (ruta espectacular entre acantilados)\n- Bordeando la costa hacia **Cala Sant Vicenç**\n- Explorando las pequeñas calas entre Pollença y Formentor\n\nEl único inconveniente es que hay menos empresas de alquiler que en Alcudia, por lo que en temporada alta conviene reservar con antelación.\n\nSi decides explorar esta zona, no te pierdas nuestra guía sobre el [Faro y Playa de Formentor](https://coralboats.com/es/blog-details/faro-playa-formentor-mallorca-guia-completa)."
+      }
+    },
+    "section5": {
+      "title": "Precios del alquiler de jetski en Alcudia: guía actualizada",
+      "body": "Los **precios del alquiler de jetski** varían según la empresa, la temporada, la potencia de la moto y la duración del alquiler. Aquí te damos una orientación basada en los precios habituales en la zona norte de Mallorca:\n\n**Tarifas orientativas (temporada alta)**:\n\n| Duración | Precio aproximado |\n|----------|-------------------|\n| 15-20 minutos | 60€ - 80€ |\n| 30 minutos | 90€ - 120€ |\n| 1 hora | 150€ - 200€ |\n| Safari guiado (1-2 horas) | 180€ - 280€ |\n\n**Factores que influyen en el precio**:\n\n- **Temporada**: En julio y agosto los precios son máximos. Junio y septiembre suelen ser un 10-15% más baratos.\n- **Potencia de la moto**: Los jetskis más potentes (para usuarios con licencia) suelen costar más.\n- **Uno o dos ocupantes**: El precio generalmente es por moto, no por persona, así que ir en pareja resulta más económico por persona.\n- **Con guía o sin guía**: Los safaris guiados son más caros pero incluyen una ruta organizada y explicaciones.\n- **Hora del día**: Algunas empresas ofrecen descuentos en primera hora de la mañana o última de la tarde.\n\n**¿Qué incluye normalmente el precio?**\n- Alquiler de la moto de agua\n- Chaleco salvavidas\n- Instrucciones de seguridad\n- Seguro básico de responsabilidad civil\n\n**¿Qué NO suele incluir?**\n- Combustible (algunas empresas lo cobran aparte o incluyen un depósito limitado)\n- Seguro a todo riesgo (opcional, reduce la fianza)\n- Fotos o vídeos de la experiencia\n\n**Fianza**: La mayoría de empresas retienen entre **100€ y 300€** en tarjeta de crédito como depósito de seguridad. Esta cantidad se libera al devolver el jetski en buen estado.\n\n**Consejo de local**: Si quieres comparar precios cómodamente, da un paseo por el Puerto de Alcudia y consulta en varias empresas antes de decidir. Los precios a veces son negociables fuera de las horas punta."
+    },
+    "section6": {
+      "title": "Rutas de jetski recomendadas en la Bahía de Alcudia",
+      "body": "Una de las grandes ventajas de hacer **jetski en Alcudia** es la variedad de rutas posibles. Dependiendo de tu nivel de experiencia, el tiempo disponible y lo que busques (adrenalina, paisajes, relax), puedes elegir entre estas opciones:",
+      "sub1": {
+        "subtitle": "Ruta principiante: Puerto de Alcudia - Isla de Alcanada",
+        "body": "**Distancia**: ~3-4 km ida y vuelta\n**Duración recomendada**: 20-30 minutos\n**Dificultad**: Baja\n\nLa ruta perfecta para tu primera experiencia en jetski. Sales del puerto, bordeas la costa con calma y te diriges hacia la **Isla de Alcanada** con su característico faro blanco. Las aguas son tranquilas, la distancia es corta y las vistas son espectaculares.\n\n**Puntos de interés**:\n- Vistas del Puerto de Alcudia desde el mar\n- La playa de Alcanada y sus aguas cristalinas\n- El faro de Alcanada (construido en 1861)\n- Posibilidad de ver barcos de vela y kayaks\n\nSi te quedas con ganas de conocer mejor esta zona, nuestra tripulación puede contarte muchas historias sobre el faro y la isla durante nuestros [tours en barco por Alcudia](https://coralboats.com/es/alcudia-morning-boat-tour), donde hacemos parada cerca de este punto."
+      },
+      "sub2": {
+        "subtitle": "Ruta intermedia: Bahía de Alcudia completa",
+        "body": "**Distancia**: ~12-15 km\n**Duración recomendada**: 45-60 minutos\n**Dificultad**: Media\n\nEsta ruta te permite recorrer buena parte de la **Bahía de Alcudia**, disfrutando de la diversidad de paisajes que ofrece.\n\n**Itinerario sugerido**:\n1. Salida desde el Puerto de Alcudia\n2. Dirección sur hacia **Playa de Muro** (podrás ver las dunas y los pinos desde el mar)\n3. Continúa bordeando la costa hacia **Can Picafort**\n4. Regreso por el centro de la bahía, con vistas a toda la costa\n\n**Puntos de interés**:\n- La extensión completa de la playa de Alcudia y Playa de Muro\n- S'Albufera (el humedal se ve desde el mar)\n- Las urbanizaciones y hoteles desde una perspectiva diferente\n- Posibilidad de ver la Serra de Tramuntana al fondo\n\nEsta ruta es ideal si ya tienes algo de confianza con la moto y quieres explorar más. El mar en la bahía suele estar en calma, pero mantén siempre un ojo en las banderas de estado del mar."
+      },
+      "sub3": {
+        "subtitle": "Ruta avanzada: Hacia Cap des Pinar y las calas del norte",
+        "body": "**Distancia**: ~15-20 km\n**Duración recomendada**: 1-2 horas\n**Dificultad**: Alta (requiere experiencia)\n\nPara los más aventureros y con experiencia en jetski, la ruta hacia el norte ofrece los paisajes más salvajes e impresionantes.\n\n**Itinerario sugerido**:\n1. Salida desde el Puerto de Alcudia dirección norte\n2. Paso por la Playa de Sant Joan y las calas rocosas\n3. Hacia **Cap des Pinar** (atención: zona más expuesta al viento)\n4. Posibilidad de continuar hacia **Cala Sant Pere** y más allá\n\n**Advertencias importantes**:\n- Esta zona puede estar **más expuesta al viento y al oleaje**\n- Solo recomendable con **mar en calma** y experiencia previa\n- Algunas empresas no permiten ir tan lejos sin guía\n- Lleva combustible suficiente (confirma el alcance con la empresa de alquiler)\n\n**Puntos de interés**:\n- Acantilados espectaculares\n- Calas vírgenes solo accesibles por mar\n- Vistas hacia la Bahía de Pollença\n- Flora y fauna mediterránea en estado puro\n\nSi te atrae este tipo de paisaje pero prefieres disfrutarlo de forma más relajada, nuestros [tours en barco](https://coralboats.com/es/boat-tours-alcudia) recorren parte de esta costa con paradas para snorkel y baño en calas escondidas."
+      }
+    },
+    "section7": {
+      "title": "Consejos de seguridad para pilotar una moto de agua",
+      "body": "El jetski es una actividad segura cuando se practica con responsabilidad. Sin embargo, como cualquier deporte náutico motorizado, conlleva riesgos que debes conocer y minimizar. Aquí van nuestros **consejos de seguridad** basados en años de experiencia en la bahía:\n\n**Antes de salir**:\n- **Escucha atentamente las instrucciones** de la empresa de alquiler. Aunque parezcan obvias, pueden salvarte de un susto.\n- **Comprueba el chaleco salvavidas**: debe estar bien ajustado y homologado.\n- **Asegura la llave de seguridad** a tu muñeca o chaleco. Si te caes, la llave se suelta y el motor se para automáticamente.\n- **Verifica el estado de la moto** visualmente antes de salir. Si ves algo raro, comunícalo.\n- **Consulta el estado del mar y el viento**. Si hay bandera amarilla o roja, no salgas.\n\n**Durante la navegación**:\n- **Mantén siempre una distancia de seguridad** de otras embarcaciones, bañistas, kayaks y paddlers. Mínimo 50-100 metros de la orilla.\n- **Adapta la velocidad a las condiciones**: en zonas con más tráfico o mar revuelto, reduce la velocidad.\n- **No hagas maniobras bruscas** cerca de otros usuarios del mar.\n- **Cuidado con las zonas de baño**: están balizadas por algo. Respeta las boyas.\n- **Si te cruzas con un barco grande**, recuerda que tiene preferencia y maniobra más lento.\n- **Atención a los cambios de viento y oleaje**: pueden aparecer de forma rápida.\n\n**En caso de caída**:\n- Mantén la calma. El chaleco te mantendrá a flote.\n- Nada hacia la moto por la parte trasera (nunca por donde está la turbina).\n- Sube por la plataforma trasera.\n- Si no puedes subir, quédate junto a la moto y espera ayuda.\n\n**Consejos adicionales**:\n- **Protección solar resistente al agua**: vas a sudar y mojarte, elige una crema sport SPF50.\n- **Gafas de sol con correa**: el viento es fuerte y perderlas es muy fácil.\n- **Ropa de baño ajustada**: evita que la ropa holgada se enganche o moleste.\n- **Canguro o riñonera impermeable** para llaves del coche o documentos si lo necesitas.\n- **Evita el alcohol** antes y durante la actividad. Es peligroso y además está prohibido.\n\nRecuerda: el mar es un entorno cambiante y hay que respetarlo. Si tienes cualquier duda sobre condiciones meteorológicas o rutas seguras, pregunta a los profesionales de la zona. Nosotros mismos, desde [Coral Boats](https://coralboats.com/es/about), siempre estamos dispuestos a orientar a quien nos pregunta."
+    },
+    "section8": {
+      "title": "Jetski vs. otras actividades acuáticas: ¿qué elegir?",
+      "body": "El norte de Mallorca ofrece una enorme variedad de **actividades acuáticas**. El jetski es solo una de las opciones. Aquí te ayudamos a decidir si es lo que buscas o si otra actividad se adapta mejor a tus preferencias:\n\n**Jetski**: Adrenalina, velocidad, libertad de movimiento. Ideal para quienes buscan emoción y quieren sentir el viento en la cara. Requiere atención y algo de condición física. No incluye paradas ni actividades complementarias.\n\n**Parasailing**: Volar sobre el mar enganchado a un paracaídas es espectacular, pero es una experiencia pasiva: tú no controlas nada. Bueno para vistas aéreas y fotos impresionantes.\n\n**Banana boat / inflables**: Diversión grupal y muchas risas, especialmente para niños y adolescentes. No requiere habilidad, solo aguantar sin caerte.\n\n**Paddle surf (SUP)**: Ritmo lento, ejercicio suave, conexión con el mar. Permite explorar calas y aguas tranquilas. Lo ofrecemos incluido en nuestros [tours en barco](https://coralboats.com/es/boat-tours-alcudia).\n\n**Kayak**: Similar al paddle surf pero sentado. Bueno para distancias más largas y para ir en pareja.\n\n**Snorkel**: Explorar el fondo marino, ver peces, descubrir la posidonia. Una actividad relajada que también incluimos en nuestras [excursiones](https://coralboats.com/es/alcudia-morning-boat-tour).\n\n**Excursiones en barco**: Si quieres disfrutar del mar sin esfuerzo, con tapas, bebidas, música suave y paradas para baño, nuestros paseos en barco son la opción perfecta. Ideal para parejas, familias y grupos que prefieren relajarse.\n\n**Nuestra recomendación**: Si nunca has hecho jetski y te llama la atención, pruébalo al menos una vez. Es una experiencia única. Y si después quieres algo más tranquilo para ver la puesta de sol, nuestro [tour al atardecer](https://coralboats.com/es/alcudia-sunset-boat-tour) te esperará con una sangría fría y las mejores vistas de la bahía."
+    },
+    "section9": {
+      "title": "Preguntas frecuentes sobre jetski en Alcudia y Mallorca",
+      "body": "**¿Puedo alquilar un jetski sin carnet en Alcudia?**\nSí, siempre que la moto de agua tenga hasta 55 CV de potencia, que es lo que ofrecen la mayoría de empresas de alquiler para turistas.\n\n**¿Cuántas personas pueden ir en un jetski?**\nLa mayoría de jetskis de alquiler son biplaza: un piloto y un acompañante. Algunas motos más grandes pueden llevar hasta 3 personas, pero es menos habitual.\n\n**¿Necesito saber nadar para pilotar un jetski?**\nOficialmente no es obligatorio, pero es **altamente recomendable**. En caso de caída, tendrás que nadar hasta la moto. El chaleco salvavidas ayuda, pero saber nadar da mucha más seguridad.\n\n**¿Puedo llevar a mi hijo de 8 años como pasajero?**\nDepende de la empresa. Muchas permiten pasajeros infantiles a partir de 6-8 años, siempre con chaleco y acompañados del adulto piloto. Consulta antes de reservar.\n\n**¿Qué pasa si se estropea la moto o me quedo sin combustible?**\nLas empresas de alquiler tienen protocolos para estos casos. Generalmente vendrán a ayudarte en otra embarcación. Por eso es importante no alejarse demasiado de la zona permitida.\n\n**¿Puedo reservar con antelación?**\nSí, y en temporada alta (julio-agosto) es muy recomendable. Muchas empresas tienen reserva online o telefónica.\n\n**¿Qué diferencia hay entre alquiler libre y safari guiado?**\nEn el alquiler libre tú decides la ruta dentro de una zona delimitada. En el safari guiado, un monitor va delante marcando el ritmo y la ruta, lo que permite ir más lejos y conocer lugares que de otro modo no encontrarías.\n\n**¿Se puede hacer jetski todo el año en Mallorca?**\nLa temporada principal va de mayo a octubre. Fuera de esas fechas, muchas empresas cierran o solo abren bajo demanda y condiciones meteorológicas favorables.\n\n**¿Dónde puedo informarme sobre las mejores empresas de jetski?**\nNuestra tripulación de [Coral Boats](https://coralboats.com/es/about), que opera en el Puerto de Alcudia desde hace años, conoce bien la zona y a los operadores locales. Si vienes a hacer un tour con nosotros, pregúntanos sin compromiso: estaremos encantados de orientarte sobre dónde alquilar, qué rutas hacer y qué empresa se adapta mejor a lo que buscas.\n\n---\n\nEsperamos que esta guía te haya sido útil para planificar tu experiencia de **jetski en Alcudia**. El norte de Mallorca tiene mucho que ofrecer sobre el agua, ya sea a toda velocidad sobre una moto acuática o navegando tranquilamente en nuestros barcos tradicionales.\n\n¿Nos vemos en el mar? 🌊"
+    },
+    "secondaryImage1Alt": "Motos de agua navegando en la bahía de Alcudia durante actividades náuticas en Mallorca",
+    "secondaryImage2Alt": "Pareja disfrutando de un jetski en las aguas turquesas de Playa de Muro Mallorca",
+    "secondaryImage3Alt": "Alquiler de jetski en el Puerto de Alcudia para turismo activo y deportes acuáticos",
+    "secondaryImage4Alt": "Moto acuática surcando las aguas cristalinas del Mediterráneo en la costa de Mallorca"
+  },
+
   "blogReadTime": "Lectura de 10-15 min",
   "blogCTA": {
     "title": "¿Listo para vivir la experiencia?",
@@ -3066,5 +3377,243 @@
 
   "breadcrumb": {
     "home": "Inicio"
+  },
+
+  "blog_category": {
+    "back_to_blog": "Volver a todos los artículos",
+    "tours": {
+      "hero": {
+        "badge": "Excursiones en Barco",
+        "title": "Excursiones en Barco y Paseos Marítimos en Mallorca",
+        "subtitle": "Explora nuestras guías sobre las mejores excursiones en barco por la Alcudia y la isla de Mallorca: tours al atardecer, charters privados, aventuras en familia y todo lo que necesitas para vivir una experiencia inolvidable en el mar."
+      },
+      "post_count": "artículos sobre excursiones en barco",
+      "seo": {
+        "title": "Todo sobre Excursiones en Barco en Mallorca",
+        "intro": "Las excursiones en barco en Mallorca son la forma perfecta de descubrir la belleza de la costa mediterránea. Desde el Puerto de Alcudia, nuestras rutas recorren calas escondidas, acantilados espectaculares y aguas cristalinas algunas de las cuales solo son accesibles por mar. Ya sea una excursión matinal con snorkel y paradas en playas vírgenes, un crucero al atardecer con vistas a la Serra de Tramuntana y una espectacular puesta de sol, o un charter privado para celebrar una ocasión especial, cada experiencia en barco te ofrece una perspectiva única de la isla.<br><br>La Bahía de Alcudia, con sus aguas tranquilas y protegidas, es el punto de partida ideal. El clima mediterráneo garantiza condiciones perfectas durante la temporada, y la diversidad de paisajes costeros — desde los acantilados del Cabo Menorca hasta las playas de arena blanca de Playa de Muro — convierte cada salida en una aventura diferente. Nuestros artículos te ayudarán a elegir la excursión perfecta según tus preferencias, presupuesto y grupo de viaje.",
+        "card1_title": "Tipos de Excursiones Disponibles",
+        "card1_text": "Descubre las diferencias entre excursiones matinales, tours al atardecer y charters privados. Cada modalidad ofrece experiencias únicas: snorkel en calas escondidas, aperitivos con sangría mientras el sol se pone, o la libertad total de un barco solo para ti y tu grupo.",
+        "card2_title": "Cómo Elegir tu Excursión Perfecta",
+        "card2_text": "¿Viajas en familia, en pareja o con amigos? ¿Prefieres aventura activa o relajación total? Nuestras guías comparativas te ayudan a encontrar la excursión ideal. Incluimos información sobre precios, duración, rutas y qué esperar en cada tipo de tour.",
+        "cta_title": "Reserva tu Aventura Marítima",
+        "cta_text": "Consulta nuestros artículos para prepararte al máximo antes de tu excursión en barco por Mallorca."
+      },
+      "faq": {
+        "q1": "¿Cuáles son las mejores excursiones en barco desde Alcudia?",
+        "a1": "Las mejores excursiones incluyen los tours matinales con snorkel por calas escondidas, los cruceros al atardecer por la Bahía de Alcudia y los charters privados para grupos que recorren la costa norte de Mallorca.",
+        "q2": "¿Qué diferencia hay entre una excursión en barco privada y compartida?",
+        "a2": "Las excursiones compartidas son una opción económica donde compartes barco con otros viajeros, con rutas establecidas. Las excursiones privadas te ofrecen exclusividad total: eliges la ruta, los horarios y las paradas, ideal para familias o celebraciones especiales.",
+        "q3": "¿Cuánto cuesta una excursión en barco en Mallorca?",
+        "a3": "Los precios varían según el tipo de excursión. Los tours compartidos matinales o al atardecer suelen costar entre 50€ y 80€ por adulto. Los charters privados dependen de la duración y el tamaño del barco, empezando desde 400€ para grupos pequeños o 1500€ para eventos más grandes o personalizaciones completas.",
+        "q4": "¿Qué excursión en barco es mejor para familias con niños?",
+        "a4": "Las excursiones matinales compartidas son ideales para familias: tienen paradas para nadar y hacer snorkel en aguas tranquilas, incluyen equipos de snorkel para niños y la tripulación está acostumbrada a recibir familias. Los charters privados también permiten adaptar completamente la experiencia."
+      }
+    },
+    "destinations": {
+      "hero": {
+        "badge": "Destinos",
+        "title": "Destinos y Lugares Imprescindibles en Mallorca",
+        "subtitle": "Descubre los rincones más especiales de Mallorca y Alcudia: playas de postal, pueblos con encanto, mercados locales, monumentos históricos y los destinos que no puedes perderte durante tu visita a la isla."
+      },
+      "post_count": "artículos sobre destinos",
+      "seo": {
+        "title": "Los Mejores Destinos y Rincones de Mallorca",
+        "intro": "Mallorca es mucho más que sol y playa. La isla esconde un mosaico fascinante de destinos que merece la pena explorar: desde el casco antiguo medieval de Alcudia con sus murallas del siglo XIV, hasta los mercados semanales donde encontrar artesanía local, pasando por calas vírgenes accesibles solo desde el mar y pueblos de montaña con vistas de ensueño.<br><br>La zona norte de la isla, donde se encuentra Alcudia, Pollença y sus bahías, concentra algunos de los destinos más espectaculares. El faro de Formentor, la playa de Muro con su arena blanca y aguas turquesas, la isla de Alcanada y su fotogénico faro, el Puerto de Alcudia con su animado paseo marítimo... Cada rincón cuenta una historia y ofrece una experiencia diferente. Nuestros artículos te guían por estos destinos con información práctica, consejos locales y sugerencias de itinerarios para que aproveches al máximo tu tiempo en la isla.",
+        "card1_title": "Destinos Costeros y Playas",
+        "card1_text": "Explora las playas más bonitas de Mallorca, desde la extensa Playa de Muro hasta las calas secretas de la costa norte. Descubre cuáles son las mejores para familias, las más tranquilas, y las que solo puedes alcanzar en barco.",
+        "card2_title": "Pueblos, Cultura y Patrimonio",
+        "card2_text": "Mallorca alberga pueblos con siglos de historia: Alcudia y sus murallas medievales, Pollença y su escalinata del Calvario, Artà y sus cuevas... Nuestras guías te cuentan qué ver, dónde comer y cómo disfrutar de la auténtica vida mallorquina.",
+        "cta_title": "Planifica tu Ruta por Mallorca",
+        "cta_text": "Lee nuestras guías de destinos para planificar tu itinerario perfecto por la isla."
+      },
+      "faq": {
+        "q1": "¿Qué ver en Alcudia en un día?",
+        "a1": "En un día en Alcudia puedes visitar el casco antiguo con sus murallas medievales, pasear por el Puerto de Alcudia, disfrutar de la Playa de Muro y, si tienes tiempo, acercarte al faro de Alcanada. Un itinerario combinando mañana de playa y tarde de casco histórico es ideal.",
+        "q2": "¿Cuáles son los pueblos más bonitos cerca de Alcudia?",
+        "a2": "Cerca de Alcudia destacan Pollença (a 10 min) con su encantador casco antiguo y los 365 escalones del Calvario, Artà (a 30 min) con su fortaleza medieval, y Campanet con sus cuevas naturales. Todos se pueden visitar en media jornada.",
+        "q3": "¿Cuáles son las mejores playas cerca de Alcudia?",
+        "a3": "Las mejores playas incluyen Playa de Muro (arena blanca, aguas cristalinas), Playa de Alcudia (familiar, con servicios), la playa de Alcanada (más tranquila, con vistas al faro) y Coll Baix (accesible solo a pie o en barco, muy virgen).",
+        "q4": "¿Cuáles son los mercados más interesantes en Mallorca?",
+        "a4": "El mercado de Alcudia (martes y domingos) es uno de los más grandes de la isla, con productos locales, artesanía y gastronomía. También destacan el mercado de Pollença (domingos), el de Sineu (miércoles, el más antiguo) y el de Inca (jueves)."
+      }
+    },
+    "guides": {
+      "hero": {
+        "badge": "Guías y Consejos",
+        "title": "Guías Prácticas para tu Viaje a Mallorca",
+        "subtitle": "Toda la información práctica que necesitas para organizar tu viaje a Mallorca: cómo moverte, dónde alojarte, qué llevar a una excursión en barco, itinerarios de varios días y consejos que harán tu experiencia mucho mejor."
+      },
+      "post_count": "artículos con guías y consejos",
+      "seo": {
+        "title": "Guías de Viaje Prácticas para Mallorca",
+        "intro": "Planificar unas vacaciones en Mallorca puede generar muchas dudas: ¿cómo me muevo por la isla sin coche? ¿dónde aparco en Alcudia en temporada alta? ¿qué debo llevar a una excursión en barco? ¿cuántos días necesito para ver lo más importante? Nuestras guías prácticas responden a todas estas preguntas con información actualizada y consejos basados en nuestra experiencia local.<br><br>Hemos recopilado todo el conocimiento de años viviendo y trabajando en Alcudia para crear guías que realmente sean útiles. No encontrarás información genérica copiada de otras webs, sino consejos prácticos, trucos locales y recomendaciones honestas que te ahorrarán tiempo y dinero. Desde itinerarios de 3 días perfectamente optimizados hasta guías completas sobre meteorología y viento para tu excursión en barco, cada artículo está pensado para que tu estancia en Mallorca sea perfecta.",
+        "card1_title": "Información Práctica y Logística",
+        "card1_text": "Transporte, aparcamiento, alojamiento, meteorología... todo lo que necesitas resolver antes de llegar. Nuestras guías cubren los aspectos logísticos con información actualizada y alternativas para todos los presupuestos.",
+        "card2_title": "Itinerarios y Planificación",
+        "card2_text": "¿Tienes 3 días, una semana o un fin de semana? Nuestros itinerarios detallados te ayudan a organizar cada jornada para que no te pierdas nada importante y disfrutes al máximo de tu visita a Mallorca.",
+        "cta_title": "Prepara tu Viaje con Confianza",
+        "cta_text": "Consulta nuestras guías prácticas para llegar a Mallorca con todo planificado y sin sorpresas."
+      },
+      "faq": {
+        "q1": "¿Cómo moverse por Mallorca sin coche de alquiler?",
+        "a1": "Mallorca tiene una buena red de autobuses (TIB) que conecta las principales zonas turísticas. Desde Alcudia hay líneas frecuentes a Palma, Pollença y Playa de Muro. También puedes usar taxis, servicios de transfer o alquilar bicicletas para moverte por la zona de la bahía.",
+        "q2": "¿Dónde aparcar gratis en Alcudia durante el verano?",
+        "a2": "Hay aparcamiento gratuito en zonas más alejadas del centro, como el parking del polígono industrial o las calles residenciales fuera del casco antiguo. En el Puerto de Alcudia, llegar temprano es clave. Nuestro artículo detalla todas las opciones gratuitas y de pago con ubicaciones exactas.",
+        "q3": "¿Qué llevar a una excursión en barco en Mallorca?",
+        "a3": "Lo esencial: protección solar (mínimo SPF 50), toalla, bañador, gorra o sombrero, gafas de sol con cinta, calzado que pueda mojarse y una chaqueta ligera por si refresca. En nuestros tours proporcionamos equipo de snorkel, bebidas y aperitivos, pero puedes llevar tu propia cámara acuática o GoPro para capturar la experiencia.",
+        "q4": "¿Cuántos días necesito para visitar Mallorca?",
+        "a4": "Para ver lo más destacado de la zona de Alcudia y alrededores, 3-4 días son suficientes. Para una exploración más completa incluyendo Palma, la Serra de Tramuntana y el este de la isla, planifica al menos 7 días. Nuestro itinerario de 3 días te ayuda a optimizar tu tiempo."
+      }
+    },
+    "tips": {
+      "hero": {
+        "badge": "Consejos de Viaje",
+        "title": "Consejos y Actividades para Disfrutar de Alcudia y Mallorca",
+        "subtitle": "Snorkel, paddle surf, calas para familias, vida marina, gastronomía local... Descubre las mejores actividades y experiencias para hacer que tu viaje a Mallorca sea realmente especial."
+      },
+      "post_count": "artículos con consejos de viaje",
+      "seo": {
+        "title": "Los Mejores Consejos y Actividades en Mallorca",
+        "intro": "Mallorca ofrece una variedad increíble de actividades y experiencias que van mucho más allá de tomar el sol en la playa. Las aguas cristalinas de la Bahía de Alcudia son perfectas para el snorkel, donde podrás observar una rica vida marina mediterránea con peces de colores, estrellas de mar y praderas de posidonia. El paddle surf te permite explorar calas escondidas a tu ritmo, mientras que los amantes de la naturaleza disfrutarán descubriendo la fauna y flora autóctonas.<br><br>Si viajas en familia, encontrarás calas con aguas poco profundas y acceso fácil, perfectas para los más pequeños. Los amantes de la gastronomía pueden probar la auténtica cocina mallorquina: ensaimadas, tumbet, pa amb oli y, por supuesto, la mejor sangría casera. Nuestros artículos te dan consejos prácticos para cada actividad, basados en nuestra experiencia local y el feedback de miles de viajeros que han disfrutado de Mallorca con nosotros.",
+        "card1_title": "Actividades Acuáticas y Naturaleza",
+        "card1_text": "Snorkel en calas cristalinas, paddle surf por la bahía, observación de vida marina... Descubre las actividades acuáticas más gratificantes y los mejores spots para cada una, con consejos para principiantes y expertos.",
+        "card2_title": "Experiencias Familiares y Gastronomía",
+        "card2_text": "Encuentra las playas más seguras para niños, las actividades más divertidas para toda la familia y los sabores locales que no puedes perderte. Mallorca es un destino familiar por excelencia, y nuestros consejos te ayudan a aprovecharlo.",
+        "cta_title": "Descubre lo Mejor de Mallorca",
+        "cta_text": "Lee nuestros consejos para hacer de tu viaje una experiencia completa y memorable."
+      },
+      "faq": {
+        "q1": "¿Dónde hacer snorkel en Mallorca cerca de Alcudia?",
+        "a1": "Los mejores spots de snorkel incluyen la zona de Alcanada (junto al faro), Coll Baix (accesible en barco), Playa de Muro, y las calas de la costa norte accesibles durante nuestras excursiones en barco. La visibilidad del agua suele ser excelente, especialmente por las mañanas. Muy cerca de Alcudia, puedes explorar la Playa de Formentor y Cala Sant Vicenç para experiencias adicionales de snorkel.",
+        "q2": "¿Cuáles son las mejores playas de Mallorca para ir con niños?",
+        "a2": "Playa de Muro es ideal por su arena fina y aguas poco profundas. La Playa de Alcudia tiene todos los servicios (socorristas, duchas, chiringuitos). Para algo más tranquilo, la playa de Alcanada es perfecta. Todas están a pocos minutos de Alcudia. Además, el puerto de Pollença ofrece una playa familiar con aguas calmadas y muchas actividades para niños.",
+        "q3": "¿Se puede hacer paddle surf en Alcudia si nunca lo he probado?",
+        "a3": "Sí, la Bahía de Alcudia es perfecta para principiantes por sus aguas tranquilas y poco profundas. Hay varios centros de alquiler en Playa de Muro y el Puerto de Alcudia que ofrecen tablas con clases introductorias incluidas. Las zonas más resguardadas del Puerto de Pollença también son excelentes para aprender paddle surf.",
+        "q4": "¿Qué vida marina se puede ver en las aguas de Alcudia?",
+        "a4": "En las aguas de Alcudia puedes ver doncellas, sargos, estrellas de mar, erizos, pulpos y ocasionalmente tortugas marinas. Las praderas de posidonia son Patrimonio de la Humanidad y albergan una biodiversidad extraordinaria. En nuestras excursiones en barco, las paradas para snorkel permiten disfrutar de esta riqueza marina. Si lo que buscas son delfines, las excursiones de avistamiento desde Alcudia son una excelente opción, salen muy temprano en la mañana para maximizar las posibilidades de avistamiento."
+      }
+    }
+  },
+
+  "blog_treintayseis": {
+    "metaTitle": "Las 20+ Mejores Playas del Norte de Mallorca: Guía Completa 2026 | Coral Boats",
+    "metaDescription": "Guía definitiva de las mejores playas del norte de Mallorca: de Cap Farrutx a Cap de Formentor. Descubre calas secretas, playas vírgenes, accesibilidad, servicios y cómo llegar en coche, a pie o en barco.",
+    "badgeTitle": "Destinos",
+    "title": "Mejores Playas del Norte de Mallorca: De Cap Farrutx a Cap de Formentor",
+    "slug": "mejores-playas-norte-mallorca-guia-completa",
+    "keyword": "mejores playas norte mallorca, playas alcudia, playa de muro, coll baix, formentor, cala san vicente, playas mallorca norte, calas mallorca, playa alcanada, son serra de marina, can picafort playa, puerto pollensa playa, cala boquer, cala murta mallorca",
+    "meta_description": "Recorremos una a una todas las playas y calas desde Cap Farrutx hasta Cap de Formentor: arena, rocas, paisajes, accesibilidad, servicios y las mejores formas de llegar, incluyendo rutas en barco.",
+    "publishedDate": "10 de febrero de 2026",
+    "btnText": "Leer más",
+    "imageAlt": "Mapa ilustrado del norte de Mallorca con las rutas en barco y las mejores playas señaladas",
+    "imageCaption": "Mapa del norte de Mallorca con las principales playas y rutas marítimas desde Cap Farrutx hasta Cap de Formentor",
+    "secondaryImage1Alt": "Vista del Cap de Farrutx y la costa del Parc Natural de Llevant con aguas turquesas",
+    "secondaryImage2Alt": "Puerto y playa de la Colonia de Sant Pere con barcos tradicionales y la Serra de Llevant al fondo",
+    "secondaryImage3Alt": "Vista panorámica de la isla de Alcanada con su faro y aguas cristalinas en Alcudia, Mallorca",
+    "secondaryImage4Alt": "Playa virgen de Coll Baix rodeada de acantilados en Alcudia, Mallorca",
+    "secondaryImage5Alt": "Playa de Formentor con arena blanca y pinos junto al mar turquesa en Mallorca",
+    "secondaryImage6Alt": "Cala Sant Vicenç con sus aguas cristalinas rodeada de montañas en Pollença, Mallorca",
+    "section1": {
+      "title": "Un litoral que cambia a cada kilómetro",
+      "body": "Si hay algo que hace especial al norte de Mallorca es la **diversidad radical de su costa**. En apenas 60 kilómetros —los que separan Cap Farrutx de Cap de Formentor— se suceden playas de arena blanca que rivalizan con el Caribe, calas de roca escondidas entre acantilados, arenales vírgenes custodiados por dunas y rincones que solo se pueden alcanzar en barco o tras una caminata entre pinos.\n\nEsta guía recorre **una a una todas las playas y calas de la costa norte**, de este a oeste: desde los rincones más salvajes del Parc Natural de Llevant hasta las legendarias aguas turquesas de Formentor. Para cada playa encontrarás qué tipo de fondo tiene, cómo llegar, qué servicios hay y —cuando merece la pena— por qué verla desde el mar cambia completamente la experiencia.\n\nTanto si buscas una jornada familiar con hamacas y chiringuito como una aventura de senderismo hasta una cala solitaria, aquí encontrarás tu playa ideal."
+    },
+    "section2": {
+      "title": "De Cap Farrutx a Cap de Formentor: el litoral norte de un vistazo",
+      "body": "La costa norte de Mallorca dibuja un gran arco que abraza la **Bahía de Alcudia**, una de las bahías más amplias del Mediterráneo occidental. En el extremo oriental, Cap Farrutx marca la entrada al Parc Natural de la Península de Llevant, un paisaje abrupto de acantilados calcáreos y garriga silvestre. A medida que la costa gira hacia el norte, se suaviza en extensos arenales —Son Serra, Can Picafort, Playa de Muro, Playa de Alcudia— antes de volver a encresparse en la **Península de la Victoria** con calas dramáticas como Coll Baix.\n\nMás al oeste, el Puerto de Pollença ofrece una playa urbana larga y apacible, antesala de la icónica Península de Formentor: acantilados vertiginosos, pinares que llegan hasta el agua y la famosa playa que ha cautivado a viajeros durante generaciones. Finalmente, la costa se cierra con las calas escarpadas de Cala Boquer y Cala Sant Vicenç, verdaderos tesoros tallados en la roca.\n\nA lo largo de todo este recorrido, **las excursiones en barco** son el complemento perfecto: permiten descubrir perspectivas inaccesibles desde tierra, acceder a calas remotas y disfrutar del paisaje sin las limitaciones de las carreteras."
+    },
+    "section3": {
+      "title": "El Parc Natural de Llevant y la costa virgen del este",
+      "body": "El extremo oriental de la costa norte es el más salvaje. Aquí el turismo de masas no ha llegado y los paisajes conservan una autenticidad difícil de encontrar en otras zonas de la isla. Desde la reserva natural de Llevant hasta el largo arenal de Can Picafort, cada tramo de costa tiene su propia personalidad.",
+      "sub1": {
+        "subtitle": "Es Caló y Cala Na Clara (Betlem)",
+        "body": "Al abrigo de Cap Farrutx, la pequeña urbanización de **Betlem** esconde dos joyas: **Es Caló**, una diminuta cala de cantos rodados perfecta para el snorkel, y **Cala Na Clara**, ligeramente más amplia, con fondo mixto de arena y roca y aguas de una transparencia asombrosa.\n\n- **Tipo de fondo**: Cantos rodados y roca con parches de arena gruesa\n- **Acceso**: En coche hasta Betlem y luego a pie (5-10 minutos). Sin transporte público directo\n- **Servicios**: Ninguno. Llevar agua y provisiones\n- **Paisaje**: Acantilados de la Serra de Llevant cayendo al mar, garriga aromática, islotes rocosos\n- **Mejor forma de llegar**: A pie desde Betlem o, para la costa más inaccesible, en excursión en barco desde la Colonia de Sant Pere. Varias empresas locales ofrecen rutas que bordean Cap Farrutx y permiten contemplar sus acantilados desde el mar, una perspectiva espectacular.\n\nEs un lugar para los que buscan soledad absoluta y naturaleza sin filtros. Perfecta para amantes del snorkel y la fotografía."
+      },
+      "sub2": {
+        "subtitle": "Colonia de Sant Pere",
+        "body": "Este antiguo pueblo de pescadores conserva un encanto que se ha perdido en gran parte de la costa mallorquina. Su pequeña **playa urbana** combina tramos de arena con roca y ofrece vistas directas a la Serra de Llevant y los islotes de Na Borges.\n\n- **Tipo de fondo**: Arena mezclada con roca y posidonia\n- **Acceso**: En coche (aparcamiento fácil fuera de agosto). Autobús desde Artà\n- **Servicios**: Restaurantes junto al mar, pequeño supermercado en el pueblo, duchas\n- **Paisaje**: Puerto pesquero tradicional con llaüts de colores, montañas al fondo, atardeceres memorables\n- **Imprescindible**: Pasear por el puerto y probar el pescado fresco del día. Desde aquí salen paseos en barco hacia la costa de Llevant y las calas de Betlem que permiten explorar tramos de litoral inaccesibles por tierra.\n\nLa Colonia es también punto de partida de rutas de senderismo hacia la Ermita de Betlem, con vistas panorámicas de toda la bahía."
+      },
+      "sub3": {
+        "subtitle": "Son Serra de Marina",
+        "body": "Uno de los secretos mejor guardados de Mallorca. **Son Serra de Marina** es un arenal largo y estrecho, prácticamente virgen, flanqueado por un sistema dunar protegido y un torrent que desemboca en el mar.\n\n- **Tipo de fondo**: Arena fina y dorada, algo de posidonia en la orilla\n- **Acceso**: En coche hasta la urbanización de Son Serra. Aparcamiento limitado junto a la playa\n- **Servicios**: Muy escasos. Un chiringuito de temporada y poco más. No hay hamacas ni sombrillas de alquiler\n- **Paisaje**: Dunas, pinar bajo, campos de cultivo al fondo y una sensación de playa infinita\n- **Consejo**: Camina hacia la izquierda (dirección Can Picafort) para encontrar los tramos más solitarios. La playa se extiende varios kilómetros y en días laborables puedes encontrar largos tramos completamente vacíos.\n\nSon Serra es la playa perfecta para quienes huyen del bullicio. El viento de levante puede soplar con fuerza, así que es buena idea consultar la previsión antes de ir. Cuando el mar está en calma, la claridad del agua sorprende para ser una playa tan abierta."
+      },
+      "sub4": {
+        "subtitle": "Can Picafort",
+        "body": "Marcando la transición entre la costa salvaje del este y las grandes playas de la bahía, **Can Picafort** ofrece un extenso arenal urbano con todos los servicios que una familia puede necesitar.\n\n- **Tipo de fondo**: Arena fina y clara, entrada suave al agua\n- **Acceso**: Fácil en coche (amplio aparcamiento) y en autobús desde Palma, Alcudia y Artà\n- **Servicios**: Completos: socorristas, duchas, alquiler de hamacas y sombrillas, chiringuitos, restaurantes en el paseo marítimo, deportes acuáticos\n- **Paisaje**: Paseo marítimo animado, vista abierta de la Bahía de Alcudia, Sierra de Tramuntana al fondo\n- **Para familias**: Las aguas poco profundas y la entrada gradual hacen de Can Picafort una de las playas más seguras de la isla para niños pequeños.\n\nAunque es más turística que sus vecinas del este, Can Picafort mantiene un ambiente agradable y desenfadado. El mercado semanal (martes y viernes) es una buena excusa para combinar playa y compras."
+      }
+    },
+    "section4": {
+      "title": "La Bahía de Alcudia: playas de ensueño y aguas cristalinas",
+      "body": "El corazón de la costa norte lo ocupan las playas más célebres de la bahía: **Playa de Muro** y **Playa de Alcudia**, kilómetros de arena blanca y aguas turquesas que figuran año tras año en los rankings de mejores playas de Europa. Junto a ellas, **Alcanada** ofrece un paisaje completamente distinto, más íntimo y rocoso. Estas son las playas que recorremos con [nuestras excursiones en barco](https://coralboats.com/es/boat-tours-alcudia), y podemos asegurar que verlas desde el mar es una experiencia completamente diferente.",
+      "sub1": {
+        "subtitle": "Playa de Muro",
+        "body": "Considerada de forma recurrente como una de las **mejores playas de España**, Playa de Muro ocupa la franja central de la bahía con más de 5 kilómetros de arena blanca y fina. Su fondo arenoso se prolonga con una pendiente suavísima, lo que crea aguas transparentes y poco profundas ideales para niños.\n\n- **Tipo de fondo**: Arena blanca y fina de origen calcáreo. Entrada progresiva al agua\n- **Acceso**: En coche con varias zonas de aparcamiento (los más cercanos son de pago en verano). Autobús turístico y línea regular desde Alcudia y Can Picafort\n- **Servicios**: Varía por sectores. La zona más cercana a Alcudia (sector I y II) tiene hamacas, chiringuitos y socorristas. Los sectores III y IV, dentro del Parque Natural de s'Albufera, son más naturales y tranquilos\n- **Paisaje**: Dunas con vegetación protegida, pinar de fondo, aguas que cambian del turquesa al esmeralda según la luz\n- **Desde el mar**: En nuestro [paseo en barco por la mañana](https://coralboats.com/es/alcudia-morning-boat-tour), la vista de Playa de Muro desde la bahía es impresionante: una franja blanca interminable respaldada por el verde oscuro del pinar de s'Albufera.\n\nLos sectores más tranquilos están cerca del Parque Natural de s'Albufera —merece la pena la caminata extra para disfrutar de un entorno prácticamente virgen."
+      },
+      "sub2": {
+        "subtitle": "Playa de Alcudia",
+        "body": "Continuación natural de Playa de Muro hacia el puerto, la **Playa de Alcudia** combina la belleza del arenal con la comodidad de tener todo a mano. Es la playa más accesible de la zona y una de las más completas en servicios.\n\n- **Tipo de fondo**: Arena fina y blanca, aguas transparentes y poco profundas\n- **Acceso**: Excelente. A pie desde el centro de Alcudia o el Puerto. Parking amplio, parada de bus\n- **Servicios**: Todos: socorristas todo el verano, duchas, aseos, alquiler de hamacas, sombrillas, kayaks, paddle surf, chiringuitos y restaurantes en primera línea\n- **Paisaje**: Paseo marítimo con palmeras, vista panorámica de la bahía y la Sierra de Tramuntana\n- **Puerto deportivo**: Desde el Puerto de Alcudia salen nuestras [excursiones en barco](https://coralboats.com/es/boat-tours-alcudia), el punto de partida perfecto para explorar la costa norte por mar.\n\nLa Playa de Alcudia es ideal para quien quiere combinar un día de playa con una comida en el puerto, un paseo por el casco antiguo medieval de Alcudia o una [excursión al atardecer en barco](https://coralboats.com/es/alcudia-sunset-boat-tour). Todo queda a unos pasos."
+      },
+      "sub3": {
+        "subtitle": "Playa de Alcanada",
+        "body": "A apenas 3 kilómetros del Puerto de Alcudia, **Alcanada** es un mundo aparte. Su paisaje está dominado por el icónico **islote de Alcanada** con su faro de piedra, y las aguas que lo rodean son un paraíso para el snorkel.\n\n- **Tipo de fondo**: Mixto: zonas de roca plana, gravilla y pequeñas lenguas de arena. El fondo marino es extraordinario\n- **Acceso**: En coche (aparcamiento limitado y de pago en verano; llegar temprano). También a pie o en bicicleta desde el Puerto de Alcudia\n- **Servicios**: Mínimos. Un restaurante junto a la playa y poco más. No hay hamacas ni socorristas\n- **Paisaje**: El faro sobre el islote, pinar de Alepo hasta la orilla, aguas de un azul profundo con un fondo marino riquísimo\n- **Snorkel**: Una de las mejores zonas de snorkel de la isla. Las praderas de posidonia albergan doncellas, sargos, estrellas de mar y pulpos. Trae tus propias gafas y tubo\n- **Desde el mar**: Alcanada es uno de los puntos más bonitos de nuestro [paseo en barco por la mañana](https://coralboats.com/es/alcudia-morning-boat-tour). Rodear el islote del faro y fondear para un baño en sus aguas cristalinas es un momento inolvidable.\n\nAlcanada tiene una atmósfera especial: es tranquila, natural y elegante a la vez. El campo de golf junto a la playa le da un toque bucólico inesperado."
+      }
+    },
+    "section5": {
+      "title": "La costa salvaje: Coll Baix, La Victoria y sus playas escondidas",
+      "body": "Al norte del Puerto de Alcudia, la Península de la Victoria levanta acantilados espectaculares sobre el mar. Aquí la costa se vuelve escarpada e indomable, y las playas que esconde son de las más impresionantes de toda Mallorca. Algunas solo se pueden alcanzar a pie por senderos de montaña o — mucho mejor — [desde el mar en barco](https://coralboats.com/es/boat-tours-alcudia).",
+      "sub1": {
+        "subtitle": "Coll Baix: la joya escondida",
+        "body": "**Coll Baix** es, para muchos, la playa más espectacular del norte de Mallorca. Un anfiteatro natural de acantilados de más de 200 metros de altura rodea un arenal virgen de cantos rodados blancos y aguas de color turquesa eléctrico.\n\n- **Tipo de fondo**: Cantos rodados blancos y gruesos de origen calcáreo. El agua adquiere un color turquesa irreal por el reflejo sobre la roca blanca\n- **Acceso a pie**: Ruta de senderismo desde la Ermita de la Victoria (45-60 minutos, dificultad media-alta con tramo final empinado). Llevar buen calzado y agua\n- **Acceso en barco**: Sin duda la forma más cómoda y espectacular. En nuestra [excursión por la mañana](https://coralboats.com/es/alcudia-morning-boat-tour), Coll Baix es una de las paradas estrella: fondeamos frente a la playa para que puedas nadar, hacer snorkel y disfrutar del paisaje sin el esfuerzo de la caminata\n- **Servicios**: Absolutamente ninguno. Es playa 100% virgen. Llevar todo lo necesario\n- **Paisaje**: Acantilados verticales cubiertos de vegetación, cuevas marinas en los extremos, aguas de una transparencia sobrenatural\n- **Consejo**: Si vas a pie, madruga. La caminata bajo el sol del mediodía es dura. Si vienes en barco, podrás llegar en apenas 15 minutos desde el Puerto de Alcudia y dedicar el tiempo a disfrutar en lugar de sudar.\n\nColl Baix es una playa que se graba en la memoria. La combinación de acantilados verticales, agua imposiblemente azul y la sensación de aislamiento total la convierten en una experiencia única."
+      },
+      "sub2": {
+        "subtitle": "La Victoria, El Mal Pas y Bonaire",
+        "body": "La Península de la Victoria alberga varias playas más accesibles que Coll Baix pero igualmente bellas, rodeadas de pinares que llegan hasta la orilla.\n\n**Platja de Sant Joan (La Victoria)**:\n- Arena gruesa y cantos. Aguas limpísimas con fondo rocoso ideal para snorkel\n- Acceso en coche por una carretera estrecha y sinuosa. Aparcamiento limitado\n- Un chiringuito-restaurante con terraza sobre el mar\n- Entorno: Pinar denso, montaña y un ambiente tremendamente tranquilo\n\n**El Mal Pas**:\n- Pequeña playa urbana junto a la zona residencial de Bonaire\n- Arena fina, aguas tranquilas y protegidas del oleaje\n- Servicios básicos: duchas, paseo marítimo\n- Perfecta para un baño rápido con vistas al puerto\n\n**Bonaire**:\n- Zona residencial con accesos rocosos al mar y pequeñas calas\n- Aguas profundas y cristalinas, excelente para nadar y bucear\n- Sin servicios de playa, pero con un club náutico cercano\n\nTodas estas playas están conectadas por una carretera panorámica que sube hasta el mirador de la Victoria, con vistas de vértigo sobre toda la bahía de Pollença y Alcudia."
+      },
+      "sub3": {
+        "subtitle": "Es Barcarés",
+        "body": "Escondida entre la zona de Bonaire y el Puerto de Pollença, **Es Barcarés** es una playa que conocen sobre todo los residentes y que pasa desapercibida para el turismo convencional.\n\n- **Tipo de fondo**: Arena fina mezclada con posidonia y zonas de roca plana. Aguas muy someras\n- **Acceso**: A pie desde el Puerto de Pollença (15 minutos por la costa) o en coche con aparcamiento en la zona residencial de Bonaire\n- **Servicios**: Ninguno. Es una playa completamente natural\n- **Paisaje**: Vista frontal de la bahía de Pollença con la Serra de Tramuntana como telón de fondo. Pequeñas embarcaciones fondeadas crean una estampa muy mediterránea\n- **Para niños**: Las aguas extremadamente poco profundas y la ausencia de corrientes la hacen muy segura para los más pequeños\n\nEs Barcarés es ese tipo de lugar donde los locales van con su nevera portátil y una sombrilla, sin prisas ni pretensiones. Un rincón auténtico lejos del bullicio."
+      }
+    },
+    "section6": {
+      "title": "La Península de Formentor y la costa de Pollença",
+      "body": "Al oeste de la bahía se abre uno de los paisajes más icónicos de Mallorca: la **Península de Formentor**, con sus acantilados de infarto, sus pinares imposibles y sus playas de ensueño. Junto a ella, el Puerto de Pollença ofrece una larga playa urbana perfecta para disfrutar sin complicaciones. Esta zona está fuera del radio de nuestras excursiones desde Alcudia, pero existen numerosas empresas que ofrecen paseos en barco desde el Puerto de Pollença hacia Formentor y la costa norte.",
+      "sub1": {
+        "subtitle": "Playa del Puerto de Pollença",
+        "body": "El **Puerto de Pollença** (Port de Pollença) presume de una playa larga y apacible que se extiende a lo largo de todo el paseo marítimo, con la Serra de Tramuntana como fondo escénico constante.\n\n- **Tipo de fondo**: Arena fina y clara, entrada muy progresiva al agua\n- **Acceso**: Excelente. Aparcamiento amplio (de pago en verano), parada de bus, y todo a pie desde el centro del pueblo\n- **Servicios**: Completos: socorristas, hamacas, sombrillas, chiringuitos, restaurantes, deportes acuáticos, escuelas de vela y windsurf\n- **Paisaje**: Una bahía protegida con la montaña al fondo, veleros en el agua y un paseo marítimo con restaurantes y cafés\n- **Ambiente**: Más tranquilo y sofisticado que Alcudia. El Puerto de Pollença atrae a un público que busca calma, cultura y buena gastronomía\n- **Desde el mar**: Desde aquí parten excursiones en barco hacia Formentor y la costa norte, una forma excepcional de descubrir calas inaccesibles por carretera.\n\nEl paseo marítimo del Puerto de Pollença, conocido como el **Passeig de Voramar**, es uno de los más bonitos de Mallorca: pinos centenarios, terrazas junto al agua y una luz que ha inspirado a pintores durante generaciones."
+      },
+      "sub2": {
+        "subtitle": "Playa de Formentor",
+        "body": "Si existe una playa de postal en Mallorca, esa es **Formentor**. Encajada entre pinares centenarios que se inclinan sobre el agua, su arena blanca y sus aguas de un turquesa imposible la han convertido en una de las playas más fotografiadas del Mediterráneo.\n\n- **Tipo de fondo**: Arena blanca y fina, aguas turquesas y cristalinas con fondo arenoso. Entrada progresiva\n- **Acceso en coche**: Carretera Ma-2210 desde el Puerto de Pollença (20 minutos). En verano, el acceso en coche está restringido y hay un servicio de autobús lanzadera desde Port de Pollença\n- **Acceso en barco**: Varias empresas ofrecen paseos en barco desde el Puerto de Pollença a Formentor. Es, posiblemente, la forma más bonita de llegar, navegando la costa de la península con sus acantilados y pinos\n- **Servicios**: Chiringuito-restaurante, alquiler de hamacas y sombrillas. No hay duchas públicas\n- **Paisaje**: Pinar de Alepo sobre arena blanca, acantilados al fondo, agua turquesa brillante. Es una de esas playas que quitan el aliento\n- **Consejo**: Madruga. En temporada alta se llena antes del mediodía. La luz de primera hora, con los rayos del sol filtrándose entre los pinos, es sencillamente mágica.\n\nFormentor es el tipo de playa que justifica un viaje a Mallorca. Reserva un día entero para disfrutarla con calma."
+      },
+      "sub3": {
+        "subtitle": "Cala Murta",
+        "body": "Escondida en la costa norte de la Península de Formentor, **Cala Murta** es un secreto que solo conocen senderistas experimentados y navegantes.\n\n- **Tipo de fondo**: Cantos rodados medianos y roca. Aguas profundas y de una transparencia sobrenatural\n- **Acceso a pie**: Sendero desde la carretera de Formentor (30-40 minutos). No señalizado, moderadamente difícil\n- **Acceso en barco**: Algunas excursiones en barco desde el Puerto de Pollença incluyen Cala Murta como parada. Es la forma más práctica y espectacular de llegar\n- **Servicios**: Ninguno. Llevar agua, comida y protección solar\n- **Paisaje**: Acantilados de la Sierra de Tramuntana cayendo al mar, bosque de pinos y encinas, silencio absoluto\n\nCala Murta ofrece una experiencia de Robinson Crusoe a apenas unos kilómetros de la civilización. Los días de mar en calma, la visibilidad submarina es de más de 20 metros."
+      },
+      "sub4": {
+        "subtitle": "Cala Figuera (Formentor)",
+        "body": "No confundir con el pueblo pescador del sur. La **Cala Figuera** de Formentor es un estrecho entrante de mar entre paredes rocosas, una especie de fiordo en miniatura de belleza agreste.\n\n- **Tipo de fondo**: Roca y pequeñas piedras. No es playa de arena\n- **Acceso**: A pie desde la carretera de Formentor (hay un pequeño aparcamiento y un sendero corto). También se puede llegar en barco, aunque el fondeo es complicado por la profundidad\n- **Servicios**: Ninguno\n- **Paisaje**: Paredes de roca vertical, pinos encaramados al borde, agua de un azul marino intenso\n- **Ideal para**: Nadadores experimentados y amantes de la naturaleza en estado puro. El agua es más profunda y fría que en las playas de arena\n\nCala Figuera es más un mirador natural que una playa convencional, pero la imagen de esa lengua de mar azul oscuro encajada entre acantilados es absolutamente impresionante."
+      }
+    },
+    "section7": {
+      "title": "Las calas ocultas del noreste: Cala Boquer y Cala Sant Vicenç",
+      "body": "Cerrando el recorrido por la costa norte, estas últimas calas combinan la espectacularidad geológica de la Serra de Tramuntana con aguas de una transparencia que deja sin palabras.",
+      "sub1": {
+        "subtitle": "Cala Boquer",
+        "body": "Una de las excursiones de senderismo más gratificantes de Mallorca tiene como recompensa **Cala Boquer**, una cala remota rodeada de formaciones rocosas dramáticas.\n\n- **Tipo de fondo**: Cantos rodados grandes y roca. Fondo de grava bajo el agua\n- **Acceso**: Solo a pie desde el Puerto de Pollença. El sendero parte de la urbanización de Boquer y recorre un valle espectacular entre montañas (30-45 minutos). Llevar calzado adecuado\n- **Servicios**: Ninguno. Naturaleza pura\n- **Paisaje**: Valle agreste con cabras salvajes, paredes rocosas escarpadas, y una cala que se abre como un anfiteatro natural al mar\n- **Snorkel**: Excelente. El fondo rocoso alberga una vida marina rica y las aguas son increíblemente claras\n- **Consejo**: La cala está orientada al norte y puede haber oleaje en días de tramontana. Consulta la previsión del viento. Los días de calma, el agua es un espejo.\n\nLa caminata por el valle de Boquer es una experiencia en sí misma: el paisaje tiene un carácter casi lunar, con rocas erosionadas y vegetación resistente al viento."
+      },
+      "sub2": {
+        "subtitle": "Cala Sant Vicenç y sus cuatro calas",
+        "body": "El pequeño resort de **Cala Sant Vicenç** esconde cuatro calas distintas, cada una con su carácter, agrupadas al pie de imponentes acantilados calizos.\n\n**Cala Barques** (la más grande):\n- Arena y grava, aguas turquesas, servicios de playa\n- La más accesible y familiar de las cuatro\n- Chiringuito, alquiler de hamacas, socorristas en verano\n\n**Cala Clara**:\n- Pequeña, de arena, encajada entre rocas\n- Menos masificada que Cala Barques\n- Aguas muy tranquilas, ideal para niños\n\n**Cala Molins**:\n- La más amplia, con arena fina y fondo arenoso\n- Restaurante y servicios de playa completos\n- Fantástica para snorkel en los bordes rocosos\n\n**Cala Carbó**:\n- La más pequeña y salvaje, de roca y cantos\n- Sin servicios, acceso por un sendero corto\n- Aguas profundas y cristalinas, sensación de exclusividad\n\n- **Acceso general**: En coche hasta Cala Sant Vicenç (aparcamiento de pago en verano). Autobús desde Puerto de Pollença\n- **Paisaje**: Acantilados verticales de caliza gris, pinares, formaciones rocosas que cambian de color con la luz del sol\n- **Consejo**: Visita las cuatro calas en un solo día caminando entre ellas. Cada una ofrece una perspectiva diferente y el paseo es muy corto.\n\nCala Sant Vicenç es el broche perfecto para esta guía: concentra en un espacio reducido toda la diversidad paisajística que define la costa norte de Mallorca."
+      }
+    },
+    "section8": {
+      "title": "Cómo explorar la costa norte: por tierra, a pie o desde el mar",
+      "body": "Cada forma de recorrer la costa norte ofrece una experiencia completamente diferente:\n\n**En coche**:\n- Imprescindible para acceder a las playas más dispersas (Son Serra, Alcanada, Formentor)\n- Aparcamiento escaso en verano en las zonas más populares: madruga o ve en transporte público\n- La carretera de Formentor es espectacular pero tiene restricciones de acceso en verano\n\n**A pie (senderismo)**:\n- Necesario para llegar a Coll Baix, Cala Boquer y Cala Murta\n- Llevar siempre buen calzado, agua abundante y protección solar\n- Las rutas suelen ser cortas (30-60 minutos) pero con desnivel\n\n**En barco**:\n- La forma más espectacular de ver la costa. Perspectivas imposibles de lograr desde tierra\n- Acceso directo a calas como Coll Baix sin esfuerzo\n- Ideal para familias y grupos que quieren maximizar el tiempo de disfrute\n- Desde el Puerto de Alcudia, [nuestras excursiones en barco](https://coralboats.com/es/boat-tours-alcudia) recorren la costa entre Playa de Muro, Alcanada y Coll Baix con paradas para baño y snorkel\n- Desde el Puerto de Pollença, otras empresas ofrecen rutas hacia Formentor y la costa norte\n\n**En bicicleta**:\n- Perfecta para recorrer la zona llana entre Can Picafort, Playa de Muro y Alcudia por el carril bici\n- No recomendable para las zonas de montaña (Victoria, Formentor) salvo para ciclistas experimentados\n\nLa combinación perfecta: alquila un coche para los extremos (Llevant y Formentor), usa la bicicleta para la bahía, y reserva una [excursión en barco](https://coralboats.com/es/boat-tours-alcudia) para ver la costa desde la perspectiva que realmente la hace inolvidable."
+    },
+    "section9": {
+      "title": "Tu playa perfecta en el norte de Mallorca",
+      "body": "De la soledad prehistórica de Es Caló a la elegancia legendaria de Formentor, la costa norte de Mallorca ofrece **más de 20 playas y calas** que cubren todos los gustos y estilos de viaje. Familias con niños, parejas en busca de rincones románticos, senderistas aventureros o simplemente viajeros que quieren tumbarse en la mejor arena de Europa: aquí hay una playa esperándote.\n\nNuestro consejo es que no te limites a una sola playa. Dedica varios días a explorar tramos diferentes y combina la experiencia terrestre con un [paseo en barco](https://coralboats.com/es/boat-tours-alcudia). Ver los acantilados de la Victoria desde el mar, fondear frente a Coll Baix para un baño en aguas cristalinas o simplemente disfrutar de la línea de costa deslizándose ante tus ojos son momentos que transforman unas vacaciones en un recuerdo para siempre.\n\n¿Listo para descubrir la costa norte? Nos vemos en el mar."
+    }
   }
+
+
 }
