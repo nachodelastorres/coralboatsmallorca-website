@@ -181,13 +181,6 @@ export default async function LangLayout({
                 "https://www.instagram.com/coralboatsmallorca",
                 "https://www.facebook.com/coralboatsmallorca"
               ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "500",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
               "hasMap": "https://maps.google.com/?q=39.8371,3.1219",
               "areaServed": {
                 "@type": "GeoCircle",

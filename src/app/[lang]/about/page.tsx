@@ -130,13 +130,6 @@ export default async function AboutPage({ params }: PageProps) {
       opens: '09:00',
       closes: '21:00',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '500',
-      bestRating: '5',
-      worstRating: '1',
-    },
     sameAs: [
       'https://www.instagram.com/coralboatsmallorca',
       'https://www.facebook.com/coralboatsmallorca',
