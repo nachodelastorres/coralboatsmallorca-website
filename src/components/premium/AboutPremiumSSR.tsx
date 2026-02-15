@@ -44,7 +44,7 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
               <div className="gallery-grid">
                 <div className="gallery-item gallery-item--large">
                   <Image
-                    src="/assets/img/premium/home_new/boat.webp"
+                    src="/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
                     alt="Classic Amayna II boat from 1968 sailing in Bay of Alcudia Mallorca waters"
                     width={600}
                     height={700}
@@ -54,7 +54,7 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
                 </div>
                 <div className="gallery-item gallery-item--small gallery-item--top">
                   <Image
-                    src="/assets/img/premium/home_new/interior.webp"
+                    src="/assets/img/premium/home_new/spacious-interior-private-charter-40-guests.webp"
                     alt="Comfortable and classic interior of Amayna II 1968 boat with authentic maritime charm"
                     width={280}
                     height={330}
@@ -64,7 +64,7 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
                 </div>
                 <div className="gallery-item gallery-item--small gallery-item--bottom">
                   <Image
-                    src="/assets/img/premium/home_new/partners.webp"
+                    src="/assets/img/premium/home_new/corporate-partners-private-charter-mallorca.webp"
                     alt="Partners and crew of Coral Boats Mallorca providing exceptional boat tour experiences"
                     width={280}
                     height={330}

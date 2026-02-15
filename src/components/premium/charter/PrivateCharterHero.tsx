@@ -13,7 +13,7 @@ const PrivateCharterHero = () => {
     <section className="premium-tour-hero">
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/home_new/04portrait.webp"
+          src="/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp"
           alt="Private charter boat in Alcudia Bay Mallorca - Exclusive events for up to 40 people"
           fill
           sizes="100vw"

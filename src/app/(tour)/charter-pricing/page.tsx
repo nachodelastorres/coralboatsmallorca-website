@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Private Charter Pricing | Up to 40 Guests - Coral Boats Alcudia',
     description: 'Transparent pricing for your private boat charter in Mallorca. From €1,250 for 3 hours. Capacity up to 40 guests. Optional catering and bar service available.',
-    images: ['/assets/img/premium/home_new/04portrait.webp'],
+    images: ['/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp'],
   },
 };
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Discover the best boat tours in Alcudia, Mallorca. Choose from our Morning Adventure, Sunset Magic, or Private Charter experiences. Snorkeling, tapas, and drinks included.",
     images: [
       {
-        url: "/assets/img/premium/home_new/boat.webp",
+        url: "/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp",
         width: 1200,
         height: 630,
         alt: "Coral Boats boat tours in Alcudia Mallorca - Morning, Sunset and Private Charter options",

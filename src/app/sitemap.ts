@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { blogData } from '@/data/blog-data';
 import { locales } from '@/config/locales';
+import { blogCategories } from '@/config/blog-categories';
 
 const baseUrl = 'https://www.coralboatsmallorca.com';
 
@@ -55,6 +56,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: currentDate,
         changeFrequency,
         priority,
+      });
+    });
+  });
+
+  // 2. Páginas de categoría del blog
+  blogCategories.forEach(category => {
+    locales.forEach(locale => {
+      urls.push({
+        url: `${baseUrl}/${locale}/blog/${category.slug}`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly',
+        priority: 0.85,
       });
     });
   });

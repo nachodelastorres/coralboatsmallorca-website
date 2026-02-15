@@ -38,7 +38,7 @@ const SunsetTourHeroSSR = ({ texts }: SunsetTourHeroSSRProps) => {
     <section className="premium-tour-hero">
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/sunset_new/sunset_hero.webp"
+          src="/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp"
           alt="Sunset boat tour in Alcudia Bay Mallorca - Romantic evening cruise"
           fill
           sizes="100vw"

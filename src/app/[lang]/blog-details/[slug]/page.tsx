@@ -125,6 +125,22 @@ function translateBlogPost(
     secondaryImage2Alt: blog.secondaryImage2Alt
       ? translateKey(t, blog.secondaryImage2Alt)
       : undefined,
+    secondaryImage3: blog.secondaryImage3,
+    secondaryImage3Alt: blog.secondaryImage3Alt
+      ? translateKey(t, blog.secondaryImage3Alt)
+      : undefined,
+    secondaryImage4: blog.secondaryImage4,
+    secondaryImage4Alt: blog.secondaryImage4Alt
+      ? translateKey(t, blog.secondaryImage4Alt)
+      : undefined,
+    secondaryImage5: blog.secondaryImage5,
+    secondaryImage5Alt: blog.secondaryImage5Alt
+      ? translateKey(t, blog.secondaryImage5Alt)
+      : undefined,
+    secondaryImage6: blog.secondaryImage6,
+    secondaryImage6Alt: blog.secondaryImage6Alt
+      ? translateKey(t, blog.secondaryImage6Alt)
+      : undefined,
 
     // Sections
     section1: buildSection(t, blog, 1),
@@ -357,6 +373,26 @@ export default async function BlogDetailsPage({ params }: Props) {
       name: translatedBlog.secondaryImage2Alt || seoTitle,
       inLanguage: params.lang,
     });
+  }
+
+  const extraImages = [
+    { img: blog.secondaryImage3, alt: translatedBlog.secondaryImage3Alt },
+    { img: blog.secondaryImage4, alt: translatedBlog.secondaryImage4Alt },
+    { img: blog.secondaryImage5, alt: translatedBlog.secondaryImage5Alt },
+    { img: blog.secondaryImage6, alt: translatedBlog.secondaryImage6Alt },
+  ];
+  for (const { img, alt } of extraImages) {
+    if (img) {
+      schemaImages.push({
+        '@type': 'ImageObject',
+        url: `https://www.coralboatsmallorca.com${img.src}`,
+        contentUrl: `https://www.coralboatsmallorca.com${img.src}`,
+        width: img.width || 1200,
+        height: img.height || 630,
+        name: alt || seoTitle,
+        inLanguage: params.lang,
+      });
+    }
   }
 
   // BreadcrumbList Schema (translated)

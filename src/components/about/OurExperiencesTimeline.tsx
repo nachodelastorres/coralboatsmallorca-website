@@ -24,7 +24,7 @@ const OurExperiencesTimeline = () => {
       titleKey: 'experiences_timeline.sunset.title',
       descriptionKey: 'experiences_timeline.sunset.description',
       timeKey: 'experiences_timeline.sunset.time',
-      image: '/assets/img/premium/home_new/card_sunset.webp',
+      image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
       link: getPath('/alcudia-sunset-boat-tour'),
       number: '02'
     },
@@ -33,7 +33,7 @@ const OurExperiencesTimeline = () => {
       titleKey: 'experiences_timeline.charter.title',
       descriptionKey: 'experiences_timeline.charter.description',
       timeKey: 'experiences_timeline.charter.time',
-      image: '/assets/img/premium/home_new/card_private.webp',
+      image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
       link: getPath('/alcudia-private-boat-charter'),
       number: '03'
     }

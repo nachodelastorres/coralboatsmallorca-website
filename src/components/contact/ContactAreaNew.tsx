@@ -140,7 +140,7 @@ const ContactAreaNew = () => {
                         {t('premium.contact_new.tel_label')}
                       </div>
                       <a
-                        href="tel:+34626681867"
+                        href="tel:+34651992329"
                         style={{
                           fontSize: '1.1rem',
                           fontWeight: '600',
@@ -148,7 +148,7 @@ const ContactAreaNew = () => {
                           textDecoration: 'none',
                         }}
                       >
-                        (+34) 626 681 867
+                        (+34) 651 992 329
                       </a>
                     </div>
                   </div>

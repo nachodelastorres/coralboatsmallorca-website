@@ -95,7 +95,7 @@ export default async function ContactPage({ params }: PageProps) {
       name: 'Coral Boats Mallorca',
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+34-626-681-867',
+        telephone: '+34-651-992-329',
         email: 'info@coralboatsmallorca.com',
         contactType: 'customer service',
         areaServed: 'ES',

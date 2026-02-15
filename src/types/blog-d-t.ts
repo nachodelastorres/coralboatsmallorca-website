@@ -101,10 +101,18 @@ export interface IBlogDT {
   // Imágenes secundarias para posts con múltiples imágenes
   secondaryImage1?: StaticImageData;
   secondaryImage2?: StaticImageData;
+  secondaryImage3?: StaticImageData;
+  secondaryImage4?: StaticImageData;
+  secondaryImage5?: StaticImageData;
+  secondaryImage6?: StaticImageData;
 
   // Metadata SEO de imágenes (claves i18n)
   imageAlt?: string;              // Alt específico imagen principal
   imageCaption?: string;          // Caption/descripción larga para Schema.org
   secondaryImage1Alt?: string;    // Alt imagen secundaria 1
   secondaryImage2Alt?: string;    // Alt imagen secundaria 2
+  secondaryImage3Alt?: string;    // Alt imagen secundaria 3
+  secondaryImage4Alt?: string;    // Alt imagen secundaria 4
+  secondaryImage5Alt?: string;    // Alt imagen secundaria 5
+  secondaryImage6Alt?: string;    // Alt imagen secundaria 6
 }

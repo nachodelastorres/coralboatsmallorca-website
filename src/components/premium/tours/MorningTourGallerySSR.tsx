@@ -9,6 +9,12 @@
 
 import MorningTourGalleryClient from './MorningTourGalleryClient';
 
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
 export interface MorningTourGalleryTexts {
   label: string;
   title: string;
@@ -16,6 +22,7 @@ export interface MorningTourGalleryTexts {
   ctaButton: string;
   ctaSecondary: string;
   galleryPath: string;
+  images: GalleryImage[];
 }
 
 interface MorningTourGallerySSRProps {
@@ -46,6 +53,7 @@ const MorningTourGallerySSR = ({ texts }: MorningTourGallerySSRProps) => {
           ctaButton={texts.ctaButton}
           ctaSecondary={texts.ctaSecondary}
           galleryPath={texts.galleryPath}
+          images={texts.images}
         />
       </div>
     </section>

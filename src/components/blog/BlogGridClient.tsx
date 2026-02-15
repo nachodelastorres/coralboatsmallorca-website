@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -21,6 +21,7 @@ interface Category {
   id: string;
   label: string;
   icon: string;
+  slug: string;
 }
 
 interface BlogGridClientProps {
@@ -33,6 +34,7 @@ interface BlogGridClientProps {
     featuredBadge: string;
     featuredTitle: string;
     featuredSubtitle: string;
+    allPostsLabel: string;
   };
   initialVisible?: number;
 }
@@ -44,35 +46,25 @@ const BlogGridClient = ({
   translations,
   initialVisible = 6,
 }: BlogGridClientProps) => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [visiblePosts, setVisiblePosts] = useState(initialVisible);
 
   // Featured post (most recent)
   const featuredPost = blogs[0];
 
-  // Filter and slice other posts based on category and visible count
-  const filteredPosts = useMemo(() => {
-    const otherPosts = blogs.slice(1);
-    if (selectedCategory === 'all') {
-      return otherPosts;
-    }
-    return otherPosts.filter(blog => blog.category === selectedCategory);
-  }, [blogs, selectedCategory]);
-
-  const visibleFilteredPosts = filteredPosts.slice(0, visiblePosts);
+  // Show all posts (no client-side filtering - categories are links now)
+  const otherPosts = blogs.slice(1);
+  const visibleFilteredPosts = otherPosts.slice(0, visiblePosts);
 
   const loadMore = () => {
     setVisiblePosts(prev => prev + 6);
   };
 
-  // Reset visible posts when category changes
-  const handleCategoryChange = (categoryId: string) => {
-    setSelectedCategory(categoryId);
-    setVisiblePosts(initialVisible);
-  };
-
   const getBlogPath = (slug: string) => {
     return lang === 'en' ? `/blog-details/${slug}` : `/${lang}/blog-details/${slug}`;
+  };
+
+  const getCategoryHref = (categorySlug: string) => {
+    return `/${lang}/blog/${categorySlug}`;
   };
 
   return (
@@ -209,7 +201,7 @@ const BlogGridClient = ({
         </div>
       </section>
 
-      {/* Categories Filter */}
+      {/* Categories as Links */}
       <section style={{ padding: '40px 0 20px', background: '#ffffff' }}>
         <div className="container">
           <div className="row">
@@ -223,40 +215,47 @@ const BlogGridClient = ({
                   marginBottom: '40px',
                 }}
               >
+                {/* "All Posts" - active on the blog index */}
+                <span
+                  style={{
+                    padding: '12px 24px',
+                    border: '2px solid #0891b2',
+                    background: '#e0f2fe',
+                    color: '#0891b2',
+                    borderRadius: '30px',
+                    fontSize: '0.95rem',
+                    fontWeight: '600',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                  }}
+                >
+                  <i className="fa-solid fa-grip"></i>
+                  {translations.allPostsLabel}
+                </span>
+
                 {categories.map(category => (
-                  <button
+                  <Link
                     key={category.id}
-                    onClick={() => handleCategoryChange(category.id)}
+                    href={getCategoryHref(category.slug)}
                     style={{
                       padding: '12px 24px',
-                      border: selectedCategory === category.id ? '2px solid #0891b2' : '2px solid #e2e8f0',
-                      background: selectedCategory === category.id ? '#e0f2fe' : '#ffffff',
-                      color: selectedCategory === category.id ? '#0891b2' : '#64748b',
+                      border: '2px solid #e2e8f0',
+                      background: '#ffffff',
+                      color: '#64748b',
                       borderRadius: '30px',
                       fontSize: '0.95rem',
                       fontWeight: '600',
-                      cursor: 'pointer',
-                      transition: 'all 0.3s ease',
+                      textDecoration: 'none',
                       display: 'flex',
                       alignItems: 'center',
                       gap: '8px',
-                    }}
-                    onMouseEnter={(e) => {
-                      if (selectedCategory !== category.id) {
-                        e.currentTarget.style.borderColor = '#0891b2';
-                        e.currentTarget.style.background = '#f0f9ff';
-                      }
-                    }}
-                    onMouseLeave={(e) => {
-                      if (selectedCategory !== category.id) {
-                        e.currentTarget.style.borderColor = '#e2e8f0';
-                        e.currentTarget.style.background = '#ffffff';
-                      }
+                      transition: 'all 0.3s ease',
                     }}
                   >
                     <i className={`fa-solid ${category.icon}`}></i>
                     {category.label}
-                  </button>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -378,7 +377,7 @@ const BlogGridClient = ({
       </section>
 
       {/* Load More Button */}
-      {visiblePosts < filteredPosts.length && (
+      {visiblePosts < otherPosts.length && (
         <section style={{ padding: '0 0 60px', background: '#ffffff' }}>
           <div className="container">
             <div className="row">

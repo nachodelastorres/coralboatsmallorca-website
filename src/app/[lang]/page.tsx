@@ -16,6 +16,7 @@ import TestimonialsPremiumSSR from '@/components/premium/TestimonialsPremiumSSR'
 import WhyChooseUsPremiumSSR from '@/components/premium/WhyChooseUsPremiumSSR';
 import GalleryPreviewSectionSSR from '@/components/premium/GalleryPreviewSectionSSR';
 import BlogPreviewSectionSSR from '@/components/premium/BlogPreviewSectionSSR';
+import ToursCtaBannerSSR, { ToursCtaBannerTexts } from '@/components/blog/category/ToursCtaBannerSSR';
 
 // Data imports
 import { blogData } from '@/data/blog-data';
@@ -105,6 +106,14 @@ export default async function Home({ params }: PageProps) {
     bookNow: t('premium.tours.book_now'),
     departureTitle: t('premium.tours.departure_title'),
     departureDescription: t('premium.tours.departure_description'),
+    transferInfo: {
+      title: t('premium.tours.transfer_title'),
+      description: t('premium.tours.transfer_description'),
+      locations: t('premium.tours.transfer_locations'),
+      contactNote: t('premium.tours.transfer_contact_note'),
+      cta: t('premium.tours.transfer_cta'),
+      ctaLink: '#tours',
+    },
     priceBreakdown: {
       adults: t('premium.tours.adults'),
       adultsAge: t('premium.tours.adults_age'),
@@ -134,7 +143,7 @@ export default async function Home({ params }: PageProps) {
         time: t('premium.tours.sunset_time'),
         duration: t('premium.tours.sunset_duration'),
         price: t('premium.tours.sunset_price'),
-        image: '/assets/img/premium/home_new/card_sunset.webp',
+        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
         imageAlt: `${t('premium.tours.sunset_name')} boat tour in Mallorca Bay of Alcudia`,
         link: sunsetTourPath,
         highlight: t('premium.tours.sunset_highlights').split('•')[0].trim(),
@@ -297,6 +306,37 @@ export default async function Home({ params }: PageProps) {
     ],
   };
 
+  // ===== TOURS CTA BANNER =====
+  const toursCtaBannerTexts: ToursCtaBannerTexts = {
+    headline: t('tours_cta_banner.home.headline') || 'Ready to book your adventure?',
+    subheadline: t('tours_cta_banner.home.subheadline') || 'Choose your perfect experience in Alcudia Bay',
+    cta: t('tours_cta_banner.cta') || 'All tours depart from Puerto de Alcudia',
+    bookCta: t('tours_cta_banner.book_cta') || 'Reserve your spot',
+    tours: [
+      {
+        id: 'morning',
+        name: t('tours_cta_banner.morning.name') || 'Morning Tour',
+        tagline: t('tours_cta_banner.morning.tagline') || 'Crystal waters & snorkeling',
+        image: '/assets/img/premium/home_new/card_morning.webp',
+        link: morningTourPath,
+      },
+      {
+        id: 'sunset',
+        name: t('tours_cta_banner.sunset.name') || 'Sunset Tour',
+        tagline: t('tours_cta_banner.sunset.tagline') || 'Golden hour & cava toast',
+        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
+        link: sunsetTourPath,
+      },
+      {
+        id: 'charter',
+        name: t('tours_cta_banner.charter.name') || 'Private Charter',
+        tagline: t('tours_cta_banner.charter.tagline') || 'Your boat, your schedule',
+        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
+        link: charterPath,
+      },
+    ],
+  };
+
   // ===== GALLERY TEXTS =====
   const galleryTexts = {
     label: t('gallery_section.label'),
@@ -412,7 +452,7 @@ export default async function Home({ params }: PageProps) {
           '@id': `https://www.coralboatsmallorca.com/${locale}/alcudia-sunset-boat-tour#tour`,
           name: t('premium.tours.sunset_name'),
           description: t('premium.tours.description'),
-          image: 'https://www.coralboatsmallorca.com/assets/img/premium/home_new/card_sunset.webp',
+          image: 'https://www.coralboatsmallorca.com/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
           url: `https://www.coralboatsmallorca.com/${locale}/alcudia-sunset-boat-tour`,
           duration: 'PT3H',
           offers: {
@@ -606,6 +646,7 @@ export default async function Home({ params }: PageProps) {
           <PrivateChartersPremiumSSR texts={privateChartersTexts} />
           <AboutPremiumSSR texts={aboutTexts} />
           <TestimonialsPremiumSSR texts={testimonialsTexts} />
+          <ToursCtaBannerSSR texts={toursCtaBannerTexts} />
           <GalleryPreviewSectionSSR texts={galleryTexts} />
           <BlogPreviewSectionSSR texts={blogTexts} />
           <WhyChooseUsPremiumSSR texts={whyChooseUsTexts} />

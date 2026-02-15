@@ -559,9 +559,9 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
             </div>
           )}
 
-          {/* Section 4 & 5 - Combined Final Section */}
+          {/* Section 4 - How to Get There */}
           {blog.section4Title && (
-            <div className="row justify-content-center">
+            <div className="row justify-content-center" style={{ marginBottom: '100px' }}>
               <div className="col-lg-10">
                 <div
                   style={{
@@ -580,9 +580,8 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                   >
                     {t(blog.section4Title)}
                   </h2>
-                  <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '40px' }}>
+                  <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
                     {t(blog.section4Body!).split('\n\n').map((paragraph, pIdx) => {
-                      // Check if paragraph contains bullet points
                       if (paragraph.includes('- ')) {
                         return (
                           <ul key={pIdx} style={{ listStyle: 'none', padding: 0, marginTop: '20px', marginBottom: '20px' }}>
@@ -616,65 +615,280 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                           </ul>
                         );
                       }
-                      // Regular paragraph
                       return <p key={pIdx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
                     })}
                   </div>
+                </div>
+              </div>
+            </div>
+          )}
 
-                  {blog.section5Title && (
-                    <>
-                      <h3
-                        style={{
-                          fontSize: '1.75rem',
-                          fontWeight: '600',
-                          color: '#0891b2',
-                          marginBottom: '20px',
-                        }}
-                      >
-                        {t(blog.section5Title)}
-                      </h3>
-                      <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
-                        {t(blog.section5Body!).split('\n\n').map((paragraph, idx) => {
-                          // Check if paragraph contains bullet points
-                          if (paragraph.includes('- ')) {
-                            return (
-                              <ul key={idx} style={{ listStyle: 'none', padding: 0, marginTop: '20px', marginBottom: '20px' }}>
-                                {paragraph.split('\n').filter(line => line.trim()).map((line, lIdx) => (
-                                  <li key={lIdx} style={{
-                                    display: 'flex',
-                                    alignItems: 'flex-start',
-                                    marginBottom: '15px',
-                                    paddingLeft: '0'
+          {/* Secondary Image 3 - Two Column Layout */}
+          {blog.secondaryImage3 && blog.secondaryImage4 && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-lg-6" style={{ marginBottom: '30px' }}>
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '350px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage3}
+                    alt={blog.secondaryImage3Alt ? t(blog.secondaryImage3Alt) : `${t(blog.title)} - Alcudia`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+              <div className="col-lg-6" style={{ marginBottom: '30px' }}>
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '350px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage4}
+                    alt={blog.secondaryImage4Alt ? t(blog.secondaryImage4Alt) : `${t(blog.title)} - Mallorca`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Section 5 - Nature and Experience */}
+          {blog.section5Title && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+                  <h2
+                    style={{
+                      fontSize: '2.75rem',
+                      fontWeight: '700',
+                      color: '#1e293b',
+                      marginBottom: '20px',
+                      lineHeight: '1.2',
+                    }}
+                  >
+                    {t(blog.section5Title)}
+                  </h2>
+                </div>
+                <div className="row justify-content-center">
+                  <div className="col-lg-10">
+                    <div style={{ fontSize: '1.15rem', color: '#475569', lineHeight: '1.9' }}>
+                      {t(blog.section5Body!).split('\n\n').map((paragraph, idx) => {
+                        if (paragraph.includes('- ')) {
+                          return (
+                            <ul key={idx} style={{ listStyle: 'none', padding: 0, marginTop: '20px', marginBottom: '20px' }}>
+                              {paragraph.split('\n').filter(line => line.trim()).map((line, lIdx) => (
+                                <li key={lIdx} style={{
+                                  display: 'flex',
+                                  alignItems: 'flex-start',
+                                  marginBottom: '15px',
+                                  paddingLeft: '0'
+                                }}>
+                                  <span style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    width: '24px',
+                                    height: '24px',
+                                    borderRadius: '50%',
+                                    background: 'linear-gradient(135deg, #0891b2, #0e7490)',
+                                    color: '#ffffff',
+                                    fontSize: '0.75rem',
+                                    fontWeight: 'bold',
+                                    flexShrink: 0,
+                                    marginRight: '15px',
+                                    marginTop: '2px'
                                   }}>
-                                    <span style={{
-                                      display: 'inline-flex',
-                                      alignItems: 'center',
-                                      justifyContent: 'center',
-                                      width: '24px',
-                                      height: '24px',
-                                      borderRadius: '50%',
-                                      background: 'linear-gradient(135deg, #0891b2, #0e7490)',
-                                      color: '#ffffff',
-                                      fontSize: '0.75rem',
-                                      fontWeight: 'bold',
-                                      flexShrink: 0,
-                                      marginRight: '15px',
-                                      marginTop: '2px'
-                                    }}>
-                                      <i className="fa-solid fa-check"></i>
-                                    </span>
-                                    <span>{processMarkdown(line.replace('- ', ''))}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            );
-                          }
-                          // Regular paragraph
-                          return <p key={idx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
-                        })}
+                                    <i className="fa-solid fa-check"></i>
+                                  </span>
+                                  <span>{processMarkdown(line.replace('- ', ''))}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          );
+                        }
+                        return <p key={idx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Secondary Image 5 - Full Width Landscape */}
+          {blog.secondaryImage5 && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '450px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage5}
+                    alt={blog.secondaryImage5Alt ? t(blog.secondaryImage5Alt) : `${t(blog.title)} - Entorno natural`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Section 6 - Additional Content with Cards (if exists) */}
+          {blog.section6Title && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <h2
+                  style={{
+                    fontSize: '2.75rem',
+                    fontWeight: '700',
+                    color: '#1e293b',
+                    marginBottom: '20px',
+                    textAlign: 'center',
+                  }}
+                >
+                  {t(blog.section6Title)}
+                </h2>
+                <p
+                  style={{
+                    fontSize: '1.15rem',
+                    color: '#64748b',
+                    marginBottom: '60px',
+                    textAlign: 'center',
+                    maxWidth: '800px',
+                    margin: '0 auto 60px',
+                  }}
+                >
+                  {processMarkdown(t(blog.section6Body!))}
+                </p>
+
+                {blog.section6sub1Subtitle && (
+                  <div className="row g-4">
+                    {[
+                      { subtitle: blog.section6sub1Subtitle, body: blog.section6sub1Body },
+                      { subtitle: blog.section6sub2Subtitle, body: blog.section6sub2Body },
+                      { subtitle: blog.section6sub3Subtitle, body: blog.section6sub3Body },
+                    ].filter(s => s.subtitle).map((section, idx) => (
+                      <div key={idx} className="col-lg-4">
+                        <div
+                          style={{
+                            background: '#ffffff',
+                            borderRadius: '20px',
+                            overflow: 'hidden',
+                            boxShadow: '0 10px 40px rgba(0, 0, 0, 0.1)',
+                            height: '100%',
+                            transition: 'transform 0.3s ease',
+                          }}
+                          className="visual-story-card"
+                        >
+                          <div
+                            style={{
+                              height: '180px',
+                              background: `linear-gradient(135deg, ${['#10b981', '#6366f1', '#ec4899'][idx]}, ${
+                                ['#059669', '#4f46e5', '#db2777'][idx]
+                              })`,
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              fontSize: '3rem',
+                              color: '#ffffff',
+                            }}
+                          >
+                            <i className={`fa-solid ${['fa-utensils', 'fa-golf-ball-tee', 'fa-landmark'][idx]}`}></i>
+                          </div>
+                          <div style={{ padding: '30px' }}>
+                            <h3
+                              style={{
+                                fontSize: '1.4rem',
+                                fontWeight: '700',
+                                color: '#1e293b',
+                                marginBottom: '15px',
+                              }}
+                            >
+                              {processMarkdown(t(section.subtitle!))}
+                            </h3>
+                            <p style={{ fontSize: '1rem', color: '#64748b', lineHeight: '1.8' }}>
+                              {processMarkdown(t(section.body!))}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                    </>
-                  )}
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Secondary Image 6 with Text Overlay */}
+          {blog.secondaryImage6 && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '400px',
+                    borderRadius: '20px',
+                    overflow: 'hidden',
+                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                  }}
+                >
+                  <Image
+                    src={blog.secondaryImage6}
+                    alt={blog.secondaryImage6Alt ? t(blog.secondaryImage6Alt) : `${t(blog.title)} - Gastronomía`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Section 7 - Final Conclusion (if exists) */}
+          {blog.section7Title && (
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <div
+                  style={{
+                    padding: '60px',
+                    background: 'linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)',
+                    borderRadius: '20px',
+                    textAlign: 'center',
+                  }}
+                >
+                  <h2
+                    style={{
+                      fontSize: '2.25rem',
+                      fontWeight: '700',
+                      color: '#92400e',
+                      marginBottom: '25px',
+                    }}
+                  >
+                    {t(blog.section7Title)}
+                  </h2>
+                  <div style={{ fontSize: '1.15rem', color: '#78350f', lineHeight: '1.9' }}>
+                    {t(blog.section7Body!).split('\n\n').map((paragraph, idx) => (
+                      <p key={idx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

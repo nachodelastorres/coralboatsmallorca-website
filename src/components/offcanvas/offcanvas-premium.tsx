@@ -189,13 +189,13 @@ const OffCanvasPremium = ({
               </div>
             </a>
 
-            <a href="tel:+34626681867" className="contact-item">
+            <a href="tel:+34651992329" className="contact-item">
               <div className="contact-icon">
                 <i className="fa-solid fa-phone"></i>
               </div>
               <div className="contact-details">
                 <span className="contact-label">{t('menu.phone')}</span>
-                <span className="contact-value">(+34) 626 681 867</span>
+                <span className="contact-value">(+34) 651 992 329</span>
               </div>
             </a>
 

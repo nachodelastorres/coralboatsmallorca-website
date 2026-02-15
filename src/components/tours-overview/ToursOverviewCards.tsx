@@ -46,7 +46,7 @@ const ToursOverviewCards = () => {
       time: t('toursPage.cards.sunsetTour.time'),
       duration: t('toursPage.cards.sunsetTour.duration'),
       price: t('toursPage.cards.sunsetTour.price'),
-      image: '/assets/img/premium/home_new/card_sunset.webp',
+      image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
       link: '/alcudia-sunset-boat-tour',
       features: [
         t('toursPage.cards.sunsetTour.feature1'),
@@ -75,7 +75,7 @@ const ToursOverviewCards = () => {
       time: t('toursPage.cards.privateCharter.time'),
       duration: t('toursPage.cards.privateCharter.duration'),
       price: t('toursPage.cards.privateCharter.price'),
-      image: '/assets/img/premium/home_new/card_private.webp',
+      image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
       link: '/alcudia-private-boat-charter',
       features: [
         t('toursPage.cards.privateCharter.feature1'),

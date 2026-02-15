@@ -13,42 +13,42 @@ const MorningTourItinerary = () => {
       title: t('morningTour.itinerary.step1Title'),
       description: t('morningTour.itinerary.step1Description'),
       icon: 'fa-anchor',
-      image: '/assets/img/premium/morning_new/embarque.webp'
+      image: '/assets/img/premium/morning_new/departure-boarding-port-alcudia.webp'
     },
     {
       time: t('morningTour.itinerary.step2Time'),
       title: t('morningTour.itinerary.step2Title'),
       description: t('morningTour.itinerary.step2Description'),
       icon: 'fa-water',
-      image: '/assets/img/premium/morning_new/coll baix 2.webp'
+      image: '/assets/img/premium/morning_new/coll-baix-beach-swimming-snorkeling.webp'
     },
     {
       time: t('morningTour.itinerary.step3Time'),
       title: t('morningTour.itinerary.step3Title'),
       description: t('morningTour.itinerary.step3Description'),
       icon: 'fa-ship',
-      image: '/assets/img/premium/morning_new/tour.webp'
+      image: '/assets/img/premium/morning_new/coastal-cruise-sightseeing-mallorca-cliffs.webp'
     },
     {
       time: t('morningTour.itinerary.step4Time'),
       title: t('morningTour.itinerary.step4Title'),
       description: t('morningTour.itinerary.step4Description'),
       icon: 'fa-utensils',
-      image: '/assets/img/premium/morning_new/matress.webp'
+      image: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp'
     },
     {
       time: t('morningTour.itinerary.step5Time'),
       title: t('morningTour.itinerary.step5Title'),
       description: t('morningTour.itinerary.step5Description'),
       icon: 'fa-sun',
-      image: '/assets/img/premium/morning_new/aina.webp'
+      image: '/assets/img/premium/morning_new/relaxing-on-deck-scenic-return-mallorca.webp'
     },
     {
       time: t('morningTour.itinerary.step6Time'),
       title: t('morningTour.itinerary.step6Title'),
       description: t('morningTour.itinerary.step6Description'),
       icon: 'fa-flag-checkered',
-      image: '/assets/img/premium/morning_new/babor.webp'
+      image: '/assets/img/premium/morning_new/arrival-port-alcudia-marina.webp'
     }
   ];
 

@@ -128,7 +128,7 @@ const FooterSSR = ({ locale, translations, footerLogo }: FooterSSRProps) => {
                     </li>
                     <li>
                       <i className="fa-solid fa-phone"></i>
-                      <a href="tel:+34626681867">(+34) 626 681 867</a>
+                      <a href="tel:+34651992329">(+34) 651 992 329</a>
                     </li>
                     <li>
                       <i className="fa-brands fa-whatsapp"></i>

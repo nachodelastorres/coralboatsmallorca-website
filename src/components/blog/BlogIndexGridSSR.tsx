@@ -1,5 +1,7 @@
 import { Dictionary, getNestedValue } from '@/lib/dictionaries';
 import { blogDataOne } from '@/data/blog-data';
+import { blogCategories, getCategorySlug } from '@/config/blog-categories';
+import type { Locale } from '@/config/locales';
 import BlogGridClient from './BlogGridClient';
 
 interface BlogIndexGridSSRProps {
@@ -9,6 +11,7 @@ interface BlogIndexGridSSRProps {
 
 const BlogIndexGridSSR = ({ dict, lang }: BlogIndexGridSSRProps) => {
   const t = (key: string) => getNestedValue(dict as Record<string, unknown>, key);
+  const locale = lang as Locale;
 
   // Sort blogs by ID (newest first)
   const sortedBlogs = [...blogDataOne].sort((a, b) => b.id - a.id);
@@ -26,14 +29,13 @@ const BlogIndexGridSSR = ({ dict, lang }: BlogIndexGridSSRProps) => {
     imageAlt: blog.imageAlt ? t(blog.imageAlt) : undefined,
   }));
 
-  // Categories with translated labels
-  const categories = [
-    { id: 'all', label: t('blog_page.categories.all'), icon: 'fa-grip' },
-    { id: 'Guías', label: t('blog_page.categories.guides'), icon: 'fa-map' },
-    { id: 'Excursiones', label: t('blog_page.categories.tours'), icon: 'fa-ship' },
-    { id: 'Destinos', label: t('blog_page.categories.destinations'), icon: 'fa-location-dot' },
-    { id: 'Consejos', label: t('blog_page.categories.tips'), icon: 'fa-lightbulb' },
-  ];
+  // Categories with translated labels and localized slugs for linking
+  const categories = blogCategories.map(cat => ({
+    id: cat.id,
+    label: t(`blog_page.categories.${cat.translationKey}`),
+    icon: cat.icon,
+    slug: getCategorySlug(cat.id),
+  }));
 
   // Translations for client component
   const translations = {
@@ -42,6 +44,7 @@ const BlogIndexGridSSR = ({ dict, lang }: BlogIndexGridSSRProps) => {
     featuredBadge: t('blog_page.featured.badge'),
     featuredTitle: t('blog_page.featured.title'),
     featuredSubtitle: t('blog_page.featured.subtitle'),
+    allPostsLabel: t('blog_page.categories.all'),
   };
 
   return (

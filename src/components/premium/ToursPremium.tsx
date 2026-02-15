@@ -29,7 +29,7 @@ const ToursPremium = () => {
       timeKey: 'premium.tours.sunset_time',
       durationKey: 'premium.tours.sunset_duration',
       priceKey: 'premium.tours.sunset_price',
-      image: '/assets/img/premium/home_new/card_sunset.webp',
+      image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
       fareHarborId: '627686',
       link: getPath('/alcudia-sunset-boat-tour'),
       highlightsKey: 'premium.tours.sunset_highlights'

@@ -9,6 +9,12 @@
 
 import SunsetTourGalleryClient from './SunsetTourGalleryClient';
 
+export interface GalleryImage {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
 export interface SunsetTourGalleryTexts {
   label: string;
   title: string;
@@ -16,6 +22,7 @@ export interface SunsetTourGalleryTexts {
   ctaButton: string;
   ctaSecondary: string;
   galleryPath: string;
+  images: GalleryImage[];
 }
 
 interface SunsetTourGallerySSRProps {
@@ -46,6 +53,7 @@ const SunsetTourGallerySSR = ({ texts }: SunsetTourGallerySSRProps) => {
           ctaButton={texts.ctaButton}
           ctaSecondary={texts.ctaSecondary}
           galleryPath={texts.galleryPath}
+          images={texts.images}
         />
       </div>
     </section>

@@ -4,98 +4,39 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+interface GalleryImage {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
 interface SunsetTourGalleryClientProps {
   ctaButton: string;
   ctaSecondary: string;
   galleryPath: string;
+  images: GalleryImage[];
 }
 
 const SunsetTourGalleryClient = ({
   ctaButton,
   ctaSecondary,
   galleryPath,
+  images,
 }: SunsetTourGalleryClientProps) => {
   const [activeImage, setActiveImage] = useState(0);
-
-  const images = [
-    {
-      src: '/assets/img/premium/sunset_new/suns2.webp',
-      alt: 'Sunset boat tour sailing through golden waters of Alcudia Bay Mallorca',
-      title: 'Sailing at Sunset'
-    },
-    {
-      src: '/assets/img/premium/morning_new/10.webp',
-      alt: 'Evening boat trip along Mallorca northern coastline',
-      title: 'Evening Cruise in Alcudia Bay'
-    },
-    {
-      src: '/assets/img/premium/morning_new/06.webp',
-      alt: 'Swimming activities in golden evening light in Alcudia Bay',
-      title: 'Golden Hour Swimming'
-    },
-    {
-      src: '/assets/img/premium/morning_new/04.webp',
-      alt: 'Beautiful evening waters perfect for swimming',
-      title: 'Evening Waters'
-    },
-    {
-      src: '/assets/img/premium/morning_new/02.webp',
-      alt: 'Authentic Mallorcan tapas served on board during sunset boat tour',
-      title: 'Mallorcan Tapas Meal'
-    },
-    {
-      src: '/assets/img/premium/morning_new/00portrait.webp',
-      alt: 'Classic 1968 Coral Boats vessel at sunset cruising Mallorca coastline',
-      title: 'Our Classic Boat'
-    },
-    {
-      src: '/assets/img/premium/sunset_new/suns1.webp',
-      alt: 'Happy guests enjoying sunset boat tour experience in Mallorca',
-      title: 'Making Memories'
-    },
-    {
-      src: '/assets/img/premium/morning_new/03.webp',
-      alt: 'Authentic homemade Sangria served on board during sunset tour',
-      title: 'Homemade Sangria'
-    },
-    {
-      src: '/assets/img/premium/morning_new/matress.webp',
-      alt: 'Water activities in golden evening light in Alcudia Bay',
-      title: 'Evening Water Adventures'
-    },
-    {
-      src: '/assets/img/premium/sunset_new/sunset_hero.webp',
-      alt: 'Alcudia coastline at sunset',
-      title: 'Sunset Coastline'
-    },
-    {
-      src: '/assets/img/premium/morning_new/icecream.webp',
-      alt: 'Sweet treats during sunset boat cruise in Alcudia Bay',
-      title: 'Sweet Treats'
-    },
-    {
-      src: '/assets/img/premium/sunset_new/suns3.webp',
-      alt: 'Sunset boat cruise along Alcudia coastline Mallorca',
-      title: 'Alcudia Sunset Cruise'
-    },
-    {
-      src: '/assets/img/premium/morning_new/interior.webp',
-      alt: 'Interior of classic Coral Boats vessel at sunset in Alcudia Bay',
-      title: 'Coral Boats Interior'
-    },
-    {
-      src: '/assets/img/premium/morning_new/24.webp',
-      alt: 'Enjoying the sunset boat cruise in Alcudia Bay Mallorca',
-      title: 'Sunset Views'
-    },
-  ];
+  const [isHovering, setIsHovering] = useState(false);
 
   return (
     <>
       <div className="row">
         <div className="col-12">
           <div className="gallery-main">
-            <div className="main-image-wrapper">
+            <div
+              className="main-image-wrapper"
+              onMouseEnter={() => setIsHovering(true)}
+              onMouseLeave={() => setIsHovering(false)}
+              style={{ position: 'relative', overflow: 'hidden' }}
+            >
               <Image
                 src={images[activeImage].src}
                 alt={images[activeImage].alt}
@@ -105,8 +46,38 @@ const SunsetTourGalleryClient = ({
                 sizes="(max-width: 768px) 100vw, 90vw"
                 priority={activeImage === 0}
               />
-              <div className="image-caption">
-                <h4>{images[activeImage].title}</h4>
+              {/* Hover caption with slide-up effect */}
+              <div
+                className="image-caption-hover"
+                style={{
+                  position: 'absolute',
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  background: 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 60%, transparent 100%)',
+                  padding: '40px 20px 16px',
+                  transform: isHovering ? 'translateY(0)' : 'translateY(100%)',
+                  opacity: isHovering ? 1 : 0,
+                  transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+                  pointerEvents: 'none',
+                }}
+              >
+                <p
+                  style={{
+                    color: '#ffffff',
+                    fontSize: '0.9rem',
+                    fontWeight: '500',
+                    margin: 0,
+                    lineHeight: '1.5',
+                    textShadow: '0 1px 3px rgba(0,0,0,0.3)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                  }}
+                >
+                  <i className="fa-solid fa-location-dot" style={{ fontSize: '0.8rem', color: '#f59e0b' }}></i>
+                  {images[activeImage].caption}
+                </p>
               </div>
             </div>
 

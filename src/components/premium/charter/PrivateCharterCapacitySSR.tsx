@@ -104,7 +104,7 @@ const PrivateCharterCapacitySSR = ({ texts }: PrivateCharterCapacitySSRProps) =>
             <div className="tour-info-card">
               <div className="card-image">
                 <Image
-                  src="/assets/img/premium/home_new/14.webp"
+                  src="/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp"
                   alt="Private charter boat for groups up to 40 people in Alcudia Mallorca"
                   width={600}
                   height={400}

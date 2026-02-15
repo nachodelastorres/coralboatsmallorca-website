@@ -38,6 +38,14 @@ export interface BlogPostTranslated {
   secondaryImage1Alt?: string;
   secondaryImage2?: StaticImageData;
   secondaryImage2Alt?: string;
+  secondaryImage3?: StaticImageData;
+  secondaryImage3Alt?: string;
+  secondaryImage4?: StaticImageData;
+  secondaryImage4Alt?: string;
+  secondaryImage5?: StaticImageData;
+  secondaryImage5Alt?: string;
+  secondaryImage6?: StaticImageData;
+  secondaryImage6Alt?: string;
 
   // Sections (already translated)
   section1?: BlogSection;
@@ -516,69 +524,138 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                 </Link>
               </div>
 
-              {/* Sections 3-5 */}
-              {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} />}
-              {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} />}
-              {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} />}
+              {/* Sections 3-12 with distributed images */}
+              {(() => {
+                const hasDistributedImages = !!blog.secondaryImage3;
 
-              {/* Secondary Images Gallery */}
-              {(blog.secondaryImage1 || blog.secondaryImage2) && (
-                <div style={{ marginBottom: '50px' }}>
-                  <div
-                    style={{
-                      display: 'grid',
-                      gridTemplateColumns: blog.secondaryImage1 && blog.secondaryImage2 ? 'repeat(2, 1fr)' : '1fr',
-                      gap: '20px',
-                    }}
-                  >
-                    {blog.secondaryImage1 && (
-                      <div
-                        style={{
-                          position: 'relative',
-                          height: '350px',
-                          borderRadius: '15px',
-                          overflow: 'hidden',
-                          boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-                        }}
-                      >
-                        <Image
-                          src={blog.secondaryImage1}
-                          alt={blog.secondaryImage1Alt || blog.title}
-                          fill
-                          style={{ objectFit: 'cover' }}
-                        />
+                if (hasDistributedImages) {
+                  // Distributed layout: images placed between sections
+                  return (
+                    <>
+                      {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} />}
+
+                      {/* Image pair after section 3 */}
+                      {(blog.secondaryImage1 || blog.secondaryImage2) && (
+                        <div style={{ marginBottom: '50px' }}>
+                          <div
+                            style={{
+                              display: 'grid',
+                              gridTemplateColumns: blog.secondaryImage1 && blog.secondaryImage2 ? 'repeat(2, 1fr)' : '1fr',
+                              gap: '20px',
+                            }}
+                          >
+                            {blog.secondaryImage1 && (
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                            )}
+                            {blog.secondaryImage2 && (
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )}
+
+                      {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} />}
+
+                      {/* Single image after section 4 */}
+                      {blog.secondaryImage3 && (
+                        <div style={{ marginBottom: '50px' }}>
+                          <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                            <Image src={blog.secondaryImage3} alt={blog.secondaryImage3Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                          </div>
+                        </div>
+                      )}
+
+                      {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} />}
+
+                      {/* Single image after section 5 */}
+                      {blog.secondaryImage4 && (
+                        <div style={{ marginBottom: '50px' }}>
+                          <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                            <Image src={blog.secondaryImage4} alt={blog.secondaryImage4Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                          </div>
+                        </div>
+                      )}
+
+                      {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} />}
+                      {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} />}
+
+                      {/* Image pair after section 7 */}
+                      {(blog.secondaryImage5 || blog.secondaryImage6) && (
+                        <div style={{ marginBottom: '50px' }}>
+                          <div
+                            style={{
+                              display: 'grid',
+                              gridTemplateColumns: blog.secondaryImage5 && blog.secondaryImage6 ? 'repeat(2, 1fr)' : '1fr',
+                              gap: '20px',
+                            }}
+                          >
+                            {blog.secondaryImage5 && (
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage5} alt={blog.secondaryImage5Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                            )}
+                            {blog.secondaryImage6 && (
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage6} alt={blog.secondaryImage6Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )}
+
+                      {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} />}
+                      {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} />}
+                      {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} />}
+                      {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} />}
+                      {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} />}
+                    </>
+                  );
+                }
+
+                // Classic layout: single image block after section 5
+                return (
+                  <>
+                    {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} />}
+                    {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} />}
+                    {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} />}
+
+                    {(blog.secondaryImage1 || blog.secondaryImage2) && (
+                      <div style={{ marginBottom: '50px' }}>
+                        <div
+                          style={{
+                            display: 'grid',
+                            gridTemplateColumns: blog.secondaryImage1 && blog.secondaryImage2 ? 'repeat(2, 1fr)' : '1fr',
+                            gap: '20px',
+                          }}
+                        >
+                          {blog.secondaryImage1 && (
+                            <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                              <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                            </div>
+                          )}
+                          {blog.secondaryImage2 && (
+                            <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                              <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                            </div>
+                          )}
+                        </div>
                       </div>
                     )}
-                    {blog.secondaryImage2 && (
-                      <div
-                        style={{
-                          position: 'relative',
-                          height: '350px',
-                          borderRadius: '15px',
-                          overflow: 'hidden',
-                          boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-                        }}
-                      >
-                        <Image
-                          src={blog.secondaryImage2}
-                          alt={blog.secondaryImage2Alt || blog.title}
-                          fill
-                          style={{ objectFit: 'cover' }}
-                        />
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
 
-              {/* Sections 6-12 */}
-              {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} />}
-              {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} />}
-              {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} />}
-              {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} />}
-              {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} />}
-              {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} />}
-              {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} />}
+                    {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} />}
+                    {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} />}
+                    {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} />}
+                    {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} />}
+                    {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} />}
+                    {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} />}
+                    {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} />}
+                  </>
+                );
+              })()}
             </div>
           </div>
         </div>

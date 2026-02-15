@@ -3583,6 +3583,40 @@
       "title": "Your perfect beach in northern Mallorca",
       "body": "From the prehistoric solitude of Es Caló to the legendary elegance of Formentor, northern Mallorca offers **more than 20 beaches and coves** covering every taste and travel style. Families with children, couples seeking romantic hideaways, adventurous hikers, or simply travellers who want to lie on the finest sand in Europe — there is a beach here waiting for you.\n\nOur advice is not to limit yourself to a single beach. Spend several days exploring different stretches and combine the experience on land with a [boat trip](https://coralboats.com/en/boat-tours-alcudia). Watching the Victoria cliffs from the sea, anchoring off Coll Baix for a swim in crystal-clear waters, or simply watching the coastline glide past before your eyes — these are the moments that turn a holiday into a memory that lasts forever.\n\nReady to discover the northern coast? We will see you on the sea."
     }
+  },
+  "discoverAlcudia": {
+    "title": "Discover Alcudia & Northern Mallorca",
+    "subtitle": "The perfect base for your Mediterranean adventure",
+    "introP1": "Nestled on the shores of the largest bay in Mallorca, Alcudia is the crown jewel of the island's north. Its origins date back to the Roman settlement of Pollentia, founded in 123 BC, making it one of the oldest towns in the Balearic Islands. Today, the beautifully preserved medieval walls, narrow cobblestone streets and charming plazas of the Old Town blend seamlessly with a vibrant harbour, world-class beaches and a coastline that begs to be explored by sea.",
+    "introP2": "Whether you're seeking turquoise waters and hidden coves, dramatic cliff-top trails with panoramic views, authentic Mallorcan cuisine or simply the warmth of over 300 sunny days per year, northern Mallorca delivers an experience that rivals any Mediterranean destination. And the best way to see its most spectacular stretches of coast? From the deck of a boat.",
+    "beachesTitle": "Beaches & Hidden Coves",
+    "beachesP1": "The Bay of Alcudia boasts some of the finest beaches in the Mediterranean. Playa de Muro stretches for kilometres with powdery white sand and shallow Caribbean-blue waters — perfect for families. Further south, Can Picafort offers a lively beachfront with restaurants and water sports. To the north, Playa de la Victoria curves beneath pine-clad hills, while the iconic Playa de Formentor — often called the most beautiful beach in Mallorca — sits in a sheltered cove framed by mountains.",
+    "beachesP2": "But the real magic lies in the coves that can only be reached by boat. Coll Baix, a pristine crescent of pebbles backed by towering cliffs, is one of the most photographed beaches on the island — and our morning tour takes you directly there. Nearby, the islet of Alcanada with its picturesque lighthouse offers crystal-clear snorkelling waters teeming with Mediterranean fish.",
+    "natureTitle": "Nature & Excursions",
+    "natureP1": "Northern Mallorca is a paradise for nature lovers. The Serra de Tramuntana mountain range, a UNESCO World Heritage Site, runs along the entire western coast with hiking trails that reveal breathtaking vistas at every turn. Cap de Formentor, the island's northernmost point, is famous for its dramatic lighthouse perched 300 metres above the sea — the views at sunset are simply unforgettable.",
+    "natureP2": "To the east, the Parc Natural de Llevant protects a wild landscape of coastal mountains, secluded beaches and endemic flora. The charming towns of Pollença and Puerto de Pollença offer art galleries, weekly markets and a sophisticated yet relaxed atmosphere. Cala Sant Vicenç, with its cluster of small turquoise bays, is another gem just minutes from Alcudia.",
+    "gastroTitle": "Gastronomy & Culture",
+    "gastroP1": "Mallorcan cuisine is a celebration of Mediterranean flavours. Start your morning with a freshly baked ensaimada — the island's signature spiral pastry — paired with a cortado. For lunch, try the iconic pa amb oli (bread rubbed with tomato and drizzled with olive oil) topped with local jamón, cheese or sobrassada. The weekly market in Alcudia's Old Town, held every Tuesday and Sunday, is a feast of local produce, artisan crafts and traditional delicacies.",
+    "gastroP2": "Along the harbour promenade of Puerto de Alcudia, waterfront restaurants serve the freshest seafood — from grilled calamari and prawn fideuà to the classic Mallorcan tumbet. Don't miss the tapas bars tucked into the medieval streets of the Old Town, where you can enjoy a glass of local Binissalem wine as the sun dips below the ancient walls.",
+    "stayTitle": "Where to Stay",
+    "stayP1": "Alcudia offers accommodation for every taste. Families flock to the all-inclusive resorts lining Playa de Muro, where shallow waters and gentle waves make it ideal for young children. For a more intimate experience, boutique hotels within the walled Old Town offer charming courtyards and rooftop terraces with views over terracotta rooftops.",
+    "stayP2": "Puerto de Pollença, just 10 minutes north, provides a quieter alternative with its elegant seafront promenade and upscale dining. Meanwhile, the area between Can Picafort and Son Serra de Marina attracts those seeking a more local, off-the-beaten-path vibe. Wherever you stay, you're never more than 20 minutes from our departure point at the Port of Alcudia — making it easy to add a boat tour to any holiday.",
+    "stat1Value": "300+",
+    "stat1Label": "sunny days per year",
+    "stat2Value": "12+",
+    "stat2Label": "pristine beaches",
+    "stat3Value": "55 min",
+    "stat3Label": "from Palma airport",
+    "ctaText": "Experience the best of Alcudia and northern Mallorca from the sea. Our boat tours take you to hidden coves, secret beaches and the most spectacular stretches of coastline — all with authentic Mallorcan food and drinks on board.",
+    "ctaButton": "Book Your Boat Tour",
+    "imgAltOldTown": "Charming narrow street in Alcudia Old Town with historic stone buildings and traditional architecture",
+    "imgAltPlayaMuro": "Playa de Muro beach in Alcudia with turquoise shallow waters and white sand",
+    "imgAltFormentor": "Lighthouse at Cap de Formentor during sunset in Mallorca",
+    "imgAltPuerto": "Aerial view of Port of Alcudia marina with boats and bay of Mallorca",
+    "imgCaptionOldTown": "Alcudia Old Town",
+    "imgCaptionPlayaMuro": "Playa de Muro",
+    "imgCaptionFormentor": "Cap de Formentor",
+    "imgCaptionPuerto": "Port of Alcudia"
   }
 
 

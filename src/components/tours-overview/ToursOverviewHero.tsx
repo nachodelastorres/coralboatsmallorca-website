@@ -9,7 +9,7 @@ const ToursOverviewHero = () => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <img
-          src="/assets/img/premium/home_new/boat.webp"
+          src="/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
           alt="Best boat tours in Alcudia Mallorca"
           style={{ objectFit: 'cover', width: '100%', height: '100%' }}
         />

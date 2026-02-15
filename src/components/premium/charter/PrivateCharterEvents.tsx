@@ -17,7 +17,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-briefcase',
       title: t('privateCharter.events.corporate.title'),
       description: t('privateCharter.events.corporate.description'),
-      image: '/assets/img/premium/home_new/partners.webp',
+      image: '/assets/img/premium/home_new/corporate-partners-private-charter-mallorca.webp',
       features: [
         t('privateCharter.events.corporate.feature1'),
         t('privateCharter.events.corporate.feature2'),
@@ -30,7 +30,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-cake-candles',
       title: t('privateCharter.events.birthday.title'),
       description: t('privateCharter.events.birthday.description'),
-      image: '/assets/img/premium/home_new/friends_group2.webp',
+      image: '/assets/img/premium/home_new/friends-group-private-charter-mallorca.webp',
       features: [
         t('privateCharter.events.birthday.feature1'),
         t('privateCharter.events.birthday.feature2'),
@@ -43,7 +43,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-champagne-glasses',
       title: t('privateCharter.events.bachelor.title'),
       description: t('privateCharter.events.bachelor.description'),
-      image: '/assets/img/premium/home_new/card_private.webp',
+      image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
       features: [
         t('privateCharter.events.bachelor.feature1'),
         t('privateCharter.events.bachelor.feature2'),
@@ -56,7 +56,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-heart',
       title: t('privateCharter.events.family.title'),
       description: t('privateCharter.events.family.description'),
-      image: '/assets/img/premium/home_new/matress.webp',
+      image: '/assets/img/premium/home_new/water-activities-floats-private-charter.webp',
       features: [
         t('privateCharter.events.family.feature1'),
         t('privateCharter.events.family.feature2'),
@@ -69,7 +69,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-user-group',
       title: t('privateCharter.events.friends.title'),
       description: t('privateCharter.events.friends.description'),
-      image: '/assets/img/premium/home_new/amigos2.webp',
+      image: '/assets/img/premium/home_new/friends-enjoying-private-charter-mallorca.webp',
       features: [
         t('privateCharter.events.friends.feature1'),
         t('privateCharter.events.friends.feature2'),
@@ -82,7 +82,7 @@ const PrivateCharterEvents = () => {
       icon: 'fa-star',
       title: t('privateCharter.events.special.title'),
       description: t('privateCharter.events.special.description'),
-      image: '/assets/img/premium/home_new/7.webp',
+      image: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp',
       features: [
         t('privateCharter.events.special.feature1'),
         t('privateCharter.events.special.feature2'),

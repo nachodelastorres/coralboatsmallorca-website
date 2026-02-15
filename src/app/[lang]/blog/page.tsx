@@ -16,6 +16,7 @@ import BlogIndexHeroSSR from '@/components/blog/BlogIndexHeroSSR';
 import BlogIndexGridSSR from '@/components/blog/BlogIndexGridSSR';
 import BlogIndexSEOSectionSSR from '@/components/blog/BlogIndexSEOSectionSSR';
 import RelatedToursSSR, { RelatedToursTexts } from '@/components/premium/tours/RelatedToursSSR';
+import ToursCtaBannerSSR, { ToursCtaBannerTexts } from '@/components/blog/category/ToursCtaBannerSSR';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return generateBlogMetadata(params.lang);
@@ -85,6 +86,37 @@ export default async function BlogPage({ params }: PageProps) {
     })),
   };
 
+  // ===== TOURS CTA BANNER =====
+  const toursCtaBannerTexts: ToursCtaBannerTexts = {
+    headline: t('tours_cta_banner.blog_index.headline') || 'Explore our boat tours',
+    subheadline: t('tours_cta_banner.blog_index.subheadline') || 'Discover the best experiences in Alcudia Bay',
+    cta: t('tours_cta_banner.cta') || 'All tours depart from Puerto de Alcudia',
+    bookCta: t('tours_cta_banner.book_cta') || 'Reserve your spot',
+    tours: [
+      {
+        id: 'morning',
+        name: t('tours_cta_banner.morning.name') || 'Morning Tour',
+        tagline: t('tours_cta_banner.morning.tagline') || 'Crystal waters & snorkeling',
+        image: '/assets/img/premium/home_new/card_morning.webp',
+        link: `/${locale}/alcudia-morning-boat-tour`,
+      },
+      {
+        id: 'sunset',
+        name: t('tours_cta_banner.sunset.name') || 'Sunset Tour',
+        tagline: t('tours_cta_banner.sunset.tagline') || 'Golden hour & cava toast',
+        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
+        link: `/${locale}/alcudia-sunset-boat-tour`,
+      },
+      {
+        id: 'charter',
+        name: t('tours_cta_banner.charter.name') || 'Private Charter',
+        tagline: t('tours_cta_banner.charter.tagline') || 'Your boat, your schedule',
+        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
+        link: `/${locale}/alcudia-private-boat-charter`,
+      },
+    ],
+  };
+
   // ===== RELATED TOURS TRANSLATIONS =====
   const relatedToursTexts: RelatedToursTexts = {
     label: t('relatedTours.label') || 'Discover More Experiences',
@@ -113,7 +145,7 @@ export default async function BlogPage({ params }: PageProps) {
         duration: t('relatedTours.sunset.duration') || '',
         price: t('relatedTours.sunset.price') || '',
         highlights: t('relatedTours.sunset.highlights') || '',
-        image: '/assets/img/premium/home_new/card_sunset.webp',
+        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
         link: `/${locale}/alcudia-sunset-boat-tour`,
       },
       {
@@ -124,7 +156,7 @@ export default async function BlogPage({ params }: PageProps) {
         duration: t('relatedTours.charter.duration') || '',
         price: t('relatedTours.charter.price') || '',
         highlights: t('relatedTours.charter.highlights') || '',
-        image: '/assets/img/premium/home_new/card_private.webp',
+        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
         link: `/${locale}/alcudia-private-boat-charter`,
       },
     ],
@@ -168,6 +200,7 @@ export default async function BlogPage({ params }: PageProps) {
         <HeaderSSR locale={locale} translations={getHeaderTranslations(dictionary)} hasTopBar />
         <main>
           <BlogIndexHeroSSR dict={dictionary} />
+          <ToursCtaBannerSSR texts={toursCtaBannerTexts} />
           <BlogIndexGridSSR dict={dictionary} lang={locale} />
           <BlogIndexSEOSectionSSR dict={dictionary} />
           <RelatedToursSSR texts={relatedToursTexts} />

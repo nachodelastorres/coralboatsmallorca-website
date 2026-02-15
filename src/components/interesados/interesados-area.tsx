@@ -47,7 +47,7 @@ const InteresadosArea = () => {
                     </div>
                     <div className="it-contact-text">
                       <span>Teléfono:</span>
-                      <a href="tel:+34626681867">(+34) 626 681 867</a>
+                      <a href="tel:+34651992329">(+34) 651 992 329</a>
                       {/* <a href="tel:+88568956238">+88 568 956 238</a> */}
                     </div>
                   </div>

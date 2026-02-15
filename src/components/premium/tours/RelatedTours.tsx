@@ -32,7 +32,7 @@ const RelatedTours = ({ currentTour }: RelatedToursProps) => {
       timeKey: 'relatedTours.sunset.time',
       durationKey: 'relatedTours.sunset.duration',
       priceKey: 'relatedTours.sunset.price',
-      image: '/assets/img/premium/home_new/card_sunset.webp',
+      image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
       link: getPath('/alcudia-sunset-boat-tour'),
       highlightsKey: 'relatedTours.sunset.highlights'
     },
@@ -43,7 +43,7 @@ const RelatedTours = ({ currentTour }: RelatedToursProps) => {
       timeKey: 'relatedTours.charter.time',
       durationKey: 'relatedTours.charter.duration',
       priceKey: 'relatedTours.charter.price',
-      image: '/assets/img/premium/home_new/card_private.webp',
+      image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
       link: getPath('/alcudia-private-boat-charter'),
       highlightsKey: 'relatedTours.charter.highlights'
     }

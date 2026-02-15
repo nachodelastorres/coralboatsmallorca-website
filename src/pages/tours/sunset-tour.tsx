@@ -10,6 +10,7 @@ import SunsetTourItinerary from '@/components/premium/tours/SunsetTourItinerary'
 import SunsetTourBooking from '@/components/premium/tours/SunsetTourBooking';
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import DiscoverAlcudiaSEO from '@/components/premium/DiscoverAlcudiaSEO';
 import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 const SunsetTourPage = () => {
@@ -29,6 +30,7 @@ const SunsetTourPage = () => {
         <SunsetTourBooking />
         <RelatedTours currentTour="sunset" />
         <BlogPreviewSection />
+        <DiscoverAlcudiaSEO />
       </main>
 
       <FooterOne />

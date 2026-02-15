@@ -185,7 +185,7 @@ const ContactAreaSSR = ({ texts }: ContactAreaSSRProps) => {
                         {texts.telLabel}
                       </div>
                       <a
-                        href="tel:+34626681867"
+                        href="tel:+34651992329"
                         style={{
                           fontSize: '1.1rem',
                           fontWeight: '600',
@@ -193,7 +193,7 @@ const ContactAreaSSR = ({ texts }: ContactAreaSSRProps) => {
                           textDecoration: 'none',
                         }}
                       >
-                        (+34) 626 681 867
+                        (+34) 651 992 329
                       </a>
                     </div>
                   </div>

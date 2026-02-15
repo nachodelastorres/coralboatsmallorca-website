@@ -13,6 +13,7 @@ import SunsetTourBookingSSR from '@/components/premium/tours/SunsetTourBookingSS
 import SunsetTourGallerySSR from '@/components/premium/tours/SunsetTourGallerySSR';
 import RelatedToursSSR from '@/components/premium/tours/RelatedToursSSR';
 import BlogPreviewSectionSSR from '@/components/premium/BlogPreviewSectionSSR';
+import DiscoverAlcudiaSEOSSR from '@/components/premium/DiscoverAlcudiaSEOSSR';
 
 // Blog data for SSR
 import { blogDataOne } from '@/data/blog-data';
@@ -126,7 +127,7 @@ export default async function SunsetTour({ params }: PageProps) {
     "inLanguage": params.lang,
     "name": hero.title || "Sunset Boat Tour in Alcudia Bay",
     "description": hero.subtitle || "Experience the magic of a Mediterranean sunset on our 3-hour evening boat tour.",
-    "image": "https://www.coralboatsmallorca.com/assets/img/premium/sunset_new/sunset_hero.webp",
+    "image": "https://www.coralboatsmallorca.com/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp",
     "provider": {
       "@type": "Organization",
       "@id": "https://www.coralboatsmallorca.com/#organization",
@@ -343,6 +344,13 @@ export default async function SunsetTour({ params }: PageProps) {
       { icon: 'fa-life-ring', text: details.included5 || 'Safety Equipment & Insurance' },
       { icon: 'fa-user-tie', text: details.included6 || 'Professional Crew & Captain' },
     ],
+    transferInfo: {
+      title: details.transferTitle || 'Need a transfer?',
+      description: details.transferDescription || 'We offer pickup service from your hotel or accommodation.',
+      locations: details.transferLocations || 'Alcudia, Playa de Muro, Puerto de Pollença',
+      contactNote: details.transferContactNote || 'After booking, our crew will contact you to arrange pickup details.',
+      cta: details.transferCta || 'Select transfer option when booking →',
+    },
     importantInfoTitle: details.importantInfoTitle || 'Important Information',
     infoItems: [
       details.info1 || 'Arrive 30 minutes before departure time',
@@ -365,35 +373,35 @@ export default async function SunsetTour({ params }: PageProps) {
         title: itinerary.step1Title || "Departure from Port d'Alcúdia",
         description: itinerary.step1Description || "Meet at Port d'Alcúdia marina. Board our classic boat and receive a safety briefing.",
         icon: 'fa-anchor',
-        image: '/assets/img/premium/morning_new/embarque.webp'
+        image: '/assets/img/premium/morning_new/departure-boarding-port-alcudia.webp'
       },
       {
         time: itinerary.step2Time || '6:30 PM',
         title: itinerary.step2Title || 'Coastal Cruise & Sightseeing',
         description: itinerary.step2Description || "Sail along Mallorca's beautiful northern coastline, exploring cliffs, coves and sea caves.",
         icon: 'fa-ship',
-        image: '/assets/img/premium/morning_new/tour.webp'
+        image: '/assets/img/premium/morning_new/coastal-cruise-sightseeing-mallorca-cliffs.webp'
       },
       {
         time: itinerary.step3Time || '7:15 PM',
         title: itinerary.step3Title || 'Swimming Stop, Tapas & Sunset',
         description: itinerary.step3Description || 'Arrive at Alcanada island and lighthouse. Enjoy swimming, tapas and sangria while watching the sunset.',
         icon: 'fa-utensils',
-        image: '/assets/img/premium/morning_new/matress.webp'
+        image: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp'
       },
       {
         time: itinerary.step4Time || '8:30 PM',
         title: itinerary.step4Title || 'Return to Port',
         description: itinerary.step4Description || "Relax on deck as we cruise back to Port d'Alcúdia under the beautiful twilight sky.",
         icon: 'fa-sun',
-        image: '/assets/img/premium/sunset_new/sunset_hero.webp'
+        image: '/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp'
       },
       {
         time: itinerary.step5Time || '9:00 PM',
         title: itinerary.step5Title || "Arrival at Port d'Alcúdia",
         description: itinerary.step5Description || 'Return to the marina with unforgettable memories of your magical sunset adventure.',
         icon: 'fa-flag-checkered',
-        image: '/assets/img/premium/sunset_new/sunset_port.webp'
+        image: '/assets/img/premium/sunset_new/arrival-port-alcudia-sunset-twilight.webp'
       }
     ],
     ctaTitle: itinerary.ctaTitle || 'Ready to Experience the Magic of Sunset in Alcudia?',
@@ -463,6 +471,9 @@ export default async function SunsetTour({ params }: PageProps) {
   const toursSection = (dict.tours || {}) as Record<string, Record<string, string>>;
   const toursGallery = (toursSection.gallery || {}) as Record<string, string>;
 
+  // Gallery images translations
+  const galleryImages = (gallery.images || {}) as Record<string, string>;
+
   // Gallery texts
   const galleryTexts = {
     label: gallery.label || 'Gallery',
@@ -471,6 +482,22 @@ export default async function SunsetTour({ params }: PageProps) {
     ctaButton: toursGallery.cta_button || 'View Full Gallery',
     ctaSecondary: toursGallery.cta_secondary || 'Discover more unforgettable moments',
     galleryPath: `/${params.lang}/gallery`,
+    images: [
+      { src: '/assets/img/premium/sunset_new/golden-sunset-light-alcudia-bay-mallorca.webp', alt: 'Sunset boat tour sailing through golden waters of Alcudia Bay Mallorca', caption: galleryImages.img1 || 'Golden light over Alcudia Bay' },
+      { src: '/assets/img/premium/morning_new/boat-trip-mallorca-northern-coastline.webp', alt: 'Evening boat trip along Mallorca northern coastline', caption: galleryImages.img2 || 'Sailing towards the horizon' },
+      { src: '/assets/img/premium/morning_new/snorkeling-mediterranean-fish-alcudia-bay.webp', alt: 'Swimming activities in golden evening light in Alcudia Bay', caption: galleryImages.img3 || 'Swimming at sunset' },
+      { src: '/assets/img/premium/morning_new/crystal-clear-turquoise-waters-alcudia-bay.webp', alt: 'Beautiful evening waters perfect for swimming', caption: galleryImages.img4 || 'Golden reflections on crystal waters' },
+      { src: '/assets/img/premium/morning_new/authentic-mallorcan-tapas-onboard-boat-tour.webp', alt: 'Authentic Mallorcan tapas served on board during sunset boat tour', caption: galleryImages.img5 || 'Tapas with sunset views' },
+      { src: '/assets/img/premium/morning_new/coral-boats-classic-1968-boat-mallorca.webp', alt: 'Classic 1968 Coral Boats vessel at sunset cruising Mallorca coastline', caption: galleryImages.img6 || 'Our boat bathed in evening light' },
+      { src: '/assets/img/premium/sunset_new/guests-toasting-sunset-boat-tour-mallorca.webp', alt: 'Happy guests enjoying sunset boat tour experience in Mallorca', caption: galleryImages.img7 || 'Toasting to the best sunsets' },
+      { src: '/assets/img/premium/morning_new/traditional-homemade-sangria-boat-excursion.webp', alt: 'Authentic homemade Sangria served on board during sunset tour', caption: galleryImages.img8 || 'Sangria: the perfect sunset companion' },
+      { src: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp', alt: 'Water activities in golden evening light in Alcudia Bay', caption: galleryImages.img9 || 'Floating in warm waters' },
+      { src: '/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp', alt: 'Alcudia coastline at sunset', caption: galleryImages.img10 || 'The coast silhouetted against a colorful sky' },
+      { src: '/assets/img/premium/morning_new/sweet-moments-icecream-boat-cruise.webp', alt: 'Sweet treats during sunset boat cruise in Alcudia Bay', caption: galleryImages.img11 || 'Sweet moments at dusk' },
+      { src: '/assets/img/premium/sunset_new/sunset-boat-cruise-reddish-sky-alcudia.webp', alt: 'Sunset boat cruise along Alcudia coastline Mallorca', caption: galleryImages.img12 || 'Sailing through reddish tones' },
+      { src: '/assets/img/premium/morning_new/classic-boat-interior-coral-boats.webp', alt: 'Interior of classic Coral Boats vessel at sunset in Alcudia Bay', caption: galleryImages.img13 || 'Cozy atmosphere on board' },
+      { src: '/assets/img/premium/morning_new/panoramic-coastline-views-morning-cruise.webp', alt: 'Enjoying the sunset boat cruise in Alcudia Bay Mallorca', caption: galleryImages.img14 || 'Panoramic sunset views' },
+    ],
   };
 
   // Access relatedTours translations
@@ -506,7 +533,7 @@ export default async function SunsetTour({ params }: PageProps) {
         duration: charterTourT.duration || '3-4 hours',
         price: charterTourT.price || 'Inquire',
         highlights: charterTourT.highlights || 'Exclusive experience • Fully customizable',
-        image: '/assets/img/premium/home_new/card_private.webp',
+        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
         link: `/${params.lang}/alcudia-private-boat-charter`,
       },
     ],
@@ -554,6 +581,43 @@ export default async function SunsetTour({ params }: PageProps) {
     blogs: translatedBlogs,
   };
 
+  // Discover Alcudia texts
+  const da = (dict.discoverAlcudia || {}) as Record<string, string>;
+  const discoverAlcudiaTexts = {
+    title: da.title || 'Discover Alcudia & Northern Mallorca',
+    subtitle: da.subtitle || 'The perfect base for your Mediterranean adventure',
+    introP1: da.introP1 || 'Nestled on the shores of the largest bay in Mallorca, Alcudia is the crown jewel of the island\'s north.',
+    introP2: da.introP2 || 'Whether you\'re seeking turquoise waters and hidden coves, dramatic cliff-top trails, authentic Mallorcan cuisine or simply the warmth of over 300 sunny days per year, northern Mallorca delivers.',
+    beachesTitle: da.beachesTitle || 'Beaches & Hidden Coves',
+    beachesP1: da.beachesP1 || 'The Bay of Alcudia boasts some of the finest beaches in the Mediterranean.',
+    beachesP2: da.beachesP2 || 'But the real magic lies in the coves that can only be reached by boat.',
+    natureTitle: da.natureTitle || 'Nature & Excursions',
+    natureP1: da.natureP1 || 'Northern Mallorca is a paradise for nature lovers.',
+    natureP2: da.natureP2 || 'To the east, the Parc Natural de Llevant protects a wild landscape of coastal mountains.',
+    gastroTitle: da.gastroTitle || 'Gastronomy & Culture',
+    gastroP1: da.gastroP1 || 'Mallorcan cuisine is a celebration of Mediterranean flavours.',
+    gastroP2: da.gastroP2 || 'Along the harbour promenade, waterfront restaurants serve the freshest seafood.',
+    stayTitle: da.stayTitle || 'Where to Stay',
+    stayP1: da.stayP1 || 'Alcudia offers accommodation for every taste.',
+    stayP2: da.stayP2 || 'Puerto de Pollença, just 10 minutes north, provides a quieter alternative.',
+    stat1Value: da.stat1Value || '300+',
+    stat1Label: da.stat1Label || 'sunny days per year',
+    stat2Value: da.stat2Value || '12+',
+    stat2Label: da.stat2Label || 'pristine beaches',
+    stat3Value: da.stat3Value || '55 min',
+    stat3Label: da.stat3Label || 'from Palma airport',
+    ctaText: da.ctaText || 'Experience the best of Alcudia and northern Mallorca from the sea.',
+    ctaButton: da.ctaButton || 'Book Your Boat Tour',
+    imgAltOldTown: da.imgAltOldTown || 'Charming narrow street in Alcudia Old Town',
+    imgAltPlayaMuro: da.imgAltPlayaMuro || 'Playa de Muro beach in Alcudia',
+    imgAltFormentor: da.imgAltFormentor || 'Lighthouse at Cap de Formentor during sunset',
+    imgAltPuerto: da.imgAltPuerto || 'Aerial view of Port of Alcudia marina',
+    imgCaptionOldTown: da.imgCaptionOldTown || 'Alcudia Old Town',
+    imgCaptionPlayaMuro: da.imgCaptionPlayaMuro || 'Playa de Muro',
+    imgCaptionFormentor: da.imgCaptionFormentor || 'Cap de Formentor',
+    imgCaptionPuerto: da.imgCaptionPuerto || 'Port of Alcudia',
+  };
+
   return (
     <>
       {/* JSON-LD Schemas */}
@@ -596,6 +660,9 @@ export default async function SunsetTour({ params }: PageProps) {
 
           {/* Blog Preview - SSR for SEO */}
           <BlogPreviewSectionSSR texts={blogPreviewTexts} />
+
+          {/* Discover Alcudia - SEO content */}
+          <DiscoverAlcudiaSEOSSR texts={discoverAlcudiaTexts} />
         </main>
 
         <FooterSSR locale={params.lang as Locale} translations={getFooterTranslations(dict)} />

@@ -13,35 +13,35 @@ const SunsetTourItinerary = () => {
       title: t('sunsetTour.itinerary.step1Title'),
       description: t('sunsetTour.itinerary.step1Description'),
       icon: 'fa-anchor',
-      image: '/assets/img/premium/morning_new/embarque.webp'
+      image: '/assets/img/premium/morning_new/departure-boarding-port-alcudia.webp'
     },
     {
       time: t('sunsetTour.itinerary.step2Time'),
       title: t('sunsetTour.itinerary.step2Title'),
       description: t('sunsetTour.itinerary.step2Description'),
       icon: 'fa-ship',
-      image: '/assets/img/premium/morning_new/tour.webp'
+      image: '/assets/img/premium/morning_new/coastal-cruise-sightseeing-mallorca-cliffs.webp'
     },
     {
       time: t('sunsetTour.itinerary.step3Time'),
       title: t('sunsetTour.itinerary.step3Title'),
       description: t('sunsetTour.itinerary.step3Description'),
       icon: 'fa-utensils',
-      image: '/assets/img/premium/morning_new/matress.webp'
+      image: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp'
     },
     {
       time: t('sunsetTour.itinerary.step4Time'),
       title: t('sunsetTour.itinerary.step4Title'),
       description: t('sunsetTour.itinerary.step4Description'),
       icon: 'fa-sun',
-      image: '/assets/img/premium/sunset_new/sunset_hero.webp'
+      image: '/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp'
     },
     {
       time: t('sunsetTour.itinerary.step5Time'),
       title: t('sunsetTour.itinerary.step5Title'),
       description: t('sunsetTour.itinerary.step5Description'),
       icon: 'fa-flag-checkered',
-      image: '/assets/img/premium/sunset_new/sunset_port.webp'
+      image: '/assets/img/premium/sunset_new/arrival-port-alcudia-sunset-twilight.webp'
     }
   ];
 

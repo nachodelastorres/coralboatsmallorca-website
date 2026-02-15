@@ -13,92 +13,92 @@ const PrivateCharterGallery = () => {
 
   const images = [
     {
-      src: '/assets/img/premium/home_new/boat.webp',
+      src: '/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp',
       alt: 'Classic Coral Boats charter vessel for private events in Alcudia Mallorca',
       title: 'Our Classic Vessel'
     },
     {
-      src: '/assets/img/premium/home_new/14.webp',
+      src: '/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp',
       alt: 'Large group enjoying private boat charter in Bay of Alcudia Mallorca',
       title: 'Perfect for Groups'
     },
     {
-      src: '/assets/img/premium/home_new/15.webp',
+      src: '/assets/img/premium/home_new/private-charter-sailing-crystal-waters-alcudia.webp',
       alt: 'Private charter boat sailing crystal clear waters of Alcudia Bay',
       title: 'Crystal Clear Waters'
     },
     {
-      src: '/assets/img/premium/home_new/19.webp',
+      src: '/assets/img/premium/home_new/guests-relaxing-private-charter-deck-mallorca.webp',
       alt: 'Guests relaxing on private charter boat deck in Mallorca',
       title: 'Relax and Unwind'
     },
     {
-      src: '/assets/img/premium/home_new/18.webp',
+      src: '/assets/img/premium/home_new/private-charter-mediterranean-views-mallorca.webp',
       alt: 'Private boat charter experience with stunning Mediterranean views Mallorca',
       title: 'Mediterranean Beauty'
     },
     {
-      src: '/assets/img/premium/home_new/13.webp',
+      src: '/assets/img/premium/home_new/group-celebration-private-charter-alcudia.webp',
       alt: 'Group celebration on private charter boat in Alcudia Mallorca',
       title: 'Celebrate Together'
     },
     {
-      src: '/assets/img/premium/home_new/interior.webp',
+      src: '/assets/img/premium/home_new/spacious-interior-private-charter-40-guests.webp',
       alt: 'Spacious interior of private charter boat with capacity for 40 guests',
       title: 'Spacious Interior'
     },
     {
-      src: '/assets/img/premium/home_new/12.webp',
+      src: '/assets/img/premium/home_new/corporate-events-private-charter-alcudia.webp',
       alt: 'Private charter boat for corporate events and celebrations Alcudia',
       title: 'Corporate Events'
     },
     {
-      src: '/assets/img/premium/home_new/friends_group1.webp',
+      src: '/assets/img/premium/home_new/friends-private-boat-party-mallorca.webp',
       alt: 'Friends enjoying private boat charter party in Mallorca',
       title: 'Friends & Fun'
     },
     {
-      src: '/assets/img/premium/home_new/card_sunset.webp',
+      src: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
       alt: 'Sunset views from private charter boat in Alcudia Bay Mallorca',
       title: 'Magical Sunsets'
     },
     {
-      src: '/assets/img/premium/home_new/sunset.webp',
+      src: '/assets/img/premium/home_new/golden-hour-sunset-private-charter-mallorca.webp',
       alt: 'Private boat charter during golden hour sunset in Mallorca',
       title: 'Golden Hour'
     },
     {
-      src: '/assets/img/premium/home_new/sunset_port.webp',
+      src: '/assets/img/premium/home_new/private-charter-arriving-port-alcudia-sunset.webp',
       alt: 'Private charter boat arriving at Port Alcudia during sunset',
       title: 'Port Alcudia Sunset'
     },
     {
-      src: '/assets/img/premium/home_new/4.webp',
+      src: '/assets/img/premium/home_new/swimming-water-activities-private-charter.webp',
       alt: 'Swimming and water activities on private charter boat Mallorca',
       title: 'Water Activities'
     },
     {
-      src: '/assets/img/premium/home_new/7.webp',
+      src: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp',
       alt: 'Private boat charter for special celebrations and events Alcudia',
       title: 'Special Celebrations'
     },
     {
-      src: '/assets/img/premium/home_new/9.webp',
+      src: '/assets/img/premium/home_new/exclusive-boat-rental-alcudia-bay.webp',
       alt: 'Exclusive private boat rental experience in Alcudia Bay Mallorca',
       title: 'Exclusive Experience'
     },
     {
-      src: '/assets/img/premium/home_new/10.webp',
+      src: '/assets/img/premium/home_new/private-charter-hidden-coves-mallorca.webp',
       alt: 'Private charter boat exploring hidden coves of northern Mallorca',
       title: 'Hidden Coves'
     },
     {
-      src: '/assets/img/premium/home_new/04portrait.webp',
+      src: '/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp',
       alt: 'Private charter boat for up to 40 people in Alcudia Mallorca',
       title: 'Capacity for 40'
     },
     {
-      src: '/assets/img/premium/home_new/proa.webp',
+      src: '/assets/img/premium/home_new/classic-boat-bow-mediterranean-mallorca.webp',
       alt: 'Bow view of classic private charter boat in Mediterranean waters',
       title: 'Classic Bow'
     }

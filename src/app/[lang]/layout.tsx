@@ -8,6 +8,7 @@ import { LocaleProvider } from '@/components/providers/LocaleProvider';
 import { locales, defaultLocale, isValidLocale } from '@/config/locales';
 import ReduxProvider from '../redux-provider';
 import I18nProvider from '../i18n-provider';
+import DiscountDrawer from '@/components/DiscountDrawer';
 import '../globals.scss';
 
 import 'swiper/css';
@@ -141,7 +142,7 @@ export default async function LangLayout({
               "name": "Coral Boats Mallorca",
               "description": "Coral Boats Mallorca provides morning, sunset and private boat tours from Port d'Alcudia on a classic wooden boat, offering swimming stops, coastal views and a calm, authentic Mediterranean experience.",
               "url": "https://www.coralboatsmallorca.com",
-              "telephone": "+34626681867",
+              "telephone": "+34651992329",
               "email": "info@coralboatsmallorca.com",
               "image": "https://www.coralboatsmallorca.com/assets/img/logo/logo.png",
               "logo": {
@@ -263,6 +264,7 @@ export default async function LangLayout({
           <I18nProvider>
             <LocaleProvider locale={lang}>
               {children}
+              <DiscountDrawer />
             </LocaleProvider>
           </I18nProvider>
         </ReduxProvider>

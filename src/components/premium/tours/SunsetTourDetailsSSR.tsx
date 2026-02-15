@@ -14,6 +14,14 @@ export interface IncludedItem {
   text: string;
 }
 
+export interface TransferInfo {
+  title: string;
+  description: string;
+  locations: string;
+  contactNote: string;
+  cta: string;
+}
+
 export interface SunsetTourDetailsTexts {
   sectionLabel: string;
   sectionTitle: string;
@@ -25,6 +33,7 @@ export interface SunsetTourDetailsTexts {
   highlights: string[];
   includedTitle: string;
   included: IncludedItem[];
+  transferInfo?: TransferInfo;
   importantInfoTitle: string;
   infoItems: string[];
   ctaBook: string;
@@ -90,7 +99,7 @@ const SunsetTourDetailsSSR = ({ texts }: SunsetTourDetailsSSRProps) => {
             <div className="tour-info-card">
               <div className="card-image">
                 <Image
-                  src="/assets/img/premium/sunset_new/suns2.webp"
+                  src="/assets/img/premium/sunset_new/golden-sunset-light-alcudia-bay-mallorca.webp"
                   alt="Sunset boat tour activities in Alcudia Bay Mallorca"
                   width={600}
                   height={400}
@@ -109,6 +118,91 @@ const SunsetTourDetailsSSR = ({ texts }: SunsetTourDetailsSSRProps) => {
                     </li>
                   ))}
                 </ul>
+
+                {/* Transfer Service Box - Compact */}
+                {texts.transferInfo && (
+                  <div
+                    className="transfer-service-box"
+                    style={{
+                      background: 'linear-gradient(135deg, rgba(8, 145, 178, 0.06) 0%, rgba(6, 182, 212, 0.1) 100%)',
+                      borderRadius: '10px',
+                      padding: '14px 16px',
+                      marginBottom: '16px',
+                      border: '1px solid rgba(8, 145, 178, 0.12)',
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px' }}>
+                      <div
+                        style={{
+                          width: '36px',
+                          height: '36px',
+                          borderRadius: '8px',
+                          background: 'linear-gradient(135deg, #0891b2 0%, #06b6d4 100%)',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0,
+                        }}
+                      >
+                        <i className="fa-solid fa-van-shuttle" style={{ color: '#ffffff', fontSize: '0.95rem' }}></i>
+                      </div>
+                      <div style={{ flex: 1 }}>
+                        <h4
+                          style={{
+                            fontSize: '0.95rem',
+                            fontWeight: '700',
+                            color: '#0891b2',
+                            marginBottom: '4px',
+                          }}
+                        >
+                          {texts.transferInfo.title}
+                        </h4>
+                        <p
+                          style={{
+                            fontSize: '0.85rem',
+                            color: '#334155',
+                            marginBottom: '6px',
+                            lineHeight: '1.45',
+                          }}
+                        >
+                          {texts.transferInfo.description} <strong style={{ color: '#0891b2' }}>{texts.transferInfo.locations}</strong>
+                        </p>
+                        <p
+                          style={{
+                            fontSize: '0.8rem',
+                            color: '#64748b',
+                            marginBottom: '0',
+                            fontStyle: 'italic',
+                            lineHeight: '1.3',
+                          }}
+                        >
+                          <i className="fa-solid fa-phone" style={{ color: '#0891b2', fontSize: '0.7rem', marginRight: '5px' }}></i>
+                          {texts.transferInfo.contactNote}
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        marginTop: '12px',
+                        textAlign: 'center',
+                      }}
+                    >
+                      <span
+                        style={{
+                          display: 'inline-block',
+                          fontSize: '0.8rem',
+                          color: '#ffffff',
+                          fontWeight: '700',
+                          background: 'linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)',
+                          padding: '6px 14px',
+                          borderRadius: '6px',
+                        }}
+                      >
+                        {texts.transferInfo.cta}
+                      </span>
+                    </div>
+                  </div>
+                )}
 
                 <div className="card-info-box">
                   <div className="info-box-icon">

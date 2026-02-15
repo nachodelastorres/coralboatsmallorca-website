@@ -134,7 +134,7 @@ const OffCanvas = ({
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Teléfono</span>
-                <a href="tel:(34)626681867">(+34) 626 681 867</a>
+                <a href="tel:+34651992329">(+34) 651 992 329</a>
               </div>
             </div>
           </div>

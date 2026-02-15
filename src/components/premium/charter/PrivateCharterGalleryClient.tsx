@@ -14,7 +14,7 @@ import { useState } from 'react';
 export interface GalleryImage {
   src: string;
   alt: string;
-  title: string;
+  caption: string;
 }
 
 export interface PrivateCharterGalleryTexts {
@@ -33,6 +33,7 @@ interface PrivateCharterGalleryClientProps {
 
 const PrivateCharterGalleryClient = ({ texts }: PrivateCharterGalleryClientProps) => {
   const [activeImage, setActiveImage] = useState(0);
+  const [isHovering, setIsHovering] = useState(false);
 
   return (
     <section className="premium-tour-gallery" id="gallery">
@@ -55,7 +56,12 @@ const PrivateCharterGalleryClient = ({ texts }: PrivateCharterGalleryClientProps
         <div className="row">
           <div className="col-12">
             <div className="gallery-main">
-              <div className="main-image-wrapper">
+              <div
+                className="main-image-wrapper"
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                style={{ position: 'relative', overflow: 'hidden' }}
+              >
                 <Image
                   src={texts.images[activeImage].src}
                   alt={texts.images[activeImage].alt}
@@ -65,8 +71,38 @@ const PrivateCharterGalleryClient = ({ texts }: PrivateCharterGalleryClientProps
                   sizes="(max-width: 768px) 100vw, 90vw"
                   priority={activeImage === 0}
                 />
-                <div className="image-caption">
-                  <h4>{texts.images[activeImage].title}</h4>
+                {/* Hover caption with slide-up effect */}
+                <div
+                  className="image-caption-hover"
+                  style={{
+                    position: 'absolute',
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    background: 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 60%, transparent 100%)',
+                    padding: '40px 20px 16px',
+                    transform: isHovering ? 'translateY(0)' : 'translateY(100%)',
+                    opacity: isHovering ? 1 : 0,
+                    transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+                    pointerEvents: 'none',
+                  }}
+                >
+                  <p
+                    style={{
+                      color: '#ffffff',
+                      fontSize: '0.9rem',
+                      fontWeight: '500',
+                      margin: 0,
+                      lineHeight: '1.5',
+                      textShadow: '0 1px 3px rgba(0,0,0,0.3)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                    }}
+                  >
+                    <i className="fa-solid fa-anchor" style={{ fontSize: '0.8rem', color: '#06b6d4' }}></i>
+                    {texts.images[activeImage].caption}
+                  </p>
                 </div>
               </div>
 

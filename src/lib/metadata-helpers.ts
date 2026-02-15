@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Locale, localeHreflang } from '@/config/locales';
+import { Locale, localeHreflang, locales } from '@/config/locales';
 import { homeMetadata, PageMetadata } from '@/config/metadata';
 import {
   morningTourMetadata,
@@ -14,6 +14,8 @@ import {
   galleryMetadata,
   blogMetadata
 } from '@/config/secondary-pages-metadata';
+import { categoryMetadataMap } from '@/config/blog-category-metadata';
+import { getCategoryById } from '@/config/blog-categories';
 import { getAlternateLinks } from './locale-helpers';
 
 const baseUrl = 'https://www.coralboatsmallorca.com';
@@ -240,4 +242,73 @@ export function generateGalleryMetadata(locale: Locale): Metadata {
  */
 export function generateBlogMetadata(locale: Locale): Metadata {
   return generatePageMetadata(blogMetadata, locale, '/blog');
+}
+
+/**
+ * Generate metadata for Blog Category pages.
+ * Uses localized slugs for canonical and alternate links.
+ */
+export function generateBlogCategoryMetadata(categoryId: string, locale: Locale): Metadata {
+  const metadataRecord = categoryMetadataMap[categoryId];
+  const category = getCategoryById(categoryId);
+
+  if (!metadataRecord || !category) {
+    return generateBlogMetadata(locale);
+  }
+
+  const meta = metadataRecord[locale];
+  const categorySlug = category.slug;
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    authors: [{ name: 'Coral Boats Mallorca' }],
+    creator: 'Coral Boats Mallorca',
+    publisher: 'Coral Boats Mallorca',
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: buildCanonical(locale, `blog/${categorySlug}`),
+      languages: Object.fromEntries([
+        ...locales.map((l) => [
+          l,
+          `${baseUrl}/${l}/blog/${categorySlug}`,
+        ]),
+        ['x-default', `${baseUrl}/en/blog/${categorySlug}`],
+      ]),
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: buildCanonical(locale, `blog/${categorySlug}`),
+      siteName: 'Coral Boats Mallorca',
+      locale: localeHreflang[locale],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      creator: '@coralboatsmallorca',
+    },
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    category: 'travel',
+    other: {
+      'geo.region': 'ES-PM',
+      'geo.placename': 'Alcudia, Mallorca',
+      'geo.position': '39.8525;3.1211',
+      'ICBM': '39.8525, 3.1211',
+    },
+  };
 }

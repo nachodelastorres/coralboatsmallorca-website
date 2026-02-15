@@ -13,7 +13,7 @@ const PrivateChartersPremium = () => {
     <section className="premium-charters">
       <div className="premium-charters__background">
         <Image
-          src="/assets/img/premium/home_new/04portrait.webp"
+          src="/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp"
           alt="Luxury private boat charter in Mallorca for weddings corporate events and special celebrations"
           fill
           sizes="100vw"
@@ -46,7 +46,7 @@ const PrivateChartersPremium = () => {
                     <div className="premium-tour-card" style={{ cursor: 'pointer' }}>
                       <div className="premium-tour-card__image-wrapper">
                         <Image
-                          src="/assets/img/premium/home_new/card_private.webp"
+                          src="/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp"
                           alt="Private boat charter in Mallorca - Custom itinerary with professional crew and catering"
                           width={400}
                           height={500}

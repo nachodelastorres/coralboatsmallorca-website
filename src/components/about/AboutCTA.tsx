@@ -69,9 +69,9 @@ const AboutCTA = () => {
                     <i className="fa-solid fa-envelope"></i>
                     {t('about.cta.contact_button')}
                   </Link>
-                  <a href="tel:+34660221736" className="btn-secondary">
+                  <a href="tel:+34651992329" className="btn-secondary">
                     <i className="fa-solid fa-phone"></i>
-                    +34 660 221 736
+                    +34 651 992 329
                   </a>
                 </div>
               </div>

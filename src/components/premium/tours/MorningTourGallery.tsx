@@ -13,72 +13,72 @@ const MorningTourGallery = () => {
 
   const images = [
     {
-      src: '/assets/img/premium/morning_new/07.webp',
+      src: '/assets/img/premium/morning_new/morning-boat-tour-sailing-alcudia-bay.webp',
       alt: 'Morning boat tour sailing through crystal-clear waters of Alcudia Bay Mallorca',
       title: 'Sailing in Paradise'
     },
     {
-      src: '/assets/img/premium/morning_new/10.webp',
+      src: '/assets/img/premium/morning_new/boat-trip-mallorca-northern-coastline.webp',
       alt: 'Boat trip along Mallorca northern coastline',
       title: 'Boat trip in Alcudia Bay'
     },
     {
-      src: '/assets/img/premium/morning_new/06.webp',
+      src: '/assets/img/premium/morning_new/snorkeling-mediterranean-fish-alcudia-bay.webp',
       alt: 'Snorkeling activities with professional equipment in Alcudia Bay',
       title: 'Snorkeling Adventures'
     },
     {
-      src: '/assets/img/premium/morning_new/04.webp',
+      src: '/assets/img/premium/morning_new/crystal-clear-turquoise-waters-alcudia-bay.webp',
       alt: 'Crystal-clear turquoise waters perfect for swimming and snorkeling',
       title: 'Crystal Waters'
     },
     {
-      src: '/assets/img/premium/morning_new/02.webp',
+      src: '/assets/img/premium/morning_new/authentic-mallorcan-tapas-onboard-boat-tour.webp',
       alt: 'Authentic Mallorcan tapas served on board during morning boat tour',
       title: 'Mallorcan Tapas Meal'
     },
     {
-      src: '/assets/img/premium/morning_new/00portrait.webp',
+      src: '/assets/img/premium/morning_new/coral-boats-classic-1968-boat-mallorca.webp',
       alt: 'Classic 1968 Coral Boats vessel cruising Mallorca coastline',
       title: 'Our Classic Boat'
     },
     {
-      src: '/assets/img/premium/morning_new/01bis.webp',
+      src: '/assets/img/premium/morning_new/guests-enjoying-morning-boat-tour-alcudia.webp',
       alt: 'Happy guests enjoying morning boat tour experience in Mallorca',
       title: 'Making Memories'
     },
     {
-      src: '/assets/img/premium/morning_new/03.webp',
+      src: '/assets/img/premium/morning_new/traditional-homemade-sangria-boat-excursion.webp',
       alt: 'Authentic homemade Sangria served on board during morning tour',
       title: 'Homemade Sangria'
     },
     {
-      src: '/assets/img/premium/morning_new/matress.webp',
+      src: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp',
       alt: 'Water activities with professional equipment in Alcudia Bay',
       title: 'Water Adventures'
     },
     {
-      src: '/assets/img/premium/morning_new/08.webp',
+      src: '/assets/img/premium/morning_new/hidden-coves-secret-beaches-alcudia-coastline.webp',
       alt: 'Alcudia coastline with hidden coves and secret beaches',
       title: 'Alcudia Coastline'
     },
     {
-      src: '/assets/img/premium/morning_new/icecream.webp',
+      src: '/assets/img/premium/morning_new/sweet-moments-icecream-boat-cruise.webp',
       alt: 'Icecream during morning boat cruise in Alcudia Bay',
       title: 'Sweet Treats'
     },
     {
-      src: '/assets/img/premium/morning_new/05.webp',
+      src: '/assets/img/premium/morning_new/boat-cruise-alcudia-coastline-cliffs.webp',
       alt: 'Boat cruise along Alcudia coastline Mallorca',
       title: 'Alcudia Cruise'
     },
     {
-      src: '/assets/img/premium/morning_new/interior.webp',
+      src: '/assets/img/premium/morning_new/classic-boat-interior-coral-boats.webp',
       alt: 'Interior of classic Coral Boats vessel sailing in Alcudia Bay',
       title: 'Coral Boats Interior'
     },
     {
-      src: '/assets/img/premium/morning_new/24.webp',
+      src: '/assets/img/premium/morning_new/panoramic-coastline-views-morning-cruise.webp',
       alt: 'Enjoying the morning boat cruise in Alcudia Bay Mallorca with water activities',
       title: 'Coastiline Views'
     },

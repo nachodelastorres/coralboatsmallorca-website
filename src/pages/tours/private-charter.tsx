@@ -12,6 +12,7 @@ import PrivateCharterBooking from '@/components/premium/charter/PrivateCharterBo
 import PrivateCharterPricingCTA from '@/components/premium/charter/PrivateCharterPricingCTA';
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import DiscoverAlcudiaSEO from '@/components/premium/DiscoverAlcudiaSEO';
 import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 const PrivateCharterPage = () => {
@@ -33,6 +34,7 @@ const PrivateCharterPage = () => {
         <PrivateCharterFeatures />
         <RelatedTours currentTour="charter" />
         <BlogPreviewSection />
+        <DiscoverAlcudiaSEO />
       </main>
 
       <FooterOne />

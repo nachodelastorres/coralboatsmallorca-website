@@ -10,6 +10,7 @@ import MorningTourItinerary from '@/components/premium/tours/MorningTourItinerar
 import MorningTourBooking from '@/components/premium/tours/MorningTourBooking';
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import DiscoverAlcudiaSEO from '@/components/premium/DiscoverAlcudiaSEO';
 import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 const MorningTourPage = () => {
@@ -29,6 +30,7 @@ const MorningTourPage = () => {
         <MorningTourBooking />
         <RelatedTours currentTour="morning" />
         <BlogPreviewSection />
+        <DiscoverAlcudiaSEO />
       </main>
 
       <FooterOne />

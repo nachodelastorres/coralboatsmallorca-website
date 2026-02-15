@@ -22,6 +22,7 @@ import PrivateCharterGalleryClient from '@/components/premium/charter/PrivateCha
 // Other Components
 import RelatedTours from '@/components/premium/tours/RelatedTours';
 import BlogPreviewSection from '@/components/premium/BlogPreviewSection';
+import DiscoverAlcudiaSEO from '@/components/premium/DiscoverAlcudiaSEO';
 import ViewContentTracker from '@/components/tracking/ViewContentTracker';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -96,7 +97,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-briefcase',
         title: t('privateCharter.events.corporate.title'),
         description: t('privateCharter.events.corporate.description'),
-        image: '/assets/img/premium/home_new/partners.webp',
+        image: '/assets/img/premium/home_new/corporate-partners-private-charter-mallorca.webp',
         features: [
           t('privateCharter.events.corporate.feature1'),
           t('privateCharter.events.corporate.feature2'),
@@ -109,7 +110,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-cake-candles',
         title: t('privateCharter.events.birthday.title'),
         description: t('privateCharter.events.birthday.description'),
-        image: '/assets/img/premium/home_new/friends_group2.webp',
+        image: '/assets/img/premium/home_new/friends-group-private-charter-mallorca.webp',
         features: [
           t('privateCharter.events.birthday.feature1'),
           t('privateCharter.events.birthday.feature2'),
@@ -122,7 +123,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-champagne-glasses',
         title: t('privateCharter.events.bachelor.title'),
         description: t('privateCharter.events.bachelor.description'),
-        image: '/assets/img/premium/home_new/card_private.webp',
+        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
         features: [
           t('privateCharter.events.bachelor.feature1'),
           t('privateCharter.events.bachelor.feature2'),
@@ -135,7 +136,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-heart',
         title: t('privateCharter.events.family.title'),
         description: t('privateCharter.events.family.description'),
-        image: '/assets/img/premium/home_new/matress.webp',
+        image: '/assets/img/premium/home_new/water-activities-floats-private-charter.webp',
         features: [
           t('privateCharter.events.family.feature1'),
           t('privateCharter.events.family.feature2'),
@@ -148,7 +149,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-user-group',
         title: t('privateCharter.events.friends.title'),
         description: t('privateCharter.events.friends.description'),
-        image: '/assets/img/premium/home_new/amigos2.webp',
+        image: '/assets/img/premium/home_new/friends-enjoying-private-charter-mallorca.webp',
         features: [
           t('privateCharter.events.friends.feature1'),
           t('privateCharter.events.friends.feature2'),
@@ -161,7 +162,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-star',
         title: t('privateCharter.events.special.title'),
         description: t('privateCharter.events.special.description'),
-        image: '/assets/img/premium/home_new/7.webp',
+        image: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp',
         features: [
           t('privateCharter.events.special.feature1'),
           t('privateCharter.events.special.feature2'),
@@ -185,6 +186,7 @@ export default async function PrivateCharter({ params }: PageProps) {
   };
 
   // ===== GALLERY TEXTS =====
+  const galleryImagesT = t('privateCharter.gallery.images') as unknown as Record<string, string> || {};
   const galleryTexts = {
     label: t('privateCharter.gallery.label'),
     title: t('privateCharter.gallery.title'),
@@ -193,24 +195,24 @@ export default async function PrivateCharter({ params }: PageProps) {
     ctaSecondary: t('tours.gallery.cta_secondary'),
     galleryPath,
     images: [
-      { src: '/assets/img/premium/home_new/boat.webp', alt: 'Classic Coral Boats charter vessel for private events in Alcudia Mallorca', title: 'Our Classic Vessel' },
-      { src: '/assets/img/premium/home_new/14.webp', alt: 'Large group enjoying private boat charter in Bay of Alcudia Mallorca', title: 'Perfect for Groups' },
-      { src: '/assets/img/premium/home_new/15.webp', alt: 'Private charter boat sailing crystal clear waters of Alcudia Bay', title: 'Crystal Clear Waters' },
-      { src: '/assets/img/premium/home_new/19.webp', alt: 'Guests relaxing on private charter boat deck in Mallorca', title: 'Relax and Unwind' },
-      { src: '/assets/img/premium/home_new/18.webp', alt: 'Private boat charter experience with stunning Mediterranean views Mallorca', title: 'Mediterranean Beauty' },
-      { src: '/assets/img/premium/home_new/13.webp', alt: 'Group celebration on private charter boat in Alcudia Mallorca', title: 'Celebrate Together' },
-      { src: '/assets/img/premium/home_new/interior.webp', alt: 'Spacious interior of private charter boat with capacity for 40 guests', title: 'Spacious Interior' },
-      { src: '/assets/img/premium/home_new/12.webp', alt: 'Private charter boat for corporate events and celebrations Alcudia', title: 'Corporate Events' },
-      { src: '/assets/img/premium/home_new/friends_group1.webp', alt: 'Friends enjoying private boat charter party in Mallorca', title: 'Friends & Fun' },
-      { src: '/assets/img/premium/home_new/card_sunset.webp', alt: 'Sunset views from private charter boat in Alcudia Bay Mallorca', title: 'Magical Sunsets' },
-      { src: '/assets/img/premium/home_new/sunset.webp', alt: 'Private boat charter during golden hour sunset in Mallorca', title: 'Golden Hour' },
-      { src: '/assets/img/premium/home_new/sunset_port.webp', alt: 'Private charter boat arriving at Port Alcudia during sunset', title: 'Port Alcudia Sunset' },
-      { src: '/assets/img/premium/home_new/4.webp', alt: 'Swimming and water activities on private charter boat Mallorca', title: 'Water Activities' },
-      { src: '/assets/img/premium/home_new/7.webp', alt: 'Private boat charter for special celebrations and events Alcudia', title: 'Special Celebrations' },
-      { src: '/assets/img/premium/home_new/9.webp', alt: 'Exclusive private boat rental experience in Alcudia Bay Mallorca', title: 'Exclusive Experience' },
-      { src: '/assets/img/premium/home_new/10.webp', alt: 'Private charter boat exploring hidden coves of northern Mallorca', title: 'Hidden Coves' },
-      { src: '/assets/img/premium/home_new/04portrait.webp', alt: 'Private charter boat for up to 40 people in Alcudia Mallorca', title: 'Capacity for 40' },
-      { src: '/assets/img/premium/home_new/proa.webp', alt: 'Bow view of classic private charter boat in Mediterranean waters', title: 'Classic Bow' }
+      { src: '/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp', alt: 'Classic Coral Boats charter vessel for private events in Alcudia Mallorca', caption: galleryImagesT.img1 || 'Our classic boat: the perfect setting for your private event' },
+      { src: '/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp', alt: 'Large group enjoying private boat charter in Bay of Alcudia Mallorca', caption: galleryImagesT.img2 || 'Large groups enjoying an exclusive charter' },
+      { src: '/assets/img/premium/home_new/private-charter-sailing-crystal-waters-alcudia.webp', alt: 'Private charter boat sailing crystal clear waters of Alcudia Bay', caption: galleryImagesT.img3 || 'Sailing through crystal-clear waters' },
+      { src: '/assets/img/premium/home_new/guests-relaxing-private-charter-deck-mallorca.webp', alt: 'Guests relaxing on private charter boat deck in Mallorca', caption: galleryImagesT.img4 || 'Relaxing moments on deck' },
+      { src: '/assets/img/premium/home_new/private-charter-mediterranean-views-mallorca.webp', alt: 'Private boat charter experience with stunning Mediterranean views Mallorca', caption: galleryImagesT.img5 || 'Spectacular views from your private charter' },
+      { src: '/assets/img/premium/home_new/group-celebration-private-charter-alcudia.webp', alt: 'Group celebration on private charter boat in Alcudia Mallorca', caption: galleryImagesT.img6 || 'Memorable celebrations with Coral Boats crew' },
+      { src: '/assets/img/premium/home_new/spacious-interior-private-charter-40-guests.webp', alt: 'Spacious interior of private charter boat with capacity for 40 guests', caption: galleryImagesT.img7 || 'Spacious interior for up to 40 guests' },
+      { src: '/assets/img/premium/home_new/corporate-events-private-charter-alcudia.webp', alt: 'Private charter boat for corporate events and celebrations Alcudia', caption: galleryImagesT.img8 || 'Perfect for corporate events and teambuilding' },
+      { src: '/assets/img/premium/home_new/friends-private-boat-party-mallorca.webp', alt: 'Friends enjoying private boat charter party in Mallorca', caption: galleryImagesT.img9 || 'Friends creating unique memories at sea' },
+      { src: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp', alt: 'Sunset views from private charter boat in Alcudia Bay Mallorca', caption: galleryImagesT.img10 || 'Magical sunsets from your private boat' },
+      { src: '/assets/img/premium/home_new/golden-hour-sunset-private-charter-mallorca.webp', alt: 'Private boat charter during golden hour sunset in Mallorca', caption: galleryImagesT.img11 || 'Golden hour over the Mediterranean' },
+      { src: '/assets/img/premium/home_new/private-charter-arriving-port-alcudia-sunset.webp', alt: 'Private charter boat arriving at Port Alcudia during sunset', caption: galleryImagesT.img12 || 'Arriving at Alcudia port at sunset' },
+      { src: '/assets/img/premium/home_new/swimming-water-activities-private-charter.webp', alt: 'Swimming and water activities on private charter boat Mallorca', caption: galleryImagesT.img13 || 'Exclusive water activities for your group' },
+      { src: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp', alt: 'Private boat charter for special celebrations and events Alcudia', caption: galleryImagesT.img14 || 'Special celebrations in a unique setting' },
+      { src: '/assets/img/premium/home_new/exclusive-boat-rental-alcudia-bay.webp', alt: 'Exclusive private boat rental experience in Alcudia Bay Mallorca', caption: galleryImagesT.img15 || 'Exclusive boat rental experience' },
+      { src: '/assets/img/premium/home_new/private-charter-hidden-coves-mallorca.webp', alt: 'Private charter boat exploring hidden coves of northern Mallorca', caption: galleryImagesT.img16 || 'Exploring hidden coves on your private charter' },
+      { src: '/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp', alt: 'Private charter boat for up to 40 people in Alcudia Mallorca', caption: galleryImagesT.img17 || 'Capacity for up to 40 people' },
+      { src: '/assets/img/premium/home_new/classic-boat-bow-mediterranean-mallorca.webp', alt: 'Bow view of classic private charter boat in Mediterranean waters', caption: galleryImagesT.img18 || 'Classic bow: Mallorcan maritime elegance' }
     ],
   };
 
@@ -342,7 +344,7 @@ export default async function PrivateCharter({ params }: PageProps) {
     "name": heroTexts.title,
     "description": heroTexts.subtitle,
     "inLanguage": locale,
-    "image": "https://www.coralboatsmallorca.com/assets/img/premium/home_new/04portrait.webp",
+    "image": "https://www.coralboatsmallorca.com/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp",
     "provider": {
       "@type": "Organization",
       "@id": "https://www.coralboatsmallorca.com/#organization",
@@ -434,6 +436,7 @@ export default async function PrivateCharter({ params }: PageProps) {
           <PrivateCharterFeaturesSSR texts={featuresTexts} />
           <RelatedTours currentTour="charter" />
           <BlogPreviewSection />
+          <DiscoverAlcudiaSEO />
         </main>
 
         <FooterSSR locale={locale} translations={getFooterTranslations(dictionary)} />

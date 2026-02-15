@@ -9,7 +9,7 @@ const CharterPricingHero = () => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <img
-          src="/assets/img/premium/home_new/04portrait.webp"
+          src="/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp"
           alt="Private boat charter pricing in Alcudia Mallorca"
           style={{ objectFit: 'cover', width: '100%', height: '100%' }}
         />

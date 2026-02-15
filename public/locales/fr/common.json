@@ -3574,6 +3574,40 @@
       "title": "Votre plage idéale dans le nord de Majorque",
       "body": "De la solitude préhistorique d'Es Caló à l'élégance légendaire de Formentor, la côte nord de Majorque offre **plus de 20 plages et criques** couvrant tous les goûts et tous les styles de voyage. Familles avec enfants, couples en quête de coins romantiques, randonneurs aventuriers ou simplement voyageurs désirant se prélasser sur le plus beau sable d'Europe : ici, une plage vous attend.\n\nNotre conseil est de ne pas vous limiter à une seule plage. Consacrez plusieurs jours à explorer différents tronçons et combinez l'expérience terrestre avec une [excursion en bateau](https://coralboats.com/fr/boat-tours-alcudia). Voir les falaises de la Victoria depuis la mer, mouiller face à Coll Baix pour un bain dans des eaux cristallines ou simplement regarder la ligne de côte défiler sous vos yeux sont des moments qui transforment des vacances en un souvenir à jamais.\n\nPrêt à découvrir la côte nord ? On se retrouve en mer."
     }
+  },
+  "discoverAlcudia": {
+    "title": "Découvrez Alcudia et le nord de Majorque",
+    "subtitle": "La base idéale pour votre aventure méditerranéenne",
+    "introP1": "Nichée sur les rives de la plus grande baie de Majorque, Alcudia est le joyau de la couronne du nord de l'île. Ses origines remontent à la colonie romaine de Pollentia, fondée en 123 av. J.-C., ce qui en fait l'une des plus anciennes villes des îles Baléares. Aujourd'hui, les remparts médiévaux magnifiquement préservés, les ruelles pavées et les places charmantes de la vieille ville se marient harmonieusement avec un port animé, des plages de classe mondiale et un littoral qui demande à être exploré depuis la mer.",
+    "introP2": "Que vous recherchiez des eaux turquoise et des criques cachées, des sentiers spectaculaires avec des vues panoramiques, une cuisine majorquine authentique ou simplement la chaleur de plus de 300 jours de soleil par an, le nord de Majorque offre une expérience qui rivalise avec n'importe quelle destination méditerranéenne. Et la meilleure façon de découvrir ses tronçons de côte les plus spectaculaires ? Depuis le pont d'un bateau.",
+    "beachesTitle": "Plages et criques cachées",
+    "beachesP1": "La baie d'Alcudia compte parmi les plus belles plages de la Méditerranée. Playa de Muro s'étend sur des kilomètres avec du sable blanc poudreux et des eaux peu profondes d'un bleu caribéen — parfait pour les familles. Plus au sud, Can Picafort offre un front de mer animé avec restaurants et sports nautiques. Au nord, Playa de la Victoria s'incurve sous des collines couvertes de pins, tandis que l'emblématique Playa de Formentor — souvent considérée comme la plus belle plage de Majorque — se niche dans une crique abritée encadrée de montagnes.",
+    "beachesP2": "Mais la vraie magie se trouve dans les criques accessibles uniquement par bateau. Coll Baix, un croissant immaculé de galets adossé à d'imposantes falaises, est l'une des plages les plus photographiées de l'île — et notre excursion matinale vous y conduit directement. À proximité, l'îlot d'Alcanada avec son phare pittoresque offre des eaux cristallines idéales pour le snorkeling, grouillant de poissons méditerranéens.",
+    "natureTitle": "Nature et excursions",
+    "natureP1": "Le nord de Majorque est un paradis pour les amoureux de la nature. La Serra de Tramuntana, classée au patrimoine mondial de l'UNESCO, longe toute la côte ouest avec des sentiers de randonnée qui révèlent des panoramas époustouflants à chaque tournant. Le Cap de Formentor, le point le plus septentrional de l'île, est célèbre pour son phare dramatique perché à 300 mètres au-dessus de la mer — les vues au coucher du soleil sont tout simplement inoubliables.",
+    "natureP2": "À l'est, le Parc Naturel de Llevant protège un paysage sauvage de montagnes côtières, de plages isolées et de flore endémique. Les charmantes villes de Pollença et Puerto de Pollença offrent des galeries d'art, des marchés hebdomadaires et une atmosphère raffinée mais détendue. Cala Sant Vicenç, avec son ensemble de petites baies turquoise, est un autre trésor à quelques minutes d'Alcudia.",
+    "gastroTitle": "Gastronomie et culture",
+    "gastroP1": "La cuisine majorquine est une célébration des saveurs méditerranéennes. Commencez la journée avec une ensaimada fraîchement sortie du four — la pâtisserie spiralée emblématique de l'île — accompagnée d'un cortado. Pour le déjeuner, goûtez l'incontournable pa amb oli (pain frotté à la tomate et arrosé d'huile d'olive) garni de jambon local, fromage ou sobrassada. Le marché hebdomadaire dans la vieille ville d'Alcudia, chaque mardi et dimanche, est une fête de produits locaux, d'artisanat et de délices traditionnels.",
+    "gastroP2": "Le long de la promenade du port d'Alcudia, les restaurants en bord de mer servent les fruits de mer les plus frais — des calamars grillés et la fideuà aux crevettes jusqu'au classique tumbet majorquin. Ne manquez pas les bars à tapas nichés dans les rues médiévales de la vieille ville, où vous pourrez déguster un verre de vin local de Binissalem tandis que le soleil se couche derrière les remparts ancestraux.",
+    "stayTitle": "Où séjourner",
+    "stayP1": "Alcudia offre des hébergements pour tous les goûts. Les familles affluent vers les resorts tout inclus qui bordent Playa de Muro, où les eaux peu profondes et les vagues douces sont idéales pour les jeunes enfants. Pour une expérience plus intime, des hôtels-boutiques dans la vieille ville fortifiée proposent des patios charmants et des terrasses sur les toits avec vue sur les toits de tuiles.",
+    "stayP2": "Puerto de Pollença, à seulement 10 minutes au nord, offre une alternative plus calme avec son élégante promenade maritime et sa gastronomie haut de gamme. La zone entre Can Picafort et Son Serra de Marina attire ceux qui recherchent une ambiance plus locale et authentique. Où que vous séjourniez, vous n'êtes jamais à plus de 20 minutes de notre point de départ au Port d'Alcudia — ce qui permet d'intégrer facilement une excursion en bateau à vos vacances.",
+    "stat1Value": "300+",
+    "stat1Label": "jours de soleil par an",
+    "stat2Value": "12+",
+    "stat2Label": "plages préservées",
+    "stat3Value": "55 min",
+    "stat3Label": "depuis l'aéroport de Palma",
+    "ctaText": "Découvrez le meilleur d'Alcudia et du nord de Majorque depuis la mer. Nos excursions en bateau vous emmènent vers des criques cachées, des plages secrètes et les plus spectaculaires tronçons de littoral — le tout accompagné d'une authentique gastronomie majorquine à bord.",
+    "ctaButton": "Réservez votre excursion en bateau",
+    "imgAltOldTown": "Charmante ruelle étroite de la vieille ville d'Alcudia avec bâtiments historiques en pierre et architecture traditionnelle",
+    "imgAltPlayaMuro": "Plage de Playa de Muro à Alcudia avec eaux turquoise peu profondes et sable blanc",
+    "imgAltFormentor": "Phare du Cap de Formentor au coucher du soleil à Majorque",
+    "imgAltPuerto": "Vue aérienne du port d'Alcudia avec bateaux et baie de Majorque",
+    "imgCaptionOldTown": "Vieille ville d'Alcudia",
+    "imgCaptionPlayaMuro": "Playa de Muro",
+    "imgCaptionFormentor": "Cap de Formentor",
+    "imgCaptionPuerto": "Port d'Alcudia"
   }
 
 
