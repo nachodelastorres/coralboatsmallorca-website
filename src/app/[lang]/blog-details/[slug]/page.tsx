@@ -106,6 +106,16 @@ function translateBlogPost(
     ? '/boat-tours-alcudia'
     : `/${locale}/boat-tours-alcudia`;
 
+  // Translate sectionImages alt/caption keys
+  const translatedSectionImages = (blog.sectionImages || []).map(group => ({
+    ...group,
+    images: group.images.map(img => ({
+      src: img.src,
+      alt: translateKey(t, img.alt),
+      caption: translateKey(t, img.caption),
+    })),
+  }));
+
   return {
     // Basic info
     title: translateKey(t, blog.title),
@@ -161,6 +171,9 @@ function translateBlogPost(
     ctaDescription: t('blogCTA.description'),
     ctaButtonText: t('blogCTA.buttonText'),
     ctaLink,
+
+    // Inline section images
+    sectionImages: translatedSectionImages.length > 0 ? translatedSectionImages : undefined,
   };
 }
 

@@ -2677,7 +2677,73 @@
       "body": "Mallorca is an island that reveals itself little by little. Three days are enough to fall in love, but not enough to know it completely. And that's part of its magic: there's always something new to discover, a corner you hadn't seen, an experience you hadn't tried.\n\nThis itinerary has given you the keys to make the most of your time. Palma with its mix of history and modern life. The north with its crystal-clear waters and unhurried rhythm. The Tramuntana with its wild beauty and stone villages. Each area has its own personality, its own light, its own way of being Mallorca.\n\nBut in the end, what you'll take with you won't only be photos and memories of places. It will be sensations: the smell of the sea mixed with pine trees, the taste of a freshly made ensaïmada, the breeze on your face as you sail toward a hidden cove, the peace of a mountain sunset.\n\nMallorca has that power. The power to make you feel you've found something you didn't even know you were looking for. A place where time works differently, where beauty is around every corner, where Mediterranean life truly makes sense.\n\nThree days are just the beginning. The island is already waiting for you.\n\nSee you at sea?"
     },
     "imageAlt": "Aerial view of Port de Sóller in Mallorca with the lighthouse and bay surrounded by Serra de Tramuntana mountains",
-    "imageCaption": "The picturesque Port de Sóller seen from above, with its iconic lighthouse watching over the bay and the Serra de Tramuntana mountains as a backdrop – one of the must-see destinations in any 3-day Mallorca itinerary."
+    "imageCaption": "The picturesque Port de Sóller seen from above, with its iconic lighthouse watching over the bay and the Serra de Tramuntana mountains as a backdrop – one of the must-see destinations in any 3-day Mallorca itinerary.",
+    "inlineImages": {
+      "illetas": {
+        "alt": "Illetas Beach in Mallorca with crystal-clear turquoise waters",
+        "caption": "Illetas Beach, one of the jewels of Mallorca's southwest coast with its iconic turquoise waters."
+      },
+      "catedralPalma": {
+        "alt": "Palma de Mallorca Cathedral seen from the sea with the city in the background",
+        "caption": "The iconic Palma Cathedral, known as La Seu, rises majestically over the bay – the perfect starting point for Day 1."
+      },
+      "catedralAlmudaina": {
+        "alt": "Palma Cathedral with Parc de la Mar and the Almudaina Palace",
+        "caption": "The Cathedral and the Almudaina Palace beside the Parc de la Mar, the monumental heart of Palma."
+      },
+      "bellver": {
+        "alt": "Bellver Castle overlooking Palma de Mallorca harbour with boats",
+        "caption": "Bellver Castle, one of the few circular castles in Europe, with views over Palma's harbour."
+      },
+      "esBaluard": {
+        "alt": "Es Baluard, contemporary art museum in Palma de Mallorca",
+        "caption": "Es Baluard, Palma's modern and contemporary art museum, with its panoramic terraces."
+      },
+      "mercadoPalma": {
+        "alt": "Traditional market in Palma de Mallorca with local products and gastronomy",
+        "caption": "Palma's markets: local products, authentic flavours and the essence of Mallorcan gastronomy."
+      },
+      "pollenca": {
+        "alt": "Historic street in Pollença old town in Mallorca with the Calvari steps",
+        "caption": "Pollença, with its cobbled streets and the famous Calvari stairway, a town with centuries of history."
+      },
+      "alcudia": {
+        "alt": "Alcudia Town Hall square with the clock tower and medieval architecture",
+        "caption": "Alcudia's old town, surrounded by 14th-century medieval walls, one of the best preserved in Mallorca."
+      },
+      "playaMuro": {
+        "alt": "Playa de Muro in Alcudia, Mallorca, with white sand and crystal-clear waters",
+        "caption": "Playa de Muro, rated one of the best beaches in Europe for its white sand and shallow waters."
+      },
+      "portSoller": {
+        "alt": "Aerial view of Port de Sóller in Mallorca with the lighthouse and bay",
+        "caption": "Port de Sóller, the only natural harbour on the west coast, surrounded by mountains and orange groves."
+      },
+      "valldemossa": {
+        "alt": "View of Valldemossa village in the Serra de Tramuntana, Mallorca",
+        "caption": "Valldemossa, where Chopin and George Sand spent the winter of 1838, among cobbled streets and bougainvillea."
+      },
+      "saForadada": {
+        "alt": "Spectacular sunset at Sa Foradada, Serra de Tramuntana, Mallorca",
+        "caption": "Sunset from the Sa Foradada viewpoint, one of the most spectacular on Mallorca's west coast."
+      },
+      "calaDeia": {
+        "alt": "Cala Deià in Mallorca, a small rocky cove surrounded by Serra de Tramuntana mountains",
+        "caption": "Cala Deià, a charming little cove in the heart of the Serra de Tramuntana."
+      },
+      "coralBoatsNav": {
+        "alt": "Coral Boats sailing past Alcanada Island in Alcudia, Mallorca",
+        "caption": "Sailing with Coral Boats towards Alcanada Island, one of our most popular routes in Alcudia Bay."
+      },
+      "turistasBarco": {
+        "alt": "Tourists enjoying a boat trip through the crystal-clear waters of Mallorca",
+        "caption": "Discovering the crystal-clear waters of Mallorca's north coast aboard our classic boat."
+      },
+      "actividadesAcuaticas": {
+        "alt": "Snorkelling and paddle surfing activities during a boat trip in Alcudia",
+        "caption": "Snorkelling and paddle surfing in pristine coves: the activities that complete the perfect sea experience."
+      }
+    }
   },
   "blog_veintinueve": {
     "metaTitle": "How to Get Around Mallorca 2026: Complete Transport Guide, Car Rental and Alternatives | Coral Boats",

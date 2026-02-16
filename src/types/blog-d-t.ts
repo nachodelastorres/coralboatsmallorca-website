@@ -1,5 +1,18 @@
 import { StaticImageData } from 'next/image';
 
+export interface SectionImage {
+  src: string;        // path relative to public/
+  alt: string;        // translation key
+  caption: string;    // translation key for photo caption
+}
+
+export interface SectionImageGroup {
+  section: number;                                        // which section (1-12)
+  position: 'after-body' | 'after-cards' | 'after-section'; // where to place images
+  images: SectionImage[];
+  layout: 'single' | 'grid-2' | 'grid-3' | 'grid-4';    // layout style
+}
+
 export interface IBlogDT {
   id: number;
   slug: string;
@@ -115,4 +128,7 @@ export interface IBlogDT {
   secondaryImage4Alt?: string;    // Alt imagen secundaria 4
   secondaryImage5Alt?: string;    // Alt imagen secundaria 5
   secondaryImage6Alt?: string;    // Alt imagen secundaria 6
+
+  // Inline images within sections (with captions)
+  sectionImages?: SectionImageGroup[];
 }

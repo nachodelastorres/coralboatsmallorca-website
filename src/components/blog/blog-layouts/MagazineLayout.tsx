@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
-import { IBlogDT } from '@/types/blog-d-t';
+import { IBlogDT, SectionImageGroup } from '@/types/blog-d-t';
 
 interface MagazineLayoutProps {
   blog: IBlogDT;
@@ -152,9 +152,74 @@ const renderTextWithBold = (text: string): React.ReactNode => {
   return <>{elements}</>;
 };
 
+// Helper to render inline image groups with captions
+const InlineImageGroup = ({ group, t }: { group: SectionImageGroup; t: (key: string) => string }) => {
+  const gridCols =
+    group.layout === 'single' ? '1fr'
+    : group.layout === 'grid-2' ? 'repeat(2, 1fr)'
+    : group.layout === 'grid-3' ? 'repeat(3, 1fr)'
+    : 'repeat(2, 1fr)';
+
+  return (
+    <div style={{ marginTop: '30px', marginBottom: '30px' }}>
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: gridCols,
+          gap: '16px',
+        }}
+      >
+        {group.images.map((img, idx) => (
+          <figure
+            key={idx}
+            style={{ margin: 0, position: 'relative' }}
+          >
+            <div
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: group.layout === 'single' ? '450px' : '280px',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              }}
+            >
+              <Image
+                src={img.src}
+                alt={t(img.alt)}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes={group.layout === 'single' ? '100vw' : group.layout === 'grid-3' ? '33vw' : '50vw'}
+              />
+            </div>
+            {img.caption && (
+              <figcaption
+                style={{
+                  fontSize: '0.85rem',
+                  color: '#94a3b8',
+                  fontStyle: 'italic',
+                  textAlign: 'center',
+                  marginTop: '8px',
+                  lineHeight: '1.4',
+                }}
+              >
+                {t(img.caption)}
+              </figcaption>
+            )}
+          </figure>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
   const { t } = useTranslation('common');
   const { getPath } = useLocale();
+
+  // Helper to get section image groups
+  const getSectionImages = (section: number, position: SectionImageGroup['position']) =>
+    (blog.sectionImages || []).filter(g => g.section === section && g.position === position);
 
   return (
     <article style={{ background: '#ffffff' }}>
@@ -271,6 +336,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
                   {renderTextWithBold(t(blog.section1Body!))}
                 </p>
+                {getSectionImages(1, 'after-section').map((group, gi) => (
+                  <InlineImageGroup key={`s1-after-${gi}`} group={group} t={t} />
+                ))}
               </div>
 
               {/* Section 2 - Benefits with Icons */}
@@ -415,6 +483,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                         <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
                           {renderTextWithBold(t(blog.section3Body!))}
                         </p>
+                        {getSectionImages(3, 'after-body').map((group, gi) => (
+                          <InlineImageGroup key={`s3-ab-${gi}`} group={group} t={t} />
+                        ))}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
                           {subsections.map((section, idx) => {
                             const lines = getOrderedLines(t(section.body!));
@@ -505,6 +576,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                             );
                           })}
                         </div>
+                        {getSectionImages(3, 'after-cards').map((group, gi) => (
+                          <InlineImageGroup key={`s3-ac-${gi}`} group={group} t={t} />
+                        ))}
                       </>
                     );
                   } else {
@@ -589,6 +663,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                           <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section4Body!))}
                           </p>
+                          {getSectionImages(4, 'after-body').map((group, gi) => (
+                            <InlineImageGroup key={`s4-ab-${gi}`} group={group} t={t} />
+                          ))}
                           <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
                             {subsections.map((section, idx) => {
                               const lines = getOrderedLines(t(section.body!));
@@ -763,6 +840,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                           <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section5Body!))}
                           </p>
+                          {getSectionImages(5, 'after-body').map((group, gi) => (
+                            <InlineImageGroup key={`s5-ab-${gi}`} group={group} t={t} />
+                          ))}
                           <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
                             {subsections.map((section, idx) => {
                               const lines = getOrderedLines(t(section.body!));
@@ -1440,6 +1520,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                       </>
                     );
                   })()}
+                  {getSectionImages(9, 'after-section').map((group, gi) => (
+                    <InlineImageGroup key={`s9-as-${gi}`} group={group} t={t} />
+                  ))}
                 </div>
               )}
 

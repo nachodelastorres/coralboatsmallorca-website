@@ -1271,6 +1271,130 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_veintiocho.imageAlt',
   imageCaption: 'blog_veintiocho.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/isla-mallorca-playa-illetas-agua-turquesa-itinerario-3-dias.webp',
+          alt: 'blog_veintiocho.inlineImages.illetas.alt',
+          caption: 'blog_veintiocho.inlineImages.illetas.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/iconica-catedral-palma-mallorca-vista-desde-mar-ciudad-fondo.webp',
+          alt: 'blog_veintiocho.inlineImages.catedralPalma.alt',
+          caption: 'blog_veintiocho.inlineImages.catedralPalma.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-cards',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/catedral-palma-mallorca-pac-de-la-mar-palacio-almudaina.webp',
+          alt: 'blog_veintiocho.inlineImages.catedralAlmudaina.alt',
+          caption: 'blog_veintiocho.inlineImages.catedralAlmudaina.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/castillo-bellver-puerto-palma-de-mallorca-barcos.webp',
+          alt: 'blog_veintiocho.inlineImages.bellver.alt',
+          caption: 'blog_veintiocho.inlineImages.bellver.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/es-baluard-palma-de-mallorca-turismo.webp',
+          alt: 'blog_veintiocho.inlineImages.esBaluard.alt',
+          caption: 'blog_veintiocho.inlineImages.esBaluard.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/mercado-palma-mallorca-productos-tipicos-gastronomia.webp',
+          alt: 'blog_veintiocho.inlineImages.mercadoPalma.alt',
+          caption: 'blog_veintiocho.inlineImages.mercadoPalma.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp',
+          alt: 'blog_veintiocho.inlineImages.pollenca.alt',
+          caption: 'blog_veintiocho.inlineImages.pollenca.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/plaza-ayuntamiento-alcudia-torre-reloj.webp',
+          alt: 'blog_veintiocho.inlineImages.alcudia.alt',
+          caption: 'blog_veintiocho.inlineImages.alcudia.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/playa-de-muro-alcudia-mallorca-mejor-zona-alojarse.webp',
+          alt: 'blog_veintiocho.inlineImages.playaMuro.alt',
+          caption: 'blog_veintiocho.inlineImages.playaMuro.caption',
+        },
+      ],
+      layout: 'grid-3',
+    },
+    {
+      section: 5,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp',
+          alt: 'blog_veintiocho.inlineImages.portSoller.alt',
+          caption: 'blog_veintiocho.inlineImages.portSoller.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/valldemosa-serra-tramuntana-mallorca-itinerario.webp',
+          alt: 'blog_veintiocho.inlineImages.valldemossa.alt',
+          caption: 'blog_veintiocho.inlineImages.valldemossa.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/puerta-de-sol-atardecer-sa-foradada-serra-tramuntana-mallorca.webp',
+          alt: 'blog_veintiocho.inlineImages.saForadada.alt',
+          caption: 'blog_veintiocho.inlineImages.saForadada.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/cala-deia-mallorca-pueblos-serra-tramuntana.webp',
+          alt: 'blog_veintiocho.inlineImages.calaDeia.alt',
+          caption: 'blog_veintiocho.inlineImages.calaDeia.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 9,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/coral-boats-navegando-isla-alcanada-alcudia.webp',
+          alt: 'blog_veintiocho.inlineImages.coralBoatsNav.alt',
+          caption: 'blog_veintiocho.inlineImages.coralBoatsNav.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/turistas-paseo-barco-aguas-cristalinas-mallorca.webp',
+          alt: 'blog_veintiocho.inlineImages.turistasBarco.alt',
+          caption: 'blog_veintiocho.inlineImages.turistasBarco.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/actividades-acuaticas-snorkel-paddle-surf-alcudia.webp',
+          alt: 'blog_veintiocho.inlineImages.actividadesAcuaticas.alt',
+          caption: 'blog_veintiocho.inlineImages.actividadesAcuaticas.caption',
+        },
+      ],
+      layout: 'grid-3',
+    },
+  ],
 },
 
 {

@@ -2677,7 +2677,73 @@
       "body": "Mallorca ist eine Insel, die sich Stück für Stück offenbart. Drei Tage reichen, um sich zu verlieben – aber nicht, um alles zu kennen. Und genau das ist Teil ihrer Magie: Es gibt immer etwas Neues zu entdecken, eine Ecke, die du noch nicht gesehen hast, ein Erlebnis, das du noch nicht ausprobiert hast.\n\nDiese Reiseroute hat dir die Schlüssel gegeben, um das Beste aus deiner Zeit zu machen. Palma mit seiner Mischung aus Geschichte und Moderne. Der Norden mit kristallklarem Wasser und entspanntem Tempo. Die Tramuntana mit ihrer wilden Schönheit und ihren Steindörfern. Jede Region hat ihre eigene Persönlichkeit, ihr eigenes Licht und ihre eigene Art, Mallorca zu sein.\n\nAm Ende nimmst du aber nicht nur Fotos und Orts-Erinnerungen mit. Du nimmst Gefühle mit: den Duft des Meeres gemischt mit Pinien, den Geschmack einer frisch gebackenen Ensaimada, den Wind im Gesicht, während du zu einer versteckten Bucht fährst, die Ruhe eines Sonnenuntergangs in den Bergen.\n\nMallorca hat diese Kraft. Die Kraft, dir das Gefühl zu geben, etwas gefunden zu haben, von dem du gar nicht wusstest, dass du es suchst. Ein Ort, an dem Zeit anders funktioniert, an dem Schönheit an jeder Ecke wartet, an dem mediterranes Leben wirklich Sinn ergibt.\n\nDrei Tage sind erst der Anfang. Die Insel wartet schon.\n\nSehen wir uns auf dem Meer?"
     },
     "imageAlt": "Luftaufnahme von Port de Sóller auf Mallorca mit dem Leuchtturm und der Bucht umgeben von den Bergen der Serra de Tramuntana",
-    "imageCaption": "Das malerische Port de Sóller von oben gesehen, mit seinem markanten Leuchtturm über der Bucht und den Bergen der Serra de Tramuntana im Hintergrund – eines der Muss-Ziele in jedem 3-Tage-Mallorca-Reiseplan."
+    "imageCaption": "Das malerische Port de Sóller von oben gesehen, mit seinem markanten Leuchtturm über der Bucht und den Bergen der Serra de Tramuntana im Hintergrund – eines der Muss-Ziele in jedem 3-Tage-Mallorca-Reiseplan.",
+    "inlineImages": {
+      "illetas": {
+        "alt": "Strand von Illetas auf Mallorca mit kristallklarem türkisem Wasser",
+        "caption": "Der Strand von Illetas, eines der Juwelen der Südwestküste Mallorcas mit seinem ikonischen türkisfarbenen Wasser."
+      },
+      "catedralPalma": {
+        "alt": "Kathedrale von Palma de Mallorca vom Meer aus gesehen mit der Stadt im Hintergrund",
+        "caption": "Die ikonische Kathedrale von Palma, bekannt als La Seu, erhebt sich majestätisch über der Bucht – der perfekte Startpunkt für Tag 1."
+      },
+      "catedralAlmudaina": {
+        "alt": "Kathedrale von Palma mit dem Parc de la Mar und dem Almudaina-Palast",
+        "caption": "Die Kathedrale und der Almudaina-Palast neben dem Parc de la Mar, das monumentale Herz von Palma."
+      },
+      "bellver": {
+        "alt": "Burg Bellver mit Blick auf den Hafen von Palma de Mallorca und Boote",
+        "caption": "Die Burg Bellver, eine der wenigen Rundburgen Europas, mit Blick auf den Hafen von Palma."
+      },
+      "esBaluard": {
+        "alt": "Es Baluard, Museum für zeitgenössische Kunst in Palma de Mallorca",
+        "caption": "Es Baluard, Palmas Museum für moderne und zeitgenössische Kunst, mit seinen Panoramaterrassen."
+      },
+      "mercadoPalma": {
+        "alt": "Traditioneller Markt in Palma de Mallorca mit lokalen Produkten und Gastronomie",
+        "caption": "Die Märkte von Palma: lokale Produkte, authentische Aromen und die Essenz der mallorquinischen Gastronomie."
+      },
+      "pollenca": {
+        "alt": "Historische Straße in der Altstadt von Pollença auf Mallorca mit der Calvari-Treppe",
+        "caption": "Pollença mit seinen Kopfsteinpflasterstraßen und der berühmten Calvari-Treppe, ein Ort mit jahrhundertealter Geschichte."
+      },
+      "alcudia": {
+        "alt": "Rathausplatz von Alcudia mit Uhrturm und mittelalterlicher Architektur",
+        "caption": "Die Altstadt von Alcudia, umgeben von mittelalterlichen Mauern aus dem 14. Jahrhundert, eine der besterhaltenen Mallorcas."
+      },
+      "playaMuro": {
+        "alt": "Playa de Muro in Alcudia, Mallorca, mit weißem Sand und kristallklarem Wasser",
+        "caption": "Playa de Muro, einer der besten Strände Europas mit weißem Sand und flachem Wasser."
+      },
+      "portSoller": {
+        "alt": "Luftaufnahme von Port de Sóller auf Mallorca mit Leuchtturm und Bucht",
+        "caption": "Port de Sóller, der einzige natürliche Hafen an der Westküste, umgeben von Bergen und Orangenhainen."
+      },
+      "valldemossa": {
+        "alt": "Blick auf das Dorf Valldemossa in der Serra de Tramuntana, Mallorca",
+        "caption": "Valldemossa, wo Chopin und George Sand den Winter 1838 verbrachten, zwischen Kopfsteinpflasterstraßen und Bougainvillea."
+      },
+      "saForadada": {
+        "alt": "Spektakulärer Sonnenuntergang an der Sa Foradada, Serra de Tramuntana, Mallorca",
+        "caption": "Sonnenuntergang vom Aussichtspunkt Sa Foradada, einer der spektakulärsten an Mallorcas Westküste."
+      },
+      "calaDeia": {
+        "alt": "Cala Deià auf Mallorca, eine kleine Felsenbucht umgeben von Bergen der Serra de Tramuntana",
+        "caption": "Cala Deià, eine charmante kleine Bucht im Herzen der Serra de Tramuntana."
+      },
+      "coralBoatsNav": {
+        "alt": "Coral Boats segelt an der Insel Alcanada in Alcudia, Mallorca, vorbei",
+        "caption": "Mit Coral Boats zur Insel Alcanada segeln, eine unserer beliebtesten Routen in der Bucht von Alcudia."
+      },
+      "turistasBarco": {
+        "alt": "Touristen genießen eine Bootsfahrt durch das kristallklare Wasser von Mallorca",
+        "caption": "Die kristallklaren Gewässer der Nordküste Mallorcas an Bord unseres klassischen Bootes entdecken."
+      },
+      "actividadesAcuaticas": {
+        "alt": "Schnorchel- und Stand-Up-Paddling-Aktivitäten während einer Bootsfahrt in Alcudia",
+        "caption": "Schnorcheln und Stand-Up-Paddling in unberührten Buchten: die Aktivitäten, die das perfekte Seeerlebnis abrunden."
+      }
+    }
   },
   "blog_veintinueve": {
     "metaTitle": "Fortbewegung auf Mallorca 2026: Kompletter Transport-Guide, Mietwagen und Alternativen | Coral Boats",

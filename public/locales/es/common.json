@@ -2699,7 +2699,73 @@
       "body": "Mallorca es una isla que se revela poco a poco. Tres días son suficientes para enamorarte, pero no para conocerla del todo. Y eso es parte de su magia: siempre hay algo nuevo por descubrir, un rincón que no habías visto, una experiencia que no habías probado.\n\nEste itinerario te ha dado las claves para aprovechar al máximo tu tiempo. Palma con su mezcla de historia y modernidad. El norte con sus aguas cristalinas y su ritmo pausado. La Tramuntana con su belleza salvaje y sus pueblos de piedra. Cada zona tiene su personalidad, su luz, su forma de ser Mallorca.\n\nPero al final, lo que te llevarás no serán solo fotos y recuerdos de lugares. Serán sensaciones: el olor del mar mezclado con el de los pinos, el sabor de una ensaïmada recién hecha, la brisa en la cara mientras navegas hacia una cala escondida, la paz de un atardecer en la montaña.\n\nMallorca tiene ese poder. El poder de hacerte sentir que has encontrado algo que no sabías que buscabas. Un lugar donde el tiempo funciona diferente, donde la belleza está en cada esquina, donde la vida mediterránea cobra todo su sentido.\n\nTres días son el principio. La isla ya está esperándote.\n\n¿Nos vemos en el mar?"
     },
     "imageAlt": "Vista aérea del Port de Sóller en Mallorca con el faro y la bahía rodeada de montañas de la Serra de Tramuntana",
-    "imageCaption": "El pintoresco Port de Sóller visto desde el aire, con su característico faro vigilando la bahía y las montañas de la Serra de Tramuntana como telón de fondo – uno de los destinos imprescindibles en cualquier itinerario de 3 días por Mallorca."
+    "imageCaption": "El pintoresco Port de Sóller visto desde el aire, con su característico faro vigilando la bahía y las montañas de la Serra de Tramuntana como telón de fondo – uno de los destinos imprescindibles en cualquier itinerario de 3 días por Mallorca.",
+    "inlineImages": {
+      "illetas": {
+        "alt": "Playa de Illetas en Mallorca con aguas turquesas cristalinas",
+        "caption": "Playa de Illetas, una de las joyas de la costa suroeste de Mallorca con sus icónicas aguas turquesas."
+      },
+      "catedralPalma": {
+        "alt": "Catedral de Palma de Mallorca vista desde el mar con la ciudad al fondo",
+        "caption": "La icónica Catedral de Palma, conocida como La Seu, se alza majestuosa sobre la bahía – el punto de partida perfecto para el Día 1."
+      },
+      "catedralAlmudaina": {
+        "alt": "Catedral de Palma de Mallorca con el Parc de la Mar y el Palacio de la Almudaina",
+        "caption": "La Catedral y el Palacio de la Almudaina junto al Parc de la Mar, corazón monumental de Palma."
+      },
+      "bellver": {
+        "alt": "Castillo de Bellver con vistas al puerto de Palma de Mallorca y los barcos",
+        "caption": "El Castillo de Bellver, uno de los pocos castillos circulares de Europa, con vistas al puerto de Palma."
+      },
+      "esBaluard": {
+        "alt": "Es Baluard, museo de arte contemporáneo de Palma de Mallorca",
+        "caption": "Es Baluard, el museo de arte moderno y contemporáneo de Palma, con sus terrazas panorámicas."
+      },
+      "mercadoPalma": {
+        "alt": "Mercado tradicional de Palma de Mallorca con productos típicos y gastronomía local",
+        "caption": "Los mercados de Palma: productos locales, sabores auténticos y la esencia de la gastronomía mallorquina."
+      },
+      "pollenca": {
+        "alt": "Calle histórica del casco antiguo de Pollença en Mallorca con la escalinata del Calvari",
+        "caption": "Pollença, con sus calles empedradas y la famosa escalinata del Calvari, un pueblo con siglos de historia."
+      },
+      "alcudia": {
+        "alt": "Plaza del Ayuntamiento de Alcudia con la torre del reloj y arquitectura medieval",
+        "caption": "El casco antiguo de Alcudia, rodeado por murallas medievales del siglo XIV, uno de los mejor conservados de Mallorca."
+      },
+      "playaMuro": {
+        "alt": "Playa de Muro en Alcudia, Mallorca, con arena blanca y aguas cristalinas",
+        "caption": "Playa de Muro, considerada una de las mejores playas de Europa por su arena blanca y aguas poco profundas."
+      },
+      "portSoller": {
+        "alt": "Vista aérea del Port de Sóller en Mallorca con el faro y la bahía",
+        "caption": "El Port de Sóller, el único puerto natural de la costa oeste, rodeado de montañas y naranjos."
+      },
+      "valldemossa": {
+        "alt": "Vista del pueblo de Valldemossa en la Serra de Tramuntana, Mallorca",
+        "caption": "Valldemossa, donde Chopin y George Sand pasaron el invierno de 1838, entre calles empedradas y buganvillas."
+      },
+      "saForadada": {
+        "alt": "Atardecer espectacular en Sa Foradada, Serra de Tramuntana, Mallorca",
+        "caption": "Atardecer desde el mirador de Sa Foradada, uno de los más espectaculares de la costa oeste de Mallorca."
+      },
+      "calaDeia": {
+        "alt": "Cala Deià en Mallorca, pequeña cala rocosa rodeada de montañas de la Serra de Tramuntana",
+        "caption": "Cala Deià, una pequeña cala con encanto especial en el corazón de la Serra de Tramuntana."
+      },
+      "coralBoatsNav": {
+        "alt": "Barco de Coral Boats navegando junto a la isla de Alcanada en Alcudia, Mallorca",
+        "caption": "Navegando con Coral Boats hacia la isla de Alcanada, una de nuestras rutas más populares en la Bahía de Alcudia."
+      },
+      "turistasBarco": {
+        "alt": "Turistas disfrutando de un paseo en barco por las aguas cristalinas de Mallorca",
+        "caption": "Descubriendo las aguas cristalinas de la costa norte de Mallorca a bordo de nuestro barco clásico."
+      },
+      "actividadesAcuaticas": {
+        "alt": "Actividades acuáticas de snorkel y paddle surf durante excursión en barco en Alcudia",
+        "caption": "Snorkel y paddle surf en calas vírgenes: las actividades que completan la experiencia marítima perfecta."
+      }
+    }
   },
   "blog_veintinueve": {
     "metaTitle": "Cómo Moverse por Mallorca 2026: Guía Completa de Transporte, Alquiler de Coche y Alternativas | Coral Boats",

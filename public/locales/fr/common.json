@@ -2643,7 +2643,19 @@
     },
     "section5": {
       "title": "Jour 3 : la Serra de Tramuntana et la côte ouest",
-      "body": "La troisième journée vous emmène dans la Majorque la plus sauvage et spectaculaire : la Serra de Tramuntana, classée au patrimoine mondial de l’UNESCO. Cette chaîne de montagnes longeant la côte nord-ouest offre des paysages à couper le souffle, des villages de pierre suspendus au-dessus de la mer et une nature presque intacte.\n\nL’itinéraire proposé traverse certains des lieux les plus emblématiques de l’île. Attendez-vous à des routes sinueuses, de nombreux arrêts photo et à la sensation de découvrir un autre monde.\n\nSi vous arrivez du nord de l’île, votre première halte peut être Lluc, le monastère le plus important de Majorque. Niché dans une vallée entourée de montagnes, c’est un lieu de pèlerinage mais aussi un point de départ pour de nombreuses randonnées. Le cadre est spectaculaire et l’atmosphère invite au calme.\n\nDepuis Lluc, la route descend vers la côte ouest. La première vue sur la mer depuis ces hauteurs est saisissante : des falaises de plusieurs centaines de mètres plongeant à pic dans l’eau, avec le bleu profond de la Méditerranée à perte de vue."
+      "body": "La troisième journée vous emmène dans la Majorque la plus sauvage et spectaculaire : la Serra de Tramuntana, classée au patrimoine mondial de l'UNESCO. Cette chaîne de montagnes longeant la côte nord-ouest offre des paysages à couper le souffle, des villages de pierre suspendus au-dessus de la mer et une nature presque intacte.\n\nL'itinéraire proposé traverse certains des lieux les plus emblématiques de l'île. Attendez-vous à des routes sinueuses, de nombreux arrêts photo et à la sensation de découvrir un autre monde.\n\nSi vous arrivez du nord de l'île, votre première halte peut être Lluc, le monastère le plus important de Majorque. Niché dans une vallée entourée de montagnes, c'est un lieu de pèlerinage mais aussi un point de départ pour de nombreuses randonnées. Le cadre est spectaculaire et l'atmosphère invite au calme.\n\nDepuis Lluc, la route descend vers la côte ouest. La première vue sur la mer depuis ces hauteurs est saisissante : des falaises de plusieurs centaines de mètres plongeant à pic dans l'eau, avec le bleu profond de la Méditerranée à perte de vue.",
+      "sub1": {
+        "subtitle": "Sóller et le Port de Sóller : le cœur de la Tramuntana",
+        "body": "Sóller est probablement le village le plus charmant de la Tramuntana. Entouré de montagnes et d'orangers, il conserve un centre historique moderniste qui rappelle son passé prospère en tant qu'exportateur d'agrumes. La place principale, avec l'église de Sant Bartomeu et les terrasses des cafés, est l'endroit idéal pour une pause.\n\nDepuis Sóller, un tramway historique en bois vous emmène jusqu'au Port de Sóller, un port naturel entouré de montagnes. C'est le seul port naturel de la côte ouest, avec une atmosphère complètement différente de la côte est : plus intime, plus protégé, avec le charme des lieux qui vivent à l'écart du tourisme de masse.\n\nVous pouvez déjeuner dans l'un des restaurants du port, vous baigner sur sa petite plage ou simplement vous promener le long du front de mer. Si l'aventure vous tente, des excursions en bateau partent du Port de Sóller vers Sa Calobra et d'autres criques inaccessibles par la terre."
+      },
+      "sub2": {
+        "subtitle": "Deià et Valldemossa : villages d'artistes et d'écrivains",
+        "body": "En continuant vers le sud par la route côtière (l'une des plus belles d'Europe), vous arrivez à Deià. Ce petit village perché au-dessus de la mer a été le refuge d'artistes, d'écrivains et de musiciens pendant des décennies. Robert Graves, l'auteur de Moi, Claude, y a vécu jusqu'à sa mort. Les maisons en pierre dorée, les jardins de bougainvilliers et les vues sur la mer créent une atmosphère unique.\n\nQuelques kilomètres plus loin se trouve Valldemossa, célèbre pour sa chartreuse royale où Chopin et George Sand passèrent l'hiver 1838-1839. Le village est magnifique, avec ses rues pavées ornées de pots de fleurs et une lumière particulière qui a inspiré des peintres pendant des siècles. C'est très touristique, alors essayez d'arriver tôt le matin ou en fin d'après-midi.\n\nDans les deux villages, vous trouverez des boutiques d'artisanat local, des galeries d'art et des restaurants avec terrasses donnant sur la vallée. C'est l'endroit parfait pour acheter un souvenir spécial : céramiques faites main, huile d'olive locale ou les fameuses cocas de patata de Valldemossa."
+      },
+      "sub3": {
+        "subtitle": "Fin de journée : coucher de soleil sur la côte ouest",
+        "body": "La côte ouest de Majorque offre certains des couchers de soleil les plus spectaculaires de la Méditerranée. Le soleil se couche directement sur la mer, teintant les falaises de couleurs impossibles. Plusieurs miradors (Ricardo Roca, Ses Ànimes, Na Foradada) permettent de contempler le spectacle.\n\nSi vous préférez un cadre plus intime, descendez vers l'une des criques de la zone. Cala Deià est petite et rocheuse, mais possède un charme particulier. Lluc Alcari, un peu plus au nord, est encore plus petite et tranquille.\n\nLe retour vers Palma (si c'est votre base) ou vers l'aéroport peut se faire par l'autoroute qui traverse l'île, bien plus rapide que la route de montagne. En à peine plus d'une demi-heure, vous serez de retour, concluant trois jours intenses avec les images de la Tramuntana gravées dans votre mémoire."
+      }
     },
     "section6": {
       "title": "Variantes de l’itinéraire : adaptez-le à votre style",
@@ -2666,7 +2678,73 @@
       "body": "Majorque est une île qui se dévoile peu à peu. Trois jours suffisent pour tomber amoureux, mais pas pour tout découvrir. Et c'est justement ce qui fait sa magie.\n\nCet itinéraire vous donne les clés pour profiter pleinement de votre séjour. Mais au final, ce que vous emporterez avec vous, ce sont des sensations : la brise marine, les parfums des pins, la lumière du coucher de soleil et le sentiment d'avoir trouvé quelque chose d'unique.\n\nTrois jours ne sont qu'un début. L'île vous attend déjà.\n\nOn se retrouve en mer ?"
     },
     "imageAlt": "Vue aérienne de Port de Sóller à Majorque avec le phare et la baie entourée par les montagnes de la Serra de Tramuntana",
-    "imageCaption": "Le pittoresque Port de Sóller vu d'en haut, avec son phare emblématique surveillant la baie et les montagnes de la Serra de Tramuntana en toile de fond – l'une des destinations incontournables de tout itinéraire de 3 jours à Majorque."
+    "imageCaption": "Le pittoresque Port de Sóller vu d'en haut, avec son phare emblématique surveillant la baie et les montagnes de la Serra de Tramuntana en toile de fond – l'une des destinations incontournables de tout itinéraire de 3 jours à Majorque.",
+    "inlineImages": {
+      "illetas": {
+        "alt": "Plage d'Illetas à Majorque avec des eaux turquoise cristallines",
+        "caption": "La plage d'Illetas, l'un des joyaux de la côte sud-ouest de Majorque avec ses eaux turquoise emblématiques."
+      },
+      "catedralPalma": {
+        "alt": "Cathédrale de Palma de Majorque vue depuis la mer avec la ville en arrière-plan",
+        "caption": "L'emblématique cathédrale de Palma, connue sous le nom de La Seu, se dresse majestueusement au-dessus de la baie – le point de départ parfait pour le Jour 1."
+      },
+      "catedralAlmudaina": {
+        "alt": "Cathédrale de Palma avec le Parc de la Mar et le palais de l'Almudaina",
+        "caption": "La cathédrale et le palais de l'Almudaina à côté du Parc de la Mar, le cœur monumental de Palma."
+      },
+      "bellver": {
+        "alt": "Château de Bellver surplombant le port de Palma de Majorque avec des bateaux",
+        "caption": "Le château de Bellver, l'un des rares châteaux circulaires d'Europe, avec vue sur le port de Palma."
+      },
+      "esBaluard": {
+        "alt": "Es Baluard, musée d'art contemporain de Palma de Majorque",
+        "caption": "Es Baluard, le musée d'art moderne et contemporain de Palma, avec ses terrasses panoramiques."
+      },
+      "mercadoPalma": {
+        "alt": "Marché traditionnel de Palma de Majorque avec produits locaux et gastronomie",
+        "caption": "Les marchés de Palma : produits locaux, saveurs authentiques et l'essence de la gastronomie majorquine."
+      },
+      "pollenca": {
+        "alt": "Rue historique de la vieille ville de Pollença à Majorque avec l'escalier du Calvari",
+        "caption": "Pollença, avec ses rues pavées et le célèbre escalier du Calvari, un village chargé de siècles d'histoire."
+      },
+      "alcudia": {
+        "alt": "Place de la mairie d'Alcudia avec la tour de l'horloge et l'architecture médiévale",
+        "caption": "La vieille ville d'Alcudia, entourée de murailles médiévales du XIVe siècle, l'une des mieux conservées de Majorque."
+      },
+      "playaMuro": {
+        "alt": "Playa de Muro à Alcudia, Majorque, avec sable blanc et eaux cristallines",
+        "caption": "Playa de Muro, considérée comme l'une des meilleures plages d'Europe pour son sable blanc et ses eaux peu profondes."
+      },
+      "portSoller": {
+        "alt": "Vue aérienne de Port de Sóller à Majorque avec le phare et la baie",
+        "caption": "Le Port de Sóller, le seul port naturel de la côte ouest, entouré de montagnes et d'orangeraies."
+      },
+      "valldemossa": {
+        "alt": "Vue du village de Valldemossa dans la Serra de Tramuntana, Majorque",
+        "caption": "Valldemossa, où Chopin et George Sand passèrent l'hiver de 1838, entre ruelles pavées et bougainvilliers."
+      },
+      "saForadada": {
+        "alt": "Coucher de soleil spectaculaire à Sa Foradada, Serra de Tramuntana, Majorque",
+        "caption": "Coucher de soleil depuis le belvédère de Sa Foradada, l'un des plus spectaculaires de la côte ouest de Majorque."
+      },
+      "calaDeia": {
+        "alt": "Cala Deià à Majorque, petite crique rocheuse entourée des montagnes de la Serra de Tramuntana",
+        "caption": "Cala Deià, une charmante petite crique au cœur de la Serra de Tramuntana."
+      },
+      "coralBoatsNav": {
+        "alt": "Coral Boats naviguant près de l'île d'Alcanada à Alcudia, Majorque",
+        "caption": "Navigation avec Coral Boats vers l'île d'Alcanada, l'une de nos routes les plus populaires dans la baie d'Alcudia."
+      },
+      "turistasBarco": {
+        "alt": "Touristes profitant d'une excursion en bateau dans les eaux cristallines de Majorque",
+        "caption": "À la découverte des eaux cristallines de la côte nord de Majorque à bord de notre bateau classique."
+      },
+      "actividadesAcuaticas": {
+        "alt": "Activités de snorkeling et paddle surf lors d'une excursion en bateau à Alcudia",
+        "caption": "Snorkeling et paddle surf dans des criques vierges : les activités qui complètent l'expérience marine parfaite."
+      }
+    }
   },
   "blog_veintinueve": {
     "metaTitle": "Comment Se Déplacer à Majorque 2026 : Guide Complet des Transports, Location de Voiture et Alternatives | Coral Boats",
