@@ -154,21 +154,11 @@ const renderTextWithBold = (text: string): React.ReactNode => {
 
 // Helper to render inline image groups with captions
 const InlineImageGroup = ({ group, t }: { group: SectionImageGroup; t: (key: string) => string }) => {
-  const gridCols =
-    group.layout === 'single' ? '1fr'
-    : group.layout === 'grid-2' ? 'repeat(2, 1fr)'
-    : group.layout === 'grid-3' ? 'repeat(3, 1fr)'
-    : 'repeat(2, 1fr)';
+  const gridClass = `blog-inline-grid blog-inline-grid--${group.layout}`;
 
   return (
     <div style={{ marginTop: '30px', marginBottom: '30px' }}>
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: gridCols,
-          gap: '16px',
-        }}
-      >
+      <div className={gridClass}>
         {group.images.map((img, idx) => (
           <figure
             key={idx}
@@ -489,10 +479,13 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
                           {subsections.map((section, idx) => {
                             const lines = getOrderedLines(t(section.body!));
+                            const subsectionImages = (blog.sectionImages || []).filter(
+                              g => g.section === 3 && g.position === 'after-subsection' && g.afterSubsection === idx
+                            );
 
                             return (
+                              <React.Fragment key={idx}>
                               <div
-                                key={idx}
                                 style={{
                                   padding: '30px',
                                   background: '#ffffff',
@@ -573,6 +566,10 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                   );
                                 })}
                               </div>
+                              {subsectionImages.map((group, gi) => (
+                                <InlineImageGroup key={`asub-${idx}-${gi}`} group={group} t={t} />
+                              ))}
+                              </React.Fragment>
                             );
                           })}
                         </div>

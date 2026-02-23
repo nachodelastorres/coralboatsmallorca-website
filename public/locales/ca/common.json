@@ -1130,8 +1130,42 @@
       "title": "La nostra recomanació honesta (i per què apostem pel barco clàssic)",
       "body": "No fingirem neutralitat. Després de provar totes les opcions i escoltar centenars de viatgers, creiem que el barco clàssic ofereix una cosa que les altres opcions no poden replicar: una connexió real amb el mar i amb l’essència de Mallorca.\n\nNo és per a tothom. Si busques festa, música alta i conèixer gent, un catamarà et farà més feliç. Si el que vols és velocitat i veure molt en poc temps, una llanxa complirà. Però si el que busques és aturar el temps, sentir que vius alguna cosa autèntica i tornar a casa amb la sensació d’haver desconnectat de veritat, llavors un barco amb història és el teu lloc.\n\nA Coral Boats naveguem amb un llüt tradicional mallorquí, en grups reduïts, per rutes que eviten les cales massificades. Incloem gastronomia local, temps real per nedar i fer snorkel, i un tracte proper perquè creiem que així és com s’hauria de viure el Mediterrani.\n\nSi això ressona amb tu, et convidem a conèixer les nostres [excursions en barco des d’Alcúdia](https://coralboats.com/es/boat-tours-alcudia). I si encara tens dubtes, escriu-nos. Preferim ajudar-te a triar bé —encara que sigui amb una altra empresa— que vendre’t alguna cosa que no és per a tu.\n\nEl mar de Mallorca mereix ser gaudit. Tria com vols fer-ho, i fes-ho bé."
     },
-    "imageAlt": "Persona saltant a la mar des d’un vaixell durant una excursió a Mallorca",
-    "imageCaption": "Un viatger es llança a l’aigua des d’un vaixell durant una excursió a Mallorca, un dels moments més valorats quan es tria bé el tipus de sortida i s’eviten errors habituals."
+    "imageAlt": "Llaüt mallorquí tradicional fondejat davant d’una platja mediterrània d’aigües turqueses",
+    "imageCaption": "Un llaüt mallorquí clàssic al costat d’una platja d’aigües cristal·lines: l’essència de les excursions amb vaixell tradicionals per Mallorca.",
+    "inlineImages": {
+      "speedboat1": {
+        "alt": "Llanxa ràpida navegant a tota velocitat per la costa de Mallorca",
+        "caption": "Una speedboat recorrent la costa mallorquina: velocitat i accés ràpid a cales remotes."
+      },
+      "speedboat2": {
+        "alt": "Activitats aquàtiques des d’una llanxa ràpida en una platja de Mallorca",
+        "caption": "Les llanxes ràpides permeten combinar la navegació amb parades per a activitats aquàtiques en cales de difícil accés."
+      },
+      "catamaran1": {
+        "alt": "Catamarà amb fons de vidre navegant per la costa de Mallorca",
+        "caption": "Un catamarà amb fons de vidre durant una excursió per Mallorca, ideal per veure la vida marina sense mullar-se."
+      },
+      "catamaran2": {
+        "alt": "Excursió en catamarà per les aigües turqueses de Mallorca",
+        "caption": "Els catamarans ofereixen espai, estabilitat i un ambient social difícil d’igualar."
+      },
+      "catamaran3": {
+        "alt": "Passatgers gaudint d’una excursió en catamarà per Mallorca",
+        "caption": "A bord d’un catamarà: àmplies zones de solàrium, música i la Mediterrània com a teló de fons."
+      },
+      "clasico1": {
+        "alt": "Llaüt mallorquí tradicional de fusta per a excursions a Mallorca",
+        "caption": "Un llaüt tradicional mallorquí: dècades d’història marinera i la forma més autèntica de navegar per l’illa."
+      },
+      "clasico2": {
+        "alt": "Tripulació experta de Coral Boats preparant l’excursió a Alcúdia",
+        "caption": "La nostra tripulació local coneix cada racó de la costa nord – la diferència entre una excursió bona i una d’inoblidable."
+      },
+      "clasico3": {
+        "alt": "Paisatge costaner de Mallorca vist des d’un vaixell durant una excursió per Alcúdia",
+        "caption": "La costa de Mallorca des de la mar: penya-segats, pins i aigües que canvien de color segons la fondària."
+      }
+    }
   },
   "blog_cuatro": {
     "metaTitle": "Tour en vaixell privat o compartit a Mallorca: què escollir a Alcúdia (pros, contres i consells)",
@@ -1649,19 +1683,27 @@
       "body": "La Badia d'Alcúdia compta amb condicions ideals per al snorkel:\n\n- Aigües turqueses i transparents amb una [visibilitat que sovint supera els 20 metres](https://coralboats.com/ca/blog-details/curiosidades-litoral-balear-bahia-alcudia).\n- Cales protegides amb aigües tranquil·les, perfectes per explorar amb seguretat.\n- Una vida marina diversa, amb peixos de colors, pops, estrelles de mar i, de vegades, fins i tot tortugues marines.\n- Fons rocosos i praderies de posidònia que creen ecosistemes submarins plens de vida.\n- Llocs accessibles tant des de la costa com amb vaixell.\n\nTant si és la teva primera vegada com si ja tens experiència, les aigües d'Alcúdia ofereixen una màgia especial per a tothom. Pots combinar el snorkel amb altres [activitats aquàtiques a la badia](https://coralboats.com/ca/blog-details/water-activities-alcudia-bay-guide)."
     },
     "section3": {
-      "title": "Els 3 millors llocs per fer snorkel prop d’Alcúdia",
-      "body": "Aquests són tres indrets destacats per explorar el món submarí al voltant d’Alcúdia.",
+      "title": "Els 5 millors llocs per fer snorkel prop d’Alcúdia",
+      "body": "La costa nord de Mallorca amaga racons increïbles per fer snorkel. Des de cales remotes accessibles només amb vaixell fins a platges familiars amb tots els serveis, aquests són els cinc millors spots prop d’Alcúdia.",
       "sub1": {
-        "subtitle": "Cales amagades a la Badia d’Alcúdia",
-        "body": "Les cales més apartades, accessibles només amb vaixell, ofereixen algunes de les condicions més pures per fer snorkel. Aquests racons verges presenten formacions rocoses plenes de vida marina, praderies vibrants de posidònia (herba marina protegida) i aigües tan transparents que pots veure el fons sorrenc des de la superfície. Bancs de peixos de colors, pops curiosos i estrelles de mar hi tenen la seva llar. Les nostres [excursions amb vaixell](https://coralboats.com/ca/alcudia-morning-boat-tour) sovint inclouen parades per fer snorkel en aquestes joies amagades, amb tot l'equipament inclòs. Descobreix més sobre la [vida marina local](https://coralboats.com/ca/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo)."
+        "subtitle": "Cales del Cap Pinar",
+        "body": "La península del Cap Pinar, entre Alcúdia i la Badia de Pollença, acull algunes de les cales més espectaculars del nord de Mallorca. L’estrella és **Coll Baix**, una platja de còdols envoltada de penya-segats de més de 200 metres que només és accessible a peu per un sender exigent (uns 30-40 minuts de caminada amb desnivell) o, molt més còmode, amb vaixell. L’esforç val la pena: les seves aigües transparents i el fons rocós-sorrenc són ideals per fer snorkel, amb bona visibilitat i peixos de roca com tords, sards i donzelles. Ara bé, no hi ha cap servei (ni para-sols, ni xiringuito, ni socorrista), així que porta aigua, menjar i protecció solar.\n\nMés al sud, les cales de **La Victòria** i **Bonaire** ofereixen alternatives més accessibles. Bonaire té un petit aparcament i una entrada a l’aigua fàcil amb zones rocoses perfectes per observar fauna marina. La Victòria, al peu de l’ermita del mateix nom, combina bosc de pins i aigües clares amb fons mixtos de roca i posidònia. Les nostres [excursions amb vaixell](https://coralboats.com/ca/alcudia-morning-boat-tour) sovint inclouen parada en aquestes cales, amb equip de snorkel inclòs, cosa que t’estalvia la caminada i et permet gaudir sense complicacions."
       },
       "sub2": {
         "subtitle": "Platja d’Alcanada",
-        "body": "A prop del [famós far d'Alcanada](https://coralboats.com/ca/blog-details/descubre-alcanada-playa-faro-isla-alcudia), aquesta zona ofereix excel·lents condicions per fer snorkel amb aigües relativament tranquil·les. La costa rocosa crea paisatges submarins interessants on es poden veure donzelles, tords, sards i fins i tot alguna morena amagada entre les escletxes. La combinació de zones rocoses i sorrencs crea hàbitats marins molt diversos. A més, és fàcilment accessible des de la costa, ideal per a una exploració pel teu compte."
+        "body": "Davant del [famós far d’Alcanada](https://coralboats.com/ca/blog-details/descubre-alcanada-playa-faro-isla-alcudia) i la seva petita illa, aquesta platja de roques i grava fina és un dels millors punts de snorkel accessibles des de la costa. L’entrada a l’aigua és una mica rocosa (els escarpins són pràcticament obligatoris), però a canvi trobaràs un fons marí molt ric: praderies de posidònia on s’amaguen pops i sípies, zones rocoses amb morenes, nudibranquis i eriçons, i bancs de sards i oblades que neden al teu voltant.\n\nLa zona té aparcament (de pagament a l’estiu, sol omplir-se abans de les 11:00), un parell de restaurants a prop i aigües generalment tranquil·les gràcies a la protecció de l’illa. És un bon lloc per anar pel teu compte, tot i que la visibilitat pot baixar els dies de vent de llevant. Si vols explorar l’illa i els seus voltants amb més calma, també s’hi pot arribar [amb vaixell](https://coralboats.com/ca/boat-tours-alcudia)."
       },
       "sub3": {
         "subtitle": "Cala Sant Vicenç",
-        "body": "A pocs minuts amb cotxe d’Alcúdia, aquesta impressionant zona està formada per quatre petites cales amb condicions excepcionals per fer snorkel. Les aigües clares i tranquil·les i els fons rocosos allotgen una gran varietat d’espècies mediterrànies. La visibilitat sota l’aigua és espectacular, i els penya-segats que l’envolten fan que el paisatge sigui encara més impressionant. És especialment recomanable per a famílies, ja que les aigües poc profundes a prop de la riba són perfectes per als infants que aprenen a fer snorkel."
+        "body": "A uns 20 minuts amb cotxe d’Alcúdia, al municipi de Pollença, Cala Sant Vicenç és en realitat un conjunt de quatre cales: Cala Barques (la més gran i amb més serveis), Cala Clara, Cala Molins i Cala Carbó. Per fer snorkel, les millors són **Cala Molins** i **Cala Clara**, ambdues amb fons rocosos que allotgen una gran varietat de peixos mediterranis i una visibilitat que sol ser excel·lent.\n\nCala Barques té hamaques, socorrista en temporada i restaurants a peu de platja, així que és l’opció més còmoda si vas amb família. Cala Carbó, la més petita, és més tranquil·la però té un accés una mica més complicat per escales. Els penya-segats que envolten les cales creen un paisatge impressionant tant per sobre com per sota de l’aigua. Tingues en compte que al juliol i agost aquestes cales s’omplen bastant, així que convé anar-hi d’hora."
+      },
+      "sub4": {
+        "subtitle": "Platja de Formentor",
+        "body": "Considerada una de les platges més boniques de Mallorca, la platja de Formentor combina arena blanca, pins fins a la vora i aigües d’un turquesa intens. Per fer snorkel, els millors punts estan als **extrems de la platja**, on les roques substitueixen l’arena i el fons es torna més interessant. A la zona esquerra (mirant al mar) trobaràs formacions rocoses amb estrelles de mar, eriçons i petits bancs de peixos.\n\nL’accés amb cotxe està restringit a l’estiu (de juny a setembre) entre les 10:00 i les 19:00 per a vehicles sense reserva d’hotel, així que la millor opció és arribar d’hora, agafar el bus llançadora des del Port de Pollença, o directament anar-hi amb vaixell. La platja té servei d’hamaques, un hotel històric amb restaurant i aigües generalment molt tranquil·les gràcies a la badia tancada. La visibilitat és bona, tot i que el fons sorrenc del centre de la platja no ofereix tant per veure com els laterals rocosos."
+      },
+      "sub5": {
+        "subtitle": "Platges de Muro i Alcúdia",
+        "body": "El llarg arenal que s’estén des del Port d’Alcúdia fins a Can Picafort pot semblar, a primera vista, massa \"turístic\" per fer snorkel. I és cert que la zona central de la [Platja de Muro](https://coralboats.com/ca/blog-details/mejores-playas-norte-mallorca-guia) té fons d’arena sense gaire cosa per veure. Però hi ha dues zones que valen la pena: els **espigons rocosos** que separen les seccions de platja (on s’acumulen peixos i algun pop) i, sobretot, la **zona des Comú de Muro**, un tram més salvatge integrat dins el Parc Natural de s’Albufera amb menys gent i fons de posidònia.\n\nEl gran avantatge d’aquestes platges és la comoditat: aigües molt poc fondes i tranquil·les (perfectes per a famílies amb infants petits), tots els serveis imaginables (hamaques, dutxes, xiringuitos, aparcament) i proximitat a la zona hotelera. No esperis la visibilitat de Coll Baix ni la riquesa d’Alcanada, però per a una sessió de snorkel relaxada combinada amb un dia de platja, és una opció molt pràctica."
       }
     },
     "section4": {
@@ -1673,7 +1715,37 @@
       "body": "Fer snorkel a la Badia d'Alcúdia és una manera inoblidable de connectar amb la mar Mediterrània i admirar la seva increïble biodiversitat. Tant si explores des de la costa com si t'uneixes a una de les nostres [excursions amb vaixell per Alcúdia](https://coralboats.com/ca/blog-details/boat-tours-alcudia) per arribar a les cales més verges, et sorprendrà la claredat de l'aigua i la riquesa de la [vida marina](https://coralboats.com/ca/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo). Si visites a la tardor, consulta la nostra guia sobre [Mallorca al setembre](https://coralboats.com/ca/blog-details/mallorca-september-best-things-to-do) per gaudir de les millors condicions.\n\nSubmergeix-te i deixa't meravellar per la màgia submarina de Mallorca!"
     },
     "imageAlt": "Cala d’aigües cristal·lines prop d’Alcúdia ideal per fer snorkel a Mallorca",
-    "imageCaption": "Una cala tranquil·la d’aigües transparents prop d’Alcúdia, un indret ideal per fer snorkel i gaudir del fons marí del nord de Mallorca."
+    "imageCaption": "Una cala tranquil·la d’aigües transparents prop d’Alcúdia, un indret ideal per fer snorkel i gaudir del fons marí del nord de Mallorca.",
+    "inlineImages": {
+      "buceo": {
+        "alt": "Fons marí amb peixos i posidònia davant les platges del nord d’Alcúdia, Mallorca",
+        "caption": "El fons marí davant les platges del nord d’Alcúdia: praderies de posidònia i peixos de roca en aigües transparents."
+      },
+      "snorkelBarco": {
+        "alt": "Persona fent snorkel durant una excursió amb vaixell per Alcúdia, Mallorca",
+        "caption": "Fent snorkel durant una de les nostres excursions amb vaixell – la forma més còmoda d’arribar a les millors cales."
+      },
+      "collBaix": {
+        "alt": "Vista aèria de la platja de Coll Baix i el Cap Pinar a Alcúdia, Mallorca",
+        "caption": "Coll Baix des de l’aire: una platja remota al peu dels penya-segats del Cap Pinar, accessible a peu o amb vaixell."
+      },
+      "alcanada": {
+        "alt": "Panoràmica de l’illa d’Alcanada amb el far i vaixells fondejats a Alcúdia, Mallorca",
+        "caption": "L’illa d’Alcanada i el seu far, un dels punts de snorkel més populars de la costa d’Alcúdia."
+      },
+      "sanVicenc": {
+        "alt": "Cala Sant Vicenç a Pollença, Mallorca, amb aigües turqueses i penya-segats",
+        "caption": "Cala Sant Vicenç, un conjunt de quatre cales entre penya-segats amb excel·lents condicions per fer snorkel."
+      },
+      "formentor": {
+        "alt": "Platja de Formentor a Mallorca amb arena blanca i aigües turqueses envoltada de pins",
+        "caption": "La platja de Formentor, una de les més icòniques de Mallorca, amb els pins que arriben fins a la vora i aigües color turquesa."
+      },
+      "muro": {
+        "alt": "Vista aèria de la platja de Muro i la Badia d’Alcúdia a Mallorca",
+        "caption": "L’extensa platja de Muro vista des de l’aire, amb les seves aigües poc fondes ideals per a famílies i snorkel tranquil."
+      }
+    }
   },
   "about": {
     "label": "Sobre Nosaltres",
@@ -2150,7 +2222,7 @@
     }
   },
   "blog_veintitres": {
-    "metaTitle": "Els 12 Pobles Més Bonics de Mallorca: Guia Completa 2025 | Coral Boats",
+    "metaTitle": "Els 12 Pobles Més Bonics de Mallorca: Guia Completa | Coral Boats",
     "metaDescription": "Descobreix els 12 pobles més bonics de Mallorca: rutes amb encant, història, cultura i els llocs imprescindibles de l’illa.",
     "badgeTitle": "Guia local",
     "title": "Els 12 pobles més bonics de Mallorca: història, rutes i encant mediterrani",

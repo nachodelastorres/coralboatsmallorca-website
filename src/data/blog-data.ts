@@ -14,7 +14,7 @@ import blogImg10 from '@/assets/img/inner-page/blog/details-1-4.jpg';
 import blogDetailsImg from '@/assets/img/inner-page/blog/details-1-1.jpg';
 import blogDetailsImg1 from '@/assets/img/premium/gallery_new/new_blog/boat-charter-rent-in-mallorca-and-boat-trips-excursions-alcudia.webp';
 import blogDetailsImg2 from '@/assets/img/inner-page/blog/fotograma2editado.webp';
-import blogDetailsImg3 from '@/assets/img/premium/gallery_new/new_blog/snorkel-en-alcudia-mallorca-durante-paseo-en-barco-sup.webp';
+import blogDetailsImg3 from '@/assets/img/premium/gallery_new/llaut-mallorquin-playa-bonita-mediterranea.webp';
 import blogDetailsImg4 from '@/assets/img/premium/gallery_new/new_blog/alquiler-de-barcos-en-alcudia-charter-mallorca-excursiones-maritimas.webp';
 import blogDetailsImg5 from '@/assets/img/premium/gallery_new/new_blog/comida-local-tipica-mallorquina-durante-excursion-en-barco.webp';
 import blogDetailsImg6 from '@/assets/img/premium/gallery_new/new_blog/where-to-watch-the-best-sunset-in-mallorca.webp';
@@ -264,6 +264,72 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'magazine',
     imageAlt: 'blog_tres.imageAlt',
     imageCaption: 'blog_tres.imageCaption',
+    sectionImages: [
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 0,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/speedboat-tour-mallorca-boat-ride.webp',
+            alt: 'blog_tres.inlineImages.speedboat1.alt',
+            caption: 'blog_tres.inlineImages.speedboat1.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/water-activities-with-speed-boat-mallorca-beach.webp',
+            alt: 'blog_tres.inlineImages.speedboat2.alt',
+            caption: 'blog_tres.inlineImages.speedboat2.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 1,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/catamaran-glass-bottom-boat-mallorca-ride-excursion.webp',
+            alt: 'blog_tres.inlineImages.catamaran1.alt',
+            caption: 'blog_tres.inlineImages.catamaran1.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/catamaran-glass-bottom-boat-mallorca-excursions.webp',
+            alt: 'blog_tres.inlineImages.catamaran2.alt',
+            caption: 'blog_tres.inlineImages.catamaran2.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/catamaran-mallorca-boat-ride-experience.webp',
+            alt: 'blog_tres.inlineImages.catamaran3.alt',
+            caption: 'blog_tres.inlineImages.catamaran3.caption',
+          },
+        ],
+        layout: 'grid-3',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 2,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/llaut-mallorquin-barco-clasico-excursiones.webp',
+            alt: 'blog_tres.inlineImages.clasico1.alt',
+            caption: 'blog_tres.inlineImages.clasico1.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/tripulacion-experta-coral-boats-alcudia.webp',
+            alt: 'blog_tres.inlineImages.clasico2.alt',
+            caption: 'blog_tres.inlineImages.clasico2.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/paisaje-costero-mallorca-barco-excursiones-alcudia.webp',
+            alt: 'blog_tres.inlineImages.clasico3.alt',
+            caption: 'blog_tres.inlineImages.clasico3.caption',
+          },
+        ],
+        layout: 'grid-3',
+      },
+    ],
   },
 
   {
@@ -698,6 +764,10 @@ export const blogDataOne: IBlogDT[] = [
   section3sub2Body: 'blog_catorce.section3.sub2.body',
   section3sub3Subtitle: 'blog_catorce.section3.sub3.subtitle',
   section3sub3Body: 'blog_catorce.section3.sub3.body',
+  section3sub4Subtitle: 'blog_catorce.section3.sub4.subtitle',
+  section3sub4Body: 'blog_catorce.section3.sub4.body',
+  section3sub5Subtitle: 'blog_catorce.section3.sub5.subtitle',
+  section3sub5Body: 'blog_catorce.section3.sub5.body',
   section4Title: 'blog_catorce.section4.title',
   section4Body: 'blog_catorce.section4.body',
   section5Title: 'blog_catorce.section5.title',
@@ -705,6 +775,90 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'visual',
   imageAlt: 'blog_catorce.imageAlt',
   imageCaption: 'blog_catorce.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/buceo-mallorca-fondo-marino-playas-norte-alcudia.webp',
+          alt: 'blog_catorce.inlineImages.buceo.alt',
+          caption: 'blog_catorce.inlineImages.buceo.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/snorkel-alcudia-mallorca-durante-excursion-barco.webp',
+          alt: 'blog_catorce.inlineImages.snorkelBarco.alt',
+          caption: 'blog_catorce.inlineImages.snorkelBarco.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/vista-aerea-coll-baix-cabo-pinar-alcudia-mallorca.webp',
+          alt: 'blog_catorce.inlineImages.collBaix.alt',
+          caption: 'blog_catorce.inlineImages.collBaix.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/panoramica-isla-alcanada-alcudia-mallorca-barcos.webp',
+          alt: 'blog_catorce.inlineImages.alcanada.alt',
+          caption: 'blog_catorce.inlineImages.alcanada.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/cala-san-vicente-vicenc-mallorca-pollenca.webp',
+          alt: 'blog_catorce.inlineImages.sanVicenc.alt',
+          caption: 'blog_catorce.inlineImages.sanVicenc.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 3,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp',
+          alt: 'blog_catorce.inlineImages.formentor.alt',
+          caption: 'blog_catorce.inlineImages.formentor.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 4,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-de-muro-vista-aerea-alcudia-mallorca.webp',
+          alt: 'blog_catorce.inlineImages.muro.alt',
+          caption: 'blog_catorce.inlineImages.muro.caption',
+        },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {
@@ -1047,6 +1201,204 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_veintitres.imageAlt',
   imageCaption: 'blog_veintitres.imageCaption',
+  sectionImages: [
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/valldemosa-serra-tramuntana-mallorca-itinerario.webp',
+          alt: 'blog_veintitres.inlineImages.valldemossa.alt',
+          caption: 'blog_veintitres.inlineImages.valldemossa.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/cala-deia-vista-desde-mar-barcos-playas-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.calaDeia.alt',
+          caption: 'blog_veintitres.inlineImages.calaDeia.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/deia-pueblo-mallorca-serra-tramuntana-mediterraneo.webp',
+          alt: 'blog_veintitres.inlineImages.deiaPueblo.alt',
+          caption: 'blog_veintitres.inlineImages.deiaPueblo.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/tren-de-soller-pueblo-iglesia-mallorca-pueblos-mas-bonitos.webp',
+          alt: 'blog_veintitres.inlineImages.trenSoller.alt',
+          caption: 'blog_veintitres.inlineImages.trenSoller.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/puerto-de-soller-mallorca-tren-paseo-costa.webp',
+          alt: 'blog_veintitres.inlineImages.puertoSoller.alt',
+          caption: 'blog_veintitres.inlineImages.puertoSoller.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 3,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/fornalutx-pueblo-en-la-serra-de-tramuntan-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.fornalutx.alt',
+          caption: 'blog_veintitres.inlineImages.fornalutx.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 4,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp',
+          alt: 'blog_veintitres.inlineImages.pollenca.alt',
+          caption: 'blog_veintitres.inlineImages.pollenca.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/puerto-de-pollenca-playa.webp',
+          alt: 'blog_veintitres.inlineImages.puertoPollenca.alt',
+          caption: 'blog_veintitres.inlineImages.puertoPollenca.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 5,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/porta-del-moll-muralla-medieval-alcudia.webp',
+          alt: 'blog_veintitres.inlineImages.portaDelMoll.alt',
+          caption: 'blog_veintitres.inlineImages.portaDelMoll.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/plaza-ayuntamiento-alcudia-torre-reloj.webp',
+          alt: 'blog_veintitres.inlineImages.plazaAlcudia.alt',
+          caption: 'blog_veintitres.inlineImages.plazaAlcudia.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 6,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/banyalbufar-vista-aerea-pueblo-cala-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.banyalbufarAerea.alt',
+          caption: 'blog_veintitres.inlineImages.banyalbufarAerea.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/calle-tipica-pueblo-banyalbufar-mallorca-vistas-mar-mediterraneo.webp',
+          alt: 'blog_veintitres.inlineImages.banyalbufarCalle.alt',
+          caption: 'blog_veintitres.inlineImages.banyalbufarCalle.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 7,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/torre-de-ses-animes-estellencs-pueblo-mallorca-vistas-mar.webp',
+          alt: 'blog_veintitres.inlineImages.torreEstellencs.alt',
+          caption: 'blog_veintitres.inlineImages.torreEstellencs.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 8,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/arta-pueblos-mas-bonitos-este-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.artaPueblo.alt',
+          caption: 'blog_veintitres.inlineImages.artaPueblo.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/cuevas-de-arta-mallorca-pueblos.webp',
+          alt: 'blog_veintitres.inlineImages.cuevasArta.alt',
+          caption: 'blog_veintitres.inlineImages.cuevasArta.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 9,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/faro-porto-colom-costa-mar-mediterraneo-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.faroPortocolom.alt',
+          caption: 'blog_veintitres.inlineImages.faroPortocolom.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/porto-colom-mallorca-barcos-casas-pesqueras-tipicas.webp',
+          alt: 'blog_veintitres.inlineImages.portocolomPuerto.alt',
+          caption: 'blog_veintitres.inlineImages.portocolomPuerto.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 10,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/cala-santanyi-mallorca-barcos-playa.webp',
+          alt: 'blog_veintitres.inlineImages.calaSantanyi.alt',
+          caption: 'blog_veintitres.inlineImages.calaSantanyi.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 11,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/vista-atardecer-monasterio-petra-pueblos-mallorca.webp',
+          alt: 'blog_veintitres.inlineImages.petraAtardecer.alt',
+          caption: 'blog_veintitres.inlineImages.petraAtardecer.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/monasterio-petra-mallorca-vista-paisaje-mallorquin.webp',
+          alt: 'blog_veintitres.inlineImages.petraMonasterio.alt',
+          caption: 'blog_veintitres.inlineImages.petraMonasterio.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {

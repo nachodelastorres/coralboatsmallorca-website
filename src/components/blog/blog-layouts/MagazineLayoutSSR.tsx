@@ -7,6 +7,7 @@
  * NO 'use client' directive - this is a Server Component
  */
 
+import { Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { StaticImageData } from 'next/image';
@@ -31,9 +32,10 @@ export interface TranslatedSectionImage {
 
 export interface TranslatedSectionImageGroup {
   section: number;
-  position: 'after-body' | 'after-cards' | 'after-section';
+  position: 'after-body' | 'after-cards' | 'after-section' | 'after-subsection';
   images: TranslatedSectionImage[];
   layout: 'single' | 'grid-2' | 'grid-3' | 'grid-4';
+  afterSubsection?: number;
 }
 
 export interface BlogPostTranslated {
@@ -377,9 +379,19 @@ const BlogSectionComponent = ({
             <InlineImageGroupSSR key={`ab-${gi}`} group={group} />
           ))}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
-            {section.subsections!.map((subsection, idx) => (
-              <SubsectionCard key={idx} subsection={subsection} index={idx} />
-            ))}
+            {section.subsections!.map((subsection, idx) => {
+              const subsectionImages = (sectionImages || []).filter(
+                g => g.section === sectionNumber && g.position === 'after-subsection' && g.afterSubsection === idx
+              );
+              return (
+                <Fragment key={idx}>
+                  <SubsectionCard subsection={subsection} index={idx} />
+                  {subsectionImages.map((group, gi) => (
+                    <InlineImageGroupSSR key={`asub-${idx}-${gi}`} group={group} />
+                  ))}
+                </Fragment>
+              );
+            })}
           </div>
           {getImages('after-cards').map((group, gi) => (
             <InlineImageGroupSSR key={`ac-${gi}`} group={group} />
@@ -402,15 +414,11 @@ const BlogSectionComponent = ({
 
 // Component to render inline image groups with captions
 const InlineImageGroupSSR = ({ group }: { group: TranslatedSectionImageGroup }) => {
-  const gridCols =
-    group.layout === 'single' ? '1fr'
-    : group.layout === 'grid-2' ? 'repeat(2, 1fr)'
-    : group.layout === 'grid-3' ? 'repeat(3, 1fr)'
-    : 'repeat(2, 1fr)';
+  const gridClass = `blog-inline-grid blog-inline-grid--${group.layout}`;
 
   return (
     <div style={{ marginTop: '30px', marginBottom: '30px' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: gridCols, gap: '16px' }}>
+      <div className={gridClass}>
         {group.images.map((img, idx) => (
           <figure key={idx} style={{ margin: 0, position: 'relative' }}>
             <div

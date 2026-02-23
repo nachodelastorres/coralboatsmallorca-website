@@ -235,3 +235,37 @@
 .tour-micro-card__cta {
   transition: all 0.25s ease;
 }
+
+// ===== BLOG INLINE IMAGE GRIDS =====
+.blog-inline-grid {
+  display: grid;
+  gap: 16px;
+
+  &--single {
+    grid-template-columns: 1fr;
+  }
+
+  &--grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &--grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &--grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

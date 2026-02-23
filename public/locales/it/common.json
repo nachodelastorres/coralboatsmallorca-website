@@ -272,8 +272,42 @@
       "title": "La nostra raccomandazione onesta (e perché puntiamo sulla barca classica)",
       "body": "Non fingiamo neutralità. Dopo aver provato tutte le opzioni e ascoltato centinaia di viaggiatori, crediamo che la barca classica offra qualcosa che le altre non possono: una connessione reale con il mare e con l’essenza di Maiorca.\n\nNon è per tutti. Se cerchi festa e musica alta, il catamarano è la scelta giusta. Se vuoi velocità e vedere molto in poco tempo, il motoscafo fa al caso tuo. Ma se desideri fermare il tempo, vivere qualcosa di autentico e tornare a casa con la sensazione di aver davvero staccato la spina, allora una barca con storia è ciò che fa per te.\n\nCon Coral Boats navighiamo su un llüt tradizionale maiorchino, in gruppi ridotti, lontano dalle folle. Offriamo gastronomia locale, tempo reale per nuotare e fare snorkeling, e un servizio vicino e umano.\n\nSe questo risuona con te, scopri le nostre [escursioni in barca da Alcudia](https://coralboats.com/es/boat-tours-alcudia). E se hai ancora dubbi, scrivici. Preferiamo aiutarti a scegliere bene — anche se non sarà con noi.\n\nIl mare di Maiorca merita di essere vissuto. Scegli come farlo, e fallo bene."
     },
-    "imageAlt": "Persona che si tuffa in mare da una barca durante un’escursione a Maiorca",
-    "imageCaption": "Un viaggiatore si tuffa in mare da una barca durante un’escursione a Maiorca, uno dei momenti più apprezzati quando si sceglie con attenzione l’esperienza giusta."
+    "imageAlt": "Llaüt maiorchino tradizionale ancorato vicino a una bella spiaggia mediterranea con acque turchesi",
+    "imageCaption": "Un classico llaüt maiorchino accanto a una spiaggia dalle acque cristalline: l’essenza delle escursioni in barca tradizionali a Maiorca.",
+    "inlineImages": {
+      "speedboat1": {
+        "alt": "Motoscafo che sfreccia lungo la costa di Maiorca",
+        "caption": "Un motoscafo lungo la costa maiorchina: velocità e accesso rapido a calette remote."
+      },
+      "speedboat2": {
+        "alt": "Attività acquatiche da un motoscafo su una spiaggia di Maiorca",
+        "caption": "I motoscafi permettono di combinare la navigazione con soste per attività acquatiche in calette difficili da raggiungere."
+      },
+      "catamaran1": {
+        "alt": "Catamarano con fondo di vetro in navigazione lungo la costa di Maiorca",
+        "caption": "Un catamarano con fondo di vetro durante un’escursione a Maiorca, ideale per osservare la vita marina senza bagnarsi."
+      },
+      "catamaran2": {
+        "alt": "Escursione in catamarano nelle acque turchesi di Maiorca",
+        "caption": "I catamarani offrono spazio, stabilità e un’atmosfera conviviale difficile da eguagliare."
+      },
+      "catamaran3": {
+        "alt": "Passeggeri che si godono un’escursione in catamarano a Maiorca",
+        "caption": "A bordo di un catamarano: ampie zone solarium, musica e il Mediterraneo come sfondo."
+      },
+      "clasico1": {
+        "alt": "Llaüt maiorchino tradizionale in legno per escursioni a Maiorca",
+        "caption": "Un tradizionale llaüt maiorchino: decenni di storia marinara e il modo più autentico di navigare intorno all’isola."
+      },
+      "clasico2": {
+        "alt": "Equipaggio esperto di Coral Boats che prepara l’escursione ad Alcudia",
+        "caption": "Il nostro equipaggio locale conosce ogni angolo della costa nord – la differenza tra una buona gita e una indimenticabile."
+      },
+      "clasico3": {
+        "alt": "Paesaggio costiero di Maiorca visto dalla barca durante un’escursione da Alcudia",
+        "caption": "La costa maiorchina dal mare: scogliere, pini e acque che cambiano colore con la profondità."
+      }
+    }
   },
   "blog_cuatro": {
     "metaTitle": "Tour in barca privato o condiviso a Maiorca: cosa scegliere ad Alcúdia (pro, contro e consigli)",
@@ -1784,19 +1818,27 @@
       "body": "La baia di Alcudia è caratterizzata da condizioni ideali per lo snorkeling:\n\n- Acque turchesi e cristalline con una [visibilità che spesso supera i 20 metri](https://coralboats.com/it/blog-details/curiosidades-litoral-balear-bahia-alcudia).\n- Calette protette con acque tranquille, perfette per un'esplorazione sicura.\n- Una vita marina varia che include pesci colorati, polpi, stelle marine e occasionalmente anche tartarughe marine.\n- Fondali rocciosi e praterie di Posidonia che creano ecosistemi subacquei rigogliosi.\n- Punti facilmente accessibili sia dalla costa che in barca.\n\nChe tu sia un principiante o un esperto, le acque intorno ad Alcudia offrono qualcosa di magico per tutti. Puoi combinare lo snorkeling con altre [attività acquatiche nella baia](https://coralboats.com/it/blog-details/water-activities-alcudia-bay-guide)."
     },
     "section3": {
-      "title": "I 3 migliori punti per fare snorkeling vicino ad Alcudia",
-      "body": "Ecco tre luoghi eccezionali dove esplorare il mondo sottomarino nei dintorni di Alcudia.",
+      "title": "I 5 migliori punti per fare snorkeling vicino ad Alcudia",
+      "body": "La costa nord di Maiorca nasconde angoli incredibili per lo snorkeling. Dalle calette remote accessibili solo in barca alle spiagge per famiglie con tutti i servizi, ecco i cinque migliori spot vicino ad Alcudia.",
       "sub1": {
-        "subtitle": "Calette nascoste nella baia di Alcudia",
-        "body": "Le calette più appartate, accessibili solo in barca, offrono alcune delle condizioni più incontaminate per lo snorkeling. Questi angoli nascosti presentano formazioni rocciose ricche di vita marina, vivaci praterie di Posidonia (erba marina protetta) e acque così limpide che si può vedere il fondale sabbioso dalla superficie. Banchi di pesci colorati, polpi curiosi e stelle marine trovano qui la loro casa. I nostri [tour in barca](https://coralboats.com/it/alcudia-morning-boat-tour) includono spesso soste per lo snorkeling in queste gemme nascoste, con tutta l'attrezzatura fornita. Scopri di più sulla [vita marina locale](https://coralboats.com/it/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo)."
+        "subtitle": "Calette del Cabo Pinar",
+        "body": "La penisola del Cabo Pinar, tra Alcudia e la baia di Pollença, ospita alcune delle calette più spettacolari del nord di Maiorca. La star è **Coll Baix**, una spiaggia di ciottoli circondata da scogliere alte oltre 200 metri, raggiungibile solo a piedi attraverso un sentiero impegnativo (circa 30-40 minuti di camminata con dislivello) o, molto più comodamente, in barca. La fatica vale la pena: le sue acque trasparenti e il fondale roccioso-sabbioso sono ideali per lo snorkeling, con buona visibilità e pesci di scoglio come labridi, orate e donzelle. Tieni presente che non ci sono servizi di alcun tipo (niente lettini, niente chiosco, niente bagnino), quindi porta acqua, cibo e protezione solare.\n\nPiù a sud, le calette di **La Victoria** e **Bonaire** offrono alternative più accessibili. Bonaire ha un piccolo parcheggio e un accesso facile all’acqua con zone rocciose perfette per osservare la fauna marina. La Victoria, ai piedi dell’eremo omonimo, unisce pineta e acque limpide con fondali misti di roccia e posidonia. I nostri [tour in barca](https://coralboats.com/it/alcudia-morning-boat-tour) includono spesso una sosta in queste calette, con attrezzatura da snorkeling inclusa, risparmiandovi la camminata e permettendovi di godervi il tutto senza pensieri."
       },
       "sub2": {
-        "subtitle": "Playa de Aucanada",
-        "body": "Vicino al [famoso faro di Alcanada](https://coralboats.com/it/blog-details/descubre-alcanada-playa-faro-isla-alcudia), questa zona offre ottime condizioni per lo snorkeling con acque relativamente calme. La costa rocciosa crea paesaggi subacquei affascinanti dove è possibile avvistare castagnole, labridi, orate e talvolta anche murene nascoste tra le rocce. La combinazione di zone sabbiose e rocciose rende l'ambiente molto vario. È anche facilmente accessibile dalla riva, ideale per esplorazioni indipendenti."
+        "subtitle": "Spiaggia di Alcanada",
+        "body": "Di fronte al [famoso faro di Alcanada](https://coralboats.com/it/blog-details/descubre-alcanada-playa-faro-isla-alcudia) e alla sua piccola isola, questa spiaggia di rocce e ghiaia fine è uno dei migliori punti di snorkeling accessibili dalla costa. L’ingresso in acqua è un po’ roccioso (le scarpette da acqua sono praticamente obbligatorie), ma in compenso troverete un fondale molto ricco: praterie di posidonia dove si nascondono polpi e seppie, zone rocciose con murene, nudibranchi e ricci di mare, e banchi di saraghi e occhiate che nuotano intorno a voi.\n\nLa zona dispone di parcheggio (a pagamento in estate, di solito pieno prima delle 11:00), un paio di ristoranti nelle vicinanze e acque generalmente calme grazie alla protezione dell’isola. È un ottimo posto per esplorare in autonomia, anche se la visibilità può diminuire nelle giornate di vento da est. Se volete esplorare l’isola e i dintorni con calma, potete raggiungerla anche [in barca](https://coralboats.com/it/boat-tours-alcudia)."
       },
       "sub3": {
         "subtitle": "Cala Sant Vicenç",
-        "body": "A pochi minuti di auto da Alcudia, quest’area spettacolare comprende quattro piccole calette perfette per lo snorkeling. Le acque limpide e tranquille, insieme ai fondali rocciosi, ospitano una grande varietà di specie mediterranee. La visibilità subacquea qui è eccezionale e le scogliere circostanti rendono il paesaggio ancora più suggestivo. È particolarmente adatta alle famiglie, poiché le acque poco profonde vicino alla riva sono ideali per i bambini che imparano a fare snorkeling."
+        "body": "A circa 20 minuti di auto da Alcudia, nel comune di Pollença, Cala Sant Vicenç è in realtà un insieme di quattro calette: Cala Barques (la più grande e con più servizi), Cala Clara, Cala Molins e Cala Carbó. Per lo snorkeling, le migliori sono **Cala Molins** e **Cala Clara**, entrambe con fondali rocciosi che ospitano un’ampia varietà di pesci mediterranei e una visibilità generalmente eccellente.\n\nCala Barques ha lettini, bagnino in stagione e ristoranti sulla spiaggia, quindi è l’opzione più comoda per le famiglie. Cala Carbó, la più piccola, è più tranquilla ma ha un accesso un po’ più difficile tramite scalini. Le scogliere che circondano le calette creano un paesaggio impressionante sia sopra che sotto l’acqua. Tenete presente che in luglio e agosto queste calette si riempiono parecchio, quindi conviene arrivare presto."
+      },
+      "sub4": {
+        "subtitle": "Spiaggia di Formentor",
+        "body": "Considerata una delle spiagge più belle di Maiorca, la spiaggia di Formentor unisce sabbia bianca, pini fino alla riva e acque di un turchese intenso. Per lo snorkeling, i punti migliori sono alle **estremità della spiaggia**, dove le rocce sostituiscono la sabbia e il fondale diventa più interessante. Sul lato sinistro (guardando il mare) troverete formazioni rocciose con stelle marine, ricci e piccoli banchi di pesci.\n\nL’accesso in auto è limitato in estate (da giugno a settembre) tra le 10:00 e le 19:00 per i veicoli senza prenotazione alberghiera, quindi le opzioni migliori sono arrivare presto, prendere la navetta dal Port de Pollença o andare in barca. La spiaggia ha servizio di lettini, uno storico hotel con ristorante e acque generalmente molto calme grazie alla baia chiusa. La visibilità è buona, anche se il fondale sabbioso al centro della spiaggia offre meno da vedere rispetto ai lati rocciosi."
+      },
+      "sub5": {
+        "subtitle": "Spiagge di Muro e Alcudia",
+        "body": "La lunga distesa di sabbia che va dal porto di Alcudia a Can Picafort potrebbe sembrare, a prima vista, troppo \"turistica\" per fare snorkeling. Ed è vero che la parte centrale della [Playa de Muro](https://coralboats.com/it/blog-details/mejores-playas-norte-mallorca-guia) ha un fondale sabbioso senza molto da vedere. Ma due zone meritano: i **frangiflutti rocciosi** che separano le sezioni di spiaggia (dove si radunano pesci e qualche polpo) e soprattutto la **zona di Es Comú de Muro**, un tratto più selvaggio all’interno del Parco Naturale di S’Albufera con meno gente e fondali di posidonia.\n\nIl grande vantaggio di queste spiagge è la comodità: acque molto basse e calme (perfette per famiglie con bambini piccoli), tutti i servizi immaginabili (lettini, docce, chioschi, parcheggio) e vicinanza alla zona alberghiera. Non aspettatevi la visibilità di Coll Baix né la ricchezza di Alcanada, ma per una sessione di snorkeling rilassata abbinata a una giornata di spiaggia, è un’opzione molto pratica."
       }
     },
     "section4": {
@@ -1808,7 +1850,37 @@
       "body": "Fare snorkeling nella baia di Alcudia è un modo indimenticabile per connettersi con il Mar Mediterraneo e ammirare la sua incredibile biodiversità. Che tu esplori dalla costa o partecipi a uno dei nostri [tour in barca intorno ad Alcudia](https://coralboats.com/it/blog-details/boat-tours-alcudia) per raggiungere le calette più incontaminate, rimarrai stupito dalla limpidezza dell'acqua e dalla ricchezza della [vita marina](https://coralboats.com/it/blog-details/vida-marina-bahia-alcudia-especies-mediterraneo). Se visiti in autunno, consulta la nostra guida su [Maiorca a settembre](https://coralboats.com/it/blog-details/mallorca-september-best-things-to-do) per le migliori condizioni.\n\nImmergiti e lasciati incantare dalla magia sottomarina di Maiorca!"
     },
     "imageAlt": "Cala dalle acque cristalline vicino ad Alcudia ideale per lo snorkeling a Maiorca",
-    "imageCaption": "Una cala tranquilla con acque limpide vicino ad Alcudia, uno dei luoghi migliori di Maiorca per fare snorkeling e scoprire il fondale marino."
+    "imageCaption": "Una cala tranquilla con acque limpide vicino ad Alcudia, uno dei luoghi migliori di Maiorca per fare snorkeling e scoprire il fondale marino.",
+    "inlineImages": {
+      "buceo": {
+        "alt": "Fondale marino con pesci e posidonia davanti alle spiagge nord di Alcudia, Maiorca",
+        "caption": "Il fondale marino davanti alle spiagge nord di Alcudia: praterie di posidonia e pesci di scoglio in acque cristalline."
+      },
+      "snorkelBarco": {
+        "alt": "Persona che fa snorkeling durante un'escursione in barca ad Alcudia, Maiorca",
+        "caption": "Snorkeling durante una delle nostre escursioni in barca – il modo più comodo per raggiungere le calette migliori."
+      },
+      "collBaix": {
+        "alt": "Vista aerea della spiaggia di Coll Baix e del Cabo Pinar ad Alcudia, Maiorca",
+        "caption": "Coll Baix dall'alto: una spiaggia remota ai piedi delle scogliere del Cabo Pinar, raggiungibile a piedi o in barca."
+      },
+      "alcanada": {
+        "alt": "Vista panoramica dell'isola di Alcanada con il faro e barche ancorate ad Alcudia, Maiorca",
+        "caption": "L'isola di Alcanada e il suo faro, uno dei punti di snorkeling più frequentati della costa di Alcudia."
+      },
+      "sanVicenc": {
+        "alt": "Cala Sant Vicenç a Pollença, Maiorca, con acque turchesi e scogliere",
+        "caption": "Cala Sant Vicenç, un insieme di quattro calette tra le scogliere con eccellenti condizioni per lo snorkeling."
+      },
+      "formentor": {
+        "alt": "Spiaggia di Formentor a Maiorca con sabbia bianca e acque turchesi circondata da pini",
+        "caption": "La spiaggia di Formentor, una delle più iconiche di Maiorca, con i pini che arrivano fino alla riva e acque color turchese."
+      },
+      "muro": {
+        "alt": "Vista aerea della Playa de Muro e della baia di Alcudia a Maiorca",
+        "caption": "La vasta Playa de Muro vista dall'alto, con le sue acque basse ideali per famiglie e snorkeling rilassato."
+      }
+    }
   },
   "about": {
     "label": "Chi Siamo",
@@ -2285,7 +2357,7 @@
     }
   },
   "blog_veintitres": {
-    "metaTitle": "I 12 Borghi Più Belli di Maiorca: Guida Completa 2025 | Coral Boats",
+    "metaTitle": "I 12 Borghi Più Belli di Maiorca: Guida Completa | Coral Boats",
     "metaDescription": "Scopri i 12 borghi più belli di Maiorca: itinerari affascinanti, storia, cultura e i luoghi imperdibili dell’isola.",
     "badgeTitle": "Guida locale",
     "title": "I 12 borghi più belli di Maiorca: storia, itinerari e fascino mediterraneo",
@@ -2307,51 +2379,51 @@
       "body": "Questa selezione raccoglie i borghi che rappresentano al meglio l’identità maiorchina. Ognuno offre qualcosa di unico: storia, natura, punti panoramici, gastronomia o itinerari spettacolari. Insieme compongono una Maiorca da scoprire con calma.",
       "sub1": {
         "subtitle": "1. Valldemossa: tradizione e paesaggi nella Tramuntana",
-        "body": "Valldemossa è uno dei borghi più emblematici di Maiorca. Famoso per la Certosa e per aver ispirato artisti come Chopin, combina tradizione, strade acciottolate e un contesto naturale unico. Una tappa imperdibile per ogni viaggiatore.\n\nPerfetto per combinare l’entroterra con attività sulla costa, soprattutto con le nostre [escursioni in barca ad Alcudia](https://coralboats.com/it/boat-tours-alcudia)."
+        "body": "Valldemossa è uno dei borghi più emblematici di Maiorca, arroccato a circa 400 metri di altitudine nel cuore della Serra de Tramuntana. Il suo monumento più celebre è la **Certosa Reale**, un monastero del XIV secolo dove Frédéric Chopin e George Sand trascorsero l’inverno del 1838-1839, un soggiorno immortalato nel libro Un inverno a Maiorca.\n\nPasseggiare per le sue strade acciottolate rivela angoli incantevoli: facciate in pietra coperte di bouganville, vasi in ceramica su ogni porta e piccole piazze dove il tempo sembra essersi fermato. L’ambiente naturale è altrettanto mozzafiato, con ampie vedute sulle montagne della Tramuntana che si estendono fino all’orizzonte — un paesaggio che ha ispirato pittori, scrittori e musicisti per secoli.\n\nNon andatevene senza assaggiare la **coca de patata**, un dolce tradizionale delle panetterie locali diventato simbolo gastronomico del borgo. Valldemossa è anche punto di partenza per **sentieri escursionistici che si addentrano nella sierra**, offrendo panorami indimenticabili su valli, uliveti e la costa lontana."
       },
       "sub2": {
         "subtitle": "2. Deià: arte, mare e tranquillità mediterranea",
-        "body": "Deià è uno dei borghi più fotografati di Maiorca. Le sue case in pietra, l’atmosfera artistica e le viste sul mare lo rendono un luogo magico. La sua piccola cala è perfetta per un bagno al tramonto."
+        "body": "Deià è uno dei borghi più fotografati di Maiorca, e a ragione. Arroccato su un versante della Serra de Tramuntana affacciato sul Mediterraneo, le sue case in pietra color miele si fondono con un paesaggio di ulivi, cipressi e pini che scende fino al mare. Da decenni, Deià è un rifugio per artisti, scrittori e musicisti internazionali, attratti dalla sua luce speciale e dalla sua atmosfera creativa.\n\nLo scrittore **Robert Graves** scelse questo borgo come sua dimora per oltre trent’anni, e la sua casa-museo resta una delle visite più affascinanti del paese. Ma il vero fascino di Deià sta nel perdersi nelle sue stradine strette, sedersi nella chiesetta con vista sulla valle o scendere fino a **Cala Deià** — una caletta di ciottoli incorniciata da scogliere dove l’acqua turchese contrasta con le rocce e le barche dei pescatori ormeggiate sulla riva.\n\nLa discesa alla cala richiede circa 20 minuti a piedi e vale assolutamente la pena, sia per un bagno che per il paesaggio costiero visto dal livello del mare. Al tramonto, la luce dorata che avvolge il borgo crea un’atmosfera che giustifica la sua fama di **angolo più romantico dell’isola**."
       },
       "sub3": {
         "subtitle": "3. Sóller: aranci, tram storico e architettura modernista",
-        "body": "Sóller è noto per la sua valle degli aranci, la piazza vivace e la storica tranvia in legno che collega il borgo con Port de Sóller. L’architettura modernista gli dona un carattere unico, e i dintorni sono ideali per escursioni a piedi."
+        "body": "Sóller è un borgo dal carattere inconfondibile, adagiato in una fertile valle circondata da montagne e celebre per i suoi vasti agrumeti di aranci e limoni che profumano l’aria, soprattutto in primavera. La piazza principale, dominata dall’imponente facciata modernista della chiesa di Sant Bartomeu, è il cuore del borgo e il luogo perfetto per gustare una spremuta d’arancia fresca in una delle sue terrazze.\n\nIl **treno di Sóller**, che collega il borgo a Palma dal 1912, è una delle esperienze più emblematiche di Maiorca. Questo treno in legno attraversa gallerie, viadotti e paesaggi montani durante un percorso di circa 30 minuti che sembra un viaggio nel tempo. Una volta a Sóller, il tram storico prosegue fino al **Port de Sóller**, un grazioso porto naturale circondato da montagne dove si può passeggiare sul lungomare, godersi la spiaggia o cenare con vista sul mare.\n\nSóller sorprende anche per la sua **architettura modernista**, eredità della ricchezza che i commercianti di agrumi riportarono dalla Francia alla fine dell’Ottocento. Facciate ornate, balconi in ferro battuto e dettagli Art Nouveau punteggiano il centro storico, conferendo al borgo un’aria cosmopolita che contrasta piacevolmente con l’ambiente rurale circostante."
       },
       "sub4": {
         "subtitle": "4. Fornalutx: un gioiello della Tramuntana",
-        "body": "Considerato uno dei borghi più belli di Spagna, Fornalutx è un gioiello incastonato tra le montagne. Le stradine ripide, le case tradizionali e le viste sulla valle lo rendono perfetto per rilassarsi e godere della natura."
+        "body": "Eletto più volte tra i **borghi più belli di Spagna**, Fornalutx è un gioiello incastonato tra le montagne della Serra de Tramuntana, a pochi chilometri da Sóller. Le sue ripide stradine acciottolate, bordate da vasi di gerani rossi, si snodano tra case in pietra con tetti in tegole tradizionali che hanno conservato il loro carattere nei secoli.\n\nIl borgo è circondato da terrazzamenti di ulivi e aranci che risalgono i pendii montani, creando un paesaggio agricolo dichiarato Patrimonio dell'Umanità UNESCO come parte della Serra de Tramuntana. Dai suoi belvedere si godono viste spettacolari sulla valle di Sóller con il **Puig Major** — la vetta più alta di Maiorca — come scenografia.\n\nFornalutx è il punto di partenza ideale per escursioni come il sentiero verso Sóller attraverso il **Barranc de Biniaraix**, un'impressionante gola con sentieri in pietra a secco che serpeggiano lungo un torrente di montagna. Il borgo mantiene un'atmosfera serena e autentica, con appena un paio di ristoranti e caffè che invitano a fermarsi molto più a lungo del previsto."
       },
       "sub5": {
         "subtitle": "5. Pollença: cultura, storia e carattere maiorchino",
-        "body": "Pollença unisce patrimonio storico, tradizione e natura. Il Calvario, il ponte romano e le strade animate lo rendono una destinazione completa. Dal nord partono anche le nostre [escursioni in barca da Alcudia](https://coralboats.com/it/boat-tours-alcudia)."
+        "body": "Pollença è uno dei borghi più caratteristici di Maiorca, un luogo dove storia, cultura e vita locale si intrecciano ad ogni angolo. Il suo centro storico medievale conserva stradine fiancheggiate da case signorili, gallerie d'arte, piccole botteghe artigiane e caffè con fascino che creano un'atmosfera unica.\n\nL'elemento più iconico di Pollença sono i **365 gradini del Calvari**, una scalinata monumentale fiancheggiata da cipressi che sale fino a una piccola cappella da cui si godono viste panoramiche sulla baia, i tetti del borgo e le montagne circostanti. La salita vale la pena sia all'alba che al tramonto, quando la luce trasforma il paesaggio. Il Pont Romà, un ponte a due archi ai margini del paese, è un altro dei suoi simboli storici.\n\nIl **porto di Pollença** offre una lunga spiaggia di sabbia fine con vista sulla penisola di Formentor, un lungomare animato e un'atmosfera familiare che lo rende una base perfetta per esplorare il nord dell'isola. Ogni domenica, il **mercato di Pollença** riempie la Plaza Mayor di colori, profumi e prodotti locali, rendendolo uno dei mercati più autentici di Maiorca."
       },
       "sub6": {
         "subtitle": "6. Alcudia Paese: mura medievali e centro storico",
-        "body": "Il centro storico di Alcudia è uno dei meglio conservati dell’isola. Le mura medievali, i mercati e l’ambiente locale lo rendono ideale da visitare prima o dopo una partenza dal Porto di Alcudia, punto di inizio delle nostre [escursioni in barca](https://coralboats.com/it/boat-tours-alcudia)."
+        "body": "Il centro storico di Alcudia è uno dei meglio conservati di tutta Maiorca e una testimonianza viva della storia dell’isola. Le **mura medievali del XIV secolo**, percorribili a piedi sulla sommità, racchiudono un labirinto di stradine con palazzi signorili, chiese gotiche e angoli che trasportano il visitatore indietro di secoli. La **Porta del Moll**, con la sua imponente torre merlata, è l’ingresso più emblematico al recinto murario e una delle immagini più fotografate del nord di Maiorca.\n\nAll’interno delle mura, la piazza del Municipio con la sua torre dell’orologio è il centro nevralgico del borgo, dove si svolgono mercati, feste ed eventi culturali. Il martedì e la domenica, il mercato di Alcudia trasforma le strade in una colorata vetrina di prodotti locali, artigianato, frutta e verdura dell’agricoltura maiorchina.\n\nAlcudia è anche la porta d’accesso a esperienze marittime indimenticabili. Dal Porto di Alcudia partono le nostre [escursioni in barca](https://coralboats.com/it/boat-tours-alcudia), che permettono di scoprire la baia, le calette nascoste e le acque cristalline del nord. Per saperne di più sulla zona, consulta la nostra [guida completa al Porto di Alcudia](https://coralboats.com/it/blog-details/guia-puerto-alcudia-mallorca). Appena fuori dal borgo si trovano le **rovine di Pollentia**, l’antica città romana che ha dato il nome alla zona e uno dei siti archeologici più importanti delle Baleari."
       },
       "sub7": {
         "subtitle": "7. Banyalbufar: terrazzamenti, vino e viste sul mare",
-        "body": "Celebre per i suoi terrazzamenti costruiti a mano e per il vino Malvasia, Banyalbufar offre uno dei panorami più spettacolari della costa occidentale. Perfetto per gli amanti del trekking e della tranquillità."
+        "body": "Banyalbufar è uno di quei borghi che tolgono il fiato dal primo istante. Arroccato sulla costa occidentale di Maiorca su una scogliera che precipita verticalmente nel Mediterraneo, il borgo si distingue per i suoi spettacolari **terrazzamenti in pietra a secco** — chiamati marjades — che scendono a gradoni dalle montagne fino quasi alla riva del mare. Questi terrazzamenti, costruiti in epoca araba, servivano originariamente per la coltivazione della vite e la produzione del celebre **vino Malvasia**, una tradizione che alcuni viticoltori locali hanno ripreso negli ultimi anni.\n\nDalla strada che attraversa il borgo, le vedute aeree sui terrazzamenti, le calette minuscole e il mare infinito sono assolutamente mozzafiato. Vale la pena fermarsi in uno dei belvedere per contemplare come montagna e mare si fondano in un paesaggio che sembra dipinto da un artista. Le strade del borgo conservano un'atmosfera medievale con case in pietra, portali antichi e una quiete che invita a passeggiare senza meta.\n\nBanyalbufar offre diversi sentieri escursionistici che scendono verso piccole calette dalle acque cristalline, come la **Cala de Banyalbufar**, raggiungibile a piedi e perfetta per un bagno in un ambiente selvaggio e praticamente incontaminato."
       },
       "sub8": {
         "subtitle": "8. Estellencs: tradizione e montagna con vista sul Mediterraneo",
-        "body": "Estellencs è uno dei borghi più tranquilli e autentici della Tramuntana. Le stradine strette, l’architettura rustica e le viste spettacolari lo rendono ideale per chi cerca natura e pace. La sua piccola cala è uno dei suoi tesori nascosti."
+        "body": "Estellencs è uno dei borghi più tranquilli e autentici della Serra de Tramuntana, un piccolo nucleo di case in pietra aggrappato al fianco della montagna con viste panoramiche sul Mediterraneo occidentale. Le sue dimensioni ridotte — appena qualche centinaio di abitanti — sono proprio ciò che gli conferisce un fascino speciale, al riparo dal turismo di massa e con la sua essenza rurale perfettamente intatta.\n\nLa **Torre de ses Ànimes** è il monumento più emblematico del borgo: una torre di avvistamento del XVI secolo costruita per difendere la costa dagli attacchi dei pirati, oggi diventata uno dei **punti panoramici più spettacolari di Maiorca**. Da lassù, le vedute sulle scogliere, il mare aperto e la costa frastagliata sono semplicemente indimenticabili, soprattutto al tramonto quando il sole sprofonda all’orizzonte tingendo il cielo di arancione e rosso.\n\nLe stradine strette, l’architettura rustica in pietra locale e le piccole piazze ombreggiate da alberi secolari invitano a passeggiare con calma. La **piccola cala di Estellencs**, accessibile tramite un sentiero lastricato dal borgo, è uno degli angoli più speciali della costa occidentale: un approdo naturale tra le rocce dove l’acqua è trasparente e la sensazione di trovarsi in un luogo intatto è totale."
       },
       "sub9": {
         "subtitle": "9. Artà: patrimonio, cultura e paesaggio naturale",
-        "body": "Artà è un borgo vivace con un centro storico perfettamente conservato. Il santuario di Sant Salvador e le colline circostanti lo rendono perfetto per itinerari culturali e trekking."
+        "body": "Artà è un borgo vivace e pieno di carattere nell'est di Maiorca, con un centro storico eccezionalmente ben conservato che rivela secoli di storia ad ogni passo. Le sue strade acciottolate salgono tra case signorili, palazzi e piccole chiese fino al **Santuario di Sant Salvador**, una fortezza religiosa murata che corona il borgo e offre vedute panoramiche spettacolari sui tetti, i mandorleti e la catena montuosa di Artà.\n\nIl borgo è un importante centro culturale con tradizioni profondamente radicate nella musica, nella lavorazione della palma nana — i tipici cappelli e cesti in foglia di palma — e nelle feste popolari. Tra queste, la festa di Sant Antoni spicca come una delle celebrazioni più antiche e spettacolari di Maiorca, con le sue sfilate di demoni e i falò.\n\nNei dintorni si trovano le **Grotte di Artà**, una formazione naturale di stalattiti e stalagmiti dalle dimensioni impressionanti che si apre sul mare nelle scogliere del Cap Vermell. La visita alle grotte, con le loro sale dalle altezze di cattedrale e formazioni millenarie, è un'esperienza che completa perfettamente la scoperta del borgo. Il **Parc Natural de Llevant**, raggiungibile da Artà, offre inoltre sentieri escursionistici tra colline, boschi e costa incontaminata."
       },
       "sub10": {
-        "subtitle": "10. Capdepera: castello medievale e viste panoramiche",
-        "body": "Capdepera è dominata dal suo imponente castello medievale, da cui si possono ammirare viste spettacolari sul nord-est dell’isola. Il centro storico, tranquillo e curato, invita a passeggiare."
+        "subtitle": "Portocolom: fascino marinaro e autenticità costiera",
+        "body": "Portocolom è uno dei **porti naturali più belli e autentici** della costa orientale di Maiorca, un luogo dove il ritmo tranquillo della vita di pesca tradizionale continua a plasmare il carattere del borgo. Il suo porto, protetto da un’entrata stretta, conserva le colorate case dei pescatori — conosciute come escars — allineate lungo la banchina, creando un’immagine che sembra appartenere a un’altra epoca.\n\nIl **faro di Portocolom**, situato sulla punta che chiude l’imboccatura del porto, offre una delle passeggiate più piacevoli del borgo. Camminare fino al faro al tramonto, con le vedute sul Mar Mediterraneo e la costa frastagliata, è un’esperienza semplice ma indimenticabile. Da lì si contempla l’intera baia, le barche da pesca che entrano ed escono e un orizzonte marino che si estende all’infinito.\n\nA differenza di altre località costiere più turistiche, Portocolom ha saputo preservare il suo carattere locale. I suoi ristoranti offrono pesce fresco del giorno, le sue strade conservano l’atmosfera di un borgo di pescatori e le calette vicine — come Cala Marçal o s’Arenal — sono perfette per un bagno in acque tranquille. Una destinazione ideale per chi cerca la **Maiorca più genuina**, lontano dalle folle, dove il mare e la tradizione vanno a braccetto."
       },
       "sub11": {
         "subtitle": "11. Santanyí: arte, mercato e calette da sogno",
-        "body": "Santanyí è conosciuta per la sua atmosfera artistica, le gallerie e il suo famoso mercato. Nelle vicinanze si trovano alcune delle spiagge più belle del sud di Maiorca."
+        "body": "Santanyí è un borgo nel sud-est di Maiorca che ha saputo combinare magistralmente il suo patrimonio storico con un'atmosfera artistica e cosmopolita che lo distingue. Costruito con la caratteristica **pietra di marès** — un'arenaria dorata estratta dalle cave locali — il borgo possiede una luminosità speciale che si riflette nelle facciate, nelle chiese e nelle fortificazioni.\n\nIl sabato, il **mercato di Santanyí** trasforma la Plaza Mayor e le strade adiacenti in un colorato espositore di prodotti locali, artigianato, ceramiche, tessuti e gastronomia maiorchina. È uno dei mercati più popolari dell'isola e un luogo perfetto per immergersi nell'atmosfera locale. Santanyí vanta inoltre una vivace scena artistica, con numerose gallerie e studi di artisti internazionali che hanno scelto questo borgo come dimora.\n\nMa forse ciò che ha reso Santanyí più famosa è la sua vicinanza ad alcune delle calette più spettacolari del sud di Maiorca. **Cala Santanyí**, con le sue acque turchesi incorniciate da basse scogliere e barche all'ancora, è la cartolina mediterranea per eccellenza. A pochi minuti si trovano Cala Llombards, Caló des Moro e l'emblematica Cala s'Almunia — angoli di bellezza selvaggia che da soli giustificano la visita a questa zona dell'isola."
       },
       "sub12": {
         "subtitle": "12. Petra: terra natale di Junípero Serra e anima rurale",
-        "body": "Petra è un borgo dell’entroterra con un centro storico sereno e ricco di storia. La piazza, le cantine e la tranquillità lo rendono una meta perfetta per scoprire la Maiorca rurale."
+        "body": "Petra è un borgo dell’entroterra che incarna l’essenza più autentica e rurale di Maiorca, lontano dalla costa e dal trambusto turistico. Il suo centro storico, con strade ampie e case in pietra arenaria, ha un’aria signorile e tranquilla che invita a passeggiare senza fretta, scoprendo portali storici, cortili interni con pozzi d’acqua e piccole piazze ombreggiate da alberi.\n\nPetra è conosciuta in tutto il mondo come luogo natale di **Fray Junípero Serra**, il missionario francescano del XVIII secolo che fondò le prime missioni in California, comprese quelle che avrebbero dato origine a città come San Francisco, San Diego e Los Angeles. La sua casa natale e il museo a lui dedicato sono visite imprescindibili per comprendere il legame storico tra questo piccolo borgo maiorchino e la costa ovest degli Stati Uniti.\n\nIl **monastero di Bonany**, situato su una collina appena fuori dal borgo, è uno dei punti panoramici più impressionanti dell’entroterra di Maiorca. Dalla sua spianata si contempla un paesaggio immenso di campi coltivati, mandorli, dolci colline e, nelle giornate limpide, la vista si estende fino alla Serra de Tramuntana a nord e al mare a est. Ammirare il tramonto da Bonany, con la luce dorata che bagna il paesaggio maiorchino, è una di quelle esperienze che restano impresse nella memoria. Petra è anche **terra di vigneti**, con diverse cantine locali che offrono degustazioni e che fanno parte della crescente scena vinicola di Maiorca."
       }
     },
     "section4": {
@@ -2363,7 +2435,89 @@
       "body": "I borghi di Maiorca rivelano un'isola ricca di contrasti: tradizione, natura, strade storiche, gastronomia locale e paesaggi mediterranei unici. Ogni borgo ha la sua personalità e un motivo diverso per essere visitato.\n\nSe vuoi completare il tuo itinerario nell'entroterra con un'esperienza sulla costa, le nostre [escursioni in barca da Alcudia](https://coralboats.com/it/boat-tours-alcudia) ti permettono di godere della baia da una prospettiva unica. Dalle uscite mattutine ai tour al tramonto, ogni esperienza mostra un nuovo lato di Maiorca.\n\nSul nostro blog troverai altre guide utili per il tuo viaggio, come la nostra selezione delle [migliori calette di Maiorca](https://coralboats.com/it/blog-details/mejores-calas-mallorca-guia-2025) o la nostra [guida al Porto di Alcudia](https://coralboats.com/it/blog-details/guia-puerto-alcudia-mallorca).\n\nMaiorca si può vivere in molti modi, ma esplorare i suoi borghi e navigare lungo la sua costa rimane senza dubbio una delle esperienze più memorabili."
     },
     "imageAlt": "Strade storiche del borgo di Pollença a Maiorca con la scalinata del Calvari",
-    "imageCaption": "Le affascinanti strade acciottolate di Pollença – uno dei borghi più belli di Maiorca, con i famosi 365 gradini del Calvari e secoli di storia e tradizione mediterranea."
+    "imageCaption": "Le affascinanti strade acciottolate di Pollença – uno dei borghi più belli di Maiorca, con i famosi 365 gradini del Calvari e secoli di storia e tradizione mediterranea.",
+    "inlineImages": {
+      "valldemossa": {
+        "alt": "Vista di Valldemossa tra le montagne della Serra de Tramuntana, Maiorca",
+        "caption": "Valldemossa, incastonata nella Serra de Tramuntana, uno dei borghi più emblematici di Maiorca"
+      },
+      "calaDeia": {
+        "alt": "Cala Deià vista dal mare con barche e acque turchesi, Maiorca",
+        "caption": "Le acque cristalline di Cala Deià, una caletta di ciottoli incorniciata da scogliere"
+      },
+      "deiaPueblo": {
+        "alt": "Vista panoramica del borgo di Deià nella Serra de Tramuntana, Maiorca",
+        "caption": "Deià, rifugio di artisti con vedute spettacolari sul Mediterraneo"
+      },
+      "trenSoller": {
+        "alt": "Treno storico di Sóller accanto alla chiesa modernista del borgo, Maiorca",
+        "caption": "L'emblematico treno di Sóller, che collega Palma alla valle dal 1912"
+      },
+      "puertoSoller": {
+        "alt": "Port de Sóller con lungomare e montagne sullo sfondo, Maiorca",
+        "caption": "Il Port de Sóller, un porto naturale circondato da montagne con lungomare"
+      },
+      "fornalutx": {
+        "alt": "Borgo di Fornalutx nella Serra de Tramuntana con case in pietra, Maiorca",
+        "caption": "Fornalutx, eletto più volte tra i borghi più belli di Spagna"
+      },
+      "pollenca": {
+        "alt": "Vista di Pollença con i gradini del Calvari e le montagne, Maiorca",
+        "caption": "I 365 gradini del Calvari di Pollença, con viste panoramiche sulla baia"
+      },
+      "puertoPollenca": {
+        "alt": "Spiaggia di Port de Pollença con vista sulla penisola di Formentor, Maiorca",
+        "caption": "Port de Pollença, base perfetta per esplorare il nord di Maiorca"
+      },
+      "portaDelMoll": {
+        "alt": "Porta del Moll, ingresso medievale murato al centro storico di Alcudia, Maiorca",
+        "caption": "La Porta del Moll, ingresso emblematico al recinto murario di Alcudia"
+      },
+      "plazaAlcudia": {
+        "alt": "Piazza del centro storico di Alcudia con architettura medievale, Maiorca",
+        "caption": "Il centro storico di Alcudia, uno dei meglio conservati di Maiorca"
+      },
+      "banyalbufarAerea": {
+        "alt": "Vista aerea di Banyalbufar con terrazzamenti in pietra e il Mar Mediterraneo, Maiorca",
+        "caption": "Gli spettacolari terrazzamenti in pietra a secco di Banyalbufar che scendono fino al mare"
+      },
+      "banyalbufarCalle": {
+        "alt": "Strada tipica del borgo di Banyalbufar con vista sul Mar Mediterraneo, Maiorca",
+        "caption": "Le strade di Banyalbufar conservano un'atmosfera medievale con vista sul Mediterraneo"
+      },
+      "torreEstellencs": {
+        "alt": "Torre de ses Ànimes a Estellencs con vista sul mare e le scogliere, Maiorca",
+        "caption": "La Torre de ses Ànimes, uno dei punti panoramici più spettacolari della costa occidentale"
+      },
+      "artaPueblo": {
+        "alt": "Vista del borgo di Artà con il Santuario di Sant Salvador in cima, Maiorca",
+        "caption": "Artà, coronato dal Santuario di Sant Salvador, un borgo ricco di storia"
+      },
+      "cuevasArta": {
+        "alt": "Interno delle Grotte di Artà con stalattiti e stalagmiti, Maiorca",
+        "caption": "Le impressionanti Grotte di Artà, con formazioni millenarie"
+      },
+      "faroPortocolom": {
+        "alt": "Faro di Portocolom al tramonto con vista sul Mar Mediterraneo, Maiorca",
+        "caption": "Il faro di Portocolom, una passeggiata indimenticabile al tramonto sul Mediterraneo"
+      },
+      "portocolomPuerto": {
+        "alt": "Porto di Portocolom con case di pescatori colorate e barche, Maiorca",
+        "caption": "Le tipiche case di pescatori colorate allineate nel porto di Portocolom"
+      },
+      "calaSantanyi": {
+        "alt": "Cala Santanyí con acque turchesi, barche e scogliere, Maiorca",
+        "caption": "Cala Santanyí, la cartolina mediterranea per eccellenza con acque turchesi"
+      },
+      "petraAtardecer": {
+        "alt": "Tramonto dal monastero di Bonany con vista sul paesaggio maiorchino, Petra",
+        "caption": "Il tramonto da Bonany, un'esperienza che resta impressa nella memoria"
+      },
+      "petraMonasterio": {
+        "alt": "Monastero di Bonany a Petra con vista panoramica sull'entroterra di Maiorca",
+        "caption": "Il monastero di Bonany, uno dei punti panoramici più impressionanti dell'entroterra di Maiorca"
+      }
+    }
   },
   "blog_veinticuatro": {
     "metaTitle": "Dove Alloggiare a Maiorca: Le Migliori Zone e Consigli Pratici | Coral Boats",
