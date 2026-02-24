@@ -220,7 +220,49 @@
       "body": "Many people visit Alcudia as a day trip from Palma or from their resort. And yes, you can see the old town and go for a swim in a few hours. But you don’t understand Alcudia in a rush.\n\nThis is a place to wake up slowly, have breakfast on a terrace facing the sea, cycle to Alcanada, spend the afternoon floating in a hidden cove, have fresh fish for dinner at the port, and walk the walls as the sun goes down. It’s a destination best enjoyed at a different pace.\n\nIf you’re looking for a place in Mallorca that combines history, nature, spectacular beaches and that feeling of being somewhere authentic (but with everything you need for a comfortable holiday), Alcudia is probably your best choice.\n\nAnd if you want to add an experience you’ll always remember, set aside a day to go sailing. The bay from the water, swimming in coves that don’t appear on maps, and the sense of freedom you get out in the middle of the Mediterranean… no resort can give you that.\n\nSee you at sea. See you in Alcudia."
     },
     "imageAlt": "Sailboats on Alcudia beach with turquoise waters in the north of Mallorca",
-    "imageCaption": "Sailboats resting on the white sands of Alcudia beach, overlooking its crystal-clear waters, one of the top places in the north of Mallorca to enjoy the sea and outdoor activities."
+    "imageCaption": "Sailboats resting on the white sands of Alcudia beach, overlooking its crystal-clear waters, one of the top places in the north of Mallorca to enjoy the sea and outdoor activities.",
+    "inlineImages": {
+      "alcudia_pueblo": {
+        "alt": "Cobbled street in the old town of Alcudia with stone facades and traditional balconies in Mallorca",
+        "caption": "The cobbled streets of Alcudia's old town preserve the medieval charm that makes this village a unique destination in Mallorca."
+      },
+      "iglesia_sant_jaume": {
+        "alt": "Church of Sant Jaume in the heart of the walled historic quarter of Alcudia, Mallorca",
+        "caption": "The Church of Sant Jaume, a jewel of Alcudia's religious heritage, presides over the heart of the walled quarter."
+      },
+      "mercado_alcudia": {
+        "alt": "Weekly market in Alcudia next to the medieval walls with local Mallorcan products",
+        "caption": "Alcudia's market, held beside the medieval walls, offers fresh produce and local crafts every Tuesday and Sunday."
+      },
+      "playa_muro_aerea": {
+        "alt": "Aerial view of Playa de Muro and the Bay of Alcudia with turquoise waters and white sand in Mallorca",
+        "caption": "Playa de Muro from the air: kilometres of white sand and crystal-clear waters forming one of Mallorca's most spectacular beaches."
+      },
+      "playa_alcanada": {
+        "alt": "Alcanada beach with crystal-clear waters and views of the lighthouse islet in Alcudia, Mallorca",
+        "caption": "The transparent waters of Alcanada, with the iconic lighthouse in the background, make this beach one of Alcudia's most photogenic spots."
+      },
+      "albufera": {
+        "alt": "S'Albufera Natural Park in Mallorca with wetlands and vegetation near Alcudia",
+        "caption": "S'Albufera, the largest wetland in the Balearics, is a biodiversity haven just minutes from Alcudia beach."
+      },
+      "posidonia": {
+        "alt": "Posidonia oceanica seagrass meadow underwater with natural sunlight in the Mediterranean Sea off Mallorca",
+        "caption": "The posidonia meadows of the Balearic Mediterranean are the lungs of the sea and home to hundreds of marine species."
+      },
+      "snorkel_alcudia": {
+        "alt": "Person snorkelling in crystal-clear waters of Alcudia during a boat excursion in Mallorca",
+        "caption": "Snorkelling in the Bay of Alcudia reveals a surprisingly rich and colourful underwater world."
+      },
+      "pa_amb_oli": {
+        "alt": "Pa amb oli with tomato, sobrasada and olive oil, a traditional dish of Balearic cuisine in Mallorca",
+        "caption": "Pa amb oli, simple and delicious, is the essence of Mallorcan gastronomy: country bread, ramallet tomato, olive oil and sobrasada."
+      },
+      "puerto_atardecer": {
+        "alt": "Sunset at the Port of Alcudia with excursion boats and golden sky over the Mediterranean",
+        "caption": "Sunset paints Port d'Alcudia in gold, where excursion boats rest after a perfect day at sea."
+      }
+    }
   },
   "blog_tres": {
     "metaTitle": "Boat Excursions in Alcudia, Mallorca: Speedboat vs Catamaran vs Classic Boat | The Ultimate Guide",
@@ -577,7 +619,41 @@
       "body": "The **Alcudia Bay** offers everything you need for a complete maritime experience: calm waters, stunning landscapes, nature, history and hidden spots that can only be discovered from the sea.\n\nA **boat tour in Alcudia** is not just another holiday activity, but a way to understand Mallorca from a different, more authentic perspective.\n\nIf you want to experience it properly, you can explore all our tours here:\n\n- [Boat tours in Alcudia Bay](https://www.coralboatsmallorca.com/en/boat-tours-alcudia)\n\nAnd if you would like to continue planning your trip, we recommend this article: [Things to do in Alcudia: must-see experiences](https://www.coralboatsmallorca.com/en/blog-details/que-hacer-en-alcudia-planes-imprescindibles).\n\nSailing through the bay means following the rhythm of the Mediterranean. And once you do, you will understand why so many travellers consider it one of the most special places in Mallorca."
     },
     "imageAlt": "Alcudia Bay with white sandy beach and calm waters in Mallorca",
-    "imageCaption": "Alcudia Bay reveals its calm waters and white sandy beaches, making it one of the best places in Mallorca to enjoy a relaxed and scenic boat tour."
+    "imageCaption": "Alcudia Bay reveals its calm waters and white sandy beaches, making it one of the best places in Mallorca to enjoy a relaxed and scenic boat tour.",
+    "inlineImages": {
+      "playa_muro": {
+        "alt": "Playa de Muro in Alcudia, Mallorca, with white sand and shallow turquoise waters",
+        "caption": "Playa de Muro: calm, crystal-clear and shallow waters that make Alcudia Bay one of the best sailing destinations in Mallorca."
+      },
+      "calas_escondidas": {
+        "alt": "Hidden cove on the north coast of Mallorca accessible only by boat during an excursion",
+        "caption": "Coves like this one, hidden along the north coast, can only be discovered by boat from Alcudia."
+      },
+      "fondo_marino": {
+        "alt": "Seabed with posidonia and fish in the waters of northern Alcudia, Mallorca",
+        "caption": "The bay's seabed shelters posidonia meadows and rich biodiversity, perfect for snorkelling during boat tours."
+      },
+      "coll_baix": {
+        "alt": "Aerial view of Coll Baix and Cap des Pinar in Alcudia, Mallorca, with cliffs and turquoise waters",
+        "caption": "Coll Baix and the cliffs of Cap des Pinar: iconic landscapes of northern Mallorca best appreciated from the sea."
+      },
+      "faro_alcanada": {
+        "alt": "Alcanada Lighthouse seen from a boat excursion in Alcudia, Mallorca",
+        "caption": "The Alcanada Lighthouse, perched on its tiny island, is one of the emblems of northern Mallorca and a must-see on bay excursions."
+      },
+      "charter_privado": {
+        "alt": "Private luxury charter for groups sailing through Alcudia Bay, Mallorca",
+        "caption": "Our private charters let you enjoy Alcudia Bay in total exclusivity, tailoring every detail to your group."
+      },
+      "excursion_matutina": {
+        "alt": "Morning excursion with snorkelling and paddle surfing in the waters of Alcudia, Mallorca",
+        "caption": "Morning excursions combine sailing, snorkelling and paddle surfing for a complete experience in Alcudia's crystal-clear waters."
+      },
+      "barco_clasico": {
+        "alt": "Classic wooden boat by Coral Boats sailing along the coast of Mallorca",
+        "caption": "Our classic wooden boat: the most authentic way to experience the Mediterranean and discover the hidden corners of Alcudia Bay."
+      }
+    }
   },
   "cookie": {
     "banner": {

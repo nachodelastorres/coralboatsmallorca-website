@@ -220,7 +220,49 @@
       "body": "Beaucoup visitent Alcúdia lors d’une excursion d’un jour depuis Palma ou leur resort. Et oui, en quelques heures on peut voir la vieille ville et se baigner. Mais Alcúdia ne se comprend pas dans la précipitation.\n\nC’est un endroit où l’on se réveille doucement, où l’on prend le petit-déjeuner en terrasse face à la mer, où l’on pédale jusqu’à Alcanada, où l’on passe l’après-midi à flotter dans une crique cachée, où l’on dîne de poisson frais au port et où l’on se promène sur les remparts quand le soleil descend. Une destination à savourer à un autre rythme.\n\nSi tu cherches à Majorque un lieu qui combine histoire, nature, plages spectaculaires et cette sensation d’authenticité (tout en offrant le confort nécessaire à des vacances agréables), Alcúdia est probablement ton meilleur choix.\n\nEt si tu veux ajouter une expérience inoubliable, réserve une journée pour naviguer. La baie vue depuis l’eau, la baignade dans des criques absentes des cartes et le sentiment de liberté au cœur de la Méditerranée… aucun resort ne peut offrir cela.\n\nOn se retrouve en mer. On se retrouve à Alcúdia."
     },
     "imageAlt": "Voiliers sur la plage d’Alcudia avec des eaux turquoise dans le nord de Majorque",
-    "imageCaption": "Des voiliers reposent sur le sable clair de la plage d’Alcudia, face à des eaux turquoise et cristallines, l’un des endroits incontournables du nord de Majorque pour profiter de la mer."
+    "imageCaption": "Des voiliers reposent sur le sable clair de la plage d’Alcudia, face à des eaux turquoise et cristallines, l’un des endroits incontournables du nord de Majorque pour profiter de la mer.",
+    "inlineImages": {
+      "alcudia_pueblo": {
+        "alt": "Rue pavée de la vieille ville d’Alcudia avec façades en pierre et balcons traditionnels à Majorque",
+        "caption": "Les rues pavées de la vieille ville d’Alcudia préservent le charme médiéval qui fait de ce village une destination unique à Majorque."
+      },
+      "iglesia_sant_jaume": {
+        "alt": "Église de Sant Jaume au cœur du quartier historique fortifié d’Alcudia, Majorque",
+        "caption": "L’église de Sant Jaume, joyau du patrimoine religieux d’Alcudia, trône au cœur de l’enceinte fortifiée."
+      },
+      "mercado_alcudia": {
+        "alt": "Marché hebdomadaire d’Alcudia près des remparts médiévaux avec des produits locaux de Majorque",
+        "caption": "Le marché d’Alcudia, qui se tient au pied des remparts médiévaux, propose produits frais et artisanat local chaque mardi et dimanche."
+      },
+      "playa_muro_aerea": {
+        "alt": "Vue aérienne de Playa de Muro et de la baie d’Alcudia avec ses eaux turquoise et son sable blanc à Majorque",
+        "caption": "Playa de Muro vue du ciel : des kilomètres de sable blanc et d’eaux cristallines formant l’une des plages les plus spectaculaires de Majorque."
+      },
+      "playa_alcanada": {
+        "alt": "Plage d’Alcanada aux eaux cristallines avec vue sur l’îlot du phare à Alcudia, Majorque",
+        "caption": "Les eaux transparentes d’Alcanada, avec le phare emblématique en arrière-plan, font de cette plage l’un des coins les plus photogéniques d’Alcudia."
+      },
+      "albufera": {
+        "alt": "Parc naturel de S’Albufera à Majorque avec zones humides et végétation près d’Alcudia",
+        "caption": "S’Albufera, la plus grande zone humide des Baléares, est un refuge de biodiversité à quelques minutes de la plage d’Alcudia."
+      },
+      "posidonia": {
+        "alt": "Prairie de posidonie sous-marine baignée de lumière naturelle en mer Méditerranée au large de Majorque",
+        "caption": "Les prairies de posidonie de la Méditerranée baléare sont les poumons de la mer et abritent des centaines d’espèces marines."
+      },
+      "snorkel_alcudia": {
+        "alt": "Personne faisant du snorkeling dans les eaux cristallines d’Alcudia lors d’une excursion en bateau à Majorque",
+        "caption": "Faire du snorkeling dans la baie d’Alcudia permet de découvrir un monde sous-marin étonnamment riche et coloré."
+      },
+      "pa_amb_oli": {
+        "alt": "Pa amb oli avec tomate, sobrasada et huile d’olive, plat traditionnel de la cuisine baléare à Majorque",
+        "caption": "Le pa amb oli, simple et délicieux, est l’essence de la gastronomie majorquine : pain paysan, tomate de ramallet, huile d’olive et sobrasada."
+      },
+      "puerto_atardecer": {
+        "alt": "Coucher de soleil au port d’Alcudia avec bateaux d’excursion et ciel doré sur la Méditerranée",
+        "caption": "Le coucher de soleil habille d’or le port d’Alcudia, où les bateaux d’excursion se reposent après une journée parfaite en mer."
+      }
+    }
   },
   "blog_tres": {
     "metaTitle": "Excursions en bateau à Alcudia, Majorque : bateau rapide vs catamaran vs bateau classique | Guide définitif",
@@ -577,7 +619,41 @@
       "body": "La **baie d’Alcúdia** réunit tout ce que l’on attend d’une expérience maritime réussie : eaux calmes, paysages spectaculaires, nature, histoire et lieux secrets accessibles uniquement par la mer.\n\nUne **excursion en bateau à Alcúdia** est bien plus qu’une activité touristique : c’est une autre façon de découvrir Majorque.\n\nDécouvrez toutes nos excursions ici :\n\n- [Excursions en bateau dans la baie d’Alcúdia](https://www.coralboatsmallorca.com/fr/boat-tours-alcudia)\n\nPour poursuivre votre organisation, nous vous recommandons : [Que faire à Alcúdia : expériences incontournables](https://www.coralboatsmallorca.com/fr/blog-details/que-hacer-en-alcudia-planes-imprescindibles).\n\nNaviguer dans cette baie, c’est suivre le rythme de la Méditerranée. Et une fois vécu, on comprend pourquoi tant de voyageurs en tombent amoureux."
     },
     "imageAlt": "Baie d’Alcudia avec plage de sable blanc et eaux calmes à Majorque",
-    "imageCaption": "La baie d’Alcudia, avec ses eaux calmes et ses plages de sable blanc, est l’un des meilleurs endroits de Majorque pour profiter d’une excursion en bateau."
+    "imageCaption": "La baie d’Alcudia, avec ses eaux calmes et ses plages de sable blanc, est l’un des meilleurs endroits de Majorque pour profiter d’une excursion en bateau.",
+    "inlineImages": {
+      "playa_muro": {
+        "alt": "Playa de Muro à Alcudia, Majorque, avec sable blanc et eaux turquoise peu profondes",
+        "caption": "Playa de Muro : des eaux calmes, cristallines et peu profondes qui font de la baie d’Alcudia l’une des meilleures destinations de navigation à Majorque."
+      },
+      "calas_escondidas": {
+        "alt": "Crique cachée sur la côte nord de Majorque accessible uniquement en bateau lors d’une excursion",
+        "caption": "Des criques comme celle-ci, cachées le long de la côte nord, ne se découvrent qu’en naviguant depuis Alcudia."
+      },
+      "fondo_marino": {
+        "alt": "Fond marin avec posidonie et poissons dans les eaux du nord d’Alcudia, Majorque",
+        "caption": "Les fonds marins de la baie abritent des prairies de posidonie et une riche biodiversité, parfaits pour le snorkeling pendant les excursions."
+      },
+      "coll_baix": {
+        "alt": "Vue aérienne de Coll Baix et du Cap des Pinar à Alcudia, Majorque, avec falaises et eaux turquoise",
+        "caption": "Coll Baix et les falaises du Cap des Pinar : des paysages emblématiques du nord de Majorque qui se révèlent pleinement depuis la mer."
+      },
+      "faro_alcanada": {
+        "alt": "Phare d’Alcanada vu depuis une excursion en bateau à Alcudia, Majorque",
+        "caption": "Le phare d’Alcanada, perché sur son petit îlot, est l’un des emblèmes du nord de Majorque et un passage obligé lors des excursions dans la baie."
+      },
+      "charter_privado": {
+        "alt": "Charter privé de luxe pour groupes naviguant dans la baie d’Alcudia, Majorque",
+        "caption": "Nos charters privés permettent de profiter de la baie d’Alcudia en toute exclusivité, en adaptant chaque détail au groupe."
+      },
+      "excursion_matutina": {
+        "alt": "Excursion matinale avec snorkeling et paddle surf dans les eaux d’Alcudia, Majorque",
+        "caption": "Les excursions matinales combinent navigation, snorkeling et paddle surf pour une expérience complète dans les eaux cristallines d’Alcudia."
+      },
+      "barco_clasico": {
+        "alt": "Bateau classique en bois de Coral Boats naviguant le long de la côte de Majorque",
+        "caption": "Notre bateau classique en bois : la manière la plus authentique de vivre la Méditerranée et de découvrir les recoins de la baie d’Alcudia."
+      }
+    }
   },
   "cookie": {
     "banner": {

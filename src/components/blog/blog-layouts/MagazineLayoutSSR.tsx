@@ -32,7 +32,7 @@ export interface TranslatedSectionImage {
 
 export interface TranslatedSectionImageGroup {
   section: number;
-  position: 'after-body' | 'after-cards' | 'after-section' | 'after-subsection';
+  position: 'before-body' | 'after-body' | 'after-cards' | 'after-section' | 'after-subsection';
   images: TranslatedSectionImage[];
   layout: 'single' | 'grid-2' | 'grid-3' | 'grid-4';
   afterSubsection?: number;
@@ -232,20 +232,33 @@ const BulletPoint = ({ text }: { text: string }) => (
 );
 
 // Component to render section content (paragraphs and bullets)
-const SectionContent = ({ body }: { body: string }) => {
+const SectionContent = ({ body, sectionImages, sectionNumber }: { body: string; sectionImages?: TranslatedSectionImageGroup[]; sectionNumber?: number }) => {
   const lines = getOrderedLines(body);
 
   return (
     <>
       {lines.map((line, idx) => {
         const isBullet = line.trim().startsWith('- ');
-        if (isBullet) {
-          return <BulletPoint key={idx} text={line.replace(/^-\s*/, '').trim()} />;
-        }
+        // Get after-subsection images for this line index
+        const lineImages = (sectionImages && sectionNumber !== undefined)
+          ? sectionImages.filter(
+              g => g.section === sectionNumber && g.position === 'after-subsection' && g.afterSubsection === idx
+            )
+          : [];
+
         return (
-          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
-            {renderTextWithBold(line.trim())}
-          </p>
+          <Fragment key={idx}>
+            {isBullet ? (
+              <BulletPoint text={line.replace(/^-\s*/, '').trim()} />
+            ) : (
+              <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                {renderTextWithBold(line.trim())}
+              </p>
+            )}
+            {lineImages.map((group, gi) => (
+              <InlineImageGroupSSR key={`sc-asub-${idx}-${gi}`} group={group} />
+            ))}
+          </Fragment>
         );
       })}
     </>
@@ -370,6 +383,9 @@ const BlogSectionComponent = ({
 
       {hasSubsections ? (
         <>
+          {getImages('before-body').map((group, gi) => (
+            <InlineImageGroupSSR key={`bb-${gi}`} group={group} />
+          ))}
           {section.body && (
             <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
               {renderTextWithBold(section.body)}
@@ -399,7 +415,10 @@ const BlogSectionComponent = ({
         </>
       ) : (
         <>
-          {section.body && <SectionContent body={section.body} />}
+          {getImages('before-body').map((group, gi) => (
+            <InlineImageGroupSSR key={`bb-${gi}`} group={group} />
+          ))}
+          {section.body && <SectionContent body={section.body} sectionImages={sectionImages} sectionNumber={sectionNumber} />}
           {getImages('after-body').map((group, gi) => (
             <InlineImageGroupSSR key={`ab-${gi}`} group={group} />
           ))}

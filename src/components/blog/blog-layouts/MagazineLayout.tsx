@@ -344,6 +344,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 >
                   {t(blog.section2Title!)}
                 </h2>
+                {getSectionImages(2, 'before-body').map((group, gi) => (
+                  <InlineImageGroup key={`s2-bb-${gi}`} group={group} t={t} />
+                ))}
                 {(() => {
                   const lines = getOrderedLines(t(blog.section2Body!));
 
@@ -1209,6 +1212,9 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                       );
                     }
                   })()}
+                  {getSectionImages(6, 'after-section').map((group, gi) => (
+                    <InlineImageGroup key={`s6-as-${gi}`} group={group} t={t} />
+                  ))}
                 </div>
               )}
 

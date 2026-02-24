@@ -220,7 +220,49 @@
       "body": "Viele besuchen Alcúdia als Tagesausflug von Palma oder aus ihrem Resort. Und ja: In ein paar Stunden kannst du die Altstadt sehen und baden gehen. Aber Alcúdia versteht man nicht im Schnelldurchlauf.\n\nDas ist ein Ort, an dem man langsam aufwacht, auf einer Terrasse mit Meerblick frühstückt, mit dem Rad nach Alcanada fährt, den Nachmittag in einer versteckten Bucht treibt, abends frischen Fisch im Hafen isst und auf den Mauern spaziert, wenn die Sonne sinkt. Ein Reiseziel, das man in einem anderen Tempo genießt.\n\nWenn du einen Ort auf Mallorca suchst, der Geschichte, Natur, spektakuläre Strände und dieses Gefühl von Authentizität verbindet (aber trotzdem alles für einen komfortablen Urlaub bietet), ist Alcúdia wahrscheinlich deine beste Wahl.\n\nUnd wenn du ein Erlebnis hinzufügen willst, das du immer in Erinnerung behältst, dann reserviere dir einen Tag fürs Bootfahren. Die Bucht vom Wasser aus, das Baden in Buchten, die auf keiner Karte stehen, und das Freiheitsgefühl mitten im Mittelmeer… das kann dir kein Resort geben.\n\nWir sehen uns auf dem Meer. Wir sehen uns in Alcúdia."
     },
     "imageAlt": "Segelboote am Strand von Alcudia mit türkisfarbenem Wasser im Norden Mallorcas",
-    "imageCaption": "Segelboote liegen am feinen Sandstrand von Alcudia, vor türkisfarbenem, klarem Wasser – ein ideales Ziel im Norden Mallorcas für Strandtage und Aktivitäten am Meer."
+    "imageCaption": "Segelboote liegen am feinen Sandstrand von Alcudia, vor türkisfarbenem, klarem Wasser – ein ideales Ziel im Norden Mallorcas für Strandtage und Aktivitäten am Meer.",
+    "inlineImages": {
+      "alcudia_pueblo": {
+        "alt": "Kopfsteinpflasterstraße in der Altstadt von Alcudia mit Steinfassaden und traditionellen Balkonen auf Mallorca",
+        "caption": "Die Kopfsteinpflasterstraßen der Altstadt von Alcudia bewahren den mittelalterlichen Charme, der diesen Ort zu einem einzigartigen Reiseziel auf Mallorca macht."
+      },
+      "iglesia_sant_jaume": {
+        "alt": "Kirche Sant Jaume im Herzen des historischen Mauerviertels von Alcudia, Mallorca",
+        "caption": "Die Kirche Sant Jaume, ein Juwel des religiösen Erbes von Alcudia, thront im Herzen des ummauerten Viertels."
+      },
+      "mercado_alcudia": {
+        "alt": "Wochenmarkt in Alcudia neben den mittelalterlichen Mauern mit lokalen mallorquinischen Produkten",
+        "caption": "Der Markt von Alcudia, der neben den mittelalterlichen Mauern stattfindet, bietet jeden Dienstag und Sonntag frische Produkte und lokales Kunsthandwerk."
+      },
+      "playa_muro_aerea": {
+        "alt": "Luftaufnahme von Playa de Muro und der Bucht von Alcudia mit türkisfarbenem Wasser und weißem Sand auf Mallorca",
+        "caption": "Playa de Muro aus der Luft: Kilometer von weißem Sand und kristallklarem Wasser, die einen der spektakulärsten Strände Mallorcas bilden."
+      },
+      "playa_alcanada": {
+        "alt": "Strand von Alcanada mit kristallklarem Wasser und Blick auf die Leuchtturminsel in Alcudia, Mallorca",
+        "caption": "Das transparente Wasser von Alcanada mit dem ikonischen Leuchtturm im Hintergrund macht diesen Strand zu einem der fotogensten Orte Alcudias."
+      },
+      "albufera": {
+        "alt": "Naturpark S'Albufera auf Mallorca mit Feuchtgebieten und Vegetation nahe Alcudia",
+        "caption": "S'Albufera, das größte Feuchtgebiet der Balearen, ist ein Refugium der Artenvielfalt nur wenige Minuten vom Strand von Alcudia entfernt."
+      },
+      "posidonia": {
+        "alt": "Unterwasser-Posidonia-Seegraswiese mit natürlichem Sonnenlicht im Mittelmeer vor Mallorca",
+        "caption": "Die Posidonia-Wiesen des balearischen Mittelmeers sind die Lunge des Meeres und Heimat Hunderter Meeresarten."
+      },
+      "snorkel_alcudia": {
+        "alt": "Person beim Schnorcheln in kristallklarem Wasser von Alcudia während eines Bootsausflugs auf Mallorca",
+        "caption": "Schnorcheln in der Bucht von Alcudia offenbart eine überraschend reiche und farbenfrohe Unterwasserwelt."
+      },
+      "pa_amb_oli": {
+        "alt": "Pa amb oli mit Tomate, Sobrasada und Olivenöl, traditionelles Gericht der balearischen Küche auf Mallorca",
+        "caption": "Pa amb oli, einfach und köstlich, ist die Essenz der mallorquinischen Gastronomie: Bauernbrot, Ramallet-Tomate, Olivenöl und Sobrasada."
+      },
+      "puerto_atardecer": {
+        "alt": "Sonnenuntergang im Hafen von Alcudia mit Ausflugsbooten und goldenem Himmel über dem Mittelmeer",
+        "caption": "Der Sonnenuntergang taucht den Hafen von Alcudia in Gold, wo die Ausflugsboote nach einem perfekten Tag auf See ruhen."
+      }
+    }
   },
   "blog_tres": {
     "metaTitle": "Bootsausflüge in Alcudia, Mallorca: Schnellboot vs. Katamaran vs. Klassisches Boot | Der ultimative Guide",
@@ -577,7 +619,41 @@
       "body": "Die **Bucht von Alcúdia** bietet alles für ein rundum gelungenes maritimes Erlebnis: Ruhe, Natur, spektakuläre Landschaften, Geschichte und versteckte Orte, die nur vom Meer aus zugänglich sind.\n\nEine **Bootstour in Alcúdia** ist mehr als nur eine Aktivität – sie ist eine neue Art, Mallorca zu erleben.\n\nAlle verfügbaren Touren findest du hier:\n\n- [Bootstouren in der Bucht von Alcúdia](https://www.coralboatsmallorca.com/de/boat-tours-alcudia)\n\nZur weiteren Planung empfehlen wir: [Was man in Alcúdia unternehmen kann – die besten Erlebnisse](https://www.coralboatsmallorca.com/de/blog-details/que-hacer-en-alcudia-planes-imprescindibles).\n\nWer einmal durch diese Bucht segelt, versteht, warum sie zu den schönsten Orten Mallorcas zählt."
     },
     "imageAlt": "Bucht von Alcudia mit weißem Sandstrand und ruhigem Wasser auf Mallorca",
-    "imageCaption": "Die Bucht von Alcudia mit ihrem ruhigen Wasser und den weißen Sandstränden ist einer der besten Orte auf Mallorca für entspannte und angenehme Bootstouren."
+    "imageCaption": "Die Bucht von Alcudia mit ihrem ruhigen Wasser und den weißen Sandstränden ist einer der besten Orte auf Mallorca für entspannte und angenehme Bootstouren.",
+    "inlineImages": {
+      "playa_muro": {
+        "alt": "Playa de Muro in Alcudia, Mallorca, mit weißem Sand und flachem türkisfarbenem Wasser",
+        "caption": "Playa de Muro: ruhiges, kristallklares und flaches Wasser, das die Bucht von Alcudia zu einem der besten Segelziele Mallorcas macht."
+      },
+      "calas_escondidas": {
+        "alt": "Versteckte Bucht an der Nordküste Mallorcas, nur per Boot erreichbar",
+        "caption": "Buchten wie diese, verborgen entlang der Nordküste, lassen sich nur auf dem Seeweg von Alcudia aus entdecken."
+      },
+      "fondo_marino": {
+        "alt": "Meeresboden mit Posidonia und Fischen in den Gewässern nördlich von Alcudia, Mallorca",
+        "caption": "Die Meeresböden der Bucht beherbergen Posidonia-Wiesen und eine reiche Artenvielfalt – ideal zum Schnorcheln während der Bootstouren."
+      },
+      "coll_baix": {
+        "alt": "Luftaufnahme von Coll Baix und Cap des Pinar in Alcudia, Mallorca, mit Klippen und türkisfarbenem Wasser",
+        "caption": "Coll Baix und die Klippen des Cap des Pinar: ikonische Landschaften Nordmallorcas, die vom Meer aus am eindrucksvollsten wirken."
+      },
+      "faro_alcanada": {
+        "alt": "Leuchtturm von Alcanada während einer Bootstour in Alcudia, Mallorca",
+        "caption": "Der Leuchtturm von Alcanada auf seiner kleinen Insel ist eines der Wahrzeichen Nordmallorcas und ein Pflichtbesuch bei jeder Tour durch die Bucht."
+      },
+      "charter_privado": {
+        "alt": "Privater Luxus-Charter für Gruppen in der Bucht von Alcudia, Mallorca",
+        "caption": "Unsere privaten Charter ermöglichen es, die Bucht von Alcudia in völliger Exklusivität zu genießen – jedes Detail wird auf die Gruppe abgestimmt."
+      },
+      "excursion_matutina": {
+        "alt": "Morgenausflug mit Schnorcheln und Paddle-Surf in den Gewässern von Alcudia, Mallorca",
+        "caption": "Die Morgenausflüge verbinden Segeln, Schnorcheln und Paddle-Surf zu einem Rundum-Erlebnis im kristallklaren Wasser von Alcudia."
+      },
+      "barco_clasico": {
+        "alt": "Klassisches Holzboot von Coral Boats an der Küste Mallorcas",
+        "caption": "Unser klassisches Holzboot: die authentischste Art, das Mittelmeer zu erleben und die verborgenen Ecken der Bucht von Alcudia zu entdecken."
+      }
+    }
   },
   "cookie": {
     "banner": {

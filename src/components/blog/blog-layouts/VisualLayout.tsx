@@ -5,15 +5,67 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
-import { IBlogDT } from '@/types/blog-d-t';
+import { IBlogDT, SectionImageGroup } from '@/types/blog-d-t';
 
 interface VisualLayoutProps {
   blog: IBlogDT;
 }
 
+// Helper to render inline image groups with captions
+const InlineImageGroup = ({ group, t }: { group: SectionImageGroup; t: (key: string) => string }) => {
+  const gridClass = `blog-inline-grid blog-inline-grid--${group.layout}`;
+
+  return (
+    <div style={{ marginTop: '30px', marginBottom: '30px' }}>
+      <div className={gridClass}>
+        {group.images.map((img, idx) => (
+          <figure key={idx} style={{ margin: 0, position: 'relative' }}>
+            <div
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: group.layout === 'single' ? '450px' : '280px',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              }}
+            >
+              <Image
+                src={img.src}
+                alt={t(img.alt)}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes={group.layout === 'single' ? '100vw' : group.layout === 'grid-3' ? '33vw' : '50vw'}
+              />
+            </div>
+            {img.caption && (
+              <figcaption
+                style={{
+                  fontSize: '0.85rem',
+                  color: '#94a3b8',
+                  fontStyle: 'italic',
+                  textAlign: 'center',
+                  marginTop: '8px',
+                  lineHeight: '1.4',
+                }}
+              >
+                {t(img.caption)}
+              </figcaption>
+            )}
+          </figure>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const VisualLayout = ({ blog }: VisualLayoutProps) => {
   const { t } = useTranslation('common');
   const { getPath } = useLocale();
+
+  // Helper to get section image groups
+  const getSectionImages = (section: number, position: SectionImageGroup['position']) =>
+    (blog.sectionImages || []).filter(g => g.section === section && g.position === position);
 
   // Function to convert markdown bold syntax and links to HTML
   const processMarkdown = (text: string): React.ReactNode => {
@@ -330,19 +382,28 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                       .split('\n')
                       .slice(1)
                       .filter(item => item.trim())
-                      .map((item, idx, arr) => (
-                        <p
-                          key={idx}
-                          style={{
-                            fontSize: '1.1rem',
-                            color: '#475569',
-                            lineHeight: '1.9',
-                            marginBottom: idx < arr.length - 1 ? '20px' : '0',
-                          }}
-                        >
-                          {processMarkdown(item.replace('- ', ''))}
-                        </p>
-                      ))}
+                      .map((item, idx, arr) => {
+                        const subsectionImages = (blog.sectionImages || []).filter(
+                          g => g.section === 2 && g.position === 'after-subsection' && g.afterSubsection === idx
+                        );
+                        return (
+                          <React.Fragment key={idx}>
+                            <p
+                              style={{
+                                fontSize: '1.1rem',
+                                color: '#475569',
+                                lineHeight: '1.9',
+                                marginBottom: idx < arr.length - 1 ? '20px' : '0',
+                              }}
+                            >
+                              {processMarkdown(item.replace('- ', ''))}
+                            </p>
+                            {subsectionImages.map((group, gi) => (
+                              <InlineImageGroup key={`s2-asub-${idx}-${gi}`} group={group} t={t} />
+                            ))}
+                          </React.Fragment>
+                        );
+                      })}
                   </div>
                 </div>
               </div>
@@ -534,6 +595,15 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               </div>
             </div>
           </div>
+
+          {/* Inline images after section 3 */}
+          {getSectionImages(3, 'after-section').map((group, gi) => (
+            <div key={`s3-as-${gi}`} className="row justify-content-center" style={{ marginBottom: '60px' }}>
+              <div className="col-lg-10">
+                <InlineImageGroup group={group} t={t} />
+              </div>
+            </div>
+          ))}
 
           {/* Secondary Image 2 - Full Width with Caption */}
           {blog.secondaryImage2 && (
@@ -727,6 +797,15 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               </div>
             </div>
           )}
+
+          {/* Inline images after section 5 */}
+          {getSectionImages(5, 'after-section').map((group, gi) => (
+            <div key={`s5-as-${gi}`} className="row justify-content-center" style={{ marginBottom: '60px' }}>
+              <div className="col-lg-10">
+                <InlineImageGroup group={group} t={t} />
+              </div>
+            </div>
+          ))}
 
           {/* Secondary Image 5 - Full Width Landscape */}
           {blog.secondaryImage5 && (

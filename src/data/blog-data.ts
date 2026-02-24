@@ -224,6 +224,72 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'magazine',
     imageAlt: 'blog_dos.imageAlt',
     imageCaption: 'blog_dos.imageCaption',
+    sectionImages: [
+      {
+        section: 2,
+        position: 'before-body' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/alcudia_pueblo.webp', alt: 'blog_dos.inlineImages.alcudia_pueblo.alt', caption: 'blog_dos.inlineImages.alcudia_pueblo.caption' },
+          { src: '/assets/img/premium/gallery_new/iglesia-sant-jaume-casco-antiguo-alcudia.webp', alt: 'blog_dos.inlineImages.iglesia_sant_jaume.alt', caption: 'blog_dos.inlineImages.iglesia_sant_jaume.caption' },
+          { src: '/assets/img/premium/gallery_new/mercado-semanal-alcudia-murallas-medievales.webp', alt: 'blog_dos.inlineImages.mercado_alcudia.alt', caption: 'blog_dos.inlineImages.mercado_alcudia.caption' },
+        ],
+        layout: 'grid-3',
+      },
+      {
+        section: 3,
+        position: 'after-subsection' as const,
+        afterSubsection: 0,
+        images: [
+          { src: '/assets/img/premium/gallery_new/playa-de-muro-vista-aerea-alcudia-mallorca.webp', alt: 'blog_dos.inlineImages.playa_muro_aerea.alt', caption: 'blog_dos.inlineImages.playa_muro_aerea.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection' as const,
+        afterSubsection: 2,
+        images: [
+          { src: '/assets/img/premium/gallery_new/playa-alcanada-aguas-cristalinas-mallorca.webp', alt: 'blog_dos.inlineImages.playa_alcanada.alt', caption: 'blog_dos.inlineImages.playa_alcanada.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection' as const,
+        afterSubsection: 3,
+        images: [
+          { src: '/assets/img/premium/gallery_new/albufera-alcudia-parque-natural-mallorca.webp', alt: 'blog_dos.inlineImages.albufera.alt', caption: 'blog_dos.inlineImages.albufera.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection' as const,
+        afterSubsection: 4,
+        images: [
+          { src: '/assets/img/premium/gallery_new/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp', alt: 'blog_dos.inlineImages.posidonia.alt', caption: 'blog_dos.inlineImages.posidonia.caption' },
+          { src: '/assets/img/premium/gallery_new/snorkel-alcudia-mallorca-durante-excursion-barco.webp', alt: 'blog_dos.inlineImages.snorkel_alcudia.alt', caption: 'blog_dos.inlineImages.snorkel_alcudia.caption' },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 3,
+        position: 'after-subsection' as const,
+        afterSubsection: 5,
+        images: [
+          { src: '/assets/img/premium/gallery_new/pa-amb-oli-comida-tipica-mallorca-gastronomia-balear.webp', alt: 'blog_dos.inlineImages.pa_amb_oli.alt', caption: 'blog_dos.inlineImages.pa_amb_oli.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 6,
+        position: 'after-section' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/puerto-alcudia-atardecer-barcos-excursiones.webp', alt: 'blog_dos.inlineImages.puerto_atardecer.alt', caption: 'blog_dos.inlineImages.puerto_atardecer.caption' },
+        ],
+        layout: 'single',
+      },
+    ],
   },
 
   {
@@ -559,6 +625,70 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'visual',
     imageAlt: 'blog_nueve.imageAlt',
     imageCaption: 'blog_nueve.imageCaption',
+    sectionImages: [
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 0,
+        images: [
+          { src: '/assets/img/premium/gallery_new/playa-de-muro-alcudia-mallorca-mejor-zona-alojarse.webp', alt: 'blog_nueve.inlineImages.playa_muro.alt', caption: 'blog_nueve.inlineImages.playa_muro.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 1,
+        images: [
+          { src: '/assets/img/premium/gallery_new/calas-escondidas-norte-mallorca-excursion-barco.webp', alt: 'blog_nueve.inlineImages.calas_escondidas.alt', caption: 'blog_nueve.inlineImages.calas_escondidas.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 2,
+        images: [
+          { src: '/assets/img/premium/gallery_new/buceo-mallorca-fondo-marino-playas-norte-alcudia.webp', alt: 'blog_nueve.inlineImages.fondo_marino.alt', caption: 'blog_nueve.inlineImages.fondo_marino.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 3,
+        images: [
+          { src: '/assets/img/premium/gallery_new/vista-aerea-coll-baix-cabo-pinar-alcudia-mallorca.webp', alt: 'blog_nueve.inlineImages.coll_baix.alt', caption: 'blog_nueve.inlineImages.coll_baix.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 4,
+        images: [
+          { src: '/assets/img/premium/gallery_new/faro-alcanada-excursion-barco-alcudia-mallorca.webp', alt: 'blog_nueve.inlineImages.faro_alcanada.alt', caption: 'blog_nueve.inlineImages.faro_alcanada.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-section' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp', alt: 'blog_nueve.inlineImages.charter_privado.alt', caption: 'blog_nueve.inlineImages.charter_privado.caption' },
+          { src: '/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp', alt: 'blog_nueve.inlineImages.excursion_matutina.alt', caption: 'blog_nueve.inlineImages.excursion_matutina.caption' },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 5,
+        position: 'after-section' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/barco-clasico-madera-coral-boats-mallorca.webp', alt: 'blog_nueve.inlineImages.barco_clasico.alt', caption: 'blog_nueve.inlineImages.barco_clasico.caption' },
+        ],
+        layout: 'single',
+      },
+    ],
   },
 
   {

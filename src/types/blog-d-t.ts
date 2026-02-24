@@ -8,7 +8,7 @@ export interface SectionImage {
 
 export interface SectionImageGroup {
   section: number;                                        // which section (1-12)
-  position: 'after-body' | 'after-cards' | 'after-section' | 'after-subsection'; // where to place images
+  position: 'before-body' | 'after-body' | 'after-cards' | 'after-section' | 'after-subsection'; // where to place images
   images: SectionImage[];
   layout: 'single' | 'grid-2' | 'grid-3' | 'grid-4';    // layout style
   afterSubsection?: number;                               // 0-based index of subsection to place images after

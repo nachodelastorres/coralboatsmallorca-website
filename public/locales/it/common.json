@@ -220,7 +220,49 @@
       "body": "Molti visitano Alcúdia come escursione giornaliera da Palma o dal proprio resort. E sì, in poche ore puoi vedere il centro storico e fare il bagno. Ma Alcúdia non si capisce di fretta.\n\nÈ un luogo dove ci si sveglia con calma, si fa colazione in terrazza guardando il mare, si pedala fino ad Alcanada, si passa il pomeriggio a galleggiare in una caletta nascosta, si cena con pesce fresco al porto e si passeggia sulle mura quando il sole cala. Una destinazione da vivere a un altro ritmo.\n\nSe cerchi a Maiorca un luogo che unisca storia, natura, spiagge spettacolari e quella sensazione di autenticità (senza rinunciare al comfort), Alcúdia è probabilmente la scelta migliore.\n\nE se vuoi aggiungere un’esperienza che ricorderai per sempre, dedica un giorno alla navigazione. La baia vista dal mare, il bagno in calette che non compaiono sulle mappe e la sensazione di libertà nel cuore del Mediterraneo… nessun resort può offrirti tutto questo.\n\nCi vediamo in mare. Ci vediamo ad Alcúdia."
     },
     "imageAlt": "Barche a vela sulla spiaggia di Alcudia con acque turchesi nel nord di Maiorca",
-    "imageCaption": "Barche a vela adagiate sulla sabbia chiara della spiaggia di Alcudia, di fronte ad acque turchesi e limpide, una delle zone più belle del nord di Maiorca per vivere il mare."
+    "imageCaption": "Barche a vela adagiate sulla sabbia chiara della spiaggia di Alcudia, di fronte ad acque turchesi e limpide, una delle zone più belle del nord di Maiorca per vivere il mare.",
+    "inlineImages": {
+      "alcudia_pueblo": {
+        "alt": "Via acciottolata del centro storico di Alcudia con facciate in pietra e balconi tradizionali a Maiorca",
+        "caption": "Le vie acciottolate del centro storico di Alcudia conservano il fascino medievale che rende questo borgo una destinazione unica a Maiorca."
+      },
+      "iglesia_sant_jaume": {
+        "alt": "Chiesa di Sant Jaume nel cuore del quartiere storico murato di Alcudia, Maiorca",
+        "caption": "La Chiesa di Sant Jaume, gioiello del patrimonio religioso di Alcudia, domina il cuore del recinto murato."
+      },
+      "mercado_alcudia": {
+        "alt": "Mercato settimanale di Alcudia accanto alle mura medievali con prodotti locali di Maiorca",
+        "caption": "Il mercato di Alcudia, che si tiene accanto alle mura medievali, offre prodotti freschi e artigianato locale ogni martedì e domenica."
+      },
+      "playa_muro_aerea": {
+        "alt": "Vista aerea di Playa de Muro e della baia di Alcudia con acque turchesi e sabbia bianca a Maiorca",
+        "caption": "Playa de Muro vista dall'alto: chilometri di sabbia bianca e acque cristalline che formano una delle spiagge più spettacolari di Maiorca."
+      },
+      "playa_alcanada": {
+        "alt": "Spiaggia di Alcanada con acque cristalline e vista sull'isolotto del faro ad Alcudia, Maiorca",
+        "caption": "Le acque trasparenti di Alcanada, con l'iconico faro sullo sfondo, rendono questa spiaggia uno degli angoli più fotogenici di Alcudia."
+      },
+      "albufera": {
+        "alt": "Parco naturale di S'Albufera a Maiorca con zone umide e vegetazione vicino ad Alcudia",
+        "caption": "S'Albufera, la zona umida più grande delle Baleari, è un rifugio di biodiversità a pochi minuti dalla spiaggia di Alcudia."
+      },
+      "posidonia": {
+        "alt": "Prateria di posidonia oceanica sott'acqua con luce solare naturale nel Mar Mediterraneo al largo di Maiorca",
+        "caption": "Le praterie di posidonia del Mediterraneo balearico sono il polmone del mare e ospitano centinaia di specie marine."
+      },
+      "snorkel_alcudia": {
+        "alt": "Persona che fa snorkeling nelle acque cristalline di Alcudia durante un'escursione in barca a Maiorca",
+        "caption": "Fare snorkeling nella baia di Alcudia permette di scoprire un mondo sommerso sorprendentemente ricco e colorato."
+      },
+      "pa_amb_oli": {
+        "alt": "Pa amb oli con pomodoro, sobrasada e olio d'oliva, piatto tipico della cucina balearica a Maiorca",
+        "caption": "Il pa amb oli, semplice e delizioso, è l'essenza della gastronomia maiorchina: pane paesano, pomodoro ramallet, olio d'oliva e sobrasada."
+      },
+      "puerto_atardecer": {
+        "alt": "Tramonto al porto di Alcudia con barche da escursione e cielo dorato sul Mediterraneo",
+        "caption": "Il tramonto dipinge d'oro il porto di Alcudia, dove le barche da escursione riposano dopo una giornata perfetta in mare."
+      }
+    }
   },
   "blog_tres": {
     "metaTitle": "Escursioni in barca ad Alcudia, Maiorca: motoscafo vs catamarano vs barca classica | Guida definitiva",
@@ -577,7 +619,41 @@
       "body": "La **Baia di Alcúdia** offre tutto ciò che serve per un’esperienza marittima completa: acque tranquille, paesaggi spettacolari, natura, storia e angoli segreti accessibili solo dal mare.\n\nUn’**escursione in barca ad Alcúdia** non è solo un’attività, ma un modo diverso e autentico di vivere Maiorca.\n\nScopri tutte le nostre escursioni qui:\n\n- [Escursioni in barca nella Baia di Alcúdia](https://www.coralboatsmallorca.com/it/boat-tours-alcudia)\n\nPer continuare a pianificare il tuo viaggio, ti consigliamo: [Cosa fare ad Alcúdia: esperienze imperdibili](https://www.coralboatsmallorca.com/it/blog-details/que-hacer-en-alcudia-planes-imprescindibles).\n\nNavigare in questa baia significa seguire il ritmo del Mediterraneo. E una volta provato, capirai perché è uno dei luoghi più speciali di Maiorca."
     },
     "imageAlt": "Baia di Alcudia con spiaggia di sabbia bianca e acque calme a Maiorca",
-    "imageCaption": "La baia di Alcudia, con le sue acque tranquille e le spiagge di sabbia bianca, è uno dei luoghi migliori di Maiorca per vivere un’escursione in barca."
+    "imageCaption": "La baia di Alcudia, con le sue acque tranquille e le spiagge di sabbia bianca, è uno dei luoghi migliori di Maiorca per vivere un’escursione in barca.",
+    "inlineImages": {
+      "playa_muro": {
+        "alt": "Playa de Muro ad Alcudia, Maiorca, con sabbia bianca e acque turchesi poco profonde",
+        "caption": "Playa de Muro: acque calme, cristalline e poco profonde che rendono la Baia di Alcudia una delle migliori destinazioni per navigare a Maiorca."
+      },
+      "calas_escondidas": {
+        "alt": "Cala nascosta sulla costa nord di Maiorca accessibile solo in barca durante un’escursione",
+        "caption": "Calette come questa, nascoste lungo la costa nord, si possono scoprire solo navigando da Alcudia."
+      },
+      "fondo_marino": {
+        "alt": "Fondale marino con posidonia e pesci nelle acque del nord di Alcudia, Maiorca",
+        "caption": "I fondali della baia ospitano praterie di posidonia e una ricca biodiversità, ideali per fare snorkeling durante le escursioni in barca."
+      },
+      "coll_baix": {
+        "alt": "Vista aerea di Coll Baix e Cap des Pinar ad Alcudia, Maiorca, con scogliere e acque turchesi",
+        "caption": "Coll Baix e le scogliere di Cap des Pinar: paesaggi iconici del nord di Maiorca che si apprezzano in tutta la loro grandezza solo dal mare."
+      },
+      "faro_alcanada": {
+        "alt": "Faro di Alcanada visto durante un’escursione in barca ad Alcudia, Maiorca",
+        "caption": "Il Faro di Alcanada, sulla sua piccola isola, è uno degli emblemi del nord di Maiorca e tappa obbligata nelle escursioni nella baia."
+      },
+      "charter_privado": {
+        "alt": "Charter privato di lusso per gruppi nella baia di Alcudia, Maiorca",
+        "caption": "I nostri charter privati permettono di vivere la baia di Alcudia in totale esclusività, adattando ogni dettaglio al gruppo."
+      },
+      "excursion_matutina": {
+        "alt": "Escursione mattutina con snorkeling e paddle surf nelle acque di Alcudia, Maiorca",
+        "caption": "Le escursioni mattutine combinano navigazione, snorkeling e paddle surf per un’esperienza completa nelle acque cristalline di Alcudia."
+      },
+      "barco_clasico": {
+        "alt": "Barca classica in legno di Coral Boats lungo la costa di Maiorca",
+        "caption": "La nostra barca classica in legno: il modo più autentico di vivere il Mediterraneo e scoprire gli angoli nascosti della Baia di Alcudia."
+      }
+    }
   },
   "cookie": {
     "banner": {
