@@ -735,6 +735,123 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'magazine',
     imageAlt: 'blog_diez.imageAlt',
     imageCaption: 'blog_diez.imageCaption',
+    sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/mercado-palma-mallorca-productos-tipicos-gastronomia.webp',
+          alt: 'blog_diez.inlineImages.mercadoPalma.alt',
+          caption: 'blog_diez.inlineImages.mercadoPalma.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/pa-amb-oli-sobrasada-queso-mallorca-alcudia-gastronomia-mediterranea.webp',
+          alt: 'blog_diez.inlineImages.paAmboliSobrasada.alt',
+          caption: 'blog_diez.inlineImages.paAmboliSobrasada.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/pa-amb-oli-jamon-serrano-queso-mallorca-gastronomia-comida-tipica.webp',
+          alt: 'blog_diez.inlineImages.paAmboliJamon.alt',
+          caption: 'blog_diez.inlineImages.paAmboliJamon.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/pa-amb-oli-comida-tipica-mallorca-gastronomia-balear.webp',
+          alt: 'blog_diez.inlineImages.paAmboliTipico.alt',
+          caption: 'blog_diez.inlineImages.paAmboliTipico.caption',
+        },
+      ],
+      layout: 'grid-3',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/sobrasada-mercado-mallorca-tipico-pueblos.webp',
+          alt: 'blog_diez.inlineImages.sobrasadaMercado.alt',
+          caption: 'blog_diez.inlineImages.sobrasadaMercado.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/sobrasada-comida-tipica-mallorquina-pa-amb-oli.webp',
+          alt: 'blog_diez.inlineImages.sobrasadaComida.alt',
+          caption: 'blog_diez.inlineImages.sobrasadaComida.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/sobrasada-mallorquina-puesto-mercadillo-tipico.webp',
+          alt: 'blog_diez.inlineImages.sobrasadaPuesto.alt',
+          caption: 'blog_diez.inlineImages.sobrasadaPuesto.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/sobrasada-colgada-venta-mercados-semanales-mallorca.webp',
+          alt: 'blog_diez.inlineImages.sobrasadaColgada.alt',
+          caption: 'blog_diez.inlineImages.sobrasadaColgada.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/ensaimada-mallorca-postre-dulce-tipico.webp',
+          alt: 'blog_diez.inlineImages.ensaimada.alt',
+          caption: 'blog_diez.inlineImages.ensaimada.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/caja-tipica-ensaimada-mallorquina-gastronomia.webp',
+          alt: 'blog_diez.inlineImages.ensaimadaCaja.alt',
+          caption: 'blog_diez.inlineImages.ensaimadaCaja.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/vinos-en-serra-de-tramuntana-paisaje-mallorca.webp',
+          alt: 'blog_diez.inlineImages.vinosTramuntana.alt',
+          caption: 'blog_diez.inlineImages.vinosTramuntana.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/vino-y-coca-de-trempo-mallorca.webp',
+          alt: 'blog_diez.inlineImages.vinoCoca.alt',
+          caption: 'blog_diez.inlineImages.vinoCoca.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 5,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/bullit-de-peix-y-arroz-a-banda-plato-balear-tipico.webp',
+          alt: 'blog_diez.inlineImages.bullitPeix.alt',
+          caption: 'blog_diez.inlineImages.bullitPeix.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/bullit-de-peix-plato-tipico-balear-gastronomia.webp',
+          alt: 'blog_diez.inlineImages.bullitPeixPlato.alt',
+          caption: 'blog_diez.inlineImages.bullitPeixPlato.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+  ],
   },
 
   {

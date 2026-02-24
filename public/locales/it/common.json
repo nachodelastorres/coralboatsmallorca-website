@@ -752,7 +752,65 @@
       "body": "La gastronomia mediterranea e maiorchina è molto più di un modo di nutrirsi. È **storia, cultura, tradizione e piacere** racchiusi in ogni prodotto, in ogni ricetta, in ogni boccone.\n\nGustare questi sapori mentre navighi nelle acque cristalline della Baia di Alcúdia aggiunge una dimensione unica all’esperienza. Il suono delle onde, la brezza marina, i riflessi del sole sull’acqua turchese… tutti i sensi si uniscono per creare un ricordo indelebile.\n\nDa Coral Boats vogliamo che la tua visita a Maiorca sia completa. Per questo uniamo:\n\n- Navigazione tra gli angoli più belli della costa nord\n- Soste in calette dalle acque cristalline per nuotare e fare snorkel\n- Degustazione di prodotti locali selezionati\n- Attenzione personalizzata di un team che ama questa isola\n\nPronto ad assaporare il Mediterraneo? [Scopri tutte le nostre escursioni](https://coralboats.com/it/boat-tours-alcudia) e trova quella più adatta ai tuoi gusti.\n\nE per continuare a scoprire i segreti di Maiorca, non perdere il nostro articolo sul [tramonto ad Alcúdia dal mare](https://coralboats.com/it/blog-details/puesta-de-sol-alcudia-mar-inolvidable), un’altra esperienza che unisce natura, bellezza e, naturalmente, grandi sapori.\n\n**Maiorca ti aspetta. Il Mediterraneo ti chiama. La tua tavola è pronta.**\n\nVisita la nostra [homepage](https://coralboats.com/it) per scoprire tutte le opzioni disponibili o seguici sui social per restare aggiornato su novità e promozioni speciali."
     },
     "imageAlt": "Gastronomia mediterranea e bevande tradizionali a bordo durante un’escursione in barca a Maiorca",
-    "imageCaption": "Cibi e bevande della gastronomia mediterranea serviti a bordo, un modo autentico per assaporare i sapori di Maiorca mentre si naviga lungo la costa."
+    "imageCaption": "Cibi e bevande della gastronomia mediterranea serviti a bordo, un modo autentico per assaporare i sapori di Maiorca mentre si naviga lungo la costa.",
+    "inlineImages": {
+      "mercadoPalma": {
+        "alt": "Banco di prodotti tipici al Mercat de l’Olivar di Palma di Maiorca con salumi, formaggi e oli locali",
+        "caption": "Il Mercat de l’Olivar di Palma è uno dei posti migliori per scoprire la dispensa maiorchina: sobrasada, formaggi, oli d’oliva e prodotti freschi del Mediterraneo."
+      },
+      "paAmboliSobrasada": {
+        "alt": "Pa amb oli con sobrasada e formaggio di Mahón, piatto tipico della gastronomia maiorchina servito ad Alcúdia",
+        "caption": "Pa amb oli con sobrasada e formaggio: la combinazione perfetta di sapori maiorchini su pane rustico con pomodoro ramellet e olio extravergine d’oliva."
+      },
+      "paAmboliJamon": {
+        "alt": "Pa amb oli con prosciutto serrano e formaggio, piatto tipico maiorchino della cucina balearica",
+        "caption": "La versione con prosciutto serrano e formaggio del pa amb oli, un classico della merenda maiorchina da gustare in qualsiasi bar o ristorante dell’isola."
+      },
+      "paAmboliTipico": {
+        "alt": "Pa amb oli tradizionale maiorchino con olio d’oliva, pomodoro ramellet e accompagnamenti tipici baleari",
+        "caption": "L’autentico pa amb oli maiorchino nella sua presentazione più tradizionale: pane di campagna, pomodoro ramellet, olio della Serra de Tramuntana e sale di Ses Salines."
+      },
+      "sobrasadaMercado": {
+        "alt": "Sobrasada maiorchina in un banco di mercato tipico di paese a Maiorca",
+        "caption": "Sobrasada artigianale esposta in un mercato locale, dove i produttori dell’isola offrono questo insaccato IGP elaborato con maiale nero maiorchino."
+      },
+      "sobrasadaComida": {
+        "alt": "Sobrasada spalmata sul pa amb oli, piatto simbolo della cucina tradizionale maiorchina",
+        "caption": "Sobrasada di maiale nero maiorchino spalmata generosamente sul pane rustico: uno dei modi più popolari per gustare questo emblematico prodotto dell’isola."
+      },
+      "sobrasadaPuesto": {
+        "alt": "Banco di sobrasada artigianale maiorchina in un mercatino tipico di Maiorca",
+        "caption": "Un colorato banco di mercato dove si vende sobrasada artigianale maiorchina insieme ad altri insaccati tradizionali dell’isola."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasade appese in un banco dei mercati settimanali di Maiorca",
+        "caption": "Sobrasade appese nello stile tradizionale in uno dei popolari mercati settimanali di Maiorca, disponibili in diverse dimensioni e stagionature."
+      },
+      "ensaimada": {
+        "alt": "Ensaimada maiorchina appena sfornata, dolce tipico spolverato con zucchero a velo",
+        "caption": "L’ensaimada maiorchina in tutto il suo splendore: una spirale di pasta sfogliata, leggera e soffice, spolverata di zucchero a velo, pronta per essere gustata."
+      },
+      "ensaimadaCaja": {
+        "alt": "Tipica scatola ottagonale dell’ensaimada maiorchina, il souvenir gastronomico più popolare di Maiorca",
+        "caption": "L’iconica scatola ottagonale dell’ensaimada maiorchina — il regalo più popolare che i visitatori portano a casa dall’isola come souvenir gastronomico."
+      },
+      "vinosTramuntana": {
+        "alt": "Vigneti con vista sulla Serra de Tramuntana a Maiorca, paesaggio vinicolo mediterraneo",
+        "caption": "Vigneti maiorchini con lo spettacolare sfondo della Serra de Tramuntana, dove si coltivano le varietà autoctone Manto Negro, Callet e Prensal Blanc."
+      },
+      "vinoCoca": {
+        "alt": "Calice di vino rosso maiorchino con coca de trampó, abbinamento tipico della gastronomia di Maiorca",
+        "caption": "Vino rosso di denominazione d’origine maiorchina abbinato alla coca de trampó — una combinazione che riassume perfettamente la tradizione gastronomica dell’isola."
+      },
+      "bullitPeix": {
+        "alt": "Bullit de peix e riso a banda, piatto tradizionale della cucina marinara balearica servito in due portate",
+        "caption": "Il bullit de peix servito insieme al riso a banda: un piatto della cucina marinara maiorchina da gustare in due portate — prima il pesce con le patate, poi il riso cotto nel brodo."
+      },
+      "bullitPeixPlato": {
+        "alt": "Bullit de peix tradizionale balearico con pesce fresco e patate, cucina marinara di Maiorca",
+        "caption": "Il bullit de peix nella sua presentazione più tradizionale: pesce fresco del Mediterraneo cotto con patate — una ricetta tramandata di generazione in generazione dai pescatori maiorchini."
+      }
+    }
   },
   "socialTitle": "Segui Coral Boats sui social media",
   "socialDescription": "Scopri altri momenti dei nostri tour in barca nella baia di Alcudia su Instagram e TikTok.",

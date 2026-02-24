@@ -752,7 +752,65 @@
       "body": "Mediterranean and Mallorcan gastronomy is much more than food. It’s **history, culture, tradition and pleasure** in every product, every recipe, every bite.\n\nTasting these flavours while sailing across the crystal-clear waters of the Bay of Alcudia adds a unique dimension to the experience. The sound of the waves, the sea breeze, the sun’s reflections on turquoise water—everything aligns to create a lasting memory.\n\nAt Coral Boats we want your visit to Mallorca to feel complete. That’s why we combine:\n\n- Sailing through the most beautiful corners of the north coast\n- Stops in crystal-clear coves for swimming and snorkeling\n- A tasting of selected local products\n- Personalised service from a team that truly loves this island\n\nReady to taste the Mediterranean? [Explore all our tours](https://coralboats.com/en/boat-tours-alcudia) and choose the one that best fits your style.\n\nAnd if you want to keep discovering Mallorca’s secrets, don’t miss our article on the [sunset in Alcudia from the sea](https://coralboats.com/en/blog-details/puesta-de-sol-alcudia-mar-inolvidable)—another experience that combines nature, beauty and, of course, great flavours.\n\n**Mallorca is waiting. The Mediterranean is calling. Your table is set.**\n\nVisit our [homepage](https://coralboats.com/en) to see all the options we have for you, or follow us on social media to stay up to date with news and special offers."
     },
     "imageAlt": "Mediterranean food and traditional drinks on board during a boat tour in Mallorca",
-    "imageCaption": "Mediterranean food and traditional drinks served on board, showcasing the authentic Mallorcan flavours that can be enjoyed while sailing along the coast of Mallorca."
+    "imageCaption": "Mediterranean food and traditional drinks served on board, showcasing the authentic Mallorcan flavours that can be enjoyed while sailing along the coast of Mallorca.",
+    "inlineImages": {
+      "mercadoPalma": {
+        "alt": "Stall of typical products at Mercat de l'Olivar in Palma de Mallorca with local cured meats, cheeses and oils",
+        "caption": "Mercat de l'Olivar in Palma is one of the best places to discover Mallorca's pantry: sobrasada, cheeses, olive oils and fresh Mediterranean produce."
+      },
+      "paAmboliSobrasada": {
+        "alt": "Pa amb oli with sobrasada and Mahón cheese, a typical Mallorcan dish served in Alcudia",
+        "caption": "Pa amb oli with sobrasada and cheese: the perfect combination of Mallorcan flavours on rustic bread with ramellet tomato and extra virgin olive oil."
+      },
+      "paAmboliJamon": {
+        "alt": "Pa amb oli with cured ham and cheese, a traditional Mallorcan dish from Balearic cuisine",
+        "caption": "The cured ham and cheese version of pa amb oli, a classic Mallorcan snack enjoyed in any bar or restaurant on the island."
+      },
+      "paAmboliTipico": {
+        "alt": "Traditional Mallorcan pa amb oli with olive oil, ramellet tomato and typical Balearic accompaniments",
+        "caption": "Authentic Mallorcan pa amb oli in its most traditional presentation: rustic bread, ramellet tomato, Serra de Tramuntana olive oil and Ses Salines salt."
+      },
+      "sobrasadaMercado": {
+        "alt": "Mallorcan sobrasada at a typical village market stall in Mallorca",
+        "caption": "Artisan sobrasada displayed at a local market, where island producers offer this PGI-certified cured sausage made from Mallorcan black pig."
+      },
+      "sobrasadaComida": {
+        "alt": "Sobrasada spread on pa amb oli, a classic dish from traditional Mallorcan cuisine",
+        "caption": "Mallorcan black pig sobrasada generously spread on rustic bread: one of the most popular ways to enjoy this iconic island product."
+      },
+      "sobrasadaPuesto": {
+        "alt": "Artisan Mallorcan sobrasada stall at a typical Mallorca street market",
+        "caption": "A colourful market stall selling artisan Mallorcan sobrasada alongside other traditional island cured meats."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasadas hanging at a weekly market stall in Mallorca",
+        "caption": "Sobrasadas hanging in traditional style at one of Mallorca's popular weekly markets, available in different sizes and curing stages."
+      },
+      "ensaimada": {
+        "alt": "Freshly baked Mallorcan ensaimada, a typical sweet pastry dusted with icing sugar",
+        "caption": "The Mallorcan ensaimada in all its glory: a spiral of flaky, light and airy pastry, dusted with icing sugar and ready to enjoy."
+      },
+      "ensaimadaCaja": {
+        "alt": "Typical octagonal ensaimada box, the most popular gastronomic souvenir from Mallorca",
+        "caption": "The iconic octagonal ensaimada box — the most popular gift visitors take home from the island as a gastronomic souvenir."
+      },
+      "vinosTramuntana": {
+        "alt": "Vineyards overlooking the Serra de Tramuntana in Mallorca, Mediterranean wine landscape",
+        "caption": "Mallorcan vineyards set against the stunning backdrop of the Serra de Tramuntana, where native varieties Manto Negro, Callet and Prensal Blanc are grown."
+      },
+      "vinoCoca": {
+        "alt": "Glass of Mallorcan red wine with coca de trampó, a typical Mallorca food pairing",
+        "caption": "Local red wine from a Mallorcan denomination of origin paired with coca de trampó — a combination that perfectly captures the island's gastronomic tradition."
+      },
+      "bullitPeix": {
+        "alt": "Bullit de peix and arroz a banda, a traditional Balearic seafaring dish served in two courses",
+        "caption": "Bullit de peix served alongside arroz a banda: a Mallorcan fisherman's dish enjoyed in two courses — first the fish with potatoes, then rice cooked in the broth."
+      },
+      "bullitPeixPlato": {
+        "alt": "Traditional Balearic bullit de peix with fresh fish and potatoes, Mallorcan seafaring cuisine",
+        "caption": "Bullit de peix in its most traditional presentation: fresh Mediterranean fish cooked with potatoes — a recipe passed down through generations of Mallorcan fishermen."
+      }
+    }
   },
   "socialTitle": "Follow Coral Boats on Social Media",
   "socialDescription": "Discover more moments from our boat tours in Alcudia Bay on Instagram and TikTok.",

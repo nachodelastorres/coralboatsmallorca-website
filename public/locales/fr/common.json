@@ -752,7 +752,65 @@
       "body": "La gastronomie méditerranéenne et majorquine est bien plus qu’une manière de se nourrir. C’est **l’histoire, la culture, la tradition et le plaisir** réunis dans chaque produit, chaque recette, chaque bouchée.\n\nDéguster ces saveurs en naviguant sur les eaux cristallines de la baie d’Alcúdia ajoute une dimension unique à l’expérience. Le bruit des vagues, la brise marine, les reflets du soleil sur l’eau turquoise… tous les sens s’unissent pour créer un souvenir inoubliable.\n\nChez Coral Boats, nous voulons que votre séjour à Majorque soit complet. C’est pourquoi nous combinons :\n\n- Navigation le long des plus beaux recoins de la côte nord\n- Arrêts dans des criques aux eaux cristallines pour nager et faire du snorkel\n- Dégustation de produits locaux sélectionnés\n- Attention personnalisée d’une équipe passionnée par cette île\n\nPrêt à savourer la Méditerranée ? [Découvrez toutes nos excursions](https://coralboats.com/fr/boat-tours-alcudia) et trouvez celle qui correspond le mieux à vos envies.\n\nEt pour continuer à explorer les secrets de Majorque, ne manquez pas notre article sur le [coucher de soleil à Alcúdia depuis la mer](https://coralboats.com/fr/blog-details/puesta-de-sol-alcudia-mar-inolvidable), une autre expérience qui allie nature, beauté et bien sûr, bons produits.\n\n**Majorque vous attend. La Méditerranée vous appelle. Votre table est dressée.**\n\nVisitez notre [page d’accueil](https://coralboats.com/fr) pour découvrir toutes nos options, ou suivez-nous sur les réseaux sociaux pour rester informé de nos nouveautés et promotions spéciales."
     },
     "imageAlt": "Gastronomie méditerranéenne et boissons traditionnelles à bord lors d’une excursion en bateau à Majorque",
-    "imageCaption": "Des mets et boissons de la gastronomie méditerranéenne servis à bord, mettant en valeur les saveurs authentiques de Majorque lors d’une navigation le long de la côte."
+    "imageCaption": "Des mets et boissons de la gastronomie méditerranéenne servis à bord, mettant en valeur les saveurs authentiques de Majorque lors d’une navigation le long de la côte.",
+    "inlineImages": {
+      "mercadoPalma": {
+        "alt": "Étal de produits typiques au Mercat de l’Olivar à Palma de Majorque avec charcuteries, fromages et huiles locales",
+        "caption": "Le Mercat de l’Olivar à Palma est l’un des meilleurs endroits pour découvrir le garde-manger majorquin : sobrasada, fromages, huiles d’olive et produits frais de la Méditerranée."
+      },
+      "paAmboliSobrasada": {
+        "alt": "Pa amb oli avec sobrasada et fromage de Mahón, plat typique de la gastronomie majorquine servi à Alcúdia",
+        "caption": "Pa amb oli avec sobrasada et fromage : la combinaison parfaite de saveurs majorquines sur pain rustique avec tomate de ramellet et huile d’olive vierge extra."
+      },
+      "paAmboliJamon": {
+        "alt": "Pa amb oli avec jambon serrano et fromage, plat typique majorquin de la cuisine baléare",
+        "caption": "La version jambon serrano et fromage du pa amb oli, un classique des goûters majorquins que l’on savoure dans n’importe quel bar ou restaurant de l’île."
+      },
+      "paAmboliTipico": {
+        "alt": "Pa amb oli traditionnel majorquin avec huile d’olive, tomate de ramellet et accompagnements typiques baléares",
+        "caption": "L’authentique pa amb oli majorquin dans sa présentation la plus traditionnelle : pain de campagne, tomate de ramellet, huile de la Serra de Tramuntana et sel de Ses Salines."
+      },
+      "sobrasadaMercado": {
+        "alt": "Sobrasada majorquine sur un étal de marché de village typique à Majorque",
+        "caption": "Sobrasada artisanale exposée sur un marché local, où les producteurs de l’île proposent cette charcuterie IGP élaborée avec du porc noir majorquin."
+      },
+      "sobrasadaComida": {
+        "alt": "Sobrasada tartinée sur du pa amb oli, plat emblématique de la cuisine traditionnelle majorquine",
+        "caption": "Sobrasada de porc noir majorquin généreusement étalée sur du pain de campagne : l’une des façons les plus populaires de déguster ce produit emblématique de l’île."
+      },
+      "sobrasadaPuesto": {
+        "alt": "Étal de sobrasada artisanale majorquine sur un marché typique de Majorque",
+        "caption": "Un étal de marché coloré vendant de la sobrasada artisanale majorquine aux côtés d’autres charcuteries traditionnelles de l’île."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasadas suspendues sur un étal des marchés hebdomadaires de Majorque",
+        "caption": "Sobrasadas suspendues à la manière traditionnelle sur l’un des populaires marchés hebdomadaires de Majorque, disponibles en différentes tailles et affinages."
+      },
+      "ensaimada": {
+        "alt": "Ensaimada majorquine fraîchement cuite, pâtisserie sucrée typique saupoudrée de sucre glace",
+        "caption": "L’ensaimada majorquine dans toute sa splendeur : une spirale de pâte feuilletée, légère et aérienne, saupoudrée de sucre glace, prête à être dégustée."
+      },
+      "ensaimadaCaja": {
+        "alt": "Boîte octogonale typique d’ensaimada majorquine, souvenir gastronomique le plus populaire de Majorque",
+        "caption": "L’iconique boîte octogonale de l’ensaimada majorquine — le cadeau le plus populaire que les visiteurs rapportent de l’île comme souvenir gastronomique."
+      },
+      "vinosTramuntana": {
+        "alt": "Vignobles avec vue sur la Serra de Tramuntana à Majorque, paysage viticole méditerranéen",
+        "caption": "Vignobles majorquins sur fond de Serra de Tramuntana, où sont cultivés les cépages autochtones Manto Negro, Callet et Prensal Blanc."
+      },
+      "vinoCoca": {
+        "alt": "Verre de vin rouge majorquin avec une coca de trampó, un accord mets-vin typique de Majorque",
+        "caption": "Vin rouge d’appellation d’origine majorquine accompagné d’une coca de trampó — une alliance qui résume parfaitement la tradition gastronomique de l’île."
+      },
+      "bullitPeix": {
+        "alt": "Bullit de peix et riz à banda, plat traditionnel de la cuisine maritime baléare servi en deux services",
+        "caption": "Le bullit de peix servi avec l’arròs a banda : un plat de la cuisine maritime majorquine dégusté en deux temps — d’abord le poisson avec les pommes de terre, puis le riz cuit dans le bouillon."
+      },
+      "bullitPeixPlato": {
+        "alt": "Bullit de peix traditionnel baléare avec poisson frais et pommes de terre, cuisine maritime de Majorque",
+        "caption": "Le bullit de peix dans sa présentation la plus traditionnelle : poisson frais de Méditerranée cuit avec des pommes de terre — une recette transmise de génération en génération par les pêcheurs majorquins."
+      }
+    }
   },
   "socialTitle": "Suivez Coral Boats sur les réseaux sociaux",
   "socialDescription": "Découvrez plus de moments de nos excursions en bateau dans la baie d'Alcudia sur Instagram et TikTok.",

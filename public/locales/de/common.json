@@ -752,7 +752,65 @@
       "body": "Mediterrane und mallorquinische Gastronomie ist viel mehr als Essen. Sie ist **Geschichte, Kultur, Tradition und Genuss** in jedem Produkt, in jedem Rezept, in jedem Bissen.\n\nDiese Aromen zu kosten, während du über das kristallklare Wasser der Bucht von Alcúdia gleitest, gibt dem Erlebnis eine besondere Dimension. Das Rauschen der Wellen, die Meeresbrise, die Sonnenreflexe auf türkisfarbenem Wasser – alles fügt sich zu einer Erinnerung, die bleibt.\n\nBei Coral Boats möchten wir, dass dein Mallorca-Besuch vollständig ist. Deshalb verbinden wir:\n\n- Bootstouren zu den schönsten Ecken der Nordküste\n- Stopps in kristallklaren Buchten zum Schwimmen und Schnorcheln\n- Verkostung ausgewählter lokaler Produkte\n- Persönlichen Service durch ein Team, das diese Insel liebt\n\nBereit, das Mittelmeer zu schmecken? [Entdecke alle unsere Touren](https://coralboats.com/de/boat-tours-alcudia) und finde die, die am besten zu dir passt.\n\nUnd wenn du noch mehr Mallorca-Geheimnisse entdecken möchtest, lies unseren Artikel über den [Sonnenuntergang in Alcúdia vom Meer aus](https://coralboats.com/de/blog-details/puesta-de-sol-alcudia-mar-inolvidable) – ein weiteres Erlebnis, das Natur, Schönheit und natürlich gute Aromen verbindet.\n\n**Mallorca wartet. Das Mittelmeer ruft. Dein Tisch ist gedeckt.**\n\nBesuche unsere [Startseite](https://coralboats.com/de), um alle Optionen zu sehen, oder folge uns in den sozialen Medien, um über Neuigkeiten und spezielle Angebote informiert zu bleiben."
     },
     "imageAlt": "Mediterrane Küche und traditionelle Getränke an Bord während einer Bootstour auf Mallorca",
-    "imageCaption": "Mediterrane Speisen und traditionelle Getränke an Bord – ein Genuss mallorquinischer Aromen, die man während einer Bootstour entlang der Küste Mallorcas erleben kann."
+    "imageCaption": "Mediterrane Speisen und traditionelle Getränke an Bord – ein Genuss mallorquinischer Aromen, die man während einer Bootstour entlang der Küste Mallorcas erleben kann.",
+    "inlineImages": {
+      "mercadoPalma": {
+        "alt": "Stand mit typischen Produkten auf dem Mercat de l'Olivar in Palma de Mallorca mit lokaler Wurst, Käse und Ölen",
+        "caption": "Der Mercat de l'Olivar in Palma ist einer der besten Orte, um Mallorcas Speisekammer zu entdecken: Sobrasada, Käse, Olivenöl und frische Produkte aus dem Mittelmeerraum."
+      },
+      "paAmboliSobrasada": {
+        "alt": "Pa amb oli mit Sobrasada und Mahón-Käse, typisches mallorquinisches Gericht serviert in Alcúdia",
+        "caption": "Pa amb oli mit Sobrasada und Käse: die perfekte Kombination mallorquinischer Aromen auf rustikalem Brot mit Ramellet-Tomate und nativem Olivenöl extra."
+      },
+      "paAmboliJamon": {
+        "alt": "Pa amb oli mit Serrano-Schinken und Käse, traditionelles mallorquinisches Gericht der balearischen Küche",
+        "caption": "Die Variante mit Serrano-Schinken und Käse des Pa amb oli – ein Klassiker der mallorquinischen Brotzeit, den man in jeder Bar oder jedem Restaurant der Insel genießen kann."
+      },
+      "paAmboliTipico": {
+        "alt": "Traditionelles mallorquinisches Pa amb oli mit Olivenöl, Ramellet-Tomate und typischen balearischen Beilagen",
+        "caption": "Das authentische mallorquinische Pa amb oli in seiner traditionellsten Form: Bauernbrot, Ramellet-Tomate, Olivenöl aus der Serra de Tramuntana und Salz aus Ses Salines."
+      },
+      "sobrasadaMercado": {
+        "alt": "Mallorquinische Sobrasada an einem typischen Dorfmarktstand auf Mallorca",
+        "caption": "Handwerkliche Sobrasada auf einem lokalen Markt, wo Inselproduzenten diese g.g.A.-zertifizierte Wurst aus mallorquinischem Schwarzschwein anbieten."
+      },
+      "sobrasadaComida": {
+        "alt": "Sobrasada auf Pa amb oli gestrichen, ein klassisches Gericht der traditionellen mallorquinischen Küche",
+        "caption": "Sobrasada vom mallorquinischen Schwarzschwein, großzügig auf Bauernbrot gestrichen: eine der beliebtesten Arten, dieses ikonische Inselprodukt zu genießen."
+      },
+      "sobrasadaPuesto": {
+        "alt": "Handwerklicher Sobrasada-Stand auf einem typischen Markt auf Mallorca",
+        "caption": "Ein farbenfroher Marktstand mit handwerklicher mallorquinischer Sobrasada neben anderen traditionellen Wurstwaren der Insel."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasadas hängend an einem Wochenmarktstand auf Mallorca",
+        "caption": "Sobrasadas im traditionellen Stil hängend auf einem der beliebten Wochenmärkte Mallorcas, erhältlich in verschiedenen Größen und Reifegraden."
+      },
+      "ensaimada": {
+        "alt": "Frisch gebackene mallorquinische Ensaimada, typisches süßes Gebäck mit Puderzucker bestäubt",
+        "caption": "Die mallorquinische Ensaimada in ihrer ganzen Pracht: eine Spirale aus blättrigem, luftigem Teig, mit Puderzucker bestäubt und bereit zum Genießen."
+      },
+      "ensaimadaCaja": {
+        "alt": "Typische achteckige Ensaimada-Schachtel, das beliebteste gastronomische Souvenir aus Mallorca",
+        "caption": "Die ikonische achteckige Ensaimada-Schachtel – das beliebteste Mitbringsel, das Besucher als kulinarisches Souvenir von der Insel mitnehmen."
+      },
+      "vinosTramuntana": {
+        "alt": "Weinberge mit Blick auf die Serra de Tramuntana auf Mallorca, mediterrane Weinlandschaft",
+        "caption": "Mallorquinische Weinberge vor der atemberaubenden Kulisse der Serra de Tramuntana, wo die autochthonen Sorten Manto Negro, Callet und Prensal Blanc angebaut werden."
+      },
+      "vinoCoca": {
+        "alt": "Glas mallorquinischer Rotwein mit Coca de Trampó, ein typisches Food-Pairing auf Mallorca",
+        "caption": "Lokaler Rotwein aus mallorquinischer Herkunftsbezeichnung zusammen mit Coca de Trampó – eine Kombination, die die gastronomische Tradition der Insel perfekt verkörpert."
+      },
+      "bullitPeix": {
+        "alt": "Bullit de Peix und Arròs a Banda, traditionelles balearisches Fischergericht in zwei Gängen serviert",
+        "caption": "Bullit de Peix zusammen mit Arròs a Banda: ein mallorquinisches Fischergericht, das in zwei Gängen genossen wird – zuerst der Fisch mit Kartoffeln, dann der in der Brühe gekochte Reis."
+      },
+      "bullitPeixPlato": {
+        "alt": "Traditioneller balearischer Bullit de Peix mit frischem Fisch und Kartoffeln, mallorquinische Fischerküche",
+        "caption": "Bullit de Peix in seiner traditionellsten Präsentation: frischer Mittelmeerfisch mit Kartoffeln gekocht – ein Rezept, das mallorquinische Fischer seit Generationen weitergeben."
+      }
+    }
   },
   "socialTitle": "Folge Coral Boats in den sozialen Medien",
   "socialDescription": "Entdecke weitere Eindrücke unserer Bootstouren in der Bucht von Alcudia auf Instagram und TikTok.",

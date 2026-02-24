@@ -765,8 +765,65 @@
       "body": "La gastronomía mediterránea y mallorquina es mucho más que una forma de alimentarse. Es **historia, cultura, tradición y placer** condensados en cada producto, en cada receta, en cada bocado.\n\nDegustar estos sabores mientras navegas por las aguas cristalinas de la Bahía de Alcudia añade una dimensión única a la experiencia. El sonido de las olas, la brisa marina, los reflejos del sol sobre el agua turquesa... todos los sentidos se alinean para crear un recuerdo imborrable.\n\nEn Coral Boats queremos que tu visita a Mallorca sea completa. Por eso combinamos:\n\n- Navegación por los rincones más bellos de la costa norte\n- Paradas en calas de aguas cristalinas para nadar y hacer snorkel\n- Degustación de productos locales seleccionados\n- Atención personalizada de un equipo que ama esta isla\n\n¿Preparado para saborear el Mediterráneo? [Explora todas nuestras excursiones](https://coralboats.com/es/boat-tours-alcudia) y encuentra la que mejor se adapte a tus gustos.\n\nY si quieres seguir descubriendo secretos de Mallorca, no te pierdas nuestro artículo sobre la [puesta de sol en Alcudia desde el mar](https://coralboats.com/es/blog-details/puesta-de-sol-alcudia-mar-inolvidable), otra experiencia que combina naturaleza, belleza y, por supuesto, buenos sabores.\n\n**Mallorca te espera. El Mediterráneo te llama. Tu mesa está servida.**\n\nVisita nuestra [página principal](https://coralboats.com/es) para conocer todas las opciones que tenemos para ti, o síguenos en redes sociales para estar al día de nuestras novedades y promociones especiales."
     },
     "imageAlt": "Gastronomía mediterránea y bebidas tradicionales a bordo durante una excursión en barco en Mallorca",
-"imageCaption": "Bebidas y productos de la gastronomía mediterránea servidos a bordo, una muestra de los sabores mallorquines que pueden disfrutarse mientras se navega por la costa de Mallorca."
-
+    "imageCaption": "Bebidas y productos de la gastronomía mediterránea servidos a bordo, una muestra de los sabores mallorquines que pueden disfrutarse mientras se navega por la costa de Mallorca.",
+    "inlineImages": {
+      "mercadoPalma": {
+        "alt": "Puesto de productos típicos en el Mercado de l'Olivar de Palma de Mallorca con embutidos, quesos y aceites locales",
+        "caption": "El Mercado de l'Olivar de Palma es uno de los mejores lugares para descubrir la despensa mallorquina: sobrasada, quesos, aceites de oliva y productos frescos del Mediterráneo."
+      },
+      "paAmboliSobrasada": {
+        "alt": "Pa amb oli con sobrasada y queso mahonés, plato típico de la gastronomía mallorquina servido en Alcudia",
+        "caption": "Pa amb oli con sobrasada y queso: la combinación perfecta de sabores mallorquines sobre pan payés con tomate de ramellet y aceite de oliva virgen extra."
+      },
+      "paAmboliJamon": {
+        "alt": "Pa amb oli con jamón serrano y queso, comida típica mallorquina de la gastronomía balear",
+        "caption": "La versión con jamón serrano y queso del pa amb oli, un clásico de las meriendas mallorquinas que se disfruta en cualquier bar o restaurante de la isla."
+      },
+      "paAmboliTipico": {
+        "alt": "Pa amb oli tradicional mallorquín con aceite de oliva, tomate de ramellet y acompañamientos típicos baleares",
+        "caption": "El auténtico pa amb oli mallorquín en su presentación más tradicional: pan de pagès, tomate de ramellet, aceite de la Serra de Tramuntana y sal de Ses Salines."
+      },
+      "sobrasadaMercado": {
+        "alt": "Sobrasada mallorquina en un puesto de mercado típico de pueblo de Mallorca",
+        "caption": "Sobrasada artesanal expuesta en un mercado local, donde los productores de la isla ofrecen este embutido con Indicación Geográfica Protegida elaborado con cerdo negro mallorquín."
+      },
+      "sobrasadaComida": {
+        "alt": "Sobrasada untada sobre pa amb oli, plato típico de la cocina tradicional mallorquina",
+        "caption": "Sobrasada de cerdo negro mallorquín untada generosamente sobre pan payés: una de las formas más populares de degustar este emblemático producto de la isla."
+      },
+      "sobrasadaPuesto": {
+        "alt": "Puesto de sobrasada mallorquina artesanal en mercadillo típico de Mallorca",
+        "caption": "Un colorido puesto de mercadillo donde se vende sobrasada artesanal mallorquina junto a otros embutidos tradicionales de la isla."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasadas colgadas en un puesto de venta de los mercados semanales de Mallorca",
+        "caption": "Sobrasadas colgadas al estilo tradicional en uno de los populares mercados semanales de Mallorca, donde se puede encontrar este producto en distintos tamaños y curaciones."
+      },
+      "ensaimada": {
+        "alt": "Ensaimada mallorquina recién horneada, postre dulce típico espolvoreado con azúcar glas",
+        "caption": "La ensaimada mallorquina en todo su esplendor: una espiral de masa hojaldrada, ligera y esponjosa, espolvoreada con azúcar glas, lista para degustar."
+      },
+      "ensaimadaCaja": {
+        "alt": "Caja típica octogonal de ensaimada mallorquina, souvenir gastronómico de Mallorca",
+        "caption": "La icónica caja octogonal de la ensaimada mallorquina, el regalo más popular que los visitantes se llevan de la isla como recuerdo gastronómico."
+      },
+      "vinosTramuntana": {
+        "alt": "Viñedos con vistas a la Serra de Tramuntana en Mallorca, paisaje vinícola mediterráneo",
+        "caption": "Viñedos mallorquines con el espectacular telón de fondo de la Serra de Tramuntana, donde se cultivan las variedades autóctonas Manto Negro, Callet y Prensal Blanc."
+      },
+      "vinoCoca": {
+        "alt": "Copa de vino tinto mallorquín junto a una coca de trampó, maridaje típico de la gastronomía de Mallorca",
+        "caption": "Vino tinto de denominación de origen mallorquina maridado con coca de trampó, una combinación que resume a la perfección la tradición gastronómica de la isla."
+      },
+      "bullitPeix": {
+        "alt": "Bullit de peix y arroz a banda, plato típico de la cocina marinera balear servido en dos tiempos",
+        "caption": "El bullit de peix servido junto al arroz a banda: un plato de la cocina marinera mallorquina que se degusta en dos tiempos, primero el pescado con patatas y después el arroz cocinado en su caldo."
+      },
+      "bullitPeixPlato": {
+        "alt": "Bullit de peix tradicional balear con pescado fresco y patatas, gastronomía marinera de Mallorca",
+        "caption": "El bullit de peix en su presentación más tradicional: pescado fresco del Mediterráneo cocido con patatas, una receta que los pescadores mallorquines han transmitido durante generaciones."
+      }
+    }
   },
   "socialTitle": "Sigue a Coral Boats en redes sociales",
   "socialDescription": "Descubre más momentos de nuestras excursiones en barco por la bahía de Alcudia en Instagram y TikTok.",
