@@ -49,18 +49,26 @@ export interface BlogPostTranslated {
   // Images
   mainImage: StaticImageData;
   mainImageAlt: string;
+  mainImageCaption?: string;
+  heroInlineCaption?: string;
   secondaryImage1?: StaticImageData;
   secondaryImage1Alt?: string;
+  secondaryImage1Caption?: string;
   secondaryImage2?: StaticImageData;
   secondaryImage2Alt?: string;
+  secondaryImage2Caption?: string;
   secondaryImage3?: StaticImageData;
   secondaryImage3Alt?: string;
+  secondaryImage3Caption?: string;
   secondaryImage4?: StaticImageData;
   secondaryImage4Alt?: string;
+  secondaryImage4Caption?: string;
   secondaryImage5?: StaticImageData;
   secondaryImage5Alt?: string;
+  secondaryImage5Caption?: string;
   secondaryImage6?: StaticImageData;
   secondaryImage6Alt?: string;
+  secondaryImage6Caption?: string;
 
   // Sections (already translated)
   section1?: BlogSection;
@@ -612,6 +620,29 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
               {/* Section 2 */}
               {blog.section2 && <BlogSectionComponent section={blog.section2} sectionNumber={2} sectionImages={blog.sectionImages} />}
 
+              {/* Hero Image Inline - after section 2 */}
+              {blog.heroInlineCaption && blog.mainImage && (
+                <div style={{ marginBottom: '50px' }}>
+                  <figure style={{ margin: 0 }}>
+                    <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                      <Image src={blog.mainImage} alt={blog.mainImageAlt} fill style={{ objectFit: 'cover' }} />
+                    </div>
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {blog.heroInlineCaption}
+                    </figcaption>
+                  </figure>
+                </div>
+              )}
+
               {/* CTA Mid-Article */}
               <div
                 style={{
@@ -671,14 +702,28 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                             }}
                           >
                             {blog.secondaryImage1 && (
-                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                                <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                              </div>
+                              <figure style={{ margin: 0 }}>
+                                <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                  <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                                </div>
+                                {blog.secondaryImage1Caption && (
+                                  <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                    {blog.secondaryImage1Caption}
+                                  </figcaption>
+                                )}
+                              </figure>
                             )}
                             {blog.secondaryImage2 && (
-                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                                <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                              </div>
+                              <figure style={{ margin: 0 }}>
+                                <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                  <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                                </div>
+                                {blog.secondaryImage2Caption && (
+                                  <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                    {blog.secondaryImage2Caption}
+                                  </figcaption>
+                                )}
+                              </figure>
                             )}
                           </div>
                         </div>
@@ -689,9 +734,16 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                       {/* Single image after section 4 */}
                       {blog.secondaryImage3 && (
                         <div style={{ marginBottom: '50px' }}>
-                          <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                            <Image src={blog.secondaryImage3} alt={blog.secondaryImage3Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                          </div>
+                          <figure style={{ margin: 0 }}>
+                            <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                              <Image src={blog.secondaryImage3} alt={blog.secondaryImage3Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                            </div>
+                            {blog.secondaryImage3Caption && (
+                              <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                {blog.secondaryImage3Caption}
+                              </figcaption>
+                            )}
+                          </figure>
                         </div>
                       )}
 
@@ -700,9 +752,16 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                       {/* Single image after section 5 */}
                       {blog.secondaryImage4 && (
                         <div style={{ marginBottom: '50px' }}>
-                          <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                            <Image src={blog.secondaryImage4} alt={blog.secondaryImage4Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                          </div>
+                          <figure style={{ margin: 0 }}>
+                            <div style={{ position: 'relative', height: '400px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                              <Image src={blog.secondaryImage4} alt={blog.secondaryImage4Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                            </div>
+                            {blog.secondaryImage4Caption && (
+                              <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                {blog.secondaryImage4Caption}
+                              </figcaption>
+                            )}
+                          </figure>
                         </div>
                       )}
 
@@ -720,14 +779,28 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                             }}
                           >
                             {blog.secondaryImage5 && (
-                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                                <Image src={blog.secondaryImage5} alt={blog.secondaryImage5Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                              </div>
+                              <figure style={{ margin: 0 }}>
+                                <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                  <Image src={blog.secondaryImage5} alt={blog.secondaryImage5Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                                </div>
+                                {blog.secondaryImage5Caption && (
+                                  <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                    {blog.secondaryImage5Caption}
+                                  </figcaption>
+                                )}
+                              </figure>
                             )}
                             {blog.secondaryImage6 && (
-                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                                <Image src={blog.secondaryImage6} alt={blog.secondaryImage6Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                              </div>
+                              <figure style={{ margin: 0 }}>
+                                <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                  <Image src={blog.secondaryImage6} alt={blog.secondaryImage6Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                                </div>
+                                {blog.secondaryImage6Caption && (
+                                  <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                    {blog.secondaryImage6Caption}
+                                  </figcaption>
+                                )}
+                              </figure>
                             )}
                           </div>
                         </div>
@@ -759,14 +832,28 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                           }}
                         >
                           {blog.secondaryImage1 && (
-                            <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                              <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                            </div>
+                            <figure style={{ margin: 0 }}>
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage1} alt={blog.secondaryImage1Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                              {blog.secondaryImage1Caption && (
+                                <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                  {blog.secondaryImage1Caption}
+                                </figcaption>
+                              )}
+                            </figure>
                           )}
                           {blog.secondaryImage2 && (
-                            <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
-                              <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
-                            </div>
+                            <figure style={{ margin: 0 }}>
+                              <div style={{ position: 'relative', height: '350px', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)' }}>
+                                <Image src={blog.secondaryImage2} alt={blog.secondaryImage2Alt || blog.title} fill style={{ objectFit: 'cover' }} />
+                              </div>
+                              {blog.secondaryImage2Caption && (
+                                <figcaption style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', textAlign: 'center', marginTop: '12px', lineHeight: '1.4' }}>
+                                  {blog.secondaryImage2Caption}
+                                </figcaption>
+                              )}
+                            </figure>
                           )}
                         </div>
                       </div>

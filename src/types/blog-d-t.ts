@@ -123,12 +123,19 @@ export interface IBlogDT {
   // Metadata SEO de imágenes (claves i18n)
   imageAlt?: string;              // Alt específico imagen principal
   imageCaption?: string;          // Caption/descripción larga para Schema.org
+  heroInlineCaption?: string;     // Caption para imagen hero insertada inline en el contenido
   secondaryImage1Alt?: string;    // Alt imagen secundaria 1
+  secondaryImage1Caption?: string; // Caption imagen secundaria 1
   secondaryImage2Alt?: string;    // Alt imagen secundaria 2
+  secondaryImage2Caption?: string; // Caption imagen secundaria 2
   secondaryImage3Alt?: string;    // Alt imagen secundaria 3
+  secondaryImage3Caption?: string; // Caption imagen secundaria 3
   secondaryImage4Alt?: string;    // Alt imagen secundaria 4
+  secondaryImage4Caption?: string; // Caption imagen secundaria 4
   secondaryImage5Alt?: string;    // Alt imagen secundaria 5
+  secondaryImage5Caption?: string; // Caption imagen secundaria 5
   secondaryImage6Alt?: string;    // Alt imagen secundaria 6
+  secondaryImage6Caption?: string; // Caption imagen secundaria 6
 
   // Inline images within sections (with captions)
   sectionImages?: SectionImageGroup[];

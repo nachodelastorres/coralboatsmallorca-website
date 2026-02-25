@@ -509,12 +509,17 @@ export const blogDataOne: IBlogDT[] = [
     imageCaption: 'blog_seis.imageCaption',
     secondaryImage1: blogDetailsImg6Secondary1,
     secondaryImage1Alt: 'blog_seis.secondaryImage1Alt',
+    secondaryImage1Caption: 'blog_seis.secondaryImage1Caption',
     secondaryImage2: blogDetailsImg6Secondary2,
     secondaryImage2Alt: 'blog_seis.secondaryImage2Alt',
+    secondaryImage2Caption: 'blog_seis.secondaryImage2Caption',
     secondaryImage3: blogDetailsImg6Secondary3,
     secondaryImage3Alt: 'blog_seis.secondaryImage3Alt',
+    secondaryImage3Caption: 'blog_seis.secondaryImage3Caption',
     secondaryImage4: blogDetailsImg6Secondary4,
     secondaryImage4Alt: 'blog_seis.secondaryImage4Alt',
+    secondaryImage4Caption: 'blog_seis.secondaryImage4Caption',
+    heroInlineCaption: 'blog_seis.heroInlineCaption',
   },
 
 

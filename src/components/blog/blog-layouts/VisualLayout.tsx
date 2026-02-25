@@ -331,22 +331,38 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               </p>
             </div>
             <div className="col-lg-6">
-              <div
-                style={{
-                  position: 'relative',
-                  height: '400px',
-                  borderRadius: '15px',
-                  overflow: 'hidden',
-                  boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
-                }}
-              >
-                <Image
-                  src={blog.image}
-                  alt={blog.imageAlt ? t(blog.imageAlt) : `${t(blog.title)} - Coral Boats Mallorca`}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
+              <figure style={{ margin: 0 }}>
+                <div
+                  style={{
+                    position: 'relative',
+                    height: '400px',
+                    borderRadius: '15px',
+                    overflow: 'hidden',
+                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                  }}
+                >
+                  <Image
+                    src={blog.image}
+                    alt={blog.imageAlt ? t(blog.imageAlt) : `${t(blog.title)} - Coral Boats Mallorca`}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+                {blog.imageCaption && (
+                  <figcaption
+                    style={{
+                      fontSize: '0.85rem',
+                      color: '#94a3b8',
+                      fontStyle: 'italic',
+                      textAlign: 'center',
+                      marginTop: '12px',
+                      lineHeight: '1.4',
+                    }}
+                  >
+                    {t(blog.imageCaption)}
+                  </figcaption>
+                )}
+              </figure>
             </div>
           </div>
 
@@ -410,26 +426,80 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
             </div>
           </div>
 
+          {/* Hero Image Inline - after section 2 */}
+          {blog.heroInlineCaption && blog.detailsImg && (
+            <div className="row" style={{ marginBottom: '100px' }}>
+              <div className="col-12">
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '500px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                    }}
+                  >
+                    <Image
+                      src={blog.detailsImg!}
+                      alt={blog.imageAlt ? t(blog.imageAlt) : t(blog.title)}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  <figcaption
+                    style={{
+                      fontSize: '0.85rem',
+                      color: '#94a3b8',
+                      fontStyle: 'italic',
+                      textAlign: 'center',
+                      marginTop: '12px',
+                      lineHeight: '1.4',
+                    }}
+                  >
+                    {t(blog.heroInlineCaption)}
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          )}
+
           {/* Secondary Image 1 - Full Width with Caption */}
           {blog.secondaryImage1 && (
             <div className="row" style={{ marginBottom: '100px' }}>
               <div className="col-12">
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '500px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage1}
-                    alt={blog.secondaryImage1Alt ? t(blog.secondaryImage1Alt) : `${t(blog.title)} - Coral Boats Mallorca`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '500px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage1}
+                      alt={blog.secondaryImage1Alt ? t(blog.secondaryImage1Alt) : `${t(blog.title)} - Coral Boats Mallorca`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage1Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage1Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
             </div>
           )}
@@ -609,22 +679,38 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           {blog.secondaryImage2 && (
             <div className="row" style={{ marginBottom: '100px' }}>
               <div className="col-12">
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '500px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage2}
-                    alt={blog.secondaryImage2Alt ? t(blog.secondaryImage2Alt) : `${t(blog.title)} - Vista de Mallorca`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '500px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage2}
+                      alt={blog.secondaryImage2Alt ? t(blog.secondaryImage2Alt) : `${t(blog.title)} - Vista de Mallorca`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage2Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage2Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
             </div>
           )}
@@ -697,40 +783,72 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           {blog.secondaryImage3 && blog.secondaryImage4 && (
             <div className="row" style={{ marginBottom: '100px' }}>
               <div className="col-lg-6" style={{ marginBottom: '30px' }}>
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '350px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage3}
-                    alt={blog.secondaryImage3Alt ? t(blog.secondaryImage3Alt) : `${t(blog.title)} - Alcudia`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '350px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage3}
+                      alt={blog.secondaryImage3Alt ? t(blog.secondaryImage3Alt) : `${t(blog.title)} - Alcudia`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage3Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage3Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
               <div className="col-lg-6" style={{ marginBottom: '30px' }}>
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '350px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage4}
-                    alt={blog.secondaryImage4Alt ? t(blog.secondaryImage4Alt) : `${t(blog.title)} - Mallorca`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '350px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 15px 40px rgba(0, 0, 0, 0.12)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage4}
+                      alt={blog.secondaryImage4Alt ? t(blog.secondaryImage4Alt) : `${t(blog.title)} - Mallorca`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage4Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage4Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
             </div>
           )}
@@ -811,22 +929,38 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           {blog.secondaryImage5 && (
             <div className="row" style={{ marginBottom: '100px' }}>
               <div className="col-12">
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '450px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage5}
-                    alt={blog.secondaryImage5Alt ? t(blog.secondaryImage5Alt) : `${t(blog.title)} - Entorno natural`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '450px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage5}
+                      alt={blog.secondaryImage5Alt ? t(blog.secondaryImage5Alt) : `${t(blog.title)} - Entorno natural`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage5Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage5Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
             </div>
           )}
@@ -921,22 +1055,38 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
           {blog.secondaryImage6 && (
             <div className="row" style={{ marginBottom: '100px' }}>
               <div className="col-12">
-                <div
-                  style={{
-                    position: 'relative',
-                    height: '400px',
-                    borderRadius: '20px',
-                    overflow: 'hidden',
-                    boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
-                  }}
-                >
-                  <Image
-                    src={blog.secondaryImage6}
-                    alt={blog.secondaryImage6Alt ? t(blog.secondaryImage6Alt) : `${t(blog.title)} - Gastronomía`}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+                <figure style={{ margin: 0 }}>
+                  <div
+                    style={{
+                      position: 'relative',
+                      height: '400px',
+                      borderRadius: '20px',
+                      overflow: 'hidden',
+                      boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15)',
+                    }}
+                  >
+                    <Image
+                      src={blog.secondaryImage6}
+                      alt={blog.secondaryImage6Alt ? t(blog.secondaryImage6Alt) : `${t(blog.title)} - Gastronomía`}
+                      fill
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  {blog.secondaryImage6Caption && (
+                    <figcaption
+                      style={{
+                        fontSize: '0.85rem',
+                        color: '#94a3b8',
+                        fontStyle: 'italic',
+                        textAlign: 'center',
+                        marginTop: '12px',
+                        lineHeight: '1.4',
+                      }}
+                    >
+                      {t(blog.secondaryImage6Caption)}
+                    </figcaption>
+                  )}
+                </figure>
               </div>
             </div>
           )}

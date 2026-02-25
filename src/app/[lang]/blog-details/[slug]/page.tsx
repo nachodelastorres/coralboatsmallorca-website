@@ -127,29 +127,49 @@ function translateBlogPost(
     // Images
     mainImage: blog.detailsImg,
     mainImageAlt: blog.imageAlt ? translateKey(t, blog.imageAlt) : translateKey(t, blog.title),
+    mainImageCaption: blog.imageCaption ? translateKey(t, blog.imageCaption) : undefined,
+    heroInlineCaption: blog.heroInlineCaption ? translateKey(t, blog.heroInlineCaption) : undefined,
     secondaryImage1: blog.secondaryImage1,
     secondaryImage1Alt: blog.secondaryImage1Alt
       ? translateKey(t, blog.secondaryImage1Alt)
+      : undefined,
+    secondaryImage1Caption: blog.secondaryImage1Caption
+      ? translateKey(t, blog.secondaryImage1Caption)
       : undefined,
     secondaryImage2: blog.secondaryImage2,
     secondaryImage2Alt: blog.secondaryImage2Alt
       ? translateKey(t, blog.secondaryImage2Alt)
       : undefined,
+    secondaryImage2Caption: blog.secondaryImage2Caption
+      ? translateKey(t, blog.secondaryImage2Caption)
+      : undefined,
     secondaryImage3: blog.secondaryImage3,
     secondaryImage3Alt: blog.secondaryImage3Alt
       ? translateKey(t, blog.secondaryImage3Alt)
+      : undefined,
+    secondaryImage3Caption: blog.secondaryImage3Caption
+      ? translateKey(t, blog.secondaryImage3Caption)
       : undefined,
     secondaryImage4: blog.secondaryImage4,
     secondaryImage4Alt: blog.secondaryImage4Alt
       ? translateKey(t, blog.secondaryImage4Alt)
       : undefined,
+    secondaryImage4Caption: blog.secondaryImage4Caption
+      ? translateKey(t, blog.secondaryImage4Caption)
+      : undefined,
     secondaryImage5: blog.secondaryImage5,
     secondaryImage5Alt: blog.secondaryImage5Alt
       ? translateKey(t, blog.secondaryImage5Alt)
       : undefined,
+    secondaryImage5Caption: blog.secondaryImage5Caption
+      ? translateKey(t, blog.secondaryImage5Caption)
+      : undefined,
     secondaryImage6: blog.secondaryImage6,
     secondaryImage6Alt: blog.secondaryImage6Alt
       ? translateKey(t, blog.secondaryImage6Alt)
+      : undefined,
+    secondaryImage6Caption: blog.secondaryImage6Caption
+      ? translateKey(t, blog.secondaryImage6Caption)
       : undefined,
 
     // Sections
