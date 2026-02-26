@@ -3321,8 +3321,8 @@
     }
   },
   "blog_treintaydos": {
-    "metaTitle": "Parking in Alcudia 2026: Where to Park for Free in the Port, Beach, and Old Town | Coral Boats",
-    "metaDescription": "Complete guide to parking in Alcudia: free zones, paid parking, blue zone (ORA), and tips for parking in Port d'Alcudia, Playa de Muro, and the historic center. Everything you need to know before arriving by car.",
+    "metaTitle": "Parking in Alcudia 2026: Map with Exact Locations to Park for Free in Town, Port & Beach",
+    "metaDescription": "Complete guide to parking in Alcudia: free zones, paid parking, blue zone (ORA), and tips for parking in Port d'Alcudia, Playa de Muro, and the historic centre. Includes interactive maps with the exact location of every car park.",
     "badgeTitle": "Practical Information",
     "title": "Parking in Alcudia: The Map You Need to Park Without Drama in Northern Mallorca",
     "slug": "parking-alcudia-where-to-park-free-port-beach",
@@ -3333,6 +3333,41 @@
     "imagePath": "/assets/img/premium/gallery_new/new_blog/parking-alcudia-free-spots-best-palces-to-park-your-car-mallorca.webp",
     "imageAlt": "Free parking in Alcudia Mallorca near the port and the beach with parked cars",
     "imageCaption": "Free parking area near Port d'Alcudia – knowing these spots can save you time, money, and frustration during your visit to northern Mallorca.",
+    "maps": {
+      "muelleComercial": {
+        "caption": "Location of free parking at the Commercial Pier and Ferry Terminal in Alcudia"
+      },
+      "parkingOficialPuerto": {
+        "caption": "Location of the official free car park at Port d'Alcudia, next to the sports area"
+      },
+      "lagoEsperanza": {
+        "caption": "Lago Esperanza area: residential streets with plenty of free parking, 10 minutes from Alcudia beach"
+      },
+      "playaDeMuro": {
+        "caption": "From this point you will find large free parking areas (white zone) with Playa de Muro beach just minutes away"
+      },
+      "exteriorMurallas": {
+        "caption": "Free car park right in front of the walls of Alcudia Old Town"
+      },
+      "parkingNorteEste": {
+        "caption": "Free car park northeast of Alcudia Old Town, 3 minutes' walk from the walls"
+      },
+      "parkingNorte": {
+        "caption": "Free car park north of Alcudia town, direct access to the Old Town in 4 minutes"
+      },
+      "parkingNoroeste": {
+        "caption": "Free car park northwest of Alcudia, quiet area 5 minutes from the historic centre"
+      },
+      "parkingMercado": {
+        "caption": "Overflow dirt car park opened on market days, 1 minute's walk from Alcudia market"
+      }
+    },
+    "inlineImages": {
+      "parkingPuertoGratis": {
+        "alt": "Official free car park at Port d'Alcudia Mallorca with spacious bays and access to the promenade",
+        "caption": "The official free car park at Port d'Alcudia: spacious, paved, and just 5 minutes from the promenade. One of the best places to park for free in northern Mallorca."
+      }
+    },
     "section1": {
       "title": "The Parking Nightmare in Summer (and How to Avoid It)",
       "body": "You arrive in Alcudia in your rental car full of excitement. The GPS says you've arrived. The sun is shining. The sea awaits. And then the ordeal begins: driving around and around looking for a gap to leave the car without it costing an arm and a leg or getting a ticket.\n\nIf you've visited Mallorca in high season, you probably already know this feeling. **Parking in Alcudia** can become a real odyssey if you don't know where to look. And it's no wonder: we're talking about one of the most visited destinations on the island, with thousands of tourists arriving every day by car.\n\nBut here's the good news: **parking in Alcudia doesn't have to be a drama**. There are free zones, reasonably priced paid car parks, and tricks that we locals know well. You just need to know where to look.\n\nIn this article, we're going to give you the complete map of parking in the north of Mallorca. From Port d'Alcudia to Playa de Muro, passing through the Old Town and the lesser-known areas. Free zones, blue zones, private car parks, and above all, the tips that make the difference between parking in five minutes or spending half an hour driving in circles under the August sun.\n\nIf you're coming by car to [explore Alcudia](https://coralboats.com/en/blog-details/que-hacer-en-alcudia-planes-imprescindibles), this is for you."
@@ -3350,11 +3385,15 @@
       },
       "sub2": {
         "subtitle": "Promenade and First Line → Blue Zone (Paid)",
-        "body": "The entire promenade of Port d'Alcudia, from the Yacht Club to the end of the restaurant area, has regulated blue zone. These are convenient spaces because you are close to everything, but:\n\n**→** Maximum time of 2 hours in most sections\n**→** Approximate price: €1.80/hour\n**→** In August, finding a spot is almost a miracle\n\nIf you only need to stop for a moment to pick something up or eat quickly, it might work. To spend the day, look for alternatives."
+        "body": "The entire promenade of Port d'Alcudia, from the Alcudiamar Yacht Club to the end of the restaurant area, has regulated blue zone. These are convenient spaces because you are close to everything, but:\n\n**→** Maximum time of 2 hours in most sections\n**→** Approximate price: €1.80/hour\n**→** In August, finding a spot is almost a miracle\n\nIf you only need to stop for a moment to pick something up or eat quickly, it might work. To spend the day, look for alternatives."
       },
       "sub3": {
         "subtitle": "Inner Streets of the Port → Mixed",
         "body": "Entering the streets behind the promenade (Carrer dels Mariners, Carrer de la Mar, etc.), you will find a mix of blue zone and free spaces. The general rule: the further you move away from the sea, the easier it is to find free parking.\n\n**Local trick**: The streets perpendicular to the promenade, in their second and third sections from the coast, usually have white spaces. You'll walk 5-7 minutes to the beach, but you'll save on parking and stress."
+      },
+      "sub4": {
+        "subtitle": "BONUS → Official Free Car Park at Port d'Alcudia",
+        "body": "This is the port's best-kept secret. There is an **official completely free car park** located next to the sports area of Port d'Alcudia, just 5 minutes on foot from the promenade and the restaurant zone.\n\nIt is a large, paved car park with no time limit. Perfect if you are coming to spend the day at the port, to enjoy a [boat trip](https://coralboats.com/en/boat-tours-alcudia), or simply to stroll around the area. Unlike the spaces at the commercial pier, this car park rarely fills up even in the height of August.\n\n**Our tip**: Combine this car park with a walk to the port. You will arrive relaxed, without having driven in circles, and with your car parked for free and safely all day."
       }
     },
     "section4": {
@@ -3378,19 +3417,27 @@
       "body": "The walled Old Town of Alcudia is one of the [must-visit places](https://coralboats.com/en/blog-details/que-hacer-en-alcudia-planes-imprescindibles), but parking inside or nearby can be a challenge. The streets are narrow, many are pedestrianized, and spaces are scarce.",
       "sub1": {
         "subtitle": "Outside the Walls → Your Best Option",
-        "body": "The smart strategy is to **park outside the walled enclosure** and walk in. There are several areas that work well:\n\n**→ Carrer de la Rectoria and surroundings**: Just north of the wall, a mixed zone with plenty of free spaces.\n**→ Poliesportiu Area (Sports Center)**: Large free car park 5 minutes walk from Porta de Mallorca.\n**→ Carrer des Moll**: East of the Old Town, white spaces in residential streets.\n\nThe Old Town is small and can be crossed in 20 minutes, so it doesn't matter which side you enter from. Parking 5-10 minutes from the walls and walking is the best strategy."
+        "body": "The smart strategy is to **park outside the walled enclosure** and walk in. There are several areas that work well:\n\n**→ Free car park in front of the walls**: Right in front of the walled enclosure there is a free car park that usually has spaces available. If it is full, you can try entering via **Carrer Quint Cecili Metel**, where there is another free car park just metres away — [see location on Google Maps](https://maps.google.com/?q=39.850652,3.125095).\n\n**→ Poliesportiu Area (Sports Center)**: Large free car park 5 minutes walk from Porta de Mallorca.\n\n**→ Carrer des Moll**: East of the Old Town, white spaces in residential streets.\n\nThe Old Town is small and can be crossed in 20 minutes, so it doesn't matter which side you enter from. Parking 5-10 minutes from the walls and walking is the best strategy."
       },
       "sub2": {
         "subtitle": "Market Days → Special Attention",
         "body": "On **Tuesdays and Sundays** there is a market in the Old Town, and the parking chaos multiplies. If you can, avoid coming by car on these days or arrive very early (before 9:00). The Sunday market is especially busy.\n\nAlternative: park in the Port (where there is space) and walk 15-20 minutes to the Old Town. The walk is pleasant and you avoid the stress."
+      },
+      "sub3": {
+        "subtitle": "Other free car parks on the other side of town",
+        "body": "If you arrive in Alcudia from the Pollença road or from the north, there are **three completely free parking areas** on the other side of the Old Town that many visitors overlook. They are just a few minutes' walk from the walls and always have space, even in the height of summer.\n\nThese are spacious car parks with no time regulation or blue zone. Perfect for leaving the car and exploring the town at your leisure. The distance to the centre of the Old Town is just 3-5 minutes on foot."
+      },
+      "sub4": {
+        "subtitle": "LOCAL SECRET → Overflow Car Park on Market Days",
+        "body": "This is a trick very few people know about. On market days (Tuesdays and Sundays), an **overflow dirt car park** is opened right next to the Old Town. It is literally **1 minute's walk from the market** and there is always plenty of space to park.\n\nWhile everyone else drives in circles looking for a spot in the nearby streets, you can head straight to this car park and walk into the market stress-free. It is free and has no time limit."
       }
     },
     "section6": {
       "title": "Private Paid Car Parks: When They Are Worth It",
       "body": "If all the above fails or you simply don't want to complicate your life, there are private paid car parks that guarantee a space. They cost more, but sometimes peace of mind is worth the price.",
       "sub1": {
-        "subtitle": "Port Parking (Next to the Yacht Club)",
-        "body": "It is the best known and most central. It is next to the Yacht Club (Club Nàutic), two steps from the promenade and restaurants.\n\n**→** Approximate price: €2-€3/hour, daily maximum around €15-€20\n**→** Monitored and with shade in part of the spaces\n**→** In August it can fill up starting from midday\n\nIt's worth it if you come to spend the day at the port and don't want to worry. For a short visit, try the free alternatives first."
+        "subtitle": "Port Parking (Next to the Alcudiamar Yacht Club)",
+        "body": "It is the best known and most central. It is next to the Alcudiamar Yacht Club, two steps from the promenade and restaurants.\n\n**→** Approximate price: €2-€3/hour, daily maximum around €15-€20\n**→** Monitored and with shade in part of the spaces\n**→** In August it can fill up starting from midday\n\nIt's worth it if you come to spend the day at the port and don't want to worry. For a short visit, try the free alternatives first."
       },
       "sub2": {
         "subtitle": "Hotel and Shopping Center Car Parks",
@@ -3420,11 +3467,65 @@
     "meta_description": "Your definitive guide to markets in Mallorca: Alcudia, Pollença, Sineu, Inca and more. Days, schedules, what to buy, authentic crafts and the secrets only locals know. Updated 2026.",
     "publishedDate": "January 24, 2026",
     "btnText": "Read more",
+    "teaserBanner": {
+      "text": "Looking for the complete day-by-day market calendar? At the end of this article you'll find our weekly calendar with every market in every town across Mallorca.",
+      "linkText": "Jump to the weekly calendar"
+    },
     "imagePath": "/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp",
     "imageAlt": "Alcudia Mallorca Market with artisanal cheeses and typical Mallorcan sobrasada",
     "imageCaption": "Traditional stall at Alcudia market with artisanal Mallorcan cheeses and sobrasada – the authentic island flavors you'll find every Tuesday and Sunday in the Old Town.",
     "secondaryImage1Alt": "Mallorca crafts with traditional 'telas de lenguas' fabrics at the Alcudia market",
     "secondaryImage2Alt": "Weekly market in the old town of Alcudia Mallorca with typical stalls",
+    "inlineImages": {
+      "mercadoAlcudiaMurallas": {
+        "alt": "Alcudia weekly market next to the medieval walls with stalls selling local Mallorcan products",
+        "caption": "Alcudia's weekly market spreads along the 14th-century medieval walls, a unique setting where tradition and historic heritage blend every Tuesday and Sunday."
+      },
+      "sobrasadaMercado": {
+        "alt": "Artisan sobrasada and typical Mallorcan cured meats stall at a weekly market in Mallorca",
+        "caption": "Mallorcan sobrasada, the undisputed star of the island's markets: look for the IGP label and ask to taste before buying."
+      },
+      "mercadoPollenca": {
+        "alt": "Pollença Sunday market in Mallorca at the Plaza Major with craft stalls and terrace cafés",
+        "caption": "Pollença's Sunday market at the Plaza Major: art, crafts, and the best mid-morning vermouth surrounded by charming café terraces."
+      },
+      "sineuPueblo": {
+        "alt": "View of Sineu village in Mallorca with typical stone houses from the island's interior and Mediterranean atmosphere",
+        "caption": "Sineu, in the heart of Mallorca, preserves the essence of the island's interior: stone houses, quiet streets, and a market with over 700 years of history."
+      },
+      "mercadoSineu": {
+        "alt": "Stalls at the Sineu weekly market in Mallorca with artisan local products from the interior villages",
+        "caption": "Sineu's Wednesday market: the most authentic in Mallorca, where farmers from the interior still sell their produce as they have for centuries."
+      },
+      "cocaDeTrempo": {
+        "alt": "Coca de trempo typical Mallorcan dish with roasted vegetables at a market in one of Mallorca's beautiful villages",
+        "caption": "Coca de trempo, a Mallorcan delicacy of thin dough topped with fresh seasonal vegetables — a must-try at any gastronomic stop through the island's markets."
+      },
+      "floresInca": {
+        "alt": "Flower and plant stall at the weekly Dijous market in Inca Mallorca",
+        "caption": "Fresh flowers and Mediterranean plants at the Dijous d'Inca: Mallorca's largest market fills the streets with color every Thursday."
+      },
+      "iglesiaInca": {
+        "alt": "Santa Maria la Mayor Church in Inca Mallorca with typical stone façade from the island's interior villages",
+        "caption": "The Santa Maria la Mayor Church presides over Inca, the Mallorcan shoe capital and home to the island's largest weekly market every Thursday."
+      },
+      "sobrasadaColgada": {
+        "alt": "Mallorcan sobrasada hanging at a market stall during the weekly markets of Mallorca",
+        "caption": "Strings of artisan sobrasada hanging at a market stall: Mallorca's star cured meat, slowly aged and made with indigenous black pig."
+      },
+      "ensaimadas": {
+        "alt": "Ensaimadas and typical Mallorcan pastries at a weekly market stall in Mallorca",
+        "caption": "Freshly baked ensaimadas with their signature spiral shape: Mallorca's most iconic pastry, made with saïm (pork lard) following the traditional recipe."
+      },
+      "paAmbOli": {
+        "alt": "Pa amb oli typical Mallorcan food with ramallet tomato olive oil and cured meats Balearic gastronomy",
+        "caption": "Pa amb oli: rustic bread with ramallet tomato, virgin olive oil, and Mallorcan cured meats. The essence of Balearic gastronomy in its simplest and most delicious form."
+      },
+      "siurells": {
+        "alt": "Siurells traditional clay figurines from Mallorca and artisan island souvenirs at a market stall",
+        "caption": "Siurells, the hand-painted white clay figurines that are Mallorca's most authentic souvenir: originally children's whistles, now symbols of the island's craft tradition."
+      }
+    },
     "section1": {
       "title": "The soul of Mallorca is sold on Tuesday mornings",
       "body": "There is a Mallorca that doesn't appear on turquoise beach postcards. A Mallorca that smells of freshly cut sobrasada, mountain herbs, and warm farmhouse bread. A Mallorca where the village ladies still haggle over the price of tomatoes and where an elderly gentleman can tell you, if you ask, how his grandmother made tumbet sixty years ago.\n\nThat Mallorca is found in the **weekly markets**.\n\nEvery village on the island has its market day. It is a tradition that dates back centuries, when farmers came down from the mountains to sell their produce and fishermen came up from the port with the night's catch. Today, Mallorcan markets are a blend of living tradition and tourist attraction, but if you know where to look, you can still find the authentic essence.\n\nThe **Alcudia market**, the Pollença one, the mythical Sineu, the huge Inca market... Each one has its own character, its star products, and its particular atmosphere. In this article, we are going to tell you everything you need to know to get the most out of the Mallorcan market experience: what days to go, what to buy, what to avoid, and those small secrets that make the difference between being just another tourist and living the market like a local.\n\nAnd if you stay until the end, we will tell you how our 100% Mallorcan crew can help you discover the gastronomic corners that don't appear in any guidebook."
@@ -3519,12 +3620,49 @@
     "btnText": "Read more",
     "imageAlt": "Alcudia Town Hall Square with the clock tower and typical Mallorcan façades under a blue sky",
     "imageCaption": "Alcudia Town Hall Square, with its distinctive clock tower, is the heart of the old town and the perfect starting point to explore this medieval village in Mallorca.",
-    "secondaryImage1Alt": "Porta del Moll main entrance to the medieval walls of Alcudia old town Mallorca with palm trees",
-    "secondaryImage2Alt": "Sant Jaume Church in Alcudia old town Mallorca Gothic façade with stone rose window",
-    "secondaryImage3Alt": "Typical alley in the historic center of Alcudia Mallorca with stone stairs and green shutters",
-    "secondaryImage4Alt": "Weekly open-air market next to the medieval walls of Alcudia Mallorca with fruit and vegetable stalls",
-    "secondaryImage5Alt": "Seafront promenade of the Port of Alcudia Mallorca with palm trees and terraces by the sea",
-    "secondaryImage6Alt": "Spectacular sunset over the Port of Alcudia Mallorca with sailboats and reddish sky reflected on the water",
+    "heroInlineCaption": "Alcudia Town Hall Square, the meeting point and heart of the medieval old town.",
+    "inlineImages": {
+      "alcudiaVillage": {
+        "alt": "Alcudia village with its street market and families strolling among the medieval walls of Mallorca",
+        "caption": "Alcudia combines medieval history and a family-friendly atmosphere: a town to be lived, not just visited."
+      },
+      "portaDelMoll": {
+        "alt": "Porta del Moll main entrance to the medieval walls of Alcudia old town Mallorca with palm trees",
+        "caption": "Porta del Moll, Alcudia's icon, has been welcoming visitors since the 14th century with its golden stone tower flanked by palm trees."
+      },
+      "iglesiaSantJaume": {
+        "alt": "Sant Jaume Church in Alcudia old town Mallorca Gothic façade with stone rose window",
+        "caption": "Sant Jaume Church, with its imposing Gothic rose window, once served as refuge from pirates and remains the spiritual heart of the town."
+      },
+      "callejonHistorico": {
+        "alt": "Typical alley in the historic center of Alcudia Mallorca with stone stairs and green shutters",
+        "caption": "Getting lost in Alcudia's cobbled alleys is the best way to discover the medieval soul of this charming town."
+      },
+      "bullitDePeix": {
+        "alt": "Bullit de peix and arroz a banda typical Balearic dish served at a restaurant table",
+        "caption": "Mallorcan gastronomy at its finest: bullit de peix and arroz a banda, dishes that tell the island's maritime story."
+      },
+      "mercadoAlcudia": {
+        "alt": "Weekly open-air market next to the medieval walls of Alcudia Mallorca with fruit and vegetable stalls",
+        "caption": "Alcudia's weekly market, set among medieval walls, is an explosion of local colors, aromas, and flavors."
+      },
+      "alcudiaPort": {
+        "alt": "Port of Alcudia Mallorca with moored boats and palm-lined promenade with plans and activities",
+        "caption": "The Port of Alcudia offers a complete change of scenery: sea breeze, sailboats, and terraces facing the Mediterranean."
+      },
+      "iceCreamPort": {
+        "alt": "Artisan ice cream and seaside terrace at the Port of Alcudia Mallorca in summer",
+        "caption": "An artisan ice cream by the sea: the little pleasure that turns an afternoon at the Port of Alcudia into a perfect memory."
+      },
+      "paseoMaritimo": {
+        "alt": "Seafront promenade of the Port of Alcudia Mallorca with palm trees and terraces by the sea",
+        "caption": "The Port of Alcudia promenade, with its palm trees and terraces, invites you to stroll unhurriedly along the Mediterranean."
+      },
+      "atardecerPuerto": {
+        "alt": "Spectacular sunset over the Port of Alcudia Mallorca with sailboats and reddish sky reflected on the water",
+        "caption": "Sunset over the Port of Alcudia: sailboats, impossible colors, and that magical silence only the Mediterranean sea can create."
+      }
+    },
     "section1": {
       "title": "Some towns are visited. Others are lived. Alcudia belongs to the second category.",
       "body": "Many travelers who arrive in Mallorca pass through Alcudia on their way to the beach, spend an hour in the old town, and leave thinking they have seen it all. Mistake. Alcudia is one of those places that needs a full day to reveal itself: its medieval walls hide corners that do not appear on the first walk, the port has a life of its own that deserves time, and the best moments arrive when the afternoon light turns stone into gold.\n\nIn this article, we propose a complete itinerary to make the most of Alcudia in one day, from the first morning coffee inside the walls to a sunset that, if everything goes well, you will remember for a long time. No rush, no endless lists of monuments, just enjoying each stop as it deserves.\n\nIf you already know the area, you might want to take a look at our guide on [what to do in Alcudia](https://coralboats.com/en/blog-details/que-hacer-en-alcudia-planes-imprescindibles) to complement your visit with more plans. And if it is your first time, you are in the right place: we are going to tell you about Alcudia as those of us who live here know it."

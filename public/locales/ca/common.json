@@ -3104,8 +3104,8 @@
     }
   },
   "blog_treintaydos": {
-    "metaTitle": "Pàrquing a Alcúdia 2026: On Aparcar Gratis al Port, Platja i Centre Històric | Coral Boats",
-    "metaDescription": "Mapa complet de pàrquing a Alcúdia: zones gratuïtes, pàrquings de pagament, zona blava i trucs per aparcar al Port d'Alcúdia, Platja de Muro i el centre històric. Tot el que necessites saber abans de venir en cotxe.",
+    "metaTitle": "Pàrquing a Alcúdia 2026: Mapa amb Ubicacions Exactes per Aparcar Gratis Poble, Port i Platja",
+    "metaDescription": "Mapa complet de pàrquing a Alcúdia: zones gratuïtes, pàrquings de pagament, zona blava i trucs per aparcar al Port d'Alcúdia, Platja de Muro i el centre històric. Inclou mapes interactius amb la ubicació exacta de cada pàrquing.",
     "badgeTitle": "Informació pràctica",
     "title": "Pàrquing a Alcúdia: el mapa que necessites per aparcar sense drames al nord de Mallorca",
     "slug": "parquing-alcudia-on-aparcar-gratis-port-platja",
@@ -3116,6 +3116,41 @@
     "imagePath": "/assets/img/premium/gallery_new/new_blog/parking-alcudia-free-spots-best-palces-to-park-your-car-mallorca.webp",
     "imageAlt": "Pàrquing gratuït a Alcúdia Mallorca a prop del port i la platja amb cotxes aparcats",
     "imageCaption": "Zona d'aparcament gratuït a prop del port d'Alcúdia – conèixer aquests espais pot estalviar-te temps, diners i frustracions durant la teva visita al nord de Mallorca.",
+    "maps": {
+      "muelleComercial": {
+        "caption": "Ubicació del pàrquing gratuït al moll comercial i l'estació marítima d'Alcúdia"
+      },
+      "parkingOficialPuerto": {
+        "caption": "Ubicació del pàrquing oficial gratuït del Port d'Alcúdia, al costat de la zona esportiva"
+      },
+      "lagoEsperanza": {
+        "caption": "Zona del Llac Esperança: carrers residencials amb abundant pàrquing gratuït, a 10 minuts de la platja d'Alcúdia"
+      },
+      "playaDeMuro": {
+        "caption": "A partir d'aquest punt trobaràs àmplies zones de pàrquing gratuït (zona blanca), amb la Platja de Muro a pocs minuts"
+      },
+      "exteriorMurallas": {
+        "caption": "Pàrquing lliure just davant les murades del centre històric d'Alcúdia"
+      },
+      "parkingNorteEste": {
+        "caption": "Pàrquing gratuït al nord-est del centre històric d'Alcúdia, a 3 minuts caminant de les murades"
+      },
+      "parkingNorte": {
+        "caption": "Pàrquing gratuït al nord del poble d'Alcúdia, accés directe al centre històric en 4 minuts"
+      },
+      "parkingNoroeste": {
+        "caption": "Pàrquing gratuït al nord-oest d'Alcúdia, zona tranquil·la a 5 minuts del centre històric"
+      },
+      "parkingMercado": {
+        "caption": "Pàrquing de terra dissuasori habilitat en dies de mercat, a 1 minut caminant del mercadillo d'Alcúdia"
+      }
+    },
+    "inlineImages": {
+      "parkingPuertoGratis": {
+        "alt": "Pàrquing oficial gratuït del Port d'Alcúdia Mallorca amb places àmplies i accés al passeig marítim",
+        "caption": "El pàrquing oficial gratuït del Port d'Alcúdia: ampli, asfaltat i a només 5 minuts del passeig marítim. Un dels millors llocs per aparcar gratis al nord de Mallorca."
+      }
+    },
     "section1": {
       "title": "El malson del pàrquing a l'estiu (i com evitar-lo)",
       "body": "Arribes a Alcúdia amb el cotxe de lloguer carregat d'il·lusió. El GPS diu que has arribat. El sol brilla. La mar t'espera. I llavors comença el calvari: fer voltes i més voltes cercant un forat on deixar el cotxe sense que et costi un ronyó o sense que et posin una multa.\n\nSi has vingut a Mallorca en temporada alta, probablement ja coneguis aquesta sensació. El **pàrquing a Alcúdia** es pot convertir en una autèntica odissea si no saps on cercar. I no és per a menys: parlam d'un dels destinacions més visitades de l'illa, amb milers de turistes arribant cada dia en cotxe de lloguer.\n\nPerò aquí va la bona notícia: **aparcar a Alcúdia no té per què ser un drama**. Existeixen zones gratuïtes, pàrquings de pagament raonables i trucs que els locals coneixem bé. Només necessites saber on mirar.\n\nEn aquest article et donarem el mapa complet del pàrquing al nord de Mallorca. Des del Port d'Alcúdia fins a la Platja de Muro, passant pel centre històric i les zones menys conegudes. Zones gratuïtes, zones blaves, pàrquings privats i, sobretot, els consells que marquen la diferència entre aparcar en cinc minuts o passar-te mitja hora fent voltes sota el sol d'agost.\n\nSi vens en cotxe a [explorar Alcúdia](https://coralboats.com/ca/blog-details/que-hacer-en-alcudia-planes-imprescindibles), això t'interessa."
@@ -3133,11 +3168,15 @@
       },
       "sub2": {
         "subtitle": "Passeig Marítim i primera línia → Zona Blava (de pagament)",
-        "body": "Tot el passeig marítim del Port d'Alcúdia, des del Club Nàutic fins al final de la zona de restaurants, té zona blava regulada. Són places còmodes perquè estàs al costat de tot, però:\n\n**→** Temps màxim de 2 hores en la majoria de trams\n**→** Preu aproximat: 1,80€/hora\n**→** A l'agost, trobar un forat és gairebé miraculós\n\nSi només necessites parar un moment per recollir alguna cosa o menjar ràpid, et pot servir. Per passar el dia, cerca alternatives."
+        "body": "Tot el passeig marítim del Port d'Alcúdia, des del Club Nàutic Alcudiamar fins al final de la zona de restaurants, té zona blava regulada. Són places còmodes perquè estàs al costat de tot, però:\n\n**→** Temps màxim de 2 hores en la majoria de trams\n**→** Preu aproximat: 1,80€/hora\n**→** A l'agost, trobar un forat és gairebé miraculós\n\nSi només necessites parar un moment per recollir alguna cosa o menjar ràpid, et pot servir. Per passar el dia, cerca alternatives."
       },
       "sub3": {
         "subtitle": "Carrers interiors del port → Mixt",
         "body": "Endinsant-te en els carrers que queden darrere el passeig marítim (Carrer dels Mariners, Carrer de la Mar, etc.), trobaràs una mescla de zona blava i places lliures. La regla general: com més t'allunyis de la mar, més fàcil és trobar aparcament gratuït.\n\n**Truc local**: Els carrers perpendiculars al passeig, en el seu segon i tercer tram des de la costa, solen tenir places blanques. Caminaràs 5-7 minuts fins a la platja, però estalviaràs el pàrquing i l'estrès."
+      },
+      "sub4": {
+        "subtitle": "BONUS → Pàrquing oficial gratuït del Port d'Alcúdia",
+        "body": "Aquest és el secret més ben guardat del port. Existeix un **pàrquing oficial completament gratuït** situat al costat de la zona esportiva del Port d'Alcúdia, a només 5 minuts a peu del passeig marítim i de la zona de restaurants.\n\nÉs un aparcament ampli, asfaltat i sense límit de temps. Perfecte si vens a passar el dia al port, a gaudir d'una [excursió en vaixell](https://coralboats.com/ca/boat-tours-alcudia), o simplement a passejar per la zona. A diferència de les places del moll comercial, aquest pàrquing rarament s'omple fins i tot en ple agost.\n\n**El nostre consell**: Combina aquest pàrquing amb un passeig fins al port. Arribaràs relaxat, sense haver fet voltes, i amb el cotxe aparcat gratis i segur tot el dia."
       }
     },
     "section4": {
@@ -3161,19 +3200,27 @@
       "body": "El centre històric amurallat d'Alcúdia és un dels [llocs imprescindibles per visitar](https://coralboats.com/ca/blog-details/que-hacer-en-alcudia-planes-imprescindibles), però aparcar dins o a prop pot ser un repte. Els carrers són estrets, molts són de vianants i les places escassegen.",
       "sub1": {
         "subtitle": "Exterior de les murades → La teva millor opció",
-        "body": "L'estratègia intel·ligent és **aparcar fora del recinte amurallat** i entrar caminant. Hi ha diverses zones que funcionen bé:\n\n**→ Carrer de la Rectoria i voltants**: Just al nord de la murada, zona mixta amb bastants places lliures.\n\n**→ Zona del Poliesportiu**: Pàrquing ampli i gratuït a 5 minuts caminant de la Porta de Mallorca.\n\n**→ Carrer des Moll**: A l'est del centre històric, places blanques en carrers residencials.\n\nEl centre històric és petit i es recorre en 20 minuts, així que no importa per quin costat entris. Aparcar a 5-10 minuts de les murades i passejar és la millor estratègia."
+        "body": "L'estratègia intel·ligent és **aparcar fora del recinte amurallat** i entrar caminant. Hi ha diverses zones que funcionen bé:\n\n**→ Pàrquing lliure davant les murades**: Just davant del recinte amurallat hi ha un pàrquing gratuït que sol tenir places disponibles. Si el trobes ple, pots provar entrant pel **carrer Quint Cecili Metel**, on hi ha un altre pàrquing gratuït a pocs metres — [veure ubicació a Google Maps](https://maps.google.com/?q=39.850652,3.125095).\n\n**→ Zona del Poliesportiu**: Pàrquing ampli i gratuït a 5 minuts caminant de la Porta de Mallorca.\n\n**→ Carrer des Moll**: A l'est del centre històric, places blanques en carrers residencials.\n\nEl centre històric és petit i es recorre en 20 minuts, així que no importa per quin costat entris. Aparcar a 5-10 minuts de les murades i passejar és la millor estratègia."
       },
       "sub2": {
         "subtitle": "Dies de mercat → Atenció especial",
         "body": "Els **dimarts i diumenges** hi ha mercat al centre històric, i el caos de pàrquing es multiplica. Si pots, evita venir en cotxe aquests dies o aixeca't molt prest (abans de les 9:00). El mercat de diumenge és especialment concorregut.\n\nAlternativa: aparca al Port (on sí que hi ha lloc) i camina 15-20 minuts fins al centre històric. El passeig és agradable i evites l'estrès."
+      },
+      "sub3": {
+        "subtitle": "Altres pàrquings gratuïts a l'altre costat del poble",
+        "body": "Si arribes a Alcúdia des de la carretera de Pollença o des del nord, hi ha **tres zones de pàrquing completament gratuït** a l'altre costat del centre històric que molts visitants desconeixen. Són a pocs minuts caminant de les murades i sempre tenen lloc, fins i tot en ple estiu.\n\nSón pàrquings amplis, sense regulació horària ni zona blava. Perfectes per deixar el cotxe i explorar el poble amb calma. La distància al centre del centre històric és de només 3-5 minuts a peu."
+      },
+      "sub4": {
+        "subtitle": "SECRET LOCAL → Pàrquing dissuasori en dies de mercat",
+        "body": "Aquest és un truc que molt poca gent coneix. Els dies de mercat (dimarts i diumenges), s'habilita un **pàrquing de terra dissuasori** just al costat del centre històric. Està literalment **a 1 minut caminant del mercat** i sempre hi ha lloc de sobres per aparcar.\n\nMentre tothom fa voltes cercant lloc als carrers propers, tu pots anar directament a aquest pàrquing i entrar al mercat sense estrès. És gratuït i sense límit de temps."
       }
     },
     "section6": {
       "title": "Pàrquings privats de pagament: quan valen la pena",
       "body": "Si tot l'anterior falla o simplement no et vols complicar la vida, existeixen pàrquings privats de pagament que garanteixen plaça. Costen més, però a vegades la tranquil·litat val el seu preu.",
       "sub1": {
-        "subtitle": "Pàrquing del Port (devora el Club Nàutic)",
-        "body": "És el més conegut i cèntric. Està al costat del Club Nàutic, a dues passes del passeig marítim i els restaurants.\n\n**→** Preu aproximat: 2-3€/hora, màxim diari uns 15-20€\n**→** Vigilat i amb ombra en part de les places\n**→** A l'agost es pot omplir a partir del migdia\n\nVal la pena si vens a passar el dia al port i no te vols preocupar. Per a una visita curta, prova primer les alternatives gratuïtes."
+        "subtitle": "Pàrquing del Port (devora el Club Nàutic Alcudiamar)",
+        "body": "És el més conegut i cèntric. Està al costat del Club Nàutic Alcudiamar, a dues passes del passeig marítim i els restaurants.\n\n**→** Preu aproximat: 2-3€/hora, màxim diari uns 15-20€\n**→** Vigilat i amb ombra en part de les places\n**→** A l'agost es pot omplir a partir del migdia\n\nVal la pena si vens a passar el dia al port i no te vols preocupar. Per a una visita curta, prova primer les alternatives gratuïtes."
       },
       "sub2": {
         "subtitle": "Pàrquings d'hotels i centres comercials",
@@ -3203,11 +3250,65 @@
     "meta_description": "La teva guia definitiva de mercats a Mallorca: el mercat d'Alcúdia, Pollença, Sineu, Inca i més. Dies, horaris, què comprar, artesania autèntica i els secrets que només els locals coneixen. Actualitzat 2026.",
     "publishedDate": "24 de gener de 2026",
     "btnText": "Llegir més",
+    "teaserBanner": {
+      "text": "Cerques el calendari complet de mercats dia a dia? Al final d'aquest article trobaràs el nostre calendari setmanal amb tots els mercats de cada poble de Mallorca.",
+      "linkText": "Salta al calendari setmanal"
+    },
     "imagePath": "/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp",
     "imageAlt": "Mercat d'Alcúdia Mallorca amb formatges artesanals i sobrassada típica mallorquina",
     "imageCaption": "Parada tradicional del mercat d'Alcúdia amb formatges artesanals mallorquins i sobrassada – els sabors autèntics de l'illa que trobaràs cada dimarts i diumenge al casc antic.",
     "secondaryImage1Alt": "Artesania de Mallorca amb roba de llengües tradicional al mercat d'Alcúdia",
     "secondaryImage2Alt": "Mercat setmanal al centre històric d'Alcúdia Mallorca amb parades típiques",
+    "inlineImages": {
+      "mercadoAlcudiaMurallas": {
+        "alt": "Mercat setmanal d'Alcúdia al peu de les muralles medievals amb parades de productes locals de Mallorca",
+        "caption": "El mercat setmanal d'Alcúdia s'estén al peu de les muralles medievals del segle XIV, un escenari únic on tradició i patrimoni històric es fonen cada dimarts i diumenge."
+      },
+      "sobrasadaMercado": {
+        "alt": "Parada de sobrassada artesanal i embotits típics mallorquins en un mercat setmanal de Mallorca",
+        "caption": "La sobrassada mallorquina, protagonista indiscutible dels mercats de l'illa: cerca l'etiqueta IGP i demana tastar abans de comprar."
+      },
+      "mercadoPollenca": {
+        "alt": "Mercat dominical de Pollença Mallorca a la Plaça Major amb parades d'artesania i cafeteries amb terrassa",
+        "caption": "El mercat de Pollença cada diumenge a la Plaça Major: art, artesania i el millor vermut de mig matí envoltat de cafeteries amb encant."
+      },
+      "sineuPueblo": {
+        "alt": "Vista del poble de Sineu Mallorca amb cases de pedra típiques de l'interior de l'illa i ambient mediterrani",
+        "caption": "Sineu, al cor de Mallorca, conserva l'essència de l'interior de l'illa: cases de pedra, carrers tranquils i un mercat amb més de 700 anys d'història."
+      },
+      "mercadoSineu": {
+        "alt": "Parades del mercat setmanal de Sineu Mallorca amb productes artesanals locals dels pobles de l'interior",
+        "caption": "El mercat de Sineu cada dimecres: el més autèntic de Mallorca, on els pagesos de l'interior segueixen venent els seus productes com es feia fa segles."
+      },
+      "cocaDeTrempo": {
+        "alt": "Coca de trempó plat típic mallorquí de verdures fresques en un mercat dels pobles bonics de Mallorca",
+        "caption": "La coca de trempó, una delícia mallorquina de pasta fina amb verdures fresques de temporada, imprescindible en qualsevol parada gastronòmica pels mercats de l'illa."
+      },
+      "floresInca": {
+        "alt": "Parada de flors i plantes al mercadet setmanal del Dijous d'Inca Mallorca",
+        "caption": "Flors fresques i plantes mediterrànies al Dijous d'Inca: el mercat més gran de Mallorca omple els carrers de color cada dijous."
+      },
+      "iglesiaInca": {
+        "alt": "Església de Santa Maria la Major d'Inca Mallorca amb façana de pedra típica dels pobles de l'interior",
+        "caption": "L'església de Santa Maria la Major presideix Inca, la capital del calçat mallorquí i seu del mercat setmanal més gran de l'illa cada dijous."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrassada mallorquina penjada en una parada de venda als mercats setmanals de Mallorca",
+        "caption": "Ristres de sobrassada artesanal penjades a la parada del mercat: l'embotit estrella de Mallorca, curat lentament i elaborat amb porc negre autòcton."
+      },
+      "ensaimadas": {
+        "alt": "Ensaïmades i dolços típics mallorquins en una parada del mercat setmanal de Mallorca",
+        "caption": "Ensaïmades acabades de fer amb la seva característica forma d'espiral: el dolç més emblemàtic de Mallorca, elaborat amb saïm (llard de porc) segons la recepta tradicional."
+      },
+      "paAmbOli": {
+        "alt": "Pa amb oli menjar típic de Mallorca amb tomàtiga de ramallet oli d'oliva i embotit gastronomia balear",
+        "caption": "Pa amb oli: pa rústic amb tomàtiga de ramallet, oli d'oliva verge i embotit mallorquí. L'essència de la gastronomia balear en la seva forma més senzilla i deliciosa."
+      },
+      "siurells": {
+        "alt": "Siurells figuretes de fang típiques de Mallorca i souvenirs artesanals de l'illa en una parada de mercat",
+        "caption": "Siurells, les figuretes de fang blanc pintades a mà que són el souvenir més autèntic de Mallorca: originalment xiulets per a infants, avui símbols de l'artesania illenca."
+      }
+    },
     "section1": {
       "title": "L'ànima de Mallorca es ven els dimarts de matí",
       "body": "Hi ha una Mallorca que no surt a les postals de platges turqueses. Una Mallorca que fa olor de sobrassada acabada de tallar, de herbes de muntanya, de pa de pagès calent. Una Mallorca on les madones del poble encara regategen el preu dels tamàtiga i on un senyor major et pot explicar, si li demanes, com feia la seva padrina el tumbet fa seixanta anys.\n\nAquesta Mallorca es troba als **mercats setmanals**.\n\nCada poble de l'illa té el seu dia de mercat. És una tradició que ve de segles enrere, quan els pagesos baixaven de la muntanya a vendre els seus productes i els pescadors pujaven del port amb el gènere de la nit. Avui, els mercats mallorquins són una mescla de tradició viva i atracció turística, però si saps on mirar, encara hi trobes l'essència autèntica.\n\nEl **mercat d'Alcúdia**, el de Pollença, el mític Sineu, l'enorme mercat d'Inca... Cada un té el seu caràcter, els seus productes estrella, el seu ambient particular. En aquest article te contarem tot el que necessites saber per esprémer al màxim l'experiència dels mercats mallorquins: quins dies anar-hi, què comprar, què evitar, i aquells petits secrets que marquen la diferència entre ser un turista més i viure el mercat com un local.\n\nI si te quedes fins al final, te contarem com la nostra tripulació 100% mallorquina te pot ajudar a descobrir els racons gastronòmics que no surten a cap guia."
@@ -3302,12 +3403,49 @@
     "btnText": "Llegir més",
     "imageAlt": "Plaça de l’Ajuntament d’Alcúdia amb la torre del rellotge i façanes mallorquines típiques sota un cel blau",
     "imageCaption": "La plaça de l’Ajuntament d’Alcúdia, amb la seva característica torre del rellotge, és el cor del casc antic i el punt de partida perfecte per explorar aquest poble medieval de Mallorca.",
-    "secondaryImage1Alt": "Porta del Moll entrada principal a les muralles medievals del casc antic d’Alcudia Mallorca amb palmeres",
-    "secondaryImage2Alt": "Església de Sant Jaume al casc antic d’Alcudia Mallorca façana gòtica amb rosassa de pedra",
-    "secondaryImage3Alt": "Carreró típic del centre històric d’Alcudia Mallorca amb escales de pedra i persianes verdes",
-    "secondaryImage4Alt": "Mercat setmanal a l’aire lliure al costat de les muralles medievals d’Alcudia Mallorca amb parades de fruita i verdura",
-    "secondaryImage5Alt": "Passeig marítim del Port d’Alcudia Mallorca amb palmeres i terrasses davant la mar",
-    "secondaryImage6Alt": "Posta de sol espectacular sobre el Port d’Alcudia Mallorca amb velers i cel rogenc reflectit a l’aigua",
+    "heroInlineCaption": "La plaça de l’Ajuntament d’Alcúdia, punt de trobada i cor del casc antic medieval.",
+    "inlineImages": {
+      "alcudiaVillage": {
+        "alt": "Poble d’Alcúdia amb el seu mercat de carrer i famílies passejant entre les muralles medievals de Mallorca",
+        "caption": "Alcúdia combina història medieval i ambient familiar: un poble per viure, no només per visitar."
+      },
+      "portaDelMoll": {
+        "alt": "Porta del Moll entrada principal a les muralles medievals del casc antic d’Alcudia Mallorca amb palmeres",
+        "caption": "La Porta del Moll, icona d’Alcúdia, dona la benvinguda als visitants des del segle XIV amb la seva torre de pedra daurada flanquejada per palmeres."
+      },
+      "iglesiaSantJaume": {
+        "alt": "Església de Sant Jaume al casc antic d’Alcudia Mallorca façana gòtica amb rosassa de pedra",
+        "caption": "L’església de Sant Jaume, amb la seva imponent rosassa gòtica, va ser refugi davant els pirates i avui és el cor espiritual del poble."
+      },
+      "callejonHistorico": {
+        "alt": "Carreró típic del centre històric d’Alcudia Mallorca amb escales de pedra i persianes verdes",
+        "caption": "Perdre’s pels carrerons empedrats d’Alcúdia és la millor manera de descobrir l’ànima medieval del poble."
+      },
+      "bullitDePeix": {
+        "alt": "Bullit de peix i arròs a banda plat típic de la gastronomia balear servit en un restaurant",
+        "caption": "La gastronomia mallorquina en la seva essència: bullit de peix i arròs a banda, plats que expliquen la història marinera de l’illa."
+      },
+      "mercadoAlcudia": {
+        "alt": "Mercat setmanal a l’aire lliure al costat de les muralles medievals d’Alcudia Mallorca amb parades de fruita i verdura",
+        "caption": "El mercat setmanal d’Alcúdia, entre muralles medievals, és una explosió de colors, olors i sabors locals."
+      },
+      "alcudiaPort": {
+        "alt": "Port d’Alcúdia Mallorca amb barques amarrades i passeig marítim amb palmeres",
+        "caption": "El Port d’Alcúdia ofereix un canvi total d’escenari: brisa marina, velers i terrasses davant el Mediterrani."
+      },
+      "iceCreamPort": {
+        "alt": "Gelats artesans i terrassa davant la mar al Port d’Alcúdia Mallorca a l’estiu",
+        "caption": "Un gelat artesà davant la mar: el petit plaer que converteix una tarda al Port d’Alcúdia en un record perfecte."
+      },
+      "paseoMaritimo": {
+        "alt": "Passeig marítim del Port d’Alcudia Mallorca amb palmeres i terrasses davant la mar",
+        "caption": "El passeig marítim del Port d’Alcúdia, amb les seves palmeres i terrasses, convida a caminar sense presses vora el Mediterrani."
+      },
+      "atardecerPuerto": {
+        "alt": "Posta de sol espectacular sobre el Port d’Alcudia Mallorca amb velers i cel rogenc reflectit a l’aigua",
+        "caption": "Posta de sol sobre el Port d’Alcúdia: velers, colors impossibles i aquell silenci màgic que només el mar Mediterrani sap crear."
+      }
+    },
     "section1": {
       "title": "Hi ha pobles que es visiten i pobles que es viuen. Alcúdia pertany a la segona categoria.",
       "body": "Molts viatgers que arriben a Mallorca passen per Alcúdia camí de la platja, hi dediquen una hora al casc antic i marxen pensant que ja ho han vist tot. Error. Alcúdia és un d’aquells llocs que necessiten un dia sencer per revelar-se: les seves muralles medievals amaguen racons que no apareixen en la primera passejada, el port té una vida pròpia que mereix temps, i els millors moments arriben quan la llum de la tarda transforma la pedra en or.\n\nEn aquest article et proposem un itinerari complet per aprofitar Alcúdia en un dia, des del primer cafè del matí entre muralles fins a una posta de sol que, si tot va bé, recordaràs durant molt de temps. Sense presses, sense llistes interminables de monuments, sinó gaudint de cada parada com es mereix.\n\nSi ja coneixes la zona, potser t’interessa fer una ullada a la nostra guia sobre [què fer a Alcúdia](https://coralboats.com/cat/blog-details/que-hacer-en-alcudia-planes-imprescindibles) per completar la visita amb més plans. I si és la teva primera vegada, ets al lloc correcte: t’explicarem Alcúdia tal com la coneixem els qui vivim aquí."

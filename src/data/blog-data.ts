@@ -65,12 +65,7 @@ import blogDetailsImg34Secondary3 from '@/assets/img/premium/gallery_new/new_blo
 
 // Blog 34 - Un Día en Alcudia: Casco Antiguo y Puerto
 import blogDetailsImg35 from '@/assets/img/premium/gallery_new/plaza-ayuntamiento-alcudia-torre-reloj.webp';
-import blogDetailsImg35Secondary1 from '@/assets/img/premium/gallery_new/porta-del-moll-muralla-medieval-alcudia.webp';
-import blogDetailsImg35Secondary2 from '@/assets/img/premium/gallery_new/iglesia-sant-jaume-casco-antiguo-alcudia.webp';
-import blogDetailsImg35Secondary3 from '@/assets/img/premium/gallery_new/callejon-tipico-casco-historico-alcudia-mallorca.webp';
-import blogDetailsImg35Secondary4 from '@/assets/img/premium/gallery_new/mercado-semanal-alcudia-murallas-medievales.webp';
-import blogDetailsImg35Secondary5 from '@/assets/img/premium/gallery_new/paseo-maritimo-puerto-alcudia-palmeras.webp';
-import blogDetailsImg35Secondary6 from '@/assets/img/premium/gallery_new/atardecer-puerto-alcudia-veleros-mallorca.webp';
+// Blog 34 secondary images now use sectionImages with string paths
 
 // Blog 12 - Alcanada (imágenes adicionales)
 import blogDetailsImg12Secondary1 from '@/assets/img/premium/gallery_new/faro-alcanada-excursion-barco-alcudia-mallorca.webp';
@@ -2212,6 +2207,8 @@ export const blogDataOne: IBlogDT[] = [
   section3sub2Body: 'blog_treintaydos.section3.sub2.body',
   section3sub3Subtitle: 'blog_treintaydos.section3.sub3.subtitle',
   section3sub3Body: 'blog_treintaydos.section3.sub3.body',
+  section3sub4Subtitle: 'blog_treintaydos.section3.sub4.subtitle',
+  section3sub4Body: 'blog_treintaydos.section3.sub4.body',
   section4Title: 'blog_treintaydos.section4.title',
   section4Body: 'blog_treintaydos.section4.body',
   section4sub1Subtitle: 'blog_treintaydos.section4.sub1.subtitle',
@@ -2226,6 +2223,10 @@ export const blogDataOne: IBlogDT[] = [
   section5sub1Body: 'blog_treintaydos.section5.sub1.body',
   section5sub2Subtitle: 'blog_treintaydos.section5.sub2.subtitle',
   section5sub2Body: 'blog_treintaydos.section5.sub2.body',
+  section5sub3Subtitle: 'blog_treintaydos.section5.sub3.subtitle',
+  section5sub3Body: 'blog_treintaydos.section5.sub3.body',
+  section5sub4Subtitle: 'blog_treintaydos.section5.sub4.subtitle',
+  section5sub4Body: 'blog_treintaydos.section5.sub4.body',
   section6Title: 'blog_treintaydos.section6.title',
   section6Body: 'blog_treintaydos.section6.body',
   section6sub1Subtitle: 'blog_treintaydos.section6.sub1.subtitle',
@@ -2241,6 +2242,104 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_treintaydos.imageAlt',
   imageCaption: 'blog_treintaydos.imageCaption',
+  sectionImages: [
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/parking-puerto-alcudia-gratis-mallorca.webp',
+          alt: 'blog_treintaydos.inlineImages.parkingPuertoGratis.alt',
+          caption: 'blog_treintaydos.inlineImages.parkingPuertoGratis.caption',
+        },
+      ],
+      layout: 'single' as const,
+    },
+  ],
+  sectionMaps: [
+    {
+      section: 3,
+      afterSubsection: 0,
+      lat: 39.83797,
+      lng: 3.14000,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.muelleComercial.caption',
+      googleMapsLink: 'https://maps.app.goo.gl/6UZxxK9iWLkUSz166',
+    },
+    {
+      section: 3,
+      afterSubsection: 3,
+      lat: 39.842996,
+      lng: 3.134879,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.parkingOficialPuerto.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.842996,3.134879',
+    },
+    {
+      section: 4,
+      afterSubsection: 0,
+      lat: 39.831707,
+      lng: 3.115035,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.lagoEsperanza.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.831707,3.115035',
+    },
+    {
+      section: 4,
+      afterSubsection: 1,
+      lat: 39.798483,
+      lng: 3.120003,
+      zoom: 16,
+      caption: 'blog_treintaydos.maps.playaDeMuro.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.798483,3.120003',
+    },
+    {
+      section: 5,
+      afterSubsection: 0,
+      lat: 39.851061,
+      lng: 3.120791,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.exteriorMurallas.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.851061,3.120791',
+    },
+    {
+      section: 5,
+      afterSubsection: 2,
+      lat: 39.854524,
+      lng: 3.125325,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.parkingNorteEste.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.854524,3.125325',
+    },
+    {
+      section: 5,
+      afterSubsection: 2,
+      lat: 39.854930,
+      lng: 3.120207,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.parkingNorte.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.854930,3.120207',
+    },
+    {
+      section: 5,
+      afterSubsection: 2,
+      lat: 39.853719,
+      lng: 3.118651,
+      zoom: 17,
+      caption: 'blog_treintaydos.maps.parkingNoroeste.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.853719,3.118651',
+    },
+    {
+      section: 5,
+      afterSubsection: 3,
+      lat: 39.850679,
+      lng: 3.119714,
+      zoom: 18,
+      caption: 'blog_treintaydos.maps.parkingMercado.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.850679,3.119714',
+    },
+  ],
 },
 
 {
@@ -2295,12 +2394,80 @@ export const blogDataOne: IBlogDT[] = [
   section10Title: 'blog_treintaytres.section10.title',
   section10Body: 'blog_treintaytres.section10.body',
   layout: 'magazine',
+  teaserBanner: {
+    icon: 'fa-solid fa-calendar-days',
+    text: 'blog_treintaytres.teaserBanner.text',
+    linkText: 'blog_treintaytres.teaserBanner.linkText',
+    linkHref: '#calendario',
+  },
+  sectionAnchors: { 8: 'calendario' },
   secondaryImage1: blogDetailsImg34Secondary1,
   secondaryImage2: blogDetailsImg34Secondary2,
   imageAlt: 'blog_treintaytres.imageAlt',
   imageCaption: 'blog_treintaytres.imageCaption',
   secondaryImage1Alt: 'blog_treintaytres.secondaryImage1Alt',
   secondaryImage2Alt: 'blog_treintaytres.secondaryImage2Alt',
+  sectionImages: [
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/mercado-semanal-alcudia-murallas-medievales.webp', alt: 'blog_treintaytres.inlineImages.mercadoAlcudiaMurallas.alt', caption: 'blog_treintaytres.inlineImages.mercadoAlcudiaMurallas.caption' },
+        { src: '/assets/img/premium/gallery_new/sobrasada-mercado-mallorca-tipico-pueblos.webp', alt: 'blog_treintaytres.inlineImages.sobrasadaMercado.alt', caption: 'blog_treintaytres.inlineImages.sobrasadaMercado.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/mercado-pollenca-mallorca-cosas-que-hacer-pueblos.webp', alt: 'blog_treintaytres.inlineImages.mercadoPollenca.alt', caption: 'blog_treintaytres.inlineImages.mercadoPollenca.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/sineu-mallorca-pueblos-mediterraneo-mercado.webp', alt: 'blog_treintaytres.inlineImages.sineuPueblo.alt', caption: 'blog_treintaytres.inlineImages.sineuPueblo.caption' },
+        { src: '/assets/img/premium/gallery_new/mercado-semanal-sineu-puestos-pueblos-mallorca.webp', alt: 'blog_treintaytres.inlineImages.mercadoSineu.alt', caption: 'blog_treintaytres.inlineImages.mercadoSineu.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/coca-de-trempo-mercado-mallorca-pueblos-bonitos-cosas-que-hacer.webp', alt: 'blog_treintaytres.inlineImages.cocaDeTrempo.alt', caption: 'blog_treintaytres.inlineImages.cocaDeTrempo.caption' },
+        { src: '/assets/img/premium/gallery_new/puesto-flores-mercadillo-semanal-inca-mallorca.webp', alt: 'blog_treintaytres.inlineImages.floresInca.alt', caption: 'blog_treintaytres.inlineImages.floresInca.caption' },
+        { src: '/assets/img/premium/gallery_new/iglesia-santa-maria-mayor-inca-pueblos-mallorca.webp', alt: 'blog_treintaytres.inlineImages.iglesiaInca.alt', caption: 'blog_treintaytres.inlineImages.iglesiaInca.caption' },
+      ],
+      layout: 'grid-3',
+    },
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/sobrasada-colgada-venta-mercados-semanales-mallorca.webp', alt: 'blog_treintaytres.inlineImages.sobrasadaColgada.alt', caption: 'blog_treintaytres.inlineImages.sobrasadaColgada.caption' },
+        { src: '/assets/img/premium/gallery_new/ensaimadas-dulces-puesto-mercado-semanal-mallorca.webp', alt: 'blog_treintaytres.inlineImages.ensaimadas.alt', caption: 'blog_treintaytres.inlineImages.ensaimadas.caption' },
+        { src: '/assets/img/premium/gallery_new/pa-amb-oli-comida-tipica-mallorca-gastronomia-balear.webp', alt: 'blog_treintaytres.inlineImages.paAmbOli.alt', caption: 'blog_treintaytres.inlineImages.paAmbOli.caption' },
+      ],
+      layout: 'grid-3',
+    },
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/souvenirs-tipicos-mallorca-siurells-artesania.webp', alt: 'blog_treintaytres.inlineImages.siurells.alt', caption: 'blog_treintaytres.inlineImages.siurells.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {
@@ -2347,20 +2514,89 @@ export const blogDataOne: IBlogDT[] = [
   section9Title: 'blog_treintaycuatro.section9.title',
   section9Body: 'blog_treintaycuatro.section9.body',
   layout: 'magazine',
-  secondaryImage1: blogDetailsImg35Secondary1,
-  secondaryImage2: blogDetailsImg35Secondary2,
-  secondaryImage3: blogDetailsImg35Secondary3,
-  secondaryImage4: blogDetailsImg35Secondary4,
-  secondaryImage5: blogDetailsImg35Secondary5,
-  secondaryImage6: blogDetailsImg35Secondary6,
   imageAlt: 'blog_treintaycuatro.imageAlt',
   imageCaption: 'blog_treintaycuatro.imageCaption',
-  secondaryImage1Alt: 'blog_treintaycuatro.secondaryImage1Alt',
-  secondaryImage2Alt: 'blog_treintaycuatro.secondaryImage2Alt',
-  secondaryImage3Alt: 'blog_treintaycuatro.secondaryImage3Alt',
-  secondaryImage4Alt: 'blog_treintaycuatro.secondaryImage4Alt',
-  secondaryImage5Alt: 'blog_treintaycuatro.secondaryImage5Alt',
-  secondaryImage6Alt: 'blog_treintaycuatro.secondaryImage6Alt',
+  heroInlineCaption: 'blog_treintaycuatro.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 2,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/alcudia-village-market-and-things-to-visit-with-families.webp', alt: 'blog_treintaycuatro.inlineImages.alcudiaVillage.alt', caption: 'blog_treintaycuatro.inlineImages.alcudiaVillage.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/porta-del-moll-muralla-medieval-alcudia.webp', alt: 'blog_treintaycuatro.inlineImages.portaDelMoll.alt', caption: 'blog_treintaycuatro.inlineImages.portaDelMoll.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/iglesia-sant-jaume-casco-antiguo-alcudia.webp', alt: 'blog_treintaycuatro.inlineImages.iglesiaSantJaume.alt', caption: 'blog_treintaycuatro.inlineImages.iglesiaSantJaume.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/callejon-tipico-casco-historico-alcudia-mallorca.webp', alt: 'blog_treintaycuatro.inlineImages.callejonHistorico.alt', caption: 'blog_treintaycuatro.inlineImages.callejonHistorico.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/bullit-de-peix-y-arroz-a-banda-plato-balear-tipico.webp', alt: 'blog_treintaycuatro.inlineImages.bullitDePeix.alt', caption: 'blog_treintaycuatro.inlineImages.bullitDePeix.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/mercado-semanal-alcudia-murallas-medievales.webp', alt: 'blog_treintaycuatro.inlineImages.mercadoAlcudia.alt', caption: 'blog_treintaycuatro.inlineImages.mercadoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/alcudia-port-plans-things-to-do.webp', alt: 'blog_treintaycuatro.inlineImages.alcudiaPort.alt', caption: 'blog_treintaycuatro.inlineImages.alcudiaPort.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/port-of-alcudia-ice-cream-summer-majorca-things-to-do.webp', alt: 'blog_treintaycuatro.inlineImages.iceCreamPort.alt', caption: 'blog_treintaycuatro.inlineImages.iceCreamPort.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/paseo-maritimo-puerto-alcudia-palmeras.webp', alt: 'blog_treintaycuatro.inlineImages.paseoMaritimo.alt', caption: 'blog_treintaycuatro.inlineImages.paseoMaritimo.caption' },
+        { src: '/assets/img/premium/gallery_new/atardecer-puerto-alcudia-veleros-mallorca.webp', alt: 'blog_treintaycuatro.inlineImages.atardecerPuerto.alt', caption: 'blog_treintaycuatro.inlineImages.atardecerPuerto.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {

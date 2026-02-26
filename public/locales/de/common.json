@@ -3321,8 +3321,8 @@
     }
   },
   "blog_treintaydos": {
-    "metaTitle": "Parken in Alcudia 2026: Kostenlos Parken im Hafen, am Strand & in der Altstadt | Coral Boats",
-    "metaDescription": "Vollständiger Parkplatz-Guide für Alcudia: Kostenlose Zonen, gebührenpflichtige Parkplätze, Blaue Zone und Tipps zum Parken im Hafen von Alcudia, Playa de Muro und im historischen Zentrum.",
+    "metaTitle": "Parken in Alcudia 2026: Karte mit genauen Standorten zum kostenlosen Parken in Stadt, Hafen & Strand",
+    "metaDescription": "Vollständiger Parkplatz-Guide für Alcudia: Kostenlose Zonen, gebührenpflichtige Parkplätze, Blaue Zone und Tipps zum Parken im Hafen von Alcudia, Playa de Muro und im historischen Zentrum. Mit interaktiven Karten und dem genauen Standort jedes Parkplatzes.",
     "badgeTitle": "Praktische Informationen",
     "title": "Parken in Alcudia: Der Guide, den du brauchst, um im Norden Mallorcas stressfrei zu parken",
     "slug": "parken-alcudia-kostenlos-parkplatz-hafen-strand",
@@ -3333,6 +3333,41 @@
     "imagePath": "/assets/img/premium/gallery_new/new_blog/parking-alcudia-free-spots-best-palces-to-park-your-car-mallorca.webp",
     "imageAlt": "Kostenloses Parken in Alcudia Mallorca in der Nähe des Hafens und des Strandes mit geparkten Autos",
     "imageCaption": "Kostenlose Parkzone in der Nähe des Hafens von Alcudia – diese Plätze zu kennen kann dir Zeit, Geld und Frustration während deines Besuchs im Norden Mallorcas sparen.",
+    "maps": {
+      "muelleComercial": {
+        "caption": "Lage des kostenlosen Parkplatzes am Handelskai und Fährterminal in Alcudia"
+      },
+      "parkingOficialPuerto": {
+        "caption": "Lage des offiziellen kostenlosen Parkplatzes am Hafen von Alcudia, neben dem Sportbereich"
+      },
+      "lagoEsperanza": {
+        "caption": "Gegend Lago Esperanza: Wohnstraßen mit reichlich kostenlosem Parken, 10 Minuten vom Strand von Alcudia"
+      },
+      "playaDeMuro": {
+        "caption": "Ab diesem Punkt findest du große kostenlose Parkflächen (weiße Zone), die Playa de Muro liegt nur Minuten entfernt"
+      },
+      "exteriorMurallas": {
+        "caption": "Kostenloser Parkplatz direkt vor den Mauern der Altstadt von Alcudia"
+      },
+      "parkingNorteEste": {
+        "caption": "Kostenloser Parkplatz nordöstlich der Altstadt von Alcudia, 3 Gehminuten von den Mauern"
+      },
+      "parkingNorte": {
+        "caption": "Kostenloser Parkplatz nördlich von Alcudia, direkter Zugang zur Altstadt in 4 Minuten"
+      },
+      "parkingNoroeste": {
+        "caption": "Kostenloser Parkplatz nordwestlich von Alcudia, ruhige Lage 5 Minuten vom historischen Zentrum"
+      },
+      "parkingMercado": {
+        "caption": "Unbefestigter Ausweichparkplatz an Markttagen, 1 Gehminute vom Markt in Alcudia"
+      }
+    },
+    "inlineImages": {
+      "parkingPuertoGratis": {
+        "alt": "Offizieller kostenloser Parkplatz am Hafen von Alcudia Mallorca mit breiten Stellplätzen und Zugang zur Promenade",
+        "caption": "Der offizielle kostenlose Parkplatz am Hafen von Alcudia: geräumig, asphaltiert und nur 5 Minuten von der Promenade entfernt. Einer der besten Orte, um im Norden Mallorcas kostenlos zu parken."
+      }
+    },
     "section1": {
       "title": "Der Parkplatz-Albtraum im Sommer (und wie man ihn vermeidet)",
       "body": "Du kommst in Alcudia mit deinem Mietwagen an, voller Vorfreude. Das GPS sagt, du bist da. Die Sonne scheint. Das Meer wartet. Und dann beginnt die Qual: Runde um Runde drehen auf der Suche nach einer Lücke, die nicht ein Vermögen kostet oder dir einen Strafzettel einbringt.\n\nWenn du in der Hochsaison auf Mallorca warst, kennst du dieses Gefühl wahrscheinlich schon. **Parken in Alcudia** kann zu einer echten Odyssee werden, wenn man nicht weiß, wo man suchen soll. Kein Wunder: Wir sprechen von einem der meistbesuchten Ziele der Insel mit Tausenden von Touristen, die täglich mit dem Mietwagen anreisen.\n\nAber hier ist die gute Nachricht: **Parken in Alcudia muss kein Drama sein**. Es gibt kostenlose Zonen, angemessene gebührenpflichtige Parkplätze und Tricks, die wir Einheimischen gut kennen. Du musst nur wissen, wo du suchen musst.\n\nIn diesem Artikel geben wir dir die komplette Karte für das Parken im Norden Mallorcas. Vom Hafen von Alcudia bis Playa de Muro, über die Altstadt bis hin zu weniger bekannten Gegenden. Kostenlose Zonen, Blaue Zonen, Privatparkplätze und vor allem die Tipps, die den Unterschied machen, ob du in fünf Minuten parkst oder eine halbe Stunde in der Augustsonne im Kreis fährst.\n\nWenn du mit dem Auto kommst, um [Alcudia zu erkunden](https://coralboats.com/de/blog-details/que-hacer-en-alcudia-planes-imprescindibles), ist das hier für dich."
@@ -3350,11 +3385,15 @@
       },
       "sub2": {
         "subtitle": "Uferpromenade und erste Strandlinie → Blaue Zone (gebührenpflichtig)",
-        "body": "Die gesamte Promenade von Port d'Alcudia, vom Club Náutico bis zum Ende der Restaurantmeile, ist regulierte Blaue Zone. Das sind bequeme Plätze, weil man nah an allem ist, aber:\n\n**→** Höchstparkdauer 2 Stunden in den meisten Abschnitten\n**→** Preis ca. 1,80 €/Stunde\n**→** Im August ist es fast ein Wunder, hier eine Lücke zu finden\n\nWenn du nur kurz anhalten musst, um etwas abzuholen oder schnell zu essen, kann das funktionieren. Für den ganzen Tag solltest du nach Alternativen suchen."
+        "body": "Die gesamte Promenade von Port d'Alcudia, vom Club Náutico Alcudiamar bis zum Ende der Restaurantmeile, ist regulierte Blaue Zone. Das sind bequeme Plätze, weil man nah an allem ist, aber:\n\n**→** Höchstparkdauer 2 Stunden in den meisten Abschnitten\n**→** Preis ca. 1,80 €/Stunde\n**→** Im August ist es fast ein Wunder, hier eine Lücke zu finden\n\nWenn du nur kurz anhalten musst, um etwas abzuholen oder schnell zu essen, kann das funktionieren. Für den ganzen Tag solltest du nach Alternativen suchen."
       },
       "sub3": {
         "subtitle": "Innenstraßen des Hafens → Gemischt",
         "body": "Wenn du in die Straßen hinter der Promenade fährst (Carrer dels Mariners, Carrer de la Mar usw.), findest du eine Mischung aus Blauer Zone und freien Plätzen. Die Faustregel: Je weiter du dich vom Meer entfernst, desto einfacher ist es, kostenlose Parkplätze zu finden.\n\n**Insider-Tipp**: In den Querstraßen zur Promenade, im zweiten und dritten Abschnitt von der Küste aus, gibt es meist weiße Plätze. Du läufst 5–7 Minuten zum Strand, sparst dir aber die Parkgebühren und den Stress."
+      },
+      "sub4": {
+        "subtitle": "BONUS → Offizieller kostenloser Parkplatz am Hafen von Alcudia",
+        "body": "Das ist das bestgehütete Geheimnis des Hafens. Es gibt einen **offiziellen, komplett kostenlosen Parkplatz** neben dem Sportbereich des Hafens von Alcudia, nur 5 Gehminuten von der Promenade und der Restaurantzone entfernt.\n\nEs ist ein großer, asphaltierter Parkplatz ohne Zeitbegrenzung. Perfekt, wenn du den Tag am Hafen verbringen, einen [Bootsausflug](https://coralboats.com/de/boat-tours-alcudia) genießen oder einfach durch die Gegend schlendern willst. Im Gegensatz zu den Plätzen am Handelskai wird dieser Parkplatz selbst im Hochsommer kaum voll.\n\n**Unser Tipp**: Kombiniere diesen Parkplatz mit einem Spaziergang zum Hafen. Du kommst entspannt an, ohne im Kreis gefahren zu sein, und dein Auto steht den ganzen Tag kostenlos und sicher."
       }
     },
     "section4": {
@@ -3378,19 +3417,27 @@
       "body": "Die ummauerte Altstadt von Alcudia gehört zu den [absoluten Sehenswürdigkeiten](https://coralboats.com/de/blog-details/que-hacer-en-alcudia-planes-imprescindibles), aber das Parken innerhalb oder in der Nähe kann eine Herausforderung sein. Die Straßen sind eng, viele sind Fußgängerzonen und Plätze sind knapp.",
       "sub1": {
         "subtitle": "Außerhalb der Stadtmauern → Deine beste Option",
-        "body": "Die kluge Strategie ist, **außerhalb der Stadtmauer zu parken** und hineinzulaufen. Es gibt mehrere gute Bereiche:\n\n**→ Carrer de la Rectoria und Umgebung**: Direkt nördlich der Mauer, gemischte Zone mit vielen freien Plätzen.\n**→ Bereich Poliesportiu (Sportzentrum)**: Großer kostenloser Parkplatz, 5 Minuten zu Fuß von der Porta de Mallorca entfernt.\n**→ Carrer des Moll**: Östlich der Altstadt, weiße Plätze in Wohnstraßen.\n\nDie Altstadt ist klein und in 20 Minuten durchquert. Parke 5–10 Minuten von der Mauer entfernt und genieße den Spaziergang."
+        "body": "Die kluge Strategie ist, **außerhalb der Stadtmauer zu parken** und hineinzulaufen. Es gibt mehrere gute Bereiche:\n\n**→ Kostenloser Parkplatz vor der Stadtmauer**: Direkt vor dem Mauerring gibt es einen kostenlosen Parkplatz, der meist freie Plätze hat. Falls er voll ist, kannst du über die **Carrer Quint Cecili Metel** fahren, wo es einen weiteren kostenlosen Parkplatz nur wenige Meter entfernt gibt — [Standort auf Google Maps ansehen](https://maps.google.com/?q=39.850652,3.125095).\n\n**→ Bereich Poliesportiu (Sportzentrum)**: Großer kostenloser Parkplatz, 5 Minuten zu Fuß von der Porta de Mallorca entfernt.\n\n**→ Carrer des Moll**: Östlich der Altstadt, weiße Plätze in Wohnstraßen.\n\nDie Altstadt ist klein und in 20 Minuten durchquert. Parke 5–10 Minuten von der Mauer entfernt und genieße den Spaziergang."
       },
       "sub2": {
         "subtitle": "Markttage → Besondere Vorsicht",
         "body": "Jeden **Dienstag und Sonntag** findet in der Altstadt der Markt statt, und das Parkchaos vervielfacht sich. Wenn möglich, vermeide es, an diesen Tagen mit dem Auto zu kommen, oder sei sehr früh da (vor 9:00 Uhr). Der Sonntagsmarkt ist besonders gut besucht.\n\nAlternative: Parke im Hafen (wo es Platz gibt) und laufe 15–20 Minuten zur Altstadt. Der Weg ist schön und du vermeidest den Stress."
+      },
+      "sub3": {
+        "subtitle": "Weitere kostenlose Parkplätze auf der anderen Seite der Stadt",
+        "body": "Wenn du von der Straße aus Pollença oder von Norden nach Alcudia kommst, gibt es **drei völlig kostenlose Parkbereiche** auf der anderen Seite der Altstadt, die viele Besucher nicht kennen. Sie sind nur wenige Gehminuten von den Mauern entfernt und haben immer Platz, selbst im Hochsommer.\n\nEs sind großzügige Parkplätze ohne Zeitbegrenzung oder Blaue Zone. Perfekt, um das Auto abzustellen und die Stadt in Ruhe zu erkunden. Die Entfernung zum Zentrum der Altstadt beträgt nur 3–5 Minuten zu Fuß."
+      },
+      "sub4": {
+        "subtitle": "LOKALES GEHEIMNIS → Ausweichparkplatz an Markttagen",
+        "body": "Das ist ein Trick, den nur sehr wenige Leute kennen. An Markttagen (Dienstag und Sonntag) wird ein **unbefestigter Ausweichparkplatz** direkt neben der Altstadt eröffnet. Er liegt buchstäblich **1 Minute Fußweg vom Markt entfernt** und es gibt immer mehr als genug Platz.\n\nWährend alle anderen im Kreis fahren und nach einem Platz in den umliegenden Straßen suchen, kannst du direkt zu diesem Parkplatz fahren und stressfrei zum Markt gehen. Er ist kostenlos und ohne Zeitbegrenzung."
       }
     },
     "section6": {
       "title": "Private Parkhäuser: Wann sie sich lohnen",
       "body": "Wenn alles andere fehlschlägt oder du es einfach unkompliziert haben willst, gibt es private Parkplätze, die einen Platz garantieren. Sie kosten mehr, aber manchmal ist Seelenfrieden den Preis wert.",
       "sub1": {
-        "subtitle": "Hafenparkplatz (beim Club Náutico)",
-        "body": "Er ist der bekannteste und zentralste Parkplatz. Er liegt direkt beim Yachtclub, nur zwei Schritte von der Promenade und den Restaurants entfernt.\n\n**→** Preis ca. 2–3 €/Stunde, Tagesmaximum ca. 15–20 €\n**→** Überwacht und teilweise schattig\n**→** Im August kann er ab dem Mittag voll sein\n\nEr lohnt sich, wenn du den Tag im Hafen verbringst und dir keine Sorgen machen willst. Für einen kurzen Besuch probiere erst die kostenlosen Alternativen."
+        "subtitle": "Hafenparkplatz (beim Club Náutico Alcudiamar)",
+        "body": "Er ist der bekannteste und zentralste Parkplatz. Er liegt direkt beim Yachtclub Alcudiamar, nur zwei Schritte von der Promenade und den Restaurants entfernt.\n\n**→** Preis ca. 2–3 €/Stunde, Tagesmaximum ca. 15–20 €\n**→** Überwacht und teilweise schattig\n**→** Im August kann er ab dem Mittag voll sein\n\nEr lohnt sich, wenn du den Tag im Hafen verbringst und dir keine Sorgen machen willst. Für einen kurzen Besuch probiere erst die kostenlosen Alternativen."
       },
       "sub2": {
         "subtitle": "Hotel- und Einkaufszentrum-Parkplätze",
@@ -3420,11 +3467,65 @@
     "meta_description": "Ihr ultimativer Guide für Märkte auf Mallorca: Alcudia, Pollença, Sineu, Inca und mehr. Tage, Zeiten, Kauftipps, authentisches Handwerk und Geheimnisse, die nur Einheimische kennen. Aktualisiert 2026.",
     "publishedDate": "24. Januar 2026",
     "btnText": "Mehr lesen",
+    "teaserBanner": {
+      "text": "Suchen Sie den vollständigen Marktkalender Tag für Tag? Am Ende dieses Artikels finden Sie unseren Wochenkalender mit allen Märkten in jedem Ort auf Mallorca.",
+      "linkText": "Zum Wochenkalender springen"
+    },
     "imagePath": "/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp",
     "imageAlt": "Markt in Alcudia Mallorca mit handgemachtem Käse und typisch mallorquinischer Sobrasada",
     "imageCaption": "Traditioneller Stand auf dem Markt von Alcudia mit mallorquinischem Handwerkskäse und Sobrasada – die authentischen Geschmäcker der Insel, die du jeden Dienstag und Sonntag in der Altstadt findest.",
     "secondaryImage1Alt": "Mallorquinisches Handwerk mit traditionellen 'Telas de Lenguas' Stoffen auf dem Markt von Alcudia",
     "secondaryImage2Alt": "Wochenmarkt in der Altstadt von Alcudia Mallorca mit typischen Ständen",
+    "inlineImages": {
+      "mercadoAlcudiaMurallas": {
+        "alt": "Wochenmarkt von Alcudia neben den mittelalterlichen Stadtmauern mit Ständen lokaler mallorquinischer Produkte",
+        "caption": "Der Wochenmarkt von Alcudia erstreckt sich entlang der mittelalterlichen Mauern aus dem 14. Jahrhundert — ein einzigartiges Ambiente, in dem Tradition und historisches Erbe jeden Dienstag und Sonntag verschmelzen."
+      },
+      "sobrasadaMercado": {
+        "alt": "Stand mit handwerklicher Sobrasada und typisch mallorquinischen Wurstwaren auf einem Wochenmarkt Mallorcas",
+        "caption": "Mallorquinische Sobrasada, der unbestrittene Star der Inselmärkte: Achte auf das IGP-Siegel und probiere vor dem Kauf."
+      },
+      "mercadoPollenca": {
+        "alt": "Sonntagsmarkt von Pollença auf Mallorca an der Plaza Major mit Kunsthandwerksständen und Terrassencafés",
+        "caption": "Der Sonntagsmarkt von Pollença an der Plaza Major: Kunst, Handwerk und der beste Wermut am Vormittag, umgeben von charmanten Straßencafés."
+      },
+      "sineuPueblo": {
+        "alt": "Blick auf das Dorf Sineu Mallorca mit typischen Steinhäusern im Inselinneren und mediterranem Flair",
+        "caption": "Sineu im Herzen Mallorcas bewahrt die Essenz des Inselinneren: Steinhäuser, ruhige Gassen und ein Markt mit über 700 Jahren Geschichte."
+      },
+      "mercadoSineu": {
+        "alt": "Stände des Wochenmarkts von Sineu Mallorca mit handwerklichen Lokalprodukten aus den Dörfern im Inselinneren",
+        "caption": "Der Mittwochsmarkt von Sineu: der authentischste auf Mallorca, wo Bauern aus dem Landesinneren ihre Produkte noch wie seit Jahrhunderten verkaufen."
+      },
+      "cocaDeTrempo": {
+        "alt": "Coca de Trempo typisches mallorquinisches Gemüsegericht auf einem Markt in einem der schönen Dörfer Mallorcas",
+        "caption": "Coca de Trempo, eine mallorquinische Spezialität mit dünnem Teig und frischem Saisongemüse — ein Muss bei jedem kulinarischen Stopp auf den Inselmärkten."
+      },
+      "floresInca": {
+        "alt": "Blumen- und Pflanzenstand auf dem wöchentlichen Dijous-Markt in Inca Mallorca",
+        "caption": "Frische Blumen und mediterrane Pflanzen auf dem Dijous d'Inca: Mallorcas größter Markt füllt jeden Donnerstag die Straßen mit Farbe."
+      },
+      "iglesiaInca": {
+        "alt": "Kirche Santa Maria la Mayor in Inca Mallorca mit typischer Steinfassade der Dörfer im Inselinneren",
+        "caption": "Die Kirche Santa Maria la Mayor thront über Inca, der mallorquinischen Schuhhauptstadt und Standort des größten Wochenmarkts der Insel jeden Donnerstag."
+      },
+      "sobrasadaColgada": {
+        "alt": "Mallorquinische Sobrasada hängend an einem Marktstand auf den Wochenmärkten Mallorcas",
+        "caption": "Reihen handwerklicher Sobrasada hängend am Marktstand: Mallorcas Wurst-Star, langsam gereift und aus einheimischem schwarzem Schwein hergestellt."
+      },
+      "ensaimadas": {
+        "alt": "Ensaimadas und typisch mallorquinische Süßwaren an einem Wochenmarktstand auf Mallorca",
+        "caption": "Frisch gebackene Ensaimadas mit ihrer charakteristischen Spiralform: Mallorcas ikonischstes Gebäck, nach traditionellem Rezept mit Saïm (Schweineschmalz) hergestellt."
+      },
+      "paAmbOli": {
+        "alt": "Pa amb Oli typisch mallorquinisches Essen mit Ramallet-Tomate Olivenöl und Wurstwaren balearische Küche",
+        "caption": "Pa amb Oli: rustikales Brot mit Ramallet-Tomate, nativem Olivenöl und mallorquinischer Wurst. Die Essenz der balearischen Küche in ihrer einfachsten und köstlichsten Form."
+      },
+      "siurells": {
+        "alt": "Siurells traditionelle Tonfiguren aus Mallorca und handwerkliche Insel-Souvenirs an einem Marktstand",
+        "caption": "Siurells, die handbemalten weißen Tonfiguren, die das authentischste Souvenir Mallorcas sind: ursprünglich Kinderpfeifen, heute Symbole der Inselhandwerkskunst."
+      }
+    },
     "section1": {
       "title": "Die Seele Mallorcas wird am Dienstagmorgen verkauft",
       "body": "Es gibt ein Mallorca, das nicht auf den Postkarten mit türkisfarbenem Wasser zu sehen ist. Ein Mallorca, das nach frisch geschnittener Sobrasada, Bergkräutern und warmem Bauernbrot riecht. Ein Mallorca, auf dem die Dorffrauen noch immer um den Preis der Tomaten feilschen und auf dem ein älterer Herr Ihnen erzählen kann, wie seine Großmutter vor sechzig Jahren das Tumbet zubereitet hat.\n\nDieses Mallorca findet man auf den **Wochenmärkten**.\n\nJedes Dorf auf der Insel hat seinen Markttag. Diese Tradition reicht Jahrhunderte zurück, als die Bauern aus den Bergen herabkamen, um ihre Erzeugnisse zu verkaufen, und die Fischer mit dem Fang der Nacht vom Hafen heraufkamen. Heute sind die mallorquinischen Märkte eine Mischung aus lebendiger Tradition und Touristenattraktion, aber wenn man weiß, wo man suchen muss, findet man immer noch die authentische Essenz.\n\nDer **Markt von Alcudia**, der von Pollença, das mythische Sineu, der riesige Markt von Inca... jeder hat seinen eigenen Charakter, seine Star-Produkte und seine besondere Atmosphäre. In diesem Artikel verraten wir Ihnen alles, was Sie wissen müssen, um das Erlebnis der mallorquinischen Märkte voll auszuschöpfen: an welchen Tagen man geht, was man kaufen sollte, was man vermeiden sollte und jene kleinen Geheimnisse, die den Unterschied ausmachen, ob man nur ein Tourist ist oder den Markt wie ein Einheimischer erlebt.\n\nUnd wenn Sie bis zum Ende lesen, verraten wir Ihnen, wie unsere zu 100 % mallorquinische Crew Ihnen helfen kann, gastronomische Ecken zu entdecken, die in keinem Reiseführer stehen."
@@ -3519,12 +3620,49 @@
     "btnText": "Mehr lesen",
     "imageAlt": "Rathausplatz von Alcúdia mit dem Uhrturm und typischen mallorquinischen Fassaden unter blauem Himmel",
     "imageCaption": "Der Rathausplatz von Alcúdia mit seinem charakteristischen Uhrturm ist das Herz der Altstadt und der perfekte Ausgangspunkt, um dieses mittelalterliche Dorf auf Mallorca zu erkunden.",
-    "secondaryImage1Alt": "Porta del Moll Haupteingang zu den mittelalterlichen Stadtmauern der Altstadt von Alcudia Mallorca mit Palmen",
-    "secondaryImage2Alt": "Kirche Sant Jaume in der Altstadt von Alcudia Mallorca gotische Fassade mit steinernem Rosettenfenster",
-    "secondaryImage3Alt": "Typische Gasse im historischen Zentrum von Alcudia Mallorca mit Steintreppen und grünen Fensterläden",
-    "secondaryImage4Alt": "Wöchentlicher Open-Air-Markt neben den mittelalterlichen Stadtmauern von Alcudia Mallorca mit Obst- und Gemüseständen",
-    "secondaryImage5Alt": "Uferpromenade im Hafen von Alcudia Mallorca mit Palmen und Terrassen direkt am Meer",
-    "secondaryImage6Alt": "Spektakulärer Sonnenuntergang über dem Hafen von Alcudia Mallorca mit Segelbooten und rötlichem Himmel, der sich im Wasser spiegelt",
+    "heroInlineCaption": "Der Rathausplatz von Alcúdia, Treffpunkt und Herz der mittelalterlichen Altstadt.",
+    "inlineImages": {
+      "alcudiaVillage": {
+        "alt": "Dorf Alcúdia mit Straßenmarkt und Familien beim Spaziergang zwischen den mittelalterlichen Mauern Mallorcas",
+        "caption": "Alcúdia vereint mittelalterliche Geschichte und familienfreundliches Flair: ein Ort zum Erleben, nicht nur zum Besichtigen."
+      },
+      "portaDelMoll": {
+        "alt": "Porta del Moll Haupteingang zu den mittelalterlichen Stadtmauern der Altstadt von Alcudia Mallorca mit Palmen",
+        "caption": "Die Porta del Moll, Wahrzeichen Alcúdias, heißt Besucher seit dem 14. Jahrhundert mit ihrem goldenen Steinturm und Palmen willkommen."
+      },
+      "iglesiaSantJaume": {
+        "alt": "Kirche Sant Jaume in der Altstadt von Alcudia Mallorca gotische Fassade mit steinernem Rosettenfenster",
+        "caption": "Die Kirche Sant Jaume mit ihrer imposanten gotischen Rosette diente einst als Zuflucht vor Piraten und ist noch heute das spirituelle Herz des Ortes."
+      },
+      "callejonHistorico": {
+        "alt": "Typische Gasse im historischen Zentrum von Alcudia Mallorca mit Steintreppen und grünen Fensterläden",
+        "caption": "Sich in den gepflasterten Gassen von Alcúdia zu verlieren ist der beste Weg, die mittelalterliche Seele des Dorfes zu entdecken."
+      },
+      "bullitDePeix": {
+        "alt": "Bullit de Peix und Arroz a Banda typisches balearisches Gericht in einem Restaurant serviert",
+        "caption": "Mallorquinische Küche in ihrer Essenz: Bullit de Peix und Arroz a Banda – Gerichte, die die maritime Geschichte der Insel erzählen."
+      },
+      "mercadoAlcudia": {
+        "alt": "Wöchentlicher Open-Air-Markt neben den mittelalterlichen Stadtmauern von Alcudia Mallorca mit Obst- und Gemüseständen",
+        "caption": "Der Wochenmarkt von Alcúdia, eingebettet zwischen mittelalterlichen Mauern, ist eine Explosion lokaler Farben, Düfte und Aromen."
+      },
+      "alcudiaPort": {
+        "alt": "Hafen von Alcúdia Mallorca mit festgemachten Booten und palmengesäumter Promenade",
+        "caption": "Der Hafen von Alcúdia bietet einen völligen Szenenwechsel: Meeresbrise, Segelboote und Terrassen mit Blick auf das Mittelmeer."
+      },
+      "iceCreamPort": {
+        "alt": "Handwerkliches Eis und Terrasse am Meer im Hafen von Alcúdia Mallorca im Sommer",
+        "caption": "Ein handwerkliches Eis am Meer: das kleine Vergnügen, das einen Nachmittag im Hafen von Alcúdia zur perfekten Erinnerung macht."
+      },
+      "paseoMaritimo": {
+        "alt": "Uferpromenade im Hafen von Alcudia Mallorca mit Palmen und Terrassen direkt am Meer",
+        "caption": "Die Hafenpromenade von Alcúdia mit ihren Palmen und Terrassen lädt zum gemütlichen Flanieren am Mittelmeer ein."
+      },
+      "atardecerPuerto": {
+        "alt": "Spektakulärer Sonnenuntergang über dem Hafen von Alcudia Mallorca mit Segelbooten und rötlichem Himmel",
+        "caption": "Sonnenuntergang über dem Hafen von Alcúdia: Segelboote, unmögliche Farben und jene magische Stille, die nur das Mittelmeer erschaffen kann."
+      }
+    },
     "section1": {
       "title": "Es gibt Orte, die man besucht. Und Orte, die man erlebt. Alcúdia gehört zur zweiten Kategorie.",
       "body": "Viele Reisende, die nach Mallorca kommen, fahren durch Alcúdia auf dem Weg zum Strand, verbringen eine Stunde in der Altstadt und gehen mit dem Gefühl, alles gesehen zu haben. Ein Irrtum. Alcúdia ist einer dieser Orte, die einen ganzen Tag brauchen, um sich zu zeigen: Hinter den mittelalterlichen Mauern verbergen sich Ecken, die man beim ersten Spaziergang nicht entdeckt, der Hafen hat ein eigenes Leben, das Zeit verdient, und die schönsten Momente entstehen, wenn das Nachmittagslicht den Stein in Gold verwandelt.\n\nIn diesem Artikel schlagen wir dir eine komplette Route vor, um Alcúdia an einem Tag voll auszukosten – vom ersten Kaffee am Morgen innerhalb der Mauern bis zu einem Sonnenuntergang, an den du dich noch lange erinnern wirst. Ohne Eile, ohne endlose Listen von Sehenswürdigkeiten, sondern mit dem Anspruch, jeden Halt wirklich zu genießen.\n\nWenn du die Gegend bereits kennst, interessiert dich vielleicht unser Guide zu [was man in Alcúdia unternehmen kann](https://coralboats.com/de/blog-details/que-hacer-en-alcudia-planes-imprescindibles), um deinen Besuch mit weiteren Ideen zu ergänzen. Und wenn es dein erstes Mal ist, bist du hier genau richtig: Wir erzählen dir von Alcúdia so, wie wir es kennen – diejenigen, die hier leben."

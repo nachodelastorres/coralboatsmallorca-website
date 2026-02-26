@@ -116,6 +116,13 @@ function translateBlogPost(
     })),
   }));
 
+  // Translate sectionMaps caption keys
+  const translatedSectionMaps = (blog.sectionMaps || []).map(m => ({
+    ...m,
+    zoom: m.zoom || 17,
+    caption: translateKey(t, m.caption),
+  }));
+
   return {
     // Basic info
     title: translateKey(t, blog.title),
@@ -194,6 +201,20 @@ function translateBlogPost(
 
     // Inline section images
     sectionImages: translatedSectionImages.length > 0 ? translatedSectionImages : undefined,
+
+    // Inline maps
+    sectionMaps: translatedSectionMaps.length > 0 ? translatedSectionMaps : undefined,
+
+    // Teaser banner
+    teaserBanner: blog.teaserBanner ? {
+      icon: blog.teaserBanner.icon,
+      text: translateKey(t, blog.teaserBanner.text),
+      linkText: translateKey(t, blog.teaserBanner.linkText),
+      linkHref: blog.teaserBanner.linkHref,
+    } : undefined,
+
+    // Section anchors (pass-through, no translation needed)
+    sectionAnchors: blog.sectionAnchors,
   };
 }
 

@@ -3322,8 +3322,8 @@
     }
   },
   "blog_treintaydos": {
-    "metaTitle": "Parking à Alcudia 2026 : Où se garer gratuitement au Port, à la Plage et en Vieille Ville | Coral Boats",
-    "metaDescription": "Guide complet du stationnement à Alcudia : zones gratuites, parkings payants, zone bleue et astuces pour se garer au Port d'Alcudia, à Playa de Muro et dans le centre historique.",
+    "metaTitle": "Parking à Alcudia 2026 : Carte avec Emplacements Exacts pour se Garer Gratuitement Village, Port et Plage",
+    "metaDescription": "Guide complet du stationnement à Alcudia : zones gratuites, parkings payants, zone bleue et astuces pour se garer au Port d'Alcudia, à Playa de Muro et dans le centre historique. Inclut des cartes interactives avec l'emplacement exact de chaque parking.",
     "badgeTitle": "Informations pratiques",
     "title": "Parking à Alcudia : la carte dont vous avez besoin pour vous garer sans stress au nord de Majorque",
     "slug": "parking-alcudia-où-se-garer-gratuitement-port-plage",
@@ -3334,6 +3334,41 @@
     "imagePath": "/assets/img/premium/gallery_new/new_blog/parking-alcudia-free-spots-best-palces-to-park-your-car-mallorca.webp",
     "imageAlt": "Parking gratuit à Alcudia Majorque près du port et de la plage avec des voitures garées",
     "imageCaption": "Zone de stationnement gratuit près du port d'Alcudia – connaître ces emplacements peut vous faire économiser du temps, de l'argent et de la frustration lors de votre visite dans le nord de Majorque.",
+    "maps": {
+      "muelleComercial": {
+        "caption": "Emplacement du parking gratuit au quai commercial et à la gare maritime d'Alcudia"
+      },
+      "parkingOficialPuerto": {
+        "caption": "Emplacement du parking officiel gratuit du Port d'Alcudia, à côté de la zone sportive"
+      },
+      "lagoEsperanza": {
+        "caption": "Zone Lago Esperanza : rues résidentielles avec beaucoup de parking gratuit, à 10 minutes de la plage d'Alcudia"
+      },
+      "playaDeMuro": {
+        "caption": "À partir de ce point, vous trouverez de vastes zones de parking gratuit (zone blanche), la Playa de Muro à quelques minutes seulement"
+      },
+      "exteriorMurallas": {
+        "caption": "Parking gratuit juste en face des murailles de la vieille ville d'Alcudia"
+      },
+      "parkingNorteEste": {
+        "caption": "Parking gratuit au nord-est de la vieille ville d'Alcudia, à 3 minutes à pied des murailles"
+      },
+      "parkingNorte": {
+        "caption": "Parking gratuit au nord d'Alcudia, accès direct à la vieille ville en 4 minutes"
+      },
+      "parkingNoroeste": {
+        "caption": "Parking gratuit au nord-ouest d'Alcudia, zone tranquille à 5 minutes du centre historique"
+      },
+      "parkingMercado": {
+        "caption": "Parking en terre de dissuasion ouvert les jours de marché, à 1 minute à pied du marché d'Alcudia"
+      }
+    },
+    "inlineImages": {
+      "parkingPuertoGratis": {
+        "alt": "Parking officiel gratuit du Port d'Alcudia Majorque avec des places spacieuses et accès à la promenade",
+        "caption": "Le parking officiel gratuit du Port d'Alcudia : spacieux, goudronné et à seulement 5 minutes de la promenade. L'un des meilleurs endroits pour se garer gratuitement dans le nord de Majorque."
+      }
+    },
     "section1": {
       "title": "Le cauchemar du parking en été (et comment l'éviter)",
       "body": "Vous arrivez à Alcudia avec votre voiture de location, plein d'enthousiasme. Le GPS indique que vous êtes arrivé. Le soleil brille. La mer vous attend. Et là, le calvaire commence : tourner en rond à la recherche d'une place qui ne vous coûte pas un bras ou qui ne vous vaille pas une amende.\n\nSi vous êtes déjà venu à Majorque en haute saison, vous connaissez probablement ce sentiment. Le **parking à Alcudia** peut devenir une véritable odyssée si vous ne savez pas où chercher. Et c'est normal : nous parlons de l'une des destinations les plus visitées de l'île, avec des milliers de touristes arrivant chaque jour en voiture de location.\n\nMais voici la bonne nouvelle : **se garer à Alcudia n'a pas à être un drame**. Il existe des zones gratuites, des parkings payants raisonnables et des astuces que nous, les locaux, connaissons bien. Il suffit de savoir où regarder.\n\nDans cet article, nous allons vous donner la carte complète du stationnement dans le nord de Majorque. Du Port d'Alcudia à la Playa de Muro, en passant par la vieille ville et les zones moins connues. Zones gratuites, zones bleues, parkings privés et surtout, les conseils qui font la différence entre se garer en cinq minutes ou passer une demi-heure à tourner sous le soleil d'août.\n\nSi vous venez en voiture pour [explorer Alcudia](https://coralboats.com/fr/blog-details/que-hacer-en-alcudia-planes-imprescindibles), ceci vous intéresse."
@@ -3351,11 +3386,15 @@
       },
       "sub2": {
         "subtitle": "Promenade Maritime et première ligne → Zone Bleue (payant)",
-        "body": "Toute la promenade maritime du Port d'Alcudia, du Club Nautique jusqu'à la fin de la zone des restaurants, est en zone bleue réglementée. Ce sont des places pratiques car vous êtes à côté de tout, mais :\n\n**→** Durée maximale de 2 heures dans la plupart des tronçons\n**→** Prix approximatif : 1,80€/heure\n**→** En août, trouver une place est presque un miracle\n\nSi vous avez seulement besoin de vous arrêter un instant pour récupérer quelque chose ou manger rapidement, cela peut vous servir. Pour passer la journée, cherchez des alternatives."
+        "body": "Toute la promenade maritime du Port d'Alcudia, du Club Nautique Alcudiamar jusqu'à la fin de la zone des restaurants, est en zone bleue réglementée. Ce sont des places pratiques car vous êtes à côté de tout, mais :\n\n**→** Durée maximale de 2 heures dans la plupart des tronçons\n**→** Prix approximatif : 1,80€/heure\n**→** En août, trouver une place est presque un miracle\n\nSi vous avez seulement besoin de vous arrêter un instant pour récupérer quelque chose ou manger rapidement, cela peut vous servir. Pour passer la journée, cherchez des alternatives."
       },
       "sub3": {
         "subtitle": "Rues intérieures du port → Mixte",
         "body": "En vous enfonçant dans les rues derrière la promenade maritime (Carrer dels Mariners, Carrer de la Mar, etc.), vous trouverez un mélange de zone bleue et de places libres. La règle générale : plus vous vous éloignez de la mer, plus il est facile de trouver un parking gratuit.\n\n**Astuce locale** : Les rues perpendiculaires à la promenade, dans leur deuxième et troisième tronçon depuis la côte, ont généralement des places blanches. Vous marcherez 5 à 7 minutes jusqu'à la plage, mais vous économiserez le parking et le stress."
+      },
+      "sub4": {
+        "subtitle": "BONUS → Parking officiel gratuit du Port d'Alcudia",
+        "body": "C'est le secret le mieux gardé du port. Il existe un **parking officiel entièrement gratuit** situé à côté de la zone sportive du Port d'Alcudia, à seulement 5 minutes à pied de la promenade et de la zone des restaurants.\n\nC'est un parking spacieux, goudronné et sans limite de temps. Parfait si vous venez passer la journée au port, profiter d'une [excursion en bateau](https://coralboats.com/fr/boat-tours-alcudia), ou simplement vous promener dans les environs. Contrairement aux places du quai commercial, celui-ci se remplit rarement même en plein mois d'août.\n\n**Notre conseil** : Combinez ce parking avec une promenade jusqu'au port. Vous arriverez détendu, sans avoir tourné en rond, et avec votre voiture garée gratuitement et en toute sécurité toute la journée."
       }
     },
     "section4": {
@@ -3379,19 +3418,27 @@
       "body": "La vieille ville fortifiée d'Alcudia est l'un des [lieux incontournables à visiter](https://coralboats.com/fr/blog-details/que-hacer-en-alcudia-planes-imprescindibles), mais se garer à l'intérieur ou à proximité peut être un défi. Les rues sont étroites, beaucoup sont piétonnes et les places sont rares.",
       "sub1": {
         "subtitle": "Extérieur des murailles → Votre meilleure option",
-        "body": "La stratégie intelligente est de **se garer à l'extérieur de l'enceinte fortifiée** et d'entrer à pied. Plusieurs zones fonctionnent bien :\n\n**→ Carrer de la Rectoria et environs** : Juste au nord de la muraille, zone mixte avec pas mal de places libres.\n**→ Zone du Poliesportiu (centre sportif)** : Grand parking gratuit à 5 minutes à pied de la Porta de Mallorca.\n**→ Carrer des Moll** : À l'est de la vieille ville, places blanches dans les rues résidentielles.\n\nLa vieille ville est petite et se parcourt en 20 minutes. Se garer à 5-10 minutes des murailles et se promener est la meilleure stratégie."
+        "body": "La stratégie intelligente est de **se garer à l'extérieur de l'enceinte fortifiée** et d'entrer à pied. Plusieurs zones fonctionnent bien :\n\n**→ Parking gratuit face aux murailles** : Juste en face de l'enceinte fortifiée, il y a un parking gratuit qui a généralement des places disponibles. S'il est plein, vous pouvez essayer d'entrer par la **Carrer Quint Cecili Metel**, où se trouve un autre parking gratuit à quelques mètres — [voir l'emplacement sur Google Maps](https://maps.google.com/?q=39.850652,3.125095).\n\n**→ Zone du Poliesportiu (centre sportif)** : Grand parking gratuit à 5 minutes à pied de la Porta de Mallorca.\n\n**→ Carrer des Moll** : À l'est de la vieille ville, places blanches dans les rues résidentielles.\n\nLa vieille ville est petite et se parcourt en 20 minutes. Se garer à 5-10 minutes des murailles et se promener est la meilleure stratégie."
       },
       "sub2": {
         "subtitle": "Jours de marché → Attention particulière",
         "body": "Les **mardis et dimanches**, il y a le marché dans la vieille ville, et le chaos du stationnement se multiplie. Si vous le pouvez, évitez de venir en voiture ces jours-là ou arrivez très tôt (avant 9h00). Le marché du dimanche est particulièrement fréquenté.\n\nAlternative : garez-vous au Port (où il y a de la place) et marchez 15-20 minutes jusqu'à la vieille ville. La promenade est agréable et vous évitez le stress."
+      },
+      "sub3": {
+        "subtitle": "Autres parkings gratuits de l'autre côté de la ville",
+        "body": "Si vous arrivez à Alcudia par la route de Pollença ou par le nord, il y a **trois zones de parking entièrement gratuites** de l'autre côté de la vieille ville que beaucoup de visiteurs ignorent. Elles sont à quelques minutes à pied des murailles et il y a toujours de la place, même en plein été.\n\nCe sont des parkings spacieux, sans réglementation horaire ni zone bleue. Parfaits pour laisser la voiture et explorer la ville tranquillement. La distance jusqu'au centre de la vieille ville est de seulement 3 à 5 minutes à pied."
+      },
+      "sub4": {
+        "subtitle": "SECRET LOCAL → Parking dissuasion les jours de marché",
+        "body": "C'est une astuce que très peu de gens connaissent. Les jours de marché (mardis et dimanches), un **parking en terre de dissuasion** est ouvert juste à côté de la vieille ville. Il se trouve littéralement **à 1 minute à pied du marché** et il y a toujours largement assez de place pour se garer.\n\nPendant que tout le monde tourne en rond dans les rues alentour, vous pouvez aller directement à ce parking et entrer au marché sans stress. C'est gratuit et sans limite de temps."
       }
     },
     "section6": {
       "title": "Parkings privés payants : quand valent-ils la peine ?",
       "body": "Si tout ce qui précède échoue ou si vous ne voulez tout simplement pas vous compliquer la vie, il existe des parkings privés payants qui garantissent une place. Ils coûtent plus cher, mais parfois la tranquillité d'esprit vaut son prix.",
       "sub1": {
-        "subtitle": "Parking du Port (à côté du Club Nautique)",
-        "body": "C'est le plus connu et le plus central. Il est à côté du Club Nautique, à deux pas de la promenade maritime et des restaurants.\n\n**→** Prix approximatif : 2-3€/heure, maximum journalier environ 15-20€\n**→** Surveillé et ombragé sur une partie des places\n**→** En août, il peut être complet dès midi\n\nIl vaut la peine si vous venez passer la journée au port et ne voulez pas vous inquiéter. Pour une courte visite, essayez d'abord les alternatives gratuites."
+        "subtitle": "Parking du Port (à côté du Club Nautique Alcudiamar)",
+        "body": "C'est le plus connu et le plus central. Il est à côté du Club Nautique Alcudiamar, à deux pas de la promenade maritime et des restaurants.\n\n**→** Prix approximatif : 2-3€/heure, maximum journalier environ 15-20€\n**→** Surveillé et ombragé sur une partie des places\n**→** En août, il peut être complet dès midi\n\nIl vaut la peine si vous venez passer la journée au port et ne voulez pas vous inquiéter. Pour une courte visite, essayez d'abord les alternatives gratuites."
       }
     },
     "section7": {
@@ -3417,11 +3464,65 @@
     "meta_description": "Votre guide définitif des marchés à Majorque : Alcudia, Pollença, Sineu, Inca et plus. Jours, horaires, quoi acheter, artisanat authentique et les secrets que seuls les locaux connaissent. Mis à jour 2026.",
     "publishedDate": "24 janvier 2026",
     "btnText": "En savoir plus",
+    "teaserBanner": {
+      "text": "Vous cherchez le calendrier complet des marchés jour par jour ? À la fin de cet article, retrouvez notre calendrier hebdomadaire avec tous les marchés de chaque village de Majorque.",
+      "linkText": "Aller au calendrier hebdomadaire"
+    },
     "imagePath": "/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp",
     "imageAlt": "Marché d'Alcudia Majorque avec fromages artisanaux et sobrasada typique majorquine",
     "imageCaption": "Stand traditionnel du marché d'Alcudia avec fromages artisanaux majorquins et sobrasada – les saveurs authentiques de l'île que vous trouverez chaque mardi et dimanche dans la vieille ville.",
     "secondaryImage1Alt": "Artisanat de Majorque avec tissus de langues traditionnels au marché d'Alcudia",
     "secondaryImage2Alt": "Marché hebdomadaire dans la vieille ville d'Alcudia Majorque avec étals typiques",
+    "inlineImages": {
+      "mercadoAlcudiaMurallas": {
+        "alt": "Marché hebdomadaire d'Alcudia au pied des remparts médiévaux avec stands de produits locaux de Majorque",
+        "caption": "Le marché hebdomadaire d'Alcudia s'étend au pied des remparts médiévaux du XIVe siècle, un cadre unique où tradition et patrimoine historique se mêlent chaque mardi et dimanche."
+      },
+      "sobrasadaMercado": {
+        "alt": "Stand de sobrasada artisanale et charcuteries typiques majorquines sur un marché hebdomadaire de Majorque",
+        "caption": "La sobrasada majorquine, star incontestée des marchés de l'île : cherchez l'étiquette IGP et demandez à goûter avant d'acheter."
+      },
+      "mercadoPollenca": {
+        "alt": "Marché dominical de Pollença à Majorque sur la Plaza Major avec stands d'artisanat et cafés en terrasse",
+        "caption": "Le marché du dimanche de Pollença sur la Plaza Major : art, artisanat et le meilleur vermouth de la matinée, entouré de terrasses de cafés pleines de charme."
+      },
+      "sineuPueblo": {
+        "alt": "Vue du village de Sineu à Majorque avec ses maisons en pierre typiques de l'intérieur de l'île et son ambiance méditerranéenne",
+        "caption": "Sineu, au cœur de Majorque, préserve l'essence de l'intérieur de l'île : maisons en pierre, rues tranquilles et un marché vieux de plus de 700 ans."
+      },
+      "mercadoSineu": {
+        "alt": "Stands du marché hebdomadaire de Sineu à Majorque avec produits artisanaux locaux des villages de l'intérieur",
+        "caption": "Le marché du mercredi de Sineu : le plus authentique de Majorque, où les paysans de l'intérieur vendent encore leurs produits comme ils le font depuis des siècles."
+      },
+      "cocaDeTrempo": {
+        "alt": "Coca de trempo plat typique majorquin aux légumes grillés sur un marché des plus beaux villages de Majorque",
+        "caption": "La coca de trempo, une spécialité majorquine à base de pâte fine garnie de légumes frais de saison — un incontournable lors de toute halte gourmande dans les marchés de l'île."
+      },
+      "floresInca": {
+        "alt": "Stand de fleurs et plantes au marché hebdomadaire du Dijous d'Inca à Majorque",
+        "caption": "Fleurs fraîches et plantes méditerranéennes au Dijous d'Inca : le plus grand marché de Majorque remplit les rues de couleurs chaque jeudi."
+      },
+      "iglesiaInca": {
+        "alt": "Église Santa Maria la Mayor d'Inca à Majorque avec sa façade en pierre typique des villages de l'intérieur",
+        "caption": "L'église Santa Maria la Mayor domine Inca, la capitale majorquine de la chaussure et siège du plus grand marché hebdomadaire de l'île chaque jeudi."
+      },
+      "sobrasadaColgada": {
+        "alt": "Sobrasada majorquine suspendue dans un stand de vente sur les marchés hebdomadaires de Majorque",
+        "caption": "Chapelets de sobrasada artisanale suspendus au stand du marché : la charcuterie phare de Majorque, lentement affinée et élaborée avec du porc noir autochtone."
+      },
+      "ensaimadas": {
+        "alt": "Ensaimadas et pâtisseries typiques majorquines sur un stand de marché hebdomadaire à Majorque",
+        "caption": "Ensaimadas fraîchement cuites avec leur forme en spirale caractéristique : la pâtisserie la plus emblématique de Majorque, préparée avec du saïm (saindoux) selon la recette traditionnelle."
+      },
+      "paAmbOli": {
+        "alt": "Pa amb oli cuisine typique de Majorque avec tomate ramallet huile d'olive et charcuterie gastronomie des Baléares",
+        "caption": "Pa amb oli : pain rustique avec tomate ramallet, huile d'olive vierge et charcuterie majorquine. L'essence de la gastronomie des Baléares dans sa forme la plus simple et délicieuse."
+      },
+      "siurells": {
+        "alt": "Siurells figurines en argile traditionnelles de Majorque et souvenirs artisanaux de l'île sur un stand de marché",
+        "caption": "Siurells, les figurines en argile blanche peintes à la main qui sont le souvenir le plus authentique de Majorque : à l'origine des sifflets pour enfants, aujourd'hui symboles de l'artisanat insulaire."
+      }
+    },
     "section1": {
       "title": "L'âme de Majorque se vend le mardi matin",
       "body": "Il existe une Majorque qui ne figure pas sur les cartes postales de plages turquoise. Une Majorque qui sent la sobrasada fraîchement coupée, les herbes de montagne, le pain de campagne chaud. Une Majorque où les dames du village marchandent encore le prix des tomates et où un vieux monsieur peut vous raconter, si vous lui demandez, comment sa grand-mère préparait le tumbet il y a soixante ans.\n\nCette Majorque se trouve dans les **marchés hebdomadaires**.\n\nChaque village de l'île a son jour de marché. C'est une tradition qui remonte à des siècles, quand les paysans descendaient de la montagne pour vendre leurs produits et que les pêcheurs montaient du port avec la prise de la nuit. Aujourd'hui, les marchés majorquins sont un mélange de tradition vivante et d'attraction touristique, mais si vous savez où regarder, vous trouverez encore l'essence authentique.\n\nLe **marché d'Alcudia**, celui de Pollença, le mythique Sineu, l'énorme marché d'Inca... Chacun a son caractère, ses produits phares, son ambiance particulière. Dans cet article, nous allons vous dire tout ce que vous devez savoir pour profiter au maximum de l'expérience des marchés majorquins : quels jours s'y rendre, quoi acheter, quoi éviter, et ces petits secrets qui font la différence entre être un touriste de plus et vivre le marché comme un local.\n\nEt si vous restez jusqu'à la fin, nous vous raconterons comment notre équipage 100 % majorquin peut vous aider à découvrir les recoins gastronomiques qui ne figurent dans aucun guide."
@@ -3516,12 +3617,49 @@
     "btnText": "Lire la suite",
     "imageAlt": "Place de l’Hôtel de Ville d’Alcúdia avec la tour de l’horloge et des façades mallorquines typiques sous un ciel bleu",
     "imageCaption": "La place de l’Hôtel de Ville d’Alcúdia, avec sa tour de l’horloge caractéristique, est le cœur de la vieille ville et le point de départ idéal pour explorer ce village médiéval de Majorque.",
-    "secondaryImage1Alt": "Porta del Moll entrée principale des remparts médiévaux de la vieille ville d’Alcudia Majorque avec palmiers",
-    "secondaryImage2Alt": "Église Sant Jaume dans la vieille ville d’Alcudia Majorque façade gothique avec rosace en pierre",
-    "secondaryImage3Alt": "Ruelle typique du centre historique d’Alcudia Majorque avec escaliers en pierre et volets verts",
-    "secondaryImage4Alt": "Marché hebdomadaire en plein air près des remparts médiévaux d’Alcudia Majorque avec stands de fruits et légumes",
-    "secondaryImage5Alt": "Promenade maritime du port d’Alcudia Majorque avec palmiers et terrasses face à la mer",
-    "secondaryImage6Alt": "Coucher de soleil spectaculaire sur le port d’Alcudia Majorque avec voiliers et ciel rougeoyant reflété dans l’eau",
+    "heroInlineCaption": "La place de l’Hôtel de Ville d’Alcúdia, point de rencontre et cœur de la vieille ville médiévale.",
+    "inlineImages": {
+      "alcudiaVillage": {
+        "alt": "Village d’Alcúdia avec son marché de rue et des familles se promenant entre les remparts médiévaux de Majorque",
+        "caption": "Alcúdia allie histoire médiévale et ambiance familiale : un village à vivre, pas seulement à visiter."
+      },
+      "portaDelMoll": {
+        "alt": "Porta del Moll entrée principale des remparts médiévaux de la vieille ville d’Alcudia Majorque avec palmiers",
+        "caption": "La Porta del Moll, emblème d’Alcúdia, accueille les visiteurs depuis le XIVe siècle avec sa tour de pierre dorée bordée de palmiers."
+      },
+      "iglesiaSantJaume": {
+        "alt": "Église Sant Jaume dans la vieille ville d’Alcudia Majorque façade gothique avec rosace en pierre",
+        "caption": "L’église Sant Jaume, avec son imposante rosace gothique, servait autrefois de refuge contre les pirates et reste le cœur spirituel du village."
+      },
+      "callejonHistorico": {
+        "alt": "Ruelle typique du centre historique d’Alcudia Majorque avec escaliers en pierre et volets verts",
+        "caption": "Se perdre dans les ruelles pavées d’Alcúdia est la meilleure façon de découvrir l’âme médiévale du village."
+      },
+      "bullitDePeix": {
+        "alt": "Bullit de peix et arroz a banda plat typique des Baléares servi dans un restaurant",
+        "caption": "La gastronomie majorquine dans toute sa splendeur : bullit de peix et arroz a banda, des plats qui racontent l’histoire maritime de l’île."
+      },
+      "mercadoAlcudia": {
+        "alt": "Marché hebdomadaire en plein air près des remparts médiévaux d’Alcudia Majorque avec stands de fruits et légumes",
+        "caption": "Le marché hebdomadaire d’Alcúdia, niché entre les remparts médiévaux, est une explosion de couleurs, d’arômes et de saveurs locales."
+      },
+      "alcudiaPort": {
+        "alt": "Port d’Alcúdia Majorque avec bateaux amarrés et promenade bordée de palmiers",
+        "caption": "Le port d’Alcúdia offre un changement de décor total : brise marine, voiliers et terrasses face à la Méditerranée."
+      },
+      "iceCreamPort": {
+        "alt": "Glaces artisanales et terrasse en bord de mer au port d’Alcúdia Majorque en été",
+        "caption": "Une glace artisanale face à la mer : le petit plaisir qui transforme un après-midi au port d’Alcúdia en un souvenir parfait."
+      },
+      "paseoMaritimo": {
+        "alt": "Promenade maritime du port d’Alcudia Majorque avec palmiers et terrasses face à la mer",
+        "caption": "La promenade du port d’Alcúdia, avec ses palmiers et terrasses, invite à flâner sans hâte le long de la Méditerranée."
+      },
+      "atardecerPuerto": {
+        "alt": "Coucher de soleil spectaculaire sur le port d’Alcudia Majorque avec voiliers et ciel rougeoyant reflété dans l’eau",
+        "caption": "Coucher de soleil sur le port d’Alcúdia : voiliers, couleurs impossibles et ce silence magique que seule la Méditerranée sait créer."
+      }
+    },
     "section1": {
       "title": "Il y a des villages que l’on visite. Et d’autres que l’on vit. Alcúdia appartient à la seconde catégorie.",
       "body": "De nombreux voyageurs arrivant à Majorque passent par Alcúdia en route vers la plage, consacrent une heure à la vieille ville et repartent en pensant avoir tout vu. Erreur. Alcúdia est l’un de ces lieux qui nécessitent une journée entière pour se révéler : ses remparts médiévaux cachent des recoins invisibles lors de la première promenade, le port possède une vie propre qui mérite du temps, et les meilleurs moments arrivent lorsque la lumière de l’après-midi transforme la pierre en or.\n\nDans cet article, nous vous proposons un itinéraire complet pour profiter pleinement d’Alcúdia en une journée, du premier café du matin entre les remparts jusqu’à un coucher de soleil que, si tout se passe bien, vous n’oublierez pas de sitôt. Sans précipitation, sans listes interminables de monuments, mais en savourant chaque étape comme elle le mérite.\n\nSi vous connaissez déjà la région, vous pouvez consulter notre guide sur [que faire à Alcúdia](https://coralboats.com/fr/blog-details/que-hacer-en-alcudia-planes-imprescindibles) pour compléter votre visite avec d’autres idées. Et si c’est votre première fois, vous êtes au bon endroit : nous allons vous raconter Alcúdia telle que nous la connaissons, nous qui vivons ici."

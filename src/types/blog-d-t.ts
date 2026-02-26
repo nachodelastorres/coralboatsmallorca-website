@@ -79,6 +79,8 @@ export interface IBlogDT {
   section5sub2Body?: string;
   section5sub3Subtitle?: string;
   section5sub3Body?: string;
+  section5sub4Subtitle?: string;
+  section5sub4Body?: string;
   section6Title?: string;
   section6Body?: string;
   section6sub1Subtitle?: string;
@@ -139,4 +141,28 @@ export interface IBlogDT {
 
   // Inline images within sections (with captions)
   sectionImages?: SectionImageGroup[];
+
+  // Inline Google Maps embeds within sections (after subsection cards)
+  sectionMaps?: SectionMap[];
+
+  // Anchor IDs for sections (e.g. { 8: 'calendario' })
+  sectionAnchors?: Record<number, string>;
+
+  // Teaser banner shown before section 1
+  teaserBanner?: {
+    icon: string;       // FontAwesome icon class
+    text: string;       // translation key
+    linkText: string;   // translation key
+    linkHref: string;   // anchor link e.g. #calendario
+  };
+}
+
+export interface SectionMap {
+  section: number;              // which section (1-12)
+  afterSubsection: number;     // 0-based index of subsection to place map after
+  lat: number;
+  lng: number;
+  zoom?: number;               // default 17
+  caption: string;             // translation key
+  googleMapsLink: string;      // short Google Maps link for "Open in Maps"
 }

@@ -38,6 +38,16 @@ export interface TranslatedSectionImageGroup {
   afterSubsection?: number;
 }
 
+export interface TranslatedSectionMap {
+  section: number;
+  afterSubsection: number;
+  lat: number;
+  lng: number;
+  zoom: number;
+  caption: string;
+  googleMapsLink: string;
+}
+
 export interface BlogPostTranslated {
   // Basic info
   title: string;
@@ -92,6 +102,20 @@ export interface BlogPostTranslated {
 
   // Inline section images
   sectionImages?: TranslatedSectionImageGroup[];
+
+  // Inline Google Maps embeds
+  sectionMaps?: TranslatedSectionMap[];
+
+  // Teaser banner (shown before section 1)
+  teaserBanner?: {
+    icon: string;       // FontAwesome icon class
+    text: string;
+    linkText: string;
+    linkHref: string;   // anchor link e.g. #calendario
+  };
+
+  // Anchor IDs for sections (e.g. { 8: 'calendario' })
+  sectionAnchors?: Record<number, string>;
 }
 
 interface MagazineLayoutSSRProps {
@@ -337,10 +361,14 @@ const BlogSectionComponent = ({
   section,
   sectionNumber,
   sectionImages,
+  sectionMaps,
+  sectionAnchors,
 }: {
   section: BlogSection;
   sectionNumber: number;
   sectionImages?: TranslatedSectionImageGroup[];
+  sectionMaps?: TranslatedSectionMap[];
+  sectionAnchors?: Record<number, string>;
 }) => {
   if (!section.title) return null;
 
@@ -350,10 +378,13 @@ const BlogSectionComponent = ({
   const getImages = (position: TranslatedSectionImageGroup['position']) =>
     (sectionImages || []).filter(g => g.section === sectionNumber && g.position === position);
 
+  const anchorId = sectionAnchors?.[sectionNumber];
+
   // Section 12 is the conclusion with special styling
   if (sectionNumber === 12) {
     return (
       <div
+        id={anchorId || undefined}
         style={{
           padding: '35px',
           background: '#f8fafc',
@@ -377,7 +408,7 @@ const BlogSectionComponent = ({
   }
 
   return (
-    <div style={{ marginBottom: '50px' }}>
+    <div id={anchorId || undefined} style={{ marginBottom: '50px' }}>
       <h2
         style={{
           fontSize: '2rem',
@@ -407,11 +438,17 @@ const BlogSectionComponent = ({
               const subsectionImages = (sectionImages || []).filter(
                 g => g.section === sectionNumber && g.position === 'after-subsection' && g.afterSubsection === idx
               );
+              const subsectionMapList = (sectionMaps || []).filter(
+                m => m.section === sectionNumber && m.afterSubsection === idx
+              );
               return (
                 <Fragment key={idx}>
                   <SubsectionCard subsection={subsection} index={idx} />
                   {subsectionImages.map((group, gi) => (
                     <InlineImageGroupSSR key={`asub-${idx}-${gi}`} group={group} />
+                  ))}
+                  {subsectionMapList.map((mapData, mi) => (
+                    <InlineMapEmbed key={`map-${idx}-${mi}`} mapData={mapData} />
                   ))}
                 </Fragment>
               );
@@ -482,6 +519,73 @@ const InlineImageGroupSSR = ({ group }: { group: TranslatedSectionImageGroup }) 
             )}
           </figure>
         ))}
+      </div>
+    </div>
+  );
+};
+
+// Component to render inline Google Maps embed with satellite view
+const InlineMapEmbed = ({ mapData }: { mapData: TranslatedSectionMap }) => {
+  const { lat, lng, zoom, caption, googleMapsLink } = mapData;
+  const embedUrl = `https://www.google.com/maps?q=${lat},${lng}&z=${zoom}&t=k&output=embed`;
+
+  return (
+    <div style={{ marginTop: '20px', marginBottom: '30px' }}>
+      <div
+        style={{
+          position: 'relative',
+          width: '100%',
+          height: '300px',
+          borderRadius: '12px',
+          overflow: 'hidden',
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+        }}
+      >
+        <iframe
+          src={embedUrl}
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title={caption}
+        />
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginTop: '8px',
+          gap: '12px',
+        }}
+      >
+        <span
+          style={{
+            fontSize: '0.85rem',
+            color: '#94a3b8',
+            fontStyle: 'italic',
+            lineHeight: '1.4',
+          }}
+        >
+          {caption}
+        </span>
+        <a
+          href={googleMapsLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontSize: '0.8rem',
+            color: '#0891b2',
+            textDecoration: 'none',
+            fontWeight: '600',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          <i className="fa-solid fa-location-dot" style={{ marginRight: '4px' }}></i>
+          Google Maps
+        </a>
       </div>
     </div>
   );
@@ -596,6 +700,64 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                 {blog.description}
               </div>
 
+              {/* Teaser Banner */}
+              {blog.teaserBanner && (
+                <div
+                  style={{
+                    background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+                    border: '2px solid #0891b2',
+                    borderRadius: '16px',
+                    padding: '24px 30px',
+                    marginBottom: '40px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '18px',
+                    boxShadow: '0 4px 15px rgba(8, 145, 178, 0.12)',
+                  }}
+                >
+                  <div
+                    style={{
+                      background: '#0891b2',
+                      borderRadius: '50%',
+                      width: '52px',
+                      height: '52px',
+                      minWidth: '52px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <i
+                      className={blog.teaserBanner.icon}
+                      style={{ color: '#ffffff', fontSize: '1.3rem' }}
+                    />
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <p
+                      style={{
+                        fontSize: '1.05rem',
+                        color: '#0c4a6e',
+                        fontWeight: '600',
+                        margin: 0,
+                        lineHeight: '1.5',
+                      }}
+                    >
+                      {blog.teaserBanner.text}{' '}
+                      <a
+                        href={blog.teaserBanner.linkHref}
+                        style={{
+                          color: '#0891b2',
+                          textDecoration: 'underline',
+                          fontWeight: '700',
+                        }}
+                      >
+                        {blog.teaserBanner.linkText} ↓
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              )}
+
               {/* Section 1 - Intro paragraph */}
               {blog.section1 && (
                 <div style={{ marginBottom: '50px' }}>
@@ -618,7 +780,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
               )}
 
               {/* Section 2 */}
-              {blog.section2 && <BlogSectionComponent section={blog.section2} sectionNumber={2} sectionImages={blog.sectionImages} />}
+              {blog.section2 && <BlogSectionComponent section={blog.section2} sectionNumber={2} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
               {/* Hero Image Inline - after section 2 */}
               {blog.heroInlineCaption && blog.mainImage && (
@@ -689,7 +851,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                   // Distributed layout: images placed between sections
                   return (
                     <>
-                      {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} sectionImages={blog.sectionImages} />}
+                      {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
                       {/* Image pair after section 3 */}
                       {(blog.secondaryImage1 || blog.secondaryImage2) && (
@@ -729,7 +891,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                         </div>
                       )}
 
-                      {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} sectionImages={blog.sectionImages} />}
+                      {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
                       {/* Single image after section 4 */}
                       {blog.secondaryImage3 && (
@@ -747,7 +909,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                         </div>
                       )}
 
-                      {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} sectionImages={blog.sectionImages} />}
+                      {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
                       {/* Single image after section 5 */}
                       {blog.secondaryImage4 && (
@@ -765,8 +927,8 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                         </div>
                       )}
 
-                      {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} sectionImages={blog.sectionImages} />}
-                      {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} sectionImages={blog.sectionImages} />}
+                      {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                      {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
                       {/* Image pair after section 7 */}
                       {(blog.secondaryImage5 || blog.secondaryImage6) && (
@@ -806,11 +968,11 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                         </div>
                       )}
 
-                      {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} sectionImages={blog.sectionImages} />}
-                      {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} sectionImages={blog.sectionImages} />}
-                      {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} sectionImages={blog.sectionImages} />}
-                      {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} sectionImages={blog.sectionImages} />}
-                      {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} sectionImages={blog.sectionImages} />}
+                      {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                      {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                      {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                      {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                      {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
                     </>
                   );
                 }
@@ -818,9 +980,9 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                 // Classic layout: single image block after section 5
                 return (
                   <>
-                    {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} sectionImages={blog.sectionImages} />}
-                    {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} sectionImages={blog.sectionImages} />}
-                    {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} sectionImages={blog.sectionImages} />}
+                    {blog.section3 && <BlogSectionComponent section={blog.section3} sectionNumber={3} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section4 && <BlogSectionComponent section={blog.section4} sectionNumber={4} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section5 && <BlogSectionComponent section={blog.section5} sectionNumber={5} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
 
                     {(blog.secondaryImage1 || blog.secondaryImage2) && (
                       <div style={{ marginBottom: '50px' }}>
@@ -859,13 +1021,13 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                       </div>
                     )}
 
-                    {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} sectionImages={blog.sectionImages} />}
-                    {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} sectionImages={blog.sectionImages} />}
-                    {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} sectionImages={blog.sectionImages} />}
-                    {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} sectionImages={blog.sectionImages} />}
-                    {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} sectionImages={blog.sectionImages} />}
-                    {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} sectionImages={blog.sectionImages} />}
-                    {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} sectionImages={blog.sectionImages} />}
+                    {blog.section6 && <BlogSectionComponent section={blog.section6} sectionNumber={6} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section7 && <BlogSectionComponent section={blog.section7} sectionNumber={7} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section8 && <BlogSectionComponent section={blog.section8} sectionNumber={8} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section9 && <BlogSectionComponent section={blog.section9} sectionNumber={9} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section10 && <BlogSectionComponent section={blog.section10} sectionNumber={10} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section11 && <BlogSectionComponent section={blog.section11} sectionNumber={11} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
+                    {blog.section12 && <BlogSectionComponent section={blog.section12} sectionNumber={12} sectionImages={blog.sectionImages} sectionMaps={blog.sectionMaps} sectionAnchors={blog.sectionAnchors} />}
                   </>
                 );
               })()}
