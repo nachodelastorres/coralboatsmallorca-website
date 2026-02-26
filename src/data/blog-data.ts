@@ -46,8 +46,7 @@ import blogDetailsImgIntro from '@/assets/img/premium/gallery_new/new_blog/coral
 
 // Blog 30 - Faro de Formentor
 import blogDetailsImg31 from '@/assets/img/premium/gallery_new/new_blog/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp';
-import blogDetailsImg31Secondary1 from '@/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp';
-import blogDetailsImg31Secondary2 from '@/assets/img/premium/gallery_new/new_blog/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp';
+import blogDetailsImg31Secondary1 from '@/assets/img/premium/gallery_new/playa-de-formentor-excursion-barco-clasico-desde-alcudia.webp';
 
 // Blog 31 - Paddle Surf en Alcudia
 import blogDetailsImg32 from '@/assets/img/premium/gallery_new/new_blog/paddle-surf-and-water-activities-in-mallorca-during-boat-excursion.webp';
@@ -2101,13 +2100,103 @@ export const blogDataOne: IBlogDT[] = [
   section4Body: 'blog_treinta.section4.body',
   section5Title: 'blog_treinta.section5.title',
   section5Body: 'blog_treinta.section5.body',
+  section6Title: 'blog_treinta.section6.title',
+  section6Body: 'blog_treinta.section6.body',
+  section6sub1Subtitle: 'blog_treinta.section6.sub1.subtitle',
+  section6sub1Body: 'blog_treinta.section6.sub1.body',
+  section6sub2Subtitle: 'blog_treinta.section6.sub2.subtitle',
+  section6sub2Body: 'blog_treinta.section6.sub2.body',
+  section6sub3Subtitle: 'blog_treinta.section6.sub3.subtitle',
+  section6sub3Body: 'blog_treinta.section6.sub3.body',
   layout: 'visual',
+  teaserBanner: {
+    icon: 'fa-solid fa-road-barrier',
+    text: 'blog_treinta.teaserBanner.text',
+    linkText: 'blog_treinta.teaserBanner.linkText',
+    linkHref: '#acceso-formentor',
+  },
+  sectionAnchors: { 6: 'acceso-formentor' },
+  sectionMaps: [
+    {
+      section: 6,
+      afterSubsection: 0,
+      lat: 39.912778,
+      lng: 3.099752,
+      zoom: 16,
+      caption: 'blog_treinta.maps.puntoControl1.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.912778,3.099752',
+    },
+    {
+      section: 6,
+      afterSubsection: 1,
+      lat: 39.930225,
+      lng: 3.134541,
+      zoom: 17,
+      caption: 'blog_treinta.maps.puntoControl2.caption',
+      googleMapsLink: 'https://maps.google.com/?q=39.930225,3.134541',
+    },
+  ],
   secondaryImage1: blogDetailsImg31Secondary1,
-  secondaryImage2: blogDetailsImg31Secondary2,
   imageAlt: 'blog_treinta.imageAlt',
   imageCaption: 'blog_treinta.imageCaption',
   secondaryImage1Alt: 'blog_treinta.secondaryImage1Alt',
-  secondaryImage2Alt: 'blog_treinta.secondaryImage2Alt',
+  secondaryImage1Caption: 'blog_treinta.secondaryImage1Caption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp', alt: 'blog_treinta.inlineImages.vistaAereaFormentor.alt', caption: 'blog_treinta.inlineImages.vistaAereaFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp', alt: 'blog_treinta.inlineImages.faroAtardecer.alt', caption: 'blog_treinta.inlineImages.faroAtardecer.caption' },
+        { src: '/assets/img/premium/gallery_new/sunset-cap-formentor-lighthouse-view-mallorca-pollenca.webp', alt: 'blog_treinta.inlineImages.sunsetFormentor.alt', caption: 'blog_treinta.inlineImages.sunsetFormentor.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/vista-aerea-montana-puerto-pollenca-playa-barcos.webp', alt: 'blog_treinta.inlineImages.vistaAereaPollenca.alt', caption: 'blog_treinta.inlineImages.vistaAereaPollenca.caption' },
+        { src: '/assets/img/premium/gallery_new/cap-de-formentor-mallorca-como-moverse-transporte.webp', alt: 'blog_treinta.inlineImages.capFormentorTransporte.alt', caption: 'blog_treinta.inlineImages.capFormentorTransporte.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/playa-formentor-cabo-hotel-paseo-barco.webp', alt: 'blog_treinta.inlineImages.playaFormentorBarco.alt', caption: 'blog_treinta.inlineImages.playaFormentorBarco.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/ciclismo-mirador-des-colomer-formentor-ruta-mallorca-cabo.webp', alt: 'blog_treinta.inlineImages.ciclismoFormentor.alt', caption: 'blog_treinta.inlineImages.ciclismoFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp', alt: 'blog_treinta.inlineImages.playaFormentorArena.alt', caption: 'blog_treinta.inlineImages.playaFormentorArena.caption' },
+        { src: '/assets/img/premium/gallery_new/tumbonas-sombrilla-playa-de-formentor-mallorca-isla.webp', alt: 'blog_treinta.inlineImages.tumbonasFormentor.alt', caption: 'blog_treinta.inlineImages.tumbonasFormentor.caption' },
+        { src: '/assets/img/premium/gallery_new/snorkel-alcudia-mallorca-durante-excursion-barco.webp', alt: 'blog_treinta.inlineImages.snorkelAlcudia.alt', caption: 'blog_treinta.inlineImages.snorkelAlcudia.caption' },
+      ],
+      layout: 'grid-3',
+    },
+  ],
 },
 
 {
@@ -2737,12 +2826,19 @@ export const blogDataOne: IBlogDT[] = [
   secondaryImage6: blogDetailsImg37Secondary6,
   imageAlt: 'blog_treintayseis.imageAlt',
   imageCaption: 'blog_treintayseis.imageCaption',
+  heroInlineCaption: 'blog_treintayseis.heroInlineCaption',
   secondaryImage1Alt: 'blog_treintayseis.secondaryImage1Alt',
+  secondaryImage1Caption: 'blog_treintayseis.secondaryImage1Caption',
   secondaryImage2Alt: 'blog_treintayseis.secondaryImage2Alt',
+  secondaryImage2Caption: 'blog_treintayseis.secondaryImage2Caption',
   secondaryImage3Alt: 'blog_treintayseis.secondaryImage3Alt',
+  secondaryImage3Caption: 'blog_treintayseis.secondaryImage3Caption',
   secondaryImage4Alt: 'blog_treintayseis.secondaryImage4Alt',
+  secondaryImage4Caption: 'blog_treintayseis.secondaryImage4Caption',
   secondaryImage5Alt: 'blog_treintayseis.secondaryImage5Alt',
+  secondaryImage5Caption: 'blog_treintayseis.secondaryImage5Caption',
   secondaryImage6Alt: 'blog_treintayseis.secondaryImage6Alt',
+  secondaryImage6Caption: 'blog_treintayseis.secondaryImage6Caption',
 }
 
 ];
