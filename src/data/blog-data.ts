@@ -69,7 +69,7 @@ import blogDetailsImg35 from '@/assets/img/premium/gallery_new/plaza-ayuntamient
 // Blog 12 - Alcanada (imágenes adicionales)
 import blogDetailsImg12Secondary1 from '@/assets/img/premium/gallery_new/faro-alcanada-excursion-barco-alcudia-mallorca.webp';
 import blogDetailsImg12Secondary2 from '@/assets/img/premium/gallery_new/panoramica-isla-alcanada-alcudia-mallorca-barcos.webp';
-import blogDetailsImg12Secondary3 from '@/assets/img/premium/gallery_new/puerto-alcudia-vista-aerea-barcos-mallorca.webp';
+import blogDetailsImg12Secondary3 from '@/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp';
 import blogDetailsImg12Secondary4 from '@/assets/img/premium/gallery_new/playa-alcanada-aguas-cristalinas-mallorca.webp';
 import blogDetailsImg12Secondary5 from '@/assets/img/premium/gallery_new/golf-alcanada-campo-verde-mallorca.webp';
 import blogDetailsImg12Secondary6 from '@/assets/img/premium/gallery_new/comida-mediterranea-excursion-barco-mallorca.webp';
@@ -87,6 +87,9 @@ import blogDetailsImg36Secondary1 from '@/assets/img/premium/gallery_new/motos-d
 import blogDetailsImg36Secondary2 from '@/assets/img/premium/gallery_new/jetski-pareja-playa-muro-mallorca-verano.webp';
 import blogDetailsImg36Secondary3 from '@/assets/img/premium/gallery_new/alquiler-jetski-puerto-alcudia-turismo-activo.webp';
 import blogDetailsImg36Secondary4 from '@/assets/img/premium/gallery_new/moto-acuatica-aguas-cristalinas-mediterraneo-mallorca.webp';
+
+// Blog 37 - Alquiler Barco Sin Licencia
+import blogDetailsImg38 from '@/assets/img/premium/gallery_new/new_blog/lancha-motor-en-mar-tranquilo-sin-patron-ni-licencia.webp';
 
 // Blog 36 - Mejores Playas del Norte de Mallorca
 import blogDetailsImg37 from '@/assets/img/premium/gallery_new/mapa-mallorca-playas-rutas-barco.webp';
@@ -2847,6 +2850,204 @@ export const blogDataOne: IBlogDT[] = [
   secondaryImage5Caption: 'blog_treintayseis.secondaryImage5Caption',
   secondaryImage6Alt: 'blog_treintayseis.secondaryImage6Alt',
   secondaryImage6Caption: 'blog_treintayseis.secondaryImage6Caption',
+},
+
+{
+  id: 37,
+  slug: 'alquiler-barco-sin-licencia-mallorca-guia-completa',
+  category: 'Guias',
+  image: blogDetailsImg38,
+  badgeTitle: 'blog_treintaysiete.badgeTitle',
+  title: 'blog_treintaysiete.title',
+  metaTitle: 'blog_treintaysiete.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg38,
+  publishedDate: 'blog_treintaysiete.publishedDate',
+  description: 'blog_treintaysiete.meta_description',
+  metaDescription: 'blog_treintaysiete.metaDescription',
+  btnText: 'blog_treintaysiete.btnText',
+  keyword: 'blog_treintaysiete.keyword',
+  section1Title: 'blog_treintaysiete.section1.title',
+  section1Body: 'blog_treintaysiete.section1.body',
+  section2Title: 'blog_treintaysiete.section2.title',
+  section2Body: 'blog_treintaysiete.section2.body',
+  section3Title: 'blog_treintaysiete.section3.title',
+  section3Body: 'blog_treintaysiete.section3.body',
+  section4Title: 'blog_treintaysiete.section4.title',
+  section4Body: 'blog_treintaysiete.section4.body',
+  section4sub1Subtitle: 'blog_treintaysiete.section4.sub1.subtitle',
+  section4sub1Body: 'blog_treintaysiete.section4.sub1.body',
+  section4sub2Subtitle: 'blog_treintaysiete.section4.sub2.subtitle',
+  section4sub2Body: 'blog_treintaysiete.section4.sub2.body',
+  section4sub3Subtitle: 'blog_treintaysiete.section4.sub3.subtitle',
+  section4sub3Body: 'blog_treintaysiete.section4.sub3.body',
+  section5Title: 'blog_treintaysiete.section5.title',
+  section5Body: 'blog_treintaysiete.section5.body',
+  section5sub1Subtitle: 'blog_treintaysiete.section5.sub1.subtitle',
+  section5sub1Body: 'blog_treintaysiete.section5.sub1.body',
+  section5sub2Subtitle: 'blog_treintaysiete.section5.sub2.subtitle',
+  section5sub2Body: 'blog_treintaysiete.section5.sub2.body',
+  section5sub3Subtitle: 'blog_treintaysiete.section5.sub3.subtitle',
+  section5sub3Body: 'blog_treintaysiete.section5.sub3.body',
+  section5sub4Subtitle: 'blog_treintaysiete.section5.sub4.subtitle',
+  section5sub4Body: 'blog_treintaysiete.section5.sub4.body',
+  section6Title: 'blog_treintaysiete.section6.title',
+  section6Body: 'blog_treintaysiete.section6.body',
+  section7Title: 'blog_treintaysiete.section7.title',
+  section7Body: 'blog_treintaysiete.section7.body',
+  section7sub1Subtitle: 'blog_treintaysiete.section7.sub1.subtitle',
+  section7sub1Body: 'blog_treintaysiete.section7.sub1.body',
+  section7sub2Subtitle: 'blog_treintaysiete.section7.sub2.subtitle',
+  section7sub2Body: 'blog_treintaysiete.section7.sub2.body',
+  section7sub3Subtitle: 'blog_treintaysiete.section7.sub3.subtitle',
+  section7sub3Body: 'blog_treintaysiete.section7.sub3.body',
+  section7sub4Subtitle: 'blog_treintaysiete.section7.sub4.subtitle',
+  section7sub4Body: 'blog_treintaysiete.section7.sub4.body',
+  section7sub5Subtitle: 'blog_treintaysiete.section7.sub5.subtitle',
+  section7sub5Body: 'blog_treintaysiete.section7.sub5.body',
+  section8Title: 'blog_treintaysiete.section8.title',
+  section8Body: 'blog_treintaysiete.section8.body',
+  section9Title: 'blog_treintaysiete.section9.title',
+  section9Body: 'blog_treintaysiete.section9.body',
+  section10Title: 'blog_treintaysiete.section10.title',
+  section10Body: 'blog_treintaysiete.section10.body',
+  section11Title: 'blog_treintaysiete.section11.title',
+  section11Body: 'blog_treintaysiete.section11.body',
+  section12Title: 'blog_treintaysiete.section12.title',
+  section12Body: 'blog_treintaysiete.section12.body',
+  layout: 'magazine',
+  imageAlt: 'blog_treintaysiete.imageAlt',
+  imageCaption: 'blog_treintaysiete.imageCaption',
+  sectionImages: [
+    // Before section 2 "¿Qué es exactamente un barco sin licencia?" — same cover image
+    {
+      section: 2,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/lancha-motor-en-mar-tranquilo-sin-patron-ni-licencia.webp', alt: 'blog_treintaysiete.inlineImages.lanchaMotor.alt', caption: 'blog_treintaysiete.inlineImages.lanchaMotor.caption' },
+      ],
+      layout: 'single',
+    },
+    // After section 2 — rigid inflatable boat
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/rigid-inflatable-boat-on-turquoise-sea-no-skipper.webp', alt: 'blog_treintaysiete.inlineImages.rigidInflatable.alt', caption: 'blog_treintaysiete.inlineImages.rigidInflatable.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 card 1 (sub1: Botes con motor fueraborda) — afterSubsection: 0
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/inflatable-boat-anchored-turquoise-sea-summer-no-license.webp', alt: 'blog_treintaysiete.inlineImages.inflatableBoat.alt', caption: 'blog_treintaysiete.inlineImages.inflatableBoat.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 card 2 (sub2: Lanchas semirrígidas) — afterSubsection: 1
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/lancha-semirrigida-alquiler-barco-sin-patron-licencia.webp', alt: 'blog_treintaysiete.inlineImages.semirigida.alt', caption: 'blog_treintaysiete.inlineImages.semirigida.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 card 3 (sub3: Barcos tipo consola) — afterSubsection: 2
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/lancha-motor-en-mar-tranquilo-sin-patron-ni-licencia.webp', alt: 'blog_treintaysiete.inlineImages.consolaToldo.alt', caption: 'blog_treintaysiete.inlineImages.consolaToldo.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 after card 1 (sub1: Puerto de Alcudia) — afterSubsection: 0
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp', alt: 'blog_treintaysiete.inlineImages.puertoAlcudia.alt', caption: 'blog_treintaysiete.inlineImages.puertoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 after card 2 (sub2: Playa de Muro) — afterSubsection: 1
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-alcudia-mallorca-mejor-zona-alojarse.webp', alt: 'blog_treintaysiete.inlineImages.playaMuro.alt', caption: 'blog_treintaysiete.inlineImages.playaMuro.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 after card 3 (sub3: Puerto de Pollença) — afterSubsection: 2
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/port-of-pollensa-small-boats-harbor-mallorca.webp', alt: 'blog_treintaysiete.inlineImages.puertoPollenca.alt', caption: 'blog_treintaysiete.inlineImages.puertoPollenca.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 after card 4 (sub4: Colònia de Sant Pere) — afterSubsection: 3
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/colonia-de-sant-pere-puerto-playa-paseo-barco.webp', alt: 'blog_treintaysiete.inlineImages.coloniaSantPere.alt', caption: 'blog_treintaysiete.inlineImages.coloniaSantPere.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 after card 1 (sub1: Alcudia → Playa de Muro) — afterSubsection: 0
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-mallorca-departure-point-for-best-boat-excursions-alcudia.webp', alt: 'blog_treintaysiete.inlineImages.playaMuroRuta.alt', caption: 'blog_treintaysiete.inlineImages.playaMuroRuta.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 after card 2 (sub2: Alcudia → Alcanada) — afterSubsection: 1
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/faro-alcanada-excursion-barco-alcudia-mallorca.webp', alt: 'blog_treintaysiete.inlineImages.faroAlcanada.alt', caption: 'blog_treintaysiete.inlineImages.faroAlcanada.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 after card 3 (sub3: Pollença → Formentor) — afterSubsection: 2
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp', alt: 'blog_treintaysiete.inlineImages.playaFormentor.alt', caption: 'blog_treintaysiete.inlineImages.playaFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 after card 4 (sub4: Can Picafort → Son Serra) — afterSubsection: 3
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/boat-charter-rent-in-mallorca-and-boat-trips-excursions-alcudia.webp', alt: 'blog_treintaysiete.inlineImages.boatCharter.alt', caption: 'blog_treintaysiete.inlineImages.boatCharter.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
 }
 
 ];

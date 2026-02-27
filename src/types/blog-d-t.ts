@@ -99,6 +99,10 @@ export interface IBlogDT {
   section7sub2Body?: string;
   section7sub3Subtitle?: string;
   section7sub3Body?: string;
+  section7sub4Subtitle?: string;
+  section7sub4Body?: string;
+  section7sub5Subtitle?: string;
+  section7sub5Body?: string;
   section8Title?: string;
   section8Body?: string;
   section9Title?: string;

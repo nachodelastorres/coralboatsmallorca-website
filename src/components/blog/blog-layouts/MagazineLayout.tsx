@@ -1237,6 +1237,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                       { subtitle: blog.section7sub1Subtitle, body: blog.section7sub1Body },
                       { subtitle: blog.section7sub2Subtitle, body: blog.section7sub2Body },
                       { subtitle: blog.section7sub3Subtitle, body: blog.section7sub3Body },
+                      { subtitle: blog.section7sub4Subtitle, body: blog.section7sub4Body },
+                      { subtitle: blog.section7sub5Subtitle, body: blog.section7sub5Body },
                     ].filter(section => section.subtitle && section.body);
 
                     const hasSubsections = subsections.length > 0;
