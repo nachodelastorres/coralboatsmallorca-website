@@ -2265,8 +2265,11 @@ export const blogDataOne: IBlogDT[] = [
   secondaryImage2: blogDetailsImg32Secondary2,
   imageAlt: 'blog_treintayuno.imageAlt',
   imageCaption: 'blog_treintayuno.imageCaption',
+  heroInlineCaption: 'blog_treintayuno.heroInlineCaption',
   secondaryImage1Alt: 'blog_treintayuno.secondaryImage1Alt',
+  secondaryImage1Caption: 'blog_treintayuno.secondaryImage1Caption',
   secondaryImage2Alt: 'blog_treintayuno.secondaryImage2Alt',
+  secondaryImage2Caption: 'blog_treintayuno.secondaryImage2Caption',
 },
 
 {
@@ -2742,14 +2745,19 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_treintaycinco.imageAlt',
   imageCaption: 'blog_treintaycinco.imageCaption',
+  heroInlineCaption: 'blog_treintaycinco.heroInlineCaption',
   secondaryImage1: blogDetailsImg36Secondary1,
   secondaryImage1Alt: 'blog_treintaycinco.secondaryImage1Alt',
+  secondaryImage1Caption: 'blog_treintaycinco.secondaryImage1Caption',
   secondaryImage2: blogDetailsImg36Secondary2,
   secondaryImage2Alt: 'blog_treintaycinco.secondaryImage2Alt',
+  secondaryImage2Caption: 'blog_treintaycinco.secondaryImage2Caption',
   secondaryImage3: blogDetailsImg36Secondary3,
   secondaryImage3Alt: 'blog_treintaycinco.secondaryImage3Alt',
+  secondaryImage3Caption: 'blog_treintaycinco.secondaryImage3Caption',
   secondaryImage4: blogDetailsImg36Secondary4,
   secondaryImage4Alt: 'blog_treintaycinco.secondaryImage4Alt',
+  secondaryImage4Caption: 'blog_treintaycinco.secondaryImage4Caption',
 },
 
 {

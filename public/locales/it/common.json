@@ -3297,6 +3297,9 @@
     "imageCaption": "Appassionati di paddle surf godono delle acque turchesi della baia di Alcudia durante un'escursione in barca – la combinazione perfetta di navigazione e sport acquatici che permette di esplorare calette inaccessibili da terra.",
     "secondaryImage1Alt": "SUP a Maiorca - Paddle surf durante un tour in barca ad Alcudia con vista sulla costa nord",
     "secondaryImage2Alt": "Paddle surf e attività acquatiche nelle spiagge di Alcudia Maiorca con acque trasparenti",
+    "heroInlineCaption": "Un appassionato di paddle surf scivola sulle acque cristalline turchesi della Baia di Alcudia durante un'escursione in barca, godendo della calma mattutina che rende questa zona del nord di Maiorca ideale per il SUP.",
+    "secondaryImage1Caption": "Sessione di stand-up paddleboarding durante un tour in barca ad Alcudia, con la spettacolare costa del nord di Maiorca all'orizzonte e le praterie di posidonia visibili sotto la superficie.",
+    "secondaryImage2Caption": "Paddle surf e attività acquatiche sulle spiagge di Alcudia, dove le acque trasparenti e i fondali di sabbia fine creano condizioni perfette sia per i principianti che per i rematori esperti.",
     "section1": {
       "title": "C'è qualcosa di quasi magico nel remare in piedi sul mare",
       "body": "Immagina questo: sono le otto del mattino nella Baia di Alcudia. Il sole è appena spuntato da dietro le montagne di Artà e tinge l'acqua di un rosa pallido che sembra irreale. Non c'è vento. Il mare è uno specchio perfetto che riflette il cielo. E tu sei lì, in piedi su una tavola da paddle surf, scivolando in silenzio su acque così cristalline che puoi vedere ogni pietra del fondo, ogni pesce che passa sotto i tuoi piedi.\n\nQuesto è il **paddle surf ad Alcudia**. O meglio, questo è il paddle surf ad Alcudia quando lo fai bene: scegliendo il momento giusto, il luogo corretto e lasciandoti trasportare da una delle esperienze più speciali che puoi vivere a Maiorca.\n\nLo **stand up paddle** (SUP) ha rivoluzionato il modo in cui ci connettiamo con il mare. Non servono onde come nel surf tradizionale. Non serve un motore come nelle moto d'acqua. Ti servono solo una tavola, una pagaia e voglia di esplorare. È accessibile a quasi chiunque, dai bambini di sei anni ai nonni di settanta. Eppure, può portarti in luoghi che altrimenti non scoprireste mai.\n\nA Maiorca, il paddle surf è passato dall'essere una rarità a diventare una delle attività acquatiche più popolari. E c'è una ragione: poche zone del Mediterraneo offrono le condizioni che trovi qui. Acque calme, temperatura perfetta durante gran parte dell'anno, calette nascoste che puoi raggiungere solo remando e una costa che sembra progettata per essere esplorata tavola dopo tavola.\n\nMa non tutti gli spot sono uguali. Non tutte le ore del giorno sono buone. E non tutti i periodi dell'anno funzionano allo stesso modo. Per questo abbiamo creato questa guida: perché la tua esperienza di **SUP ad Alcudia** sia esattamente come la immagini. O meglio.\n\nNon importa se non sei mai salito su una tavola o se remi già da anni in giro per il mondo. Nelle prossime righe scoprirai perché il nord di Maiorca è una destinazione di riferimento per il paddle surf, quali sono i migliori spot per tutti i livelli, di quale attrezzatura hai bisogno e come puoi combinare il SUP con un'esperienza in barca che moltiplica le possibilità. Preparati a remare."
@@ -3948,7 +3951,7 @@
 },
 
 
-"blog_treintaycinque": {
+"blog_treintaycinco": {
   "metaTitle": "Jet Ski ad Alcúdia e nel Nord di Maiorca: Guida Completa alle Moto d’Acqua | Prezzi, Requisiti e Migliori Rotte",
   "metaDescription": "Guida completa a jetski e moto d’acqua ad Alcúdia, Playa de Muro, Can Picafort e Port de Pollença. Prezzi aggiornati, requisiti di età e patente, rotte consigliate, operatori locali e consigli esperti per noleggiare una moto d’acqua nel nord di Maiorca.",
   "badgeTitle": "Attività acquatiche",
@@ -3960,6 +3963,11 @@
   "btnText": "Leggi di più",
   "imageAlt": "Jetski che naviga nelle acque cristalline della baia di Alcudia a Maiorca con la costa sullo sfondo",
   "imageCaption": "Le moto d’acqua o jetski sono una delle attività acquatiche più emozionanti che puoi vivere nelle acque turchesi del nord di Maiorca, con la Baia di Alcúdia come scenario principale.",
+  "heroInlineCaption": "Un pilota di jetski solca le acque cristalline della Baia di Alcudia con la costa frastagliata di Maiorca sullo sfondo, una delle attività acquatiche più emozionanti disponibili nel nord dell’isola.",
+  "secondaryImage1Caption": "Moto d’acqua schierate nella baia di Alcudia, pronte per una giornata ricca di sport acquatici nelle acque calme e protette che offrono condizioni ideali per la navigazione.",
+  "secondaryImage2Caption": "Una coppia si gode un giro in jetski sulle acque turchesi vicino a Playa de Muro, condividendo l’emozione della velocità e i panorami costieri mozzafiato di Maiorca.",
+  "secondaryImage3Caption": "Punto di noleggio jetski al Porto di Alcudia, dove il turismo attivo e gli sport nautici sono protagonisti durante i mesi estivi lungo la costa nord di Maiorca.",
+  "secondaryImage4Caption": "Un jetski sfreccia sulle acque cristalline del Mediterraneo al largo della costa di Maiorca, lasciando una scia bianca sul mare blu intenso.",
 
   "section1": {
     "title": "Il jetski, una delle esperienze più emozionanti del Mediterraneo",
