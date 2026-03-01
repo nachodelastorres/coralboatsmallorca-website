@@ -548,13 +548,170 @@ export const blogDataOne: IBlogDT[] = [
     section3sub2Body: 'blog_siete.section3.sub2.body',
     section3sub3Subtitle: 'blog_siete.section3.sub3.subtitle',
     section3sub3Body: 'blog_siete.section3.sub3.body',
+    section3sub4Subtitle: 'blog_siete.section3.sub4.subtitle',
+    section3sub4Body: 'blog_siete.section3.sub4.body',
     section4Title: 'blog_siete.section4.title',
     section4Body: 'blog_siete.section4.body',
+    section4sub1Subtitle: 'blog_siete.section4.sub1.subtitle',
+    section4sub1Body: 'blog_siete.section4.sub1.body',
+    section4sub2Subtitle: 'blog_siete.section4.sub2.subtitle',
+    section4sub2Body: 'blog_siete.section4.sub2.body',
+    section4sub3Subtitle: 'blog_siete.section4.sub3.subtitle',
+    section4sub3Body: 'blog_siete.section4.sub3.body',
     section5Title: 'blog_siete.section5.title',
     section5Body: 'blog_siete.section5.body',
-    layout: 'magazine',
+    section6Title: 'blog_siete.section6.title',
+    section6Body: 'blog_siete.section6.body',
+    section6sub1Subtitle: 'blog_siete.section6.sub1.subtitle',
+    section6sub1Body: 'blog_siete.section6.sub1.body',
+    section6sub2Subtitle: 'blog_siete.section6.sub2.subtitle',
+    section6sub2Body: 'blog_siete.section6.sub2.body',
+    section6sub3Subtitle: 'blog_siete.section6.sub3.subtitle',
+    section6sub3Body: 'blog_siete.section6.sub3.body',
+    section7Title: 'blog_siete.section7.title',
+    section7Body: 'blog_siete.section7.body',
+    layout: 'visual',
     imageAlt: 'blog_siete.imageAlt',
     imageCaption: 'blog_siete.imageCaption',
+    sectionImages: [
+      {
+        section: 1,
+        position: 'after-section',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/playa-de-muro-vista-aerea-alcudia-mallorca.webp',
+            alt: 'blog_siete.inlineImages.playa_muro_aerea.alt',
+            caption: 'blog_siete.inlineImages.playa_muro_aerea.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-body',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/barco-clasico-madera-coral-boats-mallorca.webp',
+            alt: 'blog_siete.inlineImages.barco_clasico.alt',
+            caption: 'blog_siete.inlineImages.barco_clasico.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/ninos-actividades-acuaticas-excursion-familiar-mallorca.webp',
+            alt: 'blog_siete.inlineImages.ninos_actividades.alt',
+            caption: 'blog_siete.inlineImages.ninos_actividades.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 0,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp',
+            alt: 'blog_siete.inlineImages.tour_manana.alt',
+            caption: 'blog_siete.inlineImages.tour_manana.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 1,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/boat-trip-north-mallorca-with-snorkel-and-water-activities.webp',
+            alt: 'blog_siete.inlineImages.tour_dia_completo.alt',
+            caption: 'blog_siete.inlineImages.tour_dia_completo.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 2,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp',
+            alt: 'blog_siete.inlineImages.tour_atardecer.alt',
+            caption: 'blog_siete.inlineImages.tour_atardecer.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 4,
+        position: 'after-section',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/snorkel-alcudia-mallorca-durante-excursion-barco.webp',
+            alt: 'blog_siete.inlineImages.snorkel_alcudia.alt',
+            caption: 'blog_siete.inlineImages.snorkel_alcudia.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/calas-para-ir-con-ninos-mallorca-alcudia-facil-aparcamiento.webp',
+            alt: 'blog_siete.inlineImages.calas_familias.alt',
+            caption: 'blog_siete.inlineImages.calas_familias.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/water-activities-for-families-with-kids-during-boat-trip-alcudia-mallorca.webp',
+            alt: 'blog_siete.inlineImages.actividades_agua.alt',
+            caption: 'blog_siete.inlineImages.actividades_agua.caption',
+          },
+        ],
+        layout: 'grid-3',
+      },
+      {
+        section: 5,
+        position: 'after-section',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp',
+            alt: 'blog_siete.inlineImages.familia_barco.alt',
+            caption: 'blog_siete.inlineImages.familia_barco.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/cala-secreta-accesible-barco-alcudia-mallorca.webp',
+            alt: 'blog_siete.inlineImages.cala_secreta.alt',
+            caption: 'blog_siete.inlineImages.cala_secreta.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 6,
+        position: 'before-body',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/vista-panoramica-playa-muro-bahia-alcudia.webp',
+            alt: 'blog_siete.inlineImages.playa_muro_panoramica.alt',
+            caption: 'blog_siete.inlineImages.playa_muro_panoramica.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/callejon-tipico-casco-historico-alcudia-mallorca.webp',
+            alt: 'blog_siete.inlineImages.casco_antiguo.alt',
+            caption: 'blog_siete.inlineImages.casco_antiguo.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 6,
+        position: 'after-subsection',
+        afterSubsection: 2,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/albufera-alcudia-parque-natural-mallorca.webp',
+            alt: 'blog_siete.inlineImages.albufera.alt',
+            caption: 'blog_siete.inlineImages.albufera.caption',
+          },
+        ],
+        layout: 'single',
+      },
+    ],
   },
 
   {
@@ -1770,6 +1927,136 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_veintiseis.imageAlt',
   imageCaption: 'blog_veintiseis.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/alcudia-port-and-bay-history-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.bahia_alcudia.alt',
+          caption: 'blog_veintiseis.inlineImages.bahia_alcudia.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/calas-ninos-mallorca-alcudia.webp',
+          alt: 'blog_veintiseis.inlineImages.alcudia.alt',
+          caption: 'blog_veintiseis.inlineImages.alcudia.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-de-muro-vista-aerea-alcudia-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.muro_aerea.alt',
+          caption: 'blog_veintiseis.inlineImages.muro_aerea.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp',
+          alt: 'blog_veintiseis.inlineImages.muro_agua.alt',
+          caption: 'blog_veintiseis.inlineImages.muro_agua.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-alcanada-aguas-cristalinas-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.alcanada_playa.alt',
+          caption: 'blog_veintiseis.inlineImages.alcanada_playa.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/faro-alcanada-excursion-barco-alcudia-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.alcanada_faro.alt',
+          caption: 'blog_veintiseis.inlineImages.alcanada_faro.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 3,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/cala-san-vicente-vicenc-mallorca-pollenca.webp',
+          alt: 'blog_veintiseis.inlineImages.sant_vicenc.alt',
+          caption: 'blog_veintiseis.inlineImages.sant_vicenc.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 4,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp',
+          alt: 'blog_veintiseis.inlineImages.formentor_playa.alt',
+          caption: 'blog_veintiseis.inlineImages.formentor_playa.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.formentor_aerea.alt',
+          caption: 'blog_veintiseis.inlineImages.formentor_aerea.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 5,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-del-coll-baix-mallorca-alcudia.webp',
+          alt: 'blog_veintiseis.inlineImages.coll_baix.alt',
+          caption: 'blog_veintiseis.inlineImages.coll_baix.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/vista-aerea-coll-baix-cabo-pinar-alcudia-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.coll_baix_aerea.alt',
+          caption: 'blog_veintiseis.inlineImages.coll_baix_aerea.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 6,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/calas-escondidas-norte-mallorca-excursion-barco.webp',
+          alt: 'blog_veintiseis.inlineImages.calas_escondidas.alt',
+          caption: 'blog_veintiseis.inlineImages.calas_escondidas.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/cala-secreta-accesible-barco-alcudia-mallorca.webp',
+          alt: 'blog_veintiseis.inlineImages.cala_secreta.alt',
+          caption: 'blog_veintiseis.inlineImages.cala_secreta.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {
