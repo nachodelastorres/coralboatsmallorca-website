@@ -79,8 +79,8 @@
     "imageCaption": "Un barco tradicional de Coral Boats navega por las aguas tranquilas de la bahía de Alcudia, con la isla y el faro de Alcanada como telón de fondo, reflejando el espíritu del Mediterráneo que inspira este blog."
 },
   "blog_uno": {
-  "metaTitle": "Mejores Excursiones en Barco en Mallorca 2025: Tours, Calas Escondidas y Experiencias Únicas",
-  "metaDescription": "Descubre las mejores excursiones en barco en Mallorca para 2025. Paseos en barco por la Bahía de Alcudia, calas escondidas, playas vírgenes, snorkel y atardeceres inolvidables. Guía completa con consejos locales para elegir el tour perfecto.",
+  "metaTitle": "Mejores Excursiones en Barco en Mallorca: Tours, Calas Escondidas y Experiencias Únicas",
+  "metaDescription": "Descubre las mejores excursiones en barco en Mallorca. Paseos en barco por la Bahía de Alcudia, calas escondidas, playas vírgenes, snorkel y atardeceres inolvidables. Guía completa con consejos locales para elegir el tour perfecto.",
   "title": "Las mejores excursiones en barco en Mallorca para este verano",
   "slug": "mejores-excursiones-barco-mallorca",
   "keyword": "excursiones en barco Mallorca",
@@ -121,7 +121,53 @@
     "body": "Hacer una excursión en barco en Mallorca no es solo un plan más del viaje. Es una forma distinta de vivir la isla, de entender su geografía, su luz y su relación con el mar.\n\nYa sea un paseo tranquilo por la Bahía de Alcudia, una salida para descubrir calas escondidas, un tour familiar o una navegación al atardecer, hay una experiencia perfecta para cada tipo de viajero.\n\nSi quieres explorar todas las opciones disponibles y elegir la que mejor encaje contigo, aquí tienes el punto de partida: [Mejores excursiones en barco en Mallorca desde Alcudia](https://www.coralboatsmallorca.com/es/boat-tours-alcudia).\n\nEste verano, sube a bordo, deja atrás la orilla y descubre por qué tantos viajeros dicen que **ver Mallorca desde el mar fue el mejor recuerdo de sus vacaciones**."
   },
   "imageAlt": "Excursión en barco por la costa de Mallorca con vistas a calas escondidas y aguas cristalinas del Mediterráneo",
-  "imageCaption": "Descubre las mejores excursiones en barco en Mallorca: paseos por la Bahía de Alcudia, calas secretas de aguas turquesas y tours al atardecer. La forma perfecta de explorar la costa mallorquina desde el mar."
+  "imageCaption": "Descubre las mejores excursiones en barco en Mallorca: paseos por la Bahía de Alcudia, calas secretas de aguas turquesas y tours al atardecer. La forma perfecta de explorar la costa mallorquina desde el mar.",
+  "inlineImages": {
+    "calasEscondidas": {
+      "alt": "Calas escondidas del norte de Mallorca accesibles solo en barco, con aguas turquesas rodeadas de acantilados y pinos",
+      "caption": "Muchas de las calas más bonitas de Mallorca solo se descubren navegando: aguas cristalinas, acantilados y naturaleza virgen lejos de las multitudes."
+    },
+    "barcoClasico": {
+      "alt": "Barco clásico de madera de Coral Boats navegando por la costa de Mallorca",
+      "caption": "Los llaüts mallorquines de madera ofrecen una experiencia de navegación auténtica y tranquila, perfecta para recorrer la costa con encanto."
+    },
+    "calaDesdeBarco": {
+      "alt": "Vista desde un barco de una cala escondida en el norte de Mallorca con aguas cristalinas",
+      "caption": "Con más de 550 kilómetros de costa, Mallorca esconde rincones que solo se revelan desde el mar: calas vírgenes, cuevas y formaciones rocosas espectaculares."
+    },
+    "calaSecretaAlcudia": {
+      "alt": "Cala secreta de aguas turquesas accesible en barco desde Alcudia, Mallorca",
+      "caption": "La Bahía de Alcudia es el punto de partida ideal para descubrir calas escondidas e inaccesibles por tierra, con paradas largas para nadar y hacer snorkel."
+    },
+    "turistasBarco": {
+      "alt": "Turistas disfrutando de un paseo en barco por las aguas cristalinas de Mallorca",
+      "caption": "Navegar por la Bahía de Alcudia combina paisajes espectaculares con un ritmo relajado: el plan perfecto para familias, parejas y grupos de amigos."
+    },
+    "costaNorte": {
+      "alt": "Vistas de los acantilados y la costa salvaje del norte de Mallorca desde una excursión en barco",
+      "caption": "La costa norte de Mallorca sorprende con acantilados imponentes, cuevas marinas y calas de carácter salvaje que solo se aprecian desde el agua."
+    },
+    "atardecer": {
+      "alt": "Crucero al atardecer en la bahía de Alcudia con el sol poniéndose sobre el Mediterráneo",
+      "caption": "Los sunset tours son para muchos viajeros el momento más especial de las vacaciones: música suave, bebida a bordo y la costa teñida de tonos dorados."
+    },
+    "puestaSol": {
+      "alt": "Puesta de sol espectacular sobre el Mediterráneo vista desde un crucero en Mallorca",
+      "caption": "Ver caer el sol sobre el horizonte desde un barco en la Bahía de Alcudia es una experiencia difícil de olvidar y el cierre perfecto para un día en la isla."
+    },
+    "snorkelSup": {
+      "alt": "Snorkel y paddle surf durante una excursión en barco en Alcudia, Mallorca",
+      "caption": "Muchas excursiones incluyen equipo de snorkel y paddle surf, ideal para explorar el fondo marino y las praderas de posidonia de la bahía."
+    },
+    "coralBoatsActividades": {
+      "alt": "Actividades acuáticas con Coral Boats en Alcudia: snorkel, paddle surf y baño en calas",
+      "caption": "No olvides protector solar, bañador y gafas de sol: en el mar el sol pega más fuerte, y las paradas para actividades acuáticas son el mejor momento del tour."
+    },
+    "amigosBarco": {
+      "alt": "Grupo de amigos disfrutando de una excursión en barco por la bahía de Alcudia, Mallorca",
+      "caption": "Ya sea un paseo tranquilo por la bahía, un tour al atardecer o una aventura en familia, hay una excursión en barco perfecta para cada tipo de viajero."
+    }
+  }
 },
   "experience": {
     "title": "Vive la experiencia Coral Boats",

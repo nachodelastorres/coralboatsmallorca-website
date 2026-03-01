@@ -175,6 +175,115 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'magazine',
     imageAlt: 'blog_uno.imageAlt',
     imageCaption: 'blog_uno.imageCaption',
+    sectionImages: [
+      {
+        section: 1,
+        position: 'after-section',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/calas-escondidas-norte-mallorca-excursion-barco.webp',
+            alt: 'blog_uno.inlineImages.calasEscondidas.alt',
+            caption: 'blog_uno.inlineImages.calasEscondidas.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/barco-clasico-madera-coral-boats-mallorca.webp',
+            alt: 'blog_uno.inlineImages.barcoClasico.alt',
+            caption: 'blog_uno.inlineImages.barcoClasico.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 2,
+        position: 'after-body',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/boat-ride-in-north-of-mallorca-hidden-cove.webp',
+            alt: 'blog_uno.inlineImages.calaDesdeBarco.alt',
+            caption: 'blog_uno.inlineImages.calaDesdeBarco.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 0,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/cala-secreta-accesible-barco-alcudia-mallorca.webp',
+            alt: 'blog_uno.inlineImages.calaSecretaAlcudia.alt',
+            caption: 'blog_uno.inlineImages.calaSecretaAlcudia.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/turistas-paseo-barco-aguas-cristalinas-mallorca.webp',
+            alt: 'blog_uno.inlineImages.turistasBarco.alt',
+            caption: 'blog_uno.inlineImages.turistasBarco.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 1,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/vistas-costa-norte-mallorca-excursion-barco.webp',
+            alt: 'blog_uno.inlineImages.costaNorte.alt',
+            caption: 'blog_uno.inlineImages.costaNorte.caption',
+          },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 3,
+        position: 'after-subsection',
+        afterSubsection: 2,
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp',
+            alt: 'blog_uno.inlineImages.atardecer.alt',
+            caption: 'blog_uno.inlineImages.atardecer.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp',
+            alt: 'blog_uno.inlineImages.puestaSol.alt',
+            caption: 'blog_uno.inlineImages.puestaSol.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 4,
+        position: 'after-body',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/snorkel-en-alcudia-mallorca-durante-paseo-en-barco-sup.webp',
+            alt: 'blog_uno.inlineImages.snorkelSup.alt',
+            caption: 'blog_uno.inlineImages.snorkelSup.caption',
+          },
+          {
+            src: '/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp',
+            alt: 'blog_uno.inlineImages.coralBoatsActividades.alt',
+            caption: 'blog_uno.inlineImages.coralBoatsActividades.caption',
+          },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 5,
+        position: 'before-body',
+        images: [
+          {
+            src: '/assets/img/premium/gallery_new/amigos-excursion-barco-bahia-alcudia.webp',
+            alt: 'blog_uno.inlineImages.amigosBarco.alt',
+            caption: 'blog_uno.inlineImages.amigosBarco.caption',
+          },
+        ],
+        layout: 'single',
+      },
+    ],
   },
 
   {

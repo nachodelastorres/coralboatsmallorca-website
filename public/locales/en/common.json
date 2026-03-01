@@ -79,8 +79,8 @@
     "imageCaption": "A traditional Coral Boats vessel sailing through the calm waters of the Bay of Alcudia, with Alcanada Island and its lighthouse in the distance, capturing the Mediterranean spirit that inspires our stories and boat trips."
   },
   "blog_uno": {
-    "metaTitle": "Best Boat Trips in Mallorca 2025: Tours, Hidden Coves and Unique Experiences",
-    "metaDescription": "Discover the best boat trips in Mallorca for 2025. Boat tours around the Bay of Alcudia, hidden coves, unspoilt beaches, snorkelling and unforgettable sunsets. A complete guide with local tips to help you choose the perfect boat tour.",
+    "metaTitle": "Best Boat Trips in Mallorca: Tours, Hidden Coves and Unique Experiences",
+    "metaDescription": "Discover the best boat trips in Mallorca. Boat tours around the Bay of Alcudia, hidden coves, unspoilt beaches, snorkelling and unforgettable sunsets. A complete guide with local tips to help you choose the perfect boat tour.",
     "title": "The best boat trips in Mallorca for this summer",
     "slug": "best-boat-trips-mallorca",
     "keyword": "boat trips Mallorca",
@@ -121,7 +121,53 @@
       "body": "Taking a boat trip in Mallorca is not just another activity on your itinerary. It is a different way of experiencing the island — of understanding its geography, its light and its deep connection to the sea.\n\nWhether it is a relaxed cruise around the Bay of Alcudia, a trip to discover hidden coves, a family-friendly excursion or a sunset sail, there is a perfect experience for every type of traveller.\n\nIf you want to explore all available options and choose the one that suits you best, this is the perfect place to start: [Best boat trips in Mallorca from Alcudia](https://www.coralboatsmallorca.com/en/boat-tours-alcudia).\n\nThis summer, step on board, leave the shore behind and discover why so many travellers say that **seeing Mallorca from the sea was the best memory of their holiday**."
     },
     "imageAlt": "Boat trip along the Mallorca coast with views of hidden coves and crystal-clear Mediterranean waters",
-    "imageCaption": "Discover the best boat trips in Mallorca: cruises around Alcudia Bay, secret coves with turquoise waters and sunset tours. The perfect way to explore the Mallorcan coastline from the sea."
+    "imageCaption": "Discover the best boat trips in Mallorca: cruises around Alcudia Bay, secret coves with turquoise waters and sunset tours. The perfect way to explore the Mallorcan coastline from the sea.",
+    "inlineImages": {
+      "calasEscondidas": {
+        "alt": "Hidden coves in the north of Mallorca accessible only by boat, with turquoise waters surrounded by cliffs and pine trees",
+        "caption": "Many of Mallorca's most beautiful coves can only be discovered by boat: crystal-clear waters, cliffs and unspoilt nature far from the crowds."
+      },
+      "barcoClasico": {
+        "alt": "Classic wooden Coral Boats vessel sailing along the Mallorca coast",
+        "caption": "Traditional Mallorcan llaüts offer an authentic and peaceful sailing experience, perfect for cruising the coast with charm."
+      },
+      "calaDesdeBarco": {
+        "alt": "View from a boat of a hidden cove in the north of Mallorca with crystal-clear waters",
+        "caption": "With over 550 kilometres of coastline, Mallorca hides spots that only reveal themselves from the sea: pristine coves, caves and spectacular rock formations."
+      },
+      "calaSecretaAlcudia": {
+        "alt": "Secret turquoise-water cove accessible by boat from Alcudia, Mallorca",
+        "caption": "The Bay of Alcudia is the ideal starting point for discovering hidden coves inaccessible by land, with long stops for swimming and snorkelling."
+      },
+      "turistasBarco": {
+        "alt": "Tourists enjoying a boat ride through the crystal-clear waters of Mallorca",
+        "caption": "Sailing around the Bay of Alcudia combines spectacular scenery with a relaxed pace: the perfect plan for families, couples and groups of friends."
+      },
+      "costaNorte": {
+        "alt": "Views of the cliffs and wild northern coast of Mallorca from a boat excursion",
+        "caption": "The north coast of Mallorca surprises with towering cliffs, sea caves and wild coves that can only be appreciated from the water."
+      },
+      "atardecer": {
+        "alt": "Sunset cruise in the Bay of Alcudia with the sun setting over the Mediterranean",
+        "caption": "Sunset tours are for many travellers the most special moment of their holiday: soft music, drinks on board and the coast bathed in golden tones."
+      },
+      "puestaSol": {
+        "alt": "Spectacular sunset over the Mediterranean seen from a cruise in Mallorca",
+        "caption": "Watching the sun sink below the horizon from a boat in the Bay of Alcudia is an unforgettable experience and the perfect end to a day on the island."
+      },
+      "snorkelSup": {
+        "alt": "Snorkelling and paddle surf during a boat excursion in Alcudia, Mallorca",
+        "caption": "Many excursions include snorkelling gear and paddle boards, ideal for exploring the seabed and the posidonia meadows of the bay."
+      },
+      "coralBoatsActividades": {
+        "alt": "Water activities with Coral Boats in Alcudia: snorkelling, paddle surf and swimming in coves",
+        "caption": "Don't forget sunscreen, swimwear and sunglasses: the sun hits harder at sea, and the stops for water activities are the highlight of the tour."
+      },
+      "amigosBarco": {
+        "alt": "Group of friends enjoying a boat excursion in the Bay of Alcudia, Mallorca",
+        "caption": "Whether it's a peaceful bay cruise, a sunset tour or a family adventure, there's a perfect boat trip for every type of traveller."
+      }
+    }
   },
   "experience": {
     "title": "Live the Coral Boats experience",

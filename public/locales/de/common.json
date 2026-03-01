@@ -79,8 +79,8 @@
     "imageCaption": "Ein traditionelles Boot von Coral Boats gleitet durch die ruhigen Gewässer der Bucht von Alcudia, mit der Insel und dem Leuchtturm von Alcanada im Hintergrund – ein Sinnbild für den mediterranen Geist dieses Blogs."
   },
   "blog_uno": {
-    "metaTitle": "Die besten Bootsausflüge auf Mallorca 2025: Touren, versteckte Buchten und einzigartige Erlebnisse",
-    "metaDescription": "Entdecke die besten Bootsausflüge auf Mallorca für 2025. Bootstouren durch die Bucht von Alcúdia, versteckte Buchten, unberührte Strände, Schnorcheln und unvergessliche Sonnenuntergänge. Ein kompletter Guide mit lokalen Tipps, um die perfekte Bootstour zu wählen.",
+    "metaTitle": "Die besten Bootsausflüge auf Mallorca: Touren, versteckte Buchten und einzigartige Erlebnisse",
+    "metaDescription": "Entdecke die besten Bootsausflüge auf Mallorca. Bootstouren durch die Bucht von Alcúdia, versteckte Buchten, unberührte Strände, Schnorcheln und unvergessliche Sonnenuntergänge. Ein kompletter Guide mit lokalen Tipps, um die perfekte Bootstour zu wählen.",
     "title": "Die besten Bootsausflüge auf Mallorca für diesen Sommer",
     "slug": "beste-bootsausfluege-mallorca",
     "keyword": "Bootsausflüge Mallorca",
@@ -121,7 +121,53 @@
       "body": "Eine Bootstour auf Mallorca ist nicht einfach nur ein weiterer Programmpunkt im Urlaub. Sie ist eine andere Art, die Insel zu erleben – ihre Geografie, ihr Licht und ihre enge Verbindung zum Meer zu verstehen.\n\nOb eine entspannte Fahrt durch die Bucht von Alcúdia, eine Tour zu versteckten Buchten, ein familienfreundlicher Ausflug oder eine Fahrt bei Sonnenuntergang – es gibt für jeden Reisetyp das passende Erlebnis.\n\nWenn du alle verfügbaren Optionen entdecken und die für dich passende auswählen möchtest, findest du hier den idealen Startpunkt: [Die besten Bootsausflüge auf Mallorca ab Alcúdia](https://www.coralboatsmallorca.com/de/boat-tours-alcudia).\n\nSteig diesen Sommer an Bord, lass das Ufer hinter dir und entdecke, warum so viele Reisende sagen, dass **Mallorca vom Meer aus ihr schönstes Urlaubserlebnis war**."
     },
     "imageAlt": "Bootsausflug entlang der Küste Mallorcas mit Blick auf versteckte Buchten und kristallklares Mittelmeerwasser",
-    "imageCaption": "Entdecke die besten Bootsausflüge auf Mallorca: Touren durch die Bucht von Alcúdia, geheime Buchten mit türkisfarbenem Wasser und Sonnenuntergangsfahrten. Die perfekte Art, die mallorquinische Küste vom Meer aus zu erkunden."
+    "imageCaption": "Entdecke die besten Bootsausflüge auf Mallorca: Touren durch die Bucht von Alcúdia, geheime Buchten mit türkisfarbenem Wasser und Sonnenuntergangsfahrten. Die perfekte Art, die mallorquinische Küste vom Meer aus zu erkunden.",
+    "inlineImages": {
+      "calasEscondidas": {
+        "alt": "Versteckte Buchten im Norden Mallorcas, nur per Boot erreichbar, mit türkisfarbenem Wasser umgeben von Klippen und Pinien",
+        "caption": "Viele der schönsten Buchten Mallorcas lassen sich nur per Boot entdecken: kristallklares Wasser, Klippen und unberührte Natur fernab der Massen."
+      },
+      "barcoClasico": {
+        "alt": "Klassisches Holzboot von Coral Boats an der Küste Mallorcas",
+        "caption": "Traditionelle mallorquinische Llaüts bieten ein authentisches und ruhiges Segelerlebnis – perfekt, um die Küste mit Charme zu erkunden."
+      },
+      "calaDesdeBarco": {
+        "alt": "Blick vom Boot auf eine versteckte Bucht im Norden Mallorcas mit kristallklarem Wasser",
+        "caption": "Mit über 550 Kilometern Küstenlinie verbirgt Mallorca Orte, die sich nur vom Meer aus zeigen: unberührte Buchten, Höhlen und spektakuläre Felsformationen."
+      },
+      "calaSecretaAlcudia": {
+        "alt": "Geheime Bucht mit türkisfarbenem Wasser, per Boot von Alcudia aus erreichbar, Mallorca",
+        "caption": "Die Bucht von Alcudia ist der ideale Ausgangspunkt, um versteckte, vom Land aus unzugängliche Buchten zu entdecken – mit langen Badestopps und Schnorchelmöglichkeiten."
+      },
+      "turistasBarco": {
+        "alt": "Touristen genießen eine Bootsfahrt durch das kristallklare Wasser Mallorcas",
+        "caption": "Eine Bootsfahrt durch die Bucht von Alcudia verbindet spektakuläre Landschaften mit einem entspannten Tempo: der perfekte Plan für Familien, Paare und Freundesgruppen."
+      },
+      "costaNorte": {
+        "alt": "Blick auf die Klippen und die wilde Nordküste Mallorcas von einem Bootsausflug aus",
+        "caption": "Die Nordküste Mallorcas überrascht mit imposanten Klippen, Meereshöhlen und wilden Buchten, die man nur vom Wasser aus richtig erleben kann."
+      },
+      "atardecer": {
+        "alt": "Sonnenuntergangsfahrt in der Bucht von Alcudia mit der Sonne über dem Mittelmeer",
+        "caption": "Sunset-Touren sind für viele Reisende der besonderste Moment des Urlaubs: sanfte Musik, Getränke an Bord und die Küste in goldenes Licht getaucht."
+      },
+      "puestaSol": {
+        "alt": "Spektakulärer Sonnenuntergang über dem Mittelmeer von einer Kreuzfahrt in Mallorca aus",
+        "caption": "Den Sonnenuntergang vom Boot aus in der Bucht von Alcudia zu erleben, ist ein unvergessliches Erlebnis und der perfekte Tagesabschluss auf der Insel."
+      },
+      "snorkelSup": {
+        "alt": "Schnorcheln und Stand-Up-Paddling während eines Bootsausflugs in Alcudia, Mallorca",
+        "caption": "Viele Ausflüge beinhalten Schnorchelausrüstung und Paddle-Boards – ideal, um den Meeresboden und die Posidonia-Wiesen der Bucht zu erkunden."
+      },
+      "coralBoatsActividades": {
+        "alt": "Wasseraktivitäten mit Coral Boats in Alcudia: Schnorcheln, Paddle Surf und Baden in Buchten",
+        "caption": "Vergiss nicht Sonnenschutz, Badesachen und Sonnenbrille: Auf dem Meer brennt die Sonne stärker, und die Stopps für Wasseraktivitäten sind der Höhepunkt der Tour."
+      },
+      "amigosBarco": {
+        "alt": "Freundesgruppe genießt einen Bootsausflug in der Bucht von Alcudia, Mallorca",
+        "caption": "Ob eine entspannte Fahrt durch die Bucht, eine Sonnenuntergangstour oder ein Familienabenteuer – es gibt den perfekten Bootsausflug für jeden Reisetyp."
+      }
+    }
   },
   "experience": {
     "title": "Erlebe Coral Boats hautnah",

@@ -79,8 +79,8 @@
     "imageCaption": "Un bateau traditionnel de Coral Boats navigue sur les eaux calmes de la baie d’Alcudia, avec l’île et le phare d’Alcanada en arrière-plan, illustrant l’esprit méditerranéen qui inspire ce blog."
   },
   "blog_uno": {
-    "metaTitle": "Les meilleures excursions en bateau à Majorque 2025 : tours, criques secrètes et expériences uniques",
-    "metaDescription": "Découvrez les meilleures excursions en bateau à Majorque pour 2025. Balades en bateau dans la baie d’Alcúdia, criques cachées, plages vierges, snorkeling et couchers de soleil inoubliables. Guide complet avec conseils locaux pour choisir le tour parfait.",
+    "metaTitle": "Les meilleures excursions en bateau à Majorque : tours, criques secrètes et expériences uniques",
+    "metaDescription": "Découvrez les meilleures excursions en bateau à Majorque. Balades en bateau dans la baie d’Alcúdia, criques cachées, plages vierges, snorkeling et couchers de soleil inoubliables. Guide complet avec conseils locaux pour choisir le tour parfait.",
     "title": "Les meilleures excursions en bateau à Majorque pour cet été",
     "slug": "meilleures-excursions-bateau-majorque",
     "keyword": "excursions en bateau Majorque",
@@ -121,7 +121,53 @@
       "body": "Faire une excursion en bateau à Majorque n'est pas simplement une activité de plus pendant les vacances. C'est une autre façon de vivre l'île, de comprendre sa géographie, sa lumière et sa relation intime avec la mer.\n\nQu'il s'agisse d'une balade tranquille dans la baie d'Alcúdia, d'une sortie à la découverte de criques secrètes, d'une excursion familiale ou d'une navigation au coucher du soleil, il existe une expérience parfaite pour chaque type de voyageur.\n\nSi vous souhaitez découvrir toutes les options disponibles et choisir celle qui vous correspond le mieux, voici le point de départ idéal : [Les meilleures excursions en bateau à Majorque depuis Alcúdia](https://www.coralboatsmallorca.com/fr/boat-tours-alcudia).\n\nCet été, montez à bord, laissez la côte derrière vous et découvrez pourquoi tant de voyageurs affirment que **voir Majorque depuis la mer a été le plus beau souvenir de leurs vacances**."
     },
     "imageAlt": "Excursion en bateau le long de la côte de Majorque avec vue sur les criques cachées et les eaux cristallines de la Méditerranée",
-    "imageCaption": "Découvrez les meilleures excursions en bateau à Majorque : balades dans la baie d'Alcúdia, criques secrètes aux eaux turquoise et sorties au coucher du soleil. La façon idéale d'explorer la côte majorquine depuis la mer."
+    "imageCaption": "Découvrez les meilleures excursions en bateau à Majorque : balades dans la baie d'Alcúdia, criques secrètes aux eaux turquoise et sorties au coucher du soleil. La façon idéale d'explorer la côte majorquine depuis la mer.",
+    "inlineImages": {
+      "calasEscondidas": {
+        "alt": "Criques cachées du nord de Majorque accessibles uniquement en bateau, aux eaux turquoise entourées de falaises et de pins",
+        "caption": "Nombre des plus belles criques de Majorque ne se découvrent qu'en bateau : eaux cristallines, falaises et nature préservée loin de la foule."
+      },
+      "barcoClasico": {
+        "alt": "Bateau classique en bois de Coral Boats naviguant le long de la côte de Majorque",
+        "caption": "Les llaüts majorquins traditionnels offrent une expérience de navigation authentique et paisible, idéale pour longer la côte avec charme."
+      },
+      "calaDesdeBarco": {
+        "alt": "Vue depuis un bateau d'une crique cachée au nord de Majorque aux eaux cristallines",
+        "caption": "Avec plus de 550 kilomètres de littoral, Majorque recèle des endroits qui ne se révèlent que depuis la mer : criques vierges, grottes et formations rocheuses spectaculaires."
+      },
+      "calaSecretaAlcudia": {
+        "alt": "Crique secrète aux eaux turquoise accessible en bateau depuis Alcudia, Majorque",
+        "caption": "La Baie d'Alcudia est le point de départ idéal pour découvrir des criques cachées inaccessibles par la terre, avec de longs arrêts pour la baignade et le snorkeling."
+      },
+      "turistasBarco": {
+        "alt": "Touristes profitant d'une balade en bateau dans les eaux cristallines de Majorque",
+        "caption": "Naviguer dans la Baie d'Alcudia allie paysages spectaculaires et rythme détendu : le plan parfait pour les familles, les couples et les groupes d'amis."
+      },
+      "costaNorte": {
+        "alt": "Vues des falaises et de la côte sauvage du nord de Majorque depuis une excursion en bateau",
+        "caption": "La côte nord de Majorque surprend par ses falaises imposantes, ses grottes marines et ses criques sauvages qui ne s'apprécient que depuis l'eau."
+      },
+      "atardecer": {
+        "alt": "Croisière au coucher du soleil dans la Baie d'Alcudia avec le soleil se couchant sur la Méditerranée",
+        "caption": "Les sorties au coucher du soleil sont pour beaucoup de voyageurs le moment le plus spécial des vacances : musique douce, boissons à bord et la côte baignée de tons dorés."
+      },
+      "puestaSol": {
+        "alt": "Coucher de soleil spectaculaire sur la Méditerranée vu depuis une croisière à Majorque",
+        "caption": "Regarder le soleil plonger sous l'horizon depuis un bateau dans la Baie d'Alcudia est une expérience inoubliable et la fin parfaite d'une journée sur l'île."
+      },
+      "snorkelSup": {
+        "alt": "Snorkeling et paddle surf lors d'une excursion en bateau à Alcudia, Majorque",
+        "caption": "De nombreuses excursions incluent l'équipement de snorkeling et des planches de paddle, idéal pour explorer les fonds marins et les prairies de posidonie de la baie."
+      },
+      "coralBoatsActividades": {
+        "alt": "Activités nautiques avec Coral Boats à Alcudia : snorkeling, paddle surf et baignade dans les criques",
+        "caption": "N'oubliez pas la crème solaire, le maillot de bain et les lunettes de soleil : en mer le soleil tape plus fort, et les arrêts pour les activités nautiques sont le meilleur moment de la sortie."
+      },
+      "amigosBarco": {
+        "alt": "Groupe d'amis profitant d'une excursion en bateau dans la Baie d'Alcudia, Majorque",
+        "caption": "Qu'il s'agisse d'une balade tranquille dans la baie, d'une sortie au coucher du soleil ou d'une aventure en famille, il existe une excursion en bateau parfaite pour chaque type de voyageur."
+      }
+    }
   },
   "experience": {
     "title": "Vivez l’expérience Coral Boats",

@@ -971,8 +971,8 @@
     "imageCaption": "Un vaixell tradicional de Coral Boats navega per les aigües tranquil·les de la badia d’Alcúdia, amb l’illa i el far d’Alcanada com a teló de fons, reflectint l’esperit mediterrani que inspira aquest blog."
   },
   "blog_uno": {
-    "metaTitle": "Les millors excursions en vaixell a Mallorca 2025: tours, cales amagades i experiències úniques",
-    "metaDescription": "Descobreix les millors excursions en vaixell a Mallorca per al 2025. Passejos en vaixell per la Badia d’Alcúdia, cales amagades, platges verges, snorkel i postes de sol inoblidables. Guia completa amb consells locals per triar el tour perfecte.",
+    "metaTitle": "Les millors excursions en vaixell a Mallorca: tours, cales amagades i experiències úniques",
+    "metaDescription": "Descobreix les millors excursions en vaixell a Mallorca. Passejos en vaixell per la Badia d’Alcúdia, cales amagades, platges verges, snorkel i postes de sol inoblidables. Guia completa amb consells locals per triar el tour perfecte.",
     "title": "Les millors excursions en vaixell a Mallorca per a aquest estiu",
     "slug": "millors-excursions-vaixell-mallorca",
     "keyword": "excursions en vaixell Mallorca",
@@ -1013,7 +1013,53 @@
       "body": "Fer una excursió en vaixell a Mallorca no és només un pla més del viatge. És una manera diferent de viure l'illa, d'entendre la seva geografia, la seva llum i la seva relació amb el mar.\n\nJa sigui un passeig tranquil per la Badia d'Alcúdia, una sortida per descobrir cales amagades, un tour familiar o una navegació al capvespre, hi ha una experiència perfecta per a cada tipus de viatger.\n\nSi vols explorar totes les opcions disponibles i triar la que millor encaixi amb tu, aquí tens el punt de partida: [Les millors excursions en vaixell a Mallorca des d'Alcúdia](https://www.coralboatsmallorca.com/ca/boat-tours-alcudia).\n\nAquest estiu, puja a bord, deixa enrere la costa i descobreix per què tants viatgers diuen que **veure Mallorca des del mar va ser el millor record de les seves vacances**."
     },
     "imageAlt": "Excursió en vaixell per la costa de Mallorca amb vistes a cales amagades i aigües cristal·lines del Mediterrani",
-    "imageCaption": "Descobreix les millors excursions en vaixell a Mallorca: passejos per la Badia d'Alcúdia, cales secretes d'aigües turqueses i tours a la posta de sol. La manera perfecta d'explorar la costa mallorquina des del mar."
+    "imageCaption": "Descobreix les millors excursions en vaixell a Mallorca: passejos per la Badia d'Alcúdia, cales secretes d'aigües turqueses i tours a la posta de sol. La manera perfecta d'explorar la costa mallorquina des del mar.",
+    "inlineImages": {
+      "calasEscondidas": {
+        "alt": "Cales amagades del nord de Mallorca accessibles només en vaixell, amb aigües turqueses envoltades de penya-segats i pins",
+        "caption": "Moltes de les cales més boniques de Mallorca només es descobreixen navegant: aigües cristal·lines, penya-segats i natura verge lluny de les multituds."
+      },
+      "barcoClasico": {
+        "alt": "Vaixell clàssic de fusta de Coral Boats navegant per la costa de Mallorca",
+        "caption": "Els llaüts mallorquins tradicionals ofereixen una experiència de navegació autèntica i tranquil·la, perfecta per recórrer la costa amb encant."
+      },
+      "calaDesdeBarco": {
+        "alt": "Vista des d'un vaixell d'una cala amagada al nord de Mallorca amb aigües cristal·lines",
+        "caption": "Amb més de 550 quilòmetres de costa, Mallorca amaga racons que només es revelen des del mar: cales verges, coves i formacions rocoses espectaculars."
+      },
+      "calaSecretaAlcudia": {
+        "alt": "Cala secreta d'aigües turqueses accessible en vaixell des d'Alcúdia, Mallorca",
+        "caption": "La Badia d'Alcúdia és el punt de partida ideal per descobrir cales amagades inaccessibles per terra, amb llargues parades per banyar-se i fer snorkel."
+      },
+      "turistasBarco": {
+        "alt": "Turistes gaudint d'un passeig en vaixell per les aigües cristal·lines de Mallorca",
+        "caption": "Navegar per la Badia d'Alcúdia combina paisatges espectaculars amb un ritme relaxat: el pla perfecte per a famílies, parelles i grups d'amics."
+      },
+      "costaNorte": {
+        "alt": "Vistes dels penya-segats i la costa salvatge del nord de Mallorca des d'una excursió en vaixell",
+        "caption": "La costa nord de Mallorca sorprèn amb penya-segats imponents, coves marines i cales de caràcter salvatge que només s'aprecien des de l'aigua."
+      },
+      "atardecer": {
+        "alt": "Creuer a la posta de sol a la Badia d'Alcúdia amb el sol ponent sobre el Mediterrani",
+        "caption": "Els tours a la posta de sol són per a molts viatgers el moment més especial de les vacances: música suau, beguda a bord i la costa tenyida de tons daurats."
+      },
+      "puestaSol": {
+        "alt": "Posta de sol espectacular sobre el Mediterrani vista des d'un creuer a Mallorca",
+        "caption": "Veure caure el sol sota l'horitzó des d'un vaixell a la Badia d'Alcúdia és una experiència inoblidable i el tancament perfecte d'un dia a l'illa."
+      },
+      "snorkelSup": {
+        "alt": "Snorkel i paddle surf durant una excursió en vaixell a Alcúdia, Mallorca",
+        "caption": "Moltes excursions inclouen equip de snorkel i taules de paddle, ideals per explorar el fons marí i les praderies de posidònia de la badia."
+      },
+      "coralBoatsActividades": {
+        "alt": "Activitats aquàtiques amb Coral Boats a Alcúdia: snorkel, paddle surf i bany a les cales",
+        "caption": "No oblidis protector solar, banyador i ulleres de sol: al mar el sol pica més fort, i les parades per a activitats aquàtiques són el millor moment del tour."
+      },
+      "amigosBarco": {
+        "alt": "Grup d'amics gaudint d'una excursió en vaixell per la Badia d'Alcúdia, Mallorca",
+        "caption": "Ja sigui un passeig tranquil per la badia, un tour a la posta de sol o una aventura en família, hi ha una excursió en vaixell perfecta per a cada tipus de viatger."
+      }
+    }
   },
   "blog_dos": {
     "metaTitle": "Què fer a Alcúdia: guia definitiva de plans, platges i excursions | Costa nord de Mallorca",

@@ -79,8 +79,8 @@
     "imageCaption": "Una barca tradizionale di Coral Boats solca le acque tranquille della baia di Alcudia, con l’isola e il faro di Alcanada sullo sfondo, simbolo dello spirito mediterraneo che ispira questo blog."
   },
   "blog_uno": {
-    "metaTitle": "Le migliori escursioni in barca a Maiorca 2025: tour, calette nascoste ed esperienze uniche",
-    "metaDescription": "Scopri le migliori escursioni in barca a Maiorca per il 2025. Gite in barca nella Baia di Alcúdia, calette segrete, spiagge incontaminate, snorkeling e tramonti indimenticabili. Guida completa con consigli locali per scegliere il tour perfetto.",
+    "metaTitle": "Le migliori escursioni in barca a Maiorca: tour, calette nascoste ed esperienze uniche",
+    "metaDescription": "Scopri le migliori escursioni in barca a Maiorca. Gite in barca nella Baia di Alcúdia, calette segrete, spiagge incontaminate, snorkeling e tramonti indimenticabili. Guida completa con consigli locali per scegliere il tour perfetto.",
     "title": "Le migliori escursioni in barca a Maiorca per questa estate",
     "slug": "migliori-escursioni-barca-maiorca",
     "keyword": "escursioni in barca Maiorca",
@@ -121,7 +121,53 @@
       "body": "Fare un'escursione in barca a Maiorca non è solo un'attività in più durante il viaggio. È un modo diverso di vivere l'isola, di comprenderne la geografia, la luce e il legame profondo con il mare.\n\nChe si tratti di una gita tranquilla nella Baia di Alcúdia, di un'uscita alla scoperta di calette nascoste, di un tour per famiglie o di una navigazione al tramonto, esiste un'esperienza perfetta per ogni tipo di viaggiatore.\n\nSe vuoi esplorare tutte le opzioni disponibili e scegliere quella più adatta a te, questo è il punto di partenza ideale: [Le migliori escursioni in barca a Maiorca da Alcúdia](https://www.coralboatsmallorca.com/it/boat-tours-alcudia).\n\nQuest'estate, sali a bordo, lascia la costa alle spalle e scopri perché tanti viaggiatori affermano che **vedere Maiorca dal mare è stato il ricordo più bello delle loro vacanze**."
     },
     "imageAlt": "Escursione in barca lungo la costa di Maiorca con vista su calette nascoste e acque cristalline del Mediterraneo",
-    "imageCaption": "Scopri le migliori escursioni in barca a Maiorca: gite nella Baia di Alcúdia, calette segrete dalle acque turchesi e tour al tramonto. Il modo perfetto per esplorare la costa maiorchina dal mare."
+    "imageCaption": "Scopri le migliori escursioni in barca a Maiorca: gite nella Baia di Alcúdia, calette segrete dalle acque turchesi e tour al tramonto. Il modo perfetto per esplorare la costa maiorchina dal mare.",
+    "inlineImages": {
+      "calasEscondidas": {
+        "alt": "Calette nascoste nel nord di Maiorca accessibili solo in barca, con acque turchesi circondate da scogliere e pini",
+        "caption": "Molte delle calette più belle di Maiorca si scoprono solo in barca: acque cristalline, scogliere e natura incontaminata lontano dalla folla."
+      },
+      "barcoClasico": {
+        "alt": "Barca classica in legno di Coral Boats che naviga lungo la costa di Maiorca",
+        "caption": "I tradizionali llaüts maiorchini offrono un'esperienza di navigazione autentica e tranquilla, perfetta per esplorare la costa con fascino."
+      },
+      "calaDesdeBarco": {
+        "alt": "Vista da una barca di una caletta nascosta nel nord di Maiorca con acque cristalline",
+        "caption": "Con oltre 550 chilometri di costa, Maiorca nasconde angoli che si rivelano solo dal mare: calette incontaminate, grotte e formazioni rocciose spettacolari."
+      },
+      "calaSecretaAlcudia": {
+        "alt": "Caletta segreta dalle acque turchesi accessibile in barca da Alcudia, Maiorca",
+        "caption": "La Baia di Alcudia è il punto di partenza ideale per scoprire calette nascoste inaccessibili via terra, con lunghe soste per nuotare e fare snorkeling."
+      },
+      "turistasBarco": {
+        "alt": "Turisti che si godono una gita in barca nelle acque cristalline di Maiorca",
+        "caption": "Navigare nella Baia di Alcudia combina paesaggi spettacolari con un ritmo rilassato: il piano perfetto per famiglie, coppie e gruppi di amici."
+      },
+      "costaNorte": {
+        "alt": "Viste delle scogliere e della costa selvaggia del nord di Maiorca da un'escursione in barca",
+        "caption": "La costa nord di Maiorca sorprende con scogliere imponenti, grotte marine e calette selvagge che si possono apprezzare solo dall'acqua."
+      },
+      "atardecer": {
+        "alt": "Crociera al tramonto nella Baia di Alcudia con il sole che cala sul Mediterraneo",
+        "caption": "I tour al tramonto sono per molti viaggiatori il momento più speciale della vacanza: musica soft, bevande a bordo e la costa tinta di toni dorati."
+      },
+      "puestaSol": {
+        "alt": "Tramonto spettacolare sul Mediterraneo visto da una crociera a Maiorca",
+        "caption": "Guardare il sole scendere sotto l'orizzonte da una barca nella Baia di Alcudia è un'esperienza indimenticabile e la chiusura perfetta di una giornata sull'isola."
+      },
+      "snorkelSup": {
+        "alt": "Snorkeling e paddle surf durante un'escursione in barca ad Alcudia, Maiorca",
+        "caption": "Molte escursioni includono attrezzatura da snorkeling e tavole da paddle, ideali per esplorare i fondali e le praterie di posidonia della baia."
+      },
+      "coralBoatsActividades": {
+        "alt": "Attività acquatiche con Coral Boats ad Alcudia: snorkeling, paddle surf e bagno nelle calette",
+        "caption": "Non dimenticare crema solare, costume e occhiali da sole: in mare il sole colpisce più forte, e le soste per le attività acquatiche sono il momento clou del tour."
+      },
+      "amigosBarco": {
+        "alt": "Gruppo di amici che si gode un'escursione in barca nella Baia di Alcudia, Maiorca",
+        "caption": "Che sia una tranquilla navigazione nella baia, un tour al tramonto o un'avventura in famiglia, c'è un'escursione in barca perfetta per ogni tipo di viaggiatore."
+      }
+    }
   },
   "experience": {
     "title": "Vivi l’esperienza Coral Boats",
