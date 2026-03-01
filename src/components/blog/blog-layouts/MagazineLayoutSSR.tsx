@@ -135,7 +135,9 @@ const renderTextWithBold = (text: string): React.ReactNode => {
   // Helper to convert absolute URLs to relative paths for internal navigation
   const convertToRelativePath = (url: string): string => {
     try {
-      if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/')) {
+      if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/') ||
+          url.startsWith('https://www.coralboatsmallorca.com/') || url.startsWith('http://www.coralboatsmallorca.com/') ||
+          url.startsWith('https://coralboatsmallorca.com/') || url.startsWith('http://coralboatsmallorca.com/')) {
         const urlObj = new URL(url);
         return urlObj.pathname;
       }
@@ -200,13 +202,13 @@ const renderTextWithBold = (text: string): React.ReactNode => {
       continue;
     }
 
-    // Pattern 3: Bold text **text**
+    // Pattern 3: Bold text **text** (with recursive processing for nested links)
     const boldMatch = remainingText.match(/^\*\*([^*]+)\*\*/);
     if (boldMatch) {
       const boldContent = boldMatch[1];
       elements.push(
         <strong key={`bold-${keyCounter++}`} style={{ fontWeight: '700', color: '#1e293b' }}>
-          {boldContent}
+          {renderTextWithBold(boldContent)}
         </strong>
       );
 

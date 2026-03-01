@@ -2884,7 +2884,57 @@
       "body": "Mallorca is an island best understood from the water. Its coves, its cliffs, its colours shifting with the time of day — everything makes sense when you see it from the deck of a boat, with the breeze on your face and the sun warming your skin.\n\nChoosing the right boat tour is not a minor detail. It's the difference between just another activity and a memory that stays with you. We hope this guide has helped you understand the options and identify which area best matches what you're looking for.\n\nIf you decide to explore the north of the island, we'd be delighted to welcome you at the Port of Alcudia. We've spent years sharing our passion for this corner of the Mediterranean, and nothing makes us happier than seeing our guests discover the magic of these waters.\n\nBut wherever you go, remember: the best boat tour is the one that fits you — not the other way around. Research, ask questions, compare and choose calmly. The sea of Mallorca deserves to be enjoyed properly.\n\nHave a great trip. And happy sailing."
     },
     "imageAlt": "How to choose the best boat tour in Mallorca – complete guide by coastal areas",
-    "imageCaption": "A comprehensive guide to choosing the perfect boat tour in Mallorca, comparing experiences across all coastal areas – from the Bay of Palma to the cliffs of Serra de Tramuntana, including Cabrera and the crystal-clear waters of the Bay of Alcudia."
+    "imageCaption": "A comprehensive guide to choosing the perfect boat tour in Mallorca, comparing experiences across all coastal areas – from the Bay of Palma to the cliffs of Serra de Tramuntana, including Cabrera and the crystal-clear waters of the Bay of Alcudia.",
+    "inlineImages": {
+      "como_elegir": {
+        "alt": "Views of the Alcudia Bay cliffs from inside a Coral Boats vessel during a maritime excursion",
+        "caption": "The cliffs of Alcudia Bay seen from the deck of our boat: a unique perspective only discovered when sailing along the northern coast of Mallorca."
+      },
+      "castillo_bellver": {
+        "alt": "Bellver Castle overlooking the port of Palma de Mallorca with moored boats in the foreground",
+        "caption": "Bellver Castle, the iconic 14th-century circular fortress, overlooks the port of Palma de Mallorca, a popular departure point for boat tours around the bay."
+      },
+      "catedral_palma": {
+        "alt": "The iconic Palma de Mallorca Cathedral seen from the sea with the city skyline in the background",
+        "caption": "The majestic La Seu Cathedral of Palma viewed from the sea: one of the most emblematic postcards enjoyed on boat tours around the Bay of Palma."
+      },
+      "palmanova": {
+        "alt": "Aerial view of Palmanova beach in Mallorca with hotels and boats in the bay",
+        "caption": "Palmanova from the air: the Calvià area offers wide beaches, crystal-clear waters and tourism infrastructure that makes it an ideal base for maritime excursions along Mallorca's southwest coast."
+      },
+      "faro_andratx": {
+        "alt": "Lighthouse at Port d'Andratx harbour in Mallorca with a traditional fishing boat in the foreground",
+        "caption": "The Port d'Andratx lighthouse next to a traditional fishing boat: one of Mallorca's most beautiful harbours and a departure point for exploring the spectacular southwest coast."
+      },
+      "cabrera": {
+        "alt": "Aerial view of Cabrera island, maritime-terrestrial National Park south of Mallorca",
+        "caption": "The Cabrera archipelago from the air: a protected National Park with the clearest waters in the Balearics, accessible only by boat from Colònia de Sant Jordi."
+      },
+      "cala_agulla": {
+        "alt": "Cala Agulla and Cala Molló in Cala Ratjada, Mallorca, sandy beaches surrounded by pine trees",
+        "caption": "Cala Agulla in Cala Ratjada, one of the most beautiful beaches on Mallorca's east coast: golden sand, Mediterranean pines and turquoise waters ideal for snorkelling."
+      },
+      "faro_portocolom": {
+        "alt": "Portocolom lighthouse on the Mediterranean coast of Mallorca with calm seas",
+        "caption": "The Portocolom lighthouse marks the entrance to one of Mallorca's most authentic fishing ports, a gateway to unspoilt coves along the east coast."
+      },
+      "coastline_alcudia": {
+        "alt": "Coastline views during a boat excursion in Alcudia Bay, Mallorca",
+        "caption": "The northern coast of Mallorca seen from a boat excursion in Alcudia Bay: cliffs, hidden coves and deep blue waters that can only be discovered by sailing."
+      },
+      "faro_alcanada": {
+        "alt": "Alcanada lighthouse in Alcudia, Mallorca, surrounded by crystal-clear waters, one of the best areas for boat trips",
+        "caption": "The emblematic Alcanada lighthouse in Alcudia Bay: an islet surrounded by crystal-clear waters and Posidonia meadows, a must-stop on our Coral Boats tours."
+      },
+      "port_soller": {
+        "alt": "Port de Sóller on the island of Mallorca with lighthouse, aerial view of the bay surrounded by Serra de Tramuntana mountains",
+        "caption": "Port de Sóller from the air: a natural bay nestled between the Serra de Tramuntana mountains, the departure point for the most spectacular tours along the northwest cliffs of Mallorca."
+      },
+      "boat_trip_north": {
+        "alt": "Boat trip in northern Mallorca with water activities and snorkelling",
+        "caption": "Enjoying snorkelling and water activities during a boat tour along the northern coast of Mallorca: coves with transparent waters and seabeds teeming with life."
+      }
+    }
   },
   "blog_veintiocho": {
     "metaTitle": "What to See in Mallorca in 3 Days: Complete Itinerary and Perfect Route 2026 | Coral Boats",

@@ -2667,7 +2667,57 @@
       "body": "Mallorca és una illa que s'entén des de l'aigua. Les seves cales, els seus penya-segats, els seus colors canviants segons l'hora del dia… tot pren sentit quan ho veus des de la coberta d'una barca, amb la brisa a la cara i el sol escalfant la pell.\n\nEscollir bé el teu tour en barca no és un detall menor. És la diferència entre una excursió més i un record que t'acompanyarà sempre. Esperem que aquesta guia t'hagi ajudat a entendre les opcions i a identificar quina zona s'adapta millor al que busques.\n\nSi finalment decideixes explorar el nord de l'illa, estarem encantats de rebre't al Port d'Alcúdia. Fa anys que compartim la nostra passió per aquest racó del Mediterrani, i res ens agrada més que veure els nostres passatgers descobrir la màgia d'aquestes aigües.\n\nPerò vagis on vagis, recorda: el millor tour en barca és el que s'adapta a tu, no al revés. Investiga, pregunta, compara i tria amb calma. La mar de Mallorca mereix que la gaudeixis com cal.\n\nBon viatge. I bona navegació."
     },
     "imageAlt": "Com escollir el millor tour en barca a Mallorca – guia completa per zones costeres",
-    "imageCaption": "Guia completa per escollir el tour en barca perfecte a Mallorca, comparant experiències a totes les zones costeres – des de la Badia de Palma fins als penya-segats de la Serra de Tramuntana, incloent Cabrera i les aigües cristal·lines de la Badia d'Alcúdia."
+    "imageCaption": "Guia completa per escollir el tour en barca perfecte a Mallorca, comparant experiències a totes les zones costeres – des de la Badia de Palma fins als penya-segats de la Serra de Tramuntana, incloent Cabrera i les aigües cristal·lines de la Badia d'Alcúdia.",
+    "inlineImages": {
+      "como_elegir": {
+        "alt": "Vistes dels penya-segats de la badia d'Alcúdia des de l'interior d'un vaixell de Coral Boats durant una excursió marítima",
+        "caption": "Els penya-segats de la badia d'Alcúdia vistos des de la coberta del nostre vaixell: una perspectiva única que només es descobreix navegant per la costa nord de Mallorca."
+      },
+      "castillo_bellver": {
+        "alt": "Castell de Bellver sobre el port de Palma de Mallorca amb vaixells atracats en primer pla",
+        "caption": "El Castell de Bellver, icònica fortalesa circular del segle XIV, domina el port de Palma de Mallorca, punt de partida de nombrosos tours en vaixell per la badia."
+      },
+      "catedral_palma": {
+        "alt": "La icònica Catedral de Palma de Mallorca vista des de la mar amb la ciutat de fons",
+        "caption": "La majestuosa Catedral de La Seu de Palma contemplada des de la mar: una de les postals més emblemàtiques que es gaudeixen en els tours en vaixell per la Badia de Palma."
+      },
+      "palmanova": {
+        "alt": "Vista aèria de la platja de Palmanova a Mallorca amb hotels i embarcacions a la badia",
+        "caption": "Palmanova des de l'aire: la zona de Calvià ofereix platges àmplies, aigües cristal·lines i una infraestructura turística que la converteix en base ideal per a excursions marítimes pel sud-oest de Mallorca."
+      },
+      "faro_andratx": {
+        "alt": "Far del port d'Andratx a Mallorca amb vaixell pesquer tradicional en primer pla",
+        "caption": "El far de Port d'Andratx al costat d'un pesquer tradicional: un dels ports més bonics de Mallorca i punt de partida per explorar l'espectacular costa sud-oest."
+      },
+      "cabrera": {
+        "alt": "Vista aèria de l'illa de Cabrera, Parc Nacional marítimo-terrestre al sud de Mallorca",
+        "caption": "L'arxipèlag de Cabrera des de l'aire: un Parc Nacional protegit amb les aigües més cristal·lines de les Balears, accessible només en vaixell des de la Colònia de Sant Jordi."
+      },
+      "cala_agulla": {
+        "alt": "Cala Agulla i Cala Molló a Cala Ratjada, Mallorca, platges de sorra envoltades de pins",
+        "caption": "Cala Agulla a Cala Ratjada, una de les platges més boniques de la costa est de Mallorca: sorra daurada, pins mediterranis i aigües turqueses ideals per fer snorkel."
+      },
+      "faro_portocolom": {
+        "alt": "Far de Portocolom a la costa mediterrània de Mallorca amb la mar en calma",
+        "caption": "El far de Portocolom marca l'entrada a un dels ports pesquers més autèntics de Mallorca, porta d'accés a cales verges de la costa est."
+      },
+      "coastline_alcudia": {
+        "alt": "Vistes de la costa durant una excursió en vaixell per la badia d'Alcúdia, Mallorca",
+        "caption": "La costa nord de Mallorca vista des d'una excursió en vaixell per la Badia d'Alcúdia: penya-segats, cales amagades i aigües d'un blau intens que només es descobreixen navegant."
+      },
+      "faro_alcanada": {
+        "alt": "Far d'Alcanada a Alcúdia, Mallorca, envoltat d'aigües cristal·lines, una de les millors zones per anar en vaixell",
+        "caption": "L'emblemàtic far d'Alcanada, a la Badia d'Alcúdia: un illot envoltat d'aigües cristal·lines i praderies de posidònia que és parada obligatòria als nostres tours de Coral Boats."
+      },
+      "port_soller": {
+        "alt": "Port de Sóller a l'illa de Mallorca amb far, vista aèria de la badia envoltada de muntanyes de la Serra de Tramuntana",
+        "caption": "Port de Sóller vist des de l'aire: una badia natural enclavada entre les muntanyes de la Serra de Tramuntana, punt de partida per als tours més espectaculars pels penya-segats del nord-oest de Mallorca."
+      },
+      "boat_trip_north": {
+        "alt": "Excursió en vaixell pel nord de Mallorca amb activitats aquàtiques i snorkel",
+        "caption": "Gaudint del snorkel i les activitats aquàtiques durant un tour en vaixell per la costa nord de Mallorca: cales d'aigües transparents i fons marins plens de vida."
+      }
+    }
   },
   "blog_veintiocho": {
     "metaTitle": "Què Veure a Mallorca en 3 Dies: Itinerari Complet i Ruta Perfecta 2026 | Coral Boats",

@@ -2882,7 +2882,57 @@
       "body": "Maiorca è un'isola che si comprende davvero dall'acqua. Le sue cale, le sue scogliere, i suoi colori che cambiano con l'ora del giorno… tutto acquista senso quando lo vedi dal ponte di una barca, con la brezza sul viso e il sole sulla pelle.\n\nScegliere bene il tour in barca non è un dettaglio. È la differenza tra un'escursione qualsiasi e un ricordo che ti accompagnerà sempre. Speriamo che questa guida ti abbia aiutato a capire le opzioni e a identificare quale zona si adatta meglio a ciò che cerchi.\n\nSe decidi di esplorare il nord dell'isola, saremo felici di accoglierti al Porto di Alcudia. Da anni condividiamo la nostra passione per questo angolo di Mediterraneo, e nulla ci piace di più che vedere i nostri passeggeri scoprire la magia di queste acque.\n\nMa ovunque tu vada, ricorda: il miglior tour in barca è quello che si adatta a te, non il contrario. Informati, fai domande, confronta e scegli con calma. Il mare di Maiorca merita di essere vissuto al meglio.\n\nBuon viaggio. E buona navigazione."
     },
     "imageAlt": "Come scegliere il miglior tour in barca a Maiorca – guida completa per zone costiere",
-    "imageCaption": "Guida completa per scegliere il tour in barca perfetto a Maiorca, confrontando le esperienze in tutte le zone costiere – dalla Baia di Palma alle scogliere della Serra de Tramuntana, inclusa Cabrera e le acque cristalline della Baia di Alcudia."
+    "imageCaption": "Guida completa per scegliere il tour in barca perfetto a Maiorca, confrontando le esperienze in tutte le zone costiere – dalla Baia di Palma alle scogliere della Serra de Tramuntana, inclusa Cabrera e le acque cristalline della Baia di Alcudia.",
+    "inlineImages": {
+      "como_elegir": {
+        "alt": "Vista delle scogliere della baia di Alcudia dall'interno di un'imbarcazione Coral Boats durante un'escursione marittima",
+        "caption": "Le scogliere della baia di Alcudia viste dal ponte della nostra barca: una prospettiva unica che si scopre solo navigando lungo la costa nord di Maiorca."
+      },
+      "castillo_bellver": {
+        "alt": "Castello di Bellver che domina il porto di Palma di Maiorca con barche ormeggiate in primo piano",
+        "caption": "Il Castello di Bellver, l'iconica fortezza circolare del XIV secolo, domina il porto di Palma di Maiorca, punto di partenza di numerosi tour in barca nella baia."
+      },
+      "catedral_palma": {
+        "alt": "L'iconica Cattedrale di Palma di Maiorca vista dal mare con la città sullo sfondo",
+        "caption": "La maestosa Cattedrale La Seu di Palma contemplata dal mare: una delle cartoline più emblematiche che si apprezzano nei tour in barca nella Baia di Palma."
+      },
+      "palmanova": {
+        "alt": "Vista aerea della spiaggia di Palmanova a Maiorca con hotel e barche nella baia",
+        "caption": "Palmanova dall'alto: la zona di Calvià offre spiagge ampie, acque cristalline e un'infrastruttura turistica che la rende una base ideale per le escursioni marittime lungo la costa sud-occidentale di Maiorca."
+      },
+      "faro_andratx": {
+        "alt": "Faro del porto di Andratx a Maiorca con barca da pesca tradizionale in primo piano",
+        "caption": "Il faro di Port d'Andratx accanto a una barca da pesca tradizionale: uno dei porti più belli di Maiorca e punto di partenza per esplorare la spettacolare costa sud-occidentale."
+      },
+      "cabrera": {
+        "alt": "Vista aerea dell'isola di Cabrera, Parco Nazionale marittimo-terrestre a sud di Maiorca",
+        "caption": "L'arcipelago di Cabrera dall'alto: un Parco Nazionale protetto con le acque più cristalline delle Baleari, accessibile solo in barca dalla Colònia de Sant Jordi."
+      },
+      "cala_agulla": {
+        "alt": "Cala Agulla e Cala Molló a Cala Ratjada, Maiorca, spiagge di sabbia circondate da pini",
+        "caption": "Cala Agulla a Cala Ratjada, una delle spiagge più belle della costa orientale di Maiorca: sabbia dorata, pini mediterranei e acque turchesi ideali per lo snorkeling."
+      },
+      "faro_portocolom": {
+        "alt": "Faro di Portocolom sulla costa mediterranea di Maiorca con mare calmo",
+        "caption": "Il faro di Portocolom segna l'ingresso a uno dei porti di pesca più autentici di Maiorca, porta d'accesso a calette incontaminate della costa orientale."
+      },
+      "coastline_alcudia": {
+        "alt": "Viste della costa durante un'escursione in barca nella baia di Alcudia, Maiorca",
+        "caption": "La costa nord di Maiorca vista da un'escursione in barca nella baia di Alcudia: scogliere, calette nascoste e acque di un blu intenso che si scoprono solo navigando."
+      },
+      "faro_alcanada": {
+        "alt": "Faro di Alcanada ad Alcudia, Maiorca, circondato da acque cristalline, una delle migliori zone per le gite in barca",
+        "caption": "L'emblematico faro di Alcanada nella baia di Alcudia: un isolotto circondato da acque cristalline e praterie di posidonia, tappa obbligata dei nostri tour Coral Boats."
+      },
+      "port_soller": {
+        "alt": "Port de Sóller sull'isola di Maiorca con faro, vista aerea della baia circondata dalle montagne della Serra de Tramuntana",
+        "caption": "Port de Sóller dall'alto: una baia naturale incastonata tra le montagne della Serra de Tramuntana, punto di partenza per i tour più spettacolari lungo le scogliere nord-occidentali di Maiorca."
+      },
+      "boat_trip_north": {
+        "alt": "Gita in barca nel nord di Maiorca con attività acquatiche e snorkeling",
+        "caption": "Godersi lo snorkeling e le attività acquatiche durante un tour in barca lungo la costa nord di Maiorca: calette con acque trasparenti e fondali marini ricchi di vita."
+      }
+    }
   },
   "blog_veintiocho": {
     "metaTitle": "Cosa Vedere a Maiorca in 3 Giorni: Itinerario Completo e Percorso Perfetto 2026 | Coral Boats",

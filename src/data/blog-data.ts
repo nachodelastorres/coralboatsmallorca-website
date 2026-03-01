@@ -1814,6 +1814,69 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_veintisiete.imageAlt',
   imageCaption: 'blog_veintisiete.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/como-elegir-tour-barco-mallorca.webp', alt: 'blog_veintisiete.inlineImages.como_elegir.alt', caption: 'blog_veintisiete.inlineImages.como_elegir.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/castillo-bellver-puerto-palma-de-mallorca-barcos.webp', alt: 'blog_veintisiete.inlineImages.castillo_bellver.alt', caption: 'blog_veintisiete.inlineImages.castillo_bellver.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/iconica-catedral-palma-mallorca-vista-desde-mar-ciudad-fondo.webp', alt: 'blog_veintisiete.inlineImages.catedral_palma.alt', caption: 'blog_veintisiete.inlineImages.catedral_palma.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/palya-de-palmanova-mallorca-vista-aerea-hoteles-barcos.jpg', alt: 'blog_veintisiete.inlineImages.palmanova.alt', caption: 'blog_veintisiete.inlineImages.palmanova.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-puerto-andratx-mallorca-pesquero.jpg', alt: 'blog_veintisiete.inlineImages.faro_andratx.alt', caption: 'blog_veintisiete.inlineImages.faro_andratx.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 5,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-cabrera-isla-mallorca-parque-natural.jpg', alt: 'blog_veintisiete.inlineImages.cabrera.alt', caption: 'blog_veintisiete.inlineImages.cabrera.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/cala-agulla-cala-molto-cala-ratjada-mallorca-playas.jpg', alt: 'blog_veintisiete.inlineImages.cala_agulla.alt', caption: 'blog_veintisiete.inlineImages.cala_agulla.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-porto-colom-costa-mar-mediterraneo-mallorca.webp', alt: 'blog_veintisiete.inlineImages.faro_portocolom.alt', caption: 'blog_veintisiete.inlineImages.faro_portocolom.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 7,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/coastline-views-from-boat-excursion-mallorca-trip-activities.webp', alt: 'blog_veintisiete.inlineImages.coastline_alcudia.alt', caption: 'blog_veintisiete.inlineImages.coastline_alcudia.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-de-alcanada-alcudia-mejores-playas-para-ir-en-barco.webp', alt: 'blog_veintisiete.inlineImages.faro_alcanada.alt', caption: 'blog_veintisiete.inlineImages.faro_alcanada.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 8,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp', alt: 'blog_veintisiete.inlineImages.port_soller.alt', caption: 'blog_veintisiete.inlineImages.port_soller.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/boat-trip-north-mallorca-with-snorkel-and-water-activities.webp', alt: 'blog_veintisiete.inlineImages.boat_trip_north.alt', caption: 'blog_veintisiete.inlineImages.boat_trip_north.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {

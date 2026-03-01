@@ -2885,7 +2885,57 @@
       "body": "Majorque est une île qui se comprend depuis la mer. Ses criques, ses falaises, ses couleurs changeantes selon l'heure de la journée… tout prend sens lorsque vous les découvrez depuis le pont d'un bateau, avec la brise sur le visage et le soleil sur la peau.\n\nBien choisir votre excursion en bateau n'est pas un détail. C'est la différence entre une activité parmi d'autres et un souvenir qui vous accompagnera longtemps. Nous espérons que ce guide vous a aidé à mieux comprendre les options et à identifier la zone qui correspond le mieux à vos attentes.\n\nSi vous décidez d'explorer le nord de l'île, nous serons ravis de vous accueillir au port d'Alcudia. Depuis des années, nous partageons notre passion pour ce coin de la Méditerranée, et rien ne nous fait plus plaisir que de voir nos passagers découvrir la magie de ces eaux.\n\nOù que vous alliez, souvenez-vous : la meilleure excursion en bateau est celle qui s'adapte à vous, et non l'inverse. Renseignez-vous, posez des questions, comparez et choisissez en toute sérénité. La mer de Majorque mérite d'être vécue pleinement.\n\nBon voyage. Et bonne navigation."
     },
     "imageAlt": "Comment choisir la meilleure excursion en bateau à Majorque – guide complet par zones côtières",
-    "imageCaption": "Guide complet pour choisir l'excursion en bateau parfaite à Majorque, comparant les expériences dans toutes les zones côtières – de la baie de Palma aux falaises de la Serra de Tramuntana, en passant par Cabrera et les eaux cristallines de la baie d'Alcudia."
+    "imageCaption": "Guide complet pour choisir l'excursion en bateau parfaite à Majorque, comparant les expériences dans toutes les zones côtières – de la baie de Palma aux falaises de la Serra de Tramuntana, en passant par Cabrera et les eaux cristallines de la baie d'Alcudia.",
+    "inlineImages": {
+      "como_elegir": {
+        "alt": "Vue sur les falaises de la baie d'Alcudia depuis l'intérieur d'un bateau Coral Boats lors d'une excursion maritime",
+        "caption": "Les falaises de la baie d'Alcudia vues depuis le pont de notre bateau : une perspective unique que l'on ne découvre qu'en naviguant le long de la côte nord de Majorque."
+      },
+      "castillo_bellver": {
+        "alt": "Le château de Bellver surplombant le port de Palma de Majorque avec des bateaux amarrés au premier plan",
+        "caption": "Le château de Bellver, l'emblématique forteresse circulaire du XIVe siècle, domine le port de Palma de Majorque, point de départ de nombreuses excursions en bateau dans la baie."
+      },
+      "catedral_palma": {
+        "alt": "L'emblématique cathédrale de Palma de Majorque vue depuis la mer avec la ville en arrière-plan",
+        "caption": "La majestueuse cathédrale La Seu de Palma contemplée depuis la mer : l'une des cartes postales les plus emblématiques que l'on apprécie lors des excursions en bateau dans la baie de Palma."
+      },
+      "palmanova": {
+        "alt": "Vue aérienne de la plage de Palmanova à Majorque avec hôtels et bateaux dans la baie",
+        "caption": "Palmanova vue du ciel : la zone de Calvià offre des plages larges, des eaux cristallines et une infrastructure touristique qui en fait une base idéale pour les excursions maritimes le long de la côte sud-ouest de Majorque."
+      },
+      "faro_andratx": {
+        "alt": "Phare du port d'Andratx à Majorque avec un bateau de pêche traditionnel au premier plan",
+        "caption": "Le phare de Port d'Andratx à côté d'un bateau de pêche traditionnel : l'un des plus beaux ports de Majorque et point de départ pour explorer la spectaculaire côte sud-ouest."
+      },
+      "cabrera": {
+        "alt": "Vue aérienne de l'île de Cabrera, Parc National maritime-terrestre au sud de Majorque",
+        "caption": "L'archipel de Cabrera vu du ciel : un Parc National protégé avec les eaux les plus cristallines des Baléares, accessible uniquement en bateau depuis la Colònia de Sant Jordi."
+      },
+      "cala_agulla": {
+        "alt": "Cala Agulla et Cala Molló à Cala Ratjada, Majorque, plages de sable entourées de pins",
+        "caption": "Cala Agulla à Cala Ratjada, l'une des plus belles plages de la côte est de Majorque : sable doré, pins méditerranéens et eaux turquoise idéales pour le snorkeling."
+      },
+      "faro_portocolom": {
+        "alt": "Phare de Portocolom sur la côte méditerranéenne de Majorque par mer calme",
+        "caption": "Le phare de Portocolom marque l'entrée de l'un des ports de pêche les plus authentiques de Majorque, porte d'accès à des criques vierges de la côte est."
+      },
+      "coastline_alcudia": {
+        "alt": "Vues de la côte lors d'une excursion en bateau dans la baie d'Alcudia, Majorque",
+        "caption": "La côte nord de Majorque vue depuis une excursion en bateau dans la baie d'Alcudia : falaises, criques cachées et eaux d'un bleu profond que l'on ne découvre qu'en naviguant."
+      },
+      "faro_alcanada": {
+        "alt": "Phare d'Alcanada à Alcudia, Majorque, entouré d'eaux cristallines, l'une des meilleures zones pour les excursions en bateau",
+        "caption": "L'emblématique phare d'Alcanada dans la baie d'Alcudia : un îlot entouré d'eaux cristallines et de prairies de posidonie, arrêt incontournable de nos tours Coral Boats."
+      },
+      "port_soller": {
+        "alt": "Port de Sóller sur l'île de Majorque avec phare, vue aérienne de la baie entourée des montagnes de la Serra de Tramuntana",
+        "caption": "Port de Sóller vu du ciel : une baie naturelle nichée entre les montagnes de la Serra de Tramuntana, point de départ des excursions les plus spectaculaires le long des falaises du nord-ouest de Majorque."
+      },
+      "boat_trip_north": {
+        "alt": "Excursion en bateau dans le nord de Majorque avec activités nautiques et snorkeling",
+        "caption": "Profiter du snorkeling et des activités nautiques lors d'une excursion en bateau le long de la côte nord de Majorque : criques aux eaux transparentes et fonds marins grouillant de vie."
+      }
+    }
   },
   "blog_veintiocho": {
     "metaTitle": "Que Voir à Majorque en 3 Jours : Itinéraire Complet et Parcours Idéal 2026 | Coral Boats",

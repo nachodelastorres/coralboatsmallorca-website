@@ -2884,7 +2884,57 @@
       "body": "Mallorca ist eine Insel, die man vom Wasser aus wirklich versteht. Seine Buchten, seine Klippen, seine Farben, die sich je nach Tageszeit verändern – alles ergibt Sinn, wenn du es vom Deck eines Bootes aus siehst, mit der Brise im Gesicht und der Sonne auf der Haut.\n\nDie richtige Bootstour zu wählen ist kein kleines Detail. Es ist der Unterschied zwischen einer weiteren Aktivität und einer Erinnerung, die dich begleitet. Wir hoffen, dieser Guide hat dir geholfen, die Optionen zu verstehen und zu erkennen, welche Region am besten zu dem passt, was du suchst.\n\nWenn du dich entscheidest, den Norden der Insel zu erkunden, freuen wir uns, dich im Hafen von Alcudia zu begrüßen. Seit Jahren teilen wir unsere Leidenschaft für diesen Winkel des Mittelmeers – und nichts macht uns glücklicher, als unsere Gäste die Magie dieser Gewässer entdecken zu sehen.\n\nAber egal, wohin du gehst: Denk daran, die beste Bootstour ist die, die zu dir passt – nicht umgekehrt. Recherchiere, frage nach, vergleiche und wähle in Ruhe. Das Meer Mallorcas verdient es, dass du es so genießt, wie es sich gehört.\n\nGute Reise. Und gute Fahrt."
     },
     "imageAlt": "So wählst du die beste Bootstour auf Mallorca – kompletter Guide nach Küstenregionen",
-    "imageCaption": "Umfassender Guide zur Wahl der perfekten Bootstour auf Mallorca, mit Vergleich aller Küstengebiete – von der Bucht von Palma bis zu den Klippen der Serra de Tramuntana, einschließlich Cabrera und des kristallklaren Wassers der Bucht von Alcudia."
+    "imageCaption": "Umfassender Guide zur Wahl der perfekten Bootstour auf Mallorca, mit Vergleich aller Küstengebiete – von der Bucht von Palma bis zu den Klippen der Serra de Tramuntana, einschließlich Cabrera und des kristallklaren Wassers der Bucht von Alcudia.",
+    "inlineImages": {
+      "como_elegir": {
+        "alt": "Blick auf die Klippen der Bucht von Alcudia vom Inneren eines Coral Boats-Schiffes während eines Bootsausflugs",
+        "caption": "Die Klippen der Bucht von Alcudia vom Deck unseres Bootes aus gesehen: eine einzigartige Perspektive, die man nur beim Segeln entlang der Nordküste Mallorcas entdeckt."
+      },
+      "castillo_bellver": {
+        "alt": "Schloss Bellver über dem Hafen von Palma de Mallorca mit vertäuten Booten im Vordergrund",
+        "caption": "Das Schloss Bellver, die ikonische kreisförmige Festung aus dem 14. Jahrhundert, überblickt den Hafen von Palma de Mallorca, Ausgangspunkt zahlreicher Bootstouren durch die Bucht."
+      },
+      "catedral_palma": {
+        "alt": "Die ikonische Kathedrale von Palma de Mallorca vom Meer aus gesehen mit der Stadt im Hintergrund",
+        "caption": "Die majestätische Kathedrale La Seu von Palma vom Meer aus betrachtet: eine der emblematischsten Ansichten, die man bei Bootstouren durch die Bucht von Palma genießen kann."
+      },
+      "palmanova": {
+        "alt": "Luftaufnahme des Strandes von Palmanova auf Mallorca mit Hotels und Booten in der Bucht",
+        "caption": "Palmanova aus der Luft: Die Gegend von Calvià bietet breite Strände, kristallklares Wasser und eine touristische Infrastruktur, die sie zur idealen Basis für maritime Ausflüge entlang der Südwestküste Mallorcas macht."
+      },
+      "faro_andratx": {
+        "alt": "Leuchtturm am Hafen von Andratx auf Mallorca mit einem traditionellen Fischerboot im Vordergrund",
+        "caption": "Der Leuchtturm von Port d'Andratx neben einem traditionellen Fischerboot: einer der schönsten Häfen Mallorcas und Ausgangspunkt zur Erkundung der spektakulären Südwestküste."
+      },
+      "cabrera": {
+        "alt": "Luftaufnahme der Insel Cabrera, maritim-terrestrischer Nationalpark südlich von Mallorca",
+        "caption": "Der Cabrera-Archipel aus der Luft: ein geschützter Nationalpark mit dem klarsten Wasser der Balearen, nur per Boot von der Colònia de Sant Jordi erreichbar."
+      },
+      "cala_agulla": {
+        "alt": "Cala Agulla und Cala Molló in Cala Ratjada, Mallorca, Sandstrände umgeben von Pinien",
+        "caption": "Cala Agulla in Cala Ratjada, einer der schönsten Strände an Mallorcas Ostküste: goldener Sand, mediterrane Pinien und türkisfarbenes Wasser, ideal zum Schnorcheln."
+      },
+      "faro_portocolom": {
+        "alt": "Leuchtturm von Portocolom an der Mittelmeerküste Mallorcas bei ruhiger See",
+        "caption": "Der Leuchtturm von Portocolom markiert den Eingang zu einem der authentischsten Fischerhäfen Mallorcas, einem Tor zu unberührten Buchten an der Ostküste."
+      },
+      "coastline_alcudia": {
+        "alt": "Küstenblicke während eines Bootsausflugs in der Bucht von Alcudia, Mallorca",
+        "caption": "Die Nordküste Mallorcas von einem Bootsausflug in der Bucht von Alcudia aus: Klippen, versteckte Buchten und tiefblaues Wasser, das nur beim Segeln entdeckt werden kann."
+      },
+      "faro_alcanada": {
+        "alt": "Leuchtturm von Alcanada in Alcudia, Mallorca, umgeben von kristallklarem Wasser, eines der besten Gebiete für Bootsfahrten",
+        "caption": "Der emblematische Leuchtturm von Alcanada in der Bucht von Alcudia: eine kleine Insel umgeben von kristallklarem Wasser und Posidonia-Wiesen, ein Pflichtstation auf unseren Coral Boats-Touren."
+      },
+      "port_soller": {
+        "alt": "Port de Sóller auf der Insel Mallorca mit Leuchtturm, Luftaufnahme der von Bergen der Serra de Tramuntana umgebenen Bucht",
+        "caption": "Port de Sóller aus der Luft: eine natürliche Bucht eingebettet zwischen den Bergen der Serra de Tramuntana, Ausgangspunkt für die spektakulärsten Touren entlang der Nordwestklippen Mallorcas."
+      },
+      "boat_trip_north": {
+        "alt": "Bootsausflug im Norden Mallorcas mit Wasseraktivitäten und Schnorcheln",
+        "caption": "Schnorcheln und Wasseraktivitäten genießen während einer Bootstour entlang der Nordküste Mallorcas: Buchten mit transparentem Wasser und Meeresböden voller Leben."
+      }
+    }
   },
   "blog_veintiocho": {
     "metaTitle": "Was man in Mallorca in 3 Tagen sehen sollte: Komplette Reiseroute und perfekte Route 2026 | Coral Boats",

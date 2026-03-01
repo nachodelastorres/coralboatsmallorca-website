@@ -43,8 +43,10 @@ const renderTextWithBold = (text: string): React.ReactNode => {
   // Helper to convert absolute URLs to relative paths for internal navigation
   const convertToRelativePath = (url: string): string => {
     try {
-      // Check if it's an absolute URL from coralboats.com
-      if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/')) {
+      // Check if it's an absolute URL from coralboats.com or coralboatsmallorca.com
+      if (url.startsWith('https://coralboats.com/') || url.startsWith('http://coralboats.com/') ||
+          url.startsWith('https://www.coralboatsmallorca.com/') || url.startsWith('http://www.coralboatsmallorca.com/') ||
+          url.startsWith('https://coralboatsmallorca.com/') || url.startsWith('http://coralboatsmallorca.com/')) {
         const urlObj = new URL(url);
         return urlObj.pathname; // Returns just the path part (e.g., /es/blog-details/...)
       }
