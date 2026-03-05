@@ -857,6 +857,71 @@ export const blogDataOne: IBlogDT[] = [
     layout: 'minimalist',
     imageAlt: 'blog_ocho.imageAlt',
     imageCaption: 'blog_ocho.imageCaption',
+    sectionImages: [
+      {
+        section: 1,
+        position: 'after-section' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp', alt: 'blog_ocho.inlineImages.puerto_alcudia.alt', caption: 'blog_ocho.inlineImages.puerto_alcudia.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 0,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-calas-playas-cap-pinar-bonaire-alcudia-mallorca.webp', alt: 'blog_ocho.inlineImages.cap_pinar_bonaire.alt', caption: 'blog_ocho.inlineImages.cap_pinar_bonaire.caption' },
+          { src: '/assets/img/premium/gallery_new/new_blog/calas-escondidas-cabo-pinar-alcudia-mallorca-vista-aerea.webp', alt: 'blog_ocho.inlineImages.calas_cabo_pinar.alt', caption: 'blog_ocho.inlineImages.calas_cabo_pinar.caption' },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 1,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/senal-bar-s-illot-costa-norte-mallorca-alcudia-pollenca.webp', alt: 'blog_ocho.inlineImages.senal_s_illot.alt', caption: 'blog_ocho.inlineImages.senal_s_illot.caption' },
+          { src: '/assets/img/premium/gallery_new/new_blog/playa-de-s-illot-alcudia-pollenca-rincones-mallorca.webp', alt: 'blog_ocho.inlineImages.playa_s_illot.alt', caption: 'blog_ocho.inlineImages.playa_s_illot.caption' },
+        ],
+        layout: 'grid-2',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 2,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/cap-farrutx-reserva-natural-llevant-parc-playa-ruta-barco-betlem.webp', alt: 'blog_ocho.inlineImages.cap_farrutx.alt', caption: 'blog_ocho.inlineImages.cap_farrutx.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 3,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/playa-del-coll-baix-mallorca-alcudia.webp', alt: 'blog_ocho.inlineImages.coll_baix.alt', caption: 'blog_ocho.inlineImages.coll_baix.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 2,
+        position: 'after-subsection' as const,
+        afterSubsection: 4,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-mallorca-departure-point-for-best-boat-excursions-alcudia.webp', alt: 'blog_ocho.inlineImages.playa_muro.alt', caption: 'blog_ocho.inlineImages.playa_muro.caption' },
+        ],
+        layout: 'single',
+      },
+      {
+        section: 4,
+        position: 'after-section' as const,
+        images: [
+          { src: '/assets/img/premium/gallery_new/new_blog/sup-mallorca-paddle-surf-during-boat-trip-alcudia.webp', alt: 'blog_ocho.inlineImages.sup_mallorca.alt', caption: 'blog_ocho.inlineImages.sup_mallorca.caption' },
+        ],
+        layout: 'single',
+      },
+    ],
   },
 
   {
@@ -1153,9 +1218,75 @@ export const blogDataOne: IBlogDT[] = [
   section4Body: 'blog_once.section4.body',
   section5Title: 'blog_once.section5.title',
   section5Body: 'blog_once.section5.body',
+  section6Title: 'blog_once.section6.title',
+  section6Body: 'blog_once.section6.body',
   layout: 'magazine',
   imageAlt: 'blog_once.imageAlt',
   imageCaption: 'blog_once.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/coastline-views-from-boat-excursion-mallorca-trip-activities.webp', alt: 'blog_once.inlineImages.costa_norte.alt', caption: 'blog_once.inlineImages.costa_norte.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/calas-escondidas-norte-mallorca-excursion-barco.webp', alt: 'blog_once.inlineImages.calas_escondidas.alt', caption: 'blog_once.inlineImages.calas_escondidas.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/boat-ride-in-north-of-mallorca-hidden-cove.webp', alt: 'blog_once.inlineImages.cala_barco.alt', caption: 'blog_once.inlineImages.cala_barco.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp', alt: 'blog_once.inlineImages.playa_muro_aguas.alt', caption: 'blog_once.inlineImages.playa_muro_aguas.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp', alt: 'blog_once.inlineImages.posidonia.alt', caption: 'blog_once.inlineImages.posidonia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp', alt: 'blog_once.inlineImages.formentor_aerea.alt', caption: 'blog_once.inlineImages.formentor_aerea.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/snorkel-sup-water-activities-in-a-boat-sea-trip-alcudia-mallorca.webp', alt: 'blog_once.inlineImages.snorkel_actividades.alt', caption: 'blog_once.inlineImages.snorkel_actividades.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/paddle-surf-sup-in-alcudia-mallorca-and-boat-tour-water-activities-beatutiful-beaches.webp', alt: 'blog_once.inlineImages.paddle_surf.alt', caption: 'blog_once.inlineImages.paddle_surf.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 6,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp', alt: 'blog_once.inlineImages.atardecer_barco.alt', caption: 'blog_once.inlineImages.atardecer_barco.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-alcanada-excursion-barco-alcudia-mallorca.webp', alt: 'blog_once.inlineImages.faro_alcanada.alt', caption: 'blog_once.inlineImages.faro_alcanada.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {
@@ -1204,16 +1335,22 @@ export const blogDataOne: IBlogDT[] = [
   imageCaption: 'blog_doce.imageCaption',
   secondaryImage1: blogDetailsImg12Secondary1,
   secondaryImage1Alt: 'blog_doce.secondaryImage1Alt',
+  secondaryImage1Caption: 'blog_doce.secondaryImage1Caption',
   secondaryImage2: blogDetailsImg12Secondary2,
   secondaryImage2Alt: 'blog_doce.secondaryImage2Alt',
+  secondaryImage2Caption: 'blog_doce.secondaryImage2Caption',
   secondaryImage3: blogDetailsImg12Secondary3,
   secondaryImage3Alt: 'blog_doce.secondaryImage3Alt',
+  secondaryImage3Caption: 'blog_doce.secondaryImage3Caption',
   secondaryImage4: blogDetailsImg12Secondary4,
   secondaryImage4Alt: 'blog_doce.secondaryImage4Alt',
+  secondaryImage4Caption: 'blog_doce.secondaryImage4Caption',
   secondaryImage5: blogDetailsImg12Secondary5,
   secondaryImage5Alt: 'blog_doce.secondaryImage5Alt',
+  secondaryImage5Caption: 'blog_doce.secondaryImage5Caption',
   secondaryImage6: blogDetailsImg12Secondary6,
   secondaryImage6Alt: 'blog_doce.secondaryImage6Alt',
+  secondaryImage6Caption: 'blog_doce.secondaryImage6Caption',
 },
 
 {

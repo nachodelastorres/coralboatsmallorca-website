@@ -5,11 +5,59 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { useLocale } from '@/hooks/useLocale';
-import { IBlogDT } from '@/types/blog-d-t';
+import { IBlogDT, SectionImageGroup } from '@/types/blog-d-t';
 
 interface MinimalistLayoutProps {
   blog: IBlogDT;
 }
+
+// Helper to render inline image groups with captions
+const InlineImageGroup = ({ group, t }: { group: SectionImageGroup; t: (key: string) => string }) => {
+  const gridClass = `blog-inline-grid blog-inline-grid--${group.layout}`;
+
+  return (
+    <div style={{ marginTop: '30px', marginBottom: '30px' }}>
+      <div className={gridClass}>
+        {group.images.map((img, idx) => (
+          <figure key={idx} style={{ margin: 0, position: 'relative' }}>
+            <div
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: group.layout === 'single' ? '450px' : '280px',
+                borderRadius: '8px',
+                overflow: 'hidden',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              }}
+            >
+              <Image
+                src={img.src}
+                alt={t(img.alt)}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes={group.layout === 'single' ? '100vw' : group.layout === 'grid-3' ? '33vw' : '50vw'}
+              />
+            </div>
+            {img.caption && (
+              <figcaption
+                style={{
+                  fontSize: '0.85rem',
+                  color: '#94a3b8',
+                  fontStyle: 'italic',
+                  textAlign: 'center',
+                  marginTop: '8px',
+                  lineHeight: '1.4',
+                }}
+              >
+                {t(img.caption)}
+              </figcaption>
+            )}
+          </figure>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 // Helper function to process markdown text
 const processMarkdown = (text: string) => {
@@ -151,6 +199,10 @@ const renderTextWithBold = (text: string): React.ReactNode => {
 const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
   const { t } = useTranslation('common');
   const { getPath } = useLocale();
+
+  // Helper to get section image groups
+  const getSectionImages = (section: number, position: SectionImageGroup['position']) =>
+    (blog.sectionImages || []).filter(g => g.section === section && g.position === position);
 
   return (
     <article style={{ background: '#ffffff' }}>
@@ -295,6 +347,11 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     </>
                   );
                 })()}
+
+                {/* Inline images after section 1 */}
+                {getSectionImages(1, 'after-section').map((group, gi) => (
+                  <InlineImageGroup key={`s1-as-${gi}`} group={group} t={t} />
+                ))}
               </div>
 
               {/* Divider */}
@@ -318,28 +375,41 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                 {(() => {
                   const section2Content = t(blog.section2Body!);
                   const lines = section2Content.split('\n').filter((line: string) => line.trim());
+                  let bulletIndex = -1;
 
                   return (
                     <>
                       {lines.map((line: string, idx: number) => {
                         const isBullet = line.trim().startsWith('- ');
+                        if (isBullet) bulletIndex++;
+                        const currentBulletIndex = bulletIndex;
+
+                        const subsectionImages = isBullet
+                          ? (blog.sectionImages || []).filter(
+                              g => g.section === 2 && g.position === 'after-subsection' && g.afterSubsection === currentBulletIndex
+                            )
+                          : [];
 
                         if (isBullet) {
                           return (
-                            <p
-                              key={idx}
-                              style={{
-                                fontSize: '1.05rem',
-                                color: '#475569',
-                                lineHeight: '2',
-                                marginBottom: '15px',
-                                paddingLeft: '20px',
-                                fontWeight: '300',
-                                borderLeft: '3px solid #0891b2',
-                              }}
-                            >
-                              {renderTextWithBold(line.trim())}
-                            </p>
+                            <React.Fragment key={idx}>
+                              <p
+                                style={{
+                                  fontSize: '1.05rem',
+                                  color: '#475569',
+                                  lineHeight: '2',
+                                  marginBottom: '15px',
+                                  paddingLeft: '20px',
+                                  fontWeight: '300',
+                                  borderLeft: '3px solid #0891b2',
+                                }}
+                              >
+                                {renderTextWithBold(line.trim())}
+                              </p>
+                              {subsectionImages.map((group, gi) => (
+                                <InlineImageGroup key={`s2-asub-${currentBulletIndex}-${gi}`} group={group} t={t} />
+                              ))}
+                            </React.Fragment>
                           );
                         }
 
@@ -352,6 +422,11 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     </>
                   );
                 })()}
+
+                {/* Inline images after section 2 */}
+                {getSectionImages(2, 'after-section').map((group, gi) => (
+                  <InlineImageGroup key={`s2-as-${gi}`} group={group} t={t} />
+                ))}
               </div>
 
               {/* Simple CTA */}
@@ -519,6 +594,11 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                         </>
                       );
                     })()}
+
+                    {/* Inline images after section 4 */}
+                    {getSectionImages(4, 'after-section').map((group, gi) => (
+                      <InlineImageGroup key={`s4-as-${gi}`} group={group} t={t} />
+                    ))}
                   </div>
                 </>
               )}
