@@ -1859,6 +1859,132 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_dieciocho.imageAlt',
   imageCaption: 'blog_dieciocho.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/playa-de-muro-vista-aerea-alcudia-mallorca.webp',
+          alt: 'blog_dieciocho.inlineImages.playaMuroAerea.alt',
+          caption: 'blog_dieciocho.inlineImages.playaMuroAerea.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/vista-panoramica-playa-muro-bahia-alcudia.webp',
+          alt: 'blog_dieciocho.inlineImages.panoramicaBahia.alt',
+          caption: 'blog_dieciocho.inlineImages.panoramicaBahia.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 2,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp',
+          alt: 'blog_dieciocho.inlineImages.playaMuroAguas.alt',
+          caption: 'blog_dieciocho.inlineImages.playaMuroAguas.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/paddle-surf-and-water-activities-in-mallorca-during-boat-excursion.webp',
+          alt: 'blog_dieciocho.inlineImages.paddleSurf.alt',
+          caption: 'blog_dieciocho.inlineImages.paddleSurf.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kayak-in-alcudia-beach-shore-mallorca-fun-water-activities-to-do.webp',
+          alt: 'blog_dieciocho.inlineImages.kayakAlcudia.alt',
+          caption: 'blog_dieciocho.inlineImages.kayakAlcudia.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/mercado-semanal-alcudia-murallas-medievales.webp',
+          alt: 'blog_dieciocho.inlineImages.mercadoAlcudia.alt',
+          caption: 'blog_dieciocho.inlineImages.mercadoAlcudia.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/albufera-alcudia-parque-natural-mallorca.webp',
+          alt: 'blog_dieciocho.inlineImages.albufera.alt',
+          caption: 'blog_dieciocho.inlineImages.albufera.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/faro-alcanada-excursion-barco-alcudia-mallorca.webp',
+          alt: 'blog_dieciocho.inlineImages.faroAlcanada.alt',
+          caption: 'blog_dieciocho.inlineImages.faroAlcanada.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp',
+          alt: 'blog_dieciocho.inlineImages.gastronomia.alt',
+          caption: 'blog_dieciocho.inlineImages.gastronomia.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/tapas-mallorquinas-tradicionales-bordo-paseo-barco.webp',
+          alt: 'blog_dieciocho.inlineImages.tapas.alt',
+          caption: 'blog_dieciocho.inlineImages.tapas.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 5,
+      position: 'before-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/coral-boats-navegando-isla-alcanada-alcudia.webp',
+          alt: 'blog_dieciocho.inlineImages.coralBoatsNavegando.alt',
+          caption: 'blog_dieciocho.inlineImages.coralBoatsNavegando.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp',
+          alt: 'blog_dieciocho.inlineImages.atardecer.alt',
+          caption: 'blog_dieciocho.inlineImages.atardecer.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/amigos-excursion-barco-bahia-alcudia.webp',
+          alt: 'blog_dieciocho.inlineImages.amigosBarco.alt',
+          caption: 'blog_dieciocho.inlineImages.amigosBarco.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {
