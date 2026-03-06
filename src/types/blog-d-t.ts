@@ -37,6 +37,14 @@ export interface IBlogDT {
   section1Body?: string;
   section2Title?: string;
   section2Body?: string;
+  section2sub1Subtitle?: string;
+  section2sub1Body?: string;
+  section2sub2Subtitle?: string;
+  section2sub2Body?: string;
+  section2sub3Subtitle?: string;
+  section2sub3Body?: string;
+  section2sub4Subtitle?: string;
+  section2sub4Body?: string;
   section3Title?: string;
   section3Body?: string;
   section3sub1Subtitle?: string;
@@ -71,6 +79,10 @@ export interface IBlogDT {
   section4sub2Body?: string;
   section4sub3Subtitle?: string;
   section4sub3Body?: string;
+  section4sub4Subtitle?: string;
+  section4sub4Body?: string;
+  section4sub5Subtitle?: string;
+  section4sub5Body?: string;
   section5Title?: string;
   section5Body?: string;
   section5sub1Subtitle?: string;

@@ -1542,11 +1542,154 @@ export const blogDataOne: IBlogDT[] = [
   section3sub3Body: 'blog_quince.section3.sub3.body',
   section4Title: 'blog_quince.section4.title',
   section4Body: 'blog_quince.section4.body',
+  section4sub1Subtitle: 'blog_quince.section4.sub1.subtitle',
+  section4sub1Body: 'blog_quince.section4.sub1.body',
+  section4sub2Subtitle: 'blog_quince.section4.sub2.subtitle',
+  section4sub2Body: 'blog_quince.section4.sub2.body',
+  section4sub3Subtitle: 'blog_quince.section4.sub3.subtitle',
+  section4sub3Body: 'blog_quince.section4.sub3.body',
+  section4sub4Subtitle: 'blog_quince.section4.sub4.subtitle',
+  section4sub4Body: 'blog_quince.section4.sub4.body',
+  section4sub5Subtitle: 'blog_quince.section4.sub5.subtitle',
+  section4sub5Body: 'blog_quince.section4.sub5.body',
   section5Title: 'blog_quince.section5.title',
   section5Body: 'blog_quince.section5.body',
   layout: 'visual',
   imageAlt: 'blog_quince.imageAlt',
   imageCaption: 'blog_quince.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/actividades-en-playa-de-alcudia-sol-palmeras-mar-mallorca.webp',
+          alt: 'blog_quince.inlineImages.playaAlcudia.alt',
+          caption: 'blog_quince.inlineImages.playaAlcudia.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/buceo-mallorca-fondo-marino-playas-norte-alcudia.webp',
+          alt: 'blog_quince.inlineImages.buceoSnorkel.alt',
+          caption: 'blog_quince.inlineImages.buceoSnorkel.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/paddle-surf-and-water-activities-in-mallorca-during-boat-excursion.webp',
+          alt: 'blog_quince.inlineImages.paddleSurf.alt',
+          caption: 'blog_quince.inlineImages.paddleSurf.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kayak-tour-alcudia-mallorca-water-activities-and-things-to-do.webp',
+          alt: 'blog_quince.inlineImages.kayakTour.alt',
+          caption: 'blog_quince.inlineImages.kayakTour.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kayak-in-alcudia-beach-shore-mallorca-fun-water-activities-to-do.webp',
+          alt: 'blog_quince.inlineImages.kayakPlaya.alt',
+          caption: 'blog_quince.inlineImages.kayakPlaya.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/jetski-moto-agua-alcudia-mallorca-alquiler.webp',
+          alt: 'blog_quince.inlineImages.jetski.alt',
+          caption: 'blog_quince.inlineImages.jetski.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/fun-parasailing-in-mallorca-alcudia-north-activities.webp',
+          alt: 'blog_quince.inlineImages.parasailing.alt',
+          caption: 'blog_quince.inlineImages.parasailing.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/parasailing-alcudia-beach-water-activities-for-families-kids-mallorca.webp',
+          alt: 'blog_quince.inlineImages.parasailingFamilias.alt',
+          caption: 'blog_quince.inlineImages.parasailingFamilias.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/wakeboard-fun-activities-mallorca-alcudia.webp',
+          alt: 'blog_quince.inlineImages.wakeboard.alt',
+          caption: 'blog_quince.inlineImages.wakeboard.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection',
+      afterSubsection: 3,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kids-sailing-in-alcudia-mallorca-activities-families.webp',
+          alt: 'blog_quince.inlineImages.velaKids.alt',
+          caption: 'blog_quince.inlineImages.velaKids.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection',
+      afterSubsection: 4,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kitesurf-bay-of-pollenca-alcudia-mallorca-wind-activities.webp',
+          alt: 'blog_quince.inlineImages.kitesurf.alt',
+          caption: 'blog_quince.inlineImages.kitesurf.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/windsurf-activities-sea-mallorca-alcudia-fun.webp',
+          alt: 'blog_quince.inlineImages.windsurf.alt',
+          caption: 'blog_quince.inlineImages.windsurf.caption',
+        },
+      ],
+      layout: 'grid-2',
+    },
+  ],
 },
 
 {
@@ -1604,6 +1747,10 @@ export const blogDataOne: IBlogDT[] = [
   section1Body: 'blog_diecisiete.section1.body',
   section2Title: 'blog_diecisiete.section2.title',
   section2Body: 'blog_diecisiete.section2.body',
+  section2sub1Subtitle: 'blog_diecisiete.section2.sub1.subtitle',
+  section2sub1Body: 'blog_diecisiete.section2.sub1.body',
+  section2sub2Subtitle: 'blog_diecisiete.section2.sub2.subtitle',
+  section2sub2Body: 'blog_diecisiete.section2.sub2.body',
   section3Title: 'blog_diecisiete.section3.title',
   section3Body: 'blog_diecisiete.section3.body',
   section3sub1Subtitle: 'blog_diecisiete.section3.sub1.subtitle',
@@ -1612,13 +1759,70 @@ export const blogDataOne: IBlogDT[] = [
   section3sub2Body: 'blog_diecisiete.section3.sub2.body',
   section3sub3Subtitle: 'blog_diecisiete.section3.sub3.subtitle',
   section3sub3Body: 'blog_diecisiete.section3.sub3.body',
+  section3sub4Subtitle: 'blog_diecisiete.section3.sub4.subtitle',
+  section3sub4Body: 'blog_diecisiete.section3.sub4.body',
   section4Title: 'blog_diecisiete.section4.title',
   section4Body: 'blog_diecisiete.section4.body',
   section5Title: 'blog_diecisiete.section5.title',
   section5Body: 'blog_diecisiete.section5.body',
+  section6Title: 'blog_diecisiete.section6.title',
+  section6Body: 'blog_diecisiete.section6.body',
+  section7Title: 'blog_diecisiete.section7.title',
+  section7Body: 'blog_diecisiete.section7.body',
   layout: 'storytelling',
   imageAlt: 'blog_diecisiete.imageAlt',
   imageCaption: 'blog_diecisiete.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/friends-enjoying-sangria-drink-during-boat-tour-toast.webp',
+          alt: 'blog_diecisiete.inlineImages.friendsSangria.alt',
+          caption: 'blog_diecisiete.inlineImages.friendsSangria.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/joy-during-boat-tour-excursion-while-drinking-spanish-sangria.webp',
+          alt: 'blog_diecisiete.inlineImages.joySangria.alt',
+          caption: 'blog_diecisiete.inlineImages.joySangria.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/sangria-fresh-fruit-in-a-boat-trip-with-sea-views.webp',
+          alt: 'blog_diecisiete.inlineImages.sangriaFruit.alt',
+          caption: 'blog_diecisiete.inlineImages.sangriaFruit.caption',
+        },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-section',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/spanish-sangria-typical-drink-mallorca-summer.webp',
+          alt: 'blog_diecisiete.inlineImages.spanishSangria.alt',
+          caption: 'blog_diecisiete.inlineImages.spanishSangria.caption',
+        },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {

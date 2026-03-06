@@ -12,8 +12,12 @@ export const metadata: Metadata = {
   },
 };
 
+
 const MorningTour = () => {
   return <MorningTourPage />;
 };
+
+
+
 
 export default MorningTour;

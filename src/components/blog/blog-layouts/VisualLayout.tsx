@@ -776,10 +776,61 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                       return <p key={pIdx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>;
                     })}
                   </div>
+
+                  {/* Section 4 Subsections */}
+                  {[
+                    { subtitle: blog.section4sub1Subtitle, body: blog.section4sub1Body, subIdx: 0 },
+                    { subtitle: blog.section4sub2Subtitle, body: blog.section4sub2Body, subIdx: 1 },
+                    { subtitle: blog.section4sub3Subtitle, body: blog.section4sub3Body, subIdx: 2 },
+                    { subtitle: blog.section4sub4Subtitle, body: blog.section4sub4Body, subIdx: 3 },
+                    { subtitle: blog.section4sub5Subtitle, body: blog.section4sub5Body, subIdx: 4 },
+                  ].filter(s => s.subtitle).map((sub) => (
+                    <React.Fragment key={`s4-sub-${sub.subIdx}`}>
+                      <div
+                        style={{
+                          marginTop: '40px',
+                          paddingTop: '30px',
+                          borderTop: '1px solid rgba(14, 116, 144, 0.15)',
+                        }}
+                      >
+                        <h3
+                          style={{
+                            fontSize: '1.5rem',
+                            fontWeight: '700',
+                            color: '#0e7490',
+                            marginBottom: '15px',
+                          }}
+                        >
+                          {processMarkdown(t(sub.subtitle!))}
+                        </h3>
+                        <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
+                          {t(sub.body!).split('\n\n').map((paragraph, pIdx) => (
+                            <p key={pIdx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>
+                          ))}
+                        </div>
+                      </div>
+                      {getSectionImages(4, 'after-subsection')
+                        .filter((g) => g.afterSubsection === sub.subIdx)
+                        .map((group, gi) => (
+                          <div key={`s4-sub${sub.subIdx}-img-${gi}`} style={{ marginTop: '25px' }}>
+                            <InlineImageGroup group={group} t={t} />
+                          </div>
+                        ))}
+                    </React.Fragment>
+                  ))}
                 </div>
               </div>
             </div>
           )}
+
+          {/* Inline images after section 4 */}
+          {getSectionImages(4, 'after-section').map((group, gi) => (
+            <div key={`s4-as-${gi}`} className="row justify-content-center" style={{ marginBottom: '60px' }}>
+              <div className="col-lg-10">
+                <InlineImageGroup group={group} t={t} />
+              </div>
+            </div>
+          ))}
 
           {/* Secondary Image 3 - Two Column Layout */}
           {blog.secondaryImage3 && blog.secondaryImage4 && (

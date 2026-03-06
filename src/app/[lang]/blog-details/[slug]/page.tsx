@@ -54,7 +54,7 @@ function buildSubsections(
   sectionNum: number
 ): BlogSubsection[] {
   const subsections: BlogSubsection[] = [];
-  const maxSubs = sectionNum === 3 ? 12 : 4; // Section 3 can have up to 12 subsections
+  const maxSubs = 12;
 
   for (let i = 1; i <= maxSubs; i++) {
     const subtitleKey = `section${sectionNum}sub${i}Subtitle` as keyof typeof blog;
