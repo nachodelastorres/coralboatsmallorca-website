@@ -5,6 +5,8 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useRouter } from 'next/navigation';
+import { useLocale } from '@/hooks/useLocale';
 import ErrorMsg from '@/components/error-msg';
 import { Resolver } from 'react-hook-form';
 
@@ -23,6 +25,8 @@ interface FormData {
 
 const CharterBookingForm = () => {
   const { t } = useTranslation('common');
+  const router = useRouter();
+  const { locale, getPath } = useLocale();
 
   const schema = yup.object().shape({
     firstName: yup.string().required(t('premium.charter_pricing.form_error_first_name')),
@@ -49,14 +53,14 @@ const CharterBookingForm = () => {
 });
 
 
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
 
   const onSubmit = handleSubmit(async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch(`${API_URL}/api/contact`, {
+      const extrasStr = data.extras && data.extras.length > 0 ? data.extras.join(', ') : '';
+
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -64,8 +68,9 @@ const CharterBookingForm = () => {
         body: JSON.stringify({
           firstName: data.firstName,
           lastName: data.lastName,
-          email: data.email,
+          email: data.email.toLowerCase(),
           phone: data.phone,
+          locale,
           subject: `Private Charter Booking Request - ${data.duration}`,
           message: `
 CHARTER BOOKING REQUEST
@@ -75,18 +80,22 @@ Duration: ${data.duration}
 Number of Guests: ${data.guests}
 
 Extras Requested:
-${data.extras && data.extras.length > 0 ? data.extras.join(', ') : 'None'}
+${extrasStr || 'None'}
 
 Additional Message:
 ${data.message || 'No additional message'}
           `,
+          charterDate: data.date,
+          charterDuration: data.duration,
+          charterGuests: data.guests,
+          charterExtras: extrasStr,
+          charterMessage: data.message || '',
         }),
       });
 
       if (response.ok) {
-        setSuccessMessage(t('premium.charter_pricing.form_success'));
         reset();
-        setTimeout(() => setSuccessMessage(null), 15000);
+        router.push(getPath('/thank-you'));
       } else {
         const result = await response.json();
         alert(`Error: ${result.error}`);
@@ -124,24 +133,6 @@ ${data.message || 'No additional message'}
               padding: '50px',
               boxShadow: '0 10px 40px rgba(8, 145, 178, 0.1)'
             }}>
-              {successMessage && (
-                <div style={{
-                  background: 'linear-gradient(135deg, #d1fae5, #ecfdf5)',
-                  border: '2px solid #10b981',
-                  borderRadius: '15px',
-                  padding: '20px',
-                  marginBottom: '30px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '15px'
-                }}>
-                  <i className="fa-solid fa-circle-check" style={{ fontSize: '2rem', color: '#10b981' }}></i>
-                  <p style={{ margin: 0, color: '#065f46', fontSize: '1rem', lineHeight: '1.6' }}>
-                    {successMessage}
-                  </p>
-                </div>
-              )}
-
               <form onSubmit={onSubmit} noValidate>
                 {/* Name Fields */}
                 <div className="row" style={{ marginBottom: '25px' }}>
@@ -192,13 +183,16 @@ ${data.message || 'No additional message'}
                     </label>
                     <input
                       type="email"
+                      autoCapitalize="off"
+                      autoCorrect="off"
                       {...register('email')}
                       style={{
                         width: '100%',
                         padding: '15px',
                         border: '2px solid #e2e8f0',
                         borderRadius: '10px',
-                        fontSize: '1rem'
+                        fontSize: '1rem',
+                        textTransform: 'lowercase'
                       }}
                       placeholder={t('premium.charter_pricing.form_email_placeholder')}
                     />
