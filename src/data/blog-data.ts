@@ -2057,6 +2057,82 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'magazine',
   imageAlt: 'blog_veinte.imageAlt',
   imageCaption: 'blog_veinte.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/calas-escondidas-norte-mallorca-excursion-barco.webp', alt: 'blog_veinte.inlineImages.calasEscondidasNorte.alt', caption: 'blog_veinte.inlineImages.calasEscondidasNorte.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/acantilados-faro-cap-formentor-mallorca.webp', alt: 'blog_veinte.inlineImages.acantilados_formentor.alt', caption: 'blog_veinte.inlineImages.acantilados_formentor.caption' },
+        { src: '/assets/img/premium/gallery_new/puerta-de-sol-atardecer-sa-foradada-serra-tramuntana-mallorca.webp', alt: 'blog_veinte.inlineImages.tramuntana_costa.alt', caption: 'blog_veinte.inlineImages.tramuntana_costa.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp', alt: 'blog_veinte.inlineImages.faro_formentor.alt', caption: 'blog_veinte.inlineImages.faro_formentor.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp', alt: 'blog_veinte.inlineImages.playa_formentor.alt', caption: 'blog_veinte.inlineImages.playa_formentor.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/cala-san-vicente-vicenc-mallorca-pollenca.webp', alt: 'blog_veinte.inlineImages.cala_san_vicente.alt', caption: 'blog_veinte.inlineImages.cala_san_vicente.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp', alt: 'blog_veinte.inlineImages.port_soller.alt', caption: 'blog_veinte.inlineImages.port_soller.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/vista-aerea-coll-baix-cabo-pinar-alcudia-mallorca.webp', alt: 'blog_veinte.inlineImages.coll_baix.alt', caption: 'blog_veinte.inlineImages.coll_baix.caption' },
+        { src: '/assets/img/premium/gallery_new/panoramica-isla-alcanada-alcudia-mallorca-barcos.webp', alt: 'blog_veinte.inlineImages.isla_alcanada.alt', caption: 'blog_veinte.inlineImages.isla_alcanada.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/cap-farrutx-reserva-natural-llevant-parc-playa-ruta-barco-betlem.webp', alt: 'blog_veinte.inlineImages.cap_farrutx.alt', caption: 'blog_veinte.inlineImages.cap_farrutx.caption' },
+      ],
+      layout: 'grid-3',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/ciclismo-mirador-des-colomer-formentor-ruta-mallorca-cabo.webp', alt: 'blog_veinte.inlineImages.mirador_colomer.alt', caption: 'blog_veinte.inlineImages.mirador_colomer.caption' },
+        { src: '/assets/img/premium/gallery_new/excursion-barco-isla-alcanada-puerto-alcudia.webp', alt: 'blog_veinte.inlineImages.excursion_alcanada.alt', caption: 'blog_veinte.inlineImages.excursion_alcanada.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/vista-panoramica-playa-muro-bahia-alcudia.webp', alt: 'blog_veinte.inlineImages.playa_muro.alt', caption: 'blog_veinte.inlineImages.playa_muro.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/calas-escondidas-cabo-pinar-alcudia-mallorca-vista-aerea.webp', alt: 'blog_veinte.inlineImages.calas_cabo_pinar.alt', caption: 'blog_veinte.inlineImages.calas_cabo_pinar.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 5,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp', alt: 'blog_veinte.inlineImages.crucero_atardecer.alt', caption: 'blog_veinte.inlineImages.crucero_atardecer.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {

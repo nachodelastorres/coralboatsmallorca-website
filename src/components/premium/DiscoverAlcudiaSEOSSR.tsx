@@ -128,7 +128,7 @@ const DiscoverAlcudiaSEOSSR = ({ texts }: DiscoverAlcudiaSEOSSRProps) => {
               caption: texts.imgCaptionFormentor,
             },
             {
-              src: '/assets/img/premium/gallery_new/puerto-alcudia-vista-aerea-barcos-mallorca.webp',
+              src: '/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp',
               alt: texts.imgAltPuerto,
               caption: texts.imgCaptionPuerto,
             },
