@@ -2198,6 +2198,16 @@ export const blogDataOne: IBlogDT[] = [
   section3sub2Body: 'blog_veintidos.section3.sub2.body',
   section3sub3Subtitle: 'blog_veintidos.section3.sub3.subtitle',
   section3sub3Body: 'blog_veintidos.section3.sub3.body',
+  section3sub4Subtitle: 'blog_veintidos.section3.sub4.subtitle',
+  section3sub4Body: 'blog_veintidos.section3.sub4.body',
+  section3sub5Subtitle: 'blog_veintidos.section3.sub5.subtitle',
+  section3sub5Body: 'blog_veintidos.section3.sub5.body',
+  section3sub6Subtitle: 'blog_veintidos.section3.sub6.subtitle',
+  section3sub6Body: 'blog_veintidos.section3.sub6.body',
+  section3sub7Subtitle: 'blog_veintidos.section3.sub7.subtitle',
+  section3sub7Body: 'blog_veintidos.section3.sub7.body',
+  section3sub8Subtitle: 'blog_veintidos.section3.sub8.subtitle',
+  section3sub8Body: 'blog_veintidos.section3.sub8.body',
   section4Title: 'blog_veintidos.section4.title',
   section4Body: 'blog_veintidos.section4.body',
   section5Title: 'blog_veintidos.section5.title',
@@ -2205,6 +2215,205 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'minimalist',
   imageAlt: 'blog_veintidos.imageAlt',
   imageCaption: 'blog_veintidos.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/alcudia-port-and-bay-history-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.portBahia.alt',
+          caption: 'blog_veintidos.inlineImages.portBahia.caption',
+        },
+      ],
+    },
+    {
+      section: 2,
+      position: 'after-section',
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/barcos-clasicos-puerto-de-acludia-paseo-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.barcosClasicos.alt',
+          caption: 'blog_veintidos.inlineImages.barcosClasicos.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.puertoAerea.alt',
+          caption: 'blog_veintidos.inlineImages.puertoAerea.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/paseo-playa-alcudia-puerto-mallorca-arena-cosas-que-hacer.webp',
+          alt: 'blog_veintidos.inlineImages.paseoPlaya.alt',
+          caption: 'blog_veintidos.inlineImages.paseoPlaya.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 1,
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/paseo-barcos-puerto-alcudia-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.paseoBarcos.alt',
+          caption: 'blog_veintidos.inlineImages.paseoBarcos.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/arena-blanca-playa-alcudia-puerto-mallorca-sombrilla.webp',
+          alt: 'blog_veintidos.inlineImages.arenaBlanca.alt',
+          caption: 'blog_veintidos.inlineImages.arenaBlanca.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/pasarela-playa-de-alcudia-mallorca-familias.webp',
+          alt: 'blog_veintidos.inlineImages.pasarelaPlaya.alt',
+          caption: 'blog_veintidos.inlineImages.pasarelaPlaya.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 3,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp',
+          alt: 'blog_veintidos.inlineImages.coralBoats.alt',
+          caption: 'blog_veintidos.inlineImages.coralBoats.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/boat-trip-north-mallorca-with-snorkel-and-water-activities.webp',
+          alt: 'blog_veintidos.inlineImages.boatTrip.alt',
+          caption: 'blog_veintidos.inlineImages.boatTrip.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 4,
+      layout: 'grid-3',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/kayak-tour-alcudia-mallorca-water-activities-and-things-to-do.webp',
+          alt: 'blog_veintidos.inlineImages.kayak.alt',
+          caption: 'blog_veintidos.inlineImages.kayak.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/paddle-surf-sup-in-alcudia-mallorca-and-boat-tour-water-activities-beatutiful-beaches.webp',
+          alt: 'blog_veintidos.inlineImages.paddleSurf.alt',
+          caption: 'blog_veintidos.inlineImages.paddleSurf.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/snorkel-en-alcudia-mallorca-durante-paseo-en-barco-sup.webp',
+          alt: 'blog_veintidos.inlineImages.snorkel.alt',
+          caption: 'blog_veintidos.inlineImages.snorkel.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 5,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/parasailing-alcudia-beach-water-activities-for-families-kids-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.parasailing.alt',
+          caption: 'blog_veintidos.inlineImages.parasailing.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/jetski-moto-agua-alcudia-mallorca-alquiler.webp',
+          alt: 'blog_veintidos.inlineImages.jetski.alt',
+          caption: 'blog_veintidos.inlineImages.jetski.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 6,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/mercado-semanal-alcudia-casco-antiguo-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.mercado.alt',
+          caption: 'blog_veintidos.inlineImages.mercado.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp',
+          alt: 'blog_veintidos.inlineImages.mercadoProductos.alt',
+          caption: 'blog_veintidos.inlineImages.mercadoProductos.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 7,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/calas-escondidas-cabo-pinar-alcudia-mallorca-vista-aerea.webp',
+          alt: 'blog_veintidos.inlineImages.calasEscondidas.alt',
+          caption: 'blog_veintidos.inlineImages.calasEscondidas.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/playa-del-coll-baix-mallorca-alcudia.webp',
+          alt: 'blog_veintidos.inlineImages.collBaix.alt',
+          caption: 'blog_veintidos.inlineImages.collBaix.caption',
+        },
+      ],
+    },
+    {
+      section: 4,
+      position: 'after-section',
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/alcudia-village-market-and-things-to-visit-with-families.webp',
+          alt: 'blog_veintidos.inlineImages.alcudiaFamilias.alt',
+          caption: 'blog_veintidos.inlineImages.alcudiaFamilias.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/faro-alcanada-excursion-barco-alcudia-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.faroAlcanada.alt',
+          caption: 'blog_veintidos.inlineImages.faroAlcanada.caption',
+        },
+      ],
+    },
+    {
+      section: 5,
+      position: 'after-section',
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/sunset-in-alcudia-from-a-classic-boat-during-boat-ride-mallorca.webp',
+          alt: 'blog_veintidos.inlineImages.sunset.alt',
+          caption: 'blog_veintidos.inlineImages.sunset.caption',
+        },
+      ],
+    },
+  ],
 },
 
 {

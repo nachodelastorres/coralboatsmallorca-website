@@ -481,15 +481,25 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   {renderTextWithBold(t(blog.section3Body!))}
                 </p>
 
-                {/* Sub-sections */}
+                {/* Sub-sections (dynamic) */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
-                  {[
-                    { subtitle: blog.section3sub1Subtitle, body: blog.section3sub1Body },
-                    { subtitle: blog.section3sub2Subtitle, body: blog.section3sub2Body },
-                    { subtitle: blog.section3sub3Subtitle, body: blog.section3sub3Body },
-                  ].map((section, idx) => {
+                  {(() => {
+                    const subsections: { subtitle: string; body: string }[] = [];
+                    for (let i = 1; i <= 12; i++) {
+                      const subtitleKey = `section3sub${i}Subtitle` as keyof IBlogDT;
+                      const bodyKey = `section3sub${i}Body` as keyof IBlogDT;
+                      if (blog[subtitleKey] && blog[bodyKey]) {
+                        subsections.push({ subtitle: blog[subtitleKey] as string, body: blog[bodyKey] as string });
+                      }
+                    }
+                    return subsections;
+                  })().map((section, idx) => {
                     const content = t(section.body!);
                     const lines = content.split('\n').filter((line: string) => line.trim());
+
+                    const subsectionImages = (blog.sectionImages || []).filter(
+                      g => g.section === 3 && g.position === 'after-subsection' && g.afterSubsection === idx
+                    );
 
                     return (
                       <div key={idx}>
@@ -533,6 +543,10 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                             </p>
                           );
                         })}
+
+                        {subsectionImages.map((group, gi) => (
+                          <InlineImageGroup key={`s3-asub-${idx}-${gi}`} group={group} t={t} />
+                        ))}
                       </div>
                     );
                   })}
@@ -660,6 +674,11 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                       </>
                     );
                   })()}
+
+                  {/* Inline images after section 5 */}
+                  {getSectionImages(5, 'after-section').map((group, gi) => (
+                    <InlineImageGroup key={`s5-as-${gi}`} group={group} t={t} />
+                  ))}
                 </div>
               )}
 
