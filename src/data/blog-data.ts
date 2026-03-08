@@ -2162,6 +2162,16 @@ export const blogDataOne: IBlogDT[] = [
   section3sub2Body: 'blog_veintiuno.section3.sub2.body',
   section3sub3Subtitle: 'blog_veintiuno.section3.sub3.subtitle',
   section3sub3Body: 'blog_veintiuno.section3.sub3.body',
+  section3sub4Subtitle: 'blog_veintiuno.section3.sub4.subtitle',
+  section3sub4Body: 'blog_veintiuno.section3.sub4.body',
+  section3sub5Subtitle: 'blog_veintiuno.section3.sub5.subtitle',
+  section3sub5Body: 'blog_veintiuno.section3.sub5.body',
+  section3sub6Subtitle: 'blog_veintiuno.section3.sub6.subtitle',
+  section3sub6Body: 'blog_veintiuno.section3.sub6.body',
+  section3sub7Subtitle: 'blog_veintiuno.section3.sub7.subtitle',
+  section3sub7Body: 'blog_veintiuno.section3.sub7.body',
+  section3sub8Subtitle: 'blog_veintiuno.section3.sub8.subtitle',
+  section3sub8Body: 'blog_veintiuno.section3.sub8.body',
   section4Title: 'blog_veintiuno.section4.title',
   section4Body: 'blog_veintiuno.section4.body',
   section5Title: 'blog_veintiuno.section5.title',
@@ -2169,6 +2179,74 @@ export const blogDataOne: IBlogDT[] = [
   layout: 'minimalist',
   imageAlt: 'blog_veintiuno.imageAlt',
   imageCaption: 'blog_veintiuno.imageCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section',
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/fondo-marino-posidonia-peces-vida-mallorca-mediterraneo.webp',
+          alt: 'blog_veintiuno.inlineImages.fondoMarino.alt',
+          caption: 'blog_veintiuno.inlineImages.fondoMarino.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 0,
+      layout: 'single',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/posidonia-oceanica-peces-aguas-cristalinas-transparentes-mallorca.webp',
+          alt: 'blog_veintiuno.inlineImages.posidoniaPeces.alt',
+          caption: 'blog_veintiuno.inlineImages.posidoniaPeces.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 2,
+      layout: 'grid-3',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/delfin-saltando-avisamiento-mallorca-tomada-desde-tour-barco.webp',
+          alt: 'blog_veintiuno.inlineImages.delfinSaltando.alt',
+          caption: 'blog_veintiuno.inlineImages.delfinSaltando.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/delfin-aguas-mallorca-alcudia-tomada-desde-barco.webp',
+          alt: 'blog_veintiuno.inlineImages.delfinAguas.alt',
+          caption: 'blog_veintiuno.inlineImages.delfinAguas.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/avisatamiento-delfines-costa-mallorca-faro-formentor-al-fondo.webp',
+          alt: 'blog_veintiuno.inlineImages.avistamientoDelfines.alt',
+          caption: 'blog_veintiuno.inlineImages.avistamientoDelfines.caption',
+        },
+      ],
+    },
+    {
+      section: 3,
+      position: 'after-subsection',
+      afterSubsection: 7,
+      layout: 'grid-2',
+      images: [
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/algas-vida-marina-mallorca-monta\u00f1a-fondo.webp',
+          alt: 'blog_veintiuno.inlineImages.algasVidaMarina.alt',
+          caption: 'blog_veintiuno.inlineImages.algasVidaMarina.caption',
+        },
+        {
+          src: '/assets/img/premium/gallery_new/new_blog/algas-colores-mallorca-fondo-marino-con-monta\u00f1as-fondo.webp',
+          alt: 'blog_veintiuno.inlineImages.algasColores.alt',
+          caption: 'blog_veintiuno.inlineImages.algasColores.caption',
+        },
+      ],
+    },
+  ],
 },
 
 {
