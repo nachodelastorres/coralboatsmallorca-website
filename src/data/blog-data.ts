@@ -91,6 +91,9 @@ import blogDetailsImg36Secondary4 from '@/assets/img/premium/gallery_new/moto-ac
 // Blog 37 - Alquiler Barco Sin Licencia
 import blogDetailsImg38 from '@/assets/img/premium/gallery_new/new_blog/lancha-motor-en-mar-tranquilo-sin-patron-ni-licencia.webp';
 
+// Blog 38 - ¿Merece la pena visitar Mallorca?
+import blogDetailsImg39 from '@/assets/img/premium/gallery_new/new_blog/acantilados-faro-cap-formentor-mallorca.webp';
+
 // Blog 36 - Mejores Playas del Norte de Mallorca
 import blogDetailsImg37 from '@/assets/img/premium/gallery_new/mapa-mallorca-playas-rutas-barco.webp';
 import blogDetailsImg37Secondary1 from '@/assets/img/premium/gallery_new/cap-farrutx-reserva-natural-llevant-parc-playa-ruta-barco-betlem.webp';
@@ -4337,7 +4340,169 @@ export const blogDataOne: IBlogDT[] = [
       layout: 'single',
     },
   ],
-}
+},
+
+{
+  id: 38,
+  slug: 'merece-la-pena-visitar-mallorca-razones',
+  category: 'Destinos',
+  image: blogDetailsImg39,
+  badgeTitle: 'blog_treintayocho.badgeTitle',
+  title: 'blog_treintayocho.title',
+  metaTitle: 'blog_treintayocho.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg39,
+  publishedDate: 'blog_treintayocho.publishedDate',
+  description: 'blog_treintayocho.meta_description',
+  metaDescription: 'blog_treintayocho.metaDescription',
+  btnText: 'blog_treintayocho.btnText',
+  keyword: 'blog_treintayocho.keyword',
+  section1Title: 'blog_treintayocho.section1.title',
+  section1Body: 'blog_treintayocho.section1.body',
+  section2Title: 'blog_treintayocho.section2.title',
+  section2Body: 'blog_treintayocho.section2.body',
+  section3Title: 'blog_treintayocho.section3.title',
+  section3Body: 'blog_treintayocho.section3.body',
+  section4Title: 'blog_treintayocho.section4.title',
+  section4Body: 'blog_treintayocho.section4.body',
+  section5Title: 'blog_treintayocho.section5.title',
+  section5Body: 'blog_treintayocho.section5.body',
+  section6Title: 'blog_treintayocho.section6.title',
+  section6Body: 'blog_treintayocho.section6.body',
+  section7Title: 'blog_treintayocho.section7.title',
+  section7Body: 'blog_treintayocho.section7.body',
+  section8Title: 'blog_treintayocho.section8.title',
+  section8Body: 'blog_treintayocho.section8.body',
+  section9Title: 'blog_treintayocho.section9.title',
+  section9Body: 'blog_treintayocho.section9.body',
+  section10Title: 'blog_treintayocho.section10.title',
+  section10Body: 'blog_treintayocho.section10.body',
+  section11Title: 'blog_treintayocho.section11.title',
+  section11Body: 'blog_treintayocho.section11.body',
+  section12Title: 'blog_treintayocho.section12.title',
+  section12Body: 'blog_treintayocho.section12.body',
+  layout: 'magazine',
+  conclusion: 'blog_treintayocho.conclusion',
+  imageAlt: 'blog_treintayocho.imageAlt',
+  imageCaption: 'blog_treintayocho.imageCaption',
+  heroInlineCaption: 'blog_treintayocho.heroInlineCaption',
+  sectionImages: [
+    // Point 1 — Landscapes (section 2)
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/cala-agulla-cala-molto-cala-ratjada-mallorca-playas.jpg', alt: 'blog_treintayocho.inlineImages.calaAgulla.alt', caption: 'blog_treintayocho.inlineImages.calaAgulla.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/calle-tipica-pueblo-banyalbufar-mallorca-vistas-mar-mediterraneo.webp', alt: 'blog_treintayocho.inlineImages.calleBanyalbufar.alt', caption: 'blog_treintayocho.inlineImages.calleBanyalbufar.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 2 — Beaches (section 3)
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp', alt: 'blog_treintayocho.inlineImages.playaMuro.alt', caption: 'blog_treintayocho.inlineImages.playaMuro.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/cala-tuent-tramuntana-mallorca-playa-escondida-agua-transaprente-tour-barco.webp', alt: 'blog_treintayocho.inlineImages.calaTuent.alt', caption: 'blog_treintayocho.inlineImages.calaTuent.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 3 — Hidden coves (section 4)
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/boat-ride-in-north-of-mallorca-hidden-cove.webp', alt: 'blog_treintayocho.inlineImages.hiddenCove.alt', caption: 'blog_treintayocho.inlineImages.hiddenCove.caption' },
+      ],
+      layout: 'single',
+    },
+    // Point 4 — Climate (section 5)
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/actividades-en-playa-de-alcudia-sol-palmeras-mar-mallorca.webp', alt: 'blog_treintayocho.inlineImages.climaAlcudia.alt', caption: 'blog_treintayocho.inlineImages.climaAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    // Point 5 — Historic towns (section 6)
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/callejon-tipico-casco-historico-alcudia-mallorca.webp', alt: 'blog_treintayocho.inlineImages.callejonAlcudia.alt', caption: 'blog_treintayocho.inlineImages.callejonAlcudia.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/porto-colom-mallorca-barcos-casas-pesqueras-tipicas.webp', alt: 'blog_treintayocho.inlineImages.portoColom.alt', caption: 'blog_treintayocho.inlineImages.portoColom.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 6 — Serra de Tramuntana (section 7)
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/banyalbufar-vista-aerea-pueblo-cala-mallorca.webp', alt: 'blog_treintayocho.inlineImages.banyalbufar.alt', caption: 'blog_treintayocho.inlineImages.banyalbufar.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/acantilados-faro-cap-formentor-mallorca.webp', alt: 'blog_treintayocho.inlineImages.capFormentor.alt', caption: 'blog_treintayocho.inlineImages.capFormentor.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 7 — Crystal waters (section 8)
+    {
+      section: 8,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-vista-aerea-bahia-pollenca-mallorca.webp', alt: 'blog_treintayocho.inlineImages.formentorAerea.alt', caption: 'blog_treintayocho.inlineImages.formentorAerea.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/posidonia-oceanica-peces-aguas-cristalinas-transparentes-mallorca.webp', alt: 'blog_treintayocho.inlineImages.posidoniaPeces.alt', caption: 'blog_treintayocho.inlineImages.posidoniaPeces.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 8 — Food (section 9)
+    {
+      section: 9,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp', alt: 'blog_treintayocho.inlineImages.mercadoAlcudia.alt', caption: 'blog_treintayocho.inlineImages.mercadoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    // Point 9 — Activities (section 10)
+    {
+      section: 10,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/joy-during-boat-tour-excursion-while-drinking-spanish-sangria.webp', alt: 'blog_treintayocho.inlineImages.boatTourJoy.alt', caption: 'blog_treintayocho.inlineImages.boatTourJoy.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/buceo-mallorca-fondo-marino-playas-norte-alcudia.webp', alt: 'blog_treintayocho.inlineImages.buceoMallorca.alt', caption: 'blog_treintayocho.inlineImages.buceoMallorca.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Point 10 — Maritime history (section 11)
+    {
+      section: 11,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-puerto-andratx-mallorca-pesquero.jpg', alt: 'blog_treintayocho.inlineImages.faroAndratx.alt', caption: 'blog_treintayocho.inlineImages.faroAndratx.caption' },
+      ],
+      layout: 'single',
+    },
+    // Point 11 — Sunsets (section 12, before body)
+    {
+      section: 12,
+      position: 'before-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/atardecer-espectacular-mar-bahia-alcudia.webp', alt: 'blog_treintayocho.inlineImages.atardecerBahia.alt', caption: 'blog_treintayocho.inlineImages.atardecerBahia.caption' },
+      ],
+      layout: 'single',
+    },
+    // Point 12 — Discovering from sea (section 12, after body)
+    {
+      section: 12,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/coastline-views-from-boat-excursion-mallorca-trip-activities.webp', alt: 'blog_treintayocho.inlineImages.coastlineViews.alt', caption: 'blog_treintayocho.inlineImages.coastlineViews.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
+},
 
 ];
 

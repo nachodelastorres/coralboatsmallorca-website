@@ -171,6 +171,9 @@ export interface IBlogDT {
     linkText: string;   // translation key
     linkHref: string;   // anchor link e.g. #calendario
   };
+
+  // Optional conclusion block (translation key) rendered after all sections
+  conclusion?: string;
 }
 
 export interface SectionMap {

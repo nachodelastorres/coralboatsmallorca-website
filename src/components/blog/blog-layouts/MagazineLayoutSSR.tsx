@@ -116,6 +116,9 @@ export interface BlogPostTranslated {
 
   // Anchor IDs for sections (e.g. { 8: 'calendario' })
   sectionAnchors?: Record<number, string>;
+
+  // Optional conclusion block rendered after all sections
+  conclusion?: string;
 }
 
 interface MagazineLayoutSSRProps {
@@ -280,13 +283,23 @@ const SectionContent = ({ body, sectionImages, sectionNumber }: { body: string; 
             )
           : [];
 
+        const trimmed = line.trim();
+        const isHr = trimmed === '---' || trimmed === '***' || trimmed === '___';
+        const headingMatch = trimmed.match(/^#{1,3}\s+(.+)$/);
+
         return (
           <Fragment key={idx}>
-            {isBullet ? (
+            {isHr ? (
+              <hr style={{ border: 'none', borderTop: '2px solid #e2e8f0', margin: '35px 0' }} />
+            ) : headingMatch ? (
+              <h2 style={{ fontSize: '2rem', fontWeight: '700', color: '#1e293b', marginTop: '50px', marginBottom: '25px' }}>
+                {renderTextWithBold(headingMatch[1])}
+              </h2>
+            ) : isBullet ? (
               <BulletPoint text={line.replace(/^-\s*/, '').trim()} />
             ) : (
               <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
-                {renderTextWithBold(line.trim())}
+                {renderTextWithBold(trimmed)}
               </p>
             )}
             {lineImages.map((group, gi) => (
@@ -382,8 +395,9 @@ const BlogSectionComponent = ({
 
   const anchorId = sectionAnchors?.[sectionNumber];
 
-  // Section 12 is the conclusion with special styling
-  if (sectionNumber === 12) {
+  // Section 12 conclusion styling — only when it has no inline images (short conclusion)
+  const section12Images = (sectionImages || []).filter(g => g.section === 12);
+  if (sectionNumber === 12 && section12Images.length === 0) {
     return (
       <div
         id={anchorId || undefined}
@@ -1033,6 +1047,22 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                   </>
                 );
               })()}
+
+              {/* Conclusion block */}
+              {blog.conclusion && (
+                <div
+                  style={{
+                    marginTop: '50px',
+                    padding: '40px',
+                    background: 'linear-gradient(135deg, #f8fafc 0%, #f0f9ff 100%)',
+                    borderRadius: '20px',
+                    borderLeft: '5px solid #0891b2',
+                    boxShadow: '0 4px 20px rgba(8, 145, 178, 0.08)',
+                  }}
+                >
+                  <SectionContent body={blog.conclusion} />
+                </div>
+              )}
             </div>
           </div>
         </div>

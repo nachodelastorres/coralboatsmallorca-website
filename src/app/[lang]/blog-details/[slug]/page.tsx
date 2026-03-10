@@ -215,6 +215,9 @@ function translateBlogPost(
 
     // Section anchors (pass-through, no translation needed)
     sectionAnchors: blog.sectionAnchors,
+
+    // Conclusion
+    conclusion: blog.conclusion ? translateKey(t, blog.conclusion) : undefined,
   };
 }
 
