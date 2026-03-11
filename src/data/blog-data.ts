@@ -95,13 +95,7 @@ import blogDetailsImg38 from '@/assets/img/premium/gallery_new/new_blog/lancha-m
 import blogDetailsImg39 from '@/assets/img/premium/gallery_new/new_blog/acantilados-faro-cap-formentor-mallorca.webp';
 
 // Blog 36 - Mejores Playas del Norte de Mallorca
-import blogDetailsImg37 from '@/assets/img/premium/gallery_new/mapa-mallorca-playas-rutas-barco.webp';
-import blogDetailsImg37Secondary1 from '@/assets/img/premium/gallery_new/cap-farrutx-reserva-natural-llevant-parc-playa-ruta-barco-betlem.webp';
-import blogDetailsImg37Secondary2 from '@/assets/img/premium/gallery_new/colonia-de-sant-pere-puerto-playa-paseo-barco.webp';
-import blogDetailsImg37Secondary3 from '@/assets/img/premium/gallery_new/panoramica-isla-alcanada-alcudia-mallorca-barcos.webp';
-import blogDetailsImg37Secondary4 from '@/assets/img/premium/gallery_new/playa-del-coll-baix-mallorca-alcudia.webp';
-import blogDetailsImg37Secondary5 from '@/assets/img/premium/gallery_new/playa-formentor-cabo-hotel-paseo-barco.webp';
-import blogDetailsImg37Secondary6 from '@/assets/img/premium/gallery_new/cala-san-vicente-vicenc-mallorca-pollenca.webp';
+import blogDetailsImg37 from '@/assets/img/premium/gallery_new/new_blog/views-from-mountain-in-cala-murta-secret-cove-cap-formentor-mallorca.webp';
 
 
 export const blogDataOne: IBlogDT[] = [
@@ -4121,27 +4115,151 @@ export const blogDataOne: IBlogDT[] = [
   section9Title: 'blog_treintayseis.section9.title',
   section9Body: 'blog_treintayseis.section9.body',
   layout: 'magazine',
-  secondaryImage1: blogDetailsImg37Secondary1,
-  secondaryImage2: blogDetailsImg37Secondary2,
-  secondaryImage3: blogDetailsImg37Secondary3,
-  secondaryImage4: blogDetailsImg37Secondary4,
-  secondaryImage5: blogDetailsImg37Secondary5,
-  secondaryImage6: blogDetailsImg37Secondary6,
   imageAlt: 'blog_treintayseis.imageAlt',
   imageCaption: 'blog_treintayseis.imageCaption',
   heroInlineCaption: 'blog_treintayseis.heroInlineCaption',
-  secondaryImage1Alt: 'blog_treintayseis.secondaryImage1Alt',
-  secondaryImage1Caption: 'blog_treintayseis.secondaryImage1Caption',
-  secondaryImage2Alt: 'blog_treintayseis.secondaryImage2Alt',
-  secondaryImage2Caption: 'blog_treintayseis.secondaryImage2Caption',
-  secondaryImage3Alt: 'blog_treintayseis.secondaryImage3Alt',
-  secondaryImage3Caption: 'blog_treintayseis.secondaryImage3Caption',
-  secondaryImage4Alt: 'blog_treintayseis.secondaryImage4Alt',
-  secondaryImage4Caption: 'blog_treintayseis.secondaryImage4Caption',
-  secondaryImage5Alt: 'blog_treintayseis.secondaryImage5Alt',
-  secondaryImage5Caption: 'blog_treintayseis.secondaryImage5Caption',
-  secondaryImage6Alt: 'blog_treintayseis.secondaryImage6Alt',
-  secondaryImage6Caption: 'blog_treintayseis.secondaryImage6Caption',
+  sectionImages: [
+    // Section 3 - El Parc Natural de Llevant
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/cap-farrutx-reserva-natural-llevant-parc-playa-ruta-barco-betlem.webp', alt: 'blog_treintayseis.inlineImages.capFarrutx.alt', caption: 'blog_treintayseis.inlineImages.capFarrutx.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/colonia-de-sant-pere-puerto-playa-paseo-barco.webp', alt: 'blog_treintayseis.inlineImages.coloniaSantPere.alt', caption: 'blog_treintayseis.inlineImages.coloniaSantPere.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/can-picafort-beach-and-village-aereal-view-north-mallorca.webp', alt: 'blog_treintayseis.inlineImages.canPicafort.alt', caption: 'blog_treintayseis.inlineImages.canPicafort.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 - La Bahía de Alcudia
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/calas-para-ir-con-ninos-mallorca-alcudia-facil-aparcamiento.webp', alt: 'blog_treintayseis.inlineImages.playaMuro.alt', caption: 'blog_treintayseis.inlineImages.playaMuro.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/arena-blanca-playa-alcudia-puerto-mallorca-sombrilla.webp', alt: 'blog_treintayseis.inlineImages.playaAlcudia.alt', caption: 'blog_treintayseis.inlineImages.playaAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-de-alcanada-alcudia-mejores-playas-para-ir-en-barco.webp', alt: 'blog_treintayseis.inlineImages.alcanada.alt', caption: 'blog_treintayseis.inlineImages.alcanada.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 - La costa salvaje
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-coll-baix-cabo-pinar-alcudia-mallorca.webp', alt: 'blog_treintayseis.inlineImages.collBaix.alt', caption: 'blog_treintayseis.inlineImages.collBaix.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/senal-bar-s-illot-costa-norte-mallorca-alcudia-pollenca.webp', alt: 'blog_treintayseis.inlineImages.sIllot.alt', caption: 'blog_treintayseis.inlineImages.sIllot.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-calas-playas-cap-pinar-bonaire-alcudia-mallorca.webp', alt: 'blog_treintayseis.inlineImages.capPinar.alt', caption: 'blog_treintayseis.inlineImages.capPinar.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 6 - La Península de Formentor
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-puerto-pollensa-atardecer-muelle-sombrillas-tumbonas-barcos.webp', alt: 'blog_treintayseis.inlineImages.puertoPollensa.alt', caption: 'blog_treintayseis.inlineImages.puertoPollensa.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp', alt: 'blog_treintayseis.inlineImages.formentor.alt', caption: 'blog_treintayseis.inlineImages.formentor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/views-from-mountain-in-cala-murta-secret-cove-cap-formentor-mallorca.webp', alt: 'blog_treintayseis.inlineImages.calaMurta.alt', caption: 'blog_treintayseis.inlineImages.calaMurta.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/view-of-cala-figuera-in-cap-formentor-mallorca-secret-cove.webp', alt: 'blog_treintayseis.inlineImages.calaFiguera.alt', caption: 'blog_treintayseis.inlineImages.calaFiguera.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 - Las calas ocultas del noreste
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/beach-cala-boquer-cove-pollensa-mallorca-turquoise-water.webp', alt: 'blog_treintayseis.inlineImages.calaBoquer.alt', caption: 'blog_treintayseis.inlineImages.calaBoquer.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-cala-san-vicente-pollensa-mallorca-desde-puig-de-sagila.webp', alt: 'blog_treintayseis.inlineImages.calaSantVicenc.alt', caption: 'blog_treintayseis.inlineImages.calaSantVicenc.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {

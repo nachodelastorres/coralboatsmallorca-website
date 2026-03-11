@@ -4790,21 +4790,71 @@
     "meta_description": "A detailed tour of every beach and cove from Cap Farrutx to Cap de Formentor: sand, rocks, scenery, accessibility, amenities and the best ways to get there — including boat routes.",
     "publishedDate": "February 10, 2026",
     "btnText": "Read more",
-    "imageAlt": "Illustrated map of northern Mallorca showing boat routes and the best beaches marked",
-    "imageCaption": "Map of northern Mallorca with the main beaches and sea routes from Cap Farrutx to Cap de Formentor",
-    "heroInlineCaption": "Map of northern Mallorca showing the best beaches and coves from Cap Farrutx to Cap de Formentor, including the most popular boat routes",
-    "secondaryImage1Alt": "View of Cap Farrutx and the Llevant Natural Park coastline with turquoise waters",
-    "secondaryImage1Caption": "The dramatic cliffs of Cap Farrutx and the unspoilt coastline of the Llevant Nature Reserve, starting point of our journey along northern Mallorca's beaches",
-    "secondaryImage2Alt": "Harbour and beach of Colonia de Sant Pere with traditional boats and the Serra de Llevant mountains in the background",
-    "secondaryImage2Caption": "The charming fishing harbour of Colonia de Sant Pere with traditional llaüt boats and the Serra de Llevant mountains behind, one of the most authentic corners of the north coast",
-    "secondaryImage3Alt": "Panoramic view of the island of Alcanada with its lighthouse and crystal-clear waters in Alcudia, Mallorca",
-    "secondaryImage3Caption": "Panoramic view of Alcanada island with its iconic stone lighthouse and the crystal-clear waters of Alcudia bay, a paradise for snorkelling",
-    "secondaryImage4Alt": "Pristine Coll Baix beach surrounded by cliffs in Alcudia, Mallorca",
-    "secondaryImage4Caption": "The pristine beach of Coll Baix, surrounded by cliffs over 200 metres high, reachable on foot via a hiking trail or by boat trip from Alcudia harbour",
-    "secondaryImage5Alt": "Formentor beach with white sand and pine trees beside the turquoise sea in Mallorca",
-    "secondaryImage5Caption": "The iconic Formentor beach with centuries-old pine trees leaning over white sand and turquoise waters, one of the most photographed beaches in the Mediterranean",
-    "secondaryImage6Alt": "Cala Sant Vicenç with its crystal-clear waters surrounded by mountains in Pollença, Mallorca",
-    "secondaryImage6Caption": "The crystal-clear waters of Cala Sant Vicenç framed by towering limestone cliffs in Pollença, the perfect finale to a tour of Mallorca's north coast",
+    "imageAlt": "Panoramic mountain view of Cala Murta, a secret cove in Cap de Formentor, northern Mallorca",
+    "imageCaption": "Cala Murta seen from the mountain on the Formentor Peninsula, one of the most secret and spectacular coves in northern Mallorca",
+    "heroInlineCaption": "Stunning aerial view of Cala Murta hidden among the mountains of Cap de Formentor in northern Mallorca, surrounded by cliffs and crystal-clear waters",
+    "inlineImages": {
+      "capFarrutx": {
+        "alt": "Cap Farrutx cliffs and Llevant Natural Park coastline with beach and turquoise waters, boat route from Betlem, Mallorca",
+        "caption": "The imposing coastline of Cap Farrutx in the Llevant Natural Park, with its cliffs dropping into the sea and pristine beaches reachable by boat from Betlem"
+      },
+      "coloniaSantPere": {
+        "alt": "Fishing harbour and beach of Colonia de Sant Pere with traditional boats and mountains behind, northern Mallorca",
+        "caption": "The charming harbour of Colonia de Sant Pere, starting point for boat trips to the pristine coves of the Llevant Natural Park"
+      },
+      "canPicafort": {
+        "alt": "Aerial view of Can Picafort beach and village in northern Mallorca with the Bay of Alcudia",
+        "caption": "Can Picafort from the air: its extensive fine-sand beach marks the transition between the wild eastern coast and the great beaches of the Bay of Alcudia"
+      },
+      "playaMuro": {
+        "alt": "Crystal-clear shallow coves ideal for families with children in Alcudia, Mallorca, with easy parking",
+        "caption": "The shallow, crystal-clear waters of Playa de Muro, one of Spain's best family beaches thanks to its gentle entry into the water"
+      },
+      "playaAlcudia": {
+        "alt": "White sand and parasol on Alcudia beach near the port, northern Mallorca",
+        "caption": "Playa de Alcudia with its fine white sand, just steps from the Port of Alcudia where boat excursions along the northern coast depart"
+      },
+      "alcanada": {
+        "alt": "Alcanada lighthouse in Alcudia with crystal-clear waters, one of the best beaches to visit by boat in Mallorca",
+        "caption": "The iconic Alcanada lighthouse surrounded by crystal-clear waters, an essential stop on boat excursions from the Port of Alcudia and a snorkelling paradise"
+      },
+      "collBaix": {
+        "alt": "Aerial view of Coll Baix beach and Cap Pinar in Alcudia, Mallorca, surrounded by cliffs",
+        "caption": "Coll Baix from the air: northern Mallorca's most spectacular pristine beach, surrounded by cliffs over 200 metres high and reachable by boat or on foot"
+      },
+      "sIllot": {
+        "alt": "S'Illot beach bar sign on the northern coast of Mallorca between Alcudia and Pollença",
+        "caption": "S'Illot beach, an authentic spot between Alcudia and Pollença where locals enjoy a beach bar and calm waters on Mallorca's northern coast"
+      },
+      "capPinar": {
+        "alt": "Aerial view of coves and beaches at Cap Pinar and Bonaire in Alcudia, northern Mallorca",
+        "caption": "The hidden coves of Cap Pinar and Bonaire seen from above, with turquoise waters and pine forests reaching the shore on the Victoria Peninsula"
+      },
+      "puertoPollensa": {
+        "alt": "Port of Pollença beach at sunset with pier, parasols, sun loungers and boats in Mallorca",
+        "caption": "The Port of Pollença at sunset: its long beach with the promenade, sun loungers and sailboats creates one of the most beautiful scenes on northern Mallorca's coast"
+      },
+      "formentor": {
+        "alt": "Formentor beach in Mallorca with white sand and turquoise waters surrounded by pine forests",
+        "caption": "The legendary Formentor beach with its white sand and impossibly turquoise waters, framed by centuries-old pine trees leaning over the sea"
+      },
+      "calaMurta": {
+        "alt": "Mountain views of Cala Murta, a secret hidden cove in Cap de Formentor, northern Mallorca",
+        "caption": "Cala Murta, the secret cove of the Formentor Peninsula: reachable only on foot or by boat, with crystal-clear waters and breathtaking cliff scenery"
+      },
+      "calaFiguera": {
+        "alt": "View of Cala Figuera in Cap de Formentor, Mallorca, a secret cove between cliffs",
+        "caption": "Cala Figuera on the Formentor Peninsula, a narrow inlet of deep blue sea between vertical rock walls, one of Mallorca's most striking landscapes"
+      },
+      "calaBoquer": {
+        "alt": "Cala Boquer beach in Pollença, Mallorca, with crystal-clear turquoise waters surrounded by mountains",
+        "caption": "The turquoise waters of Cala Boquer in Pollença, the reward of one of northern Mallorca's most rewarding hiking excursions"
+      },
+      "calaSantVicenc": {
+        "alt": "Aerial view of Cala Sant Vicenç in Pollença, Mallorca, from Puig de Sàgila showing its four coves",
+        "caption": "Cala Sant Vicenç viewed from Puig de Sàgila: its four coves pack the full landscape diversity of northern Mallorca's coast between limestone cliffs"
+      }
+    },
     "section1": {
       "title": "A coastline that transforms with every kilometre",
       "body": "If there is one thing that makes northern Mallorca special, it is the **sheer diversity of its coast**. In just 60 kilometres — the distance between Cap Farrutx and Cap de Formentor — you will find white-sand beaches that rival the Caribbean, rocky coves hidden between towering cliffs, pristine stretches of sand guarded by dunes, and secluded spots only reachable by boat or after a hike through the pines.\n\nThis guide covers **every beach and cove along the northern coast**, from east to west: from the wildest corners of the Llevant Natural Park to the legendary turquoise waters of Formentor. For each beach you will find what the seabed is like, how to get there, what amenities are available and — where it truly makes a difference — why seeing it from the sea changes the experience entirely.\n\nWhether you are looking for a family day out with sun loungers and a beach bar, or an adventure hiking to a secluded cove, you will find your perfect beach here."

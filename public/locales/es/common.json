@@ -4790,21 +4790,71 @@
     "meta_description": "Recorremos una a una todas las playas y calas desde Cap Farrutx hasta Cap de Formentor: arena, rocas, paisajes, accesibilidad, servicios y las mejores formas de llegar, incluyendo rutas en barco.",
     "publishedDate": "10 de febrero de 2026",
     "btnText": "Leer más",
-    "imageAlt": "Mapa ilustrado del norte de Mallorca con las rutas en barco y las mejores playas señaladas",
-    "imageCaption": "Mapa del norte de Mallorca con las principales playas y rutas marítimas desde Cap Farrutx hasta Cap de Formentor",
-    "heroInlineCaption": "Mapa del norte de Mallorca con las mejores playas y calas señaladas, desde Cap Farrutx hasta Cap de Formentor, incluyendo las rutas en barco más populares",
-    "secondaryImage1Alt": "Vista del Cap de Farrutx y la costa del Parc Natural de Llevant con aguas turquesas",
-    "secondaryImage1Caption": "Los acantilados de Cap Farrutx y la costa virgen del Parc Natural de Llevant, punto de partida de nuestro recorrido por las playas del norte de Mallorca",
-    "secondaryImage2Alt": "Puerto y playa de la Colonia de Sant Pere con barcos tradicionales y la Serra de Llevant al fondo",
-    "secondaryImage2Caption": "El pequeño puerto pesquero de la Colonia de Sant Pere con sus llaüts tradicionales y la Serra de Llevant al fondo, uno de los rincones más auténticos de la costa norte",
-    "secondaryImage3Alt": "Vista panorámica de la isla de Alcanada con su faro y aguas cristalinas en Alcudia, Mallorca",
-    "secondaryImage3Caption": "Vista panorámica de la isla de Alcanada con su emblemático faro de piedra y las aguas cristalinas de la bahía de Alcudia, un paraíso para el snorkel",
-    "secondaryImage4Alt": "Playa virgen de Coll Baix rodeada de acantilados en Alcudia, Mallorca",
-    "secondaryImage4Caption": "La playa virgen de Coll Baix, rodeada por acantilados de más de 200 metros, accesible a pie por sendero o en excursión en barco desde el Puerto de Alcudia",
-    "secondaryImage5Alt": "Playa de Formentor con arena blanca y pinos junto al mar turquesa en Mallorca",
-    "secondaryImage5Caption": "La icónica playa de Formentor con sus pinares centenarios sobre arena blanca y aguas turquesas, una de las playas más fotografiadas del Mediterráneo",
-    "secondaryImage6Alt": "Cala Sant Vicenç con sus aguas cristalinas rodeada de montañas en Pollença, Mallorca",
-    "secondaryImage6Caption": "Las aguas cristalinas de Cala Sant Vicenç rodeadas de imponentes acantilados calizos en Pollença, broche perfecto del recorrido por la costa norte de Mallorca",
+    "imageAlt": "Vista panorámica desde la montaña de Cala Murta, cala escondida en Cap de Formentor, norte de Mallorca",
+    "imageCaption": "Cala Murta vista desde la montaña en la Península de Formentor, una de las calas más secretas y espectaculares del norte de Mallorca",
+    "heroInlineCaption": "Impresionante vista aérea de Cala Murta escondida entre las montañas de Cap de Formentor en el norte de Mallorca, rodeada de acantilados y aguas cristalinas",
+    "inlineImages": {
+      "capFarrutx": {
+        "alt": "Acantilados de Cap Farrutx y costa del Parc Natural de Llevant con playa y aguas turquesas, ruta en barco desde Betlem, Mallorca",
+        "caption": "La imponente costa del Cap Farrutx en el Parc Natural de Llevant, con sus acantilados cayendo al mar y playas vírgenes accesibles en barco desde Betlem"
+      },
+      "coloniaSantPere": {
+        "alt": "Puerto pesquero y playa de la Colonia de Sant Pere con barcos tradicionales y montañas al fondo, norte de Mallorca",
+        "caption": "El encantador puerto de la Colonia de Sant Pere, punto de partida de paseos en barco hacia las calas vírgenes del Parc Natural de Llevant"
+      },
+      "canPicafort": {
+        "alt": "Vista aérea de la playa y pueblo de Can Picafort en el norte de Mallorca con la bahía de Alcudia",
+        "caption": "Can Picafort desde el aire: su extensa playa de arena fina marca la transición entre la costa salvaje del este y las grandes playas de la bahía de Alcudia"
+      },
+      "playaMuro": {
+        "alt": "Calas de aguas cristalinas ideales para ir con niños en Alcudia, Mallorca, con fácil aparcamiento",
+        "caption": "Las aguas poco profundas y cristalinas de Playa de Muro, una de las mejores playas de España para familias con niños por su entrada suave al agua"
+      },
+      "playaAlcudia": {
+        "alt": "Arena blanca y sombrilla en la playa de Alcudia junto al puerto, norte de Mallorca",
+        "caption": "La Playa de Alcudia con su arena blanca y fina, a pocos pasos del Puerto de Alcudia desde donde salen las excursiones en barco por la costa norte"
+      },
+      "alcanada": {
+        "alt": "Faro de Alcanada en Alcudia con aguas cristalinas, una de las mejores playas para ir en barco en Mallorca",
+        "caption": "El icónico faro de Alcanada rodeado de aguas cristalinas, parada imprescindible en las excursiones en barco desde el Puerto de Alcudia y paraíso del snorkel"
+      },
+      "collBaix": {
+        "alt": "Vista aérea de la playa de Coll Baix y Cabo Pinar en Alcudia, Mallorca, rodeada de acantilados",
+        "caption": "Coll Baix desde el aire: la playa virgen más espectacular del norte de Mallorca, rodeada por acantilados de más de 200 metros y accesible en barco o a pie"
+      },
+      "sIllot": {
+        "alt": "Señal del bar de S'Illot en la costa norte de Mallorca entre Alcudia y Pollença",
+        "caption": "La playa de S'Illot, rincón auténtico entre Alcudia y Pollença donde los locales disfrutan de chiringuito y aguas tranquilas en la costa norte de Mallorca"
+      },
+      "capPinar": {
+        "alt": "Vista aérea de las calas y playas de Cap Pinar y Bonaire en Alcudia, norte de Mallorca",
+        "caption": "Las calas escondidas de Cap Pinar y Bonaire vistas desde el aire, con sus aguas turquesas y pinares que llegan hasta la orilla en la Península de la Victoria"
+      },
+      "puertoPollensa": {
+        "alt": "Playa del Puerto de Pollença al atardecer con muelle, sombrillas, tumbonas y barcos en Mallorca",
+        "caption": "El Puerto de Pollença al atardecer: su larga playa con el paseo marítimo, tumbonas y veleros crea una de las estampas más bonitas de la costa norte de Mallorca"
+      },
+      "formentor": {
+        "alt": "Playa de Formentor en Mallorca con arena blanca y aguas turquesas rodeada de pinares",
+        "caption": "La legendaria playa de Formentor con su arena blanca y aguas de un turquesa imposible, enmarcada por pinares centenarios que se inclinan sobre el mar"
+      },
+      "calaMurta": {
+        "alt": "Vistas desde la montaña de Cala Murta, cala secreta escondida en Cap de Formentor, norte de Mallorca",
+        "caption": "Cala Murta, la cala secreta de la Península de Formentor: accesible solo a pie o en barco, con aguas cristalinas y un paisaje de acantilados que quita el aliento"
+      },
+      "calaFiguera": {
+        "alt": "Vista de Cala Figuera en Cap de Formentor, Mallorca, cala secreta entre acantilados",
+        "caption": "Cala Figuera de Formentor, un estrecho entrante de mar azul profundo entre paredes de roca vertical, uno de los paisajes más impresionantes de Mallorca"
+      },
+      "calaBoquer": {
+        "alt": "Playa de Cala Boquer en Pollença, Mallorca, con aguas turquesas cristalinas rodeada de montañas",
+        "caption": "Las aguas turquesas de Cala Boquer en Pollença, recompensa de una de las excursiones de senderismo más gratificantes del norte de Mallorca"
+      },
+      "calaSantVicenc": {
+        "alt": "Vista aérea de Cala Sant Vicenç en Pollença, Mallorca, desde el Puig de Sàgila con sus cuatro calas",
+        "caption": "Cala Sant Vicenç vista desde el Puig de Sàgila: sus cuatro calas concentran toda la diversidad paisajística de la costa norte de Mallorca entre acantilados calizos"
+      }
+    },
     "section1": {
       "title": "Un litoral que cambia a cada kilómetro",
       "body": "Si hay algo que hace especial al norte de Mallorca es la **diversidad radical de su costa**. En apenas 60 kilómetros —los que separan Cap Farrutx de Cap de Formentor— se suceden playas de arena blanca que rivalizan con el Caribe, calas de roca escondidas entre acantilados, arenales vírgenes custodiados por dunas y rincones que solo se pueden alcanzar en barco o tras una caminata entre pinos.\n\nEsta guía recorre **una a una todas las playas y calas de la costa norte**, de este a oeste: desde los rincones más salvajes del Parc Natural de Llevant hasta las legendarias aguas turquesas de Formentor. Para cada playa encontrarás qué tipo de fondo tiene, cómo llegar, qué servicios hay y —cuando merece la pena— por qué verla desde el mar cambia completamente la experiencia.\n\nTanto si buscas una jornada familiar con hamacas y chiringuito como una aventura de senderismo hasta una cala solitaria, aquí encontrarás tu playa ideal."

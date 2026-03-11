@@ -4790,21 +4790,71 @@
     "meta_description": "Percorriamo una ad una tutte le spiagge e le calette da Cap Farrutx a Cap de Formentor: sabbia, rocce, paesaggi, accessibilità, servizi e i modi migliori per arrivare, comprese le rotte in barca.",
     "publishedDate": "10 febbraio 2026",
     "btnText": "Leggi di più",
-    "imageAlt": "Mappa illustrata del nord di Maiorca con le rotte in barca e le migliori spiagge indicate",
-    "imageCaption": "Mappa del nord di Maiorca con le principali spiagge e rotte marittime da Cap Farrutx a Cap de Formentor",
-    "heroInlineCaption": "Mappa del nord di Maiorca con le migliori spiagge e calette da Cap Farrutx a Cap de Formentor, comprese le rotte in barca più popolari",
-    "secondaryImage1Alt": "Vista di Cap Farrutx e la costa del Parc Natural de Llevant con acque turchesi",
-    "secondaryImage1Caption": "Le spettacolari scogliere di Cap Farrutx e la costa incontaminata del Parco Naturale di Llevant, punto di partenza del nostro viaggio lungo le spiagge del nord di Maiorca",
-    "secondaryImage2Alt": "Porto e spiaggia della Colonia de Sant Pere con barche tradizionali e la Serra de Llevant sullo sfondo",
-    "secondaryImage2Caption": "L'incantevole porto peschereccio di Colonia de Sant Pere con le tradizionali barche llaüt e la Serra de Llevant sullo sfondo, uno degli angoli più autentici della costa nord",
-    "secondaryImage3Alt": "Vista panoramica dell'isola di Alcanada con il suo faro e acque cristalline ad Alcudia, Maiorca",
-    "secondaryImage3Caption": "Vista panoramica dell'isola di Alcanada con il suo iconico faro in pietra e le acque cristalline della baia di Alcudia, un paradiso per lo snorkeling",
-    "secondaryImage4Alt": "Spiaggia incontaminata di Coll Baix circondata da scogliere ad Alcudia, Maiorca",
-    "secondaryImage4Caption": "La spiaggia incontaminata di Coll Baix, circondata da scogliere alte oltre 200 metri, raggiungibile a piedi tramite sentiero o in escursione in barca dal porto di Alcudia",
-    "secondaryImage5Alt": "Spiaggia di Formentor con sabbia bianca e pini accanto al mare turchese a Maiorca",
-    "secondaryImage5Caption": "L'iconica spiaggia di Formentor con i suoi pini secolari sul sabbia bianca e acque turchesi, una delle spiagge più fotografate del Mediterraneo",
-    "secondaryImage6Alt": "Cala Sant Vicenç con le sue acque cristalline circondata da montagne a Pollença, Maiorca",
-    "secondaryImage6Caption": "Le acque cristalline di Cala Sant Vicenç incorniciate da imponenti scogliere calcaree a Pollença, il finale perfetto di un tour lungo la costa nord di Maiorca",
+    "imageAlt": "Vista panoramica dalla montagna di Cala Murta, caletta segreta a Cap de Formentor, nord di Maiorca",
+    "imageCaption": "Cala Murta vista dalla montagna sulla penisola di Formentor, una delle calette più segrete e spettacolari del nord di Maiorca",
+    "heroInlineCaption": "Straordinaria vista aerea di Cala Murta nascosta tra le montagne di Cap de Formentor nel nord di Maiorca, circondata da scogliere e acque cristalline",
+    "inlineImages": {
+      "capFarrutx": {
+        "alt": "Scogliere di Cap Farrutx e costa del Parco Naturale di Llevant con spiaggia e acque turchesi, escursione in barca da Betlem, Maiorca",
+        "caption": "L'imponente costa di Cap Farrutx nel Parco Naturale di Llevant, con le sue scogliere a picco sul mare e spiagge incontaminate raggiungibili in barca da Betlem"
+      },
+      "coloniaSantPere": {
+        "alt": "Porto peschereccio e spiaggia di Colonia de Sant Pere con barche tradizionali e montagne sullo sfondo, nord di Maiorca",
+        "caption": "L'incantevole porto di Colonia de Sant Pere, punto di partenza per escursioni in barca verso le calette incontaminate del Parco Naturale di Llevant"
+      },
+      "canPicafort": {
+        "alt": "Vista aerea della spiaggia e del paese di Can Picafort nel nord di Maiorca con la baia di Alcudia",
+        "caption": "Can Picafort dall'alto: la sua ampia spiaggia di sabbia fine segna il passaggio dalla costa selvaggia dell'est alle grandi spiagge della baia di Alcudia"
+      },
+      "playaMuro": {
+        "alt": "Calette con acque cristalline poco profonde ideali per famiglie con bambini ad Alcudia, Maiorca, con parcheggio facile",
+        "caption": "Le acque poco profonde e cristalline di Playa de Muro, una delle migliori spiagge per famiglie della Spagna grazie al suo ingresso dolce nell'acqua"
+      },
+      "playaAlcudia": {
+        "alt": "Sabbia bianca e ombrellone sulla spiaggia di Alcudia vicino al porto, nord di Maiorca",
+        "caption": "La spiaggia di Alcudia con la sua sabbia bianca e fine, a pochi passi dal porto di Alcudia da dove partono le escursioni in barca lungo la costa nord"
+      },
+      "alcanada": {
+        "alt": "Faro di Alcanada ad Alcudia con acque cristalline, una delle migliori spiagge da visitare in barca a Maiorca",
+        "caption": "L'iconico faro di Alcanada circondato da acque cristalline, tappa imperdibile delle escursioni in barca dal porto di Alcudia e paradiso dello snorkeling"
+      },
+      "collBaix": {
+        "alt": "Vista aerea della spiaggia di Coll Baix e Cap Pinar ad Alcudia, Maiorca, circondata da scogliere",
+        "caption": "Coll Baix dall'alto: la spiaggia incontaminata più spettacolare del nord di Maiorca, circondata da scogliere alte oltre 200 metri e raggiungibile in barca o a piedi"
+      },
+      "sIllot": {
+        "alt": "Insegna del bar sulla spiaggia di S'Illot sulla costa nord di Maiorca tra Alcudia e Pollença",
+        "caption": "La spiaggia di S'Illot, angolo autentico tra Alcudia e Pollença dove la gente del posto gode di chiringuito e acque tranquille sulla costa nord di Maiorca"
+      },
+      "capPinar": {
+        "alt": "Vista aerea delle calette e spiagge di Cap Pinar e Bonaire ad Alcudia, nord di Maiorca",
+        "caption": "Le calette nascoste di Cap Pinar e Bonaire viste dall'alto, con le loro acque turchesi e pinete che arrivano fino alla riva della penisola della Victoria"
+      },
+      "puertoPollensa": {
+        "alt": "Spiaggia del Puerto de Pollença al tramonto con molo, ombrelloni, lettini e barche a Maiorca",
+        "caption": "Il Puerto de Pollença al tramonto: la sua lunga spiaggia con il lungomare, i lettini e le barche a vela crea una delle cartoline più belle della costa nord di Maiorca"
+      },
+      "formentor": {
+        "alt": "Spiaggia di Formentor a Maiorca con sabbia bianca e acque turchesi circondata da pinete",
+        "caption": "La leggendaria spiaggia di Formentor con la sua sabbia bianca e acque di un turchese impossibile, incorniciata da pini secolari protesi sul mare"
+      },
+      "calaMurta": {
+        "alt": "Viste dalla montagna di Cala Murta, caletta segreta nascosta a Cap de Formentor, nord di Maiorca",
+        "caption": "Cala Murta, la caletta segreta della penisola di Formentor: raggiungibile solo a piedi o in barca, con acque cristalline e un paesaggio di scogliere mozzafiato"
+      },
+      "calaFiguera": {
+        "alt": "Vista di Cala Figuera a Cap de Formentor, Maiorca, caletta segreta tra le scogliere",
+        "caption": "Cala Figuera sulla penisola di Formentor, una stretta insenatura di mare blu profondo tra pareti di roccia verticali, uno dei paesaggi più impressionanti di Maiorca"
+      },
+      "calaBoquer": {
+        "alt": "Spiaggia di Cala Boquer a Pollença, Maiorca, con acque turchesi cristalline circondata da montagne",
+        "caption": "Le acque turchesi di Cala Boquer a Pollença, la ricompensa di una delle escursioni più gratificanti del nord di Maiorca"
+      },
+      "calaSantVicenc": {
+        "alt": "Vista aerea di Cala Sant Vicenç a Pollença, Maiorca, dal Puig de Sàgila con le sue quattro calette",
+        "caption": "Cala Sant Vicenç vista dal Puig de Sàgila: le sue quattro calette concentrano tutta la diversità paesaggistica della costa nord di Maiorca tra scogliere calcaree"
+      }
+    },
     "section1": {
       "title": "Un litorale che cambia a ogni chilometro",
       "body": "Se c'è qualcosa che rende speciale il nord di Maiorca è la **diversità radicale della sua costa**. In appena 60 chilometri — quelli che separano Cap Farrutx da Cap de Formentor — si susseguono spiagge di sabbia bianca che rivaleggiano con i Caraibi, calette rocciose nascoste tra le scogliere, arenili vergini custoditi dalle dune e angoli raggiungibili solo in barca o dopo una camminata tra i pini.\n\nQuesta guida percorre **una ad una tutte le spiagge e le calette della costa nord**, da est a ovest: dagli angoli più selvaggi del Parc Natural de Llevant alle leggendarie acque turchesi di Formentor. Per ogni spiaggia troverai che tipo di fondale ha, come arrivarci, quali servizi ci sono e — quando vale la pena — perché vederla dal mare cambia completamente l'esperienza.\n\nSia che cerchi una giornata in famiglia con lettini e chiringuito, sia un'avventura di trekking fino a una caletta solitaria, qui troverai la tua spiaggia ideale."

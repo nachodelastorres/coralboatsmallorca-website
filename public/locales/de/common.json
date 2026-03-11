@@ -4790,21 +4790,71 @@
     "meta_description": "Wir erkunden eine nach der anderen alle Strände und Buchten von Cap Farrutx bis Cap de Formentor: Sand, Felsen, Landschaften, Erreichbarkeit, Einrichtungen und die besten Wege dorthin – einschließlich Bootsrouten.",
     "publishedDate": "10. Februar 2026",
     "btnText": "Mehr lesen",
-    "imageAlt": "Illustrierte Karte des Nordens von Mallorca mit Bootsrouten und den besten Stränden markiert",
-    "imageCaption": "Karte des Nordens von Mallorca mit den wichtigsten Stränden und Seerouten von Cap Farrutx bis Cap de Formentor",
-    "heroInlineCaption": "Karte von Nordmallorca mit den besten Stränden und Buchten von Cap Farrutx bis Cap de Formentor, einschließlich der beliebtesten Bootsrouten",
-    "secondaryImage1Alt": "Blick auf das Cap de Farrutx und die Küste des Parc Natural de Llevant mit türkisfarbenem Wasser",
-    "secondaryImage1Caption": "Die dramatischen Klippen von Cap Farrutx und die unberührte Küste des Naturparks Llevant, Ausgangspunkt unserer Reise entlang der Strände Nordmallorcas",
-    "secondaryImage2Alt": "Hafen und Strand der Colonia de Sant Pere mit traditionellen Booten und der Serra de Llevant im Hintergrund",
-    "secondaryImage2Caption": "Der malerische Fischerhafen von Colonia de Sant Pere mit traditionellen Llaüt-Booten und der Serra de Llevant im Hintergrund, einer der authentischsten Orte der Nordküste",
-    "secondaryImage3Alt": "Panoramablick auf die Insel Alcanada mit ihrem Leuchtturm und kristallklarem Wasser in Alcudia, Mallorca",
-    "secondaryImage3Caption": "Panoramablick auf die Insel Alcanada mit ihrem markanten Steinleuchtturm und dem kristallklaren Wasser der Bucht von Alcudia, ein Paradies zum Schnorcheln",
-    "secondaryImage4Alt": "Unberührter Strand von Coll Baix umgeben von Klippen in Alcudia, Mallorca",
-    "secondaryImage4Caption": "Der unberührte Strand von Coll Baix, umgeben von über 200 Meter hohen Klippen, erreichbar zu Fuß über einen Wanderweg oder per Bootsausflug vom Hafen von Alcudia",
-    "secondaryImage5Alt": "Strand von Formentor mit weißem Sand und Pinien am türkisfarbenen Meer auf Mallorca",
-    "secondaryImage5Caption": "Der legendäre Strand von Formentor mit jahrhundertealten Pinien über weißem Sand und türkisfarbenem Wasser, einer der meistfotografierten Strände des Mittelmeers",
-    "secondaryImage6Alt": "Cala Sant Vicenç mit kristallklarem Wasser umgeben von Bergen in Pollença, Mallorca",
-    "secondaryImage6Caption": "Das kristallklare Wasser der Cala Sant Vicenç, eingerahmt von imposanten Kalksteinklippen in Pollença, der perfekte Abschluss einer Tour entlang Mallorcas Nordküste",
+    "imageAlt": "Panoramablick vom Berg auf Cala Murta, eine versteckte Bucht am Cap de Formentor, Nordmallorca",
+    "imageCaption": "Cala Murta vom Berg aus gesehen auf der Halbinsel Formentor, eine der geheimsten und spektakulärsten Buchten Nordmallorcas",
+    "heroInlineCaption": "Atemberaubender Blick aus der Höhe auf die versteckte Cala Murta zwischen den Bergen des Cap de Formentor im Norden Mallorcas, umgeben von Klippen und kristallklarem Wasser",
+    "inlineImages": {
+      "capFarrutx": {
+        "alt": "Klippen des Cap Farrutx und Küste des Naturparks Llevant mit Strand und türkisem Wasser, Bootsroute ab Betlem, Mallorca",
+        "caption": "Die imposante Küste des Cap Farrutx im Naturpark Llevant mit seinen ins Meer stürzenden Klippen und unberührten Stränden, per Boot ab Betlem erreichbar"
+      },
+      "coloniaSantPere": {
+        "alt": "Fischerhafen und Strand der Colonia de Sant Pere mit traditionellen Booten und Bergen im Hintergrund, Nordmallorca",
+        "caption": "Der bezaubernde Hafen der Colonia de Sant Pere, Ausgangspunkt für Bootsausflüge zu den unberührten Buchten des Naturparks Llevant"
+      },
+      "canPicafort": {
+        "alt": "Luftaufnahme von Strand und Ortschaft Can Picafort im Norden Mallorcas mit der Bucht von Alcudia",
+        "caption": "Can Picafort aus der Luft: sein weitläufiger Feinsandstrand markiert den Übergang von der wilden Ostküste zu den großen Stränden der Bucht von Alcudia"
+      },
+      "playaMuro": {
+        "alt": "Kristallklare flache Buchten ideal für Familien mit Kindern in Alcudia, Mallorca, mit einfachem Parken",
+        "caption": "Das flache, kristallklare Wasser der Playa de Muro, einer der besten Familienstrände Spaniens dank des sanften Einstiegs ins Wasser"
+      },
+      "playaAlcudia": {
+        "alt": "Weißer Sand und Sonnenschirm am Strand von Alcudia beim Hafen, Nordmallorca",
+        "caption": "Der Strand von Alcudia mit seinem feinen weißen Sand, nur wenige Schritte vom Hafen von Alcudia entfernt, von wo Bootsausflüge entlang der Nordküste starten"
+      },
+      "alcanada": {
+        "alt": "Leuchtturm von Alcanada in Alcudia mit kristallklarem Wasser, einer der besten Strände für Bootsausflüge auf Mallorca",
+        "caption": "Der ikonische Leuchtturm von Alcanada umgeben von kristallklarem Wasser, ein unverzichtbarer Stopp bei Bootsausflügen ab Alcudia und Paradies zum Schnorcheln"
+      },
+      "collBaix": {
+        "alt": "Luftaufnahme des Strandes Coll Baix und Cap Pinar in Alcudia, Mallorca, umgeben von Klippen",
+        "caption": "Coll Baix aus der Luft: der spektakulärste unberührte Strand Nordmallorcas, umgeben von über 200 Meter hohen Klippen, per Boot oder zu Fuß erreichbar"
+      },
+      "sIllot": {
+        "alt": "Schild der Strandbar S'Illot an der Nordküste Mallorcas zwischen Alcudia und Pollença",
+        "caption": "Der Strand S'Illot, ein authentischer Ort zwischen Alcudia und Pollença, wo Einheimische Chiringuito und ruhiges Wasser an der Nordküste Mallorcas genießen"
+      },
+      "capPinar": {
+        "alt": "Luftaufnahme der Buchten und Strände am Cap Pinar und Bonaire in Alcudia, Nordmallorca",
+        "caption": "Die versteckten Buchten von Cap Pinar und Bonaire aus der Luft, mit türkisfarbenem Wasser und Pinienwäldern, die bis ans Ufer der Victoria-Halbinsel reichen"
+      },
+      "puertoPollensa": {
+        "alt": "Strand des Puerto de Pollença bei Sonnenuntergang mit Steg, Sonnenschirmen, Liegen und Booten auf Mallorca",
+        "caption": "Der Puerto de Pollença bei Sonnenuntergang: sein langer Strand mit Promenade, Sonnenliegen und Segelbooten bildet eines der schönsten Bilder der Nordküste Mallorcas"
+      },
+      "formentor": {
+        "alt": "Strand von Formentor auf Mallorca mit weißem Sand und türkisfarbenem Wasser, umgeben von Pinienwäldern",
+        "caption": "Der legendäre Strand von Formentor mit seinem weißen Sand und unmöglich türkisfarbenem Wasser, eingerahmt von jahrhundertealten Pinien, die sich über das Meer neigen"
+      },
+      "calaMurta": {
+        "alt": "Bergblick auf Cala Murta, eine geheime versteckte Bucht am Cap de Formentor, Nordmallorca",
+        "caption": "Cala Murta, die geheime Bucht der Halbinsel Formentor: nur zu Fuß oder per Boot erreichbar, mit kristallklarem Wasser und atemberaubender Klippenlandschaft"
+      },
+      "calaFiguera": {
+        "alt": "Blick auf Cala Figuera am Cap de Formentor, Mallorca, eine geheime Bucht zwischen Klippen",
+        "caption": "Cala Figuera auf der Halbinsel Formentor, ein schmaler Meereseinschnitt aus tiefblauem Wasser zwischen senkrechten Felswänden, eine der eindrucksvollsten Landschaften Mallorcas"
+      },
+      "calaBoquer": {
+        "alt": "Strand von Cala Boquer in Pollença, Mallorca, mit kristallklarem türkisfarbenem Wasser, umgeben von Bergen",
+        "caption": "Das türkisfarbene Wasser der Cala Boquer in Pollença, die Belohnung einer der lohnendsten Wanderungen im Norden Mallorcas"
+      },
+      "calaSantVicenc": {
+        "alt": "Luftaufnahme der Cala Sant Vicenç in Pollença, Mallorca, vom Puig de Sàgila mit ihren vier Buchten",
+        "caption": "Cala Sant Vicenç vom Puig de Sàgila aus gesehen: ihre vier Buchten vereinen die gesamte Landschaftsvielfalt der Nordküste Mallorcas zwischen Kalksteinklippen"
+      }
+    },
     "section1": {
       "title": "Eine Küste, die sich mit jedem Kilometer verändert",
       "body": "Wenn es etwas gibt, das den Norden Mallorcas besonders macht, dann ist es die **radikale Vielfalt seiner Küste**. Auf gerade einmal 60 Kilometern – der Strecke zwischen Cap Farrutx und Cap de Formentor – reihen sich weiße Sandstrände, die es mit der Karibik aufnehmen können, an felsige Buchten, die zwischen Klippen versteckt liegen, unberührte Dünenstrände und Winkel, die nur per Boot oder nach einer Wanderung durch Pinienwälder erreichbar sind.\n\nDieser Guide führt dich **einen nach dem anderen durch alle Strände und Buchten der Nordküste**, von Ost nach West: von den wildesten Ecken des Parc Natural de Llevant bis zu den legendären türkisfarbenen Gewässern von Formentor. Für jeden Strand erfährst du, welchen Untergrund er hat, wie du hinkommst, welche Einrichtungen es gibt und – wenn es sich lohnt – warum der Blick vom Meer aus das Erlebnis komplett verändert.\n\nOb du einen Familientag mit Liegestühlen und Strandbar suchst oder ein Wanderabenteuer zu einer einsamen Bucht – hier findest du deinen perfekten Strand."

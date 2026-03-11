@@ -4786,21 +4786,71 @@
     "meta_description": "Nous parcourons une à une toutes les plages et criques du Cap Farrutx au Cap de Formentor : sable, rochers, paysages, accessibilité, services et les meilleurs moyens d'y accéder, y compris les excursions en bateau.",
     "publishedDate": "10 février 2026",
     "btnText": "Lire la suite",
-    "imageAlt": "Carte illustrée du nord de Majorque avec les itinéraires en bateau et les meilleures plages indiquées",
-    "imageCaption": "Carte du nord de Majorque avec les principales plages et routes maritimes du Cap Farrutx au Cap de Formentor",
-    "heroInlineCaption": "Carte du nord de Majorque avec les meilleures plages et criques de Cap Farrutx à Cap de Formentor, y compris les routes en bateau les plus populaires",
-    "secondaryImage1Alt": "Vue du Cap Farrutx et de la côte du Parc Naturel de Llevant avec ses eaux turquoise",
-    "secondaryImage1Caption": "Les falaises spectaculaires de Cap Farrutx et le littoral préservé du Parc Naturel de Llevant, point de départ de notre parcours des plages du nord de Majorque",
-    "secondaryImage2Alt": "Port et plage de la Colonia de Sant Pere avec des bateaux traditionnels et la Serra de Llevant en arrière-plan",
-    "secondaryImage2Caption": "Le charmant port de pêche de Colonia de Sant Pere avec ses bateaux traditionnels llaüt et la Serra de Llevant en arrière-plan, l'un des coins les plus authentiques de la côte nord",
-    "secondaryImage3Alt": "Vue panoramique de l'île d'Alcanada avec son phare et ses eaux cristallines à Alcudia, Majorque",
-    "secondaryImage3Caption": "Vue panoramique de l'île d'Alcanada avec son phare en pierre emblématique et les eaux cristallines de la baie d'Alcudia, un paradis pour le snorkeling",
-    "secondaryImage4Alt": "Plage vierge de Coll Baix entourée de falaises à Alcudia, Majorque",
-    "secondaryImage4Caption": "La plage vierge de Coll Baix, entourée de falaises de plus de 200 mètres de haut, accessible à pied par un sentier de randonnée ou en excursion en bateau depuis le port d'Alcudia",
-    "secondaryImage5Alt": "Plage de Formentor avec son sable blanc et ses pins au bord de la mer turquoise à Majorque",
-    "secondaryImage5Caption": "L'emblématique plage de Formentor avec ses pins centenaires penchés sur le sable blanc et les eaux turquoise, l'une des plages les plus photographiées de la Méditerranée",
-    "secondaryImage6Alt": "Cala Sant Vicenç et ses eaux cristallines entourées de montagnes à Pollença, Majorque",
-    "secondaryImage6Caption": "Les eaux cristallines de Cala Sant Vicenç encadrées par d'imposantes falaises calcaires à Pollença, la fin parfaite d'un parcours le long de la côte nord de Majorque",
+    "imageAlt": "Vue panoramique depuis la montagne de Cala Murta, crique secrète au Cap de Formentor, nord de Majorque",
+    "imageCaption": "Cala Murta vue depuis la montagne sur la péninsule de Formentor, l'une des criques les plus secrètes et spectaculaires du nord de Majorque",
+    "heroInlineCaption": "Vue aérienne saisissante de Cala Murta cachée entre les montagnes du Cap de Formentor au nord de Majorque, entourée de falaises et d'eaux cristallines",
+    "inlineImages": {
+      "capFarrutx": {
+        "alt": "Falaises du Cap Farrutx et côte du Parc Naturel de Llevant avec plage et eaux turquoise, excursion en bateau depuis Betlem, Majorque",
+        "caption": "L'imposant littoral du Cap Farrutx dans le Parc Naturel de Llevant, avec ses falaises plongeant dans la mer et ses plages vierges accessibles en bateau depuis Betlem"
+      },
+      "coloniaSantPere": {
+        "alt": "Port de pêche et plage de Colonia de Sant Pere avec bateaux traditionnels et montagnes en arrière-plan, nord de Majorque",
+        "caption": "Le charmant port de Colonia de Sant Pere, point de départ d'excursions en bateau vers les criques vierges du Parc Naturel de Llevant"
+      },
+      "canPicafort": {
+        "alt": "Vue aérienne de la plage et du village de Can Picafort au nord de Majorque avec la baie d'Alcudia",
+        "caption": "Can Picafort vu du ciel : sa longue plage de sable fin marque la transition entre la côte sauvage de l'est et les grandes plages de la baie d'Alcudia"
+      },
+      "playaMuro": {
+        "alt": "Criques aux eaux cristallines peu profondes idéales pour les familles avec enfants à Alcudia, Majorque, avec parking facile",
+        "caption": "Les eaux peu profondes et cristallines de Playa de Muro, l'une des meilleures plages familiales d'Espagne grâce à son entrée douce dans l'eau"
+      },
+      "playaAlcudia": {
+        "alt": "Sable blanc et parasol sur la plage d'Alcudia près du port, nord de Majorque",
+        "caption": "La plage d'Alcudia avec son sable blanc et fin, à quelques pas du port d'Alcudia d'où partent les excursions en bateau le long de la côte nord"
+      },
+      "alcanada": {
+        "alt": "Phare d'Alcanada à Alcudia avec eaux cristallines, l'une des meilleures plages accessibles en bateau à Majorque",
+        "caption": "L'emblématique phare d'Alcanada entouré d'eaux cristallines, escale incontournable des excursions en bateau depuis le port d'Alcudia et paradis du snorkeling"
+      },
+      "collBaix": {
+        "alt": "Vue aérienne de la plage de Coll Baix et du Cap Pinar à Alcudia, Majorque, entourée de falaises",
+        "caption": "Coll Baix vu du ciel : la plage vierge la plus spectaculaire du nord de Majorque, entourée de falaises de plus de 200 mètres, accessible en bateau ou à pied"
+      },
+      "sIllot": {
+        "alt": "Panneau du bar de plage de S'Illot sur la côte nord de Majorque entre Alcudia et Pollença",
+        "caption": "La plage de S'Illot, un coin authentique entre Alcudia et Pollença où les habitants profitent d'un chiringuito et d'eaux calmes sur la côte nord de Majorque"
+      },
+      "capPinar": {
+        "alt": "Vue aérienne des criques et plages du Cap Pinar et de Bonaire à Alcudia, nord de Majorque",
+        "caption": "Les criques cachées du Cap Pinar et de Bonaire vues du ciel, avec leurs eaux turquoise et leurs pinèdes descendant jusqu'au rivage de la péninsule de la Victoria"
+      },
+      "puertoPollensa": {
+        "alt": "Plage du Puerto de Pollença au coucher du soleil avec jetée, parasols, transats et bateaux à Majorque",
+        "caption": "Le Puerto de Pollença au coucher du soleil : sa longue plage avec la promenade, les transats et les voiliers compose l'un des plus beaux tableaux de la côte nord de Majorque"
+      },
+      "formentor": {
+        "alt": "Plage de Formentor à Majorque avec sable blanc et eaux turquoise entourée de pinèdes",
+        "caption": "La légendaire plage de Formentor avec son sable blanc et ses eaux d'un turquoise impossible, encadrée par des pins centenaires penchés sur la mer"
+      },
+      "calaMurta": {
+        "alt": "Vues depuis la montagne de Cala Murta, crique secrète cachée au Cap de Formentor, nord de Majorque",
+        "caption": "Cala Murta, la crique secrète de la péninsule de Formentor : accessible uniquement à pied ou en bateau, avec des eaux cristallines et un paysage de falaises à couper le souffle"
+      },
+      "calaFiguera": {
+        "alt": "Vue de Cala Figuera au Cap de Formentor, Majorque, crique secrète entre les falaises",
+        "caption": "Cala Figuera sur la péninsule de Formentor, une étroite avancée de mer bleu profond entre des parois rocheuses verticales, l'un des paysages les plus saisissants de Majorque"
+      },
+      "calaBoquer": {
+        "alt": "Plage de Cala Boquer à Pollença, Majorque, avec eaux turquoise cristallines entourée de montagnes",
+        "caption": "Les eaux turquoise de Cala Boquer à Pollença, la récompense de l'une des randonnées les plus gratifiantes du nord de Majorque"
+      },
+      "calaSantVicenc": {
+        "alt": "Vue aérienne de Cala Sant Vicenç à Pollença, Majorque, depuis le Puig de Sàgila avec ses quatre criques",
+        "caption": "Cala Sant Vicenç vue depuis le Puig de Sàgila : ses quatre criques concentrent toute la diversité paysagère de la côte nord de Majorque entre falaises calcaires"
+      }
+    },
     "section1": {
       "title": "Un littoral qui change à chaque kilomètre",
       "body": "S'il y a bien une chose qui rend le nord de Majorque si spécial, c'est la **diversité radicale de son littoral**. En à peine 60 kilomètres — ceux qui séparent le Cap Farrutx du Cap de Formentor — se succèdent des plages de sable blanc rivalisant avec les Caraïbes, des criques rocheuses cachées entre les falaises, des étendues de sable vierge gardées par les dunes et des recoins accessibles uniquement en bateau ou après une randonnée à travers les pins.\n\nCe guide parcourt **une à une toutes les plages et criques de la côte nord**, d'est en ouest : depuis les recoins les plus sauvages du Parc Naturel de Llevant jusqu'aux légendaires eaux turquoise de Formentor. Pour chaque plage, vous trouverez le type de fond, comment y accéder, quels services sont disponibles et — lorsque cela en vaut la peine — pourquoi la découvrir depuis la mer change complètement l'expérience.\n\nQue vous cherchiez une journée en famille avec transats et paillote ou une aventure de randonnée jusqu'à une crique solitaire, vous trouverez ici votre plage idéale."
