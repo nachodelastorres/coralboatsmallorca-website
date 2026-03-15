@@ -268,13 +268,99 @@ const BulletPoint = ({ text }: { text: string }) => (
   </div>
 );
 
-// Component to render section content (paragraphs and bullets)
+// Helper to parse a markdown table from consecutive |-prefixed lines
+const parseMarkdownTable = (tableLines: string[]): { headers: string[]; rows: string[][] } | null => {
+  if (tableLines.length < 3) return null;
+  const parseRow = (line: string) =>
+    line.split('|').map(cell => cell.trim()).filter((_, i, arr) => i > 0 && i < arr.length);
+  const headers = parseRow(tableLines[0]);
+  // tableLines[1] is the separator (|---|---|...)
+  const rows = tableLines.slice(2).map(parseRow);
+  return { headers, rows };
+};
+
+// Helper to render a parsed markdown table as a styled HTML table
+const renderMarkdownTableSSR = (table: { headers: string[]; rows: string[][] }, keyPrefix: string) => {
+  const thStyle: React.CSSProperties = {
+    padding: '12px 16px',
+    textAlign: 'left',
+    fontWeight: 700,
+    color: '#1e293b',
+    borderBottom: '2px solid #0891b2',
+    fontSize: '0.95rem',
+    whiteSpace: 'nowrap',
+  };
+  const tdStyle: React.CSSProperties = {
+    padding: '11px 16px',
+    color: '#475569',
+    fontSize: '0.95rem',
+    borderBottom: '1px solid #e2e8f0',
+    lineHeight: 1.6,
+  };
+  return (
+    <div key={keyPrefix} style={{ overflowX: 'auto', margin: '24px 0' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', background: '#fff', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 1px 4px rgba(0,0,0,0.06)' }}>
+        <thead style={{ background: '#f0f9ff' }}>
+          <tr>
+            {table.headers.map((h, i) => (
+              <th key={i} style={thStyle}>{renderTextWithBold(h)}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {table.rows.map((row, ri) => (
+            <tr key={ri} style={{ background: ri % 2 === 1 ? '#f8fafc' : '#fff' }}>
+              {row.map((cell, ci) => (
+                <td key={ci} style={tdStyle}>{renderTextWithBold(cell)}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+// Component to render section content (paragraphs, bullets, and tables)
 const SectionContent = ({ body, sectionImages, sectionNumber }: { body: string; sectionImages?: TranslatedSectionImageGroup[]; sectionNumber?: number }) => {
-  const lines = getOrderedLines(body);
+  const allLines = body ? body.split('\n').filter(line => line.trim()) : [];
+
+  // Group lines into blocks: detect consecutive table lines
+  type Block =
+    | { type: 'line'; line: string; originalIdx: number }
+    | { type: 'table'; data: { headers: string[]; rows: string[][] }; originalIdx: number };
+
+  const blocks: Block[] = [];
+  let i = 0;
+  while (i < allLines.length) {
+    const trimmed = allLines[i].trim();
+    // Detect table: current line starts with |, next line is separator |---|
+    if (trimmed.startsWith('|') && i + 1 < allLines.length && /^\|[\s\-:|]+\|$/.test(allLines[i + 1].trim())) {
+      const tableLines: string[] = [];
+      const startIdx = i;
+      while (i < allLines.length && allLines[i].trim().startsWith('|')) {
+        tableLines.push(allLines[i].trim());
+        i++;
+      }
+      const table = parseMarkdownTable(tableLines);
+      if (table) {
+        blocks.push({ type: 'table', data: table, originalIdx: startIdx });
+      }
+    } else {
+      blocks.push({ type: 'line', line: allLines[i], originalIdx: i });
+      i++;
+    }
+  }
 
   return (
     <>
-      {lines.map((line, idx) => {
+      {blocks.map((block, blockIdx) => {
+        if (block.type === 'table') {
+          return renderMarkdownTableSSR(block.data, `table-${blockIdx}`);
+        }
+
+        const line = block.line;
+        const idx = block.originalIdx;
         const isBullet = line.trim().startsWith('- ');
         // Get after-subsection images for this line index
         const lineImages = (sectionImages && sectionNumber !== undefined)

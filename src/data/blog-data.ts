@@ -97,6 +97,11 @@ import blogDetailsImg39 from '@/assets/img/premium/gallery_new/new_blog/acantila
 // Blog 36 - Mejores Playas del Norte de Mallorca
 import blogDetailsImg37 from '@/assets/img/premium/gallery_new/new_blog/views-from-mountain-in-cala-murta-secret-cove-cap-formentor-mallorca.webp';
 
+// Blog 39 - Cómo ir del Aeropuerto de Palma a Alcudia
+import blogDetailsImg40 from '@/assets/img/premium/gallery_new/new_blog/aeropuerto-de-palma-mallorca-entrada-edificio.webp';
+
+// Blog 40 - Faros de Mallorca
+import blogDetailsImg41 from '@/assets/img/premium/gallery_new/new_blog/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp';
 
 export const blogDataOne: IBlogDT[] = [
   {
@@ -2778,9 +2783,98 @@ export const blogDataOne: IBlogDT[] = [
   section4Body: 'blog_veinticuatro.section4.body',
   section5Title: 'blog_veinticuatro.section5.title',
   section5Body: 'blog_veinticuatro.section5.body',
+  section6Title: 'blog_veinticuatro.section6.title',
+  section6Body: 'blog_veinticuatro.section6.body',
+  section7Title: 'blog_veinticuatro.section7.title',
+  section7Body: 'blog_veinticuatro.section7.body',
+  section8Title: 'blog_veinticuatro.section8.title',
+  section8Body: 'blog_veinticuatro.section8.body',
   layout: 'magazine',
+  conclusion: 'blog_veinticuatro.conclusion',
   imageAlt: 'blog_veinticuatro.imageAlt',
   imageCaption: 'blog_veinticuatro.imageCaption',
+  heroInlineCaption: 'blog_veinticuatro.heroInlineCaption',
+  sectionImages: [
+    // Section 1 — Intro: Playa de Muro overview
+    {
+      section: 1,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-de-muro-beach-in-alcudia-mallorca-best-water-to-go.webp', alt: 'blog_veinticuatro.inlineImages.playaMuroOverview.alt', caption: 'blog_veinticuatro.inlineImages.playaMuroOverview.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub1 — North: Alcudia port + Playa activities
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/alcudia-port-plans-things-to-do.webp', alt: 'blog_veinticuatro.inlineImages.alcudiaPort.alt', caption: 'blog_veinticuatro.inlineImages.alcudiaPort.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/actividades-en-playa-de-alcudia-sol-palmeras-mar-mallorca.webp', alt: 'blog_veinticuatro.inlineImages.playaAlcudia.alt', caption: 'blog_veinticuatro.inlineImages.playaAlcudia.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 sub2 — Palma: Cathedral
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/catedral-palma-mallorca-pac-de-la-mar-palacio-almudaina.webp', alt: 'blog_veinticuatro.inlineImages.catedralPalma.alt', caption: 'blog_veinticuatro.inlineImages.catedralPalma.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub3 — Tramuntana: Deià + Fornalutx
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/deia-pueblo-mallorca-serra-tramuntana-mediterraneo.webp', alt: 'blog_veinticuatro.inlineImages.deia.alt', caption: 'blog_veinticuatro.inlineImages.deia.caption' },
+        { src: '/assets/img/premium/gallery_new/fornalutx-pueblo-en-la-serra-de-tramuntan-mallorca.webp', alt: 'blog_veinticuatro.inlineImages.fornalutx.alt', caption: 'blog_veinticuatro.inlineImages.fornalutx.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 sub4 — South: Cala Santanyí
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/cala-santanyi-mallorca-barcos-playa.webp', alt: 'blog_veinticuatro.inlineImages.calaSantanyi.alt', caption: 'blog_veinticuatro.inlineImages.calaSantanyi.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub5 — East: Artà
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 4,
+      images: [
+        { src: '/assets/img/premium/gallery_new/arta-pueblos-mas-bonitos-este-mallorca.webp', alt: 'blog_veinticuatro.inlineImages.arta.alt', caption: 'blog_veinticuatro.inlineImages.arta.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 — Accommodation types: Port de Sóller
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp', alt: 'blog_veinticuatro.inlineImages.portSoller.alt', caption: 'blog_veinticuatro.inlineImages.portSoller.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 8 — Conclusion: Sunset boat
+    {
+      section: 8,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/sunset-in-alcudia-from-a-classic-boat-during-boat-ride-mallorca.webp', alt: 'blog_veinticuatro.inlineImages.sunsetBoat.alt', caption: 'blog_veinticuatro.inlineImages.sunsetBoat.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
 },
 
 {
@@ -4616,6 +4710,237 @@ export const blogDataOne: IBlogDT[] = [
       position: 'after-body' as const,
       images: [
         { src: '/assets/img/premium/gallery_new/new_blog/coastline-views-from-boat-excursion-mallorca-trip-activities.webp', alt: 'blog_treintayocho.inlineImages.coastlineViews.alt', caption: 'blog_treintayocho.inlineImages.coastlineViews.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
+},
+
+{
+  id: 39,
+  slug: 'como-ir-aeropuerto-palma-alcudia-transporte',
+  category: 'Guías',
+  image: blogDetailsImg40,
+  badgeTitle: 'blog_treintaynueve.badgeTitle',
+  title: 'blog_treintaynueve.title',
+  metaTitle: 'blog_treintaynueve.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg40,
+  publishedDate: 'blog_treintaynueve.publishedDate',
+  description: 'blog_treintaynueve.meta_description',
+  metaDescription: 'blog_treintaynueve.metaDescription',
+  btnText: 'blog_treintaynueve.btnText',
+  keyword: 'blog_treintaynueve.keyword',
+  section1Title: 'blog_treintaynueve.section1.title',
+  section1Body: 'blog_treintaynueve.section1.body',
+  section2Title: 'blog_treintaynueve.section2.title',
+  section2Body: 'blog_treintaynueve.section2.body',
+  section3Title: 'blog_treintaynueve.section3.title',
+  section3Body: 'blog_treintaynueve.section3.body',
+  section4Title: 'blog_treintaynueve.section4.title',
+  section4Body: 'blog_treintaynueve.section4.body',
+  section5Title: 'blog_treintaynueve.section5.title',
+  section5Body: 'blog_treintaynueve.section5.body',
+  section6Title: 'blog_treintaynueve.section6.title',
+  section6Body: 'blog_treintaynueve.section6.body',
+  section7Title: 'blog_treintaynueve.section7.title',
+  section7Body: 'blog_treintaynueve.section7.body',
+  section8Title: 'blog_treintaynueve.section8.title',
+  section8Body: 'blog_treintaynueve.section8.body',
+  layout: 'magazine',
+  conclusion: 'blog_treintaynueve.conclusion',
+  imageAlt: 'blog_treintaynueve.imageAlt',
+  imageCaption: 'blog_treintaynueve.imageCaption',
+  heroInlineCaption: 'blog_treintaynueve.heroInlineCaption',
+  sectionImages: [
+    // Section 1 — Intro: interior aeropuerto
+    {
+      section: 1,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/interior-del-aeropuerto-de-palma-mallorca.webp', alt: 'blog_treintaynueve.inlineImages.interiorAeropuerto.alt', caption: 'blog_treintaynueve.inlineImages.interiorAeropuerto.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 2 — Bus TIB
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/autobus-regional-tib-illes-balears-en-mallorca-transporte-pueblos-isla.webp', alt: 'blog_treintaynueve.inlineImages.busTib.alt', caption: 'blog_treintaynueve.inlineImages.busTib.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/bus-urbano-emt-en-aeropuerto-palma-recogiendo-personas.webp', alt: 'blog_treintaynueve.inlineImages.busEmt.alt', caption: 'blog_treintaynueve.inlineImages.busEmt.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 — Taxi
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/parada-de-taxis-en-palma-mallorca.webp', alt: 'blog_treintaynueve.inlineImages.paradaTaxis.alt', caption: 'blog_treintaynueve.inlineImages.paradaTaxis.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 — Transfer privado
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/bus-transfer-minibus-van-parking-aeropuerto-palma-esperando.webp', alt: 'blog_treintaynueve.inlineImages.transferVan.alt', caption: 'blog_treintaynueve.inlineImages.transferVan.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/minibus-transfer-pequeño-movilidad-carretera-mallorca.webp', alt: 'blog_treintaynueve.inlineImages.minibusTransfer.alt', caption: 'blog_treintaynueve.inlineImages.minibusTransfer.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 5 — Alquiler de coche
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/parking-buses-autocares-en-aeropuerto-de-palma-mallorca.webp', alt: 'blog_treintaynueve.inlineImages.parkingAeropuerto.alt', caption: 'blog_treintaynueve.inlineImages.parkingAeropuerto.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 8 — Qué hacer al llegar
+    {
+      section: 8,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/que-hacer-en-alcudia-puerto-paseo-en-barco-mallorca-verano.webp', alt: 'blog_treintaynueve.inlineImages.puertoAlcudiaVerano.alt', caption: 'blog_treintaynueve.inlineImages.puertoAlcudiaVerano.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/boat-trip-north-mallorca-with-snorkel-and-water-activities.webp', alt: 'blog_treintaynueve.inlineImages.boatTripSnorkel.alt', caption: 'blog_treintaynueve.inlineImages.boatTripSnorkel.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 40,
+  slug: 'faros-mallorca-guia-completa',
+  category: 'Guías',
+  image: blogDetailsImg41,
+  badgeTitle: 'blog_cuarenta.badgeTitle',
+  title: 'blog_cuarenta.title',
+  metaTitle: 'blog_cuarenta.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg41,
+  publishedDate: 'blog_cuarenta.publishedDate',
+  description: 'blog_cuarenta.meta_description',
+  metaDescription: 'blog_cuarenta.metaDescription',
+  btnText: 'blog_cuarenta.btnText',
+  keyword: 'blog_cuarenta.keyword',
+  section1Title: 'blog_cuarenta.section1.title',
+  section1Body: 'blog_cuarenta.section1.body',
+  section2Title: 'blog_cuarenta.section2.title',
+  section2Body: 'blog_cuarenta.section2.body',
+  section3Title: 'blog_cuarenta.section3.title',
+  section3Body: 'blog_cuarenta.section3.body',
+  section4Title: 'blog_cuarenta.section4.title',
+  section4Body: 'blog_cuarenta.section4.body',
+  section5Title: 'blog_cuarenta.section5.title',
+  section5Body: 'blog_cuarenta.section5.body',
+  section6Title: 'blog_cuarenta.section6.title',
+  section6Body: 'blog_cuarenta.section6.body',
+  section7Title: 'blog_cuarenta.section7.title',
+  section7Body: 'blog_cuarenta.section7.body',
+  section8Title: 'blog_cuarenta.section8.title',
+  section8Body: 'blog_cuarenta.section8.body',
+  section9Title: 'blog_cuarenta.section9.title',
+  section9Body: 'blog_cuarenta.section9.body',
+  section10Title: 'blog_cuarenta.section10.title',
+  section10Body: 'blog_cuarenta.section10.body',
+  section11Title: 'blog_cuarenta.section11.title',
+  section11Body: 'blog_cuarenta.section11.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta.conclusion',
+  imageAlt: 'blog_cuarenta.imageAlt',
+  imageCaption: 'blog_cuarenta.imageCaption',
+  heroInlineCaption: 'blog_cuarenta.heroInlineCaption',
+  sectionImages: [
+    // Section 2 — Faro de Formentor
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/acantilados-faro-cap-formentor-mallorca.webp', alt: 'blog_cuarenta.inlineImages.formentorAcantilados.alt', caption: 'blog_cuarenta.inlineImages.formentorAcantilados.caption' },
+        { src: '/assets/img/premium/gallery_new/sunset-cap-formentor-lighthouse-view-mallorca-pollenca.webp', alt: 'blog_cuarenta.inlineImages.formentorSunset.alt', caption: 'blog_cuarenta.inlineImages.formentorSunset.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 — Faro de Alcanada
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-alcanada-excursion-barco-alcudia-mallorca.webp', alt: 'blog_cuarenta.inlineImages.alcanadaExcursion.alt', caption: 'blog_cuarenta.inlineImages.alcanadaExcursion.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-de-alcanada-alcudia-mejores-playas-para-ir-en-barco.webp', alt: 'blog_cuarenta.inlineImages.alcanadaPlaya.alt', caption: 'blog_cuarenta.inlineImages.alcanadaPlaya.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 4 — Faros de Puerto de Sóller
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-y-torre-militar-puerto-de-soller-mallorca-vista-desde-el-mar.webp', alt: 'blog_cuarenta.inlineImages.sollerFaro.alt', caption: 'blog_cuarenta.inlineImages.sollerFaro.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-faro-puerto-soller-isla-mallorca.webp', alt: 'blog_cuarenta.inlineImages.sollerAerea.alt', caption: 'blog_cuarenta.inlineImages.sollerAerea.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 5 — Faro de Porto Pi
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-emblematico-torre-porto-pi-puerto-palma-de-mallorca.webp', alt: 'blog_cuarenta.inlineImages.portoPiTorre.alt', caption: 'blog_cuarenta.inlineImages.portoPiTorre.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-porto-pi-palma-mallorca-zona-militar.webp', alt: 'blog_cuarenta.inlineImages.portoPiMilitar.alt', caption: 'blog_cuarenta.inlineImages.portoPiMilitar.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 6 — Faro de Cala Figuera
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-faro-emblematico-cala-figuera-dia-soleado-velero-cabrera-al-fondo.webp', alt: 'blog_cuarenta.inlineImages.calaFigueraVista.alt', caption: 'blog_cuarenta.inlineImages.calaFigueraVista.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-torre-de-cala-figuera-mallorca.webp', alt: 'blog_cuarenta.inlineImages.calaFigueraTorre.alt', caption: 'blog_cuarenta.inlineImages.calaFigueraTorre.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 7 — Faro de Cap de Ses Salines
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-cap-de-ses-salines-sur-mallorca-vista-emblematica.webp', alt: 'blog_cuarenta.inlineImages.salinesVista.alt', caption: 'blog_cuarenta.inlineImages.salinesVista.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-cap-de-ses-salines-sur-mallorca-colonia-sant-jordi.webp', alt: 'blog_cuarenta.inlineImages.salinesColonia.alt', caption: 'blog_cuarenta.inlineImages.salinesColonia.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 8 — Faro de Portocolom
+    {
+      section: 8,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/faro-porto-colom-costa-mar-mediterraneo-mallorca.webp', alt: 'blog_cuarenta.inlineImages.portocolomCosta.alt', caption: 'blog_cuarenta.inlineImages.portocolomCosta.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-faro-de-portocolom-mallorca-mar-mediterraneo-azul.webp', alt: 'blog_cuarenta.inlineImages.portocolomVista.alt', caption: 'blog_cuarenta.inlineImages.portocolomVista.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 9 — Faro de la Mola (Andratx)
+    {
+      section: 9,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/paseo-al-faro-puerto-de-andratx-la-mola-mallorca.webp', alt: 'blog_cuarenta.inlineImages.molaAndratx.alt', caption: 'blog_cuarenta.inlineImages.molaAndratx.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 10 — Dolphins near Formentor (tips section)
+    {
+      section: 10,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/avisatamiento-delfines-costa-mallorca-faro-formentor-al-fondo.webp', alt: 'blog_cuarenta.inlineImages.delfinesFormentor.alt', caption: 'blog_cuarenta.inlineImages.delfinesFormentor.caption' },
       ],
       layout: 'single',
     },
