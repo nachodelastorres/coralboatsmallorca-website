@@ -35,7 +35,7 @@ const renderMarkdownTable = (table: { headers: string[]; rows: string[][] }, key
   };
   const tdStyle: React.CSSProperties = {
     padding: '11px 16px',
-    color: '#475569',
+    color: '#1a1a1a',
     fontSize: '0.95rem',
     borderBottom: '1px solid #e2e8f0',
     lineHeight: 1.6,
@@ -110,8 +110,8 @@ const renderContentBlocks = (blocks: ContentBlock[], sectionKey: string): React.
         <div
           key={`${sectionKey}-bullet-${idx}`}
           style={{
-            fontSize: '1.05rem',
-            color: '#475569',
+            fontSize: '0.95rem',
+            color: '#1a1a1a',
             lineHeight: '1.8',
             marginBottom: '12px',
             paddingLeft: '30px',
@@ -139,7 +139,7 @@ const renderContentBlocks = (blocks: ContentBlock[], sectionKey: string): React.
       );
     }
     return (
-      <p key={`${sectionKey}-p-${idx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+      <p key={`${sectionKey}-p-${idx}`} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
         {renderTextWithBold(block.text)}
       </p>
     );
@@ -443,7 +443,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
               {/* Lead Paragraph */}
               <div
                 style={{
-                  fontSize: '1.25rem',
+                  fontSize: '1.1rem',
                   color: '#1e293b',
                   lineHeight: '1.8',
                   marginBottom: '40px',
@@ -457,10 +457,10 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
 
               {/* Section 1 */}
               <div style={{ marginBottom: '50px' }}>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '20px' }}>
+                <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '20px' }}>
                   {renderTextWithBold(t(blog.section1Title!))}
                 </p>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
+                <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9' }}>
                   {renderTextWithBold(t(blog.section1Body!))}
                 </p>
                 {getSectionImages(1, 'after-section').map((group, gi) => (
@@ -496,8 +496,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                             <div
                               key={idx}
                               style={{
-                                fontSize: '1.05rem',
-                                color: '#475569',
+                                fontSize: '0.95rem',
+                                color: '#1a1a1a',
                                 lineHeight: '1.8',
                                 marginBottom: '12px',
                                 paddingLeft: '30px',
@@ -525,7 +525,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                           );
                         }
                         return (
-                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                          <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
                             {renderTextWithBold(line.trim())}
                           </p>
                         );
@@ -549,7 +549,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                 <h3 style={{ fontSize: '1.75rem', fontWeight: '700', color: '#ffffff', marginBottom: '15px' }}>
                   {t('blogCTA.title')}
                 </h3>
-                <p style={{ fontSize: '1.1rem', color: '#e0f2fe', marginBottom: '25px' }}>
+                <p style={{ fontSize: '1rem', color: '#e0f2fe', marginBottom: '25px' }}>
                   {t('blogCTA.description')}
                 </p>
                 <Link
@@ -562,7 +562,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     background: '#ffffff',
                     color: '#0891b2',
                     borderRadius: '50px',
-                    fontSize: '1.1rem',
+                    fontSize: '1rem',
                     fontWeight: '700',
                     textDecoration: 'none',
                     transition: 'all 0.3s ease',
@@ -610,7 +610,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     // Render with subsection cards
                     return (
                       <>
-                        <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                        <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
                           {renderTextWithBold(t(blog.section3Body!))}
                         </p>
                         {getSectionImages(3, 'after-body').map((group, gi) => (
@@ -671,8 +671,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                       <div
                                         key={lIdx}
                                         style={{
-                                          fontSize: '1.05rem',
-                                          color: '#475569',
+                                          fontSize: '0.95rem',
+                                          color: '#1a1a1a',
                                           lineHeight: '1.8',
                                           marginBottom: '12px',
                                           paddingLeft: '30px',
@@ -700,7 +700,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                     );
                                   }
                                   return (
-                                    <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                    <p key={lIdx} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: '15px' }}>
                                       {renderTextWithBold(line.trim())}
                                     </p>
                                   );
@@ -731,8 +731,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                               <div
                                 key={idx}
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '1.8',
                                   marginBottom: '12px',
                                   paddingLeft: '30px',
@@ -760,7 +760,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                             );
                           }
                           return (
-                            <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                            <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
                               {renderTextWithBold(line.trim())}
                             </p>
                           );
@@ -797,7 +797,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     if (hasSubsections) {
                       return (
                         <>
-                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section4Body!))}
                           </p>
                           {getSectionImages(4, 'after-body').map((group, gi) => (
@@ -855,8 +855,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                         <div
                                           key={lIdx}
                                           style={{
-                                            fontSize: '1.05rem',
-                                            color: '#475569',
+                                            fontSize: '0.95rem',
+                                            color: '#1a1a1a',
                                             lineHeight: '1.8',
                                             marginBottom: '12px',
                                             paddingLeft: '30px',
@@ -884,7 +884,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                       );
                                     }
                                     return (
-                                      <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                      <p key={lIdx} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: '15px' }}>
                                         {renderTextWithBold(line.trim())}
                                       </p>
                                     );
@@ -907,8 +907,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                 <div
                                   key={idx}
                                   style={{
-                                    fontSize: '1.05rem',
-                                    color: '#475569',
+                                    fontSize: '0.95rem',
+                                    color: '#1a1a1a',
                                     lineHeight: '1.8',
                                     marginBottom: '12px',
                                     paddingLeft: '30px',
@@ -936,7 +936,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                               );
                             }
                             return (
-                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                              <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
                                 {renderTextWithBold(line.trim())}
                               </p>
                             );
@@ -974,7 +974,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     if (hasSubsections) {
                       return (
                         <>
-                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section5Body!))}
                           </p>
                           {getSectionImages(5, 'after-body').map((group, gi) => (
@@ -1032,8 +1032,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                         <div
                                           key={lIdx}
                                           style={{
-                                            fontSize: '1.05rem',
-                                            color: '#475569',
+                                            fontSize: '0.95rem',
+                                            color: '#1a1a1a',
                                             lineHeight: '1.8',
                                             marginBottom: '12px',
                                             paddingLeft: '30px',
@@ -1061,7 +1061,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                       );
                                     }
                                     return (
-                                      <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+                                      <p key={lIdx} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: '15px' }}>
                                         {renderTextWithBold(line.trim())}
                                       </p>
                                     );
@@ -1084,8 +1084,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                 <div
                                   key={idx}
                                   style={{
-                                    fontSize: '1.05rem',
-                                    color: '#475569',
+                                    fontSize: '0.95rem',
+                                    color: '#1a1a1a',
                                     lineHeight: '1.8',
                                     marginBottom: '12px',
                                     paddingLeft: '30px',
@@ -1113,7 +1113,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                               );
                             }
                             return (
-                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+                              <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
                                 {renderTextWithBold(line.trim())}
                               </p>
                             );
@@ -1202,7 +1202,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     if (hasSubsections) {
                       return (
                         <>
-                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section6Body!))}
                           </p>
                           <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
@@ -1252,7 +1252,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                   </h3>
 
                                   {paragraphs.map((para, pIdx) => (
-                                    <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
+                                    <p key={`para-${pIdx}`} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
                                       {renderTextWithBold(para)}
                                     </p>
                                   ))}
@@ -1263,8 +1263,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                         <li
                                           key={bIdx}
                                           style={{
-                                            fontSize: '1.05rem',
-                                            color: '#475569',
+                                            fontSize: '0.95rem',
+                                            color: '#1a1a1a',
                                             lineHeight: '1.8',
                                             marginBottom: '12px',
                                             paddingLeft: '30px',
@@ -1338,7 +1338,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                     if (hasSubsections) {
                       return (
                         <>
-                          <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+                          <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
                             {renderTextWithBold(t(blog.section7Body!))}
                           </p>
                           <div style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
@@ -1388,7 +1388,7 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                   </h3>
 
                                   {paragraphs.map((para, pIdx) => (
-                                    <p key={`para-${pIdx}`} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
+                                    <p key={`para-${pIdx}`} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: bullets.length > 0 ? '15px' : '0' }}>
                                       {renderTextWithBold(para)}
                                     </p>
                                   ))}
@@ -1399,8 +1399,8 @@ const MagazineLayout = ({ blog }: MagazineLayoutProps) => {
                                         <li
                                           key={bIdx}
                                           style={{
-                                            fontSize: '1.05rem',
-                                            color: '#475569',
+                                            fontSize: '0.95rem',
+                                            color: '#1a1a1a',
                                             lineHeight: '1.8',
                                             marginBottom: '12px',
                                             paddingLeft: '30px',

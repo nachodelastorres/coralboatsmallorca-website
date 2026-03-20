@@ -294,7 +294,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
               <div style={{ marginBottom: '50px' }}>
                 <p
                   style={{
-                    fontSize: '1.3rem',
+                    fontSize: '1.15rem',
                     color: '#1e293b',
                     lineHeight: '1.9',
                     fontWeight: '300',
@@ -307,7 +307,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
 
               {/* Section 1 */}
               <div style={{ marginBottom: '50px' }}>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                   {renderTextWithBold(t(blog.section1Title!))}
                 </p>
                 {(() => {
@@ -324,8 +324,8 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                             <p
                               key={idx}
                               style={{
-                                fontSize: '1.05rem',
-                                color: '#475569',
+                                fontSize: '0.95rem',
+                                color: '#1a1a1a',
                                 lineHeight: '2',
                                 marginBottom: '15px',
                                 paddingLeft: '20px',
@@ -339,7 +339,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                         }
 
                         return (
-                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                          <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                             {renderTextWithBold(line.trim())}
                           </p>
                         );
@@ -395,8 +395,8 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                             <React.Fragment key={idx}>
                               <p
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '2',
                                   marginBottom: '15px',
                                   paddingLeft: '20px',
@@ -414,7 +414,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                         }
 
                         return (
-                          <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                          <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                             {renderTextWithBold(line.trim())}
                           </p>
                         );
@@ -439,7 +439,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                   textAlign: 'center',
                 }}
               >
-                <p style={{ fontSize: '1.1rem', color: '#64748b', marginBottom: '25px', fontWeight: '300' }}>
+                <p style={{ fontSize: '1rem', color: '#64748b', marginBottom: '25px', fontWeight: '300' }}>
                   Interested in exploring Alcudia Bay?
                 </p>
                 <Link
@@ -477,7 +477,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                 >
                   {t(blog.section3Title!)}
                 </h2>
-                <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '40px', fontWeight: '300' }}>
+                <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '40px', fontWeight: '300' }}>
                   {renderTextWithBold(t(blog.section3Body!))}
                 </p>
 
@@ -523,8 +523,8 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                               <p
                                 key={lIdx}
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '2',
                                   marginBottom: '15px',
                                   paddingLeft: '20px',
@@ -538,7 +538,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                           }
 
                           return (
-                            <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '2', fontWeight: '300', marginBottom: '20px' }}>
+                            <p key={lIdx} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '2', fontWeight: '300', marginBottom: '20px' }}>
                               {renderTextWithBold(line.trim())}
                             </p>
                           );
@@ -585,8 +585,8 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                                 <p
                                   key={idx}
                                   style={{
-                                    fontSize: '1.05rem',
-                                    color: '#475569',
+                                    fontSize: '0.95rem',
+                                    color: '#1a1a1a',
                                     lineHeight: '2',
                                     marginBottom: '15px',
                                     paddingLeft: '20px',
@@ -600,7 +600,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                             }
 
                             return (
-                              <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                              <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                                 {renderTextWithBold(line.trim())}
                               </p>
                             );
@@ -651,8 +651,8 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                               <p
                                 key={idx}
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '2',
                                   marginBottom: '15px',
                                   paddingLeft: '20px',
@@ -666,7 +666,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                           }
 
                           return (
-                            <p key={idx} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
+                            <p key={idx} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '2', marginBottom: '20px', fontWeight: '300' }}>
                               {renderTextWithBold(line.trim())}
                             </p>
                           );
@@ -708,7 +708,7 @@ const MinimalistLayout = ({ blog }: MinimalistLayoutProps) => {
                     <i className="fa-solid fa-ship"></i>
                   </div>
                   <div>
-                    <div style={{ fontSize: '1.1rem', fontWeight: '600', color: '#1e293b' }}>Coral Boats Team</div>
+                    <div style={{ fontSize: '1rem', fontWeight: '600', color: '#1e293b' }}>Coral Boats Team</div>
                     <div style={{ fontSize: '0.9rem', color: '#64748b' }}>Boat Tour Experts in Alcudia</div>
                   </div>
                 </div>

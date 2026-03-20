@@ -240,8 +240,8 @@ const renderTextWithBold = (text: string): React.ReactNode => {
 const BulletPoint = ({ text }: { text: string }) => (
   <div
     style={{
-      fontSize: '1.05rem',
-      color: '#475569',
+      fontSize: '0.95rem',
+      color: '#1a1a1a',
       lineHeight: '1.8',
       marginBottom: '12px',
       paddingLeft: '30px',
@@ -292,7 +292,7 @@ const renderMarkdownTableSSR = (table: { headers: string[]; rows: string[][] }, 
   };
   const tdStyle: React.CSSProperties = {
     padding: '11px 16px',
-    color: '#475569',
+    color: '#1a1a1a',
     fontSize: '0.95rem',
     borderBottom: '1px solid #e2e8f0',
     lineHeight: 1.6,
@@ -384,7 +384,7 @@ const SectionContent = ({ body, sectionImages, sectionNumber }: { body: string; 
             ) : isBullet ? (
               <BulletPoint text={line.replace(/^-\s*/, '').trim()} />
             ) : (
-              <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '15px' }}>
+              <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '15px' }}>
                 {renderTextWithBold(trimmed)}
               </p>
             )}
@@ -448,7 +448,7 @@ const SubsectionCard = ({ subsection, index }: { subsection: BlogSubsection; ind
           return <BulletPoint key={lIdx} text={line.replace(/^-\s*/, '').trim()} />;
         }
         return (
-          <p key={lIdx} style={{ fontSize: '1.05rem', color: '#475569', lineHeight: '1.8', marginBottom: '15px' }}>
+          <p key={lIdx} style={{ fontSize: '0.95rem', color: '#1a1a1a', lineHeight: '1.8', marginBottom: '15px' }}>
             {renderTextWithBold(line.trim())}
           </p>
         );
@@ -528,7 +528,7 @@ const BlogSectionComponent = ({
             <InlineImageGroupSSR key={`bb-${gi}`} group={group} />
           ))}
           {section.body && (
-            <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '30px' }}>
+            <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '30px' }}>
               {renderTextWithBold(section.body)}
             </p>
           )}
@@ -837,7 +837,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                   <div style={{ flex: 1 }}>
                     <p
                       style={{
-                        fontSize: '1.05rem',
+                        fontSize: '0.95rem',
                         color: '#0c4a6e',
                         fontWeight: '600',
                         margin: 0,
@@ -864,12 +864,12 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
               {blog.section1 && (
                 <div style={{ marginBottom: '50px' }}>
                   {blog.section1.title && (
-                    <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: '20px' }}>
+                    <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '20px' }}>
                       {renderTextWithBold(blog.section1.title)}
                     </p>
                   )}
                   {blog.section1.body && (
-                    <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
+                    <p style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9' }}>
                       {renderTextWithBold(blog.section1.body)}
                     </p>
                   )}
@@ -921,7 +921,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                 <h3 style={{ fontSize: '1.75rem', fontWeight: '700', color: '#ffffff', marginBottom: '15px' }}>
                   {blog.ctaTitle}
                 </h3>
-                <p style={{ fontSize: '1.1rem', color: '#e0f2fe', marginBottom: '25px' }}>
+                <p style={{ fontSize: '1rem', color: '#e0f2fe', marginBottom: '25px' }}>
                   {blog.ctaDescription}
                 </p>
                 <Link
@@ -934,7 +934,7 @@ const MagazineLayoutSSR = ({ blog }: MagazineLayoutSSRProps) => {
                     background: '#ffffff',
                     color: '#0891b2',
                     borderRadius: '50px',
-                    fontSize: '1.1rem',
+                    fontSize: '1rem',
                     fontWeight: '700',
                     textDecoration: 'none',
                     boxShadow: '0 4px 15px rgba(0,0,0,0.1)',

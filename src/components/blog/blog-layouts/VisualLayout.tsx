@@ -328,7 +328,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
               >
                 {processMarkdown(t(blog.section1Title!))}
               </p>
-              <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: '1.9' }}>
+              <p style={{ fontSize: '0.95rem', color: '#64748b', lineHeight: '1.9' }}>
                 {processMarkdown(t(blog.section1Body!))}
               </p>
             </div>
@@ -408,8 +408,8 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                           <React.Fragment key={idx}>
                             <p
                               style={{
-                                fontSize: '1.1rem',
-                                color: '#475569',
+                                fontSize: '1rem',
+                                color: '#1a1a1a',
                                 lineHeight: '1.9',
                                 marginBottom: idx < arr.length - 1 ? '20px' : '0',
                               }}
@@ -657,7 +657,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                         >
                           {processMarkdown(t(section.subtitle!))}
                         </h3>
-                        <p style={{ fontSize: '1.05rem', color: '#64748b', lineHeight: '1.8' }}>
+                        <p style={{ fontSize: '0.95rem', color: '#64748b', lineHeight: '1.8' }}>
                           {processMarkdown(t(section.body!))}
                         </p>
                       </div>
@@ -738,7 +738,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                   >
                     {t(blog.section4Title)}
                   </h2>
-                  <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
+                  <div style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9' }}>
                     {t(blog.section4Body!).split('\n\n').map((paragraph, pIdx) => {
                       if (paragraph.includes('- ')) {
                         return (
@@ -803,7 +803,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                         >
                           {processMarkdown(t(sub.subtitle!))}
                         </h3>
-                        <div style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9' }}>
+                        <div style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9' }}>
                           {t(sub.body!).split('\n\n').map((paragraph, pIdx) => (
                             <p key={pIdx} style={{ marginBottom: '15px' }}>{processMarkdown(paragraph)}</p>
                           ))}
@@ -925,7 +925,7 @@ const VisualLayout = ({ blog }: VisualLayoutProps) => {
                 </div>
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
-                    <div style={{ fontSize: '1.15rem', color: '#475569', lineHeight: '1.9' }}>
+                    <div style={{ fontSize: '1.15rem', color: '#1a1a1a', lineHeight: '1.9' }}>
                       {t(blog.section5Body!).split('\n\n').map((paragraph, idx) => {
                         if (paragraph.includes('- ')) {
                           return (

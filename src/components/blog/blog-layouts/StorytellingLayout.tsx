@@ -342,7 +342,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                   return (
                     <div style={{ marginTop: '50px' }}>
                       {paragraphs.map((para, idx) => (
-                        <p key={`para-${idx}`} style={{ fontSize: '1.15rem', color: '#475569', lineHeight: '1.9', marginBottom: '40px', textAlign: 'center', maxWidth: '800px', margin: '0 auto 40px' }}>
+                        <p key={`para-${idx}`} style={{ fontSize: '1.15rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: '40px', textAlign: 'center', maxWidth: '800px', margin: '0 auto 40px' }}>
                           {renderTextWithBold(para)}
                         </p>
                       ))}
@@ -361,7 +361,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                             <p
                               key={idx}
                               style={{
-                                fontSize: '1.1rem',
+                                fontSize: '1rem',
                                 color: '#334155',
                                 lineHeight: '1.9',
                                 marginBottom: idx < bullets.length - 1 ? '20px' : '0',
@@ -495,7 +495,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                         </div>
 
                         {paragraphs.map((para, pIdx) => (
-                          <p key={`para-${pIdx}`} style={{ fontSize: '1.1rem', color: '#475569', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : '0' }}>
+                          <p key={`para-${pIdx}`} style={{ fontSize: '1rem', color: '#1a1a1a', lineHeight: '1.9', marginBottom: bullets.length > 0 ? '20px' : '0' }}>
                             {renderTextWithBold(para)}
                           </p>
                         ))}
@@ -506,8 +506,8 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                               <li
                                 key={bIdx}
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '1.8',
                                   marginBottom: '12px',
                                   paddingLeft: '35px',
@@ -580,8 +580,8 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                               <li
                                 key={bIdx}
                                 style={{
-                                  fontSize: '1.05rem',
-                                  color: '#475569',
+                                  fontSize: '0.95rem',
+                                  color: '#1a1a1a',
                                   lineHeight: '1.8',
                                   marginBottom: '15px',
                                   paddingLeft: '40px',
@@ -661,7 +661,7 @@ const StorytellingLayout = ({ blog }: StorytellingLayoutProps) => {
                                   <li
                                     key={bIdx}
                                     style={{
-                                      fontSize: '1.05rem',
+                                      fontSize: '0.95rem',
                                       color: '#e2e8f0',
                                       lineHeight: '1.8',
                                       marginBottom: bIdx < bullets.length - 1 ? '15px' : '0',

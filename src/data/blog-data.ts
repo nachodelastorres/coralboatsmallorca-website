@@ -103,6 +103,9 @@ import blogDetailsImg40 from '@/assets/img/premium/gallery_new/new_blog/aeropuer
 // Blog 40 - Faros de Mallorca
 import blogDetailsImg41 from '@/assets/img/premium/gallery_new/new_blog/faro-de-cap-de-formentor-en-mallorca-al-atardecer.webp';
 
+// Blog 41 - Qué hacer en Alcudia si llueve
+import blogDetailsImg42 from '@/assets/img/premium/gallery_new/new_blog/playa-de-alcudia-con-nubes-mal-tiempo-atardecer-colores-naranjas.webp';
+
 export const blogDataOne: IBlogDT[] = [
   {
     id: 0,
@@ -4941,6 +4944,223 @@ export const blogDataOne: IBlogDT[] = [
       position: 'after-body' as const,
       images: [
         { src: '/assets/img/premium/gallery_new/new_blog/avisatamiento-delfines-costa-mallorca-faro-formentor-al-fondo.webp', alt: 'blog_cuarenta.inlineImages.delfinesFormentor.alt', caption: 'blog_cuarenta.inlineImages.delfinesFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
+},
+
+{
+  id: 41,
+  slug: 'que-hacer-en-alcudia-si-llueve',
+  category: 'Consejos',
+  image: blogDetailsImg42,
+  badgeTitle: 'blog_cuarenta_y_uno.badgeTitle',
+  title: 'blog_cuarenta_y_uno.title',
+  metaTitle: 'blog_cuarenta_y_uno.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg42,
+  publishedDate: 'blog_cuarenta_y_uno.publishedDate',
+  description: 'blog_cuarenta_y_uno.meta_description',
+  metaDescription: 'blog_cuarenta_y_uno.metaDescription',
+  btnText: 'blog_cuarenta_y_uno.btnText',
+  keyword: 'blog_cuarenta_y_uno.keyword',
+  section1Title: 'blog_cuarenta_y_uno.section1.title',
+  section1Body: 'blog_cuarenta_y_uno.section1.body',
+  section2Title: 'blog_cuarenta_y_uno.section2.title',
+  section2Body: 'blog_cuarenta_y_uno.section2.body',
+  section3Title: 'blog_cuarenta_y_uno.section3.title',
+  section3Body: 'blog_cuarenta_y_uno.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_uno.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_uno.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_uno.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_uno.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_uno.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_uno.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_uno.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_uno.section3.sub4.body',
+  section4Title: 'blog_cuarenta_y_uno.section4.title',
+  section4Body: 'blog_cuarenta_y_uno.section4.body',
+  section4sub1Subtitle: 'blog_cuarenta_y_uno.section4.sub1.subtitle',
+  section4sub1Body: 'blog_cuarenta_y_uno.section4.sub1.body',
+  section4sub2Subtitle: 'blog_cuarenta_y_uno.section4.sub2.subtitle',
+  section4sub2Body: 'blog_cuarenta_y_uno.section4.sub2.body',
+  section4sub3Subtitle: 'blog_cuarenta_y_uno.section4.sub3.subtitle',
+  section4sub3Body: 'blog_cuarenta_y_uno.section4.sub3.body',
+  section5Title: 'blog_cuarenta_y_uno.section5.title',
+  section5Body: 'blog_cuarenta_y_uno.section5.body',
+  section5sub1Subtitle: 'blog_cuarenta_y_uno.section5.sub1.subtitle',
+  section5sub1Body: 'blog_cuarenta_y_uno.section5.sub1.body',
+  section5sub2Subtitle: 'blog_cuarenta_y_uno.section5.sub2.subtitle',
+  section5sub2Body: 'blog_cuarenta_y_uno.section5.sub2.body',
+  section5sub3Subtitle: 'blog_cuarenta_y_uno.section5.sub3.subtitle',
+  section5sub3Body: 'blog_cuarenta_y_uno.section5.sub3.body',
+  section6Title: 'blog_cuarenta_y_uno.section6.title',
+  section6Body: 'blog_cuarenta_y_uno.section6.body',
+  section6sub1Subtitle: 'blog_cuarenta_y_uno.section6.sub1.subtitle',
+  section6sub1Body: 'blog_cuarenta_y_uno.section6.sub1.body',
+  section6sub2Subtitle: 'blog_cuarenta_y_uno.section6.sub2.subtitle',
+  section6sub2Body: 'blog_cuarenta_y_uno.section6.sub2.body',
+  section6sub3Subtitle: 'blog_cuarenta_y_uno.section6.sub3.subtitle',
+  section6sub3Body: 'blog_cuarenta_y_uno.section6.sub3.body',
+  section7Title: 'blog_cuarenta_y_uno.section7.title',
+  section7Body: 'blog_cuarenta_y_uno.section7.body',
+  section8Title: 'blog_cuarenta_y_uno.section8.title',
+  section8Body: 'blog_cuarenta_y_uno.section8.body',
+  section9Title: 'blog_cuarenta_y_uno.section9.title',
+  section9Body: 'blog_cuarenta_y_uno.section9.body',
+  section10Title: 'blog_cuarenta_y_uno.section10.title',
+  section10Body: 'blog_cuarenta_y_uno.section10.body',
+  section11Title: 'blog_cuarenta_y_uno.section11.title',
+  section11Body: 'blog_cuarenta_y_uno.section11.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_uno.conclusion',
+  imageAlt: 'blog_cuarenta_y_uno.imageAlt',
+  imageCaption: 'blog_cuarenta_y_uno.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_uno.heroInlineCaption',
+  sectionImages: [
+    // Section 1 — Nubes sobre Playa de Muro
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/nubes-de-lluvia-sobre-playa-de-muro-mallorca-mal-tiempo.webp', alt: 'blog_cuarenta_y_uno.inlineImages.nubesPlaya.alt', caption: 'blog_cuarenta_y_uno.inlineImages.nubesPlaya.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 2 — Casco antiguo de Alcudia
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/callejon-tipico-casco-historico-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.callejonAlcudia.alt', caption: 'blog_cuarenta_y_uno.inlineImages.callejonAlcudia.caption' },
+        { src: '/assets/img/premium/gallery_new/iglesia-sant-jaume-casco-antiguo-alcudia.webp', alt: 'blog_cuarenta_y_uno.inlineImages.iglesiaSantJaume.alt', caption: 'blog_cuarenta_y_uno.inlineImages.iglesiaSantJaume.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 sub0 — Pa amb oli
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/pa-amb-oli-sobrasada-queso-mallorca-alcudia-gastronomia-mediterranea.webp', alt: 'blog_cuarenta_y_uno.inlineImages.paAmbOli.alt', caption: 'blog_cuarenta_y_uno.inlineImages.paAmbOli.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub1 — Bullit de peix
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/bullit-de-peix-plato-tipico-balear-gastronomia.webp', alt: 'blog_cuarenta_y_uno.inlineImages.bullitDePeix.alt', caption: 'blog_cuarenta_y_uno.inlineImages.bullitDePeix.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub2 — Ruta de tapas (sangría)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/best-sangria-in-mallorca-alcudia-with-spanish-tapas-during-boat-excursion.webp', alt: 'blog_cuarenta_y_uno.inlineImages.sangriaTapas.alt', caption: 'blog_cuarenta_y_uno.inlineImages.sangriaTapas.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub3 — Ensaimadas y heladerías
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/ensaimada-mallorca-postre-dulce-tipico.webp', alt: 'blog_cuarenta_y_uno.inlineImages.ensaimada.alt', caption: 'blog_cuarenta_y_uno.inlineImages.ensaimada.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 — Cata de vinos (vino + coca de trempó)
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/vino-y-coca-de-trempo-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.vinoCoca.alt', caption: 'blog_cuarenta_y_uno.inlineImages.vinoCoca.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 5 — Roadtrip Tramuntana: Sóller + Pollença
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/port-de-soller-en-la-isla-de-mallorca-con-faro-desde-arriba-vista-aerea-vacaciones-en-el-mar-en-espana.webp', alt: 'blog_cuarenta_y_uno.inlineImages.portDeSoller.alt', caption: 'blog_cuarenta_y_uno.inlineImages.portDeSoller.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/pollenca-mallorca-pueblo-bonito-calvari-calle-historica.webp', alt: 'blog_cuarenta_y_uno.inlineImages.pollenca.alt', caption: 'blog_cuarenta_y_uno.inlineImages.pollenca.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 5 sub2 — Deià after subsection
+    {
+      section: 5,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/deia-pueblo-mallorca-serra-tramuntana-mediterraneo.webp', alt: 'blog_cuarenta_y_uno.inlineImages.deiaTramuntana.alt', caption: 'blog_cuarenta_y_uno.inlineImages.deiaTramuntana.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 6 — Palma: Catedral + Bellver
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/iconica-catedral-palma-mallorca-vista-desde-mar-ciudad-fondo.webp', alt: 'blog_cuarenta_y_uno.inlineImages.catedralPalma.alt', caption: 'blog_cuarenta_y_uno.inlineImages.catedralPalma.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/castillo-bellver-puerto-palma-de-mallorca-barcos.webp', alt: 'blog_cuarenta_y_uno.inlineImages.castilloBellver.alt', caption: 'blog_cuarenta_y_uno.inlineImages.castilloBellver.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 7 — Mercados
+    {
+      section: 7,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/mercado-semanal-alcudia-casco-antiguo-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.mercadoAlcudia.alt', caption: 'blog_cuarenta_y_uno.inlineImages.mercadoAlcudia.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/artesania-mallorca-telas-lenguas-mercado-alcudia.webp', alt: 'blog_cuarenta_y_uno.inlineImages.artesaniaMercado.alt', caption: 'blog_cuarenta_y_uno.inlineImages.artesaniaMercado.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 8 — Cuevas
+    {
+      section: 8,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/cuevas-de-arta-mallorca-pueblos.webp', alt: 'blog_cuarenta_y_uno.inlineImages.cuevasArta.alt', caption: 'blog_cuarenta_y_uno.inlineImages.cuevasArta.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 9 — Planes con niños (sombrillas lluvia)
+    {
+      section: 9,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/sombrillas-tumbonas-vacias-vistas-desde-ventana-dia-de-lluvia-alcudia.webp', alt: 'blog_cuarenta_y_uno.inlineImages.sombrillasLluvia.alt', caption: 'blog_cuarenta_y_uno.inlineImages.sombrillasLluvia.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/lluvia-nubes-mal-tiempo-sobre-playa-palma-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.lluviaPlaya.alt', caption: 'blog_cuarenta_y_uno.inlineImages.lluviaPlaya.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 10 — Spas (temporal pasarela)
+    {
+      section: 10,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/temporal-nubes-negras-sobre-pasarela-maritima-mallorca-playa.webp', alt: 'blog_cuarenta_y_uno.inlineImages.temporalPasarela.alt', caption: 'blog_cuarenta_y_uno.inlineImages.temporalPasarela.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 11 — Si escampa: arcoíris
+    {
+      section: 11,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/arcoiris-lluvia-nubes-serra-de-tramuntana-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.arcoirisTramuntana.alt', caption: 'blog_cuarenta_y_uno.inlineImages.arcoirisTramuntana.caption' },
       ],
       layout: 'single',
     },
