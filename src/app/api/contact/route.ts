@@ -113,6 +113,101 @@ const emailTranslations: Record<string, Record<string, string>> = {
   },
 };
 
+function buildNotificationEmail(data: {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  charterDate?: string;
+  charterDuration?: string;
+  charterGuests?: string;
+  charterExtras?: string;
+  charterMessage?: string;
+}): string {
+  const extrasDisplay = data.charterExtras || 'None';
+
+  return `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin: 0; padding: 0; background-color: #f1f5f9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <div style="max-width: 640px; margin: 0 auto; padding: 30px 20px;">
+
+    <!-- Header -->
+    <div style="background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%); border-radius: 12px 12px 0 0; padding: 25px 30px; text-align: center;">
+      <h1 style="color: #ffffff; font-size: 20px; margin: 0 0 5px; font-weight: 700;">⚓ Private Charter Request</h1>
+      <p style="color: #ffffff; font-size: 14px; margin: 0; font-weight: 500;">${data.charterDate || 'Date TBD'} · ${data.charterGuests || '?'} guests · ${data.charterDuration || 'TBD'}</p>
+    </div>
+
+    <!-- Main Card -->
+    <div style="background: #ffffff; padding: 30px; border-radius: 0 0 12px 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.06);">
+
+      <!-- Client Info Section -->
+      <h2 style="color: #0891b2; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px;">Client Details</h2>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
+        <tr>
+          <td style="padding: 6px 0; color: #64748b; font-size: 13px; width: 100px;">Name</td>
+          <td style="padding: 6px 0; color: #0f172a; font-size: 15px; font-weight: 600;">${data.firstName} ${data.lastName}</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #64748b; font-size: 13px;">Email</td>
+          <td style="padding: 6px 0; color: #0f172a; font-size: 15px;"><a href="mailto:${data.email}" style="color: #0891b2; text-decoration: none;">${data.email}</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #64748b; font-size: 13px;">Phone</td>
+          <td style="padding: 6px 0; color: #0f172a; font-size: 15px;"><a href="https://wa.me/${data.phone.replace(/[^0-9]/g, '')}" style="color: #0891b2; text-decoration: none;">${data.phone}</a></td>
+        </tr>
+      </table>
+
+      <!-- Charter Details Section -->
+      <h2 style="color: #0891b2; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px;">Charter Details</h2>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px;">
+        ${data.charterDate ? `<tr>
+          <td style="padding: 8px 0; color: #64748b; font-size: 13px; width: 100px;">📅 Date</td>
+          <td style="padding: 8px 0; color: #0f172a; font-size: 15px; font-weight: 600;">${data.charterDate}</td>
+        </tr>` : ''}
+        ${data.charterDuration ? `<tr>
+          <td style="padding: 8px 0; color: #64748b; font-size: 13px;">⏱ Duration</td>
+          <td style="padding: 8px 0; color: #0f172a; font-size: 15px; font-weight: 600;">${data.charterDuration}</td>
+        </tr>` : ''}
+        ${data.charterGuests ? `<tr>
+          <td style="padding: 8px 0; color: #64748b; font-size: 13px;">👥 Guests</td>
+          <td style="padding: 8px 0; color: #0f172a; font-size: 15px; font-weight: 600;">${data.charterGuests}</td>
+        </tr>` : ''}
+        <tr>
+          <td style="padding: 8px 0; color: #64748b; font-size: 13px; vertical-align: top;">🍽 Extras</td>
+          <td style="padding: 8px 0; color: #0f172a; font-size: 15px; font-weight: 600;">${extrasDisplay}</td>
+        </tr>
+      </table>
+
+      <!-- Message Section -->
+      ${data.charterMessage ? `
+      <h2 style="color: #0891b2; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 12px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px;">Client Message</h2>
+      <div style="background: #f8fafc; border-radius: 8px; padding: 15px; margin-bottom: 25px; border-left: 3px solid #0891b2;">
+        <p style="color: #334155; font-size: 14px; line-height: 1.7; margin: 0; white-space: pre-wrap;">${data.charterMessage}</p>
+      </div>
+      ` : ''}
+
+      <!-- Quick Actions -->
+      <div style="background: #f0fdfa; border-radius: 8px; padding: 15px; text-align: center;">
+        <p style="color: #64748b; font-size: 12px; margin: 0 0 8px;">Quick actions</p>
+        <a href="mailto:${data.email}?subject=Re: Your Private Charter on ${data.charterDate || 'TBD'} - Coral Boats Mallorca" style="display: inline-block; background: #0891b2; color: #ffffff; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; margin: 0 5px;">✉️ Reply to Client</a>
+        <a href="https://wa.me/${data.phone.replace(/[^0-9]/g, '')}" style="display: inline-block; background: #25d366; color: #ffffff; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; margin: 0 5px;">💬 WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align: center; margin-top: 20px;">
+      <p style="color: #94a3b8; font-size: 11px; margin: 0;">Coral Boats Mallorca · Internal notification · Reply goes to client</p>
+    </div>
+  </div>
+</body>
+</html>`;
+}
+
 function buildConfirmationEmail(
   t: Record<string, string>,
   data: { firstName: string; charterDate?: string; charterDuration?: string; charterGuests?: string; charterExtras?: string; charterMessage?: string }
@@ -211,21 +306,41 @@ export async function POST(req: NextRequest) {
     });
 
     // 1. Send notification email to the business
-    await transporter.sendMail({
-      from: `"Coral Boats" <${process.env.SMTP_USER}>`,
-      to: 'info@coralboatsmallorca.com',
-      subject: `Nuevo mensaje de contacto: ${subject}`,
-      html: `
+    const isCharterRequest = subject && subject.includes('Charter Booking Request');
+    const notificationSubject = isCharterRequest
+      ? `Private Charter Request on ${charterDate || 'TBD'} from ${firstName} ${lastName}`
+      : `Nuevo mensaje de contacto: ${subject}`;
+
+    const notificationHtml = isCharterRequest
+      ? buildNotificationEmail({
+          firstName,
+          lastName,
+          email,
+          phone,
+          charterDate,
+          charterDuration,
+          charterGuests,
+          charterExtras,
+          charterMessage: body.charterMessage || '',
+        })
+      : `
         <h2>Nuevo mensaje de contacto</h2>
         <p><strong>Nombre:</strong> ${firstName} ${lastName}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Teléfono:</strong> ${phone}</p>
         <p><strong>Mensaje:</strong> ${message}</p>
-      `,
+      `;
+
+    await transporter.sendMail({
+      from: `"Coral Boats" <${process.env.SMTP_USER}>`,
+      to: 'info@coralboatsmallorca.com',
+      replyTo: email,
+      subject: notificationSubject,
+      html: notificationHtml,
     });
 
     // 2. Send confirmation email to the client (only for charter bookings)
-    const isCharterBooking = subject && subject.includes('Charter Booking Request');
+    const isCharterBooking = isCharterRequest;
     if (isCharterBooking && email) {
       const lang = locale && emailTranslations[locale] ? locale : 'en';
       const t = emailTranslations[lang];
