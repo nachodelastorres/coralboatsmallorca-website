@@ -1,10 +1,12 @@
 /**
- * ToursListSchema - Schema.org ItemList for boat tours
+ * ToursListSchema - Schema.org Product + ItemList for boat tours
  *
- * This schema enables Google to display:
- * - Carousel of tours in search results
- * - "Things to do" / "Activities" rich results
- * - Price ranges and ratings for each tour
+ * Optimized for Google Merchant Listings and Rich Results:
+ * - Product with Brand (not Organization) for Merchant Listings
+ * - MerchantReturnPolicy (24h free cancellation)
+ * - OfferShippingDetails (digital/experience delivery)
+ * - AggregateRating from verified sources (TripAdvisor per tour, Google overall)
+ * - ItemList carousel for search results
  */
 
 interface ToursListSchemaProps {
@@ -14,6 +16,48 @@ interface ToursListSchemaProps {
 export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
   const baseUrl = 'https://www.coralboatsmallorca.com';
   const langPrefix = lang === 'en' ? '' : `/${lang}`;
+
+  // Shared: MerchantReturnPolicy (24h free cancellation)
+  const returnPolicy = {
+    "@type": "MerchantReturnPolicy",
+    "@id": `${baseUrl}/#return-policy`,
+    "applicableCountry": "ES",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays": 1,
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnFees": "https://schema.org/FreeReturn",
+    "description": "Free cancellation up to 24 hours before departure. Full refund guaranteed."
+  };
+
+  // Shared: ShippingDetails (experience = no physical shipping)
+  const shippingDetails = {
+    "@type": "OfferShippingDetails",
+    "@id": `${baseUrl}/#shipping`,
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "0",
+      "currency": "EUR"
+    },
+    "shippingDestination": {
+      "@type": "DefinedRegion",
+      "addressCountry": "ES"
+    },
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 0,
+        "unitCode": "DAY"
+      },
+      "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 0,
+        "unitCode": "DAY"
+      }
+    }
+  };
 
   // Tour data with multilingual support
   const tours = [
@@ -35,13 +79,15 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
         it: 'Tour in barca di 4 ore al mattino esplorando calette nascoste, nuotata alla spiaggia di Coll Baix, snorkeling in acque cristalline e degustazione di tapas mediterranee a bordo di una barca classica in legno.',
       },
       url: `${baseUrl}${langPrefix}/alcudia-morning-boat-tour`,
-      image: `${baseUrl}/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp`,
-      lowPrice: 0,
-      highPrice: 68,
-      duration: 'PT4H',
-      startTime: '09:30',
-      ratingValue: 4.9,
-      reviewCount: 180,
+      images: [
+        `${baseUrl}/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp`,
+        `${baseUrl}/assets/img/premium/gallery_new/excursion-barco-isla-alcanada-puerto-alcudia.webp`,
+        `${baseUrl}/assets/img/premium/gallery_new/actividades-acuaticas-snorkel-paddle-surf-alcudia.webp`,
+      ],
+      price: '68.00',
+      ratingValue: 5.0,
+      reviewCount: 16,
+      ratingSource: 'TripAdvisor',
     },
     {
       id: 'sunset-tour',
@@ -61,13 +107,15 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
         it: 'Crociera di 3 ore al tramonto con sosta per il bagno, tapas mediterranee, sangria e vista spettacolare sull\'ora dorata sulla baia di Alcudia a bordo di una barca classica in legno.',
       },
       url: `${baseUrl}${langPrefix}/alcudia-sunset-boat-tour`,
-      image: `${baseUrl}/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp`,
-      lowPrice: 0,
-      highPrice: 65,
-      duration: 'PT3H',
-      startTime: '18:00',
-      ratingValue: 4.9,
-      reviewCount: 165,
+      images: [
+        `${baseUrl}/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp`,
+        `${baseUrl}/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp`,
+        `${baseUrl}/assets/img/premium/gallery_new/atardecer-espectacular-mar-bahia-alcudia.webp`,
+      ],
+      price: '65.00',
+      ratingValue: 5.0,
+      reviewCount: 27,
+      ratingSource: 'TripAdvisor',
     },
     {
       id: 'private-charter',
@@ -87,20 +135,20 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
         it: 'Noleggio esclusivo di barca privata per un massimo di 11 ospiti. Personalizza il tuo percorso, goditi un servizio personalizzato, catering mediterraneo e crea ricordi indimenticabili nella baia di Alcudia.',
       },
       url: `${baseUrl}${langPrefix}/alcudia-private-boat-charter`,
-      image: `${baseUrl}/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp`,
-      lowPrice: 600,
-      highPrice: 1400,
-      duration: 'PT4H',
-      startTime: '10:00',
-      ratingValue: 5.0,
-      reviewCount: 95,
+      images: [
+        `${baseUrl}/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp`,
+        `${baseUrl}/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp`,
+        `${baseUrl}/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp`,
+      ],
+      lowPrice: '1250.00',
+      highPrice: '1985.00',
     },
   ];
 
   const getName = (tour: typeof tours[0]) => tour.name[lang as keyof typeof tour.name] || tour.name.en;
   const getDescription = (tour: typeof tours[0]) => tour.description[lang as keyof typeof tour.description] || tour.description.en;
 
-  // ItemList Schema - For carousel display
+  // ItemList Schema with Product items — For Merchant Listings + Carousel
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -109,61 +157,72 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
             lang === 'fr' ? "Excursions en Bateau à Alcudia, Majorque" :
             lang === 'it' ? "Tour in Barca ad Alcudia, Maiorca" :
             "Boat Tours in Alcudia, Mallorca",
-    "description": lang === 'es' ? "Todas las excursiones en barco de Coral Boats desde Puerto de Alcudia" :
-                   lang === 'de' ? "Alle Bootstouren von Coral Boats ab Hafen Alcudia" :
-                   lang === 'fr' ? "Toutes les excursions en bateau de Coral Boats depuis le Port d'Alcudia" :
-                   lang === 'it' ? "Tutti i tour in barca di Coral Boats dal Porto di Alcudia" :
-                   "All boat tours offered by Coral Boats from Port d'Alcudia",
     "numberOfItems": tours.length,
-    "itemListElement": tours.map(tour => ({
-      "@type": "ListItem",
-      "position": tour.position,
-      "item": {
-        "@type": ["Product", "TouristTrip"],
-        "@id": `${tour.url}#tour`,
-        "name": getName(tour),
-        "description": getDescription(tour),
-        "image": tour.image,
-        "url": tour.url,
-        "brand": {
-          "@type": "Organization",
-          "@id": "https://www.coralboatsmallorca.com/#organization",
-          "name": "Coral Boats Mallorca"
-        },
-        "provider": {
-          "@type": "Organization",
-          "@id": "https://www.coralboatsmallorca.com/#organization"
-        },
-        "offers": {
-          "@type": "AggregateOffer",
-          "lowPrice": tour.lowPrice.toString(),
-          "highPrice": tour.highPrice.toString(),
-          "priceCurrency": "EUR",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-05-01",
-          "validThrough": "2026-10-31",
-          "url": tour.url,
-          "offerCount": 3
-        },
-        "duration": tour.duration,
-        "touristType": ["Families", "Couples", "Friends", "Solo Travelers"],
-        "availableLanguage": ["English", "Spanish", "German"],
-        "location": {
-          "@type": "Place",
-          "name": "Puerto de Alcudia",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Puerto de Alcudia",
-            "addressRegion": "Balearic Islands",
-            "addressCountry": "ES"
+    "itemListElement": tours.map(tour => {
+      const isCharter = tour.id === 'private-charter';
+
+      const offers = isCharter
+        ? {
+            "@type": "AggregateOffer",
+            "lowPrice": (tour as typeof tours[2]).lowPrice,
+            "highPrice": (tour as typeof tours[2]).highPrice,
+            "priceCurrency": "EUR",
+            "offerCount": 2,
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2026-05-01",
+            "validThrough": "2026-10-31",
+            "url": tour.url,
+            "hasMerchantReturnPolicy": returnPolicy,
+            "shippingDetails": shippingDetails
           }
+        : {
+            "@type": "Offer",
+            "price": (tour as typeof tours[0]).price,
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2026-05-01",
+            "validThrough": "2026-10-31",
+            "url": tour.url,
+            "priceValidUntil": "2026-10-31",
+            "hasMerchantReturnPolicy": returnPolicy,
+            "shippingDetails": shippingDetails
+          };
+
+      const rating = !isCharter && 'ratingValue' in tour
+        ? {
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": (tour as typeof tours[0]).ratingValue,
+              "reviewCount": (tour as typeof tours[0]).reviewCount,
+              "bestRating": 5,
+              "worstRating": 1
+            }
+          }
+        : {};
+
+      return {
+        "@type": "ListItem",
+        "position": tour.position,
+        "item": {
+          "@type": "Product",
+          "@id": `${tour.url}#product`,
+          "name": getName(tour),
+          "description": getDescription(tour),
+          "image": tour.images,
+          "url": tour.url,
+          "brand": {
+            "@type": "Brand",
+            "name": "Coral Boats Mallorca"
+          },
+          "offers": offers,
+          ...rating
         }
-      }
-    }))
+      };
+    })
   };
 
-  // TouristTrip Collection Schema - For "Things to do" results
-  const touristTripsSchema = {
+  // CollectionPage Schema — For "Things to do" results
+  const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": `${baseUrl}${langPrefix}/boat-tours-alcudia#collection`,
@@ -185,12 +244,7 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
     },
     "provider": {
       "@type": "Organization",
-      "@id": "https://www.coralboatsmallorca.com/#organization"
-    },
-    "about": {
-      "@type": "Thing",
-      "name": "Boat Tours",
-      "description": "Guided boat excursions in Alcudia Bay, Mallorca"
+      "@id": `${baseUrl}/#organization`
     },
     "spatialCoverage": {
       "@type": "Place",
@@ -211,7 +265,7 @@ export default function ToursListSchema({ lang = 'en' }: ToursListSchemaProps) {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripsSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
     </>
   );

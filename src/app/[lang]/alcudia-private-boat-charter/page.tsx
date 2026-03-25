@@ -368,27 +368,67 @@ export default async function PrivateCharter({ params }: PageProps) {
       ]
     },
     "duration": ["PT3H", "PT4H"],
-    "startDate": "2025-05-01",
-    "endDate": "2025-10-31",
+    "startDate": "2026-05-01",
+    "endDate": "2026-10-31",
     "offers": [
       {
         "@type": "Offer",
-        "name": "Private Charter - 3 Hours",
+        "name": "Private Charter - 3 Hours (Low Season)",
         "price": "1250.00",
         "priceCurrency": "EUR",
-        "availability": "https://schema.org/PreOrder",
-        "validFrom": "2025-05-01",
-        "validThrough": "2025-10-31",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-05-01",
+        "validThrough": "2026-06-14",
         "url": canonicalUrl
       },
       {
         "@type": "Offer",
-        "name": "Private Charter - 4 Hours",
-        "price": "1632.50",
+        "name": "Private Charter - 4 Hours (Low Season)",
+        "price": "1685.00",
         "priceCurrency": "EUR",
-        "availability": "https://schema.org/PreOrder",
-        "validFrom": "2025-05-01",
-        "validThrough": "2025-10-31",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-05-01",
+        "validThrough": "2026-06-14",
+        "url": canonicalUrl
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 3 Hours (High Season)",
+        "price": "1550.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-15",
+        "validThrough": "2026-09-15",
+        "url": canonicalUrl
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 4 Hours (High Season)",
+        "price": "1985.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-15",
+        "validThrough": "2026-09-15",
+        "url": canonicalUrl
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 3 Hours (Low Season)",
+        "price": "1250.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-09-16",
+        "validThrough": "2026-10-31",
+        "url": canonicalUrl
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 4 Hours (Low Season)",
+        "price": "1685.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-09-16",
+        "validThrough": "2026-10-31",
         "url": canonicalUrl
       }
     ],
@@ -412,12 +452,126 @@ export default async function PrivateCharter({ params }: PageProps) {
     "maximumAttendeeCapacity": 50
   };
 
+  // Shared policy objects for Product offers
+  const charterReturnPolicy = {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "ES",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays": 1,
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnFees": "https://schema.org/FreeReturn"
+  };
+  const charterShipping = {
+    "@type": "OfferShippingDetails",
+    "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
+    "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ES" },
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY" },
+      "transitTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY" }
+    }
+  };
+
+  // Product Schema — For Google Merchant Listings (seasonal pricing)
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `${canonicalUrl}#product`,
+    "name": heroTexts.title,
+    "description": heroTexts.subtitle,
+    "image": [
+      "https://www.coralboatsmallorca.com/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
+    ],
+    "url": canonicalUrl,
+    "brand": {
+      "@type": "Brand",
+      "name": "Coral Boats Mallorca"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 3h (Low Season)",
+        "price": "1250.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-05-01",
+        "priceValidUntil": "2026-06-14",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 4h (Low Season)",
+        "price": "1685.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-05-01",
+        "priceValidUntil": "2026-06-14",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 3h (High Season)",
+        "price": "1550.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-15",
+        "priceValidUntil": "2026-09-15",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 4h (High Season)",
+        "price": "1985.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-15",
+        "priceValidUntil": "2026-09-15",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 3h (Low Season)",
+        "price": "1250.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-09-16",
+        "priceValidUntil": "2026-10-31",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      },
+      {
+        "@type": "Offer",
+        "name": "Private Charter - 4h (Low Season)",
+        "price": "1685.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-09-16",
+        "priceValidUntil": "2026-10-31",
+        "url": canonicalUrl,
+        "hasMerchantReturnPolicy": charterReturnPolicy,
+        "shippingDetails": charterShipping
+      }
+    ]
+  };
+
   return (
     <>
       {/* JSON-LD Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
       <Wrapper>
         <ViewContentTracker

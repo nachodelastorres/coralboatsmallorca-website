@@ -305,6 +305,76 @@ export default async function MorningTour({ params }: PageProps) {
     }
   };
 
+  // Product Schema — For Google Merchant Listings
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `${canonicalUrl}#product`,
+    "name": hero.title || "Morning Boat Tour in Alcudia Bay",
+    "description": hero.subtitle || "Discover the Bay of Alcudia on our 4-hour morning boat tour. Explore hidden coves, swim in crystal-clear waters, and enjoy authentic Mallorcan tapas.",
+    "image": [
+      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/excursion-barco-isla-alcanada-puerto-alcudia.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/actividades-acuaticas-snorkel-paddle-surf-alcudia.webp"
+    ],
+    "url": canonicalUrl,
+    "brand": {
+      "@type": "Brand",
+      "name": "Coral Boats Mallorca"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5.0,
+      "reviewCount": 16,
+      "bestRating": 5,
+      "worstRating": 1
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "68.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-05-01",
+      "priceValidUntil": "2026-10-31",
+      "url": canonicalUrl,
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "ES",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 1,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "EUR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "ES"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 0,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    }
+  };
+
   // ============================================
   // PREPARE TEXTS FOR SSR COMPONENTS
   // ============================================
@@ -650,6 +720,10 @@ export default async function MorningTour({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(touristTripSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
 
       <Wrapper>
