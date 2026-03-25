@@ -106,6 +106,9 @@ import blogDetailsImg41 from '@/assets/img/premium/gallery_new/new_blog/faro-de-
 // Blog 41 - Qué hacer en Alcudia si llueve
 import blogDetailsImg42 from '@/assets/img/premium/gallery_new/new_blog/playa-de-alcudia-con-nubes-mal-tiempo-atardecer-colores-naranjas.webp';
 
+// Blog 42 - Medusas en Mallorca
+import blogDetailsImg43 from '@/assets/img/premium/gallery_new/new_blog/visible-medusa-luminiscente-mas-comun-en-mallorca-picadura.webp';
+
 export const blogDataOne: IBlogDT[] = [
   {
     id: 0,
@@ -5163,6 +5166,144 @@ export const blogDataOne: IBlogDT[] = [
         { src: '/assets/img/premium/gallery_new/new_blog/arcoiris-lluvia-nubes-serra-de-tramuntana-mallorca.webp', alt: 'blog_cuarenta_y_uno.inlineImages.arcoirisTramuntana.alt', caption: 'blog_cuarenta_y_uno.inlineImages.arcoirisTramuntana.caption' },
       ],
       layout: 'single',
+    },
+  ],
+},
+
+{
+  id: 42,
+  slug: 'medusas-mallorca-guia-completa',
+  category: 'Consejos',
+  image: blogDetailsImg43,
+  badgeTitle: 'blog_cuarenta_y_dos.badgeTitle',
+  title: 'blog_cuarenta_y_dos.title',
+  metaTitle: 'blog_cuarenta_y_dos.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg43,
+  publishedDate: 'blog_cuarenta_y_dos.publishedDate',
+  description: 'blog_cuarenta_y_dos.meta_description',
+  metaDescription: 'blog_cuarenta_y_dos.metaDescription',
+  btnText: 'blog_cuarenta_y_dos.btnText',
+  keyword: 'blog_cuarenta_y_dos.keyword',
+  section1Title: 'blog_cuarenta_y_dos.section1.title',
+  section1Body: 'blog_cuarenta_y_dos.section1.body',
+  section2Title: 'blog_cuarenta_y_dos.section2.title',
+  section2Body: 'blog_cuarenta_y_dos.section2.body',
+  section3Title: 'blog_cuarenta_y_dos.section3.title',
+  section3Body: 'blog_cuarenta_y_dos.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_dos.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_dos.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_dos.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_dos.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_dos.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_dos.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_dos.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_dos.section3.sub4.body',
+  section3sub5Subtitle: 'blog_cuarenta_y_dos.section3.sub5.subtitle',
+  section3sub5Body: 'blog_cuarenta_y_dos.section3.sub5.body',
+  section4Title: 'blog_cuarenta_y_dos.section4.title',
+  section4Body: 'blog_cuarenta_y_dos.section4.body',
+  section5Title: 'blog_cuarenta_y_dos.section5.title',
+  section5Body: 'blog_cuarenta_y_dos.section5.body',
+  section6Title: 'blog_cuarenta_y_dos.section6.title',
+  section6Body: 'blog_cuarenta_y_dos.section6.body',
+  section7Title: 'blog_cuarenta_y_dos.section7.title',
+  section7Body: 'blog_cuarenta_y_dos.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_dos.conclusion',
+  imageAlt: 'blog_cuarenta_y_dos.imageAlt',
+  imageCaption: 'blog_cuarenta_y_dos.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_dos.heroInlineCaption',
+  sectionImages: [
+    // Section 1 — Aguas cristalinas de Mallorca
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/posidonia-oceanica-peces-aguas-cristalinas-transparentes-mallorca.webp', alt: 'blog_cuarenta_y_dos.inlineImages.posidoniaCristalina.alt', caption: 'blog_cuarenta_y_dos.inlineImages.posidoniaCristalina.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub0 — Pelagia noctiluca (luminiscente)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 0,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/medusa-luminiscente-pelagia-noctiluca-tipica-mar-mediterraneo-playas-de-mallorca.webp', alt: 'blog_cuarenta_y_dos.inlineImages.pelagiaNoctiluca.alt', caption: 'blog_cuarenta_y_dos.inlineImages.pelagiaNoctiluca.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/visible-medusa-luminiscente-mas-comun-en-mallorca-picadura.webp', alt: 'blog_cuarenta_y_dos.inlineImages.luminiscenteVisible.alt', caption: 'blog_cuarenta_y_dos.inlineImages.luminiscenteVisible.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 sub1 — Cotylorhiza tuberculata (huevo frito)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/medusa-huevo-frito-en-aguas-mallorca-mediterraneo-no-venenosa.webp', alt: 'blog_cuarenta_y_dos.inlineImages.huevoFritoAguas.alt', caption: 'blog_cuarenta_y_dos.inlineImages.huevoFritoAguas.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/medusa-huevo-frito-en-playa-de-mallorca-no-venenosa.webp', alt: 'blog_cuarenta_y_dos.inlineImages.huevoFritoPlaya.alt', caption: 'blog_cuarenta_y_dos.inlineImages.huevoFritoPlaya.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 3 sub2 — Rhizostoma pulmo (aguamala)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/medusa-aguamala-picadura-leve-mar-mediterraneo.webp', alt: 'blog_cuarenta_y_dos.inlineImages.aguamala.alt', caption: 'blog_cuarenta_y_dos.inlineImages.aguamala.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub3 — Aurelia aurita (medusa luna)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/medusa-luna-transparente-no-picadura-tipica-mallorca-playas.webp', alt: 'blog_cuarenta_y_dos.inlineImages.medusaLuna.alt', caption: 'blog_cuarenta_y_dos.inlineImages.medusaLuna.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 3 sub4 — Physalia physalis (carabela portuguesa)
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 4,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/carabela-portuguesa-flotando-muy-poco-comun-mediterraneo.webp', alt: 'blog_cuarenta_y_dos.inlineImages.carabela.alt', caption: 'blog_cuarenta_y_dos.inlineImages.carabela.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 4 — Playas
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/playa-formentor-mallorca-arena-blanca-aguas-turquesas.webp', alt: 'blog_cuarenta_y_dos.inlineImages.playaFormentor.alt', caption: 'blog_cuarenta_y_dos.inlineImages.playaFormentor.caption' },
+        { src: '/assets/img/premium/gallery_new/playa-alcanada-aguas-cristalinas-mallorca.webp', alt: 'blog_cuarenta_y_dos.inlineImages.playaAlcanada.alt', caption: 'blog_cuarenta_y_dos.inlineImages.playaAlcanada.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    // Section 6 — Snorkel/actividades seguras
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/snorkel-alcudia-mallorca-durante-excursion-barco.webp', alt: 'blog_cuarenta_y_dos.inlineImages.snorkelAlcudia.alt', caption: 'blog_cuarenta_y_dos.inlineImages.snorkelAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    // Section 7 — Coral Boats CTA
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp', alt: 'blog_cuarenta_y_dos.inlineImages.coralBoats.alt', caption: 'blog_cuarenta_y_dos.inlineImages.coralBoats.caption' },
+        { src: '/assets/img/premium/gallery_new/turistas-paseo-barco-aguas-cristalinas-mallorca.webp', alt: 'blog_cuarenta_y_dos.inlineImages.turistasBarco.alt', caption: 'blog_cuarenta_y_dos.inlineImages.turistasBarco.caption' },
+      ],
+      layout: 'grid-2',
     },
   ],
 },
