@@ -109,6 +109,12 @@ import blogDetailsImg42 from '@/assets/img/premium/gallery_new/new_blog/playa-de
 // Blog 42 - Medusas en Mallorca
 import blogDetailsImg43 from '@/assets/img/premium/gallery_new/new_blog/visible-medusa-luminiscente-mas-comun-en-mallorca-picadura.webp';
 
+// Blog 43 - ¿Está Mallorca masificada?
+import blogDetailsImg44 from '@/assets/img/premium/gallery_new/new_blog/plaza-mayor-de-palma-mallorca-turistas-tour-guiado-verano.webp';
+
+// Blog 44 - ¿Es cara Mallorca?
+import blogDetailsImg45 from '@/assets/img/premium/gallery_new/new_blog/faro-porto-colom-costa-mar-mediterraneo-mallorca.webp';
+
 export const blogDataOne: IBlogDT[] = [
   {
     id: 0,
@@ -5302,6 +5308,217 @@ export const blogDataOne: IBlogDT[] = [
       images: [
         { src: '/assets/img/premium/gallery_new/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp', alt: 'blog_cuarenta_y_dos.inlineImages.coralBoats.alt', caption: 'blog_cuarenta_y_dos.inlineImages.coralBoats.caption' },
         { src: '/assets/img/premium/gallery_new/turistas-paseo-barco-aguas-cristalinas-mallorca.webp', alt: 'blog_cuarenta_y_dos.inlineImages.turistasBarco.alt', caption: 'blog_cuarenta_y_dos.inlineImages.turistasBarco.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 43,
+  slug: 'esta-mallorca-masificada-realidad',
+  category: 'Curiosidades',
+  image: blogDetailsImg44,
+  badgeTitle: 'blog_cuarenta_y_tres.badgeTitle',
+  title: 'blog_cuarenta_y_tres.title',
+  metaTitle: 'blog_cuarenta_y_tres.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg44,
+  publishedDate: 'blog_cuarenta_y_tres.publishedDate',
+  description: 'blog_cuarenta_y_tres.meta_description',
+  metaDescription: 'blog_cuarenta_y_tres.metaDescription',
+  btnText: 'blog_cuarenta_y_tres.btnText',
+  keyword: 'blog_cuarenta_y_tres.keyword',
+  section1Title: 'blog_cuarenta_y_tres.section1.title',
+  section1Body: 'blog_cuarenta_y_tres.section1.body',
+  section2Title: 'blog_cuarenta_y_tres.section2.title',
+  section2Body: 'blog_cuarenta_y_tres.section2.body',
+  section3Title: 'blog_cuarenta_y_tres.section3.title',
+  section3Body: 'blog_cuarenta_y_tres.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_tres.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_tres.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_tres.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_tres.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_tres.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_tres.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_tres.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_tres.section3.sub4.body',
+  section3sub5Subtitle: 'blog_cuarenta_y_tres.section3.sub5.subtitle',
+  section3sub5Body: 'blog_cuarenta_y_tres.section3.sub5.body',
+  section4Title: 'blog_cuarenta_y_tres.section4.title',
+  section4Body: 'blog_cuarenta_y_tres.section4.body',
+  section5Title: 'blog_cuarenta_y_tres.section5.title',
+  section5Body: 'blog_cuarenta_y_tres.section5.body',
+  section6Title: 'blog_cuarenta_y_tres.section6.title',
+  section6Body: 'blog_cuarenta_y_tres.section6.body',
+  section7Title: 'blog_cuarenta_y_tres.section7.title',
+  section7Body: 'blog_cuarenta_y_tres.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_tres.conclusion',
+  imageAlt: 'blog_cuarenta_y_tres.imageAlt',
+  imageCaption: 'blog_cuarenta_y_tres.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_tres.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/plaza-mayor-de-palma-mallorca-turistas-tour-guiado-verano.webp', alt: 'blog_cuarenta_y_tres.inlineImages.plazaMayor.alt', caption: 'blog_cuarenta_y_tres.inlineImages.plazaMayor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/ferry-lleno-de-coches-llegando-al-puerto-de-palma-mallorca.webp', alt: 'blog_cuarenta_y_tres.inlineImages.ferry.alt', caption: 'blog_cuarenta_y_tres.inlineImages.ferry.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 1,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-cala-esmeralda-mallorca-sombrillas-hamacas-familias.webp', alt: 'blog_cuarenta_y_tres.inlineImages.calaEsmeralda.alt', caption: 'blog_cuarenta_y_tres.inlineImages.calaEsmeralda.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 3,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-sur-mallorca-santanyi-pueblo-turistas-banandose.webp', alt: 'blog_cuarenta_y_tres.inlineImages.santanyi.alt', caption: 'blog_cuarenta_y_tres.inlineImages.santanyi.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/coches-aparcados-carretera-que-llega-faro-formentor-mallorca.webp', alt: 'blog_cuarenta_y_tres.inlineImages.cochesFormentor.alt', caption: 'blog_cuarenta_y_tres.inlineImages.cochesFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/tren-de-soller-pasando-durante-mercadillo-mallorca-verano-turistas.webp', alt: 'blog_cuarenta_y_tres.inlineImages.trenSoller.alt', caption: 'blog_cuarenta_y_tres.inlineImages.trenSoller.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/terraza-plaza-de-cort-palma-mallorca-turistas-bar.webp', alt: 'blog_cuarenta_y_tres.inlineImages.plazaCort.alt', caption: 'blog_cuarenta_y_tres.inlineImages.plazaCort.caption' },
+      ],
+      layout: 'single',
+    },
+  ],
+},
+
+{
+  id: 44,
+  slug: 'mallorca-precios-caro-comparativa-value-for-money',
+  category: 'Consejos',
+  image: blogDetailsImg45,
+  badgeTitle: 'blog_cuarenta_y_cuatro.badgeTitle',
+  title: 'blog_cuarenta_y_cuatro.title',
+  metaTitle: 'blog_cuarenta_y_cuatro.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg45,
+  publishedDate: 'blog_cuarenta_y_cuatro.publishedDate',
+  description: 'blog_cuarenta_y_cuatro.meta_description',
+  metaDescription: 'blog_cuarenta_y_cuatro.metaDescription',
+  btnText: 'blog_cuarenta_y_cuatro.btnText',
+  keyword: 'blog_cuarenta_y_cuatro.keyword',
+  section1Title: 'blog_cuarenta_y_cuatro.section1.title',
+  section1Body: 'blog_cuarenta_y_cuatro.section1.body',
+  section2Title: 'blog_cuarenta_y_cuatro.section2.title',
+  section2Body: 'blog_cuarenta_y_cuatro.section2.body',
+  section3Title: 'blog_cuarenta_y_cuatro.section3.title',
+  section3Body: 'blog_cuarenta_y_cuatro.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_cuatro.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_cuatro.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_cuatro.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_cuatro.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_cuatro.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_cuatro.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_cuatro.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_cuatro.section3.sub4.body',
+  section3sub5Subtitle: 'blog_cuarenta_y_cuatro.section3.sub5.subtitle',
+  section3sub5Body: 'blog_cuarenta_y_cuatro.section3.sub5.body',
+  section4Title: 'blog_cuarenta_y_cuatro.section4.title',
+  section4Body: 'blog_cuarenta_y_cuatro.section4.body',
+  section5Title: 'blog_cuarenta_y_cuatro.section5.title',
+  section5Body: 'blog_cuarenta_y_cuatro.section5.body',
+  section6Title: 'blog_cuarenta_y_cuatro.section6.title',
+  section6Body: 'blog_cuarenta_y_cuatro.section6.body',
+  section7Title: 'blog_cuarenta_y_cuatro.section7.title',
+  section7Body: 'blog_cuarenta_y_cuatro.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_cuatro.conclusion',
+  imageAlt: 'blog_cuarenta_y_cuatro.imageAlt',
+  imageCaption: 'blog_cuarenta_y_cuatro.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_cuatro.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/mercado-semanal-alcudia-casco-antiguo-mallorca.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.mercadoAlcudia.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.mercadoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/arena-blanca-playa-alcudia-puerto-mallorca-sombrilla.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.playaAlcudia.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.playaAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/atardecer-espectacular-mar-bahia-alcudia.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.atardecer.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.atardecer.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/mercado-alcudia-mallorca-quesos-sobrasada.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.quesosSobrasada.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.quesosSobrasada.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/callejon-tipico-casco-historico-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.callejonAlcudia.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.callejonAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/paseo-playa-alcudia-puerto-mallorca-arena-cosas-que-hacer.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.paseoAlcudia.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.paseoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.coralBoats.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.coralBoats.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/sangria-fresh-fruit-in-a-boat-trip-with-sea-views.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.sangriaBarco.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.sangriaBarco.caption' },
       ],
       layout: 'grid-2',
     },
