@@ -39,8 +39,8 @@ const PrivateChartersPremiumSSR = ({ texts }: PrivateChartersPremiumSSRProps) =>
     <section className="premium-charters">
       <div className="premium-charters__background">
         <Image
-          src="/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp"
-          alt="Luxury private boat charter in Mallorca for weddings corporate events and special celebrations"
+          src="/assets/img/premium/2026/private/scenic-view-of-coll-baix-from-the-sky-during-boat-tour.webp"
+          alt="Aerial scenic view of Coll Baix beach during a private boat charter in Alcudia, Mallorca"
           fill
           sizes="100vw"
           style={{ objectFit: 'cover' }}
@@ -73,8 +73,8 @@ const PrivateChartersPremiumSSR = ({ texts }: PrivateChartersPremiumSSRProps) =>
                     <div className="premium-tour-card" style={{ cursor: 'pointer' }}>
                       <div className="premium-tour-card__image-wrapper">
                         <Image
-                          src="/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp"
-                          alt="Private boat charter in Mallorca - Custom itinerary with professional crew and catering"
+                          src="/assets/img/premium/2026/private/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp"
+                          alt="Aerial view of Coral Boats sailing past Alcanada Lighthouse Island - Private charter in Mallorca"
                           width={400}
                           height={500}
                           className="premium-tour-card__image"

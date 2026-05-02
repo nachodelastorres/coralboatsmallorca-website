@@ -13,7 +13,7 @@ import FooterSSR from '@/layouts/footers/FooterSSR';
 
 // SSR Components
 import GalleryHeroSSR from '@/components/gallery/GalleryHeroSSR';
-import GalleryGridClient from '@/components/gallery/GalleryGridClient';
+import GalleryGridClient, { GalleryImage } from '@/components/gallery/GalleryGridClient';
 import OurExperiencesTimelineSSR from '@/components/about/OurExperiencesTimelineSSR';
 import BlogPreviewSectionSSR from '@/components/premium/BlogPreviewSectionSSR';
 import GallerySchema from '@/components/schema/GallerySchema';
@@ -40,43 +40,42 @@ export default async function GalleryPage({ params }: PageProps) {
     badge: t('premium.gallery.hero_badge'),
     title: t('premium.gallery.hero_title'),
     subtitle: t('premium.gallery.hero_subtitle'),
+    imageAlt: t('premium.gallery.image_aerial_alcanada_lighthouse'),
   };
 
   // ===== GALLERY GRID TEXTS =====
-  const galleryImages = [
-    { file: 'faro-alcanada-excursion-barco-alcudia-mallorca.webp', title: t('premium.gallery.image_alcanada_lighthouse') },
-    { file: 'coral-boats-navegando-isla-alcanada-alcudia.webp', title: t('premium.gallery.image_boat_alcanada') },
-    { file: 'turistas-paseo-barco-aguas-cristalinas-mallorca.webp', title: t('premium.gallery.image_boat_fun') },
-    { file: 'interior-barco-coral-boats-puerto-alcudia.webp', title: t('premium.gallery.image_boat_interior') },
-    { file: 'excursion-matutina-snorkel-paddle-surf-alcudia.webp', title: t('premium.gallery.image_card_morning') },
-    { file: 'charter-privado-lujo-grupos-alcudia-mallorca.webp', title: t('premium.gallery.image_card_private') },
-    { file: 'crucero-atardecer-sunset-magic-alcudia.webp', title: t('premium.gallery.image_card_sunset') },
-    { file: 'barco-clasico-madera-coral-boats-mallorca.webp', title: t('premium.gallery.image_classic_boat') },
-    { file: 'vistas-costa-norte-mallorca-excursion-barco.webp', title: t('premium.gallery.image_coastline_views') },
-    { file: 'cala-secreta-accesible-barco-alcudia-mallorca.webp', title: t('premium.gallery.image_cove') },
-    { file: 'tripulacion-profesional-sirviendo-paseo-barco-alcudia.webp', title: t('premium.gallery.image_crew_service') },
-    { file: 'amigos-excursion-barco-bahia-alcudia.webp', title: t('premium.gallery.image_friends_enjoy') },
-    { file: 'amigos-recuerdos-paseo-barco-calas-mallorca.webp', title: t('premium.gallery.image_friends_fun') },
-    { file: 'celebracion-grupo-charter-privado-alcudia-mallorca.webp', title: t('premium.gallery.image_friends_group') },
-    { file: 'hora-dorada-mediterraneo-crucero-mallorca.webp', title: t('premium.gallery.image_golden_hour') },
-    { file: 'calas-escondidas-norte-mallorca-excursion-barco.webp', title: t('premium.gallery.image_hidden_coves') },
-    { file: 'excursion-barco-isla-alcanada-puerto-alcudia.webp', title: t('premium.gallery.image_island_boat') },
-    { file: 'ninos-actividades-acuaticas-excursion-familiar-mallorca.webp', title: t('premium.gallery.image_kids_fun') },
-    { file: 'paisaje-costero-mallorca-barco-excursiones-alcudia.webp', title: t('premium.gallery.image_mallorca_views') },
-    { file: 'tapas-mallorquinas-tradicionales-bordo-paseo-barco.webp', title: t('premium.gallery.image_mallorcan_tapas') },
-    { file: 'relax-colchoneta-flotante-aguas-alcudia.webp', title: t('premium.gallery.image_matress') },
-    { file: 'comida-mediterranea-excursion-barco-mallorca.webp', title: t('premium.gallery.image_meal') },
-    { file: 'paddle-surf-aguas-turquesas-excursion-alcudia.webp', title: t('premium.gallery.image_paddel_board') },
-    { file: 'vista-panoramica-playa-muro-bahia-alcudia.webp', title: t('premium.gallery.image_panoramic_beach') },
-    { file: 'pareja-crucero-romantico-atardecer-mallorca.webp', title: t('premium.gallery.image_partners') },
-    { file: 'tripulacion-experta-coral-boats-alcudia.webp', title: t('premium.gallery.image_professional_crew') },
-    { file: 'sangria-espanola-tapas-excursion-barco-mallorca.webp', title: t('premium.gallery.image_sangria_tapas') },
-    { file: 'atardecer-espectacular-mar-bahia-alcudia.webp', title: t('premium.gallery.image_sunset') },
-    { file: 'puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp', title: t('premium.gallery.image_sunset_image') },
-    { file: 'luz-dorada-atardecer-aguas-alcudia-mallorca.webp', title: t('premium.gallery.image_sunset_light') },
-    { file: 'puerto-alcudia-atardecer-barcos-excursiones.webp', title: t('premium.gallery.image_sunset_port') },
-    { file: 'pasajeros-excursion-barco-coral-boats-mallorca.webp', title: t('premium.gallery.image_tour') },
-    { file: 'actividades-acuaticas-snorkel-paddle-surf-alcudia.webp', title: t('premium.gallery.image_water_fun') },
+  // Images live in /public/assets/img/premium/2026/gallery/. Order is intentional —
+  // drives the masonry tessellation (index 0 is the 4×2 banner). Alt text comes
+  // from premium.gallery.image_* keys, translated per locale.
+  const galleryImages: GalleryImage[] = [
+    { file: 'coral-boats-mallorca-boat-trips-in-turquoise-water.webp', title: t('premium.gallery.image_turquoise_trips'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp', title: t('premium.gallery.image_aerial_alcanada_lighthouse'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp', title: t('premium.gallery.image_alcanada_lighthouse_trip'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp', title: t('premium.gallery.image_local_products_meal'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'boat-ride-from-port-of-alcudia-with-sunset-vibes-and-lights.webp', title: t('premium.gallery.image_sunset_vibes'), width: 2400, height: 1800, orient: 'landscape' },
+    { file: 'classic-boat-interior-with-spacious-seats-for-a-boat-trip.webp', title: t('premium.gallery.image_classic_interior_seats'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'cliffs-caves-and-coves-during-boat-trip-alcudia-mallorca.webp', title: t('premium.gallery.image_cliffs_caves_coves'), width: 1280, height: 1707, orient: 'portrait' },
+    { file: 'coral-boat-for-water-activities-and-boat-excursiones-mallorca-alcudia.webp', title: t('premium.gallery.image_water_activities_boat'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'coral-boat-ride-in-best-beaches-mallorca-alcudia-views.webp', title: t('premium.gallery.image_best_beaches'), width: 1280, height: 1707, orient: 'portrait' },
+    { file: 'coral-boats-crew-cruise-mallorca-north.webp', title: t('premium.gallery.image_crew_cruise'), width: 1440, height: 1080, orient: 'landscape' },
+    { file: 'aereal-view-of-boat-trip-in-mallorca-north-water-classic-vessel.webp', title: t('premium.gallery.image_aerial_north_classic'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp', title: t('premium.gallery.image_crystal_clear'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'fantastic-buffet-meal-served-during-boat-cruise-in-alcududia-mallorca.webp', title: t('premium.gallery.image_buffet_cruise'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'mountain-coastal-view-and-best-boat-ride-in-north-mallorca.webp', title: t('premium.gallery.image_mountain_coastal'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'north-coats-cliffs-coves-mallorca-views-from-boat-trip.webp', title: t('premium.gallery.image_north_cliffs'), width: 2035, height: 2069, orient: 'landscape' },
+    { file: 'north-mallorca-sea-views-from-back-of-boat-during-water-excursion.webp', title: t('premium.gallery.image_sea_views_back'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'port-of-alcudia-sunset-view-from-a-boat-tours.webp', title: t('premium.gallery.image_port_sunset_view'), width: 1536, height: 1152, orient: 'landscape' },
+    { file: 'puesta-de-sol-puerto-alcuida-paseo-en-barco.webp', title: t('premium.gallery.image_sunset_port_trip'), width: 2400, height: 1800, orient: 'landscape' },
+    { file: 'scenic-view-of-coll-baix-from-the-sky-during-boat-tour.webp', title: t('premium.gallery.image_coll_baix_aerial'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'scenic-views-north-mallorca-cliffs-from-relaxed-boat-trip.webp', title: t('premium.gallery.image_scenic_relaxed'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'side-of-classic-mediterranean-boat-during-excursion-north-mallorca.webp', title: t('premium.gallery.image_classic_mediterranean_side'), width: 1280, height: 1707, orient: 'portrait' },
+    { file: 'sunset-boat-trous-in-alcudia-beach-from-classic-vessel.webp', title: t('premium.gallery.image_sunset_classic_vessel'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'sunset-horizon-alcudia-mallorca-views-boat-trip.webp', title: t('premium.gallery.image_sunset_horizon'), width: 1280, height: 1707, orient: 'portrait' },
+    { file: 'sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp', title: t('premium.gallery.image_sunset_lights_sea'), width: 2400, height: 1800, orient: 'landscape' },
+    { file: 'sunset-view-in-alcudia-with-coral-boats-tour-mallorca.webp', title: t('premium.gallery.image_sunset_view_alcudia'), width: 2400, height: 1350, orient: 'landscape' },
+    { file: 'tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp', title: t('premium.gallery.image_tapas_sangria'), width: 2400, height: 3200, orient: 'portrait' },
+    { file: 'typical-local-mallorca-tapas-meal-during-boat-trip-alcudia.webp', title: t('premium.gallery.image_local_tapas'), width: 2400, height: 1800, orient: 'landscape' },
+    { file: 'wooden-classic-boat-trips-alcudia-with-confortable-interior.webp', title: t('premium.gallery.image_wooden_classic'), width: 2400, height: 3200, orient: 'portrait' },
   ];
 
   const galleryGridTexts = {
@@ -194,7 +193,16 @@ export default async function GalleryPage({ params }: PageProps) {
 
   return (
     <>
-      <GallerySchema locale={locale} />
+      <GallerySchema
+        locale={locale}
+        heroFile="aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp"
+        images={galleryImages.map((img) => ({
+          file: img.file,
+          description: img.title,
+          width: img.width,
+          height: img.height,
+        }))}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

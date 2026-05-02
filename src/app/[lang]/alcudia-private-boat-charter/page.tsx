@@ -54,6 +54,7 @@ export default async function PrivateCharter({ params }: PageProps) {
     ctaPricing: t('privateCharter.hero.ctaPricing'),
     ctaLearnMore: t('privateCharter.hero.ctaLearnMore'),
     pricingPath,
+    imageAlt: t('premium.gallery.image_alcanada_lighthouse_trip'),
   };
 
   // ===== CAPACITY TEXTS =====
@@ -82,6 +83,7 @@ export default async function PrivateCharter({ params }: PageProps) {
     infoBoxText: t('privateCharter.capacity.infoBoxText'),
     ctaButton: t('privateCharter.capacity.ctaButton'),
     pricingPath,
+    cardImageAlt: t('premium.gallery.image_turquoise_trips'),
   };
 
   // ===== EVENTS TEXTS =====
@@ -162,7 +164,7 @@ export default async function PrivateCharter({ params }: PageProps) {
         icon: 'fa-star',
         title: t('privateCharter.events.special.title'),
         description: t('privateCharter.events.special.description'),
-        image: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp',
+        image: '/assets/img/premium/2026/private/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp',
         features: [
           t('privateCharter.events.special.feature1'),
           t('privateCharter.events.special.feature2'),
@@ -186,7 +188,9 @@ export default async function PrivateCharter({ params }: PageProps) {
   };
 
   // ===== GALLERY TEXTS =====
-  const galleryImagesT = t('privateCharter.gallery.images') as unknown as Record<string, string> || {};
+  // 28 images live in /assets/img/premium/2026/private/. Alt + caption reuse the
+  // localized strings under premium.gallery.image_* (already in 6 languages).
+  const privateBase = '/assets/img/premium/2026/private';
   const galleryTexts = {
     label: t('privateCharter.gallery.label'),
     title: t('privateCharter.gallery.title'),
@@ -195,24 +199,34 @@ export default async function PrivateCharter({ params }: PageProps) {
     ctaSecondary: t('tours.gallery.cta_secondary'),
     galleryPath,
     images: [
-      { src: '/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp', alt: 'Classic Coral Boats charter vessel for private events in Alcudia Mallorca', caption: galleryImagesT.img1 || 'Our classic boat: the perfect setting for your private event' },
-      { src: '/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp', alt: 'Large group enjoying private boat charter in Bay of Alcudia Mallorca', caption: galleryImagesT.img2 || 'Large groups enjoying an exclusive charter' },
-      { src: '/assets/img/premium/home_new/private-charter-sailing-crystal-waters-alcudia.webp', alt: 'Private charter boat sailing crystal clear waters of Alcudia Bay', caption: galleryImagesT.img3 || 'Sailing through crystal-clear waters' },
-      { src: '/assets/img/premium/home_new/guests-relaxing-private-charter-deck-mallorca.webp', alt: 'Guests relaxing on private charter boat deck in Mallorca', caption: galleryImagesT.img4 || 'Relaxing moments on deck' },
-      { src: '/assets/img/premium/home_new/private-charter-mediterranean-views-mallorca.webp', alt: 'Private boat charter experience with stunning Mediterranean views Mallorca', caption: galleryImagesT.img5 || 'Spectacular views from your private charter' },
-      { src: '/assets/img/premium/home_new/group-celebration-private-charter-alcudia.webp', alt: 'Group celebration on private charter boat in Alcudia Mallorca', caption: galleryImagesT.img6 || 'Memorable celebrations with Coral Boats crew' },
-      { src: '/assets/img/premium/home_new/spacious-interior-private-charter-40-guests.webp', alt: 'Spacious interior of private charter boat with capacity for 40 guests', caption: galleryImagesT.img7 || 'Spacious interior for up to 40 guests' },
-      { src: '/assets/img/premium/home_new/corporate-events-private-charter-alcudia.webp', alt: 'Private charter boat for corporate events and celebrations Alcudia', caption: galleryImagesT.img8 || 'Perfect for corporate events and teambuilding' },
-      { src: '/assets/img/premium/home_new/friends-private-boat-party-mallorca.webp', alt: 'Friends enjoying private boat charter party in Mallorca', caption: galleryImagesT.img9 || 'Friends creating unique memories at sea' },
-      { src: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp', alt: 'Sunset views from private charter boat in Alcudia Bay Mallorca', caption: galleryImagesT.img10 || 'Magical sunsets from your private boat' },
-      { src: '/assets/img/premium/home_new/golden-hour-sunset-private-charter-mallorca.webp', alt: 'Private boat charter during golden hour sunset in Mallorca', caption: galleryImagesT.img11 || 'Golden hour over the Mediterranean' },
-      { src: '/assets/img/premium/home_new/private-charter-arriving-port-alcudia-sunset.webp', alt: 'Private charter boat arriving at Port Alcudia during sunset', caption: galleryImagesT.img12 || 'Arriving at Alcudia port at sunset' },
-      { src: '/assets/img/premium/home_new/swimming-water-activities-private-charter.webp', alt: 'Swimming and water activities on private charter boat Mallorca', caption: galleryImagesT.img13 || 'Exclusive water activities for your group' },
-      { src: '/assets/img/premium/home_new/special-celebrations-private-charter-alcudia.webp', alt: 'Private boat charter for special celebrations and events Alcudia', caption: galleryImagesT.img14 || 'Special celebrations in a unique setting' },
-      { src: '/assets/img/premium/home_new/exclusive-boat-rental-alcudia-bay.webp', alt: 'Exclusive private boat rental experience in Alcudia Bay Mallorca', caption: galleryImagesT.img15 || 'Exclusive boat rental experience' },
-      { src: '/assets/img/premium/home_new/private-charter-hidden-coves-mallorca.webp', alt: 'Private charter boat exploring hidden coves of northern Mallorca', caption: galleryImagesT.img16 || 'Exploring hidden coves on your private charter' },
-      { src: '/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp', alt: 'Private charter boat for up to 40 people in Alcudia Mallorca', caption: galleryImagesT.img17 || 'Capacity for up to 40 people' },
-      { src: '/assets/img/premium/home_new/classic-boat-bow-mediterranean-mallorca.webp', alt: 'Bow view of classic private charter boat in Mediterranean waters', caption: galleryImagesT.img18 || 'Classic bow: Mallorcan maritime elegance' }
+      { src: `${privateBase}/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp`, alt: t('premium.gallery.image_alcanada_lighthouse_trip'), caption: t('premium.gallery.image_alcanada_lighthouse_trip') },
+      { src: `${privateBase}/coral-boats-mallorca-boat-trips-in-turquoise-water.webp`, alt: t('premium.gallery.image_turquoise_trips'), caption: t('premium.gallery.image_turquoise_trips') },
+      { src: `${privateBase}/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp`, alt: t('premium.gallery.image_aerial_alcanada_lighthouse'), caption: t('premium.gallery.image_aerial_alcanada_lighthouse') },
+      { src: `${privateBase}/aereal-view-of-boat-trip-in-mallorca-north-water-classic-vessel.webp`, alt: t('premium.gallery.image_aerial_north_classic'), caption: t('premium.gallery.image_aerial_north_classic') },
+      { src: `${privateBase}/scenic-view-of-coll-baix-from-the-sky-during-boat-tour.webp`, alt: t('premium.gallery.image_coll_baix_aerial'), caption: t('premium.gallery.image_coll_baix_aerial') },
+      { src: `${privateBase}/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp`, alt: t('premium.gallery.image_crystal_clear'), caption: t('premium.gallery.image_crystal_clear') },
+      { src: `${privateBase}/coral-boat-ride-in-best-beaches-mallorca-alcudia-views.webp`, alt: t('premium.gallery.image_best_beaches'), caption: t('premium.gallery.image_best_beaches') },
+      { src: `${privateBase}/coral-boat-for-water-activities-and-boat-excursiones-mallorca-alcudia.webp`, alt: t('premium.gallery.image_water_activities_boat'), caption: t('premium.gallery.image_water_activities_boat') },
+      { src: `${privateBase}/coral-boats-crew-cruise-mallorca-north.webp`, alt: t('premium.gallery.image_crew_cruise'), caption: t('premium.gallery.image_crew_cruise') },
+      { src: `${privateBase}/cliffs-caves-and-coves-during-boat-trip-alcudia-mallorca.webp`, alt: t('premium.gallery.image_cliffs_caves_coves'), caption: t('premium.gallery.image_cliffs_caves_coves') },
+      { src: `${privateBase}/north-coats-cliffs-coves-mallorca-views-from-boat-trip.webp`, alt: t('premium.gallery.image_north_cliffs'), caption: t('premium.gallery.image_north_cliffs') },
+      { src: `${privateBase}/north-mallorca-sea-views-from-back-of-boat-during-water-excursion.webp`, alt: t('premium.gallery.image_sea_views_back'), caption: t('premium.gallery.image_sea_views_back') },
+      { src: `${privateBase}/scenic-views-north-mallorca-cliffs-from-relaxed-boat-trip.webp`, alt: t('premium.gallery.image_scenic_relaxed'), caption: t('premium.gallery.image_scenic_relaxed') },
+      { src: `${privateBase}/mountain-coastal-view-and-best-boat-ride-in-north-mallorca.webp`, alt: t('premium.gallery.image_mountain_coastal'), caption: t('premium.gallery.image_mountain_coastal') },
+      { src: `${privateBase}/classic-boat-interior-with-spacious-seats-for-a-boat-trip.webp`, alt: t('premium.gallery.image_classic_interior_seats'), caption: t('premium.gallery.image_classic_interior_seats') },
+      { src: `${privateBase}/wooden-classic-boat-trips-alcudia-with-confortable-interior.webp`, alt: t('premium.gallery.image_wooden_classic'), caption: t('premium.gallery.image_wooden_classic') },
+      { src: `${privateBase}/side-of-classic-mediterranean-boat-during-excursion-north-mallorca.webp`, alt: t('premium.gallery.image_classic_mediterranean_side'), caption: t('premium.gallery.image_classic_mediterranean_side') },
+      { src: `${privateBase}/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp`, alt: t('premium.gallery.image_local_products_meal'), caption: t('premium.gallery.image_local_products_meal') },
+      { src: `${privateBase}/fantastic-buffet-meal-served-during-boat-cruise-in-alcududia-mallorca.webp`, alt: t('premium.gallery.image_buffet_cruise'), caption: t('premium.gallery.image_buffet_cruise') },
+      { src: `${privateBase}/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp`, alt: t('premium.gallery.image_tapas_sangria'), caption: t('premium.gallery.image_tapas_sangria') },
+      { src: `${privateBase}/typical-local-mallorca-tapas-meal-during-boat-trip-alcudia.webp`, alt: t('premium.gallery.image_local_tapas'), caption: t('premium.gallery.image_local_tapas') },
+      { src: `${privateBase}/boat-ride-from-port-of-alcudia-with-sunset-vibes-and-lights.webp`, alt: t('premium.gallery.image_sunset_vibes'), caption: t('premium.gallery.image_sunset_vibes') },
+      { src: `${privateBase}/port-of-alcudia-sunset-view-from-a-boat-tours.webp`, alt: t('premium.gallery.image_port_sunset_view'), caption: t('premium.gallery.image_port_sunset_view') },
+      { src: `${privateBase}/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp`, alt: t('premium.gallery.image_sunset_port_trip'), caption: t('premium.gallery.image_sunset_port_trip') },
+      { src: `${privateBase}/sunset-boat-trous-in-alcudia-beach-from-classic-vessel.webp`, alt: t('premium.gallery.image_sunset_classic_vessel'), caption: t('premium.gallery.image_sunset_classic_vessel') },
+      { src: `${privateBase}/sunset-horizon-alcudia-mallorca-views-boat-trip.webp`, alt: t('premium.gallery.image_sunset_horizon'), caption: t('premium.gallery.image_sunset_horizon') },
+      { src: `${privateBase}/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp`, alt: t('premium.gallery.image_sunset_lights_sea'), caption: t('premium.gallery.image_sunset_lights_sea') },
+      { src: `${privateBase}/sunset-view-in-alcudia-with-coral-boats-tour-mallorca.webp`, alt: t('premium.gallery.image_sunset_view_alcudia'), caption: t('premium.gallery.image_sunset_view_alcudia') },
     ],
   };
 
@@ -344,7 +358,7 @@ export default async function PrivateCharter({ params }: PageProps) {
     "name": heroTexts.title,
     "description": heroTexts.subtitle,
     "inLanguage": locale,
-    "image": "https://www.coralboatsmallorca.com/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp",
+    "image": "https://www.coralboatsmallorca.com/assets/img/premium/2026/private/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp",
     "provider": {
       "@type": "Organization",
       "@id": "https://www.coralboatsmallorca.com/#organization",
@@ -480,9 +494,9 @@ export default async function PrivateCharter({ params }: PageProps) {
     "name": heroTexts.title,
     "description": heroTexts.subtitle,
     "image": [
-      "https://www.coralboatsmallorca.com/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp",
-      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp",
-      "https://www.coralboatsmallorca.com/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/private/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/private/coral-boats-mallorca-boat-trips-in-turquoise-water.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/private/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp"
     ],
     "url": canonicalUrl,
     "brand": {

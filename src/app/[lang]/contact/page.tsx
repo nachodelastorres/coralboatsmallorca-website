@@ -32,6 +32,7 @@ export default async function ContactPage({ params }: PageProps) {
     badge: t('premium.contact_page.hero_badge'),
     title: t('premium.contact.title'),
     subtitle: t('premium.contact.body'),
+    imageAlt: t('premium.gallery.image_turquoise_trips'),
   };
 
   // ===== FORM TEXTS =====

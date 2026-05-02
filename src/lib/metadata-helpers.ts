@@ -234,7 +234,29 @@ export function generateContactMetadata(locale: Locale): Metadata {
  * Generate metadata for Gallery page
  */
 export function generateGalleryMetadata(locale: Locale): Metadata {
-  return generatePageMetadata(galleryMetadata, locale, '/gallery');
+  const base = generatePageMetadata(galleryMetadata, locale, '/gallery');
+  const meta = galleryMetadata[locale];
+  // Gallery has rich photo content — give it a proper OG image so social shares
+  // and link previews surface a representative photo instead of falling back.
+  const ogImageUrl = `${baseUrl}/assets/img/premium/2026/gallery/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp`;
+  return {
+    ...base,
+    openGraph: {
+      ...base.openGraph,
+      images: [
+        {
+          url: ogImageUrl,
+          width: 2400,
+          height: 1350,
+          alt: meta.title,
+        },
+      ],
+    },
+    twitter: {
+      ...base.twitter,
+      images: [ogImageUrl],
+    },
+  };
 }
 
 /**

@@ -74,6 +74,10 @@ const PrivateCharterEventsClient = ({ texts }: PrivateCharterEventsClientProps) 
                       height={300}
                       className="premium-experience-card__image"
                       sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw"
+                      style={{
+                        objectFit: 'cover',
+                        objectPosition: event.id === 'special' ? 'center 70%' : 'center',
+                      }}
                     />
                     <div className="premium-experience-card__icon-wrapper">
                       <div className="icon-circle">

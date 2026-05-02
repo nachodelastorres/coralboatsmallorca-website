@@ -37,6 +37,7 @@ export interface SunsetTourDetailsTexts {
   importantInfoTitle: string;
   infoItems: string[];
   ctaBook: string;
+  cardImageAlt: string;
 }
 
 interface SunsetTourDetailsSSRProps {
@@ -99,8 +100,8 @@ const SunsetTourDetailsSSR = ({ texts }: SunsetTourDetailsSSRProps) => {
             <div className="tour-info-card">
               <div className="card-image">
                 <Image
-                  src="/assets/img/premium/sunset_new/golden-sunset-light-alcudia-bay-mallorca.webp"
-                  alt="Sunset boat tour activities in Alcudia Bay Mallorca"
+                  src="/assets/img/premium/2026/sunset/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp"
+                  alt={texts.cardImageAlt}
                   width={600}
                   height={400}
                   className="info-image"

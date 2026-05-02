@@ -27,6 +27,7 @@ export interface MorningTourHeroTexts {
   children: string;
   infants: string;
   free: string;
+  imageAlt: string;
 }
 
 interface MorningTourHeroSSRProps {
@@ -38,8 +39,8 @@ const MorningTourHeroSSR = ({ texts }: MorningTourHeroSSRProps) => {
     <section className="premium-tour-hero">
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/morning_new/09.webp"
-          alt="Morning Adventure boat tour in Alcudia Bay Mallorca - Snorkeling and coastal exploration"
+          src="/assets/img/premium/2026/morning/scenic-view-of-coll-baix-from-the-sky-during-boat-tour.webp"
+          alt={texts.imageAlt}
           fill
           sizes="100vw"
           style={{ objectFit: 'cover' }}

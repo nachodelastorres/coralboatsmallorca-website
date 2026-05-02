@@ -28,6 +28,9 @@ export interface AboutPremiumTexts {
   quoteAuthor: string;
   ctaButton: string;
   aboutPath: string;
+  imageAlt1: string;
+  imageAlt2: string;
+  imageAlt3: string;
 }
 
 interface AboutPremiumSSRProps {
@@ -44,8 +47,8 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
               <div className="gallery-grid">
                 <div className="gallery-item gallery-item--large">
                   <Image
-                    src="/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
-                    alt="Classic Amayna II boat from 1968 sailing in Bay of Alcudia Mallorca waters"
+                    src="/assets/img/premium/2026/gallery/coral-boat-ride-in-best-beaches-mallorca-alcudia-views.webp"
+                    alt={texts.imageAlt1}
                     width={600}
                     height={700}
                     className="gallery-image"
@@ -54,8 +57,8 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
                 </div>
                 <div className="gallery-item gallery-item--small gallery-item--top">
                   <Image
-                    src="/assets/img/premium/home_new/spacious-interior-private-charter-40-guests.webp"
-                    alt="Comfortable and classic interior of Amayna II 1968 boat with authentic maritime charm"
+                    src="/assets/img/premium/2026/gallery/coral-boats-crew-cruise-mallorca-north.webp"
+                    alt={texts.imageAlt2}
                     width={280}
                     height={330}
                     className="gallery-image"
@@ -64,8 +67,8 @@ const AboutPremiumSSR = ({ texts }: AboutPremiumSSRProps) => {
                 </div>
                 <div className="gallery-item gallery-item--small gallery-item--bottom">
                   <Image
-                    src="/assets/img/premium/home_new/corporate-partners-private-charter-mallorca.webp"
-                    alt="Partners and crew of Coral Boats Mallorca providing exceptional boat tour experiences"
+                    src="/assets/img/premium/2026/gallery/wooden-classic-boat-trips-alcudia-with-confortable-interior.webp"
+                    alt={texts.imageAlt3}
                     width={280}
                     height={330}
                     className="gallery-image"

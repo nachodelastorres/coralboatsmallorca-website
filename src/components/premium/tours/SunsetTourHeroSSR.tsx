@@ -27,6 +27,7 @@ export interface SunsetTourHeroTexts {
   children: string;
   infants: string;
   free: string;
+  imageAlt: string;
 }
 
 interface SunsetTourHeroSSRProps {
@@ -38,8 +39,8 @@ const SunsetTourHeroSSR = ({ texts }: SunsetTourHeroSSRProps) => {
     <section className="premium-tour-hero">
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp"
-          alt="Sunset boat tour in Alcudia Bay Mallorca - Romantic evening cruise"
+          src="/assets/img/premium/2026/sunset/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp"
+          alt={texts.imageAlt}
           fill
           sizes="100vw"
           style={{ objectFit: 'cover' }}

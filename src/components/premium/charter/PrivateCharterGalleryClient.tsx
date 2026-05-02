@@ -60,14 +60,20 @@ const PrivateCharterGalleryClient = ({ texts }: PrivateCharterGalleryClientProps
                 className="main-image-wrapper"
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
-                style={{ position: 'relative', overflow: 'hidden' }}
+                style={{
+                  position: 'relative',
+                  overflow: 'hidden',
+                  aspectRatio: '16 / 9',
+                  width: '100%',
+                  borderRadius: '20px',
+                }}
               >
                 <Image
                   src={texts.images[activeImage].src}
                   alt={texts.images[activeImage].alt}
-                  width={1200}
-                  height={700}
+                  fill
                   className="main-image"
+                  style={{ objectFit: 'cover' }}
                   sizes="(max-width: 768px) 100vw, 90vw"
                   priority={activeImage === 0}
                 />
@@ -112,14 +118,20 @@ const PrivateCharterGalleryClient = ({ texts }: PrivateCharterGalleryClientProps
                     key={index}
                     className={`thumbnail ${activeImage === index ? 'active' : ''}`}
                     onClick={() => setActiveImage(index)}
+                    style={{
+                      position: 'relative',
+                      aspectRatio: '4 / 3',
+                      overflow: 'hidden',
+                      cursor: 'pointer',
+                    }}
                   >
                     <Image
                       src={image.src}
                       alt={image.alt}
-                      width={200}
-                      height={150}
+                      fill
                       className="thumbnail-image"
-                      sizes="200px"
+                      style={{ objectFit: 'cover' }}
+                      sizes="(max-width: 768px) 25vw, 150px"
                     />
                   </div>
                 ))}

@@ -42,6 +42,8 @@ export default async function SunsetTour({ params }: PageProps) {
   // Access premium.tours for price labels
   const premium = (dict.premium || {}) as Record<string, Record<string, string>>;
   const tours = (premium.tours || {}) as Record<string, string>;
+  // Reuse the gallery image alt translations (28 keys, 6 locales) site-wide
+  const premiumGallery = (premium.gallery || {}) as Record<string, string>;
 
   const canonicalUrl = `https://www.coralboatsmallorca.com/${params.lang}/alcudia-sunset-boat-tour`;
 
@@ -127,7 +129,7 @@ export default async function SunsetTour({ params }: PageProps) {
     "inLanguage": params.lang,
     "name": hero.title || "Sunset Boat Tour in Alcudia Bay",
     "description": hero.subtitle || "Experience the magic of a Mediterranean sunset on our 3-hour evening boat tour.",
-    "image": "https://www.coralboatsmallorca.com/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp",
+    "image": "https://www.coralboatsmallorca.com/assets/img/premium/2026/sunset/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp",
     "provider": {
       "@type": "Organization",
       "@id": "https://www.coralboatsmallorca.com/#organization",
@@ -303,9 +305,9 @@ export default async function SunsetTour({ params }: PageProps) {
     "name": hero.title || "Sunset Boat Tour in Alcudia Bay",
     "description": hero.subtitle || "Experience the magic of a Mediterranean sunset on our 3-hour evening boat tour.",
     "image": [
-      "https://www.coralboatsmallorca.com/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp",
-      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp",
-      "https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp"
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/sunset/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/sunset/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp",
+      "https://www.coralboatsmallorca.com/assets/img/premium/2026/sunset/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp"
     ],
     "url": canonicalUrl,
     "brand": {
@@ -386,6 +388,7 @@ export default async function SunsetTour({ params }: PageProps) {
     children: tours.children || 'Children',
     infants: tours.infants || 'Infants',
     free: tours.free || 'Free',
+    imageAlt: premiumGallery.image_sunset_port_trip || 'Sunset over Port of Alcudia during a boat trip',
   };
 
   // Details texts
@@ -430,6 +433,7 @@ export default async function SunsetTour({ params }: PageProps) {
       details.info5 || "Departure from Port d'Alcúdia",
     ],
     ctaBook: details.ctaBook || 'Click Here to Book Your Spot',
+    cardImageAlt: premiumGallery.image_local_products_meal || 'On-board cruise meal with local Mallorcan products in Alcudia',
   };
 
   // Itinerary texts
@@ -545,6 +549,9 @@ export default async function SunsetTour({ params }: PageProps) {
   const galleryImages = (gallery.images || {}) as Record<string, string>;
 
   // Gallery texts
+  // 25 images live in /assets/img/premium/2026/sunset/. Alt + caption reuse the
+  // localized strings under premium.gallery.image_* (already in 6 languages).
+  const sunsetBase = '/assets/img/premium/2026/sunset';
   const galleryTexts = {
     label: gallery.label || 'Gallery',
     title: gallery.title || 'Magical Sunset Moments',
@@ -553,20 +560,27 @@ export default async function SunsetTour({ params }: PageProps) {
     ctaSecondary: toursGallery.cta_secondary || 'Discover more unforgettable moments',
     galleryPath: `/${params.lang}/gallery`,
     images: [
-      { src: '/assets/img/premium/sunset_new/golden-sunset-light-alcudia-bay-mallorca.webp', alt: 'Sunset boat tour sailing through golden waters of Alcudia Bay Mallorca', caption: galleryImages.img1 || 'Golden light over Alcudia Bay' },
-      { src: '/assets/img/premium/morning_new/boat-trip-mallorca-northern-coastline.webp', alt: 'Evening boat trip along Mallorca northern coastline', caption: galleryImages.img2 || 'Sailing towards the horizon' },
-      { src: '/assets/img/premium/morning_new/snorkeling-mediterranean-fish-alcudia-bay.webp', alt: 'Swimming activities in golden evening light in Alcudia Bay', caption: galleryImages.img3 || 'Swimming at sunset' },
-      { src: '/assets/img/premium/morning_new/crystal-clear-turquoise-waters-alcudia-bay.webp', alt: 'Beautiful evening waters perfect for swimming', caption: galleryImages.img4 || 'Golden reflections on crystal waters' },
-      { src: '/assets/img/premium/morning_new/authentic-mallorcan-tapas-onboard-boat-tour.webp', alt: 'Authentic Mallorcan tapas served on board during sunset boat tour', caption: galleryImages.img5 || 'Tapas with sunset views' },
-      { src: '/assets/img/premium/morning_new/coral-boats-classic-1968-boat-mallorca.webp', alt: 'Classic 1968 Coral Boats vessel at sunset cruising Mallorca coastline', caption: galleryImages.img6 || 'Our boat bathed in evening light' },
-      { src: '/assets/img/premium/sunset_new/guests-toasting-sunset-boat-tour-mallorca.webp', alt: 'Happy guests enjoying sunset boat tour experience in Mallorca', caption: galleryImages.img7 || 'Toasting to the best sunsets' },
-      { src: '/assets/img/premium/morning_new/traditional-homemade-sangria-boat-excursion.webp', alt: 'Authentic homemade Sangria served on board during sunset tour', caption: galleryImages.img8 || 'Sangria: the perfect sunset companion' },
-      { src: '/assets/img/premium/morning_new/water-activities-floats-paradise-alcudia.webp', alt: 'Water activities in golden evening light in Alcudia Bay', caption: galleryImages.img9 || 'Floating in warm waters' },
-      { src: '/assets/img/premium/sunset_new/alcudia-coastline-sunset-silhouette.webp', alt: 'Alcudia coastline at sunset', caption: galleryImages.img10 || 'The coast silhouetted against a colorful sky' },
-      { src: '/assets/img/premium/morning_new/sweet-moments-icecream-boat-cruise.webp', alt: 'Sweet treats during sunset boat cruise in Alcudia Bay', caption: galleryImages.img11 || 'Sweet moments at dusk' },
-      { src: '/assets/img/premium/sunset_new/sunset-boat-cruise-reddish-sky-alcudia.webp', alt: 'Sunset boat cruise along Alcudia coastline Mallorca', caption: galleryImages.img12 || 'Sailing through reddish tones' },
-      { src: '/assets/img/premium/morning_new/classic-boat-interior-coral-boats.webp', alt: 'Interior of classic Coral Boats vessel at sunset in Alcudia Bay', caption: galleryImages.img13 || 'Cozy atmosphere on board' },
-      { src: '/assets/img/premium/morning_new/panoramic-coastline-views-morning-cruise.webp', alt: 'Enjoying the sunset boat cruise in Alcudia Bay Mallorca', caption: galleryImages.img14 || 'Panoramic sunset views' },
+      { src: `${sunsetBase}/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp`, alt: premiumGallery.image_sunset_port_trip || '', caption: premiumGallery.image_sunset_port_trip || '' },
+      { src: `${sunsetBase}/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp`, alt: premiumGallery.image_sunset_lights_sea || '', caption: premiumGallery.image_sunset_lights_sea || '' },
+      { src: `${sunsetBase}/sunset-horizon-alcudia-mallorca-views-boat-trip.webp`, alt: premiumGallery.image_sunset_horizon || '', caption: premiumGallery.image_sunset_horizon || '' },
+      { src: `${sunsetBase}/sunset-view-in-alcudia-with-coral-boats-tour-mallorca.webp`, alt: premiumGallery.image_sunset_view_alcudia || '', caption: premiumGallery.image_sunset_view_alcudia || '' },
+      { src: `${sunsetBase}/port-of-alcudia-sunset-view-from-a-boat-tours.webp`, alt: premiumGallery.image_port_sunset_view || '', caption: premiumGallery.image_port_sunset_view || '' },
+      { src: `${sunsetBase}/boat-ride-from-port-of-alcudia-with-sunset-vibes-and-lights.webp`, alt: premiumGallery.image_sunset_vibes || '', caption: premiumGallery.image_sunset_vibes || '' },
+      { src: `${sunsetBase}/sunset-boat-trous-in-alcudia-beach-from-classic-vessel.webp`, alt: premiumGallery.image_sunset_classic_vessel || '', caption: premiumGallery.image_sunset_classic_vessel || '' },
+      { src: `${sunsetBase}/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp`, alt: premiumGallery.image_tapas_sangria || '', caption: premiumGallery.image_tapas_sangria || '' },
+      { src: `${sunsetBase}/typical-local-mallorca-tapas-meal-during-boat-trip-alcudia.webp`, alt: premiumGallery.image_local_tapas || '', caption: premiumGallery.image_local_tapas || '' },
+      { src: `${sunsetBase}/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp`, alt: premiumGallery.image_local_products_meal || '', caption: premiumGallery.image_local_products_meal || '' },
+      { src: `${sunsetBase}/fantastic-buffet-meal-served-during-boat-cruise-in-alcududia-mallorca.webp`, alt: premiumGallery.image_buffet_cruise || '', caption: premiumGallery.image_buffet_cruise || '' },
+      { src: `${sunsetBase}/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp`, alt: premiumGallery.image_aerial_alcanada_lighthouse || '', caption: premiumGallery.image_aerial_alcanada_lighthouse || '' },
+      { src: `${sunsetBase}/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp`, alt: premiumGallery.image_alcanada_lighthouse_trip || '', caption: premiumGallery.image_alcanada_lighthouse_trip || '' },
+      { src: `${sunsetBase}/north-coats-cliffs-coves-mallorca-views-from-boat-trip.webp`, alt: premiumGallery.image_north_cliffs || '', caption: premiumGallery.image_north_cliffs || '' },
+      { src: `${sunsetBase}/scenic-views-north-mallorca-cliffs-from-relaxed-boat-trip.webp`, alt: premiumGallery.image_scenic_relaxed || '', caption: premiumGallery.image_scenic_relaxed || '' },
+      { src: `${sunsetBase}/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp`, alt: premiumGallery.image_crystal_clear || '', caption: premiumGallery.image_crystal_clear || '' },
+      { src: `${sunsetBase}/coral-boat-for-water-activities-and-boat-excursiones-mallorca-alcudia.webp`, alt: premiumGallery.image_water_activities_boat || '', caption: premiumGallery.image_water_activities_boat || '' },
+      { src: `${sunsetBase}/coral-boats-crew-cruise-mallorca-north.webp`, alt: premiumGallery.image_crew_cruise || '', caption: premiumGallery.image_crew_cruise || '' },
+      { src: `${sunsetBase}/classic-boat-interior-with-spacious-seats-for-a-boat-trip.webp`, alt: premiumGallery.image_classic_interior_seats || '', caption: premiumGallery.image_classic_interior_seats || '' },
+      { src: `${sunsetBase}/wooden-classic-boat-trips-alcudia-with-confortable-interior.webp`, alt: premiumGallery.image_wooden_classic || '', caption: premiumGallery.image_wooden_classic || '' },
+      { src: `${sunsetBase}/side-of-classic-mediterranean-boat-during-excursion-north-mallorca.webp`, alt: premiumGallery.image_classic_mediterranean_side || '', caption: premiumGallery.image_classic_mediterranean_side || '' },
     ],
   };
 

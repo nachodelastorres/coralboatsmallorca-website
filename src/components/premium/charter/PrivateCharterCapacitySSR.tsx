@@ -34,6 +34,7 @@ export interface PrivateCharterCapacityTexts {
   infoBoxText: string;
   ctaButton: string;
   pricingPath: string;
+  cardImageAlt: string;
 }
 
 interface PrivateCharterCapacitySSRProps {
@@ -104,8 +105,8 @@ const PrivateCharterCapacitySSR = ({ texts }: PrivateCharterCapacitySSRProps) =>
             <div className="tour-info-card">
               <div className="card-image">
                 <Image
-                  src="/assets/img/premium/home_new/large-group-private-charter-alcudia-bay.webp"
-                  alt="Private charter boat for groups up to 40 people in Alcudia Mallorca"
+                  src="/assets/img/premium/2026/private/coral-boats-mallorca-boat-trips-in-turquoise-water.webp"
+                  alt={texts.cardImageAlt}
                   width={600}
                   height={400}
                   className="info-image"

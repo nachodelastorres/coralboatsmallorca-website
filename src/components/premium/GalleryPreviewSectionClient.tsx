@@ -51,11 +51,11 @@ const GalleryPreviewSectionClient = ({
               }}
             >
               <Image
-                src={`/assets/img/premium/gallery_new/${image.file}`}
+                src={`/assets/img/premium/2026/gallery/${image.file}`}
                 alt={image.title}
                 fill
                 style={{ objectFit: 'cover' }}
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 35vw"
               />
               <div
                 className="gallery-preview-item__overlay"

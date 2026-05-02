@@ -130,7 +130,7 @@ export default async function Home({ params }: PageProps) {
         time: t('premium.tours.morning_time'),
         duration: t('premium.tours.morning_duration'),
         price: t('premium.tours.morning_price'),
-        image: '/assets/img/premium/home_new/card_morning.webp',
+        image: '/assets/img/premium/2026/gallery/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp',
         imageAlt: `${t('premium.tours.morning_name')} boat tour in Mallorca Bay of Alcudia`,
         link: morningTourPath,
         highlight: t('premium.tours.morning_highlights').split('•')[0].trim(),
@@ -143,7 +143,7 @@ export default async function Home({ params }: PageProps) {
         time: t('premium.tours.sunset_time'),
         duration: t('premium.tours.sunset_duration'),
         price: t('premium.tours.sunset_price'),
-        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
+        image: '/assets/img/premium/2026/gallery/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp',
         imageAlt: `${t('premium.tours.sunset_name')} boat tour in Mallorca Bay of Alcudia`,
         link: sunsetTourPath,
         highlight: t('premium.tours.sunset_highlights').split('•')[0].trim(),
@@ -172,6 +172,9 @@ export default async function Home({ params }: PageProps) {
     quoteAuthor: t('about.quote_author'),
     ctaButton: t('about.cta_button'),
     aboutPath,
+    imageAlt1: t('premium.gallery.image_best_beaches'),
+    imageAlt2: t('premium.gallery.image_crew_cruise'),
+    imageAlt3: t('premium.gallery.image_wooden_classic'),
   };
 
   // ===== PRIVATE CHARTERS TEXTS =====
@@ -317,21 +320,21 @@ export default async function Home({ params }: PageProps) {
         id: 'morning',
         name: t('tours_cta_banner.morning.name') || 'Morning Tour',
         tagline: t('tours_cta_banner.morning.tagline') || 'Crystal waters & snorkeling',
-        image: '/assets/img/premium/home_new/card_morning.webp',
+        image: '/assets/img/premium/2026/gallery/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp',
         link: morningTourPath,
       },
       {
         id: 'sunset',
         name: t('tours_cta_banner.sunset.name') || 'Sunset Tour',
         tagline: t('tours_cta_banner.sunset.tagline') || 'Golden hour & cava toast',
-        image: '/assets/img/premium/home_new/sunset-views-private-charter-alcudia-bay.webp',
+        image: '/assets/img/premium/2026/gallery/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp',
         link: sunsetTourPath,
       },
       {
         id: 'charter',
         name: t('tours_cta_banner.charter.name') || 'Private Charter',
         tagline: t('tours_cta_banner.charter.tagline') || 'Your boat, your schedule',
-        image: '/assets/img/premium/home_new/private-charter-card-alcudia-mallorca.webp',
+        image: '/assets/img/premium/2026/gallery/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp',
         link: charterPath,
       },
     ],
@@ -347,20 +350,20 @@ export default async function Home({ params }: PageProps) {
     galleryPath,
     images: [
       {
-        file: 'calas-escondidas-norte-mallorca-excursion-barco.webp',
-        title: t('gallery_section.featured_images.image_1'),
+        file: 'mountain-coastal-view-and-best-boat-ride-in-north-mallorca.webp',
+        title: t('premium.gallery.image_mountain_coastal'),
       },
       {
-        file: 'puesta-sol-mediterranea-crucero-sunset-magic-mallorca.webp',
-        title: t('gallery_section.featured_images.image_2'),
+        file: 'aereal-view-of-boat-trip-in-mallorca-north-water-classic-vessel.webp',
+        title: t('premium.gallery.image_aerial_north_classic'),
       },
       {
-        file: 'amigos-recuerdos-paseo-barco-calas-mallorca.webp',
-        title: t('gallery_section.featured_images.image_3'),
+        file: 'boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp',
+        title: t('premium.gallery.image_local_products_meal'),
       },
       {
-        file: 'actividades-acuaticas-snorkel-paddle-surf-alcudia.webp',
-        title: t('gallery_section.featured_images.image_4'),
+        file: 'scenic-view-of-coll-baix-from-the-sky-during-boat-tour.webp',
+        title: t('premium.gallery.image_coll_baix_aerial'),
       },
     ],
   };

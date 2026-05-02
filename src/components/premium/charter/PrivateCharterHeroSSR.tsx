@@ -24,6 +24,7 @@ export interface PrivateCharterHeroTexts {
   ctaPricing: string;
   ctaLearnMore: string;
   pricingPath: string;
+  imageAlt: string;
 }
 
 interface PrivateCharterHeroSSRProps {
@@ -35,8 +36,8 @@ const PrivateCharterHeroSSR = ({ texts }: PrivateCharterHeroSSRProps) => {
     <section className="premium-tour-hero">
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/home_new/private-charter-capacity-40-people-alcudia.webp"
-          alt="Private charter boat in Alcudia Bay Mallorca - Exclusive events for up to 40 people"
+          src="/assets/img/premium/2026/private/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp"
+          alt={texts.imageAlt}
           fill
           sizes="100vw"
           style={{ objectFit: 'cover' }}

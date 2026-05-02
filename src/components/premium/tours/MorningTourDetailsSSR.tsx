@@ -38,6 +38,7 @@ export interface MorningTourDetailsTexts {
   importantInfoTitle: string;
   infoItems: string[];
   ctaBook: string;
+  cardImageAlt: string;
 }
 
 interface MorningTourDetailsSSRProps {
@@ -99,8 +100,8 @@ const MorningTourDetailsSSR = ({ texts }: MorningTourDetailsSSRProps) => {
             <div className="tour-info-card">
               <div className="card-image">
                 <Image
-                  src="/assets/img/premium/morning_new/snork.webp"
-                  alt="Snorkeling equipment and activities on morning boat tour Alcudia Mallorca"
+                  src="/assets/img/premium/2026/morning/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp"
+                  alt={texts.cardImageAlt}
                   width={600}
                   height={400}
                   className="info-image"

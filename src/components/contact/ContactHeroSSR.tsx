@@ -12,6 +12,7 @@ export interface ContactHeroTexts {
   badge: string;
   title: string;
   subtitle: string;
+  imageAlt: string;
 }
 
 interface ContactHeroSSRProps {
@@ -23,8 +24,8 @@ const ContactHeroSSR = ({ texts }: ContactHeroSSRProps) => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/gallery_new/coral-boats-navegando-isla-alcanada-alcudia.webp"
-          alt="Contact Coral Boats Mallorca"
+          src="/assets/img/premium/2026/gallery/coral-boats-mallorca-boat-trips-in-turquoise-water.webp"
+          alt={texts.imageAlt}
           fill
           sizes="100vw"
           style={{ objectFit: 'cover' }}

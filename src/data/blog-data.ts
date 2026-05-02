@@ -114,6 +114,9 @@ import blogDetailsImg44 from '@/assets/img/premium/gallery_new/new_blog/plaza-ma
 
 // Blog 44 - ¿Es cara Mallorca?
 import blogDetailsImg45 from '@/assets/img/premium/gallery_new/new_blog/faro-porto-colom-costa-mar-mediterraneo-mallorca.webp';
+import blogDetailsImg46 from '@/assets/img/premium/gallery_new/new_blog/seagrass-posidonia-bajo-el-agua-con-luz-solar-natural-en-el-mar-mediterraneo.webp';
+import blogDetailsImg46Card from '@/assets/img/premium/gallery_new/new_blog/fondo-marino-posidonia-peces-vida-mallorca-mediterraneo.webp';
+import blogDetailsImg47 from '@/assets/img/premium/gallery_new/new_blog/cala-san-vicente-pollensa-mallorca-aguas-turquesas-cristalinas-norte-isla.webp';
 
 export const blogDataOne: IBlogDT[] = [
   {
@@ -5519,6 +5522,214 @@ export const blogDataOne: IBlogDT[] = [
       images: [
         { src: '/assets/img/premium/gallery_new/new_blog/coral-boats-paseos-en-barco-en-alcudia-mallorca-sup-snorkel.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.coralBoats.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.coralBoats.caption' },
         { src: '/assets/img/premium/gallery_new/new_blog/sangria-fresh-fruit-in-a-boat-trip-with-sea-views.webp', alt: 'blog_cuarenta_y_cuatro.inlineImages.sangriaBarco.alt', caption: 'blog_cuarenta_y_cuatro.inlineImages.sangriaBarco.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 45,
+  slug: 'posidonia-oceanica-bahia-alcudia-bosque-submarino',
+  category: 'Naturaleza',
+  image: blogDetailsImg46Card,
+  badgeTitle: 'blog_cuarenta_y_cinco.badgeTitle',
+  title: 'blog_cuarenta_y_cinco.title',
+  metaTitle: 'blog_cuarenta_y_cinco.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg46,
+  publishedDate: 'blog_cuarenta_y_cinco.publishedDate',
+  description: 'blog_cuarenta_y_cinco.meta_description',
+  metaDescription: 'blog_cuarenta_y_cinco.metaDescription',
+  btnText: 'blog_cuarenta_y_cinco.btnText',
+  keyword: 'blog_cuarenta_y_cinco.keyword',
+  section1Title: 'blog_cuarenta_y_cinco.section1.title',
+  section1Body: 'blog_cuarenta_y_cinco.section1.body',
+  section2Title: 'blog_cuarenta_y_cinco.section2.title',
+  section2Body: 'blog_cuarenta_y_cinco.section2.body',
+  section3Title: 'blog_cuarenta_y_cinco.section3.title',
+  section3Body: 'blog_cuarenta_y_cinco.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_cinco.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_cinco.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_cinco.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_cinco.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_cinco.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_cinco.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_cinco.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_cinco.section3.sub4.body',
+  section3sub5Subtitle: 'blog_cuarenta_y_cinco.section3.sub5.subtitle',
+  section3sub5Body: 'blog_cuarenta_y_cinco.section3.sub5.body',
+  section4Title: 'blog_cuarenta_y_cinco.section4.title',
+  section4Body: 'blog_cuarenta_y_cinco.section4.body',
+  section5Title: 'blog_cuarenta_y_cinco.section5.title',
+  section5Body: 'blog_cuarenta_y_cinco.section5.body',
+  section6Title: 'blog_cuarenta_y_cinco.section6.title',
+  section6Body: 'blog_cuarenta_y_cinco.section6.body',
+  section7Title: 'blog_cuarenta_y_cinco.section7.title',
+  section7Body: 'blog_cuarenta_y_cinco.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_cinco.conclusion',
+  imageAlt: 'blog_cuarenta_y_cinco.imageAlt',
+  imageCaption: 'blog_cuarenta_y_cinco.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_cinco.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/posidonia-oceanica-peces-aguas-cristalinas-transparentes-mallorca.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.posidoniaPeces.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.posidoniaPeces.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/2026/gallery/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.alcanadaFaro.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.alcanadaFaro.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/algas-vida-marina-mallorca-montaña-fondo.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.fondoMarino.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.fondoMarino.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/buceo-mallorca-fondo-marino-playas-norte-alcudia.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.buceo.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.buceo.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/inflatable-boat-anchored-turquoise-sea-summer-no-license.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.barcoFondeado.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.barcoFondeado.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/algas-colores-mallorca-fondo-marino-con-montañas-fondo.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.fondoColores.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.fondoColores.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/snorkel-sup-water-activities-in-a-boat-sea-trip-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.snorkelResponsable.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.snorkelResponsable.caption' },
+        { src: '/assets/img/premium/2026/gallery/coral-boats-crew-cruise-mallorca-north.webp', alt: 'blog_cuarenta_y_cinco.inlineImages.tripulacion.alt', caption: 'blog_cuarenta_y_cinco.inlineImages.tripulacion.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 46,
+  slug: 'cala-san-vicente-mallorca-guia-completa-pollensa-norte',
+  category: 'Lugares',
+  image: blogDetailsImg47,
+  badgeTitle: 'blog_cuarenta_y_seis.badgeTitle',
+  title: 'blog_cuarenta_y_seis.title',
+  metaTitle: 'blog_cuarenta_y_seis.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg47,
+  publishedDate: 'blog_cuarenta_y_seis.publishedDate',
+  description: 'blog_cuarenta_y_seis.meta_description',
+  metaDescription: 'blog_cuarenta_y_seis.metaDescription',
+  btnText: 'blog_cuarenta_y_seis.btnText',
+  keyword: 'blog_cuarenta_y_seis.keyword',
+  section1Title: 'blog_cuarenta_y_seis.section1.title',
+  section1Body: 'blog_cuarenta_y_seis.section1.body',
+  section2Title: 'blog_cuarenta_y_seis.section2.title',
+  section2Body: 'blog_cuarenta_y_seis.section2.body',
+  section3Title: 'blog_cuarenta_y_seis.section3.title',
+  section3Body: 'blog_cuarenta_y_seis.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_seis.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_seis.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_seis.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_seis.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_seis.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_seis.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_seis.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_seis.section3.sub4.body',
+  section4Title: 'blog_cuarenta_y_seis.section4.title',
+  section4Body: 'blog_cuarenta_y_seis.section4.body',
+  section5Title: 'blog_cuarenta_y_seis.section5.title',
+  section5Body: 'blog_cuarenta_y_seis.section5.body',
+  section6Title: 'blog_cuarenta_y_seis.section6.title',
+  section6Body: 'blog_cuarenta_y_seis.section6.body',
+  section7Title: 'blog_cuarenta_y_seis.section7.title',
+  section7Body: 'blog_cuarenta_y_seis.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_seis.conclusion',
+  imageAlt: 'blog_cuarenta_y_seis.imageAlt',
+  imageCaption: 'blog_cuarenta_y_seis.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_seis.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/cala-san-vicente-vicenc-mallorca-pollenca.webp', alt: 'blog_cuarenta_y_seis.inlineImages.calaSanVicenteVicenc.alt', caption: 'blog_cuarenta_y_seis.inlineImages.calaSanVicenteVicenc.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/playa-cala-san-vicente-mallorca-arena-mar-mediterraneo-pollensa.webp', alt: 'blog_cuarenta_y_seis.inlineImages.playaCalaSanVicente.alt', caption: 'blog_cuarenta_y_seis.inlineImages.playaCalaSanVicente.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-cala-san-vicente-pollensa-mallorca-desde-puig-de-sagila.webp', alt: 'blog_cuarenta_y_seis.inlineImages.vistaAereaCuatroCalas.alt', caption: 'blog_cuarenta_y_seis.inlineImages.vistaAereaCuatroCalas.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/cala-san-vicente-acantilados-cavall-bernat-mallorca-norte.webp', alt: 'blog_cuarenta_y_seis.inlineImages.cavallBernat.alt', caption: 'blog_cuarenta_y_seis.inlineImages.cavallBernat.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vistas-cala-san-vicente-pollensa-cap-formentor-mallorca.webp', alt: 'blog_cuarenta_y_seis.inlineImages.vistasFormentor.alt', caption: 'blog_cuarenta_y_seis.inlineImages.vistasFormentor.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/2026/gallery/coral-boats-mallorca-boat-trips-in-turquoise-water.webp', alt: 'blog_cuarenta_y_seis.inlineImages.barcoTurquesa.alt', caption: 'blog_cuarenta_y_seis.inlineImages.barcoTurquesa.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/2026/gallery/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp', alt: 'blog_cuarenta_y_seis.inlineImages.tapasBarco.alt', caption: 'blog_cuarenta_y_seis.inlineImages.tapasBarco.caption' },
+        { src: '/assets/img/premium/2026/gallery/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_seis.inlineImages.comidaLocal.alt', caption: 'blog_cuarenta_y_seis.inlineImages.comidaLocal.caption' },
       ],
       layout: 'grid-2',
     },
