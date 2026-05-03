@@ -1348,6 +1348,11 @@
       "finalCtaTitle": "Bereit für die beste Bootstour in Alcudia?",
       "finalCtaText": "Schließe dich tausenden zufriedenen Gästen an, die bereits entdeckt haben, warum Coral Boats die besten Bootsausflüge auf Mallorca anbietet. Buche noch heute deine unvergessliche Bootstour im Hafen von Alcudia!",
       "finalCtaButton": "Alle Touren ansehen"
+    },
+    "collage": {
+      "sectionLabel": "Galerie",
+      "sectionTitle": "Momente an Bord",
+      "sectionDescription": "Ein kleiner Vorgeschmack auf das, was Sie an Bord einer unserer drei Touren durch die Bucht von Alcúdia erwartet."
     }
   },
   "morningTour": {

@@ -1348,6 +1348,11 @@
       "finalCtaTitle": "Ready to Experience the Best Boat Tour in Alcudia?",
       "finalCtaText": "Join thousands of satisfied guests who have discovered why Coral Boats offers the best boat excursions in Mallorca. Book your unforgettable boat tour in Port d'Alcudia today!",
       "finalCtaButton": "View All Tours"
+    },
+    "collage": {
+      "sectionLabel": "Gallery",
+      "sectionTitle": "Moments on board",
+      "sectionDescription": "A small preview of what awaits you aboard any of our three excursions in the Bay of Alcudia."
     }
   },
   "morningTour": {

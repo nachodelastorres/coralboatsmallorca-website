@@ -1348,6 +1348,11 @@
       "finalCtaTitle": "Pronto a vivere la migliore escursione in barca ad Alcudia?",
       "finalCtaText": "Unisciti a migliaia di clienti soddisfatti che hanno già scoperto perché Coral Boats offre le migliori escursioni in barca a Maiorca. Prenota oggi la tua uscita indimenticabile dal porto di Alcudia!",
       "finalCtaButton": "Vedi tutte le escursioni"
+    },
+    "collage": {
+      "sectionLabel": "Galleria",
+      "sectionTitle": "Momenti a bordo",
+      "sectionDescription": "Una piccola anteprima di ciò che ti attende a bordo in una delle nostre tre escursioni nella Baia di Alcúdia."
     }
   },
   "morningTour": {

@@ -1348,6 +1348,11 @@
       "finalCtaTitle": "Prêt à vivre la meilleure excursion en bateau à Alcudia ?",
       "finalCtaText": "Rejoignez des milliers de clients satisfaits qui ont découvert pourquoi Coral Boats propose les meilleures excursions en bateau à Majorque. Réservez votre sortie inoubliable depuis le port d'Alcudia dès aujourd'hui !",
       "finalCtaButton": "Voir toutes les excursions"
+    },
+    "collage": {
+      "sectionLabel": "Galerie",
+      "sectionTitle": "Moments à bord",
+      "sectionDescription": "Un petit aperçu de ce qui vous attend à bord de l'une de nos trois excursions dans la baie d'Alcúdia."
     }
   },
   "morningTour": {

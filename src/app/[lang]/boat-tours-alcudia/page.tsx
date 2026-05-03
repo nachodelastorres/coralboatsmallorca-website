@@ -12,6 +12,7 @@ import FooterSSR from '@/layouts/footers/FooterSSR';
 import ToursOverviewHeroSSR from '@/components/tours-overview/ToursOverviewHeroSSR';
 import ToursOverviewCardsSSR from '@/components/tours-overview/ToursOverviewCardsSSR';
 import ToursOverviewSEOSSR from '@/components/tours-overview/ToursOverviewSEOSSR';
+import ToursOverviewCollageSSR from '@/components/tours-overview/ToursOverviewCollageSSR';
 import ToursOverviewFAQSSR from '@/components/tours-overview/ToursOverviewFAQSSR';
 import ToursListSchema from '@/components/schema/ToursListSchema';
 
@@ -34,6 +35,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
     badge: t('toursPage.hero.badge'),
     title: t('toursPage.hero.title'),
     subtitle: t('toursPage.hero.subtitle'),
+    imageAlt: t('premium.gallery.image_aerial_alcanada_lighthouse'),
   };
 
   // ===== TOUR CARDS TEXTS =====
@@ -49,7 +51,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
         time: t('toursPage.cards.morningTour.time'),
         duration: t('toursPage.cards.morningTour.duration'),
         price: t('toursPage.cards.morningTour.price'),
-        image: '/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp',
+        image: '/assets/img/premium/2026/gallery/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp',
         link: morningTourPath,
         features: [
           t('toursPage.cards.morningTour.feature1'),
@@ -78,7 +80,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
         time: t('toursPage.cards.sunsetTour.time'),
         duration: t('toursPage.cards.sunsetTour.duration'),
         price: t('toursPage.cards.sunsetTour.price'),
-        image: '/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp',
+        image: '/assets/img/premium/2026/gallery/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp',
         link: sunsetTourPath,
         features: [
           t('toursPage.cards.sunsetTour.feature1'),
@@ -107,7 +109,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
         time: t('toursPage.cards.privateCharter.time'),
         duration: t('toursPage.cards.privateCharter.duration'),
         price: t('toursPage.cards.privateCharter.price'),
-        image: '/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp',
+        image: '/assets/img/premium/2026/gallery/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp',
         link: charterPath,
         features: [
           t('toursPage.cards.privateCharter.feature1'),
@@ -165,6 +167,24 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
     ctaMorning: t('toursPage.seo.ctaMorning'),
     ctaSunset: t('toursPage.seo.ctaSunset'),
     ctaPrivate: t('toursPage.seo.ctaPrivate'),
+  };
+
+  // ===== COLLAGE TEXTS =====
+  // Curated 6-image collage between SEO content and FAQs. Tessellates as
+  // 2 portrait (1×2) + 4 landscape (2×1) = 12 cells / 4 cols = 3 rows on desktop.
+  const collageBase = '/assets/img/premium/2026/gallery';
+  const collageTexts = {
+    sectionLabel: t('toursPage.collage.sectionLabel'),
+    sectionTitle: t('toursPage.collage.sectionTitle'),
+    sectionDescription: t('toursPage.collage.sectionDescription'),
+    tiles: [
+      { src: `${collageBase}/puesta-de-sol-puerto-alcuida-paseo-en-barco.webp`, alt: t('premium.gallery.image_sunset_port_trip'), caption: t('premium.gallery.image_sunset_port_trip'), span: 'landscape' as const },
+      { src: `${collageBase}/coral-boat-for-water-activities-and-boat-excursiones-mallorca-alcudia.webp`, alt: t('premium.gallery.image_water_activities_boat'), caption: t('premium.gallery.image_water_activities_boat'), span: 'portrait' as const },
+      { src: `${collageBase}/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp`, alt: t('premium.gallery.image_crystal_clear'), caption: t('premium.gallery.image_crystal_clear'), span: 'landscape' as const },
+      { src: `${collageBase}/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp`, alt: t('premium.gallery.image_sunset_lights_sea'), caption: t('premium.gallery.image_sunset_lights_sea'), span: 'landscape' as const },
+      { src: `${collageBase}/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp`, alt: t('premium.gallery.image_tapas_sangria'), caption: t('premium.gallery.image_tapas_sangria'), span: 'portrait' as const },
+      { src: `${collageBase}/coral-boats-crew-cruise-mallorca-north.webp`, alt: t('premium.gallery.image_crew_cruise'), caption: t('premium.gallery.image_crew_cruise'), span: 'landscape' as const },
+    ],
   };
 
   // ===== FAQ TEXTS =====
@@ -231,7 +251,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
             '@id': `https://www.coralboatsmallorca.com${morningTourPath}#tour`,
             name: t('toursPage.cards.morningTour.name'),
             description: t('toursPage.cards.morningTour.subtitle'),
-            image: 'https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/excursion-matutina-snorkel-paddle-surf-alcudia.webp',
+            image: 'https://www.coralboatsmallorca.com/assets/img/premium/2026/gallery/crystal-clear-water-in-mallorca-beach-during-boat-tour-alcudia.webp',
             url: `https://www.coralboatsmallorca.com${morningTourPath}`,
             duration: 'PT4H',
             offers: {
@@ -251,7 +271,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
             '@id': `https://www.coralboatsmallorca.com${sunsetTourPath}#tour`,
             name: t('toursPage.cards.sunsetTour.name'),
             description: t('toursPage.cards.sunsetTour.subtitle'),
-            image: 'https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/crucero-atardecer-sunset-magic-alcudia.webp',
+            image: 'https://www.coralboatsmallorca.com/assets/img/premium/2026/gallery/sunset-lights-from-sea-excursion-experience-in-mallorca-alcudia.webp',
             url: `https://www.coralboatsmallorca.com${sunsetTourPath}`,
             duration: 'PT3H',
             offers: {
@@ -271,7 +291,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
             '@id': `https://www.coralboatsmallorca.com${charterPath}#tour`,
             name: t('toursPage.cards.privateCharter.name'),
             description: t('toursPage.cards.privateCharter.subtitle'),
-            image: 'https://www.coralboatsmallorca.com/assets/img/premium/gallery_new/charter-privado-lujo-grupos-alcudia-mallorca.webp',
+            image: 'https://www.coralboatsmallorca.com/assets/img/premium/2026/gallery/alcanada-island-lighhouse-near-port-of-alcudia-during-boat-trip.webp',
             url: `https://www.coralboatsmallorca.com${charterPath}`,
             duration: 'PT4H',
             offers: {
@@ -317,6 +337,7 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
           <ToursOverviewHeroSSR texts={heroTexts} />
           <ToursOverviewCardsSSR texts={cardsTexts} />
           <ToursOverviewSEOSSR texts={seoTexts} />
+          <ToursOverviewCollageSSR texts={collageTexts} />
           <ToursOverviewFAQSSR texts={faqTexts} />
         </main>
 

@@ -12,6 +12,7 @@ export interface ToursOverviewHeroTexts {
   badge: string;
   title: string;
   subtitle: string;
+  imageAlt: string;
 }
 
 interface ToursOverviewHeroSSRProps {
@@ -23,8 +24,8 @@ const ToursOverviewHeroSSR = ({ texts }: ToursOverviewHeroSSRProps) => {
     <section className="premium-tour-hero" style={{ minHeight: '60vh' }}>
       <div className="premium-tour-hero__background">
         <Image
-          src="/assets/img/premium/home_new/classic-coral-boats-charter-vessel-alcudia.webp"
-          alt="Best boat tours in Alcudia Mallorca"
+          src="/assets/img/premium/2026/gallery/aereal-view-of-coral-boat-sailing-past-alcanada-lighthouse-island.webp"
+          alt={texts.imageAlt}
           fill
           style={{ objectFit: 'cover' }}
           priority

@@ -159,6 +159,11 @@
       "finalCtaTitle": "Preparat per viure la millor excursió en vaixell a Alcúdia?",
       "finalCtaText": "Uneix-te a milers de clients satisfets que ja han descobert per què Coral Boats ofereix les millors excursions en vaixell a Mallorca. Reserva avui la teva sortida inoblidable des del port d'Alcúdia!",
       "finalCtaButton": "Veure totes les excursions"
+    },
+    "collage": {
+      "sectionLabel": "Galeria",
+      "sectionTitle": "Moments a bord",
+      "sectionDescription": "Un petit avançament del que es viu a bord en qualsevol de les nostres tres excursions per la Badia d'Alcúdia."
     }
   },
   "morningTour": {
