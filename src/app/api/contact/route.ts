@@ -308,7 +308,7 @@ export async function POST(req: NextRequest) {
     // 1. Send notification email to the business
     const isCharterRequest = subject && subject.includes('Charter Booking Request');
     const notificationSubject = isCharterRequest
-      ? `Private Charter Request on ${charterDate || 'TBD'} from ${firstName} ${lastName}`
+      ? `Private Charter Request on ${charterDate || 'TBD'} · ${charterDuration || 'TBD'} · ${charterGuests || '?'} guests · from ${firstName} ${lastName}`
       : `Nuevo mensaje de contacto: ${subject}`;
 
     const notificationHtml = isCharterRequest
