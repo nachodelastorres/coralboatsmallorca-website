@@ -118,6 +118,12 @@ import blogDetailsImg46 from '@/assets/img/premium/gallery_new/new_blog/seagrass
 import blogDetailsImg46Card from '@/assets/img/premium/gallery_new/new_blog/fondo-marino-posidonia-peces-vida-mallorca-mediterraneo.webp';
 import blogDetailsImg47 from '@/assets/img/premium/gallery_new/new_blog/cala-san-vicente-pollensa-mallorca-aguas-turquesas-cristalinas-norte-isla.webp';
 
+// Blog 47 - S'Albufera de Mallorca (Parque Natural)
+import blogDetailsImg48 from '@/assets/img/premium/gallery_new/new_blog/canal-albufera-alcudia-desembucadura-playa-de-muro.webp';
+
+// Blog 48 - Pollentia (Ciudad Romana de Alcudia)
+import blogDetailsImg49 from '@/assets/img/premium/gallery_new/new_blog/vista-de-las-ruinas-de-pollentia-ciudad-romana-con-iglesia-alcudia-al-fondo.webp';
+
 export const blogDataOne: IBlogDT[] = [
   {
     id: 0,
@@ -5730,6 +5736,225 @@ export const blogDataOne: IBlogDT[] = [
       images: [
         { src: '/assets/img/premium/2026/gallery/tapas-and-sangria-served-in-boat-trip-cruise-mallorca-alcudia.webp', alt: 'blog_cuarenta_y_seis.inlineImages.tapasBarco.alt', caption: 'blog_cuarenta_y_seis.inlineImages.tapasBarco.caption' },
         { src: '/assets/img/premium/2026/gallery/boat-cruise-meal-with-local-products-experience-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_seis.inlineImages.comidaLocal.alt', caption: 'blog_cuarenta_y_seis.inlineImages.comidaLocal.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 47,
+  slug: 's-albufera-mallorca-parque-natural-aves-alcudia',
+  category: 'Naturaleza',
+  image: blogDetailsImg48,
+  badgeTitle: 'blog_cuarenta_y_siete.badgeTitle',
+  title: 'blog_cuarenta_y_siete.title',
+  metaTitle: 'blog_cuarenta_y_siete.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg48,
+  publishedDate: 'blog_cuarenta_y_siete.publishedDate',
+  description: 'blog_cuarenta_y_siete.meta_description',
+  metaDescription: 'blog_cuarenta_y_siete.metaDescription',
+  btnText: 'blog_cuarenta_y_siete.btnText',
+  keyword: 'blog_cuarenta_y_siete.keyword',
+  section1Title: 'blog_cuarenta_y_siete.section1.title',
+  section1Body: 'blog_cuarenta_y_siete.section1.body',
+  section2Title: 'blog_cuarenta_y_siete.section2.title',
+  section2Body: 'blog_cuarenta_y_siete.section2.body',
+  section3Title: 'blog_cuarenta_y_siete.section3.title',
+  section3Body: 'blog_cuarenta_y_siete.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_siete.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_siete.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_siete.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_siete.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_siete.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_siete.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_siete.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_siete.section3.sub4.body',
+  section4Title: 'blog_cuarenta_y_siete.section4.title',
+  section4Body: 'blog_cuarenta_y_siete.section4.body',
+  section5Title: 'blog_cuarenta_y_siete.section5.title',
+  section5Body: 'blog_cuarenta_y_siete.section5.body',
+  section6Title: 'blog_cuarenta_y_siete.section6.title',
+  section6Body: 'blog_cuarenta_y_siete.section6.body',
+  section7Title: 'blog_cuarenta_y_siete.section7.title',
+  section7Body: 'blog_cuarenta_y_siete.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_siete.conclusion',
+  imageAlt: 'blog_cuarenta_y_siete.imageAlt',
+  imageCaption: 'blog_cuarenta_y_siete.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_siete.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/parque-natural-albufera-alcudia-mallorca-para-avistamiento-aves.webp', alt: 'blog_cuarenta_y_siete.inlineImages.parqueNaturalVista.alt', caption: 'blog_cuarenta_y_siete.inlineImages.parqueNaturalVista.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/plantas-marinas-de-albufera-alcudia-mallorca-parque-natural.webp', alt: 'blog_cuarenta_y_siete.inlineImages.historiaMarisma.alt', caption: 'blog_cuarenta_y_siete.inlineImages.historiaMarisma.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/calas-para-ir-con-ninos-mallorca-alcudia-facil-aparcamiento.webp', alt: 'blog_cuarenta_y_siete.inlineImages.senderoParque.alt', caption: 'blog_cuarenta_y_siete.inlineImages.senderoParque.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/avistamiento-aves-en-parque-natura-albufera-mallorca-alcudia.webp', alt: 'blog_cuarenta_y_siete.inlineImages.faunaParque.alt', caption: 'blog_cuarenta_y_siete.inlineImages.faunaParque.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/garza-real-canales-albufera-de-alcudia.webp', alt: 'blog_cuarenta_y_siete.inlineImages.garzaReal.alt', caption: 'blog_cuarenta_y_siete.inlineImages.garzaReal.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/ciguenuela-aves-avistamiento-albufera-de-alcudia.webp', alt: 'blog_cuarenta_y_siete.inlineImages.ciguenuela.alt', caption: 'blog_cuarenta_y_siete.inlineImages.ciguenuela.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/aguila-pescadora-apresando-pez-en-albufera-alcudia.webp', alt: 'blog_cuarenta_y_siete.inlineImages.aguilaPescadora.alt', caption: 'blog_cuarenta_y_siete.inlineImages.aguilaPescadora.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/cormoran-corbmari-volando-albufera-alcudia-mallorca-ave-caracteristico-baleares.webp', alt: 'blog_cuarenta_y_siete.inlineImages.cormoran.alt', caption: 'blog_cuarenta_y_siete.inlineImages.cormoran.caption' },
+      ],
+      layout: 'grid-4',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/puerto-alcudia-vista-aerea-barcos-mallorca.webp', alt: 'blog_cuarenta_y_siete.inlineImages.accesoAlcudia.alt', caption: 'blog_cuarenta_y_siete.inlineImages.accesoAlcudia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/actividades-en-playa-de-alcudia-sol-palmeras-mar-mallorca.webp', alt: 'blog_cuarenta_y_siete.inlineImages.temporadaAlbufera.alt', caption: 'blog_cuarenta_y_siete.inlineImages.temporadaAlbufera.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/vista-aerea-playa-de-muro-con-albufera-alcudia-al-fondo.webp', alt: 'blog_cuarenta_y_siete.inlineImages.combinarBarco.alt', caption: 'blog_cuarenta_y_siete.inlineImages.combinarBarco.caption' },
+        { src: '/assets/img/premium/2026/gallery/aereal-view-of-boat-trip-in-mallorca-north-water-classic-vessel.webp', alt: 'blog_cuarenta_y_siete.inlineImages.tripulacionCoral.alt', caption: 'blog_cuarenta_y_siete.inlineImages.tripulacionCoral.caption' },
+      ],
+      layout: 'grid-2',
+    },
+  ],
+},
+
+{
+  id: 48,
+  slug: 'pollentia-ciudad-romana-alcudia-yacimiento-mallorca',
+  category: 'Historia',
+  image: blogDetailsImg49,
+  badgeTitle: 'blog_cuarenta_y_ocho.badgeTitle',
+  title: 'blog_cuarenta_y_ocho.title',
+  metaTitle: 'blog_cuarenta_y_ocho.metaTitle',
+  commentCount: '0',
+  detailsImg: blogDetailsImg49,
+  publishedDate: 'blog_cuarenta_y_ocho.publishedDate',
+  description: 'blog_cuarenta_y_ocho.meta_description',
+  metaDescription: 'blog_cuarenta_y_ocho.metaDescription',
+  btnText: 'blog_cuarenta_y_ocho.btnText',
+  keyword: 'blog_cuarenta_y_ocho.keyword',
+  section1Title: 'blog_cuarenta_y_ocho.section1.title',
+  section1Body: 'blog_cuarenta_y_ocho.section1.body',
+  section2Title: 'blog_cuarenta_y_ocho.section2.title',
+  section2Body: 'blog_cuarenta_y_ocho.section2.body',
+  section3Title: 'blog_cuarenta_y_ocho.section3.title',
+  section3Body: 'blog_cuarenta_y_ocho.section3.body',
+  section3sub1Subtitle: 'blog_cuarenta_y_ocho.section3.sub1.subtitle',
+  section3sub1Body: 'blog_cuarenta_y_ocho.section3.sub1.body',
+  section3sub2Subtitle: 'blog_cuarenta_y_ocho.section3.sub2.subtitle',
+  section3sub2Body: 'blog_cuarenta_y_ocho.section3.sub2.body',
+  section3sub3Subtitle: 'blog_cuarenta_y_ocho.section3.sub3.subtitle',
+  section3sub3Body: 'blog_cuarenta_y_ocho.section3.sub3.body',
+  section3sub4Subtitle: 'blog_cuarenta_y_ocho.section3.sub4.subtitle',
+  section3sub4Body: 'blog_cuarenta_y_ocho.section3.sub4.body',
+  section4Title: 'blog_cuarenta_y_ocho.section4.title',
+  section4Body: 'blog_cuarenta_y_ocho.section4.body',
+  section5Title: 'blog_cuarenta_y_ocho.section5.title',
+  section5Body: 'blog_cuarenta_y_ocho.section5.body',
+  section6Title: 'blog_cuarenta_y_ocho.section6.title',
+  section6Body: 'blog_cuarenta_y_ocho.section6.body',
+  section7Title: 'blog_cuarenta_y_ocho.section7.title',
+  section7Body: 'blog_cuarenta_y_ocho.section7.body',
+  layout: 'magazine',
+  conclusion: 'blog_cuarenta_y_ocho.conclusion',
+  imageAlt: 'blog_cuarenta_y_ocho.imageAlt',
+  imageCaption: 'blog_cuarenta_y_ocho.imageCaption',
+  heroInlineCaption: 'blog_cuarenta_y_ocho.heroInlineCaption',
+  sectionImages: [
+    {
+      section: 1,
+      position: 'after-section' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/ruinas-romanas-ciudad-de-pollentia-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.ruinasGenerales.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.ruinasGenerales.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 2,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/restos-romanos-pollentia-accesibles-para-visitas-alcudia.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.historia.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.historia.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 3,
+      position: 'after-subsection' as const,
+      afterSubsection: 2,
+      images: [
+        { src: '/assets/img/premium/gallery_new/new_blog/teatro-romano-asientos-vista-ciudad-pollentia-en-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.teatroAsientos.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.teatroAsientos.caption' },
+        { src: '/assets/img/premium/gallery_new/new_blog/monolito-teatro-romano-pollentia-mallorca-preservacion.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.monolitoTeatro.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.monolitoTeatro.caption' },
+      ],
+      layout: 'grid-2',
+    },
+    {
+      section: 4,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/callejon-tipico-casco-historico-alcudia-mallorca.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.callejonMuseo.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.callejonMuseo.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 5,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/plaza-ayuntamiento-alcudia-torre-reloj.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.plazaAyuntamiento.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.plazaAyuntamiento.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 6,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/gallery_new/porta-del-moll-muralla-medieval-alcudia.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.murallaMedieval.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.murallaMedieval.caption' },
+      ],
+      layout: 'single',
+    },
+    {
+      section: 7,
+      position: 'after-body' as const,
+      images: [
+        { src: '/assets/img/premium/2026/gallery/aereal-view-of-boat-trip-in-mallorca-north-water-classic-vessel.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.combinarMar.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.combinarMar.caption' },
+        { src: '/assets/img/premium/2026/gallery/coral-boats-crew-cruise-mallorca-north.webp', alt: 'blog_cuarenta_y_ocho.inlineImages.tripulacionCoral.alt', caption: 'blog_cuarenta_y_ocho.inlineImages.tripulacionCoral.caption' },
       ],
       layout: 'grid-2',
     },
