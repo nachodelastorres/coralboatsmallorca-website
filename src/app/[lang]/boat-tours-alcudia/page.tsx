@@ -15,6 +15,7 @@ import ToursOverviewSEOSSR from '@/components/tours-overview/ToursOverviewSEOSSR
 import ToursOverviewCollageSSR from '@/components/tours-overview/ToursOverviewCollageSSR';
 import ToursOverviewFAQSSR from '@/components/tours-overview/ToursOverviewFAQSSR';
 import ToursListSchema from '@/components/schema/ToursListSchema';
+import FareHarborCalendar from '@/components/premium/tours/FareHarborCalendar';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return generateBoatToursAlcudiaMetadata(params.lang);
@@ -336,6 +337,20 @@ export default async function BoatToursAlcudia({ params }: PageProps) {
         <main>
           <ToursOverviewHeroSSR texts={heroTexts} />
           <ToursOverviewCardsSSR texts={cardsTexts} />
+
+          {/* FareHarbor calendar limited to the Morning + Sunset tours - after the cards */}
+          <section className="premium-tour-calendar">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-10">
+                  <div className="booking-calendar-embed">
+                    <FareHarborCalendar flow="" items={['674271', '674280']} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <ToursOverviewSEOSSR texts={seoTexts} />
           <ToursOverviewCollageSSR texts={collageTexts} />
           <ToursOverviewFAQSSR texts={faqTexts} />

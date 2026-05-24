@@ -22,6 +22,7 @@ import Wrapper from '@/layouts/wrapper';
 import HeaderSSR from '@/layouts/headers/HeaderSSR';
 import FooterSSR from '@/layouts/footers/FooterSSR';
 import ViewContentTracker from '@/components/tracking/ViewContentTracker';
+import FareHarborCalendar from '@/components/premium/tours/FareHarborCalendar';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   return generateSunsetTourMetadata(params.lang);
@@ -735,6 +736,20 @@ export default async function SunsetTour({ params }: PageProps) {
           {/* ============================================ */}
           <SunsetTourHeroSSR texts={heroTexts} />
           <SunsetTourDetailsSSR texts={detailsTexts} />
+
+          {/* Inline FareHarbor calendar - placed before the itinerary */}
+          <section className="premium-tour-calendar">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-10">
+                  <div className="booking-calendar-embed">
+                    <FareHarborCalendar itemId="674280" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <SunsetTourItinerarySSR texts={itineraryTexts} />
 
           {/* Gallery - SSR header + Client interactivity */}
